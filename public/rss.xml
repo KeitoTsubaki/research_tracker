@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>研究論文トラッカー</title>
+    <link>https://example.github.io/research_tracker/</link>
+    <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
+    <lastBuildDate>Wed, 22 Jul 2026 00:41:28 GMT</lastBuildDate>
+    <item>
+      <title>V2X-Aware Trajectory Prediction for Software-Defined Vehicles</title>
+      <link>https://arxiv.org/abs/2507.09999</link>
+      <guid isPermaLink="false">arxiv:2507.09999</guid>
+      <pubDate>2026-07-15</pubDate>
+      <description>We propose a V2X-aware trajectory prediction model tailored for software-defined vehicle (SDV) platforms, incorporating inter-vehicle communication signals into motion forecasting for improved safety margins.</description>
+    </item>
+    <item>
+      <title>BEV-Fusion++: Occupancy Prediction for End-to-End Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2506.05678</link>
+      <guid isPermaLink="false">arxiv:2506.05678</guid>
+      <pubDate>2026-06-06</pubDate>
+      <description>We present a sensor fusion architecture combining camera and LiDAR into a unified bird's-eye-view (BEV) representation for occupancy prediction and trajectory forecasting in end-to-end autonomous driving pipelines.</description>
+    </item>
+    <item>
+      <title>MAPPO-CT: Cooperative Transport with Multi-Agent PPO under Decentralized Control</title>
+      <link>https://arxiv.org/abs/2506.01234</link>
+      <guid isPermaLink="false">arxiv:2506.01234</guid>
+      <pubDate>2026-06-02</pubDate>
+      <description>We propose a MAPPO-based framework for cooperative transport of large objects by multiple mobile robots under a Dec-POMDP formulation. Our CTDE approach enables decentralized execution while training with centralized critics, achieving robust coordination without explicit communication.</description>
+    </item>
+    <item>
+      <title>Decentralized Multi-Robot Coordination for Warehouse Transport via Graph Attention</title>
+      <link>https://icra2026.org/best-papers</link>
+      <guid isPermaLink="false">conf:icra2026:award:1</guid>
+      <pubDate>2026-05-20</pubDate>
+      <description>This paper introduces a graph attention network for scalable decentralized coordination among heterogeneous robot teams performing cooperative transport tasks in dynamic warehouse environments.</description>
+    </item>
+    <item>
+      <title>Scaling Laws for Multi-Agent Reinforcement Learning in Dec-POMDPs</title>
+      <link>https://neurips.cc/2025/best-papers</link>
+      <guid isPermaLink="false">conf:neurips2025:award:1</guid>
+      <pubDate>2025-12-10</pubDate>
+      <description>We study empirical scaling laws for MARL algorithms including MAPPO and QMIX across a range of Dec-POMDP benchmarks, providing guidance for compute-optimal training of cooperative agent teams.</description>
+    </item>
+  </channel>
+</rss>

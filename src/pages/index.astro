@@ -1,0 +1,145 @@
+---
+import Layout from "../layouts/Layout.astro";
+import PaperCard from "../components/PaperCard.astro";
+import { papers, sortedByDate, categories, conferences, KEYWORD_GROUPS } from "../lib/papers";
+
+const initialPapers = sortedByDate(papers);
+---
+
+<Layout>
+  <div class="mx-auto max-w-5xl px-4 py-8">
+    <header class="mb-6">
+      <h1 class="text-2xl font-bold text-slate-900">研究論文トラッカー</h1>
+      <p class="mt-1 text-sm text-slate-500">
+        マルチエージェント強化学習・協調ロボット搬送・自動運転関連の論文を自動収集します(全{papers.length}件)。
+        <a class="text-indigo-600 hover:underline" href={`${import.meta.env.BASE_URL}rss.xml`}>RSS</a>
+      </p>
+    </header>
+
+    <section class="mb-6 flex flex-col gap-3 rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+      <div class="flex flex-col gap-3 sm:flex-row sm:items-center">
+        <input
+          id="search"
+          type="search"
+          placeholder="キーワード検索(タイトル・著者・要旨・タグ)"
+          class="flex-1 rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-indigo-500 focus:outline-none"
+        />
+        <select id="categoryFilter" class="rounded-lg border border-slate-300 px-3 py-2 text-sm">
+          <option value="">カテゴリ: すべて</option>
+          {categories.map((c) => <option value={c}>{c}</option>)}
+        </select>
+        <select id="conferenceFilter" class="rounded-lg border border-slate-300 px-3 py-2 text-sm">
+          <option value="">会議: すべて</option>
+          {conferences.map((c) => <option value={c}>{c}</option>)}
+        </select>
+        <select id="memoFilter" class="rounded-lg border border-slate-300 px-3 py-2 text-sm">
+          <option value="">メモ: すべて</option>
+          <option value="with">メモあり</option>
+          <option value="without">メモなし</option>
+        </select>
+        <select id="sortSelect" class="rounded-lg border border-slate-300 px-3 py-2 text-sm">
+          <option value="newest">新着順</option>
+          <option value="award">会議受賞順</option>
+        </select>
+      </div>
+      <div class="flex flex-wrap items-center gap-4 text-sm">
+        <span class="font-medium text-slate-600">タグ:</span>
+        {KEYWORD_GROUPS.map((g) => (
+          <label class="flex items-center gap-1.5">
+            <input type="checkbox" class="tag-filter rounded" data-tag={g.slug} />
+            {g.label}
+          </label>
+        ))}
+        <button id="resetFilters" type="button" class="ml-auto text-slate-400 hover:text-indigo-600 hover:underline">
+          フィルタをリセット
+        </button>
+      </div>
+    </section>
+
+    <p id="resultCount" class="mb-3 text-sm text-slate-500"></p>
+
+    <div id="cardGrid" class="grid grid-cols-1 gap-4 md:grid-cols-2">
+      {initialPapers.map((paper) => <PaperCard paper={paper} />)}
+    </div>
+
+    <p id="emptyState" class="hidden py-12 text-center text-sm text-slate-400">
+      条件に一致する論文が見つかりませんでした。
+    </p>
+  </div>
+</Layout>
+
+<script>
+  const grid = document.getElementById("cardGrid")!;
+  const cards = Array.from(grid.querySelectorAll<HTMLElement>(".paper-card"));
+  const resultCount = document.getElementById("resultCount")!;
+  const emptyState = document.getElementById("emptyState")!;
+
+  const searchInput = document.getElementById("search") as HTMLInputElement;
+  const categoryFilter = document.getElementById("categoryFilter") as HTMLSelectElement;
+  const conferenceFilter = document.getElementById("conferenceFilter") as HTMLSelectElement;
+  const memoFilter = document.getElementById("memoFilter") as HTMLSelectElement;
+  const sortSelect = document.getElementById("sortSelect") as HTMLSelectElement;
+  const tagCheckboxes = Array.from(document.querySelectorAll<HTMLInputElement>(".tag-filter"));
+  const resetButton = document.getElementById("resetFilters")!;
+
+  function applyFilters() {
+    const query = searchInput.value.trim().toLowerCase();
+    const category = categoryFilter.value;
+    const conference = conferenceFilter.value;
+    const memo = memoFilter.value;
+    const activeTags = tagCheckboxes.filter((cb) => cb.checked).map((cb) => cb.dataset.tag!);
+
+    let visibleCount = 0;
+
+    for (const card of cards) {
+      const tags = (card.dataset.tags ?? "").split(",").filter(Boolean);
+      const matchesSearch = !query || (card.dataset.search ?? "").includes(query);
+      const matchesCategory = !category || card.dataset.category === category;
+      const matchesConference = !conference || card.dataset.conference === conference;
+      const matchesMemo =
+        !memo || (memo === "with" ? card.dataset.hasMemo === "1" : card.dataset.hasMemo === "0");
+      const matchesTags = activeTags.length === 0 || activeTags.some((t) => tags.includes(t));
+
+      const visible = matchesSearch && matchesCategory && matchesConference && matchesMemo && matchesTags;
+      card.classList.toggle("hidden", !visible);
+      if (visible) visibleCount += 1;
+    }
+
+    resultCount.textContent = `${visibleCount} / ${cards.length} 件を表示中`;
+    emptyState.classList.toggle("hidden", visibleCount !== 0);
+  }
+
+  function applySort() {
+    const mode = sortSelect.value;
+    const sorted = [...cards].sort((a, b) => {
+      if (mode === "award") {
+        const awardDiff = Number(b.dataset.award) - Number(a.dataset.award);
+        if (awardDiff !== 0) return awardDiff;
+      }
+      return (b.dataset.published ?? "").localeCompare(a.dataset.published ?? "");
+    });
+    for (const card of sorted) grid.appendChild(card);
+  }
+
+  function update() {
+    applySort();
+    applyFilters();
+  }
+
+  [searchInput, categoryFilter, conferenceFilter, memoFilter, sortSelect].forEach((el) =>
+    el.addEventListener("input", update)
+  );
+  tagCheckboxes.forEach((cb) => cb.addEventListener("change", update));
+
+  resetButton.addEventListener("click", () => {
+    searchInput.value = "";
+    categoryFilter.value = "";
+    conferenceFilter.value = "";
+    memoFilter.value = "";
+    sortSelect.value = "newest";
+    tagCheckboxes.forEach((cb) => (cb.checked = false));
+    update();
+  });
+
+  update();
+</script>

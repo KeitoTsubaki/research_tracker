@@ -1,0 +1,41 @@
+name: Fetch arXiv papers (daily)
+
+on:
+  schedule:
+    # 03:00 UTC = 12:00 JST
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-update
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch arXiv papers
+        run: python scripts/fetch_arxiv.py
+
+      - name: Regenerate RSS feed
+        run: python scripts/generate_rss.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: daily arXiv fetch"
+          file_pattern: "data/*.json public/rss.xml"
