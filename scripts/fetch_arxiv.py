@@ -24,7 +24,7 @@ import requests
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.store import load_existing, merge_papers, save_latest_new, save_papers  # noqa: E402
 
-ARXIV_API_URL = "http://export.arxiv.org/api/query"
+ARXIV_API_URL = "https://export.arxiv.org/api/query"
 USER_AGENT = "research-tracker-bot/1.0 (github.com research paper tracker; contact via repo issues)"
 
 # arXiv asks for no more than one request every 3 seconds.

@@ -33,9 +33,16 @@ JSONファイルをDB代わりにした構成で動きます。
 │   ├── generate_rss.py
 │   ├── lib/store.py                # papers.json の読込・マージ・保存の共通処理
 │   └── scrapers/                   # 会議ごとのスクレイパー(プラグイン方式)
-│       ├── base.py
-│       ├── icra.py
-│       └── cvpr.py
+│       ├── base.py                 # 共通パーサー(make_award_scraper)
+│       ├── icra.py                 # ICRA
+│       ├── cvpr.py                 # CVPR
+│       ├── iros.py                 # IROS
+│       ├── neurips.py              # NeurIPS
+│       ├── icml.py                 # ICML
+│       ├── aaai.py                 # AAAI
+│       ├── rss.py                  # RSS (Robotics: Science and Systems)
+│       ├── ieee_iv.py              # IEEE IV (Intelligent Vehicles Symposium)
+│       └── itsc.py                 # IEEE ITSC
 ├── data/
 │   └── papers.json                 # 論文データ(DB代わり)
 ├── src/                            # Astroプロジェクト本体
@@ -133,6 +140,13 @@ python scripts/generate_rss.py
 - 外部サイトへのスクレイピングは各サイトの利用規約・robots.txtを尊重すること。
 - arXiv APIはリクエスト間隔を3秒以上空けるようにしている(`scripts/fetch_arxiv.py` の
   `REQUEST_INTERVAL_SECONDS`)。
-- 会議の受賞論文ページはURL・HTML構造が年ごとに変わるため、`scripts/scrapers/icra.py` /
-  `scripts/scrapers/cvpr.py` 内のURL・パーサーは年に一度程度の見直しが必要になる。
+- 会議の受賞論文ページはURL・HTML構造が年ごとに変わるため、`scripts/scrapers/` 配下の
+  各モジュール(ICRA / CVPR / IROS / NeurIPS / ICML / AAAI / RSS / IEEE IV / ITSC)の
+  URL・パーサーは年に一度程度の見直しが必要になる。特に多くの会議は開催直前まで
+  正式な受賞ページを公開しないため、`*_AWARDS_URL` が現状カンファレンスのトップページ
+  (または推測パスで404)になっているものがある。その場合スクレイパーは例外を出さず
+  「0件」を返して処理を続行するだけなので、パイプライン自体は壊れない
+  (`scripts/scrapers/base.py` の `make_award_scraper` が持つ最低文字数チェックにより、
+  ナビゲーションリンクなどの誤検出も除外される)。受賞ページが公開され次第、
+  該当モジュールの `*_AWARDS_URL` を実際のURLに差し替えること。
 - 本構成は無料の範囲で完結するように設計されている(有料API・シークレットは不要)。

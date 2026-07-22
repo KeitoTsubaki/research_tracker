@@ -4,41 +4,83 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Wed, 22 Jul 2026 00:41:28 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 01:10:35 GMT</lastBuildDate>
     <item>
-      <title>V2X-Aware Trajectory Prediction for Software-Defined Vehicles</title>
-      <link>https://arxiv.org/abs/2507.09999</link>
-      <guid isPermaLink="false">arxiv:2507.09999</guid>
-      <pubDate>2026-07-15</pubDate>
-      <description>We propose a V2X-aware trajectory prediction model tailored for software-defined vehicle (SDV) platforms, incorporating inter-vehicle communication signals into motion forecasting for improved safety margins.</description>
+      <title>Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency</title>
+      <link>https://arxiv.org/abs/2607.19194</link>
+      <guid isPermaLink="false">arxiv:2607.19194</guid>
+      <pubDate>2026-07-21</pubDate>
+      <description>High-level planning for autonomous driving is a knowledge-intensive engineering decision task that requires accurate scene understanding, timely inference, and internally consistent action selection. Vision-language models (VLMs) can make intermediate reasoning explicit, but their use in deployed planners is constrained by costly structured supervision, unnecessary reasoning in routine scenes, and possible inconsistencies between generated rationales and driving actions. We present a cognitive d</description>
     </item>
     <item>
-      <title>BEV-Fusion++: Occupancy Prediction for End-to-End Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2506.05678</link>
-      <guid isPermaLink="false">arxiv:2506.05678</guid>
-      <pubDate>2026-06-06</pubDate>
-      <description>We present a sensor fusion architecture combining camera and LiDAR into a unified bird's-eye-view (BEV) representation for occupancy prediction and trajectory forecasting in end-to-end autonomous driving pipelines.</description>
+      <title>Comparative Study of Multi-Agent Actor-Critic Algorithms in Parameterized Action Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2607.19117</link>
+      <guid isPermaLink="false">arxiv:2607.19117</guid>
+      <pubDate>2026-07-21</pubDate>
+      <description>Parameterized action reinforcement learning has shown strong performance in environments requiring both discrete action selection and continuous parameterization. Prior work established the effectiveness of single-agent actor-critic algorithms - Greedy Actor-Critic (GAC), Soft Actor-Critic (SAC), and Truncated Quantile Critics (TQC) - on benchmark parameterized action tasks, but their extension to multi-agent settings remains largely unexplored. This paper presents a comparative study of shared-</description>
     </item>
     <item>
-      <title>MAPPO-CT: Cooperative Transport with Multi-Agent PPO under Decentralized Control</title>
-      <link>https://arxiv.org/abs/2506.01234</link>
-      <guid isPermaLink="false">arxiv:2506.01234</guid>
-      <pubDate>2026-06-02</pubDate>
-      <description>We propose a MAPPO-based framework for cooperative transport of large objects by multiple mobile robots under a Dec-POMDP formulation. Our CTDE approach enables decentralized execution while training with centralized critics, achieving robust coordination without explicit communication.</description>
+      <title>CoGoal3D: Collaborative 3D Object Detection with 3D-Aware Fusion and Refinement</title>
+      <link>https://arxiv.org/abs/2607.19036</link>
+      <guid isPermaLink="false">arxiv:2607.19036</guid>
+      <pubDate>2026-07-21</pubDate>
+      <description>V2X collaborative object detection features overcoming the limitations of single-vehicle systems by aggregating environmental features from multiple collaborative agents. However, existing mainstream V2X perception methods mainly focus on 2D BEV object detection. When 3D detection task is concerned, inferior results are obtained because they ignore the 3D spatial misalignment caused by differing height and attitude among the collaborators. In this paper, we propose a novel collaborative 3D objec</description>
     </item>
     <item>
-      <title>Decentralized Multi-Robot Coordination for Warehouse Transport via Graph Attention</title>
-      <link>https://icra2026.org/best-papers</link>
-      <guid isPermaLink="false">conf:icra2026:award:1</guid>
-      <pubDate>2026-05-20</pubDate>
-      <description>This paper introduces a graph attention network for scalable decentralized coordination among heterogeneous robot teams performing cooperative transport tasks in dynamic warehouse environments.</description>
+      <title>NGPS: GPS-Denied Aerial Geo-Localization and 2.5D Reconstruction via Deep Satellite Image Matching and Multi-Rate Sensor Fusion</title>
+      <link>https://arxiv.org/abs/2607.18936</link>
+      <guid isPermaLink="false">arxiv:2607.18936</guid>
+      <pubDate>2026-07-21</pubDate>
+      <description>We present NGPS (Next-Generation Positioning System), a visual geo-localization framework for high-altitude UAVs that provides GPS-free absolute positioning by matching down-facing images to georeferenced satellite imagery with deep features. The system combines (1) adaptive confidence-weighted UKF fusion, where NGPS covariance is modulated by RANSAC inlier ratio, reprojection error, and match confidence; (2) velocity-predictive kernel extraction, using VIO velocity to predict the satellite sear</description>
     </item>
     <item>
-      <title>Scaling Laws for Multi-Agent Reinforcement Learning in Dec-POMDPs</title>
-      <link>https://neurips.cc/2025/best-papers</link>
-      <guid isPermaLink="false">conf:neurips2025:award:1</guid>
-      <pubDate>2025-12-10</pubDate>
-      <description>We study empirical scaling laws for MARL algorithms including MAPPO and QMIX across a range of Dec-POMDP benchmarks, providing guidance for compute-optimal training of cooperative agent teams.</description>
+      <title>NaviAIS: A Scenario-Level Vessel Trajectory Prediction Dataset withVectorized Lane Priors and the NaviLane Forecasting Framework</title>
+      <link>https://arxiv.org/abs/2607.18887</link>
+      <guid isPermaLink="false">arxiv:2607.18887</guid>
+      <pubDate>2026-07-21</pubDate>
+      <description>Vessel trajectory prediction in complex maritime environments is essential for traffic management, collision warning, route planning, and autonomous navigation. Although AIS-based learning methods have progressed rapidly, existing datasets are often released as raw message streams or irregular time series, with inconsistent sampling rates, noisy observations, heterogeneous coordinate systems, and non-unified scenario protocols. Most public AIS resources also lack structured representations of na</description>
+    </item>
+    <item>
+      <title>Pose-Parameterized Motion Planning and CBF-QP Self-Collision Filtering for a Long-Reach Drilling Boom</title>
+      <link>https://arxiv.org/abs/2607.18855</link>
+      <guid isPermaLink="false">arxiv:2607.18855</guid>
+      <pubDate>2026-07-21</pubDate>
+      <description>Long-reach drilling booms must reach successive poses without self-collision. Moving from operator-supervised control toward autonomy requires collision-aware motion planning and execution. For the Sandvik SB60, this study adapts established methods by integrating pose-parameterized planning with a capsule-based control barrier function quadratic program (CBF-QP) in measured-state inverse kinematics (IK). A fixed task-specific parameter set within each task generates waypoints, detours, timed re</description>
+    </item>
+    <item>
+      <title>How defensive driving enhances driving safety: A driving simulator study on drivers' defensive driving behaviors</title>
+      <link>https://arxiv.org/abs/2607.18663</link>
+      <guid isPermaLink="false">arxiv:2607.18663</guid>
+      <pubDate>2026-07-21</pubDate>
+      <description>Defensive driving is widely recognized as an advanced driving skill. However, whether and how defensive driving affects driving safety remains insufficiently investigated. This study examines the behavioral characteristics of defensive driving, its impact on driving safety, and the underlying mechanisms. First, defensive driving is defined regarding operational timing and application scenario. Then, 82 participants are recruited for driving simulator experiments, with their behavioral and eye mo</description>
+    </item>
+    <item>
+      <title>End-to-end Conditional Diffusion for Realistic and Controllable Visual Traffic Scenario Generation</title>
+      <link>https://arxiv.org/abs/2607.18637</link>
+      <guid isPermaLink="false">arxiv:2607.18637</guid>
+      <pubDate>2026-07-21</pubDate>
+      <description>Generating closed-loop traffic scenarios that are both realistic and controllable is crucial for evaluating autonomous driving systems, especially under rare safety-critical interactions. Existing learning-based methods often struggle to balance controllability and realism, offering either limited fine-grained control over traffic behavior or controllable scenarios at the expense of behavioral plausibility. This paper presents E2E-CDiff, an end-to-end conditional diffusion framework for controll</description>
+    </item>
+    <item>
+      <title>A Self-Evolving Default Action for Cooperative Tasks with Continuous Action Space</title>
+      <link>https://arxiv.org/abs/2607.18597</link>
+      <guid isPermaLink="false">arxiv:2607.18597</guid>
+      <pubDate>2026-07-21</pubDate>
+      <description>Counterfactual credit assignment has proven effective in multi-agent reinforcement learning (MARL) for discrete action spaces, yet its extension to continuous-action cooperative tasks remains challenging. Existing methods that approximate the counterfactual baseline via Monte Carlo sampling often introduce bias into policy gradients and fail to guarantee convergence to local optima, as the sampled actions may not have been sufficiently trained. To address these limitations, we propose SAFE, a no</description>
+    </item>
+    <item>
+      <title>Scalable Policy Optimization for Networked Multi-Agent Reinforcement Learning with Continuous State-Action Spaces</title>
+      <link>https://arxiv.org/abs/2607.18554</link>
+      <guid isPermaLink="false">arxiv:2607.18554</guid>
+      <pubDate>2026-07-20</pubDate>
+      <description>We develop the Continuous Distributed Coupled Policy Gradient (CDCPG) algorithm for cooperative reinforcement learning in networked Markov decision processes with continuous state and action spaces. Each agent maintains a local actor over a bounded graph neighborhood, and a localized least-squares temporal-difference critic evaluates a truncated action-value function through a spectral random-feature representation of the local transition kernel. The analysis makes four contributions. First, the</description>
+    </item>
+    <item>
+      <title>RoboHarness: Memory-Driven Orchestration of Heterogeneous Robot Policies for Long-Horizon Planning</title>
+      <link>https://arxiv.org/abs/2607.18060</link>
+      <guid isPermaLink="false">arxiv:2607.18060</guid>
+      <pubDate>2026-07-20</pubDate>
+      <description>Long-horizon robotic tasks require diverse capabilities that no single policy can reliably provide. Heterogeneous policies offer complementary strengths, but orchestrating them requires reasoning over uncertain capability boundaries and cross-policy distribution mismatch, which are largely overlooked by existing planning methods built on homogeneous, predefined skills with fixed applicability. We propose RoboHarness, a unified framework that encapsulates independently developed robot control sys</description>
     </item>
   </channel>
 </rss>
