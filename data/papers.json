@@ -20,9 +20,9 @@
     "tags": [
       "autonomous-driving"
     ],
-    "fetched_at": "2026-07-22T01:08:08Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-07-22T01:08:08Z"
   },
   {
     "id": "arxiv:2607.19117",
@@ -41,9 +41,9 @@
     "tags": [
       "marl"
     ],
-    "fetched_at": "2026-07-22T01:08:08Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-07-22T01:08:08Z"
   },
   {
     "id": "arxiv:2607.19036",
@@ -69,9 +69,9 @@
       "marl",
       "autonomous-driving"
     ],
-    "fetched_at": "2026-07-22T01:08:08Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-07-22T01:08:08Z"
   },
   {
     "id": "arxiv:2607.18936",
@@ -89,9 +89,9 @@
     "tags": [
       "autonomous-driving"
     ],
-    "fetched_at": "2026-07-22T01:08:08Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-07-22T01:08:08Z"
   },
   {
     "id": "arxiv:2607.18887",
@@ -113,9 +113,9 @@
     "tags": [
       "autonomous-driving"
     ],
-    "fetched_at": "2026-07-22T01:08:08Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-07-22T01:08:08Z"
   },
   {
     "id": "arxiv:2607.18855",
@@ -135,9 +135,9 @@
     "tags": [
       "autonomous-driving"
     ],
-    "fetched_at": "2026-07-22T01:08:08Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-07-22T01:08:08Z"
   },
   {
     "id": "arxiv:2607.18663",
@@ -158,9 +158,9 @@
     "tags": [
       "autonomous-driving"
     ],
-    "fetched_at": "2026-07-22T01:08:08Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-07-22T01:08:08Z"
   },
   {
     "id": "arxiv:2607.18637",
@@ -188,9 +188,9 @@
     "tags": [
       "autonomous-driving"
     ],
-    "fetched_at": "2026-07-22T01:08:08Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-07-22T01:08:08Z"
   },
   {
     "id": "arxiv:2607.18597",
@@ -208,7 +208,131 @@
     "tags": [
       "marl"
     ],
-    "fetched_at": "2026-07-22T01:08:08Z",
+    "memo": "",
+    "memo_updated_at": null,
+    "fetched_at": "2026-07-22T01:08:08Z"
+  },
+  {
+    "id": "arxiv:2607.19306",
+    "title": "From Distances to Trajectories: Real-Time Signed Distance Function Mapping and Distance-Accelerated Motion Planning for UAVs",
+    "authors": [
+      "Jason Stanley",
+      "Zhirui Dai",
+      "Qihao Qian",
+      "Tzu-Chin Ho",
+      "Tianxing Fan",
+      "Siddharth Saha",
+      "Christopher Barngrover",
+      "Ki Myung Brian Lee",
+      "Nikolay Atanasov"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.19306",
+    "abstract": "Autonomous flight in cluttered environments requires a robot to build a geometric map of its surroundings and plan safe, dynamically feasible trajectories, all onboard and in real time. Conventional approaches treat mapping and planning as separate stages and often rely on binary occupancy for collision checking. We argue that these two stages should be co-designed around a single representation: a signed distance function (SDF). By encoding distance to the nearest obstacle, an SDF provides richer information for planning and trajectory optimization than occupancy alone. We develop an Octree REsidual Network (OREN) that pairs an explicit octree prior with an implicit neural residual to reconstruct SDFs online from point cloud observations with the efficiency of volumetric methods and the accuracy and differentiability of neural methods. In tandem, we develop Bubble$^\\star$, a search-based planner that exploits the distance information to grow maximal collision-free balls, which we call bubbles, with formal guarantees of termination, completeness, and failure detection. Planning over a graph of bubbles significantly reduces collision checks compared to a grid-based A$^\\star$ search and returns a bubble sequence that forms a safe corridor for trajectory optimization. We demonstrate the integrated OREN-Bubble$^\\star$ approach onboard a quadrotor, navigating unseen indoor environments in real time under tight compute constraints. OREN improves SDF estimation by $22$% compared to baselines, while Bubble$^\\star$ finds trajectories spanning $\\approx 90$ m through a cluttered environment in $1$-$3$ sec., whereas baselines take up to $10$ sec. in the same environment.",
+    "published_date": "2026-07-21",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "fetched_at": "2026-07-22T05:48:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.19284",
+    "title": "Stochastic Multi-Objective Kinodynamic Planning Against Adversaries",
+    "authors": [
+      "Thomas Marshall Vielmetti",
+      "Daniel Cherenson",
+      "Dimitra Panagou"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.19284",
+    "abstract": "This paper addresses multi-objective kinodynamic planning in environments with stochastic hybrid adversaries that probabilistically transition to adversarial modes based on the ego state. The goal is to construct the Pareto-front of paths that trade off execution cost and the probability of safety constraint violation (risk). Existing chance-constrained planners evaluate risk over open-loop trajectories, yielding overly conservative solutions that fail to account for ego-agent reactivity. To address this limitation, we shift the planning space to sequences of closed-loop policies, and integrate sample-based risk evaluation directly into tree construction via Monte-Carlo particle rollouts. We first introduce Stochastic Multi-Objective RRT (SMO-RRT), for which we prove probabilistic completeness, followed by Stochastic Multi-Objective Stable Sparse RRT (SMO-SST), which leverages selective pruning to improve numerical performance at the cost of completeness. For both algorithms, we derive a finite-sample bound on the probability of chance constraint violation for systems with non-Gaussian, state-dependent uncertainty, enabling probabilistically safe planning in a broad class of environments applicable to multi-agent systems, social navigation, and autonomous driving.",
+    "published_date": "2026-07-21",
+    "tags": [
+      "marl",
+      "autonomous-driving"
+    ],
+    "fetched_at": "2026-07-22T05:48:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.18913",
+    "title": "How network perturbations distort agreement trajectories in LTI multi-agent systems",
+    "authors": [
+      "Gal Barkai",
+      "Irinel-Constantin Morărescu"
+    ],
+    "source": "arxiv",
+    "category": "eess.SY",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.18913",
+    "abstract": "Distributed coordination of multi-agent systems frequently relies on cooperative protocols designed to achieve agreement on a prescribed, non-trivial trajectory. While the robustness of such protocols to various uncertainties is well documented, existing literature universally assumes that the target agreement trajectory itself remains invariant. This assumption may hold in ideal cases, but we prove that network perturbations can vastly modify the asymptotic agreement trajectory. We first investigate the exact trajectories of Linear Time-Invariant (LTI) agents subjected to dynamic coupling uncertainties by establishing a new Laplace-domain criterion that characterizes the specific closed-loop poles governing the perturbed agreement manifold. To formalize our analysis, we introduce the notion of structure-preserving dynamics, perturbations that maintain the null space of the communication graph's Laplacian, and contrast them with transmission only dynamics, affecting only the adjacency matrix. We prove a critical fragility within standard cooperative output regulation schemes: while static consensus is uniquely robust to heterogeneous transmission delays, synchronization to periodic trajectories is destroyed by arbitrarily small transmission delays. Furthermore, we demonstrate that for d-regular topologies, uniform transmission perturbations can easily shift the system to synchronize with an unexpected, entirely new frequency. These findings expose a previously unidentified vulnerability in classical robust synchronization, demonstrating that transmission dynamics necessitate fundamental structural modifications to networked reference generators.",
+    "published_date": "2026-07-21",
+    "tags": [
+      "marl"
+    ],
+    "fetched_at": "2026-07-22T05:48:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.18859",
+    "title": "PhoenixRepair: Rethinking Repair Strategy Exploration in Software Agents",
+    "authors": [
+      "Tianyue Jiang",
+      "Yanlin Wang",
+      "Xin He",
+      "Daya Guo",
+      "Jiachi Chen",
+      "Ming Wen",
+      "Ensheng Shi",
+      "Xilin Liu",
+      "Yuchi Ma",
+      "Guanbin Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.18859",
+    "abstract": "While Large Language Models have greatly advanced automated issue resolution, existing agent-based methods exhibit a fundamental limitation in their insufficient exploration of repair strategies. This insufficiency manifests in two key aspects. First, the exploration of multiple potential edit locations is limited. Second, the exploration of repair attempts at each location is also insufficient. To address these challenges, we present PhoenixRepair, a multi-agent framework that systematically explores multiple candidate edit locations and performs iterative reflection and refinement on patch generation, thereby expanding the search space of repair strategies. Our framework begins with multi-location sampling, optionally augmented with graph-based localization information for difficult tasks, followed by iterative reflection and refinement to generate better patches, culminating in final-round generation guided by distilled insights from all historical attempts. Experiments on SWE-bench-Verified demonstrate that PhoenixRepair achieves the largest relative improvement of 7.8\\% over SWE-agent under DeepSeek-V3.1, and attains the highest resolved rate of 76.0\\% Pass@1 under MiniMax-M2.5. Meanwhile, it achieves higher fault localization accuracy than existing approaches. Our code is available at https://github.com/DeepSoftwareAnalytics/PhoenixRepair.",
+    "published_date": "2026-07-21",
+    "tags": [
+      "marl"
+    ],
+    "fetched_at": "2026-07-22T05:48:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.18719",
+    "title": "Strategy-Following Multi-Agent Deep Reinforcement Learning Considering Control Strategies Provided to Other Agents",
+    "authors": [
+      "Yamato Takahagi",
+      "Gentoku Nakasone",
+      "Yoshinari Motokawa",
+      "Toshiharu Sugawara"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.18719",
+    "abstract": "This study proposes a learning method for multi-agent systems that allows agents to be controlled through human manager instructions after learning and enables uninstructed agents to implicitly complement the overall work based on the actions of other agents. Multi-agent applications using deep learning have shown potential; thus, to achieve extensive social applications, humans should be able to control learned agents using simple methods to respond to environmental and social changes. Even without such changes, learned coordination often does not match the expectations of human managers, making it preferable to control coordination structures to match human intentions. Some studies have aimed to control agent behavior using simple instructions. However, they assumed that instructions are provided to all agents, which is time-consuming and not evident when designing a better cooperation regime. Ideally, specific agents should receive key action instructions, while others should automatically complete the remaining tasks. The proposed method, which extends previous work on controllability in multi-agent deep reinforcement learning, enables uninstructed agents to adaptively complement overlooked tasks and areas. The experimental results show that agents using the proposed method can shift to another cooperative structure and achieve better performance than those using conventional methods.",
+    "published_date": "2026-07-21",
+    "tags": [
+      "marl"
+    ],
+    "fetched_at": "2026-07-22T05:48:26Z",
     "memo": "",
     "memo_updated_at": null
   },
@@ -231,9 +355,9 @@
     "tags": [
       "marl"
     ],
-    "fetched_at": "2026-07-22T01:08:08Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-07-22T01:08:08Z"
   },
   {
     "id": "arxiv:2607.18060",
@@ -260,6 +384,71 @@
       "autonomous-driving"
     ],
     "fetched_at": "2026-07-22T01:08:08Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.18536",
+    "title": "MAGE: Human-Like Macro Placement via Agentic Multimodal Reasoning",
+    "authors": [
+      "Andrew B. Kahng",
+      "Sayak Kundu",
+      "Bodhisatta Pramanik"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.18536",
+    "abstract": "Macro placement still requires substantial manual refinement in industrial physical design flows. We present MAGE (Macro Placement Agentic Engine), a multimodal multi-agent framework for macro placement refinement. MAGE decomposes the macro placement task into a six-phase workflow that combines structured floorplanning rules, visual checks, and iterative refinement. Expert floorplanning knowledge is encoded through natural-language directives and validation criteria, rather than learned from labeled placement data. A tournament-style refinement mode evaluates multiple candidate placements and propagates feedback from higher-quality solutions. We also introduce four metrics for quantifying human-likeness in macro placement: notch score, whitespace score, pocket score, and alignment score. These metrics capture structural properties used by expert designers but not directly measured by conventional PPA metrics. Across nine designs in NanGate45 and GlobalFoundries 12nm enablements, MAGE achieves geometric-mean improvements of 11.1%-19.3% in WNS and 70.0%-74.0% in TNS over commercial macro placers. On the three NanGate45 designs, for which human-expert and Hier-RTLMP baselines are available, MAGE improves WNS and TNS by 18.3% and 72.5% over the human expert, and by 47.0% and 80.4% over Hier-RTLMP, with comparable wirelength and power. On human-likeness metrics, MAGE improves the overall score by 6%-48% over all baselines. Additional case studies on anonymized netlists, unseen designs, dense rectilinear floorplans, and high-utilization settings show that the framework transfers to new placement settings without design-specific retraining.",
+    "published_date": "2026-07-20",
+    "tags": [
+      "marl"
+    ],
+    "fetched_at": "2026-07-22T05:48:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.18102",
+    "title": "FinSAgent: Corpus-Aligned Multi-Agent RAG Framework for Evidence-Grounded SEC Filing Question Answering",
+    "authors": [
+      "Jijun Chi",
+      "Zhenghan Tai",
+      "Hanwei Wu",
+      "Tung Sum Thomas Kwok",
+      "Hailin He",
+      "Zixing Liao",
+      "Bohuai Xiao",
+      "Chaolong Jiang",
+      "Jianliang Lei",
+      "Jerry Huang",
+      "Peng Lu",
+      "Muzhi Li",
+      "Liheng Ma",
+      "Yihong Wu",
+      "Sicheng Lyu",
+      "Jingrui Tian",
+      "Yihan Li",
+      "Yanzhang Ma",
+      "Sizhe Guan",
+      "Dingtao Hu",
+      "Yufei Cui",
+      "Ling Zhou",
+      "Lei Ding",
+      "Xinyu Wang"
+    ],
+    "source": "arxiv",
+    "category": "cs.IR",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.18102",
+    "abstract": "Financial question answering over U.S. Securities and Exchange Commission (SEC) filings requires retrieving and synthesizing heterogeneous evidence dispersed across long, standardized, and highly redundant disclosures. Existing retrieval-augmented and multi-agent systems typically derive retrieval queries directly from the user's question and rank candidates by semantic similarity. Together, these choices create prior-corpus misalignment: a mismatch between model priors and the target filings' structure, terminology, and evidence standards. As a result, query generation misses corpus-specific evidence, while semantic reranking favors topically similar but evidentially invalid false-positive chunks. We propose FinSAgent, an evidence-grounded multi-agent framework that reframes SEC filing QA as corpus-aligned retrieval planning and corrects both ends with a single principle: inject corpus-side conditioning wherever model priors would otherwise dominate. FinSAgent combines (1) role-specialized agents anchored to the mandated 10-K item structure, (2) database-aware query decomposition that conditions each agent's sub-queries on a lightweight, summary-level view of the local corpus, and (3) multi-path retrieval with a learned feature-gated reranker that separates evidential validity from semantic similarity. Across five offline financial QA benchmarks, FinSAgent improves retrieval coverage and answer correctness over strong single-agent and multi-agent baselines; in a three-arm randomized online experiment with 1,000 anonymous user ratings, it also receives higher scores than baselines.",
+    "published_date": "2026-07-20",
+    "tags": [
+      "marl"
+    ],
+    "fetched_at": "2026-07-22T05:48:26Z",
     "memo": "",
     "memo_updated_at": null
   },

@@ -4,146 +4,55 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Wed, 22 Jul 2026 01:58:46 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 05:48:26 GMT</lastBuildDate>
     <item>
-      <title>Robo-DM: Data Management for Large Robot Datasets</title>
-      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
-      <guid isPermaLink="false">conf:icra2025:award:1</guid>
-      <pubDate></pubDate>
-      <description></description>
+      <title>From Distances to Trajectories: Real-Time Signed Distance Function Mapping and Distance-Accelerated Motion Planning for UAVs</title>
+      <link>https://arxiv.org/abs/2607.19306</link>
+      <guid isPermaLink="false">arxiv:2607.19306</guid>
+      <pubDate>2026-07-21</pubDate>
+      <description>Autonomous flight in cluttered environments requires a robot to build a geometric map of its surroundings and plan safe, dynamically feasible trajectories, all onboard and in real time. Conventional approaches treat mapping and planning as separate stages and often rely on binary occupancy for collision checking. We argue that these two stages should be co-designed around a single representation: a signed distance function (SDF). By encoding distance to the nearest obstacle, an SDF provides rich</description>
     </item>
     <item>
-      <title>PolyTouch: A Robust Multi-Modal Tactile Sensor for Contact-Rich Manipulation Using Tactile-Diffusion Policies</title>
-      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
-      <guid isPermaLink="false">conf:icra2025:award:2</guid>
-      <pubDate></pubDate>
-      <description></description>
+      <title>Stochastic Multi-Objective Kinodynamic Planning Against Adversaries</title>
+      <link>https://arxiv.org/abs/2607.19284</link>
+      <guid isPermaLink="false">arxiv:2607.19284</guid>
+      <pubDate>2026-07-21</pubDate>
+      <description>This paper addresses multi-objective kinodynamic planning in environments with stochastic hybrid adversaries that probabilistically transition to adversarial modes based on the ego state. The goal is to construct the Pareto-front of paths that trade off execution cost and the probability of safety constraint violation (risk). Existing chance-constrained planners evaluate risk over open-loop trajectories, yielding overly conservative solutions that fail to account for ego-agent reactivity. To add</description>
     </item>
     <item>
-      <title>Human-Agent Joint Learning for Efficient Robot Manipulation Skill Acquisition</title>
-      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
-      <guid isPermaLink="false">conf:icra2025:award:3</guid>
-      <pubDate></pubDate>
-      <description></description>
+      <title>How network perturbations distort agreement trajectories in LTI multi-agent systems</title>
+      <link>https://arxiv.org/abs/2607.18913</link>
+      <guid isPermaLink="false">arxiv:2607.18913</guid>
+      <pubDate>2026-07-21</pubDate>
+      <description>Distributed coordination of multi-agent systems frequently relies on cooperative protocols designed to achieve agreement on a prescribed, non-trivial trajectory. While the robustness of such protocols to various uncertainties is well documented, existing literature universally assumes that the target agreement trajectory itself remains invariant. This assumption may hold in ideal cases, but we prove that network perturbations can vastly modify the asymptotic agreement trajectory. We first invest</description>
     </item>
     <item>
-      <title>Individual and Collective Behaviors in Soft Robot Worms Inspired by Living Worm Blobs</title>
-      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
-      <guid isPermaLink="false">conf:icra2025:award:4</guid>
-      <pubDate></pubDate>
-      <description></description>
+      <title>PhoenixRepair: Rethinking Repair Strategy Exploration in Software Agents</title>
+      <link>https://arxiv.org/abs/2607.18859</link>
+      <guid isPermaLink="false">arxiv:2607.18859</guid>
+      <pubDate>2026-07-21</pubDate>
+      <description>While Large Language Models have greatly advanced automated issue resolution, existing agent-based methods exhibit a fundamental limitation in their insufficient exploration of repair strategies. This insufficiency manifests in two key aspects. First, the exploration of multiple potential edit locations is limited. Second, the exploration of repair attempts at each location is also insufficient. To address these challenges, we present PhoenixRepair, a multi-agent framework that systematically ex</description>
     </item>
     <item>
-      <title>No Plan but Everything under Control: Robustly Solving Sequential Tasks with Dynamically Composed Gradient Descent</title>
-      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
-      <guid isPermaLink="false">conf:icra2025:award:5</guid>
-      <pubDate></pubDate>
-      <description></description>
+      <title>Strategy-Following Multi-Agent Deep Reinforcement Learning Considering Control Strategies Provided to Other Agents</title>
+      <link>https://arxiv.org/abs/2607.18719</link>
+      <guid isPermaLink="false">arxiv:2607.18719</guid>
+      <pubDate>2026-07-21</pubDate>
+      <description>This study proposes a learning method for multi-agent systems that allows agents to be controlled through human manager instructions after learning and enables uninstructed agents to implicitly complement the overall work based on the actions of other agents. Multi-agent applications using deep learning have shown potential; thus, to achieve extensive social applications, humans should be able to control learned agents using simple methods to respond to environmental and social changes. Even wit</description>
     </item>
     <item>
-      <title>MAC-VO: Metrics-Aware Covariance for Learning-Based Stereo Visual Odometry</title>
-      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
-      <guid isPermaLink="false">conf:icra2025:award:6</guid>
-      <pubDate></pubDate>
-      <description></description>
+      <title>MAGE: Human-Like Macro Placement via Agentic Multimodal Reasoning</title>
+      <link>https://arxiv.org/abs/2607.18536</link>
+      <guid isPermaLink="false">arxiv:2607.18536</guid>
+      <pubDate>2026-07-20</pubDate>
+      <description>Macro placement still requires substantial manual refinement in industrial physical design flows. We present MAGE (Macro Placement Agentic Engine), a multimodal multi-agent framework for macro placement refinement. MAGE decomposes the macro placement task into a six-phase workflow that combines structured floorplanning rules, visual checks, and iterative refinement. Expert floorplanning knowledge is encoded through natural-language directives and validation criteria, rather than learned from lab</description>
     </item>
     <item>
-      <title>D(R, O) Grasp: A Unified Representation of Robot and Object Interaction for Cross-Embodiment Dexterous Grasping</title>
-      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
-      <guid isPermaLink="false">conf:icra2025:award:7</guid>
-      <pubDate></pubDate>
-      <description></description>
-    </item>
-    <item>
-      <title>Physics-Aware Robotic Palletization with Online Masking Inference</title>
-      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
-      <guid isPermaLink="false">conf:icra2025:award:8</guid>
-      <pubDate></pubDate>
-      <description></description>
-    </item>
-    <item>
-      <title>In-Vivo Tendon-Driven Rodent Ankle Exoskeleton System for Sensorimotor Rehabilitation</title>
-      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
-      <guid isPermaLink="false">conf:icra2025:award:9</guid>
-      <pubDate></pubDate>
-      <description></description>
-    </item>
-    <item>
-      <title>Deploying Ten Thousand Robots: Scalable Imitation Learning for Lifelong Multi-Agent Path Finding</title>
-      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
-      <guid isPermaLink="false">conf:icra2025:award:10</guid>
-      <pubDate></pubDate>
-      <description></description>
-    </item>
-    <item>
-      <title>Deploying Ten Thousand Robots: Scalable Imitation Learning for Lifelong Multi-Agent Path Finding</title>
-      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
-      <guid isPermaLink="false">conf:icra2025:award:11</guid>
-      <pubDate></pubDate>
-      <description></description>
-    </item>
-    <item>
-      <title>MAC-VO: Metrics-Aware Covariance for Learning-Based Stereo Visual Odometry</title>
-      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
-      <guid isPermaLink="false">conf:icra2025:award:12</guid>
-      <pubDate></pubDate>
-      <description></description>
-    </item>
-    <item>
-      <title>VGGT: Visual Geometry Grounded Transformer</title>
-      <link>https://cvpr.thecvf.com/Conferences/2025/BestPapersDemos</link>
-      <guid isPermaLink="false">conf:cvpr2025:award:1</guid>
-      <pubDate></pubDate>
-      <description></description>
-    </item>
-    <item>
-      <title>Neural Inverse Rendering from Propagating Light</title>
-      <link>https://cvpr.thecvf.com/Conferences/2025/BestPapersDemos</link>
-      <guid isPermaLink="false">conf:cvpr2025:award:2</guid>
-      <pubDate></pubDate>
-      <description></description>
-    </item>
-    <item>
-      <title>MegaSaM: Accurate, Fast and Robust Structure and Motion from Casual Dynamic Videos</title>
-      <link>https://cvpr.thecvf.com/Conferences/2025/BestPapersDemos</link>
-      <guid isPermaLink="false">conf:cvpr2025:award:3</guid>
-      <pubDate></pubDate>
-      <description></description>
-    </item>
-    <item>
-      <title>Navigation World Models</title>
-      <link>https://cvpr.thecvf.com/Conferences/2025/BestPapersDemos</link>
-      <guid isPermaLink="false">conf:cvpr2025:award:4</guid>
-      <pubDate></pubDate>
-      <description></description>
-    </item>
-    <item>
-      <title>Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models</title>
-      <link>https://cvpr.thecvf.com/Conferences/2025/BestPapersDemos</link>
-      <guid isPermaLink="false">conf:cvpr2025:award:5</guid>
-      <pubDate></pubDate>
-      <description></description>
-    </item>
-    <item>
-      <title>3D Student Splatting and Scooping</title>
-      <link>https://cvpr.thecvf.com/Conferences/2025/BestPapersDemos</link>
-      <guid isPermaLink="false">conf:cvpr2025:award:6</guid>
-      <pubDate></pubDate>
-      <description></description>
-    </item>
-    <item>
-      <title>Generative Multimodal Pretraining with Discrete Diffusion Timestep Tokens</title>
-      <link>https://cvpr.thecvf.com/Conferences/2025/BestPapersDemos</link>
-      <guid isPermaLink="false">conf:cvpr2025:award:7</guid>
-      <pubDate></pubDate>
-      <description></description>
-    </item>
-    <item>
-      <title>Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)</title>
-      <link>https://neurips.cc/virtual/2025/poster/121421</link>
-      <guid isPermaLink="false">conf:neurips2025:award:1</guid>
-      <pubDate></pubDate>
-      <description></description>
+      <title>FinSAgent: Corpus-Aligned Multi-Agent RAG Framework for Evidence-Grounded SEC Filing Question Answering</title>
+      <link>https://arxiv.org/abs/2607.18102</link>
+      <guid isPermaLink="false">arxiv:2607.18102</guid>
+      <pubDate>2026-07-20</pubDate>
+      <description>Financial question answering over U.S. Securities and Exchange Commission (SEC) filings requires retrieving and synthesizing heterogeneous evidence dispersed across long, standardized, and highly redundant disclosures. Existing retrieval-augmented and multi-agent systems typically derive retrieval queries directly from the user's question and rank candidates by semantic similarity. Together, these choices create prior-corpus misalignment: a mismatch between model priors and the target filings' s</description>
     </item>
   </channel>
 </rss>
