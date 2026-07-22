@@ -1,15 +1,16 @@
 """IEEE IV (Intelligent Vehicles Symposium) Best Paper award scraper.
 
-IEEE_IV_AWARDS_URL points at the year's conference landing page for now
-(a guessed /awards/ subpath 404s as of this writing); update it once
-the specific awards page exists.
+As of this writing, no dedicated awards/results page could be found on
+ieee-iv.org/2025/ (the site has call-for-* pages but nothing listing
+winners). IEEE_IV_AWARDS_URL points at the year's conference landing
+page for now; update it once a results page is published or found.
 """
 from __future__ import annotations
 
 from .base import make_award_scraper
 
-CONFERENCE_NAME = "IEEE IV 2026"
-IEEE_IV_AWARDS_URL = "https://ieee-iv.org/2026/"
+CONFERENCE_NAME = "IEEE IV 2025"
+IEEE_IV_AWARDS_URL = "https://ieee-iv.org/2025/"
 IEEE_IV_BASE_URL = "https://ieee-iv.org"
 
 AWARD_KEYWORDS = {
@@ -20,7 +21,7 @@ AWARD_KEYWORDS = {
 }
 
 scrape = make_award_scraper(
-    slug="ieeeiv2026",
+    slug="ieeeiv2025",
     conference=CONFERENCE_NAME,
     awards_url=IEEE_IV_AWARDS_URL,
     base_url=IEEE_IV_BASE_URL,

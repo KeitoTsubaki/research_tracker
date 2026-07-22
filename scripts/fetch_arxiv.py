@@ -6,9 +6,10 @@ Usage:
     python scripts/fetch_arxiv.py
 
 Only papers whose title/abstract match at least one keyword group
-(marl / autonomous-driving) are kept, since the point of this tracker is
-to follow those specific research themes rather than mirror all of
-cs.RO/cs.AI/cs.LG/cs.MA.
+(marl / cooperative-transport / autonomous-driving) are kept, since the
+point of this tracker is to follow those specific research themes
+rather than mirror all of cs.RO/cs.AI/cs.LG/cs.MA. This covers new
+submissions only; for older papers see fetch_arxiv_historical.py.
 """
 from __future__ import annotations
 
@@ -16,12 +17,13 @@ import re
 import sys
 import time
 from pathlib import Path
-from typing import Dict, Iterator, List, Optional
+from typing import Iterator, List
 
 import feedparser
 import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lib.keywords import match_tags  # noqa: E402
 from lib.store import load_existing, merge_papers, save_latest_new, save_papers  # noqa: E402
 
 ARXIV_API_URL = "https://export.arxiv.org/api/query"
@@ -33,34 +35,6 @@ PAGE_SIZE = 100
 MAX_PAGES = 3  # up to 300 most recent submissions across the target categories
 
 CATEGORIES = ["cs.RO", "cs.AI", "cs.LG", "cs.MA"]
-
-# Keyword groups -> tag slug. A paper can receive both tags.
-KEYWORD_GROUPS: Dict[str, List[str]] = {
-    "marl": [
-        "multi-agent reinforcement learning",
-        "marl",
-        "cooperative transport",
-        "mappo",
-        "dec-pomdp",
-        "ctde",
-        "decentralized control",
-        "multi-robot",
-    ],
-    "autonomous-driving": [
-        "autonomous driving",
-        "self-driving",
-        "end-to-end driving",
-        "motion planning",
-        "trajectory prediction",
-        "motion forecasting",
-        "sensor fusion",
-        "bev perception",
-        "occupancy prediction",
-        "v2x",
-        "software-defined vehicle",
-        "sdv",
-    ],
-}
 
 
 def build_search_query() -> str:
@@ -115,11 +89,6 @@ def parse_entries(xml_text: str) -> Iterator[dict]:
         }
 
 
-def match_tags(paper: dict) -> List[str]:
-    text = f"{paper['title']} {paper['abstract']}".lower()
-    return [group for group, keywords in KEYWORD_GROUPS.items() if any(kw in text for kw in keywords)]
-
-
 def fetch_all_entries() -> List[dict]:
     all_entries: List[dict] = []
     for page in range(MAX_PAGES):
@@ -148,7 +117,7 @@ def main() -> None:
 
     tagged: List[dict] = []
     for paper in all_entries:
-        tags = match_tags(paper)
+        tags = match_tags(paper["title"], paper["abstract"])
         if not tags:
             continue
         paper["tags"] = tags

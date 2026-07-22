@@ -4,83 +4,146 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Wed, 22 Jul 2026 01:10:35 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 01:58:46 GMT</lastBuildDate>
     <item>
-      <title>Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency</title>
-      <link>https://arxiv.org/abs/2607.19194</link>
-      <guid isPermaLink="false">arxiv:2607.19194</guid>
-      <pubDate>2026-07-21</pubDate>
-      <description>High-level planning for autonomous driving is a knowledge-intensive engineering decision task that requires accurate scene understanding, timely inference, and internally consistent action selection. Vision-language models (VLMs) can make intermediate reasoning explicit, but their use in deployed planners is constrained by costly structured supervision, unnecessary reasoning in routine scenes, and possible inconsistencies between generated rationales and driving actions. We present a cognitive d</description>
+      <title>Robo-DM: Data Management for Large Robot Datasets</title>
+      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
+      <guid isPermaLink="false">conf:icra2025:award:1</guid>
+      <pubDate></pubDate>
+      <description></description>
     </item>
     <item>
-      <title>Comparative Study of Multi-Agent Actor-Critic Algorithms in Parameterized Action Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2607.19117</link>
-      <guid isPermaLink="false">arxiv:2607.19117</guid>
-      <pubDate>2026-07-21</pubDate>
-      <description>Parameterized action reinforcement learning has shown strong performance in environments requiring both discrete action selection and continuous parameterization. Prior work established the effectiveness of single-agent actor-critic algorithms - Greedy Actor-Critic (GAC), Soft Actor-Critic (SAC), and Truncated Quantile Critics (TQC) - on benchmark parameterized action tasks, but their extension to multi-agent settings remains largely unexplored. This paper presents a comparative study of shared-</description>
+      <title>PolyTouch: A Robust Multi-Modal Tactile Sensor for Contact-Rich Manipulation Using Tactile-Diffusion Policies</title>
+      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
+      <guid isPermaLink="false">conf:icra2025:award:2</guid>
+      <pubDate></pubDate>
+      <description></description>
     </item>
     <item>
-      <title>CoGoal3D: Collaborative 3D Object Detection with 3D-Aware Fusion and Refinement</title>
-      <link>https://arxiv.org/abs/2607.19036</link>
-      <guid isPermaLink="false">arxiv:2607.19036</guid>
-      <pubDate>2026-07-21</pubDate>
-      <description>V2X collaborative object detection features overcoming the limitations of single-vehicle systems by aggregating environmental features from multiple collaborative agents. However, existing mainstream V2X perception methods mainly focus on 2D BEV object detection. When 3D detection task is concerned, inferior results are obtained because they ignore the 3D spatial misalignment caused by differing height and attitude among the collaborators. In this paper, we propose a novel collaborative 3D objec</description>
+      <title>Human-Agent Joint Learning for Efficient Robot Manipulation Skill Acquisition</title>
+      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
+      <guid isPermaLink="false">conf:icra2025:award:3</guid>
+      <pubDate></pubDate>
+      <description></description>
     </item>
     <item>
-      <title>NGPS: GPS-Denied Aerial Geo-Localization and 2.5D Reconstruction via Deep Satellite Image Matching and Multi-Rate Sensor Fusion</title>
-      <link>https://arxiv.org/abs/2607.18936</link>
-      <guid isPermaLink="false">arxiv:2607.18936</guid>
-      <pubDate>2026-07-21</pubDate>
-      <description>We present NGPS (Next-Generation Positioning System), a visual geo-localization framework for high-altitude UAVs that provides GPS-free absolute positioning by matching down-facing images to georeferenced satellite imagery with deep features. The system combines (1) adaptive confidence-weighted UKF fusion, where NGPS covariance is modulated by RANSAC inlier ratio, reprojection error, and match confidence; (2) velocity-predictive kernel extraction, using VIO velocity to predict the satellite sear</description>
+      <title>Individual and Collective Behaviors in Soft Robot Worms Inspired by Living Worm Blobs</title>
+      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
+      <guid isPermaLink="false">conf:icra2025:award:4</guid>
+      <pubDate></pubDate>
+      <description></description>
     </item>
     <item>
-      <title>NaviAIS: A Scenario-Level Vessel Trajectory Prediction Dataset withVectorized Lane Priors and the NaviLane Forecasting Framework</title>
-      <link>https://arxiv.org/abs/2607.18887</link>
-      <guid isPermaLink="false">arxiv:2607.18887</guid>
-      <pubDate>2026-07-21</pubDate>
-      <description>Vessel trajectory prediction in complex maritime environments is essential for traffic management, collision warning, route planning, and autonomous navigation. Although AIS-based learning methods have progressed rapidly, existing datasets are often released as raw message streams or irregular time series, with inconsistent sampling rates, noisy observations, heterogeneous coordinate systems, and non-unified scenario protocols. Most public AIS resources also lack structured representations of na</description>
+      <title>No Plan but Everything under Control: Robustly Solving Sequential Tasks with Dynamically Composed Gradient Descent</title>
+      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
+      <guid isPermaLink="false">conf:icra2025:award:5</guid>
+      <pubDate></pubDate>
+      <description></description>
     </item>
     <item>
-      <title>Pose-Parameterized Motion Planning and CBF-QP Self-Collision Filtering for a Long-Reach Drilling Boom</title>
-      <link>https://arxiv.org/abs/2607.18855</link>
-      <guid isPermaLink="false">arxiv:2607.18855</guid>
-      <pubDate>2026-07-21</pubDate>
-      <description>Long-reach drilling booms must reach successive poses without self-collision. Moving from operator-supervised control toward autonomy requires collision-aware motion planning and execution. For the Sandvik SB60, this study adapts established methods by integrating pose-parameterized planning with a capsule-based control barrier function quadratic program (CBF-QP) in measured-state inverse kinematics (IK). A fixed task-specific parameter set within each task generates waypoints, detours, timed re</description>
+      <title>MAC-VO: Metrics-Aware Covariance for Learning-Based Stereo Visual Odometry</title>
+      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
+      <guid isPermaLink="false">conf:icra2025:award:6</guid>
+      <pubDate></pubDate>
+      <description></description>
     </item>
     <item>
-      <title>How defensive driving enhances driving safety: A driving simulator study on drivers' defensive driving behaviors</title>
-      <link>https://arxiv.org/abs/2607.18663</link>
-      <guid isPermaLink="false">arxiv:2607.18663</guid>
-      <pubDate>2026-07-21</pubDate>
-      <description>Defensive driving is widely recognized as an advanced driving skill. However, whether and how defensive driving affects driving safety remains insufficiently investigated. This study examines the behavioral characteristics of defensive driving, its impact on driving safety, and the underlying mechanisms. First, defensive driving is defined regarding operational timing and application scenario. Then, 82 participants are recruited for driving simulator experiments, with their behavioral and eye mo</description>
+      <title>D(R, O) Grasp: A Unified Representation of Robot and Object Interaction for Cross-Embodiment Dexterous Grasping</title>
+      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
+      <guid isPermaLink="false">conf:icra2025:award:7</guid>
+      <pubDate></pubDate>
+      <description></description>
     </item>
     <item>
-      <title>End-to-end Conditional Diffusion for Realistic and Controllable Visual Traffic Scenario Generation</title>
-      <link>https://arxiv.org/abs/2607.18637</link>
-      <guid isPermaLink="false">arxiv:2607.18637</guid>
-      <pubDate>2026-07-21</pubDate>
-      <description>Generating closed-loop traffic scenarios that are both realistic and controllable is crucial for evaluating autonomous driving systems, especially under rare safety-critical interactions. Existing learning-based methods often struggle to balance controllability and realism, offering either limited fine-grained control over traffic behavior or controllable scenarios at the expense of behavioral plausibility. This paper presents E2E-CDiff, an end-to-end conditional diffusion framework for controll</description>
+      <title>Physics-Aware Robotic Palletization with Online Masking Inference</title>
+      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
+      <guid isPermaLink="false">conf:icra2025:award:8</guid>
+      <pubDate></pubDate>
+      <description></description>
     </item>
     <item>
-      <title>A Self-Evolving Default Action for Cooperative Tasks with Continuous Action Space</title>
-      <link>https://arxiv.org/abs/2607.18597</link>
-      <guid isPermaLink="false">arxiv:2607.18597</guid>
-      <pubDate>2026-07-21</pubDate>
-      <description>Counterfactual credit assignment has proven effective in multi-agent reinforcement learning (MARL) for discrete action spaces, yet its extension to continuous-action cooperative tasks remains challenging. Existing methods that approximate the counterfactual baseline via Monte Carlo sampling often introduce bias into policy gradients and fail to guarantee convergence to local optima, as the sampled actions may not have been sufficiently trained. To address these limitations, we propose SAFE, a no</description>
+      <title>In-Vivo Tendon-Driven Rodent Ankle Exoskeleton System for Sensorimotor Rehabilitation</title>
+      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
+      <guid isPermaLink="false">conf:icra2025:award:9</guid>
+      <pubDate></pubDate>
+      <description></description>
     </item>
     <item>
-      <title>Scalable Policy Optimization for Networked Multi-Agent Reinforcement Learning with Continuous State-Action Spaces</title>
-      <link>https://arxiv.org/abs/2607.18554</link>
-      <guid isPermaLink="false">arxiv:2607.18554</guid>
-      <pubDate>2026-07-20</pubDate>
-      <description>We develop the Continuous Distributed Coupled Policy Gradient (CDCPG) algorithm for cooperative reinforcement learning in networked Markov decision processes with continuous state and action spaces. Each agent maintains a local actor over a bounded graph neighborhood, and a localized least-squares temporal-difference critic evaluates a truncated action-value function through a spectral random-feature representation of the local transition kernel. The analysis makes four contributions. First, the</description>
+      <title>Deploying Ten Thousand Robots: Scalable Imitation Learning for Lifelong Multi-Agent Path Finding</title>
+      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
+      <guid isPermaLink="false">conf:icra2025:award:10</guid>
+      <pubDate></pubDate>
+      <description></description>
     </item>
     <item>
-      <title>RoboHarness: Memory-Driven Orchestration of Heterogeneous Robot Policies for Long-Horizon Planning</title>
-      <link>https://arxiv.org/abs/2607.18060</link>
-      <guid isPermaLink="false">arxiv:2607.18060</guid>
-      <pubDate>2026-07-20</pubDate>
-      <description>Long-horizon robotic tasks require diverse capabilities that no single policy can reliably provide. Heterogeneous policies offer complementary strengths, but orchestrating them requires reasoning over uncertain capability boundaries and cross-policy distribution mismatch, which are largely overlooked by existing planning methods built on homogeneous, predefined skills with fixed applicability. We propose RoboHarness, a unified framework that encapsulates independently developed robot control sys</description>
+      <title>Deploying Ten Thousand Robots: Scalable Imitation Learning for Lifelong Multi-Agent Path Finding</title>
+      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
+      <guid isPermaLink="false">conf:icra2025:award:11</guid>
+      <pubDate></pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>MAC-VO: Metrics-Aware Covariance for Learning-Based Stereo Visual Odometry</title>
+      <link>https://2025.ieee-icra.org/program/awards-and-finalists/</link>
+      <guid isPermaLink="false">conf:icra2025:award:12</guid>
+      <pubDate></pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>VGGT: Visual Geometry Grounded Transformer</title>
+      <link>https://cvpr.thecvf.com/Conferences/2025/BestPapersDemos</link>
+      <guid isPermaLink="false">conf:cvpr2025:award:1</guid>
+      <pubDate></pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>Neural Inverse Rendering from Propagating Light</title>
+      <link>https://cvpr.thecvf.com/Conferences/2025/BestPapersDemos</link>
+      <guid isPermaLink="false">conf:cvpr2025:award:2</guid>
+      <pubDate></pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>MegaSaM: Accurate, Fast and Robust Structure and Motion from Casual Dynamic Videos</title>
+      <link>https://cvpr.thecvf.com/Conferences/2025/BestPapersDemos</link>
+      <guid isPermaLink="false">conf:cvpr2025:award:3</guid>
+      <pubDate></pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>Navigation World Models</title>
+      <link>https://cvpr.thecvf.com/Conferences/2025/BestPapersDemos</link>
+      <guid isPermaLink="false">conf:cvpr2025:award:4</guid>
+      <pubDate></pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models</title>
+      <link>https://cvpr.thecvf.com/Conferences/2025/BestPapersDemos</link>
+      <guid isPermaLink="false">conf:cvpr2025:award:5</guid>
+      <pubDate></pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>3D Student Splatting and Scooping</title>
+      <link>https://cvpr.thecvf.com/Conferences/2025/BestPapersDemos</link>
+      <guid isPermaLink="false">conf:cvpr2025:award:6</guid>
+      <pubDate></pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>Generative Multimodal Pretraining with Discrete Diffusion Timestep Tokens</title>
+      <link>https://cvpr.thecvf.com/Conferences/2025/BestPapersDemos</link>
+      <guid isPermaLink="false">conf:cvpr2025:award:7</guid>
+      <pubDate></pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)</title>
+      <link>https://neurips.cc/virtual/2025/poster/121421</link>
+      <guid isPermaLink="false">conf:neurips2025:award:1</guid>
+      <pubDate></pubDate>
+      <description></description>
     </item>
   </channel>
 </rss>

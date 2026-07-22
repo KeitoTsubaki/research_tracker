@@ -13,6 +13,11 @@ JSONファイルをDB代わりにした構成で動きます。
   ├─ data/papers.json に追記・重複排除してcommit (memoフィールドは既存データを保持)
   └─ public/rss.xml を再生成してcommit (scripts/generate_rss.py)
 
+[手動実行: 過去論文の一括バックフィル]
+  └─ scripts/fetch_arxiv_historical.py が cooperative-transport キーワード群で
+     arXivを2000年以降まで遡って検索(MARL手法を使っていない古典的な協調搬送
+     研究も対象。crontabには乗せず、必要なときに手動実行する)
+
 [静的サイト (Astro + Tailwind CSS, output: 'static')]
   ├─ data/papers.json をビルド時に読み込みカード表示
   ├─ カテゴリ・会議・キーワード・メモ有無で絞り込み、新着順/受賞順でソート
@@ -28,21 +33,25 @@ JSONファイルをDB代わりにした構成で動きます。
 │   ├── fetch-conference-weekly.yml # 毎週: 会議受賞論文収集 → commit
 │   └── deploy-pages.yml            # push時: ビルド → GitHub Pagesデプロイ
 ├── scripts/
-│   ├── fetch_arxiv.py
+│   ├── fetch_arxiv.py               # 毎日: 新着論文を収集
+│   ├── fetch_arxiv_historical.py    # 手動: 過去論文を一括バックフィル
 │   ├── fetch_conference_awards.py
 │   ├── generate_rss.py
-│   ├── lib/store.py                # papers.json の読込・マージ・保存の共通処理
+│   ├── lib/
+│   │   ├── store.py                # papers.json の読込・マージ・保存の共通処理
+│   │   └── keywords.py             # キーワードグループ(marl/cooperative-transport/
+│   │                                # autonomous-driving)の単一の定義元
 │   └── scrapers/                   # 会議ごとのスクレイパー(プラグイン方式)
 │       ├── base.py                 # 共通パーサー(make_award_scraper)
-│       ├── icra.py                 # ICRA
-│       ├── cvpr.py                 # CVPR
-│       ├── iros.py                 # IROS
-│       ├── neurips.py              # NeurIPS
-│       ├── icml.py                 # ICML
-│       ├── aaai.py                 # AAAI
-│       ├── rss.py                  # RSS (Robotics: Science and Systems)
-│       ├── ieee_iv.py              # IEEE IV (Intelligent Vehicles Symposium)
-│       └── itsc.py                 # IEEE ITSC
+│       ├── icra.py                 # ICRA(専用パーサー)
+│       ├── cvpr.py                 # CVPR(専用パーサー)
+│       ├── iros.py                 # IROS(汎用パーサー、結果ページ未特定)
+│       ├── neurips.py              # NeurIPS(専用パーサー)
+│       ├── icml.py                 # ICML(専用パーサー)
+│       ├── aaai.py                 # AAAI(専用パーサー)
+│       ├── rss.py                  # RSS: Robotics: Science and Systems(専用パーサー)
+│       ├── ieee_iv.py              # IEEE IV(汎用パーサー、結果ページ未特定)
+│       └── itsc.py                 # IEEE ITSC(専用パーサー)
 ├── data/
 │   └── papers.json                 # 論文データ(DB代わり)
 ├── src/                            # Astroプロジェクト本体
@@ -63,6 +72,10 @@ pip install -r requirements.txt
 python scripts/fetch_arxiv.py
 python scripts/fetch_conference_awards.py
 python scripts/generate_rss.py
+
+# 過去論文の一括バックフィル(2000年以降、必要なときに手動実行)
+python scripts/fetch_arxiv_historical.py
+python scripts/fetch_arxiv_historical.py --start-year 1995   # 開始年を変えたい場合
 ```
 
 ## GitHub Pagesの有効化
@@ -92,17 +105,31 @@ python scripts/generate_rss.py
 
 ### キーワードを追加する
 
-- `scripts/fetch_arxiv.py` の `KEYWORD_GROUPS` 辞書にキーワードを追記する
-  (`marl` グループと `autonomous-driving` グループのどちらかに追加、
-  または新しいグループを追加する場合は `src/lib/papers.ts` の
-  `KEYWORD_GROUPS` にも同じslugを追加してフィルタUIに反映させる)。
+- `scripts/lib/keywords.py` の `KEYWORD_GROUPS` 辞書がキーワード定義の唯一の場所。
+  `fetch_arxiv.py`(日次)・`fetch_arxiv_historical.py`(過去バックフィル)・
+  `fetch_conference_awards.py`(会議受賞論文へのタグ付け)の全てがここを参照する。
+- `marl`(MARL手法) / `cooperative-transport`(協調ロボット搬送。MARLでなくても
+  該当すればタグ付けする) / `autonomous-driving` のいずれかにキーワードを追記するか、
+  新しいグループを追加する場合は `src/lib/papers.ts` の `KEYWORD_GROUPS` にも
+  同じslugを追加してフィルタUIに反映させる。
 - キーワードは小文字で判定しているので、追加時も小文字で書けばOK
   (マッチングはタイトル+要旨を小文字化してから部分一致で行う)。
+- 新しいキーワードを追加したら、`python scripts/fetch_arxiv_historical.py` を
+  再実行すると過去分も遡って拾い直せる(既存論文はmemoを保持したままタグだけ
+  更新される)。
 
 ### 会議スクレイパーを追加する
 
-1. `scripts/scrapers/新しい会議名.py` を作成し、`scrape() -> list[AwardPaper]` を実装する
-   (`scripts/scrapers/base.py` の `AwardPaper` / `fetch_html` / `classify_award` を利用可能)。
+1. `scripts/scrapers/新しい会議名.py` を作成し、`scrape() -> list[AwardPaper]` を実装する。
+   実装方法は2通り:
+   - **汎用パーサー**: `scripts/scrapers/base.py` の `make_award_scraper()` に
+     会議名・URL・賞ラベルのキーワード辞書を渡すだけ(`iros.py` / `ieee_iv.py`参照)。
+     見出しやリスト項目の中に賞のキーワードとリンクが同居しているシンプルな
+     ページ向け。
+   - **専用パーサー**: ページ構造が複雑な場合(テーブル、`Winner:`マーカー、
+     `<h2>`区切りの複数段落など)は `AwardPaper` / `fetch_html` だけを使って
+     独自にBeautifulSoupでパースする(`icra.py` / `cvpr.py` / `neurips.py` /
+     `icml.py` / `aaai.py` / `rss.py` / `itsc.py` が実例)。
 2. `scripts/scrapers/__init__.py` の `SCRAPERS` 辞書に登録する。
 3. 1つのスクレイパーが例外を投げても他のスクレイパーの処理は止まらない設計になっている
    (`scripts/fetch_conference_awards.py` が各スクレイパーを try/except で個別に実行するため)。
@@ -139,14 +166,25 @@ python scripts/generate_rss.py
 
 - 外部サイトへのスクレイピングは各サイトの利用規約・robots.txtを尊重すること。
 - arXiv APIはリクエスト間隔を3秒以上空けるようにしている(`scripts/fetch_arxiv.py` の
-  `REQUEST_INTERVAL_SECONDS`)。
+  `REQUEST_INTERVAL_SECONDS`)。arXiv APIのURLは必ず `https://` を使うこと
+  (`http://` だと `https://` へのリダイレクトでハングすることがある)。
 - 会議の受賞論文ページはURL・HTML構造が年ごとに変わるため、`scripts/scrapers/` 配下の
-  各モジュール(ICRA / CVPR / IROS / NeurIPS / ICML / AAAI / RSS / IEEE IV / ITSC)の
-  URL・パーサーは年に一度程度の見直しが必要になる。特に多くの会議は開催直前まで
-  正式な受賞ページを公開しないため、`*_AWARDS_URL` が現状カンファレンスのトップページ
-  (または推測パスで404)になっているものがある。その場合スクレイパーは例外を出さず
-  「0件」を返して処理を続行するだけなので、パイプライン自体は壊れない
-  (`scripts/scrapers/base.py` の `make_award_scraper` が持つ最低文字数チェックにより、
-  ナビゲーションリンクなどの誤検出も除外される)。受賞ページが公開され次第、
-  該当モジュールの `*_AWARDS_URL` を実際のURLに差し替えること。
+  各モジュールのURL・パーサーは毎年見直しが必要になる。現時点(2026年7月)では
+  2026年の各カンファレンスがまだ開催されておらず受賞ページも存在しないため、
+  全スクレイパーは **2025年開催回** を対象にしている。新しい年が開催され次第、
+  各モジュールの `CONFERENCE_NAME` / `*_AWARDS_URL` を更新すること
+  (年が変わってもページ構造自体はほぼ変わらないことが多いので、まずURLだけ
+  差し替えて動作確認するとよい)。
+  - 実データが取得できているのは ICRA / CVPR / NeurIPS / ICML / AAAI / RSS / ITSC の7会議。
+  - IROS と IEEE IV は調査時点で安定した受賞結果ページを見つけられなかった
+    (IROS はCall for Nominationsページのみで、かつサイト証明書が期限切れだった。
+    IEEE IVはトップページ止まり)。見つかったらそれぞれ `iros.py` / `ieee_iv.py` の
+    `*_AWARDS_URL` を差し替えること。
+  - その場合でもスクレイパーは例外を出さず「0件」を返して処理を続行するだけなので、
+    パイプライン自体は壊れない(`scripts/scrapers/base.py` の `make_award_scraper` が
+    持つ最低文字数チェックにより、ナビゲーションリンクなどの誤検出も除外される)。
+- `scripts/lib/store.py` の `merge_papers()` は、既存IDの論文でも `memo` /
+  `memo_updated_at` 以外のフィールド(タグなど)は毎回最新の取得結果で上書きする。
+  キーワードやパーサーを直しても再実行するだけで反映されるが、`memo` を手動編集した
+  論文がスクリプトの再実行で消えることはない。
 - 本構成は無料の範囲で完結するように設計されている(有料API・シークレットは不要)。

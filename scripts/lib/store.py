@@ -26,9 +26,16 @@ def load_existing(path: Path = DATA_PATH) -> List[dict]:
 def merge_papers(existing: List[dict], new_papers: Iterable[dict]) -> Tuple[List[dict], List[dict]]:
     """Merge new_papers into existing, keyed by id.
 
-    Papers that already exist are left completely untouched (so their
-    memo / memo_updated_at survive). Only genuinely new ids are added.
-    Returns (merged_list, newly_added_papers).
+    A paper is never duplicated by id. For an id that already exists,
+    every field is refreshed from the freshly-scraped data (e.g. tags,
+    if KEYWORD_GROUPS changed since the last run) EXCEPT memo and
+    memo_updated_at, which always come from the existing entry, and
+    fetched_at, which keeps the original first-seen timestamp. A
+    genuinely new id is inserted as a new entry with an empty memo.
+
+    Returns (merged_list, newly_added_papers). Papers that were
+    refreshed but already existed are not included in the returned
+    "added" list (that list drives the RSS "what's new" feed).
     """
     by_id = {p["id"]: p for p in existing}
     added: List[dict] = []
@@ -36,9 +43,16 @@ def merge_papers(existing: List[dict], new_papers: Iterable[dict]) -> Tuple[List
 
     for paper in new_papers:
         pid = paper["id"]
-        if pid in by_id:
-            continue
         paper = dict(paper)
+
+        if pid in by_id:
+            old = by_id[pid]
+            paper["memo"] = old.get("memo", "")
+            paper["memo_updated_at"] = old.get("memo_updated_at")
+            paper["fetched_at"] = old.get("fetched_at", now)
+            by_id[pid] = paper
+            continue
+
         paper.setdefault("fetched_at", now)
         paper.setdefault("memo", "")
         paper.setdefault("memo_updated_at", None)
