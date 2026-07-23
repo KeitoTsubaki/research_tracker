@@ -95,6 +95,24 @@ const keywordSlugs = KEYWORD_GROUPS.map((g) => g.slug).join(",");
       </div>
     </section>
 
+    <nav class="page-nav mb-4 flex items-center justify-center gap-4 text-sm">
+      {page.url.prev ? (
+        <a href={page.url.prev} class="rounded-lg border border-slate-300 px-3 py-1.5 text-slate-600 hover:bg-slate-50">
+          ← 前へ
+        </a>
+      ) : (
+        <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-slate-300">← 前へ</span>
+      )}
+      <span class="text-slate-500">{page.currentPage} / {page.lastPage} ページ</span>
+      {page.url.next ? (
+        <a href={page.url.next} class="rounded-lg border border-slate-300 px-3 py-1.5 text-slate-600 hover:bg-slate-50">
+          次へ →
+        </a>
+      ) : (
+        <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-slate-300">次へ →</span>
+      )}
+    </nav>
+
     <p class="mb-3 text-sm text-slate-500">
       <span id="pageRangeLabel">このページ: 全{allPapers.length}件中 {page.start + 1}〜{page.end + 1}件目 </span>
       (<span id="resultCount"></span>)
@@ -118,7 +136,7 @@ const keywordSlugs = KEYWORD_GROUPS.map((g) => g.slug).join(",");
       </button>
     </div>
 
-    <nav id="pageNav" class="mt-8 flex items-center justify-center gap-4 text-sm">
+    <nav class="page-nav mt-8 flex items-center justify-center gap-4 text-sm">
       {page.url.prev ? (
         <a href={page.url.prev} class="rounded-lg border border-slate-300 px-3 py-1.5 text-slate-600 hover:bg-slate-50">
           ← 前へ
@@ -151,7 +169,7 @@ const keywordSlugs = KEYWORD_GROUPS.map((g) => g.slug).join(",");
   const pageRangeLabel = document.getElementById("pageRangeLabel")!;
   const emptyState = document.getElementById("emptyState")!;
   const loadMoreBtn = document.getElementById("loadMoreBtn") as HTMLButtonElement;
-  const pageNav = document.getElementById("pageNav")!;
+  const pageNavs = Array.from(document.querySelectorAll<HTMLElement>(".page-nav"));
 
   const searchInput = document.getElementById("search") as HTMLInputElement;
   const categoryFilter = document.getElementById("categoryFilter") as HTMLSelectElement;
@@ -482,7 +500,7 @@ const keywordSlugs = KEYWORD_GROUPS.map((g) => g.slug).join(",");
       requestToken += 1; // invalidate any in-flight global search
       grid.replaceChildren(...originalCards);
       pageRangeLabel.classList.remove("hidden");
-      pageNav.classList.remove("hidden");
+      pageNavs.forEach((nav) => nav.classList.remove("hidden"));
       loadMoreBtn.classList.add("hidden");
       resultCount.textContent = `${originalCards.length}件を表示中`;
       emptyState.classList.add("hidden");
@@ -490,7 +508,7 @@ const keywordSlugs = KEYWORD_GROUPS.map((g) => g.slug).join(",");
     }
 
     pageRangeLabel.classList.add("hidden");
-    pageNav.classList.add("hidden");
+    pageNavs.forEach((nav) => nav.classList.add("hidden"));
     loadMoreBtn.classList.add("hidden");
     resultCount.textContent = "全件検索中...";
     emptyState.classList.add("hidden");
