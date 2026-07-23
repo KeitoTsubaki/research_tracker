@@ -51,6 +51,10 @@ const githubRepo = import.meta.env.PUBLIC_GITHUB_REPO || "KeitoTsubaki/research_
             {g.label}
           </label>
         ))}
+        <select id="tagMode" class="rounded-lg border border-slate-300 px-2 py-1 text-xs" title="複数タグを選んだときの条件">
+          <option value="or">タグ: いずれか(OR)</option>
+          <option value="and">タグ: すべて(AND)</option>
+        </select>
         <span class="mx-1 h-4 w-px bg-slate-200"></span>
         <label class="flex items-center gap-1.5">
           <input type="checkbox" id="favoritesOnlyFilter" class="rounded" />
@@ -93,6 +97,7 @@ const githubRepo = import.meta.env.PUBLIC_GITHUB_REPO || "KeitoTsubaki/research_
   const memoFilter = document.getElementById("memoFilter") as HTMLSelectElement;
   const sortSelect = document.getElementById("sortSelect") as HTMLSelectElement;
   const tagCheckboxes = Array.from(document.querySelectorAll<HTMLInputElement>(".tag-filter"));
+  const tagModeSelect = document.getElementById("tagMode") as HTMLSelectElement;
   const favoritesOnlyFilter = document.getElementById("favoritesOnlyFilter") as HTMLInputElement;
   const readlaterOnlyFilter = document.getElementById("readlaterOnlyFilter") as HTMLInputElement;
   const resetButton = document.getElementById("resetFilters")!;
@@ -118,13 +123,25 @@ const githubRepo = import.meta.env.PUBLIC_GITHUB_REPO || "KeitoTsubaki/research_
   const favorites = loadIdSet(FAVORITES_KEY);
   const readLater = loadIdSet(READLATER_KEY);
 
+  // Emoji glyphs ignore CSS `color`, so active/inactive is signaled with a
+  // colored background pill plus opacity/grayscale/scale instead of color
+  // alone - otherwise the read-later button gave no visible feedback at all.
   function applyToggleState(button: HTMLElement, active: boolean) {
     button.setAttribute("aria-pressed", String(active));
-    button.classList.toggle("text-amber-500", active && button.classList.contains("favorite-toggle"));
-    button.classList.toggle("text-indigo-500", active && button.classList.contains("readlater-toggle"));
-    button.classList.toggle("text-slate-300", !active);
+    button.classList.toggle("opacity-40", !active);
+    button.classList.toggle("grayscale", !active);
+    button.classList.toggle("opacity-100", active);
+    button.classList.toggle("scale-110", active);
+
     if (button.classList.contains("favorite-toggle")) {
       button.textContent = active ? "★" : "☆";
+      button.classList.toggle("bg-amber-100", active);
+      button.classList.toggle("text-amber-500", active);
+      button.classList.toggle("text-slate-300", !active);
+    } else if (button.classList.contains("readlater-toggle")) {
+      button.classList.toggle("bg-indigo-100", active);
+      button.classList.toggle("ring-1", active);
+      button.classList.toggle("ring-indigo-300", active);
     }
   }
 
@@ -207,6 +224,7 @@ const githubRepo = import.meta.env.PUBLIC_GITHUB_REPO || "KeitoTsubaki/research_
     const conference = conferenceFilter.value;
     const memo = memoFilter.value;
     const activeTags = tagCheckboxes.filter((cb) => cb.checked).map((cb) => cb.dataset.tag!);
+    const tagMode = tagModeSelect.value;
     const favoritesOnly = favoritesOnlyFilter.checked;
     const readLaterOnly = readlaterOnlyFilter.checked;
 
@@ -220,7 +238,9 @@ const githubRepo = import.meta.env.PUBLIC_GITHUB_REPO || "KeitoTsubaki/research_
       const matchesConference = !conference || card.dataset.conference === conference;
       const matchesMemo =
         !memo || (memo === "with" ? card.dataset.hasMemo === "1" : card.dataset.hasMemo === "0");
-      const matchesTags = activeTags.length === 0 || activeTags.some((t) => tags.includes(t));
+      const matchesTags =
+        activeTags.length === 0 ||
+        (tagMode === "and" ? activeTags.every((t) => tags.includes(t)) : activeTags.some((t) => tags.includes(t)));
       const matchesFavorites = !favoritesOnly || favorites.has(id);
       const matchesReadLater = !readLaterOnly || readLater.has(id);
 
@@ -255,6 +275,7 @@ const githubRepo = import.meta.env.PUBLIC_GITHUB_REPO || "KeitoTsubaki/research_
     el.addEventListener("input", update)
   );
   tagCheckboxes.forEach((cb) => cb.addEventListener("change", update));
+  tagModeSelect.addEventListener("change", update);
   favoritesOnlyFilter.addEventListener("change", update);
   readlaterOnlyFilter.addEventListener("change", update);
 
@@ -265,6 +286,7 @@ const githubRepo = import.meta.env.PUBLIC_GITHUB_REPO || "KeitoTsubaki/research_
     memoFilter.value = "";
     sortSelect.value = "newest";
     tagCheckboxes.forEach((cb) => (cb.checked = false));
+    tagModeSelect.value = "or";
     favoritesOnlyFilter.checked = false;
     readlaterOnlyFilter.checked = false;
     update();
