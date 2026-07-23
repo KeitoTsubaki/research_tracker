@@ -22,7 +22,9 @@
     ],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:08:08Z"
+    "fetched_at": "2026-07-22T01:08:08Z",
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2607.19117",
@@ -43,7 +45,9 @@
     ],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:08:08Z"
+    "fetched_at": "2026-07-22T01:08:08Z",
+    "venue_status": "preprint",
+    "venue_note": "9 pages, 2 figures"
   },
   {
     "id": "arxiv:2607.19036",
@@ -71,7 +75,9 @@
     ],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:08:08Z"
+    "fetched_at": "2026-07-22T01:08:08Z",
+    "venue_status": "published",
+    "venue_note": "Accepted to ECCV 2026. 17 pages, 8 figures, 6 tables. Code: https://github.com/Megalo-f/CoGoal3D"
   },
   {
     "id": "arxiv:2607.18936",
@@ -91,7 +97,9 @@
     ],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:08:08Z"
+    "fetched_at": "2026-07-22T01:08:08Z",
+    "venue_status": "published",
+    "venue_note": "9 pages (8-page paper + IEEE copyright/citation cover page), 6 figures. Accepted to IEEE/RSJ IROS 2026"
   },
   {
     "id": "arxiv:2607.18887",
@@ -115,7 +123,9 @@
     ],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:08:08Z"
+    "fetched_at": "2026-07-22T01:08:08Z",
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2607.18855",
@@ -137,7 +147,9 @@
     ],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:08:08Z"
+    "fetched_at": "2026-07-22T01:08:08Z",
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2607.18663",
@@ -160,7 +172,9 @@
     ],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:08:08Z"
+    "fetched_at": "2026-07-22T01:08:08Z",
+    "venue_status": "preprint",
+    "venue_note": "17 pages, 8 figures"
   },
   {
     "id": "arxiv:2607.18637",
@@ -190,7 +204,9 @@
     ],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:08:08Z"
+    "fetched_at": "2026-07-22T01:08:08Z",
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2607.18597",
@@ -210,7 +226,9 @@
     ],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:08:08Z"
+    "fetched_at": "2026-07-22T01:08:08Z",
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2607.19306",
@@ -238,7 +256,9 @@
     ],
     "fetched_at": "2026-07-22T05:48:26Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "25 pages, 10 figures, 5 tables"
   },
   {
     "id": "arxiv:2607.19284",
@@ -261,7 +281,9 @@
     ],
     "fetched_at": "2026-07-22T05:48:26Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "8 pages, 1 figure, accepted to CDC 2026"
   },
   {
     "id": "arxiv:2607.18913",
@@ -282,7 +304,9 @@
     ],
     "fetched_at": "2026-07-22T05:48:26Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "12 pages, 9 figures, submitted to IEEE for possible publication"
   },
   {
     "id": "arxiv:2607.18859",
@@ -311,7 +335,9 @@
     ],
     "fetched_at": "2026-07-22T05:48:26Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "14 pages, 5 figures"
   },
   {
     "id": "arxiv:2607.18719",
@@ -334,7 +360,9 @@
     ],
     "fetched_at": "2026-07-22T05:48:26Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 14 figures, 24th IEEE/WIC International Conference on Web Intelligence and Intelligent Agent Technology (WI-IAT 2025)"
   },
   {
     "id": "arxiv:2607.18554",
@@ -357,7 +385,9 @@
     ],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:08:08Z"
+    "fetched_at": "2026-07-22T01:08:08Z",
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2607.18060",
@@ -385,7 +415,9 @@
     ],
     "fetched_at": "2026-07-22T01:08:08Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "21 pages, 8 figures"
   },
   {
     "id": "arxiv:2607.18536",
@@ -407,7 +439,9 @@
     ],
     "fetched_at": "2026-07-22T05:48:26Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "16 pages"
   },
   {
     "id": "arxiv:2607.18102",
@@ -450,7 +484,9 @@
     ],
     "fetched_at": "2026-07-22T05:48:26Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "20 pages, 14 figures, 9 tables"
   },
   {
     "id": "arxiv:2607.17007",
@@ -473,7 +509,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "Supplementary video available at: https://youtu.be/w8hg52T8Luc?si=nzQrGsqP5ZBNFlGp"
   },
   {
     "id": "arxiv:2607.06990",
@@ -502,7 +540,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "RSS 2026"
   },
   {
     "id": "arxiv:2607.00160",
@@ -528,7 +568,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "8 pages, 9 Figures, Accepted at IROS2026"
   },
   {
     "id": "arxiv:2606.29358",
@@ -550,7 +592,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "IROS 2026"
   },
   {
     "id": "arxiv:2606.11818",
@@ -572,7 +616,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Accepted to the 35th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN 2026)"
   },
   {
     "id": "arxiv:2606.09610",
@@ -595,7 +641,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2606.10039",
@@ -616,7 +664,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 11 figures. IEEE/ASME International Conference on Advanced Intelligent Mechatronics, 2026"
   },
   {
     "id": "arxiv:2605.29378",
@@ -638,7 +688,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "This paper has been accepted for publication in the Proceedings of the 2026 IEEE 22nd International Conference on Automation Science and Engineering (CASE 2026), August 17-21, 2026, Shenyang, China"
   },
   {
     "id": "arxiv:2605.28448",
@@ -660,7 +712,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Accepted by 2026 MARSS"
   },
   {
     "id": "arxiv:2605.26430",
@@ -685,7 +739,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Accepted for presentation at the 2026 ASME IDETC-CIE"
   },
   {
     "id": "arxiv:2605.19431",
@@ -711,7 +767,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2605.17300",
@@ -734,7 +792,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2605.16097",
@@ -757,7 +817,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "arxiv:2605.13006",
@@ -778,7 +840,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "25 pages, 9 figures, 6 tables. Accepted for publication in the journal Swarm Intelligence"
   },
   {
     "id": "arxiv:2604.18557",
@@ -807,7 +871,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2604.12852",
@@ -831,7 +897,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2604.11640",
@@ -855,7 +923,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2604.05831",
@@ -879,7 +949,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "8 pages"
   },
   {
     "id": "arxiv:2604.03200",
@@ -903,7 +975,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2603.27328",
@@ -925,7 +999,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2603.24813",
@@ -946,7 +1022,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2603.14811",
@@ -981,7 +1059,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2603.07988",
@@ -1002,7 +1082,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "CVPR 2026. Project page: https://splionar.github.io/TeamHOI/ Code: https://github.com/sail-sg/TeamHOI"
   },
   {
     "id": "arxiv:2603.08111",
@@ -1028,7 +1110,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "9 pages, 7 figures"
   },
   {
     "id": "arxiv:2603.06955",
@@ -1051,7 +1135,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "7 pages, 8 figures"
   },
   {
     "id": "arxiv:2603.07095",
@@ -1075,7 +1161,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2603.06356",
@@ -1097,7 +1185,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "8 pages"
   },
   {
     "id": "arxiv:2603.06933",
@@ -1119,7 +1209,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2603.03751",
@@ -1142,7 +1234,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2603.03768",
@@ -1165,7 +1259,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2603.02190",
@@ -1186,7 +1282,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Accepted to CVPR 2026 Main Conference (11 pages, 8 figures)"
   },
   {
     "id": "arxiv:2602.24260",
@@ -1208,7 +1306,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2602.21768",
@@ -1229,7 +1329,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2602.19653",
@@ -1253,7 +1355,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2602.19070",
@@ -1276,7 +1380,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2602.18850",
@@ -1297,7 +1403,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "Original version submitted to the International Journal of Social Robotics. Final version available on the SORO website"
   },
   {
     "id": "arxiv:2602.16353",
@@ -1320,7 +1428,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2602.07776",
@@ -1343,7 +1453,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "9 pages, 5 figures"
   },
   {
     "id": "arxiv:2602.05516",
@@ -1368,7 +1480,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "10 pages, 8 figures"
   },
   {
     "id": "arxiv:2602.04419",
@@ -1393,7 +1507,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "8 pages, 7 figures; accepted by ICRA 2026"
   },
   {
     "id": "arxiv:2512.14206",
@@ -1415,7 +1531,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2512.12601",
@@ -1438,7 +1556,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2512.07819",
@@ -1460,7 +1580,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2511.22810",
@@ -1482,7 +1604,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "14 pages"
   },
   {
     "id": "arxiv:2511.15532",
@@ -1504,7 +1628,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "This work has been submitted to the IFAC World Congress for possible publication. Under review"
   },
   {
     "id": "arxiv:2510.26362",
@@ -1526,7 +1652,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2510.17143",
@@ -1548,7 +1676,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Accepted by IEEE MRS 2025"
   },
   {
     "id": "arxiv:2510.11413",
@@ -1572,7 +1702,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Accepted for publication at the 2026 International Conference on Unmanned Aircraft Systems, ICUAS 2026"
   },
   {
     "id": "arxiv:2510.08705",
@@ -1595,7 +1727,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2510.02624",
@@ -1616,7 +1750,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2509.25352",
@@ -1641,7 +1777,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "Submitted for Publication"
   },
   {
     "id": "arxiv:2509.18084",
@@ -1667,7 +1805,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "Tech Report.13 pages, 9 figures. Project page: https://bytewrist.github.io/"
   },
   {
     "id": "arxiv:2509.14126",
@@ -1692,7 +1832,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "International Conference on Robotics and Automation (ICRA), 2026"
   },
   {
     "id": "arxiv:2509.14342",
@@ -1714,7 +1856,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Accepted to ICRA 2026. Project page: https://decplm.github.io"
   },
   {
     "id": "arxiv:2509.03563",
@@ -1739,7 +1883,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2509.01952",
@@ -1761,7 +1907,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "arxiv:2508.13877",
@@ -1786,7 +1934,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2508.00584",
@@ -1810,7 +1960,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Please find the citation info @ Zenodo, ArXiv or Zenodo, as the proceedings of ICRA are no longer sent to IEEE Xplore"
   },
   {
     "id": "arxiv:2507.11211",
@@ -1834,7 +1986,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "10 pages, 5 figures, submitted to IEEE Robotics and Automation Letters (RA-L)"
   },
   {
     "id": "arxiv:2506.13428",
@@ -1859,7 +2013,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Accepted by IEEE RA-L"
   },
   {
     "id": "arxiv:2506.13953",
@@ -1881,7 +2037,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Accepted by the 2025 34th IEEE International Conference on Robot and Human Interactive Communication (ROMAN)"
   },
   {
     "id": "arxiv:2506.13957",
@@ -1906,7 +2064,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "This paper has been accepted for publication in the Proceedings of the 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025) as oral presentation, 8 pages with 8 figures"
   },
   {
     "id": "arxiv:2506.09697",
@@ -1931,7 +2091,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2505.23505",
@@ -1955,7 +2117,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "arxiv:2505.20751",
@@ -1976,7 +2140,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "ICRA 2025"
   },
   {
     "id": "arxiv:2505.09144",
@@ -2000,7 +2166,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2504.18667",
@@ -2021,7 +2189,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "15 pages, 11 figures"
   },
   {
     "id": "arxiv:2504.20071",
@@ -2042,7 +2212,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "2021 IEEE International Conference on Robotics and Automation (ICRA)"
   },
   {
     "id": "arxiv:2504.04998",
@@ -2080,7 +2252,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "The paper is currently under review at the Journal of Field Robotics. We will update the related information in case of acceptance"
   },
   {
     "id": "arxiv:2504.03123",
@@ -2102,7 +2276,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "arXiv admin note: text overlap with arXiv:2303.06165 by other authors"
   },
   {
     "id": "arxiv:2503.20723",
@@ -2123,7 +2299,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2503.09930",
@@ -2145,7 +2323,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Proc. of the 2025 IEEE American Control Conference"
   },
   {
     "id": "arxiv:2503.01096",
@@ -2168,7 +2348,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "This paper has been accepted for publication in the IEEE International Conference on Robotics and Automation(ICRA), 2025. Please cite the paper using appropriate formats"
   },
   {
     "id": "arxiv:2502.13366",
@@ -2191,7 +2373,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2502.13707",
@@ -2218,7 +2402,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "13 pages, 9 figures"
   },
   {
     "id": "arxiv:2502.05462",
@@ -2241,7 +2427,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Published in ASME Letters in Translational Robotics. This includes supplementary materials"
   },
   {
     "id": "arxiv:2502.03346",
@@ -2262,7 +2450,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Preprint. Accepted to HRI 2025"
   },
   {
     "id": "arxiv:2412.18877",
@@ -2285,7 +2475,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2412.17748",
@@ -2307,7 +2499,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2412.08644",
@@ -2328,7 +2522,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 5 figures, project website: https://hcrlab.gitlab.io/project/blct"
   },
   {
     "id": "arxiv:2411.07079",
@@ -2350,7 +2546,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "8 pages, 7 figures. Published in IEEE Robotics and Automation Letters"
   },
   {
     "id": "arxiv:2410.21630",
@@ -2374,7 +2572,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Accepted for publication at IEEE International Conference on Robotics and Automation (ICRA) 2025"
   },
   {
     "id": "arxiv:2409.14910",
@@ -2397,7 +2597,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Video: https://youtu.be/LhE_HcK4g-s"
   },
   {
     "id": "arxiv:2409.02436",
@@ -2419,7 +2621,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2408.16420",
@@ -2443,7 +2647,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Accepted to the European Robotic Forum (ERF) 2024"
   },
   {
     "id": "arxiv:2407.20041",
@@ -2467,7 +2673,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "34 pages, 7 figures"
   },
   {
     "id": "arxiv:2406.14558",
@@ -2497,7 +2705,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "Project website: https://gao-jiawei.com/Research/CooHOI/. NeurIPS 2024 Spotlight"
   },
   {
     "id": "arxiv:2406.05613",
@@ -2522,7 +2732,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2405.12125",
@@ -2545,7 +2757,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "IEEE Transactions on Robotics (2023)"
   },
   {
     "id": "arxiv:2405.01772",
@@ -2570,7 +2784,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "The first two authors contributed equally. Accepted to SoCS 2024"
   },
   {
     "id": "arxiv:2404.19070",
@@ -2591,7 +2807,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2404.11817",
@@ -2614,7 +2832,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "8 pages, 10 figures"
   },
   {
     "id": "arxiv:2404.02362",
@@ -2638,7 +2858,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "7 pages, 6 figures"
   },
   {
     "id": "arxiv:2404.00442",
@@ -2666,7 +2888,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2404.00143",
@@ -2691,7 +2915,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "The first two authors contributed equally. Accepted to ICAPS 2024"
   },
   {
     "id": "arxiv:2403.15648",
@@ -2714,7 +2940,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2402.10372",
@@ -2738,7 +2966,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Accepted to IEEE International Conference on Robotics and Automation - ICRA 2024. 7 pages. 4 figures"
   },
   {
     "id": "arxiv:2312.02008",
@@ -2760,7 +2990,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Published in the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2024)"
   },
   {
     "id": "arxiv:2310.12409",
@@ -2782,7 +3014,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "11 pages, 5 figures, for associated video, see https://youtu.be/bGH6GAFlRgA?si=wXj_SRzEE8BYoV2a"
   },
   {
     "id": "arxiv:2310.05904",
@@ -2804,7 +3038,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "7 pages, 3 figures. Submitted to the 2024 ACC on September 29, 2023"
   },
   {
     "id": "arxiv:2310.02726",
@@ -2829,7 +3065,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2309.04843",
@@ -2850,7 +3088,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "This paper is accepted by RA-L"
   },
   {
     "id": "arxiv:2308.09219",
@@ -2873,7 +3113,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "22 pages, 5 figures, 2 tables"
   },
   {
     "id": "arxiv:2308.07071",
@@ -2896,7 +3138,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2308.03328",
@@ -2921,7 +3165,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "arxiv:2308.00937",
@@ -2946,7 +3192,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "8 pages, 3 figures, accepted by RA-L"
   },
   {
     "id": "arxiv:2307.00705",
@@ -2969,7 +3217,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2306.16783",
@@ -2994,7 +3244,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "8 pages, accepted in IEEE Robotics and Automation Letters, 19 June 2023"
   },
   {
     "id": "arxiv:2306.16857",
@@ -3021,7 +3273,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "ICRA24"
   },
   {
     "id": "arxiv:2306.12926",
@@ -3045,7 +3299,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2305.17484",
@@ -3066,7 +3322,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "10 pages, 14 figures; longer version of an article published in IEEE Robotics and Automation Letters (RA-L)"
   },
   {
     "id": "arxiv:2305.12860",
@@ -3089,7 +3347,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 7 figures, 1 table"
   },
   {
     "id": "arxiv:2305.01614",
@@ -3114,7 +3374,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2304.08298",
@@ -3137,7 +3399,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2304.07407",
@@ -3159,7 +3423,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "50 pages, 4 figures"
   },
   {
     "id": "arxiv:2304.00193",
@@ -3183,7 +3449,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2303.11865",
@@ -3206,7 +3474,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2303.08933",
@@ -3231,7 +3501,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "This paper has been accepted to be presented at the IEEE International Conference on Robotics and Automation, 2023"
   },
   {
     "id": "arxiv:2303.06624",
@@ -3258,7 +3530,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2303.06165",
@@ -3279,7 +3553,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "This paper has been presented in IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023. Please cite the paper with the appropriate formats"
   },
   {
     "id": "arxiv:2303.01379",
@@ -3301,7 +3577,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "PhD thesis; also available at http://kth.diva-portal.org/smash/get/diva2:1427745/FULLTEXT01.pdf"
   },
   {
     "id": "arxiv:2302.11491",
@@ -3326,7 +3604,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2302.07031",
@@ -3349,7 +3629,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2302.02881",
@@ -3372,7 +3654,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "6 pages, 5 figures, for associated video, see this https://youtu.be/UABeGPIIrHc"
   },
   {
     "id": "arxiv:2301.10528",
@@ -3395,7 +3679,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "14 pages, 12 figures, 2 tables, associated video: https://youtu.be/hhL5-Lpzj4M"
   },
   {
     "id": "arxiv:2301.06749",
@@ -3419,7 +3705,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "accepted for presentation at ICRA 2023; associated Video: https://youtu.be/PnNboHOgPS0"
   },
   {
     "id": "arxiv:2212.02692",
@@ -3444,7 +3732,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "7 pages, 7 figures"
   },
   {
     "id": "arxiv:2212.01958",
@@ -3467,7 +3757,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "14 pages, 14 figures"
   },
   {
     "id": "arxiv:2211.15824",
@@ -3490,7 +3782,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2211.13680",
@@ -3512,7 +3806,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2210.15908",
@@ -3534,7 +3830,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2210.05894",
@@ -3556,7 +3854,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Guanrui Li and Xinyang Liu contributed equally to this paper. This paper has been accepted to IEEE Transaction on Robotics (T-RO): https://ieeexplore.ieee.org/document/10758214. Please cite it with the proper format"
   },
   {
     "id": "arxiv:2209.12890",
@@ -3578,7 +3878,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "IEEE International Conference on Robotics and Automation (ICRA) 2023. Supplementary materials at https://sites.google.com/view/cooperative-carrying"
   },
   {
     "id": "arxiv:2209.12270",
@@ -3602,7 +3904,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2209.05556",
@@ -3626,7 +3930,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "7 pages,8 figures, IEEE International Conference on Robotics and Automation (ICRA) 2023"
   },
   {
     "id": "arxiv:2208.08054",
@@ -3652,7 +3958,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "21 pages, 9 figures"
   },
   {
     "id": "arxiv:2207.13427",
@@ -3674,7 +3982,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "13 pages, 13 figures, submitted to IEEE Transactions on Automation Science and Engineering, for associated video, see https://youtu.be/oyfUkYj5WYw. arXiv admin note: substantial text overlap with arXiv:2201.10392"
   },
   {
     "id": "arxiv:2207.05896",
@@ -3697,7 +4007,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2206.04596",
@@ -3721,7 +4033,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "ICRA 2023"
   },
   {
     "id": "arxiv:2206.00304",
@@ -3744,7 +4058,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2206.01175",
@@ -3765,7 +4081,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2204.11783",
@@ -3787,7 +4105,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "arXiv admin note: text overlap with arXiv:1803.01579"
   },
   {
     "id": "arxiv:2201.10392",
@@ -3809,7 +4129,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "7 pages, 7 figures, accepted at IEEE International Conference on Intelligent Robots and Systems (IROS 2022), for associated video, see https://youtu.be/ounQmCdYlC4"
   },
   {
     "id": "arxiv:2112.01107",
@@ -3833,7 +4155,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 6 figures"
   },
   {
     "id": "arxiv:2111.09046",
@@ -3857,7 +4181,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "8 pages, 10 figures, accepted by RAL&CASE 2022 in June 24, 2022"
   },
   {
     "id": "arxiv:2111.03283",
@@ -3879,7 +4205,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2111.01963",
@@ -3902,7 +4230,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Accepted for publication in: 2022 International Conference on Robotics and Automation (ICRA), pp. 2024-2030, 2022. doi: 10.1109/ICRA46639.2022.9811768"
   },
   {
     "id": "arxiv:2109.13734",
@@ -3924,7 +4254,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "8 pages, 9 figures, accepted by IROS 2021"
   },
   {
     "id": "arxiv:2109.10575",
@@ -3945,7 +4277,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Accepted for publication in: 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 6322-6328, 2021. doi: 10.1109/IROS51168.2021.9636145"
   },
   {
     "id": "arxiv:2107.07921",
@@ -3966,7 +4300,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Link to the paper: https://www.sciencedirect.com/science/article/pii/S2405896318332464"
   },
   {
     "id": "arxiv:2106.03132",
@@ -3988,7 +4324,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Number of Pages - 14 Number of figures - 9 Accepted by Distributed Autonomous Robotic Systems ' 2021"
   },
   {
     "id": "arxiv:2106.02489",
@@ -4013,7 +4351,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "13 pages, 16 Figures, 2 Tables, 3 Algorithms"
   },
   {
     "id": "arxiv:2104.04342",
@@ -4036,7 +4376,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2103.15260",
@@ -4059,7 +4401,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "7 pages, 7 figures, to be published in the 2021 International Conference on Robotics and Automation"
   },
   {
     "id": "arxiv:2102.00672",
@@ -4082,7 +4426,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "10 pages, submitted to IEEE Transactions on Human-Machine Systems"
   },
   {
     "id": "arxiv:2011.00830",
@@ -4105,7 +4451,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2009.05710",
@@ -4133,7 +4481,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "arxiv:2008.00679",
@@ -4158,7 +4508,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "8 pages, 7 figures"
   },
   {
     "id": "arxiv:2007.14880",
@@ -4180,7 +4532,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2020)"
   },
   {
     "id": "arxiv:2007.09243",
@@ -4204,7 +4558,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "10 pages, 6 figures"
   },
   {
     "id": "arxiv:2006.02027",
@@ -4228,7 +4584,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:2003.09540",
@@ -4256,7 +4614,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "3 pages, 3 figures"
   },
   {
     "id": "arxiv:1911.12650",
@@ -4278,7 +4638,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:1911.01297",
@@ -4300,7 +4662,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:1907.09597",
@@ -4322,7 +4686,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE'19)"
   },
   {
     "id": "arxiv:1906.09563",
@@ -4344,7 +4710,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Accepted in IEEE International Conference on Robotics and Automation (ICRA), Montreal, Canada, 2019. arXiv admin note: text overlap with arXiv:1905.04531"
   },
   {
     "id": "arxiv:1905.04531",
@@ -4367,7 +4735,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Conference paper accepted in IEEE OES Autonomous Underwater Vehicle Symposium (AUVS), Porto, Portugal, November, 2018"
   },
   {
     "id": "arxiv:1905.01248",
@@ -4388,7 +4758,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "Accepted for presentation at ISRR19. 16 Pages"
   },
   {
     "id": "arxiv:1902.00279",
@@ -4409,7 +4781,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "ICRA 2019, 6+1 pages"
   },
   {
     "id": "arxiv:1901.08522",
@@ -4431,7 +4805,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "7 Pages, 11 Figures, 3 Tables, submitted to ICRA 2019"
   },
   {
     "id": "arxiv:1810.08871",
@@ -4454,7 +4830,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:1810.00522",
@@ -4477,7 +4855,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "Submitted to 2019 International Conference on Robotics and Automation (ICRA). 6 pages"
   },
   {
     "id": "arxiv:1809.07560",
@@ -4500,7 +4880,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "6 pages. ICARCV 2018"
   },
   {
     "id": "arxiv:1805.00959",
@@ -4522,7 +4904,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:1803.07940",
@@ -4544,7 +4928,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "European Control Conference 2018. arXiv admin note: text overlap with arXiv:1705.01426"
   },
   {
     "id": "arxiv:1803.01579",
@@ -4567,7 +4953,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "Submitted to IEEE Transactions on Automation Science and Engineering. arXiv admin note: text overlap with arXiv:1611.05186"
   },
   {
     "id": "arxiv:1711.08753",
@@ -4590,7 +4978,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:1710.11088",
@@ -4612,7 +5002,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:1707.04402",
@@ -4636,7 +5028,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "9 pages, 6 figures, AAMAS2018 Conference Proceedings"
   },
   {
     "id": "arxiv:1705.01426",
@@ -4659,7 +5053,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "Simulation results with 3 agents added"
   },
   {
     "id": "arxiv:1702.02511",
@@ -4680,7 +5076,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "In preparation for an IEEE / ACM journal. Currently, this is not published, so jref is left blank"
   },
   {
     "id": "arxiv:1612.04915",
@@ -4704,7 +5102,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": "under review for the IEEE International Conference on Robotics and Automation (ICRA) 2017"
   },
   {
     "id": "arxiv:1611.05186",
@@ -4727,7 +5127,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "To appear in the World Congress of the International Federation of Automatic Control (IFAC), Toulouse, France, July 2017"
   },
   {
     "id": "arxiv:1610.01297",
@@ -4749,7 +5151,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "To appear in the World Congress of the International Federation of Automatic Control (IFAC), Toulouse, France, July 2017"
   },
   {
     "id": "arxiv:1610.00913",
@@ -4770,7 +5174,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "IEEE American Control Conference (ACC), Seattle, 2017, accepted"
   },
   {
     "id": "arxiv:1604.04659",
@@ -4791,7 +5197,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "preprint",
+    "venue_note": null
   },
   {
     "id": "arxiv:1206.5170",
@@ -4815,7 +5223,9 @@
     ],
     "fetched_at": "2026-07-22T01:30:41Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "venue_status": "published",
+    "venue_note": "6 Pages, 4 Figures (Accepted at MNCAPPS 2012)"
   },
   {
     "id": "conf:icra2025:award:1",
@@ -4844,7 +5254,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icra2025:award:2",
@@ -4866,7 +5278,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icra2025:award:3",
@@ -4890,7 +5304,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icra2025:award:4",
@@ -4914,7 +5330,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icra2025:award:5",
@@ -4933,7 +5351,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icra2025:award:6",
@@ -4955,7 +5375,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icra2025:award:7",
@@ -4980,7 +5402,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icra2025:award:8",
@@ -5006,7 +5430,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icra2025:award:9",
@@ -5026,7 +5452,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icra2025:award:10",
@@ -5051,7 +5479,9 @@
     ],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icra2025:award:11",
@@ -5076,7 +5506,9 @@
     ],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icra2025:award:12",
@@ -5098,7 +5530,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:cvpr2025:award:1",
@@ -5121,7 +5555,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:cvpr2025:award:2",
@@ -5143,7 +5579,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:cvpr2025:award:3",
@@ -5169,7 +5607,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:cvpr2025:award:4",
@@ -5191,7 +5631,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:cvpr2025:award:5",
@@ -5258,7 +5700,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:cvpr2025:award:6",
@@ -5279,7 +5723,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:cvpr2025:award:7",
@@ -5305,7 +5751,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:neurips2025:award:1",
@@ -5331,7 +5779,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:neurips2025:award:2",
@@ -5361,7 +5811,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:neurips2025:award:3",
@@ -5383,7 +5835,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:neurips2025:award:4",
@@ -5404,7 +5858,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:neurips2025:award:5",
@@ -5429,7 +5885,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:neurips2025:award:6",
@@ -5450,7 +5908,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:neurips2025:award:7",
@@ -5470,7 +5930,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icml2025:award:1",
@@ -5497,7 +5959,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icml2025:award:2",
@@ -5519,7 +5983,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icml2025:award:3",
@@ -5539,7 +6005,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icml2025:award:4",
@@ -5560,7 +6028,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icml2025:award:5",
@@ -5579,7 +6049,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icml2025:award:6",
@@ -5599,7 +6071,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icml2025:award:7",
@@ -5619,7 +6093,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:icml2025:award:8",
@@ -5639,7 +6115,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:aaai2025:award:1",
@@ -5658,7 +6136,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:aaai2025:award:2",
@@ -5679,7 +6159,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:aaai2025:award:3",
@@ -5702,7 +6184,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:aaai2025:award:4",
@@ -5722,7 +6206,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:aaai2025:award:5",
@@ -5740,7 +6226,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:aaai2025:award:6",
@@ -5758,7 +6246,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:rss2025:award:1",
@@ -5788,7 +6278,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:rss2025:award:2",
@@ -5807,7 +6299,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:rss2025:award:3",
@@ -5831,7 +6325,9 @@
     ],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:rss2025:award:4",
@@ -5858,7 +6354,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:itsc2025:award:1",
@@ -5882,7 +6380,9 @@
     ],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:itsc2025:award:2",
@@ -5908,7 +6408,9 @@
     ],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:itsc2025:award:3",
@@ -5931,7 +6433,9 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   },
   {
     "id": "conf:itsc2025:award:4",
@@ -5954,6 +6458,8 @@
     "tags": [],
     "memo": "",
     "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
+    "fetched_at": "2026-07-22T01:52:39Z",
+    "venue_status": "published",
+    "venue_note": null
   }
 ]

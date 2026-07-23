@@ -13,16 +13,15 @@ submissions only; for older papers see fetch_arxiv_historical.py.
 """
 from __future__ import annotations
 
-import re
 import sys
 import time
 from pathlib import Path
-from typing import Iterator, List
+from typing import List
 
-import feedparser
 import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lib.arxiv import parse_entries  # noqa: E402
 from lib.keywords import match_tags  # noqa: E402
 from lib.store import load_existing, merge_papers, save_latest_new, save_papers  # noqa: E402
 
@@ -52,41 +51,6 @@ def fetch_page(start: int, max_results: int) -> str:
     resp = requests.get(ARXIV_API_URL, params=params, headers={"User-Agent": USER_AGENT}, timeout=30)
     resp.raise_for_status()
     return resp.text
-
-
-def _primary_category(entry) -> str:
-    cat = entry.get("arxiv_primary_category")
-    if isinstance(cat, dict) and cat.get("term"):
-        return cat["term"]
-    tags = entry.get("tags") or []
-    if tags:
-        return tags[0].get("term", "")
-    return ""
-
-
-def parse_entries(xml_text: str) -> Iterator[dict]:
-    feed = feedparser.parse(xml_text)
-    for entry in feed.entries:
-        arxiv_id = entry.id.rsplit("/", 1)[-1]
-        arxiv_id = re.sub(r"v\d+$", "", arxiv_id)
-        title = " ".join(entry.title.split())
-        abstract = " ".join(entry.summary.split())
-        published = entry.published[:10] if getattr(entry, "published", "") else ""
-        authors = [a.get("name", "") for a in getattr(entry, "authors", [])]
-
-        yield {
-            "id": f"arxiv:{arxiv_id}",
-            "title": title,
-            "authors": authors,
-            "source": "arxiv",
-            "category": _primary_category(entry),
-            "conference": None,
-            "award": None,
-            "url": f"https://arxiv.org/abs/{arxiv_id}",
-            "abstract": abstract,
-            "published_date": published,
-            "tags": [],
-        }
 
 
 def fetch_all_entries() -> List[dict]:

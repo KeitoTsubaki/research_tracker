@@ -42,6 +42,10 @@ class AwardPaper:
             "abstract": self.abstract,
             "published_date": self.published_date,
             "tags": self.tags,
+            # A scraped award winner is by definition an accepted, published
+            # paper - there's no "preprint" ambiguity to heuristically guess at.
+            "venue_status": "published",
+            "venue_note": None,
         }
 
 

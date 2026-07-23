@@ -30,8 +30,8 @@ JSONファイルをDB代わりにした構成で動きます。
   ├─ /data.json として全論文データも静的出力し、検索・フィルタを使った瞬間だけ
   │  ブラウザがそれを1回だけ取得して全件横断で絞り込む(何も操作しなければ
   │  取得されないので、通常のページ閲覧は軽量なまま)
-  ├─ カテゴリ・会議・キーワード・メモ有無・お気に入り・あとで読むで絞り込み、
-  │  該当件数を "もっと見る" ボタンで追加読み込み
+  ├─ カテゴリ・会議・キーワード・メモ有無・採択状況(採択済み/プレプリント)・
+  │  お気に入り・あとで読むで絞り込み、該当件数を "もっと見る" ボタンで追加読み込み
   ├─ お気に入り/あとで読むはブラウザのlocalStorageに保存(端末ごと、サーバー不要)
   ├─ メモ編集はGitHub Issue作成画面を開くリンクとして提供
   └─ GitHub Actionsでビルド& GitHub Pagesにデプロイ
@@ -56,10 +56,13 @@ JSONファイルをDB代わりにした構成で動きます。
 │   ├── generate_rss.py
 │   ├── notify_new_papers.py         # 新着論文をSlack/メールに通知
 │   ├── apply_memo_from_issue.py     # Issue本文をパースしてmemoを更新
+│   ├── backfill_venue_status.py     # 手動: 既存論文の採択状況を後から埋める(一回限り)
 │   ├── lib/
 │   │   ├── store.py                # papers.json の読込・マージ・保存の共通処理
-│   │   └── keywords.py             # キーワードグループ(marl/cooperative-transport/
-│   │                                # autonomous-driving)の単一の定義元
+│   │   ├── keywords.py             # キーワードグループ(marl/cooperative-transport/
+│   │   │                            # autonomous-driving)の単一の定義元
+│   │   ├── arxiv.py                # arXiv Atom フィードの共通パーサー
+│   │   └── venue.py                # 採択状況(published/preprint)の判定ロジック
 │   └── scrapers/                   # 会議ごとのスクレイパー(プラグイン方式)
 │       ├── base.py                 # 共通パーサー(make_award_scraper)
 │       ├── icra.py                 # ICRA(専用パーサー)
@@ -207,6 +210,34 @@ GitHub Issueを仲介させる方式で実装している。
 行えるので、荒らし対策をしたい場合はリポジトリを非公開にするか、
 `apply-memo.yml` の条件に「Issue作成者がリポジトリのコラボレーターであること」
 のチェックを追加するとよい。
+
+### 採択状況(採択済み / プレプリント)について
+
+各カードに ✅ 採択・出版済み / 📝 プレプリント のバッジを表示し、フィルタバーの
+「採択状況」で絞り込める。判定方法はデータのソースによって異なる。
+
+- **会議受賞論文(`conference_award`)**: 受賞論文である時点で採択・出版済みなのが
+  自明なので、無条件に `published` を付与する。
+- **arXiv論文(`arxiv`)**: arXiv側に採択・出版を通知する公式フィールドは無いため、
+  著者が `comment` 欄(APIでは `arxiv:comment`)や `journal-ref` 欄に自己申告した
+  情報をヒューリスティックに判定する(`scripts/lib/venue.py`)。
+  - `journal-ref` が設定されていれば無条件に `published`
+  - `comment` に "accepted" "to appear" "camera-ready" "in proceedings of"
+    "published in/at/as" などのフレーズが含まれていれば `published`
+  - それ以外は `preprint` 扱い(著者がコメント欄を更新していない場合や、
+    「Submitted to ICRA 2025」のようにまだ採択されていない場合を含む)
+  - **あくまで著者の自己申告に基づく推測であり、確実な事実確認ではない**。
+    カードのバッジにマウスオーバーすると、判定根拠になった生の comment
+    テキストがツールチップで確認できる。
+- `fetch_arxiv.py` / `fetch_arxiv_historical.py` は新規取得時に自動でこの判定を行う。
+  `scripts/lib/store.py` の `merge_papers()` が既存IDでも `venue_status` /
+  `venue_note` を毎回最新の取得結果で上書きするため、プレプリントが後日
+  採択されてarXiv側のcommentが更新されれば、再取得時に自動で `published` に
+  変わる。
+- **既存データへの反映**: この機能を追加する前に取得済みの論文は comment 欄を
+  保存していなかったため、`python scripts/backfill_venue_status.py` を一度だけ
+  実行してarXiv APIから該当論文のcomment/journal-refを再取得し埋めた
+  (一回限りの移行スクリプト。以後の新規取得では不要)。
 
 ### お気に入り / あとで読む機能
 

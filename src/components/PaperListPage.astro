@@ -63,6 +63,11 @@ const keywordSlugs = KEYWORD_GROUPS.map((g) => g.slug).join(",");
           <option value="with">メモあり</option>
           <option value="without">メモなし</option>
         </select>
+        <select id="venueStatusFilter" class="rounded-lg border border-slate-300 px-3 py-2 text-sm">
+          <option value="">採択状況: すべて</option>
+          <option value="published">✅ 採択・出版済み</option>
+          <option value="preprint">📝 プレプリントのみ</option>
+        </select>
         <select id="sortSelect" class="rounded-lg border border-slate-300 px-3 py-2 text-sm">
           <option value="newest" selected={sortMode === "newest"}>新着順</option>
           <option value="award" selected={sortMode === "award"}>会議受賞順</option>
@@ -175,6 +180,7 @@ const keywordSlugs = KEYWORD_GROUPS.map((g) => g.slug).join(",");
   const categoryFilter = document.getElementById("categoryFilter") as HTMLSelectElement;
   const conferenceFilter = document.getElementById("conferenceFilter") as HTMLSelectElement;
   const memoFilter = document.getElementById("memoFilter") as HTMLSelectElement;
+  const venueStatusFilter = document.getElementById("venueStatusFilter") as HTMLSelectElement;
   const sortSelect = document.getElementById("sortSelect") as HTMLSelectElement;
   const tagCheckboxes = Array.from(document.querySelectorAll<HTMLInputElement>(".tag-filter"));
   const tagModeSelect = document.getElementById("tagMode") as HTMLSelectElement;
@@ -257,6 +263,8 @@ const keywordSlugs = KEYWORD_GROUPS.map((g) => g.slug).join(",");
     tags: string[];
     memo: string;
     memo_updated_at: string | null;
+    venue_status?: "published" | "preprint";
+    venue_note?: string | null;
   }
 
   const DATA_URL = `${baseUrl}data.json`;
@@ -279,6 +287,7 @@ const keywordSlugs = KEYWORD_GROUPS.map((g) => g.slug).join(",");
 
   function renderCardElement(paper: RemotePaper): HTMLElement {
     const hasMemo = paper.memo.trim().length > 0;
+    const venueStatus = paper.venue_status ?? "preprint";
     const tags = paper.tags || [];
     const highlightTags = tags.filter((t) => keywordSlugSet.has(t));
     const otherTags = tags.filter((t) => !keywordSlugSet.has(t));
@@ -294,10 +303,16 @@ const keywordSlugs = KEYWORD_GROUPS.map((g) => g.slug).join(",");
         data-tags="${escapeHtml(tags.join(","))}"
         data-has-memo="${hasMemo ? "1" : "0"}"
         data-award="${paper.award ? "1" : "0"}"
+        data-venue-status="${venueStatus}"
         data-published="${escapeHtml(paper.published_date)}"
         data-search="${escapeHtml(searchBlob)}"
       >
         <div class="flex flex-wrap items-center gap-2 text-xs font-medium">
+          ${
+            venueStatus === "published"
+              ? `<span class="rounded-full bg-emerald-100 px-2.5 py-1 text-emerald-800" title="${escapeHtml(paper.venue_note ?? "")}">✅ 採択・出版済み</span>`
+              : `<span class="rounded-full bg-slate-100 px-2.5 py-1 text-slate-500">📝 プレプリント</span>`
+          }
           <span class="rounded-full bg-slate-100 px-2.5 py-1 text-slate-700">${escapeHtml(paper.category)}</span>
           ${paper.conference ? `<span class="rounded-full bg-indigo-100 px-2.5 py-1 text-indigo-700">${escapeHtml(paper.conference)}</span>` : ""}
           ${paper.award ? `<span class="rounded-full bg-amber-100 px-2.5 py-1 text-amber-800">🏆 ${escapeHtml(paper.award)}</span>` : ""}
@@ -432,6 +447,7 @@ const keywordSlugs = KEYWORD_GROUPS.map((g) => g.slug).join(",");
       !!categoryFilter.value ||
       !!conferenceFilter.value ||
       !!memoFilter.value ||
+      !!venueStatusFilter.value ||
       tagCheckboxes.some((cb) => cb.checked) ||
       favoritesOnlyFilter.checked ||
       readlaterOnlyFilter.checked
@@ -443,6 +459,7 @@ const keywordSlugs = KEYWORD_GROUPS.map((g) => g.slug).join(",");
     category: string;
     conference: string;
     memo: string;
+    venueStatus: string;
     activeTags: string[];
     tagMode: string;
     favoritesOnly: boolean;
@@ -456,13 +473,23 @@ const keywordSlugs = KEYWORD_GROUPS.map((g) => g.slug).join(",");
     const matchesCategory = !opts.category || paper.category === opts.category;
     const matchesConference = !opts.conference || paper.conference === opts.conference;
     const matchesMemo = !opts.memo || (opts.memo === "with" ? hasMemo : !hasMemo);
+    const matchesVenueStatus = !opts.venueStatus || (paper.venue_status ?? "preprint") === opts.venueStatus;
     const matchesTags =
       opts.activeTags.length === 0 ||
       (opts.tagMode === "and" ? opts.activeTags.every((t) => tags.includes(t)) : opts.activeTags.some((t) => tags.includes(t)));
     const matchesFavorites = !opts.favoritesOnly || favorites.has(paper.id);
     const matchesReadLater = !opts.readLaterOnly || readLater.has(paper.id);
 
-    return matchesSearch && matchesCategory && matchesConference && matchesMemo && matchesTags && matchesFavorites && matchesReadLater;
+    return (
+      matchesSearch &&
+      matchesCategory &&
+      matchesConference &&
+      matchesMemo &&
+      matchesVenueStatus &&
+      matchesTags &&
+      matchesFavorites &&
+      matchesReadLater
+    );
   }
 
   function sortPapers(list: RemotePaper[]): RemotePaper[] {
@@ -522,6 +549,7 @@ const keywordSlugs = KEYWORD_GROUPS.map((g) => g.slug).join(",");
       category: categoryFilter.value,
       conference: conferenceFilter.value,
       memo: memoFilter.value,
+      venueStatus: venueStatusFilter.value,
       activeTags: tagCheckboxes.filter((cb) => cb.checked).map((cb) => cb.dataset.tag!),
       tagMode: tagModeSelect.value,
       favoritesOnly: favoritesOnlyFilter.checked,
@@ -543,7 +571,7 @@ const keywordSlugs = KEYWORD_GROUPS.map((g) => g.slug).join(",");
     searchDebounceTimer = setTimeout(applyFilters, 200);
   });
 
-  [categoryFilter, conferenceFilter, memoFilter].forEach((el) => el.addEventListener("change", applyFilters));
+  [categoryFilter, conferenceFilter, memoFilter, venueStatusFilter].forEach((el) => el.addEventListener("change", applyFilters));
   tagCheckboxes.forEach((cb) => cb.addEventListener("change", applyFilters));
   tagModeSelect.addEventListener("change", applyFilters);
   favoritesOnlyFilter.addEventListener("change", applyFilters);
@@ -554,6 +582,7 @@ const keywordSlugs = KEYWORD_GROUPS.map((g) => g.slug).join(",");
     categoryFilter.value = "";
     conferenceFilter.value = "";
     memoFilter.value = "";
+    venueStatusFilter.value = "";
     tagCheckboxes.forEach((cb) => (cb.checked = false));
     tagModeSelect.value = "or";
     favoritesOnlyFilter.checked = false;
