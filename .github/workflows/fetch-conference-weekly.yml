@@ -39,3 +39,14 @@ jobs:
         with:
           commit_message: "chore: weekly conference award fetch"
           file_pattern: "data/*.json public/rss.xml"
+
+      - name: Notify about new papers
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
+          NOTIFY_SITE_URL: ${{ vars.SITE_URL }}
+        run: python scripts/notify_new_papers.py

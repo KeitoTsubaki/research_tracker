@@ -1,0 +1,27 @@
+name: 論文メモの更新
+description: 論文カードのメモを更新します(サイトの「GitHub Issueで保存」ボタンから開くと自動入力されます)
+title: "[memo] "
+labels: ["memo-update"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        このIssueはサイトのメモ編集フォームから自動生成されています。
+        内容を確認して「Submit new issue」を押すと、数分以内に自動でメモが反映され、このIssueは自動でクローズされます。
+        手動でこのIssueを作成する場合は、論文IDを正確に入力してください(`data/papers.json` の `id` フィールドと一致させる必要があります)。
+  - type: input
+    id: paper_id
+    attributes:
+      label: 論文ID
+      description: 変更しないでください(例: arxiv:2506.01234 / conf:icra2025:award:1)
+      placeholder: arxiv:2506.01234
+    validations:
+      required: true
+  - type: textarea
+    id: memo
+    attributes:
+      label: メモ
+      description: 保存したいメモ内容。空にすると既存のメモが削除されます。
+      placeholder: メモを入力してください
+    validations:
+      required: false

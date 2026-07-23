@@ -38,6 +38,7 @@ jobs:
         env:
           SITE_URL: ${{ steps.pages.outputs.origin }}
           SITE_BASE: ${{ steps.pages.outputs.base_path }}
+          PUBLIC_GITHUB_REPO: ${{ github.repository }}
         run: npm run build
 
       - name: Upload artifact

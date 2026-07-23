@@ -21,6 +21,7 @@ const searchBlob = [paper.title, paper.authors.join(" "), paper.abstract, paper.
 <article
   class="paper-card flex flex-col gap-3 rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:shadow-md"
   data-id={paper.id}
+  data-title={paper.title}
   data-category={paper.category}
   data-conference={paper.conference ?? ""}
   data-tags={paper.tags.join(",")}
@@ -37,7 +38,20 @@ const searchBlob = [paper.title, paper.authors.join(" "), paper.abstract, paper.
     {paper.award && (
       <span class="rounded-full bg-amber-100 px-2.5 py-1 text-amber-800">🏆 {paper.award}</span>
     )}
-    <span class="ml-auto text-slate-400">{paper.published_date}</span>
+    <span class="ml-auto flex items-center gap-1">
+      <button
+        type="button"
+        class="favorite-toggle rounded p-1 text-lg leading-none text-slate-300 hover:text-amber-500"
+        aria-pressed="false"
+        title="お気に入り"
+      >☆</button>
+      <button
+        type="button"
+        class="readlater-toggle rounded p-1 text-base leading-none text-slate-300 hover:text-indigo-500"
+        aria-pressed="false"
+        title="あとで読む"
+      >🔖</button>
+    </span>
   </div>
 
   <h2 class="text-lg font-semibold leading-snug text-slate-900">
@@ -47,6 +61,7 @@ const searchBlob = [paper.title, paper.authors.join(" "), paper.abstract, paper.
   </h2>
 
   <p class="text-sm text-slate-500">{paper.authors.join(", ")}</p>
+  <p class="text-xs text-slate-400">{paper.published_date}</p>
 
   {(highlightTags.length > 0 || otherTags.length > 0) && (
     <div class="flex flex-wrap gap-1.5">
@@ -64,16 +79,40 @@ const searchBlob = [paper.title, paper.authors.join(" "), paper.abstract, paper.
     <p class="mt-2 leading-relaxed">{paper.abstract}</p>
   </details>
 
-  <div class="mt-1 rounded-lg bg-slate-50 p-3 text-sm">
-    {hasMemo ? (
-      <>
-        <p class="whitespace-pre-wrap text-slate-700">{paper.memo}</p>
-        {paper.memo_updated_at && (
-          <p class="mt-1 text-xs text-slate-400">更新: {paper.memo_updated_at}</p>
-        )}
-      </>
-    ) : (
-      <p class="text-slate-400">メモなし</p>
-    )}
+  <div class="mt-1 rounded-lg bg-slate-50 p-3 text-sm" data-memo-section>
+    <div data-memo-display>
+      {hasMemo ? (
+        <>
+          <p class="whitespace-pre-wrap text-slate-700" data-memo-text>{paper.memo}</p>
+          {paper.memo_updated_at && (
+            <p class="mt-1 text-xs text-slate-400" data-memo-updated-at>更新: {paper.memo_updated_at}</p>
+          )}
+        </>
+      ) : (
+        <p class="text-slate-400" data-memo-text>メモなし</p>
+      )}
+    </div>
+
+    <button type="button" class="memo-edit-toggle mt-2 text-xs font-medium text-indigo-600 hover:underline">
+      メモを編集
+    </button>
+
+    <div class="memo-edit-form mt-2 hidden">
+      <textarea
+        class="memo-textarea w-full rounded border border-slate-300 p-2 text-sm"
+        rows="3"
+        placeholder="メモを入力してください"
+      >{paper.memo}</textarea>
+      <div class="mt-2 flex items-center gap-3">
+        <button
+          type="button"
+          class="memo-save-btn rounded bg-indigo-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-indigo-700"
+        >GitHub Issueで保存</button>
+        <button type="button" class="memo-cancel-btn text-xs text-slate-400 hover:underline">キャンセル</button>
+      </div>
+      <p class="mt-2 text-xs text-slate-400">
+        押すとGitHubのIssue作成画面が新しいタブで開きます。内容を確認して送信すると、数分以内にこのメモが自動反映されます。
+      </p>
+    </div>
   </div>
 </article>
