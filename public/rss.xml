@@ -4,55 +4,90 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Wed, 22 Jul 2026 05:48:26 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 05:52:11 GMT</lastBuildDate>
     <item>
-      <title>From Distances to Trajectories: Real-Time Signed Distance Function Mapping and Distance-Accelerated Motion Planning for UAVs</title>
-      <link>https://arxiv.org/abs/2607.19306</link>
-      <guid isPermaLink="false">arxiv:2607.19306</guid>
+      <title>Distributed Motion Planning with Safety Guarantees for Self-Reconfiguring Robotic Boats</title>
+      <link>https://arxiv.org/abs/2607.20352</link>
+      <guid isPermaLink="false">arxiv:2607.20352</guid>
+      <pubDate>2026-07-22</pubDate>
+      <description>Aquatic self-reconfigurable robots must assemble into desired shapes while ensuring safe interactions among multiple agents. This paper proposes a hybrid framework that combines distributed Model Predictive Control (MPC) with Control Barrier Functions (CBFs) for multi-agent shape formation and reconfiguration. Given a desired shape and target assignment, a distributed MPC scheme, solved via the Alternating Direction Method of Multipliers (ADMM), computes coordinated trajectories through local op</description>
+    </item>
+    <item>
+      <title>Small, Free, and Effective: Orchestrating Open-Weight Small Language Models to Outperform Single LLM for Malware Analysis</title>
+      <link>https://arxiv.org/abs/2607.20216</link>
+      <guid isPermaLink="false">arxiv:2607.20216</guid>
+      <pubDate>2026-07-22</pubDate>
+      <description>Malware analysis demands rapid interpretation of complex detonation reports spanning filesystem, network, and process behaviours. While large language models (LLMs) demonstrate impressive capabilities for technical artifact interpretation, the opacity and escalating API costs of closed-weight frontier models motivate exploration of open-weight alternatives. However, many open-weight models are large, demanding significant compute resources and incurring non-trivial hosting costs that place them </description>
+    </item>
+    <item>
+      <title>Coordinating from Memory: Graph-Structured Experience Reuse for Multi-Agent Adaptation in Dynamic Manufacturing</title>
+      <link>https://arxiv.org/abs/2607.19985</link>
+      <guid isPermaLink="false">arxiv:2607.19985</guid>
+      <pubDate>2026-07-22</pubDate>
+      <description>Dynamic manufacturing environments require multi-agent systems to coordinate effectively under frequent operational disturbances such as machine failures, urgent job arrivals, and processing time variations. Existing multi-agent reinforcement learning approaches treat each disturbance episode independently, discarding valuable coordination experience that could accelerate future adaptation. In this paper, we propose a Graph-Structured Experiential Memory (GSEM) framework for multi-agent coordina</description>
+    </item>
+    <item>
+      <title>Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training</title>
+      <link>https://arxiv.org/abs/2607.19971</link>
+      <guid isPermaLink="false">arxiv:2607.19971</guid>
+      <pubDate>2026-07-22</pubDate>
+      <description>Accurate motion prediction of surrounding agents and safe motion planning are two closely coupled key tasks for social robot navigation in crowded environments. Deploying these systems on resource-constrained edge devices necessitates compact, unified models that can perform both tasks simultaneously. However, within these compact shared encoders, recent unified models often overlook severe representational conflicts that arise from the distinct objectives of predicting neighbor behaviors versus</description>
+    </item>
+    <item>
+      <title>JANUS: Foreseeing Latent Risk for Long-Horizon Agent Safety</title>
+      <link>https://arxiv.org/abs/2607.19913</link>
+      <guid isPermaLink="false">arxiv:2607.19913</guid>
+      <pubDate>2026-07-22</pubDate>
+      <description>Agent safety is moving from content moderation toward preventing operational failures before tool-using agents act. We propose Janus, a foresight-oriented framework for long-horizon agent safety that trains guards to anticipate delayed risks from partial trajectories. Janus synthesizes diverse agent trajectories via multi-agent simulation and learns a shared policy with two coupled tasks: an anticipation task that forecasts safety-relevant futures and an adjudication task that decides safety fro</description>
+    </item>
+    <item>
+      <title>Harnessing Disagreement: Detecting Correlated Agreement Blindness in Multi-Agent Triage</title>
+      <link>https://arxiv.org/abs/2607.19899</link>
+      <guid isPermaLink="false">arxiv:2607.19899</guid>
+      <pubDate>2026-07-22</pubDate>
+      <description>Disagreement-triggered escalation can create a structural blind spot in multi-agent arbitration: as base learners improve, they tend to converge, weakening safety monitoring where correlated failures concentrate. We term this correlated agreement blindness and present ARAT (Arbitrated Reasoning Agents for Alarm Triage), a directed-star system combining an inductive Random Forest (RF) agent, an analogical case-based k-nearest neighbour (k-NN) agent, and a calibrated meta-model to mitigate this ef</description>
+    </item>
+    <item>
+      <title>Dreamer-CPC: Message Learning with World Models for Decentralized Multi-agent Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2607.19809</link>
+      <guid isPermaLink="false">arxiv:2607.19809</guid>
+      <pubDate>2026-07-22</pubDate>
+      <description>In multi-agent reinforcement learning (MARL), inter-agent communication is effective for improving performance under partial observability. Representation learning-based approaches enable decentralized agents to learn messages grounded in their own observations, but they rely only on current observations and cannot convey information accumulated over time. We propose Dreamer-CPC, a decentralized model-based MARL method that integrates message learning based on Collective Predictive Coding (CPC) </description>
+    </item>
+    <item>
+      <title>TriAgent: Divergence-Aware Multi-Agent Committees for Cost-Efficient Financial Sentiment Analysis</title>
+      <link>https://arxiv.org/abs/2607.19794</link>
+      <guid isPermaLink="false">arxiv:2607.19794</guid>
+      <pubDate>2026-07-22</pubDate>
+      <description>Production LLM-based financial sentiment analysis faces a structural cost trap: most queries are trivially classifiable, yet expensive cloud reasoners process them all, and the bill scales linearly with user count. We present TriAgent, a multi-agent committee stratified by contextual granularity -- a word-level lexicon (VADER), a sentence-level domain transformer (FinBERT), and a cross-sentence reasoner (Qwen2.5, 0.5B-14B-4bit, with Mistral-7B and Phi-3.5-mini cross-family checks). A three-way S</description>
+    </item>
+    <item>
+      <title>Not Birds of a Feather: Personality-Based Partner Selection in LLM Agents</title>
+      <link>https://arxiv.org/abs/2607.19785</link>
+      <guid isPermaLink="false">arxiv:2607.19785</guid>
+      <pubDate>2026-07-22</pubDate>
+      <description>Multi-agent LLM systems increasingly let one agent choose which other agents to work with, and agents are increasingly given personalities through personas. We test whether Big Five personality alone influences partner selection when capability is explicitly held constant. Host agents chose among six validated candidate archetypes -- five marked high on one trait (openness, conscientiousness, extraversion, agreeableness, neuroticism) plus a balanced control -- presented with randomized names and</description>
+    </item>
+    <item>
+      <title>Defer to Plan: Adaptive Multi-Agent Fusion for End-to-End V2X Driving</title>
+      <link>https://arxiv.org/abs/2607.19774</link>
+      <guid isPermaLink="false">arxiv:2607.19774</guid>
+      <pubDate>2026-07-22</pubDate>
+      <description>Vehicle-to-everything-aided autonomous driving (V2X-AD) significantly enhances driving performance through information sharing. However, existing collaborative perception methods only optimize module-level perception capabilities and fail to effectively serve the ultimate planning and control tasks. We propose an end-to-end collaborative driving system that directly optimizes planning task performance. The system employs MotionNetwork to fuse historical temporal information, utilizes attention m</description>
+    </item>
+    <item>
+      <title>CHMAS: A Coupled Hierarchical Framework for Multi-Agent Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2607.19555</link>
+      <guid isPermaLink="false">arxiv:2607.19555</guid>
       <pubDate>2026-07-21</pubDate>
-      <description>Autonomous flight in cluttered environments requires a robot to build a geometric map of its surroundings and plan safe, dynamically feasible trajectories, all onboard and in real time. Conventional approaches treat mapping and planning as separate stages and often rely on binary occupancy for collision checking. We argue that these two stages should be co-designed around a single representation: a signed distance function (SDF). By encoding distance to the nearest obstacle, an SDF provides rich</description>
+      <description>Multi-agent reinforcement learning (MARL) systems face fundamental challenges in balancing global coordination with local execution across different temporal scales. This paper introduces the Coupled Hierarchical Multi-Agent System (CHMAS), a novel framework that decomposes multi-agent decision-making into centralized strategic planning and distributed tactical execution with bidirectional information flow. The strategic layer integrates all agents' states with an exclusive global environmental </description>
     </item>
     <item>
-      <title>Stochastic Multi-Objective Kinodynamic Planning Against Adversaries</title>
-      <link>https://arxiv.org/abs/2607.19284</link>
-      <guid isPermaLink="false">arxiv:2607.19284</guid>
+      <title>D3VL: Understanding Driving Scenes from 3D Time Series Data and Video with Language Models</title>
+      <link>https://arxiv.org/abs/2607.19528</link>
+      <guid isPermaLink="false">arxiv:2607.19528</guid>
       <pubDate>2026-07-21</pubDate>
-      <description>This paper addresses multi-objective kinodynamic planning in environments with stochastic hybrid adversaries that probabilistically transition to adversarial modes based on the ego state. The goal is to construct the Pareto-front of paths that trade off execution cost and the probability of safety constraint violation (risk). Existing chance-constrained planners evaluate risk over open-loop trajectories, yielding overly conservative solutions that fail to account for ego-agent reactivity. To add</description>
-    </item>
-    <item>
-      <title>How network perturbations distort agreement trajectories in LTI multi-agent systems</title>
-      <link>https://arxiv.org/abs/2607.18913</link>
-      <guid isPermaLink="false">arxiv:2607.18913</guid>
-      <pubDate>2026-07-21</pubDate>
-      <description>Distributed coordination of multi-agent systems frequently relies on cooperative protocols designed to achieve agreement on a prescribed, non-trivial trajectory. While the robustness of such protocols to various uncertainties is well documented, existing literature universally assumes that the target agreement trajectory itself remains invariant. This assumption may hold in ideal cases, but we prove that network perturbations can vastly modify the asymptotic agreement trajectory. We first invest</description>
-    </item>
-    <item>
-      <title>PhoenixRepair: Rethinking Repair Strategy Exploration in Software Agents</title>
-      <link>https://arxiv.org/abs/2607.18859</link>
-      <guid isPermaLink="false">arxiv:2607.18859</guid>
-      <pubDate>2026-07-21</pubDate>
-      <description>While Large Language Models have greatly advanced automated issue resolution, existing agent-based methods exhibit a fundamental limitation in their insufficient exploration of repair strategies. This insufficiency manifests in two key aspects. First, the exploration of multiple potential edit locations is limited. Second, the exploration of repair attempts at each location is also insufficient. To address these challenges, we present PhoenixRepair, a multi-agent framework that systematically ex</description>
-    </item>
-    <item>
-      <title>Strategy-Following Multi-Agent Deep Reinforcement Learning Considering Control Strategies Provided to Other Agents</title>
-      <link>https://arxiv.org/abs/2607.18719</link>
-      <guid isPermaLink="false">arxiv:2607.18719</guid>
-      <pubDate>2026-07-21</pubDate>
-      <description>This study proposes a learning method for multi-agent systems that allows agents to be controlled through human manager instructions after learning and enables uninstructed agents to implicitly complement the overall work based on the actions of other agents. Multi-agent applications using deep learning have shown potential; thus, to achieve extensive social applications, humans should be able to control learned agents using simple methods to respond to environmental and social changes. Even wit</description>
-    </item>
-    <item>
-      <title>MAGE: Human-Like Macro Placement via Agentic Multimodal Reasoning</title>
-      <link>https://arxiv.org/abs/2607.18536</link>
-      <guid isPermaLink="false">arxiv:2607.18536</guid>
-      <pubDate>2026-07-20</pubDate>
-      <description>Macro placement still requires substantial manual refinement in industrial physical design flows. We present MAGE (Macro Placement Agentic Engine), a multimodal multi-agent framework for macro placement refinement. MAGE decomposes the macro placement task into a six-phase workflow that combines structured floorplanning rules, visual checks, and iterative refinement. Expert floorplanning knowledge is encoded through natural-language directives and validation criteria, rather than learned from lab</description>
-    </item>
-    <item>
-      <title>FinSAgent: Corpus-Aligned Multi-Agent RAG Framework for Evidence-Grounded SEC Filing Question Answering</title>
-      <link>https://arxiv.org/abs/2607.18102</link>
-      <guid isPermaLink="false">arxiv:2607.18102</guid>
-      <pubDate>2026-07-20</pubDate>
-      <description>Financial question answering over U.S. Securities and Exchange Commission (SEC) filings requires retrieving and synthesizing heterogeneous evidence dispersed across long, standardized, and highly redundant disclosures. Existing retrieval-augmented and multi-agent systems typically derive retrieval queries directly from the user's question and rank candidates by semantic similarity. Together, these choices create prior-corpus misalignment: a mismatch between model priors and the target filings' s</description>
+      <description>Recent advances in Multimodal Large Language Models (MLLMs) have triggered the development of end-to-end MLLMs for autonomous driving. However, the main emphasis to date has been for MLLMs using 2D images and videos. In contrast, this paper considers MLLM effectiveness using 3D sensors, particularly LiDAR and stereo cameras. LiDAR presents unique challenges to integration within an MLLM, largely because of data sparsity and lack of a grid structure for the data. For similar reasons, fusion of ca</description>
     </item>
   </channel>
 </rss>
