@@ -23,10 +23,17 @@ interface Props {
 const { page, sortMode } = Astro.props;
 const githubRepo = import.meta.env.PUBLIC_GITHUB_REPO || "KeitoTsubaki/research_tracker";
 const base = import.meta.env.BASE_URL;
+const keywordSlugs = KEYWORD_GROUPS.map((g) => g.slug).join(",");
 ---
 
 <Layout>
-  <div class="mx-auto max-w-5xl px-4 py-8" data-github-repo={githubRepo} data-base-url={base}>
+  <div
+    class="mx-auto max-w-5xl px-4 py-8"
+    data-github-repo={githubRepo}
+    data-base-url={base}
+    data-sort-mode={sortMode}
+    data-keyword-slugs={keywordSlugs}
+  >
     <header class="mb-6">
       <h1 class="text-2xl font-bold text-slate-900">研究論文トラッカー</h1>
       <p class="mt-1 text-sm text-slate-500">
@@ -40,7 +47,7 @@ const base = import.meta.env.BASE_URL;
         <input
           id="search"
           type="search"
-          placeholder="キーワード検索(このページ内: タイトル・著者・要旨・タグ)"
+          placeholder="キーワード検索(全件対象: タイトル・著者・要旨・タグ)"
           class="flex-1 rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-indigo-500 focus:outline-none"
         />
         <select id="categoryFilter" class="rounded-lg border border-slate-300 px-3 py-2 text-sm">
@@ -89,7 +96,7 @@ const base = import.meta.env.BASE_URL;
     </section>
 
     <p class="mb-3 text-sm text-slate-500">
-      このページ: 全{allPapers.length}件中 {page.start + 1}〜{page.end + 1}件目
+      <span id="pageRangeLabel">このページ: 全{allPapers.length}件中 {page.start + 1}〜{page.end + 1}件目 </span>
       (<span id="resultCount"></span>)
     </p>
 
@@ -98,10 +105,20 @@ const base = import.meta.env.BASE_URL;
     </div>
 
     <p id="emptyState" class="hidden py-12 text-center text-sm text-slate-400">
-      条件に一致する論文がこのページ内には見つかりませんでした。他のページも確認してください。
+      条件に一致する論文が見つかりませんでした。
     </p>
 
-    <nav class="mt-8 flex items-center justify-center gap-4 text-sm">
+    <div class="mt-6 flex justify-center">
+      <button
+        id="loadMoreBtn"
+        type="button"
+        class="hidden rounded-lg border border-slate-300 px-4 py-2 text-sm text-slate-600 hover:bg-slate-50"
+      >
+        もっと見る
+      </button>
+    </div>
+
+    <nav id="pageNav" class="mt-8 flex items-center justify-center gap-4 text-sm">
       {page.url.prev ? (
         <a href={page.url.prev} class="rounded-lg border border-slate-300 px-3 py-1.5 text-slate-600 hover:bg-slate-50">
           ← 前へ
@@ -125,11 +142,16 @@ const base = import.meta.env.BASE_URL;
   const root = document.querySelector<HTMLElement>("[data-github-repo]")!;
   const githubRepo = root.dataset.githubRepo || "";
   const baseUrl = root.dataset.baseUrl || "/";
+  const sortMode = root.dataset.sortMode === "award" ? "award" : "newest";
+  const keywordSlugSet = new Set((root.dataset.keywordSlugs || "").split(",").filter(Boolean));
 
   const grid = document.getElementById("cardGrid")!;
-  const cards = Array.from(grid.querySelectorAll<HTMLElement>(".paper-card"));
+  const originalCards = Array.from(grid.querySelectorAll<HTMLElement>(".paper-card"));
   const resultCount = document.getElementById("resultCount")!;
+  const pageRangeLabel = document.getElementById("pageRangeLabel")!;
   const emptyState = document.getElementById("emptyState")!;
+  const loadMoreBtn = document.getElementById("loadMoreBtn") as HTMLButtonElement;
+  const pageNav = document.getElementById("pageNav")!;
 
   const searchInput = document.getElementById("search") as HTMLInputElement;
   const categoryFilter = document.getElementById("categoryFilter") as HTMLSelectElement;
@@ -192,12 +214,133 @@ const base = import.meta.env.BASE_URL;
     }
   }
 
-  for (const card of cards) {
+  for (const card of originalCards) {
     const id = card.dataset.id!;
     const favBtn = card.querySelector<HTMLElement>(".favorite-toggle");
     const laterBtn = card.querySelector<HTMLElement>(".readlater-toggle");
     if (favBtn) applyToggleState(favBtn, favorites.has(id));
     if (laterBtn) applyToggleState(laterBtn, readLater.has(id));
+  }
+
+  // --- Cross-page search: the page only ships the current 30-paper slice
+  // to stay light, so any active filter fetches the full archive (once,
+  // lazily) and renders matches from it instead of just hiding/showing the
+  // cards already on the page.
+  interface RemotePaper {
+    id: string;
+    title: string;
+    authors: string[];
+    category: string;
+    conference: string | null;
+    award: string | null;
+    url: string;
+    abstract: string;
+    published_date: string;
+    tags: string[];
+    memo: string;
+    memo_updated_at: string | null;
+  }
+
+  const DATA_URL = `${baseUrl}data.json`;
+  let fullIndexPromise: Promise<RemotePaper[]> | null = null;
+  function ensureIndexLoaded(): Promise<RemotePaper[]> {
+    if (!fullIndexPromise) {
+      fullIndexPromise = fetch(DATA_URL).then((r) => r.json());
+    }
+    return fullIndexPromise;
+  }
+
+  function escapeHtml(value: string): string {
+    return value
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function renderCardElement(paper: RemotePaper): HTMLElement {
+    const hasMemo = paper.memo.trim().length > 0;
+    const tags = paper.tags || [];
+    const highlightTags = tags.filter((t) => keywordSlugSet.has(t));
+    const otherTags = tags.filter((t) => !keywordSlugSet.has(t));
+    const searchBlob = [paper.title, paper.authors.join(" "), paper.abstract, tags.join(" ")].join(" ").toLowerCase();
+
+    const wrapper = document.createElement("div");
+    wrapper.innerHTML = `
+      <article class="paper-card flex flex-col gap-3 rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:shadow-md"
+        data-id="${escapeHtml(paper.id)}"
+        data-title="${escapeHtml(paper.title)}"
+        data-category="${escapeHtml(paper.category)}"
+        data-conference="${escapeHtml(paper.conference ?? "")}"
+        data-tags="${escapeHtml(tags.join(","))}"
+        data-has-memo="${hasMemo ? "1" : "0"}"
+        data-award="${paper.award ? "1" : "0"}"
+        data-published="${escapeHtml(paper.published_date)}"
+        data-search="${escapeHtml(searchBlob)}"
+      >
+        <div class="flex flex-wrap items-center gap-2 text-xs font-medium">
+          <span class="rounded-full bg-slate-100 px-2.5 py-1 text-slate-700">${escapeHtml(paper.category)}</span>
+          ${paper.conference ? `<span class="rounded-full bg-indigo-100 px-2.5 py-1 text-indigo-700">${escapeHtml(paper.conference)}</span>` : ""}
+          ${paper.award ? `<span class="rounded-full bg-amber-100 px-2.5 py-1 text-amber-800">🏆 ${escapeHtml(paper.award)}</span>` : ""}
+          <span class="ml-auto flex items-center gap-1">
+            <button type="button" class="favorite-toggle inline-flex h-7 w-7 items-center justify-center rounded-full text-lg leading-none text-slate-300 opacity-40 grayscale transition hover:opacity-70" aria-pressed="false" title="お気に入り">☆</button>
+            <button type="button" class="readlater-toggle inline-flex h-7 w-7 items-center justify-center rounded-full text-base leading-none opacity-40 grayscale transition hover:opacity-70" aria-pressed="false" title="あとで読む">🔖</button>
+          </span>
+        </div>
+
+        <h2 class="text-lg font-semibold leading-snug text-slate-900">
+          <a href="${escapeHtml(paper.url)}" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600 hover:underline">${escapeHtml(paper.title)}</a>
+        </h2>
+
+        <p class="text-sm text-slate-500">${escapeHtml(paper.authors.join(", "))}</p>
+        <p class="text-xs text-slate-400">${escapeHtml(paper.published_date)}</p>
+
+        ${
+          highlightTags.length > 0 || otherTags.length > 0
+            ? `<div class="flex flex-wrap gap-1.5">
+                ${highlightTags.map((t) => `<span class="rounded-md bg-emerald-100 px-2 py-0.5 text-xs font-medium text-emerald-800">${escapeHtml(t)}</span>`).join("")}
+                ${otherTags.map((t) => `<span class="rounded-md bg-slate-100 px-2 py-0.5 text-xs text-slate-600">${escapeHtml(t)}</span>`).join("")}
+              </div>`
+            : ""
+        }
+
+        <details class="text-sm text-slate-600">
+          <summary class="cursor-pointer select-none font-medium text-slate-700 hover:text-indigo-600">要旨を表示</summary>
+          <p class="mt-2 leading-relaxed">${escapeHtml(paper.abstract)}</p>
+        </details>
+
+        <div class="mt-1 rounded-lg bg-slate-50 p-3 text-sm" data-memo-section>
+          <div data-memo-display>
+            ${
+              hasMemo
+                ? `<p class="whitespace-pre-wrap text-slate-700" data-memo-text>${escapeHtml(paper.memo)}</p>${
+                    paper.memo_updated_at
+                      ? `<p class="mt-1 text-xs text-slate-400" data-memo-updated-at>更新: ${escapeHtml(paper.memo_updated_at)}</p>`
+                      : ""
+                  }`
+                : `<p class="text-slate-400" data-memo-text>メモなし</p>`
+            }
+          </div>
+          <button type="button" class="memo-edit-toggle mt-2 text-xs font-medium text-indigo-600 hover:underline">メモを編集</button>
+          <div class="memo-edit-form mt-2 hidden">
+            <textarea class="memo-textarea w-full rounded border border-slate-300 p-2 text-sm" rows="3" placeholder="メモを入力してください">${escapeHtml(paper.memo)}</textarea>
+            <div class="mt-2 flex items-center gap-3">
+              <button type="button" class="memo-save-btn rounded bg-indigo-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-indigo-700">GitHub Issueで保存</button>
+              <button type="button" class="memo-cancel-btn text-xs text-slate-400 hover:underline">キャンセル</button>
+            </div>
+            <p class="mt-2 text-xs text-slate-400">押すとGitHubのIssue作成画面が新しいタブで開きます。内容を確認して送信すると、数分以内にこのメモが自動反映されます。</p>
+          </div>
+        </div>
+      </article>
+    `;
+
+    const el = wrapper.firstElementChild as HTMLElement;
+    const favBtn = el.querySelector<HTMLElement>(".favorite-toggle");
+    const laterBtn = el.querySelector<HTMLElement>(".readlater-toggle");
+    if (favBtn) applyToggleState(favBtn, favorites.has(paper.id));
+    if (laterBtn) applyToggleState(laterBtn, readLater.has(paper.id));
+    return el;
   }
 
   grid.addEventListener("click", (event) => {
@@ -265,43 +408,124 @@ const base = import.meta.env.BASE_URL;
     }
   });
 
-  function applyFilters() {
-    const query = searchInput.value.trim().toLowerCase();
-    const category = categoryFilter.value;
-    const conference = conferenceFilter.value;
-    const memo = memoFilter.value;
-    const activeTags = tagCheckboxes.filter((cb) => cb.checked).map((cb) => cb.dataset.tag!);
-    const tagMode = tagModeSelect.value;
-    const favoritesOnly = favoritesOnlyFilter.checked;
-    const readLaterOnly = readlaterOnlyFilter.checked;
-
-    let visibleCount = 0;
-
-    for (const card of cards) {
-      const tags = (card.dataset.tags ?? "").split(",").filter(Boolean);
-      const id = card.dataset.id!;
-      const matchesSearch = !query || (card.dataset.search ?? "").includes(query);
-      const matchesCategory = !category || card.dataset.category === category;
-      const matchesConference = !conference || card.dataset.conference === conference;
-      const matchesMemo =
-        !memo || (memo === "with" ? card.dataset.hasMemo === "1" : card.dataset.hasMemo === "0");
-      const matchesTags =
-        activeTags.length === 0 ||
-        (tagMode === "and" ? activeTags.every((t) => tags.includes(t)) : activeTags.some((t) => tags.includes(t)));
-      const matchesFavorites = !favoritesOnly || favorites.has(id);
-      const matchesReadLater = !readLaterOnly || readLater.has(id);
-
-      const visible =
-        matchesSearch && matchesCategory && matchesConference && matchesMemo && matchesTags && matchesFavorites && matchesReadLater;
-      card.classList.toggle("hidden", !visible);
-      if (visible) visibleCount += 1;
-    }
-
-    resultCount.textContent = `${visibleCount} / ${cards.length} 件を表示中`;
-    emptyState.classList.toggle("hidden", visibleCount !== 0);
+  function isFilterActive(): boolean {
+    return (
+      !!searchInput.value.trim() ||
+      !!categoryFilter.value ||
+      !!conferenceFilter.value ||
+      !!memoFilter.value ||
+      tagCheckboxes.some((cb) => cb.checked) ||
+      favoritesOnlyFilter.checked ||
+      readlaterOnlyFilter.checked
+    );
   }
 
-  [searchInput, categoryFilter, conferenceFilter, memoFilter].forEach((el) => el.addEventListener("input", applyFilters));
+  function matchesPaper(paper: RemotePaper, opts: {
+    query: string;
+    category: string;
+    conference: string;
+    memo: string;
+    activeTags: string[];
+    tagMode: string;
+    favoritesOnly: boolean;
+    readLaterOnly: boolean;
+  }): boolean {
+    const tags = paper.tags || [];
+    const hasMemo = paper.memo.trim().length > 0;
+    const searchBlob = [paper.title, paper.authors.join(" "), paper.abstract, tags.join(" ")].join(" ").toLowerCase();
+
+    const matchesSearch = !opts.query || searchBlob.includes(opts.query);
+    const matchesCategory = !opts.category || paper.category === opts.category;
+    const matchesConference = !opts.conference || paper.conference === opts.conference;
+    const matchesMemo = !opts.memo || (opts.memo === "with" ? hasMemo : !hasMemo);
+    const matchesTags =
+      opts.activeTags.length === 0 ||
+      (opts.tagMode === "and" ? opts.activeTags.every((t) => tags.includes(t)) : opts.activeTags.some((t) => tags.includes(t)));
+    const matchesFavorites = !opts.favoritesOnly || favorites.has(paper.id);
+    const matchesReadLater = !opts.readLaterOnly || readLater.has(paper.id);
+
+    return matchesSearch && matchesCategory && matchesConference && matchesMemo && matchesTags && matchesFavorites && matchesReadLater;
+  }
+
+  function sortPapers(list: RemotePaper[]): RemotePaper[] {
+    const sorted = [...list];
+    if (sortMode === "award") {
+      sorted.sort((a, b) => {
+        const diff = Number(!!b.award) - Number(!!a.award);
+        if (diff !== 0) return diff;
+        return b.published_date.localeCompare(a.published_date);
+      });
+    } else {
+      sorted.sort((a, b) => b.published_date.localeCompare(a.published_date));
+    }
+    return sorted;
+  }
+
+  const RESULTS_BATCH_SIZE = 60;
+  let globalResults: RemotePaper[] = [];
+  let renderedGlobalCount = 0;
+  let requestToken = 0;
+
+  function renderNextBatch() {
+    const nextSlice = globalResults.slice(renderedGlobalCount, renderedGlobalCount + RESULTS_BATCH_SIZE);
+    for (const paper of nextSlice) {
+      grid.appendChild(renderCardElement(paper));
+    }
+    renderedGlobalCount += nextSlice.length;
+    loadMoreBtn.classList.toggle("hidden", renderedGlobalCount >= globalResults.length);
+  }
+
+  loadMoreBtn.addEventListener("click", renderNextBatch);
+
+  async function applyFilters() {
+    if (!isFilterActive()) {
+      requestToken += 1; // invalidate any in-flight global search
+      grid.replaceChildren(...originalCards);
+      pageRangeLabel.classList.remove("hidden");
+      pageNav.classList.remove("hidden");
+      loadMoreBtn.classList.add("hidden");
+      resultCount.textContent = `${originalCards.length}件を表示中`;
+      emptyState.classList.add("hidden");
+      return;
+    }
+
+    pageRangeLabel.classList.add("hidden");
+    pageNav.classList.add("hidden");
+    loadMoreBtn.classList.add("hidden");
+    resultCount.textContent = "全件検索中...";
+    emptyState.classList.add("hidden");
+
+    const token = ++requestToken;
+    const index = await ensureIndexLoaded();
+    if (token !== requestToken) return; // a newer filter change superseded this one
+
+    const opts = {
+      query: searchInput.value.trim().toLowerCase(),
+      category: categoryFilter.value,
+      conference: conferenceFilter.value,
+      memo: memoFilter.value,
+      activeTags: tagCheckboxes.filter((cb) => cb.checked).map((cb) => cb.dataset.tag!),
+      tagMode: tagModeSelect.value,
+      favoritesOnly: favoritesOnlyFilter.checked,
+      readLaterOnly: readlaterOnlyFilter.checked,
+    };
+
+    globalResults = sortPapers(index.filter((p) => matchesPaper(p, opts)));
+    renderedGlobalCount = 0;
+    grid.replaceChildren();
+    renderNextBatch();
+
+    resultCount.textContent = `全${index.length}件中 ${globalResults.length}件がヒット`;
+    emptyState.classList.toggle("hidden", globalResults.length !== 0);
+  }
+
+  let searchDebounceTimer: ReturnType<typeof setTimeout> | undefined;
+  searchInput.addEventListener("input", () => {
+    clearTimeout(searchDebounceTimer);
+    searchDebounceTimer = setTimeout(applyFilters, 200);
+  });
+
+  [categoryFilter, conferenceFilter, memoFilter].forEach((el) => el.addEventListener("change", applyFilters));
   tagCheckboxes.forEach((cb) => cb.addEventListener("change", applyFilters));
   tagModeSelect.addEventListener("change", applyFilters);
   favoritesOnlyFilter.addEventListener("change", applyFilters);
