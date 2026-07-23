@@ -6,6 +6,15 @@ export const papers = rawPapers as Paper[];
 export const sortedByDate = (list: Paper[] = papers) =>
   [...list].sort((a, b) => b.published_date.localeCompare(a.published_date));
 
+export const sortedByAward = (list: Paper[] = papers) =>
+  [...list].sort((a, b) => {
+    const awardDiff = Number(!!b.award) - Number(!!a.award);
+    if (awardDiff !== 0) return awardDiff;
+    return b.published_date.localeCompare(a.published_date);
+  });
+
+export const PAGE_SIZE = 30;
+
 export const categories = [...new Set(papers.map((p) => p.category))].sort();
 
 export const conferences = [...new Set(papers.map((p) => p.conference).filter((c): c is string => !!c))].sort();

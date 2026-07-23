@@ -1,0 +1,13 @@
+---
+import PaperListPage from "../components/PaperListPage.astro";
+import { sortedByDate, PAGE_SIZE } from "../lib/papers";
+import type { Paper } from "../lib/types";
+
+export async function getStaticPaths({ paginate }: { paginate: Function }) {
+  return paginate(sortedByDate(), { pageSize: PAGE_SIZE });
+}
+
+const { page } = Astro.props as { page: any };
+---
+
+<PaperListPage page={page} sortMode="newest" />

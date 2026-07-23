@@ -1,19 +1,37 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import PaperCard from "../components/PaperCard.astro";
-import { papers, sortedByDate, categories, conferences, KEYWORD_GROUPS } from "../lib/papers";
+import PaperCard from "./PaperCard.astro";
+import { papers as allPapers, categories, conferences, KEYWORD_GROUPS } from "../lib/papers";
+import type { Paper } from "../lib/types";
 
-const initialPapers = sortedByDate(papers);
+interface PaginatedPage<T> {
+  data: T[];
+  start: number;
+  end: number;
+  size: number;
+  total: number;
+  currentPage: number;
+  lastPage: number;
+  url: { current: string; prev?: string; next?: string };
+}
+
+interface Props {
+  page: PaginatedPage<Paper>;
+  sortMode: "newest" | "award";
+}
+
+const { page, sortMode } = Astro.props;
 const githubRepo = import.meta.env.PUBLIC_GITHUB_REPO || "KeitoTsubaki/research_tracker";
+const base = import.meta.env.BASE_URL;
 ---
 
 <Layout>
-  <div class="mx-auto max-w-5xl px-4 py-8" data-github-repo={githubRepo}>
+  <div class="mx-auto max-w-5xl px-4 py-8" data-github-repo={githubRepo} data-base-url={base}>
     <header class="mb-6">
       <h1 class="text-2xl font-bold text-slate-900">研究論文トラッカー</h1>
       <p class="mt-1 text-sm text-slate-500">
-        マルチエージェント強化学習・協調ロボット搬送・自動運転関連の論文を自動収集します(全{papers.length}件)。
-        <a class="text-indigo-600 hover:underline" href={`${import.meta.env.BASE_URL}rss.xml`}>RSS</a>
+        マルチエージェント強化学習・協調ロボット搬送・自動運転関連の論文を自動収集します(全{allPapers.length}件)。
+        <a class="text-indigo-600 hover:underline" href={`${base}rss.xml`}>RSS</a>
       </p>
     </header>
 
@@ -22,7 +40,7 @@ const githubRepo = import.meta.env.PUBLIC_GITHUB_REPO || "KeitoTsubaki/research_
         <input
           id="search"
           type="search"
-          placeholder="キーワード検索(タイトル・著者・要旨・タグ)"
+          placeholder="キーワード検索(このページ内: タイトル・著者・要旨・タグ)"
           class="flex-1 rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-indigo-500 focus:outline-none"
         />
         <select id="categoryFilter" class="rounded-lg border border-slate-300 px-3 py-2 text-sm">
@@ -39,8 +57,8 @@ const githubRepo = import.meta.env.PUBLIC_GITHUB_REPO || "KeitoTsubaki/research_
           <option value="without">メモなし</option>
         </select>
         <select id="sortSelect" class="rounded-lg border border-slate-300 px-3 py-2 text-sm">
-          <option value="newest">新着順</option>
-          <option value="award">会議受賞順</option>
+          <option value="newest" selected={sortMode === "newest"}>新着順</option>
+          <option value="award" selected={sortMode === "award"}>会議受賞順</option>
         </select>
       </div>
       <div class="flex flex-wrap items-center gap-4 text-sm">
@@ -70,21 +88,43 @@ const githubRepo = import.meta.env.PUBLIC_GITHUB_REPO || "KeitoTsubaki/research_
       </div>
     </section>
 
-    <p id="resultCount" class="mb-3 text-sm text-slate-500"></p>
+    <p class="mb-3 text-sm text-slate-500">
+      このページ: 全{allPapers.length}件中 {page.start + 1}〜{page.end + 1}件目
+      (<span id="resultCount"></span>)
+    </p>
 
     <div id="cardGrid" class="grid grid-cols-1 gap-4 md:grid-cols-2">
-      {initialPapers.map((paper) => <PaperCard paper={paper} />)}
+      {page.data.map((paper) => <PaperCard paper={paper} />)}
     </div>
 
     <p id="emptyState" class="hidden py-12 text-center text-sm text-slate-400">
-      条件に一致する論文が見つかりませんでした。
+      条件に一致する論文がこのページ内には見つかりませんでした。他のページも確認してください。
     </p>
+
+    <nav class="mt-8 flex items-center justify-center gap-4 text-sm">
+      {page.url.prev ? (
+        <a href={page.url.prev} class="rounded-lg border border-slate-300 px-3 py-1.5 text-slate-600 hover:bg-slate-50">
+          ← 前へ
+        </a>
+      ) : (
+        <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-slate-300">← 前へ</span>
+      )}
+      <span class="text-slate-500">{page.currentPage} / {page.lastPage} ページ</span>
+      {page.url.next ? (
+        <a href={page.url.next} class="rounded-lg border border-slate-300 px-3 py-1.5 text-slate-600 hover:bg-slate-50">
+          次へ →
+        </a>
+      ) : (
+        <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-slate-300">次へ →</span>
+      )}
+    </nav>
   </div>
 </Layout>
 
 <script>
   const root = document.querySelector<HTMLElement>("[data-github-repo]")!;
   const githubRepo = root.dataset.githubRepo || "";
+  const baseUrl = root.dataset.baseUrl || "/";
 
   const grid = document.getElementById("cardGrid")!;
   const cards = Array.from(grid.querySelectorAll<HTMLElement>(".paper-card"));
@@ -101,6 +141,13 @@ const githubRepo = import.meta.env.PUBLIC_GITHUB_REPO || "KeitoTsubaki/research_
   const favoritesOnlyFilter = document.getElementById("favoritesOnlyFilter") as HTMLInputElement;
   const readlaterOnlyFilter = document.getElementById("readlaterOnlyFilter") as HTMLInputElement;
   const resetButton = document.getElementById("resetFilters")!;
+
+  // Sorting is baked into which set of static pages you're on (newest vs
+  // award order), so switching it navigates to page 1 of that ordering
+  // instead of reordering the DOM client-side.
+  sortSelect.addEventListener("change", () => {
+    window.location.href = sortSelect.value === "award" ? `${baseUrl}awards/` : baseUrl;
+  });
 
   // --- Favorites / read-later: persisted client-side only (no backend),
   // so state is per-browser. Stored as JSON arrays of paper ids.
@@ -254,43 +301,23 @@ const githubRepo = import.meta.env.PUBLIC_GITHUB_REPO || "KeitoTsubaki/research_
     emptyState.classList.toggle("hidden", visibleCount !== 0);
   }
 
-  function applySort() {
-    const mode = sortSelect.value;
-    const sorted = [...cards].sort((a, b) => {
-      if (mode === "award") {
-        const awardDiff = Number(b.dataset.award) - Number(a.dataset.award);
-        if (awardDiff !== 0) return awardDiff;
-      }
-      return (b.dataset.published ?? "").localeCompare(a.dataset.published ?? "");
-    });
-    for (const card of sorted) grid.appendChild(card);
-  }
-
-  function update() {
-    applySort();
-    applyFilters();
-  }
-
-  [searchInput, categoryFilter, conferenceFilter, memoFilter, sortSelect].forEach((el) =>
-    el.addEventListener("input", update)
-  );
-  tagCheckboxes.forEach((cb) => cb.addEventListener("change", update));
-  tagModeSelect.addEventListener("change", update);
-  favoritesOnlyFilter.addEventListener("change", update);
-  readlaterOnlyFilter.addEventListener("change", update);
+  [searchInput, categoryFilter, conferenceFilter, memoFilter].forEach((el) => el.addEventListener("input", applyFilters));
+  tagCheckboxes.forEach((cb) => cb.addEventListener("change", applyFilters));
+  tagModeSelect.addEventListener("change", applyFilters);
+  favoritesOnlyFilter.addEventListener("change", applyFilters);
+  readlaterOnlyFilter.addEventListener("change", applyFilters);
 
   resetButton.addEventListener("click", () => {
     searchInput.value = "";
     categoryFilter.value = "";
     conferenceFilter.value = "";
     memoFilter.value = "";
-    sortSelect.value = "newest";
     tagCheckboxes.forEach((cb) => (cb.checked = false));
     tagModeSelect.value = "or";
     favoritesOnlyFilter.checked = false;
     readlaterOnlyFilter.checked = false;
-    update();
+    applyFilters();
   });
 
-  update();
+  applyFilters();
 </script>
