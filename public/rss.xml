@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Fri, 24 Jul 2026 05:49:13 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 05:41:55 GMT</lastBuildDate>
     <item>
       <title>GS-Agent: Creating 4D Physical Worlds With Generative Simulation</title>
       <link>https://arxiv.org/abs/2607.21522</link>
@@ -95,6 +95,55 @@
       <guid isPermaLink="false">arxiv:2607.20662</guid>
       <pubDate>2026-07-22</pubDate>
       <description>Laboratory automation accelerates discovery, yet its adoption is constrained by the high cost, proprietary design, and limited remote supervisability of commercial liquid-handling systems. This work presents RAINBOT\textsuperscript{TM}, a low-cost, openly reproducible liquid-handling robot built by converting a consumer-grade Cartesian 3D printer (Elegoo Neptune 4 Max). The printer extruder is replaced by a precision single-channel pipette actuated through the printer's own G-code-driven X--Y--Z</description>
+    </item>
+    <item>
+      <title>Distributed Motion Planning with Safety Guarantees for Self-Reconfiguring Robotic Boats</title>
+      <link>https://arxiv.org/abs/2607.20352</link>
+      <guid isPermaLink="false">arxiv:2607.20352</guid>
+      <pubDate>2026-07-22</pubDate>
+      <description>Aquatic self-reconfigurable robots must assemble into desired shapes while ensuring safe interactions among multiple agents. This paper proposes a hybrid framework that combines distributed Model Predictive Control (MPC) with Control Barrier Functions (CBFs) for multi-agent shape formation and reconfiguration. Given a desired shape and target assignment, a distributed MPC scheme, solved via the Alternating Direction Method of Multipliers (ADMM), computes coordinated trajectories through local op</description>
+    </item>
+    <item>
+      <title>Small, Free, and Effective: Orchestrating Open-Weight Small Language Models to Outperform Single LLM for Malware Analysis</title>
+      <link>https://arxiv.org/abs/2607.20216</link>
+      <guid isPermaLink="false">arxiv:2607.20216</guid>
+      <pubDate>2026-07-22</pubDate>
+      <description>Malware analysis demands rapid interpretation of complex detonation reports spanning filesystem, network, and process behaviours. While large language models (LLMs) demonstrate impressive capabilities for technical artifact interpretation, the opacity and escalating API costs of closed-weight frontier models motivate exploration of open-weight alternatives. However, many open-weight models are large, demanding significant compute resources and incurring non-trivial hosting costs that place them </description>
+    </item>
+    <item>
+      <title>Coordinating from Memory: Graph-Structured Experience Reuse for Multi-Agent Adaptation in Dynamic Manufacturing</title>
+      <link>https://arxiv.org/abs/2607.19985</link>
+      <guid isPermaLink="false">arxiv:2607.19985</guid>
+      <pubDate>2026-07-22</pubDate>
+      <description>Dynamic manufacturing environments require multi-agent systems to coordinate effectively under frequent operational disturbances such as machine failures, urgent job arrivals, and processing time variations. Existing multi-agent reinforcement learning approaches treat each disturbance episode independently, discarding valuable coordination experience that could accelerate future adaptation. In this paper, we propose a Graph-Structured Experiential Memory (GSEM) framework for multi-agent coordina</description>
+    </item>
+    <item>
+      <title>Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training</title>
+      <link>https://arxiv.org/abs/2607.19971</link>
+      <guid isPermaLink="false">arxiv:2607.19971</guid>
+      <pubDate>2026-07-22</pubDate>
+      <description>Accurate motion prediction of surrounding agents and safe motion planning are two closely coupled key tasks for social robot navigation in crowded environments. Deploying these systems on resource-constrained edge devices necessitates compact, unified models that can perform both tasks simultaneously. However, within these compact shared encoders, recent unified models often overlook severe representational conflicts that arise from the distinct objectives of predicting neighbor behaviors versus</description>
+    </item>
+    <item>
+      <title>JANUS: Foreseeing Latent Risk for Long-Horizon Agent Safety</title>
+      <link>https://arxiv.org/abs/2607.19913</link>
+      <guid isPermaLink="false">arxiv:2607.19913</guid>
+      <pubDate>2026-07-22</pubDate>
+      <description>Agent safety is moving from content moderation toward preventing operational failures before tool-using agents act. We propose Janus, a foresight-oriented framework for long-horizon agent safety that trains guards to anticipate delayed risks from partial trajectories. Janus synthesizes diverse agent trajectories via multi-agent simulation and learns a shared policy with two coupled tasks: an anticipation task that forecasts safety-relevant futures and an adjudication task that decides safety fro</description>
+    </item>
+    <item>
+      <title>Harnessing Disagreement: Detecting Correlated Agreement Blindness in Multi-Agent Triage</title>
+      <link>https://arxiv.org/abs/2607.19899</link>
+      <guid isPermaLink="false">arxiv:2607.19899</guid>
+      <pubDate>2026-07-22</pubDate>
+      <description>Disagreement-triggered escalation can create a structural blind spot in multi-agent arbitration: as base learners improve, they tend to converge, weakening safety monitoring where correlated failures concentrate. We term this correlated agreement blindness and present ARAT (Arbitrated Reasoning Agents for Alarm Triage), a directed-star system combining an inductive Random Forest (RF) agent, an analogical case-based k-nearest neighbour (k-NN) agent, and a calibrated meta-model to mitigate this ef</description>
+    </item>
+    <item>
+      <title>Dreamer-CPC: Message Learning with World Models for Decentralized Multi-agent Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2607.19809</link>
+      <guid isPermaLink="false">arxiv:2607.19809</guid>
+      <pubDate>2026-07-22</pubDate>
+      <description>In multi-agent reinforcement learning (MARL), inter-agent communication is effective for improving performance under partial observability. Representation learning-based approaches enable decentralized agents to learn messages grounded in their own observations, but they rely only on current observations and cannot convey information accumulated over time. We propose Dreamer-CPC, a decentralized model-based MARL method that integrates message learning based on Collective Predictive Coding (CPC) </description>
     </item>
   </channel>
 </rss>
