@@ -4,146 +4,146 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 27 Jul 2026 06:55:27 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 05:45:08 GMT</lastBuildDate>
     <item>
-      <title>GS-Agent: Creating 4D Physical Worlds With Generative Simulation</title>
-      <link>https://arxiv.org/abs/2607.21522</link>
-      <guid isPermaLink="false">arxiv:2607.21522</guid>
-      <pubDate>2026-07-23</pubDate>
-      <description>Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. Traditional computer graphics methods rely on manual creation, requiring extensive human effort to fine-tune materials, motions, and visual fidelity. Recent advances in generative foundation models have sparked interest in learning to generate such 4D worlds from large-scale data; however, existing methods still struggle to ensure physical plausibility and controllability. </description>
+      <title>Denial of Deadline: Network-Driven Accuracy Collapse in Distributed Inference Pipelines</title>
+      <link>https://arxiv.org/abs/2607.24692</link>
+      <guid isPermaLink="false">arxiv:2607.24692</guid>
+      <pubDate>2026-07-27</pubDate>
+      <description>Inference systems increasingly combine a fast path that returns predictions within the application's latency deadline together with a higher-accuracy slow path that runs higher-compute methods on stronger, remote hardware, so its results can be returned on time and combined with the fast path predictions. Across several application domains, we abstract this inference architecture as a fast path, a slow path, and a coordination layer with two functions: a router that invokes the slow path and a m</description>
     </item>
     <item>
-      <title>Same Dangerous Objective, Opposite Advice: Direct Exposure versus Multi-Agent Mediation</title>
-      <link>https://arxiv.org/abs/2607.21518</link>
-      <guid isPermaLink="false">arxiv:2607.21518</guid>
-      <pubDate>2026-07-23</pubDate>
-      <description>Even a current high-capability LLM can appear safer when shown a dangerous objective directly than when other agents transform and relay its direction. Using OpenAI's gpt-5.6-sol model alias, we test 25 pre-specified mirrored trade-off profiles. Direct exposure to an objective authorizing concealment, fabrication, and pressure produced advice net opposed to its target. After an Id and Censor transformed the same objective into affect and a constraint-rewritten, target-bearing intention, the user</description>
+      <title>Evaluating Fuzz Testing for Reinforcement Learning Agents</title>
+      <link>https://arxiv.org/abs/2607.24577</link>
+      <guid isPermaLink="false">arxiv:2607.24577</guid>
+      <pubDate>2026-07-27</pubDate>
+      <description>Reinforcement Learning (RL) agents are increasingly deployed in safety-critical domains such as robotics, autonomous driving, and drone control, where unexpected behaviors may lead to severe real-world consequences. Fuzz testing has recently emerged as a promising method for exploring the vast state spaces of RL agents and exposing crashes. Although numerous RL fuzzing methods have been proposed, existing studies often differ in evaluation settings, baselines, and metrics, making it difficult to</description>
     </item>
     <item>
-      <title>Compact Latent Coordination for Autonomous Vehicles at Unsignalized Intersections</title>
-      <link>https://arxiv.org/abs/2607.21488</link>
-      <guid isPermaLink="false">arxiv:2607.21488</guid>
-      <pubDate>2026-07-23</pubDate>
-      <description>Coordinating autonomous vehicles at unsignalized intersections remains a critical challenge for multi-agent reinforcement learning (MARL) systems, which typically struggle with combinatorial action spaces, reliance on privileged information, or rigid agent designs. We propose Master-Agent Proto-plan System (MAPS), a hierarchical deep reinforcement learning (DRL) architecture in which a centralized Master agent generates a compact, continuous embedding, denoted as proto-plan, that encodes a globa</description>
+      <title>Decentralised Consensus Learning Networks: SME Rotation Without Centralised Reward</title>
+      <link>https://arxiv.org/abs/2607.24416</link>
+      <guid isPermaLink="false">arxiv:2607.24416</guid>
+      <pubDate>2026-07-27</pubDate>
+      <description>Centralised reward signals dominate modern AI learning systems, but they impose a single external definition of correct or valuable knowledge. We present a decentralised, consensus-based multi-agent learning framework in which expertise emerges through peer validation rather than prescribed reward. Agents update beliefs via weighted social consensus, while trust is allocated according to competence inferred from peer consistency instead of ground truth. Subject-matter expert (SME) status is assi</description>
     </item>
     <item>
-      <title>Grasp, Handover, Rotate: Bimanual Object Reorientation via Compositional Diffusion and Energy-Based Optimization</title>
-      <link>https://arxiv.org/abs/2607.21341</link>
-      <guid isPermaLink="false">arxiv:2607.21341</guid>
-      <pubDate>2026-07-23</pubDate>
-      <description>Bimanual object reorientation - picking an object, handing it over between two arms, and placing it in a desired target pose - is valuable when direct placement from the initial grasp is infeasible due to collisions, kinematic constraints, or poor final orientation. However, achieving this under multiple competing objectives remains challenging. We introduce BiCompoDiff, a compositional diffusion and energy-based framework that jointly optimizes grasp selection, handover, regrasp, and motion pla</description>
+      <title>Model Predictive Planner for UAV Navigation in Non-Convex Air Corridors</title>
+      <link>https://arxiv.org/abs/2607.24369</link>
+      <guid isPermaLink="false">arxiv:2607.24369</guid>
+      <pubDate>2026-07-27</pubDate>
+      <description>This work presents a motion planning framework for UAV navigation in non-convex urban air corridors. The planner is based on a mixed-integer tracking model predictive control formulation that enforces corridor feasibility and dynamic consistency within a single optimization problem. To guarantee convergence to the target and mitigate the occurrence of local minima induced by non-convex geometry, a shortest-path-based offset cost with feasibility constraints is embedded directly into the planning</description>
     </item>
     <item>
-      <title>GRADRAG: Cross-Component Prompt Adaptation for Coordinated Multi-Agent RAG</title>
-      <link>https://arxiv.org/abs/2607.21324</link>
-      <guid isPermaLink="false">arxiv:2607.21324</guid>
-      <pubDate>2026-07-23</pubDate>
-      <description>Retrieval-Augmented Generation (RAG) systems increasingly employ multiple LLM agents. Yet, most prior work optimizes components in isolation rather than coordinating improvements across the pipeline. We introduce GRADRAG, a framework for cross-component prompt adaptation that models the RAG pipeline as a computational graph and propagates structured evaluation feedback to update upstream agents. An Evaluator critiques downstream answers and supporting evidence, producing actionable feedback that</description>
+      <title>Energy Constrained Hierarchical Underwater Monitoring via Local Multi-Agent RAG</title>
+      <link>https://arxiv.org/abs/2607.24313</link>
+      <guid isPermaLink="false">arxiv:2607.24313</guid>
+      <pubDate>2026-07-27</pubDate>
+      <description>Marine life monitoring is limited by strict energy constraints, poor underwater connectivity, and the high cost of transmitting raw multimodal data from remote deployments. This paper proposes a low-consumption underwater monitoring architecture that combines always-on edge sensing with selective high-performance local reasoning. The system follows a hierarchical master--satellite design in which ultra-low-power MAX78000/MAX78002 microcontrollers continuously monitor visual and acoustic signals,</description>
     </item>
     <item>
-      <title>HGeo-TopoMap: Boosting Topological Mapping with Hierarchical Geometric Priors</title>
-      <link>https://arxiv.org/abs/2607.21281</link>
-      <guid isPermaLink="false">arxiv:2607.21281</guid>
-      <pubDate>2026-07-23</pubDate>
-      <description>Topological maps are key outputs of autonomous driving perception systems, delivering essential road information for path planning. They identify instances such as centerlines and traffic signs, along with their connectivity relationships. Due to the lack of explicit markings for centerlines in real-world environments, the detection of centerline instances remains a significant challenge. To tackle this problem, we propose HGeo-TopoMap, which leverages an explicit prior map and implicit spatial </description>
+      <title>From Proprietary to Open-Source: Bridging the Distribution Gap via Multi-Agent Protocol Distillation in Agentic Search</title>
+      <link>https://arxiv.org/abs/2607.24280</link>
+      <guid isPermaLink="false">arxiv:2607.24280</guid>
+      <pubDate>2026-07-27</pubDate>
+      <description>Agentic search enables large language models to solve knowledge-intensive tasks by interleaving multi-step reasoning with retrieval, yet optimizing this with outcome-based reinforcement learning (RL) provides only sparse supervision. Knowledge distillation can supply denser guidance, and advanced proprietary models with their strong reasoning capabilities are promising teachers. While distilling from proprietary models can densify this supervisory signal, conventional logit-matching is precluded</description>
     </item>
     <item>
-      <title>pAI-Econ-claude: A Gated Human-in-the-Loop Multi-Agent Architecture for AI-Assisted Economic Theory Development</title>
-      <link>https://arxiv.org/abs/2607.21268</link>
-      <guid isPermaLink="false">arxiv:2607.21268</guid>
-      <pubDate>2026-07-23</pubDate>
-      <description>In many social-science research tasks, such as economics, LLM-based agents must produce outputs for which no cheap, task-complete, machine-readable correctness signal exists. This creates a distinctive reliability problem for multi-agent systems: how should generation, critique, coordination, and human judgment be organized when no component can certify the final result? We address this problem through pAI-Econ-claude, a gated, human-in-the-loop multi-agent architecture for AI-assisted economic </description>
+      <title>Algorithms for Equilibria in Concurrent Stopping Games</title>
+      <link>https://arxiv.org/abs/2607.24219</link>
+      <guid isPermaLink="false">arxiv:2607.24219</guid>
+      <pubDate>2026-07-27</pubDate>
+      <description>Concurrent games are a standard model for multi-agent systems, with Nash equilibrium as their central solution concept. The associated \emph{constrained existence problem}---does a game admit a Nash equilibrium whose expected payoff lies within a prescribed interval for every player?---is undecidable, and remains so even for 10-player \emph{stopping} games, in which a terminal state is reached almost surely under every strategy profile. We give two routes to tractability. We first relax exactnes</description>
     </item>
     <item>
-      <title>Explainable Belief Harmonization under Dynamic Epistemic Partitions</title>
-      <link>https://arxiv.org/abs/2607.21210</link>
-      <guid isPermaLink="false">arxiv:2607.21210</guid>
-      <pubDate>2026-07-23</pubDate>
-      <description>Existing approaches to multi-agent belief combination have established mature foundations for combining uncertain beliefs under common assumptions: consensus methods use iterative averaging, logic-based methods resolve conflicting knowledge bases, and epistemic logic analyzes agents' information states. Typically, these approaches assume that the structure determining what each agent can represent remains fixed. However, in many scenarios, agents gain or lose observational capacity during execut</description>
+      <title>Grading the Narrators: An Isnad-Rijal Framework for Claim-Level Provenance in Multi-Agent Knowledge Systems</title>
+      <link>https://arxiv.org/abs/2607.24117</link>
+      <guid isPermaLink="false">arxiv:2607.24117</guid>
+      <pubDate>2026-07-27</pubDate>
+      <description>Modern multi-agent knowledge systems increasingly accumulate knowledge through chains of autonomous transformations rather than direct retrieval. Existing provenance work records what happened - execution traces, tool calls, evidence links - and source-reliability estimation is long established (truth discovery, reputation systems). What is missing is an operational framework that attaches graded, per-domain transmitter reliability to claim-level transmission chains, with completeness semantics,</description>
     </item>
     <item>
-      <title>A Real-Time Generalized Nash Equilibrium Framework for Interaction-Aware Autonomous Driving in Mixed Traffic</title>
-      <link>https://arxiv.org/abs/2607.21043</link>
-      <guid isPermaLink="false">arxiv:2607.21043</guid>
-      <pubDate>2026-07-23</pubDate>
-      <description>Safe and efficient navigation in mixed-traffic environments remains a critical challenge for Autonomous Vehicles (AVs), primarily due to the complex interdependence between the AV's decisions and the unpredictable reactions of human drivers. This paper introduces a comprehensive decision-making framework that formulates the driving interaction as a Generalized Nash Equilibrium Problem (GNEP). Unlike decoupled optimization approaches, this framework explicitly models shared safety and geometric c</description>
+      <title>LU-500: A Logo Benchmark for Concept Unlearning</title>
+      <link>https://arxiv.org/abs/2607.24101</link>
+      <guid isPermaLink="false">arxiv:2607.24101</guid>
+      <pubDate>2026-07-27</pubDate>
+      <description>Concept unlearning is increasingly used to limit the reproduction of protected or unsafe visual concepts in text-to-image models. Existing evaluations, however, mostly study targets that dominate the whole image, such as styles, broad object categories, or portrait-like identities, leaving company logos comparatively underexamined. Logos create a different failure mode: a small localized mark can carry the entire protected concept, must be visually precise to remain recognizable, and can be trig</description>
     </item>
     <item>
-      <title>HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2607.20988</link>
-      <guid isPermaLink="false">arxiv:2607.20988</guid>
-      <pubDate>2026-07-23</pubDate>
-      <description>Vision-Language-Action (VLA) models augmented with world modeling represent a promising paradigm for end-to-end autonomous driving. While pixel-level future prediction enables fine-grained spatiotemporal reasoning, it compromises robustness in noisy driving scenarios. Conversely, latent-based world models alleviate this sensitivity but often incur limited interpretability and representational degradation due to absent pixel-level grounding. To reconcile this trade-off, we propose HyWorldVLA, a h</description>
+      <title>The Cost of Knowing: A Resource-Aware Protocol for Benchmarking Hallucination Beyond Static Leaderboards</title>
+      <link>https://arxiv.org/abs/2607.24063</link>
+      <guid isPermaLink="false">arxiv:2607.24063</guid>
+      <pubDate>2026-07-27</pubDate>
+      <description>On standard factuality tasks, frontier models now cluster near the top of the scale. The question is therefore shifting from how factual a system is toward how much compute that factuality costs. Static leaderboards score factuality in isolation and treat compute as free, so they cannot tell a genuinely better system apart from one that simply spends more. Consider a ranking reversal. A brute-force Best-of-4 agent posts the higher raw factuality score (H-Score 0.9169 vs 0.9103) and would top a s</description>
     </item>
     <item>
-      <title>End-to-End Learning of Safe Optimal Feedback Control in High Dimensions with Control Barrier Function Layers</title>
-      <link>https://arxiv.org/abs/2607.20674</link>
-      <guid isPermaLink="false">arxiv:2607.20674</guid>
-      <pubDate>2026-07-22</pubDate>
-      <description>We consider the problem of learning high-dimensional semi-global feedback controllers under hard safety constraints enforced by control barrier functions (CBFs). Incorporating CBFs into end-to-end policy training requires embedding a quadratic-program-based safety filter as an optimization layer, but computational and differentiation bottlenecks have largely restricted prior approaches to low-dimensional systems, typically with at most 16 state dimensions. We address this limitation by combining</description>
+      <title>Moral Hazard in Multi-Agent Language Models</title>
+      <link>https://arxiv.org/abs/2607.23982</link>
+      <guid isPermaLink="false">arxiv:2607.23982</guid>
+      <pubDate>2026-07-27</pubDate>
+      <description>Cooperation can fail when socially valuable effort is costly, weakly observable, and mainly benefits others. Drawing on Holmström's team moral-hazard model, we introduce the Dialogue Moral Hazard Game, a controlled textual game that operationalizes this hidden-action structure for language agents. In each episode, an agent can preserve an immediate local reward or pay a query cost to reveal a hidden safety fact that primarily helps another agent's downstream decision. We evaluate seven open-weig</description>
     </item>
     <item>
-      <title>Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer</title>
-      <link>https://arxiv.org/abs/2607.20665</link>
-      <guid isPermaLink="false">arxiv:2607.20665</guid>
-      <pubDate>2026-07-22</pubDate>
-      <description>Multi-drone payload transportation has emerged as a promising research paradigm with potential applications in construction, logistics, and disaster response. However, the complex coupled dynamics among drones, cables, and payloads pose significant challenges, and existing approaches remain limited in safety and scalability, particularly in dynamic and unstructured environments. In this work, we propose a learning-based framework for safe and scalable multi-drone cooperative payload transport. W</description>
+      <title>Bridging Reinforcement Learning and Optimal Control via Feasible Action Mapping</title>
+      <link>https://arxiv.org/abs/2607.23930</link>
+      <guid isPermaLink="false">arxiv:2607.23930</guid>
+      <pubDate>2026-07-27</pubDate>
+      <description>Operating constrained dynamical systems requires controllers to efficiently solve complex tasks while enforcing recursive feasibility and safety constraints. To address these competing requirements, we present Feasible Action for Optimal Control (FAOC), a novel control framework integrating Reinforcement Learning (RL) and Optimal Control (OC). The key contribution is a computationally efficient, optimization-based mapping algorithm that transforms the RL agent's action from a static abstract set</description>
     </item>
     <item>
-      <title>Scalable Low-Cost Laboratory Automation: A Digital Twin-Integrated Robotic Platform for Autonomous Liquid Handling (RAINBOTTM)</title>
-      <link>https://arxiv.org/abs/2607.20662</link>
-      <guid isPermaLink="false">arxiv:2607.20662</guid>
-      <pubDate>2026-07-22</pubDate>
-      <description>Laboratory automation accelerates discovery, yet its adoption is constrained by the high cost, proprietary design, and limited remote supervisability of commercial liquid-handling systems. This work presents RAINBOT\textsuperscript{TM}, a low-cost, openly reproducible liquid-handling robot built by converting a consumer-grade Cartesian 3D printer (Elegoo Neptune 4 Max). The printer extruder is replaced by a precision single-channel pipette actuated through the printer's own G-code-driven X--Y--Z</description>
+      <title>SimBEV2X: A Large-Scale Dataset and Data Generation Tool for Multi-Task Vehicle-to-Everything Cooperative Perception</title>
+      <link>https://arxiv.org/abs/2607.23910</link>
+      <guid isPermaLink="false">arxiv:2607.23910</guid>
+      <pubDate>2026-07-27</pubDate>
+      <description>Cooperative perception through vehicle-to-everything (V2X) communication can overcome the inherent physical limitations of individual autonomous vehicles, such as occlusions and limited sensor range. However, the development of robust V2X algorithms, particularly those relying on unified spatial representations like bird's-eye view (BEV) representation, is hampered by the lack of large-scale, multi-modal, multi-task datasets. Moreover, collecting and annotating a large set of synchronized, real-</description>
     </item>
     <item>
-      <title>Distributed Motion Planning with Safety Guarantees for Self-Reconfiguring Robotic Boats</title>
-      <link>https://arxiv.org/abs/2607.20352</link>
-      <guid isPermaLink="false">arxiv:2607.20352</guid>
-      <pubDate>2026-07-22</pubDate>
-      <description>Aquatic self-reconfigurable robots must assemble into desired shapes while ensuring safe interactions among multiple agents. This paper proposes a hybrid framework that combines distributed Model Predictive Control (MPC) with Control Barrier Functions (CBFs) for multi-agent shape formation and reconfiguration. Given a desired shape and target assignment, a distributed MPC scheme, solved via the Alternating Direction Method of Multipliers (ADMM), computes coordinated trajectories through local op</description>
+      <title>SHARE: Towards Head-Mounted AR with User-Centric SLAM in Shared Human-Robot Workspaces</title>
+      <link>https://arxiv.org/abs/2607.23901</link>
+      <guid isPermaLink="false">arxiv:2607.23901</guid>
+      <pubDate>2026-07-27</pubDate>
+      <description>Human-Robot Collaboration (HRC) in shared physical spaces using Augmented Reality (AR) interfaces is powered by Simultaneous Localization and Mapping (SLAM). Existing multi-agent SLAM systems rely on an edge server to combine visual findings of multiple resource-constrained agents, perform computation, and schedule updates to their local maps. However, the edge treats all agents uniformly and ignores the fundamentally different latency requirements of heterogeneous HRC agents: robots and head-mo</description>
     </item>
     <item>
-      <title>Small, Free, and Effective: Orchestrating Open-Weight Small Language Models to Outperform Single LLM for Malware Analysis</title>
-      <link>https://arxiv.org/abs/2607.20216</link>
-      <guid isPermaLink="false">arxiv:2607.20216</guid>
-      <pubDate>2026-07-22</pubDate>
-      <description>Malware analysis demands rapid interpretation of complex detonation reports spanning filesystem, network, and process behaviours. While large language models (LLMs) demonstrate impressive capabilities for technical artifact interpretation, the opacity and escalating API costs of closed-weight frontier models motivate exploration of open-weight alternatives. However, many open-weight models are large, demanding significant compute resources and incurring non-trivial hosting costs that place them </description>
+      <title>A Comparative Study of MCP and A2A for Inter-Agent Coordination in LLM-Based Systems</title>
+      <link>https://arxiv.org/abs/2607.23884</link>
+      <guid isPermaLink="false">arxiv:2607.23884</guid>
+      <pubDate>2026-07-26</pubDate>
+      <description>Recent industry practice has seen the rapid emergence of agentic systems composed of heterogeneous, tool- and LLM-mediated agent components, raising practical questions about inter-agent coordination and protocol design. This paper presents an implementation-grounded comparison of the Model Context Protocol (MCP) and the Agent2Agent (A2A) protocol, from a multi-agent systems engineering perspective, using an inter-agent coordination scenario involving LLM-based agents. We evaluate an MCP-based a</description>
     </item>
     <item>
-      <title>Coordinating from Memory: Graph-Structured Experience Reuse for Multi-Agent Adaptation in Dynamic Manufacturing</title>
-      <link>https://arxiv.org/abs/2607.19985</link>
-      <guid isPermaLink="false">arxiv:2607.19985</guid>
-      <pubDate>2026-07-22</pubDate>
-      <description>Dynamic manufacturing environments require multi-agent systems to coordinate effectively under frequent operational disturbances such as machine failures, urgent job arrivals, and processing time variations. Existing multi-agent reinforcement learning approaches treat each disturbance episode independently, discarding valuable coordination experience that could accelerate future adaptation. In this paper, we propose a Graph-Structured Experiential Memory (GSEM) framework for multi-agent coordina</description>
+      <title>From RLVR to RLSVR: Task Transformation Induces Self-Verifiable Rewards for Open-Ended LLM Self-Improvement</title>
+      <link>https://arxiv.org/abs/2607.23802</link>
+      <guid isPermaLink="false">arxiv:2607.23802</guid>
+      <pubDate>2026-07-26</pubDate>
+      <description>Reinforcement Learning with Verifiable Rewards (RLVR) has driven recent progress in reasoning-oriented large language models (LLMs) by enabling large-scale optimization. However, its applicability remains largely limited to domains such as mathematics and coding, where correctness can be deterministically verified. Open-ended tasks instead often rely on human preferences, reward models, or LLM-based judges, introducing evaluation bias, judge capability bottlenecks, and additional inference costs</description>
     </item>
     <item>
-      <title>Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training</title>
-      <link>https://arxiv.org/abs/2607.19971</link>
-      <guid isPermaLink="false">arxiv:2607.19971</guid>
-      <pubDate>2026-07-22</pubDate>
-      <description>Accurate motion prediction of surrounding agents and safe motion planning are two closely coupled key tasks for social robot navigation in crowded environments. Deploying these systems on resource-constrained edge devices necessitates compact, unified models that can perform both tasks simultaneously. However, within these compact shared encoders, recent unified models often overlook severe representational conflicts that arise from the distinct objectives of predicting neighbor behaviors versus</description>
+      <title>GNN-based Multi-Agent Control of Traffic Shockwaves in Sparse Vehicular Ad-hoc Networks</title>
+      <link>https://arxiv.org/abs/2607.23792</link>
+      <guid isPermaLink="false">arxiv:2607.23792</guid>
+      <pubDate>2026-07-26</pubDate>
+      <description>Traffic shockwaves are stop-and-go waves that propagate upstream through the streams of vehicles and are one of the major causes of traffic congestion, fuel inefficiency, and increased accident rates in modern transportation systems. Although Connected and Autonomous Vehicles (CAVs) offer a promising opportunity to mitigate such shockwaves, most existing control strategies rely on global traffic state information, making them impractical for early-stage deployment of Vehicular Ad-hoc Networks (V</description>
     </item>
     <item>
-      <title>JANUS: Foreseeing Latent Risk for Long-Horizon Agent Safety</title>
-      <link>https://arxiv.org/abs/2607.19913</link>
-      <guid isPermaLink="false">arxiv:2607.19913</guid>
-      <pubDate>2026-07-22</pubDate>
-      <description>Agent safety is moving from content moderation toward preventing operational failures before tool-using agents act. We propose Janus, a foresight-oriented framework for long-horizon agent safety that trains guards to anticipate delayed risks from partial trajectories. Janus synthesizes diverse agent trajectories via multi-agent simulation and learns a shared policy with two coupled tasks: an anticipation task that forecasts safety-relevant futures and an adjudication task that decides safety fro</description>
+      <title>TRUAV: Distributed Multi-Agent Reinforcement Learning for Trajectory Planning and Routing Enhancement in UAV-Aided IoT-Enabled VANETs</title>
+      <link>https://arxiv.org/abs/2607.23734</link>
+      <guid isPermaLink="false">arxiv:2607.23734</guid>
+      <pubDate>2026-07-26</pubDate>
+      <description>Unmanned aerial vehicles (UAVs) have emerged as a key enabler of next-generation Internet of Things (IoT) ecosystems, offering flexible aerial relaying to extend connectivity across dynamic vehicular ad hoc networks (VANETs) in smart city environments. However, conventional centralized approaches for UAV trajectory planning require continuous global network state aggregation, making them impractical under bandwidth and energy constraints typical of dense urban deployments. In this article, we pr</description>
     </item>
     <item>
-      <title>Harnessing Disagreement: Detecting Correlated Agreement Blindness in Multi-Agent Triage</title>
-      <link>https://arxiv.org/abs/2607.19899</link>
-      <guid isPermaLink="false">arxiv:2607.19899</guid>
-      <pubDate>2026-07-22</pubDate>
-      <description>Disagreement-triggered escalation can create a structural blind spot in multi-agent arbitration: as base learners improve, they tend to converge, weakening safety monitoring where correlated failures concentrate. We term this correlated agreement blindness and present ARAT (Arbitrated Reasoning Agents for Alarm Triage), a directed-star system combining an inductive Random Forest (RF) agent, an analogical case-based k-nearest neighbour (k-NN) agent, and a calibrated meta-model to mitigate this ef</description>
+      <title>LabRobFail: A Benchmark for Robotic Failure Analysis in Chemical Self-driving Laboratories</title>
+      <link>https://arxiv.org/abs/2607.23704</link>
+      <guid isPermaLink="false">arxiv:2607.23704</guid>
+      <pubDate>2026-07-26</pubDate>
+      <description>The deployment of embodied agents in self-driving laboratories could accelerate scientific discovery, yet their reliability is constrained by the irreversible and safety-critical nature of chemical experiments. Progress is further hindered by scarce failure data and the lack of fine-grained evaluation protocols. To address these challenges, we introduce LabRobFail, a failure-centric framework for learning and evaluating robotic failure analysis in chemical laboratories. LabRobFail-Sim injects co</description>
     </item>
     <item>
-      <title>Dreamer-CPC: Message Learning with World Models for Decentralized Multi-agent Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2607.19809</link>
-      <guid isPermaLink="false">arxiv:2607.19809</guid>
-      <pubDate>2026-07-22</pubDate>
-      <description>In multi-agent reinforcement learning (MARL), inter-agent communication is effective for improving performance under partial observability. Representation learning-based approaches enable decentralized agents to learn messages grounded in their own observations, but they rely only on current observations and cannot convey information accumulated over time. We propose Dreamer-CPC, a decentralized model-based MARL method that integrates message learning based on Collective Predictive Coding (CPC) </description>
+      <title>Focus Is All You Need: Adaptive Goal-aware Attention Orchestration for Multi-Agent Graph Systems</title>
+      <link>https://arxiv.org/abs/2607.23678</link>
+      <guid isPermaLink="false">arxiv:2607.23678</guid>
+      <pubDate>2026-07-26</pubDate>
+      <description>Large language models (LLMs) enable autonomous agents for reasoning, planning, and tool use. Recent systems increasingly organize these agents as graphs of specialized, interconnected nodes. Although graph-based orchestration supports flexible decomposition and coordination, it creates a key challenge: \textbf{attention allocation}. As workflows grow, existing approaches often execute graph components uniformly, wasting resources on irrelevant or low-impact tasks. We introduce \textbf{Attention </description>
     </item>
   </channel>
 </rss>
