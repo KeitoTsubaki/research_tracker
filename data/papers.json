@@ -1,5 +1,368 @@
 [
   {
+    "id": "arxiv:2607.28587",
+    "title": "PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks",
+    "authors": [
+      "Manyi Wang",
+      "Junjielong Xu",
+      "Pinjia He"
+    ],
+    "source": "arxiv",
+    "category": "cs.SE",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.28587",
+    "abstract": "SWE-bench-like benchmarks are widely used for evaluating LLM's issue resolution capability. They typically follow a common construction pipeline: each PR (Pull Request) is paired with its linked issue by extracting issue references from the PR description; the issue description is used as the problem statement, and the PR patch serves as the test oracle. However, due to the inherent complexity of developing and maintaining large repositories, such PR-Issue pairings are often misaligned in practice. In this work, we systematically study SWE-bench Verified instances, finding that 13.6% exhibit misalignment across five patterns in eleven fine-grained scenarios. To enable reliable and scalable construction of those benchmarks in the future, we propose PAIChecker, a multi-agent system for checking PR-Issue misalignment in SWE-bench-like benchmarks. Specifically, PAIChecker adopts a three-phase design that combines specific pattern identification, cross-agent label synthesis, and code-level validation, thereby enabling more accurate, generalizable, and progressively verified detection. Experiments on SWE-Gym and SWE-bench Multilingual show that PAIchecker achieves the best performance across all four LLM backbones, reaching up to 92.12% and 91.67% binary accuracy, respectively.",
+    "published_date": "2026-07-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted at the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026)",
+    "fetched_at": "2026-07-31T06:11:38Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.28527",
+    "title": "MANTA: Multi-Agent Network Topology Adaptation for Self-Evolving Multi-Agent Systems",
+    "authors": [
+      "Mao-xun Huang",
+      "Jerry Wang",
+      "Yi-Cheng Lai",
+      "Zhengxin Zhang",
+      "Claire Cardie",
+      "Hen-Hsen Huang"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.28527",
+    "abstract": "Large language model-based multi-agent systems improve complex problem solving through task decomposition, agent specialization, information exchange, and intermediate validation. However, existing systems typically treat communication topology as a fixed design choice or an offline optimization target. We introduce MANTA, a framework for Multi-Agent Network Topology Adaptation that enables communication structures to self-evolve at inference time. Before execution, MANTA initializes a task-conditioned topology from prior structural experience. During deployment, it monitors collaboration traces and applies bounded structural updates when the current organization becomes insufficient. These updates can modify agent roles, communication links, execution order, information visibility, and validation pathways while preserving the task interface and agent budget. We evaluate MANTA against representative single-agent and multi-agent baselines on five benchmarks spanning information seeking, tool use, planning, workflow execution, and mathematical reasoning. MANTA achieves the highest average score of 74.0, outperforming the strongest baseline by 5.8 percentage points and obtaining the best result on PlanCraft. These results show that inference-time self-improvement can extend to the architecture of collaboration itself.",
+    "published_date": "2026-07-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-07-31T06:11:38Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.28430",
+    "title": "AgentRadio: Passive Awareness for Long-Horizon Multi-Agent Collaboration",
+    "authors": [
+      "Xinxing Ren",
+      "Qianbo Zang",
+      "Ziyan Wang",
+      "Caelum Forder",
+      "Suman Deb",
+      "Peter Carroll",
+      "Zekun Guo"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.28430",
+    "abstract": "Understanding large codebases is a long-horizon task for Large Language Model (LLM) agents: answering a single question can require building and running the software, tracing execution across files, and synthesizing evidence over tens of minutes. On SWE-Atlas QnA, a benchmark of long-horizon questions over production repositories, a single Claude Code agent (Opus 4.6) resolves only 32.3% of tasks. Dividing the work among agents with clean contexts mitigates this limitation. However, the subtasks of code comprehension are interdependent. One agent's findings can rewrite another's task, so agents must coordinate during execution, not only at phase boundaries. Existing multi-agent systems support such exchange only between phases, through staged handoffs or synchronized rounds. Communication and work remain mutually exclusive. A discovery made mid-execution cannot be shared until the next boundary. We present AgentRadio, an asynchronous message-passing layer that equips coding-agent harnesses with three primitives: threads, messages, and waiting for mentions. The last runs as a background task, surfacing teammates' messages without interrupting foreground work, so each agent remains passively aware of its peers and folds new findings into its ongoing task. Under a five-phase protocol of division of labor and negotiation, four agents organized by AgentRadio resolve 62.1% of tasks, 29.8 points above a single agent and above Claude Code with the newer Opus 4.8 (57.2%). Rubric-level analysis shows the gain growing with task difficulty, consistent with mid-course correction as the underlying mechanism. Our code is available at https://github.com/Coral-Protocol/AgentRadio.",
+    "published_date": "2026-07-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-07-31T06:11:38Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.28306",
+    "title": "A Distributed Acoustic Sensing Dataset for Vessel Detection and Localization in Submarine Cable Protection",
+    "authors": [
+      "Erick Eduardo Ramirez-Torres",
+      "Javier Macias-Guarasa",
+      "Daniel Pizarro",
+      "Javier Tejedor",
+      "Sira Elena Palazuelos-Cagigas",
+      "Pedro J. Vidal-Moreno",
+      "María R. Fernández-Ruiz",
+      "Sonia Martin-Lopez",
+      "Miguel Gonzalez-Herraez",
+      "Roel Vanthillo"
+    ],
+    "source": "arxiv",
+    "category": "physics.geo-ph",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.28306",
+    "abstract": "Recent incidents of accidental damage and suspected sabotage to submarine telecommunication and power cables, particularly in the Baltic Sea, have underscored their vulnerability and the need for continuous monitoring solutions. Distributed acoustic sensing (DAS) applied to submarine optical-fiber cables enables wide-area monitoring of underwater acoustic activity. We present the Marlinks-NS DAS dataset, comprising processed submarine DAS measurements and AIS-derived vessel information curated for cable-protection research. The dataset defines two machine-learning tasks (vessel detection and vessel-to-cable distance estimation) allowing reproducible research under realistic marine conditions. The dataset contains 74,771 labeled data instances from ten days of continuous recording along a 2,554 m segment in a 28 km buried fiber-optic cable in the North Sea. Each instance includes spectral-energy features from 250 sensing channels, together with anonymized distance measurements and metadata from AIS information. The released HDF5 data, documentation, processing description, and example code support reproducible development and evaluation of DAS-based vessel-monitoring methods for submarine cable protection.",
+    "published_date": "2026-07-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "19 pages, 8 figures, 3 tables. Submitted to be considered for publication as a Data Descriptor in the Scientific Data Journal",
+    "fetched_at": "2026-07-31T06:11:38Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.28176",
+    "title": "Integrating AI into Requirements Quality Learning in Software Engineering Education: A TPACK-Guided Empirical Study",
+    "authors": [
+      "Hansika Ekanayake Mudiyanselage",
+      "Rohan Jai Dharmaraj",
+      "Malik Abdul Sami",
+      "Zheying Zhang"
+    ],
+    "source": "arxiv",
+    "category": "cs.SE",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.28176",
+    "abstract": "The rapid adoption of generative Artificial Intelligence (AI) in software engineering (SE) practice creates a need for pedagogically grounded approaches to AI integration in SE education, especially in conceptually intensive subjects such as requirements engineering (RE). This study examines a TPACK-guided integration of a multi-agent AI tool into a master-level RE assignment on requirements quality analysis. Using a mixed-methods design (N=100; 72 submissions analysed), we examine how structured assignment design shaped students' AI use, affected their understanding of user story quality criteria, and influenced their perceptions of AI's benefits and limitations. Results show that students used the AI tool selectively, mainly as support for analysis and evaluation rather than automation. Alignment improvements were most evident for structurally concrete requirements quality dimensions, such as value articulation and testability, while negotiability showed mixed effects. Students reported conditional trust, active refinement, and increased awareness of quality criteria, alongside moderate usability challenges. The findings show that TPACK-guided scaffolding can align AI affordances with pedagogical goals and RE content, offering design guidance for responsible AI integration in RE education.",
+    "published_date": "2026-07-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "11 pages, 6 figures, 3 tables, presented in the 38th CSEE&T in Florence, Italy, from July 20-22, 2026",
+    "fetched_at": "2026-07-31T06:11:38Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.27994",
+    "title": "SKIMIX: Multi-Agent Harness-Time Scaling with Skill Mixture for Dynamic Harness Engineering",
+    "authors": [
+      "Jia Luo"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.27994",
+    "abstract": "AI agents increasingly rely on large skill libraries, but selecting, combining, and maintaining skills remains difficult. We propose SKIMIX, a multi-agent framework in which agents with different skill portfolios collaborate through iterative refinement. SKIMIX combines embedding-based skill retrieval, submodular anti-dilution routing, and adaptive skill evolution. Across six reasoning benchmarks, multi-agent collaboration substantially improves open-ended mathematical reasoning but offers limited or negative gains on multiple-choice tasks. Agent-count scaling is non-monotonic, and most improvements arise during the first refinement round. These results show that task characteristics determine whether skill-level ensembles help and provide practical guidance for scalable agent design.",
+    "published_date": "2026-07-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-07-31T06:11:38Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.27967",
+    "title": "MARS-RA: Rank Aggregation for Credit Assignment via Multimodal Comparisons in Embodied Multi-Agent Cooperation",
+    "authors": [
+      "Dawei Wang",
+      "Di Zhao",
+      "Xinyuan Liu",
+      "Marci Chi Ma",
+      "Xiaoyang Liu",
+      "Chengming Zhou",
+      "Gary Ushaw",
+      "Richard Davison"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.27967",
+    "abstract": "Credit assignment is a fundamental challenge in cooperative multi-agent reinforcement learning, particularly in embodied AI settings characterized by limited and delayed feedback as well as dynamically changing numbers of active agents. We propose MARS-RA, a framework that reformulates credit assignment as a rank aggregation problem using contribution-based pairwise comparisons among agents generated by large multimodal models. This shift from absolute to relative estimation ensures robustness against noise and dynamic agent participation, converting comparison results into contribution scores for potential-based reward shaping. We provide theoretical justification for the convergence and robustness of the proposed framework, and show that Shapley values can be used as an interpretive reference. Experimental results on challenging tasks of different types indicate that MARS-RA can guide agents toward effective cooperation.",
+    "published_date": "2026-07-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "ACL 2026 Main",
+    "fetched_at": "2026-07-31T06:11:38Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.27958",
+    "title": "$Σ$-Mem: An Online Reliability Memory for LLM-based Multi-Agent Systems",
+    "authors": [
+      "Peilin Feng",
+      "Suorong Yang",
+      "Soujanya Poria"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.27958",
+    "abstract": "Memory is central to long-horizon LLM agents, yet existing memory systems primarily preserve interaction content rather than modeling which agents can be trusted and under what conditions. This limitation is particularly important in multi-agent systems, where a central model may be unable to directly verify plausible or correlated peer responses. We introduce $Σ$-Mem, an online reliability memory that records historical competence evidence for individual peers and peer relationship evidence across the peer set. Both forms of evidence are maintained as real symmetric states and updated from post-decision correctness feedback. By Weyl's inequality, the spectral change caused by each event-level update is bounded, enabling stable online adaptation without retraining the underlying models. $Σ$-Mem provides a general write-and-read interface: the same memory can be used for residual steering of a central model, response-free peer routing, or reliability-weighted voting. Across five Qwen-family models, $Σ$-Mem adapts to counterfactual reliability shifts and generalizes to unseen peers and task domains. Direct memory readouts also outperform majority voting and the best fixed peer over the full OOD evaluation set. Moreover, performance improves consistently as more correctness feedback becomes available, indicating that $Σ$-Mem progressively accumulates actionable reliability information. These results establish reliability memory as a reusable foundation for adaptive coordination in LLM-based multi-agent systems.",
+    "published_date": "2026-07-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-07-31T06:11:38Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.27946",
+    "title": "Argonaut: Interactive Visual Exploration for Distributed Optimization",
+    "authors": [
+      "Srijoni Majumdar",
+      "Chuhao Qin",
+      "Evangelos Pournaras"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.27946",
+    "abstract": "Distributed discrete-choice optimization in decentralized settings is often hard to explore and navigate: disentangling what other agents choose, how their choices are interdependent, and how they collectively reach a global objective quickly becomes intractable as the system scales. The major limitation is observability of the search process. Existing methods are largely centralized and offer limited support, visualizing only the final solution or providing algorithm backends over a fixed dataset, so how a solution is reached stays a black box. We present Argonaut, a lightweight, containerized optimization dashboard that enables interactive, visual exploration of the entire search process for multi-agent discrete-choice optimization in decentralized settings. Users upload datasets, construct agents and options, modify the decision space and its parameters on the fly, and run multiple algorithm backends to inspect how each configuration shapes local agent decisions and the resulting global objective. By uniting system construction, optimization, and analysis in one interactive loop, the first of its kind, Argonaut makes distributed discrete-choice optimization a human-in-the-loop process rather than a one-shot, black-box computation. We evaluate Argonaut on real-world household-electricity, shared-mobility, and sensor-data-exchange datasets scaling to 5600 agents and up to 1M solutions under brute force. Built on a Node.js interface with extensible Java and Python optimization backends, it maintains a typical runtime of 200 agents over 100 decision attributes in under 30 seconds.",
+    "published_date": "2026-07-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "6 pages, 8 figures. Accepted in ACSOS 2026 [artifacts track]",
+    "fetched_at": "2026-07-31T06:11:38Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.27942",
+    "title": "Scaling LLM-Driven Multi-Agent Systems: Design Principles and Architectural Scalability Analysis",
+    "authors": [
+      "Linus Sander",
+      "Fengjunjie Pan",
+      "Vahid Zolfaghari",
+      "Andre Schamschurko",
+      "Nenad Petrovic",
+      "Alois Knoll"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.27942",
+    "abstract": "LLM-based multi-agent systems have the potential to enable collective intelligence and scale toward solving highly complex tasks through coordinated ensembles of specialized agents. However, despite their theoretical potential, the architectural design space remains largely non-systematized and lacks broadly established design principles. Furthermore, the scalability characteristics of such systems are only partially understood so far. This paper makes two contributions. We first distill four design principles for scalable MAS architectures from a structured analysis of prior work: simplicity, elastic feedback, sequential workflows with optional loops, and summary-based communication. We operationalize these principles in a reference architecture whose topology is formalized as a constrained directed workflow graph, and we evaluate four configurations of increasing complexity on a standardized benchmark of terminal-based system engineering tasks using two LLMs of differing capability. Our findings show that scaling yields measurable accuracy improvements with approximately linear cost growth, but only when the underlying LLM exceeds a minimum capability threshold. Performance peaks at intermediate complexity, then degrades due to timeouts and evaluation limitations. In addition, persistent consistency issues emerge as a central challenge across all scaling levels. These results provide concrete design guidance for practitioners and highlight consistency and evaluation standardization as key targets for future research.",
+    "published_date": "2026-07-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-07-31T06:11:38Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.27895",
+    "title": "MMHBench: A Multi-Perspective Benchmark for Mental Health Understanding in Long-Form Videos",
+    "authors": [
+      "Jinpeng Hu",
+      "Erqiang Wang",
+      "Shan Wang",
+      "Zhuo Li",
+      "Peipei Song",
+      "Xun Yang",
+      "Meng Wang"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.27895",
+    "abstract": "Mental health understanding in long-form videos requires nuanced reasoning over observable behavior, interpersonal context, and latent psychological states. Existing benchmarks largely reduce this task to coarse-grained classification, providing limited insight into whether models truly understand psychological phenomena or rely on superficial correlations. To address this limitation, we introduce MMHBench, a comprehensive multimodal benchmark for multi-perspective mental health understanding, comprising 268 long-form videos and 2,184 carefully curated questions. MMHBench organizes the evaluation into two complementary settings: (1) third-person assessment, consisting of 605 questions that focus on the interpretation of observable behaviors and multimodal evidence, and (2) first-person perspective-taking, comprising 1,579 questions that require perspective-conditioned reasoning to identify the interpretation of the mental state supported by the available multimodal evidence. We propose a Multi-Agent Question Generation (MAQG) framework that simulates diverse social roles to synthesize questions from multiple perspectives. The generated questions are refined through multi-role feedback and iterative optimization, followed by expert-guided verification to ensure quality and validity. Extensive evaluation of 22 representative multimodal large language models (MLLMs), spanning both open-source and leading closed-source models, demonstrates that long-form video mental health understanding remains highly challenging.",
+    "published_date": "2026-07-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-07-31T06:11:38Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.27877",
+    "title": "An Empirical Study of Coordination Mode as the First-Class Citizen in From-Scratch Multi-Agent Coding",
+    "authors": [
+      "Yanyu Ren",
+      "Yunfeng Bai",
+      "Xizheng Wang",
+      "Li Chen",
+      "Dan Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.27877",
+    "abstract": "Multi-agent vibe coding promises to accelerate software development, yet existing benchmarks rely on synthetic environments that ignore practical time and monetary costs, conflate reasoning with communication, and reward only superficial completion. We introduce multi-agent from-scratch evaluation benchmark, MSEval, evaluating multi-agent coding on real-world tasks. Grounded in 10 authentic, full-stack projects across 10 domains, MSEval scores performance using hierarchical requirements and deterministic rubrics. Its execution engine, LegoGent, tests 10 collaboration topologies where agents coordinate via periodic sync intervals and deploy through native CI/CD pipelines. Concurrently, the automated grader TAgent dynamically probes implementations to jointly measure functional success, latency, and prefix-cached token cost. Across 100 runs, MSEval reveals that organizational topology rivals model capability in shaping the speed--cost--quality trade-off. For identical tasks and models, varying the topology shifts scores by over 30 points and doubles wall-clock time. Structured pipelines converge fastest with the highest quality, whereas heavy managerial oversight degrades performance. Ultimately, MSEval establishes a rigorous, reproducible standard for measuring how multi-agent teams actually build software. The benchmark is released at https://github.com/robinren03/MSEval.",
+    "published_date": "2026-07-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-07-31T06:11:38Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.27709",
+    "title": "MECA: A Mechanism-Centered Agent for Constructing Well-Specified and Valuable Mathematical Conjectures",
+    "authors": [
+      "Wentao Long",
+      "Yunfei Zhang",
+      "Chenyi Li",
+      "Zaiwen Wen"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.27709",
+    "abstract": "Automatically constructing well-specified and valuable mathematical conjectures remains a central challenge in AI-assisted mathematical discovery. Many existing open problems and conjectures are often too broad, underspecified, or difficult to connect to plausible proof or refutation strategies. We view a mathematical mechanism as a structure or reasoning principle that connects the assumptions of a candidate problem to its target conclusion, such as an inequality, invariant, decomposition, or reduction to an intermediate claim. We present MECA (MEchanism-centered Conjecture Agent), a multi-agent framework that constructs conjectures by jointly developing candidate statements and their supporting mechanisms. Explorer agents propose mechanisms, test how they apply, and revise the candidate conjecture accordingly, while critic agents assess their mathematical validity and research value. Their feedback guides changes to the assumptions, scope, and conclusion. Through this process, MECA transforms broad research directions into precise conjectures with substantive mathematical support while retaining a clearly identified unresolved core. We evaluate MECA in two complementary settings. First, we compare it with a generate-and-revise baseline on reconstructing preselected target-paper conclusions from target-conditioned but article-blind source materials. Second, we construct 100 semi-open problems from literature-derived seeds and existing open problems and evaluate them through independent proof and refutation attempts by automated provers. Our results indicate that mechanism-centered refinement produces well-specified and research-worthy conjectures that remain challenging for current automated provers.",
+    "published_date": "2026-07-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "78 pages, 5 figures. Includes appendices and the full collection of 100 generated conjectures",
+    "fetched_at": "2026-07-31T06:11:38Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2607.27626",
+    "title": "Real-Time Hard Peak Age-of-Information Safety with No-Regret Learning",
+    "authors": [
+      "Wentao Zhang",
+      "Wentao Mo"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2607.27626",
+    "abstract": "Safety-critical IoT systems such as industrial closed-loop control, V2X coordination, and remote teleoperation require every sensor's peak Age of Information (peak AoI, also abbreviated PAoI) to stay below a hard per-slot deadline, not merely an average bound. Existing approaches meet this requirement only under restrictive assumptions: stochastic channels for Whittle-index AoI, simulator rollouts for deep reinforcement learning, or sublinear cumulative violation for long-term constrained online convex optimization. Under adversarial coefficients, OCO-PAoI-Hard guarantees zero per-slot violation of the modeled AoI state under one-step viability and O(sqrt(T)) regret against any static safe comparator; packet-level safety requires stronger service assumptions. Our key observation is that the fractional peak-AoI deadline collapses exactly to an affine half-space constraint on the resource-allocation vector, turning hard real-time scheduling into time-varying constrained online convex optimization over a polyhedral safe set. A strictly causal proposal-shield-update loop enforces feasibility through one Euclidean projection per slot, the gradient step preserves no-regret behavior, and the classical virtual queue is reduced to an a-posteriori certificate. We establish closed-form static and dynamic regret bounds, a matching Omega(sqrt(T)) minimax lower bound, a margin-safe variant against execution noise, and a deadline-induced competitive ratio. On a four-sensor adversarial fluid-model trap channel, OCO-PAoI-Hard attains zero modeled-state deadline violations across all ten seeds, while four representative baselines miss between 1.65 percent and 64.0 percent of slots, and the empirical normalized regret stays below the theoretical envelope across two orders of magnitude in T.",
+    "published_date": "2026-07-30",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted to 2026 IEEE Real-Time Systems Symposium (RTSS)",
+    "fetched_at": "2026-07-31T06:11:38Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2607.27177",
     "title": "Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork",
     "authors": [
