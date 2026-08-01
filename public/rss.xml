@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Fri, 31 Jul 2026 06:11:38 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 05:53:33 GMT</lastBuildDate>
     <item>
       <title>PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks</title>
       <link>https://arxiv.org/abs/2607.28587</link>
@@ -102,6 +102,48 @@
       <guid isPermaLink="false">arxiv:2607.27626</guid>
       <pubDate>2026-07-30</pubDate>
       <description>Safety-critical IoT systems such as industrial closed-loop control, V2X coordination, and remote teleoperation require every sensor's peak Age of Information (peak AoI, also abbreviated PAoI) to stay below a hard per-slot deadline, not merely an average bound. Existing approaches meet this requirement only under restrictive assumptions: stochastic channels for Whittle-index AoI, simulator rollouts for deep reinforcement learning, or sublinear cumulative violation for long-term constrained online</description>
+    </item>
+    <item>
+      <title>Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork</title>
+      <link>https://arxiv.org/abs/2607.27177</link>
+      <guid isPermaLink="false">arxiv:2607.27177</guid>
+      <pubDate>2026-07-29</pubDate>
+      <description>Effective collaboration with novel and diverse partners is a crucial skill for autonomous agents. Most current ad-hoc teamwork (AHT) approaches assume that agents will collaborate on a single, fixed task and that the partner's capabilities, their ability to successfully execute the desired action, are already known. In reality, a partner's true capabilities are often hidden, and human collaborators may act sub-optimally on tasks with multiple valid strategies. To address these limitations, we ex</description>
+    </item>
+    <item>
+      <title>AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Matching</title>
+      <link>https://arxiv.org/abs/2607.27130</link>
+      <guid isPermaLink="false">arxiv:2607.27130</guid>
+      <pubDate>2026-07-29</pubDate>
+      <description>Ontology matching (OM) has traditionally been formulated as either equivalence discovery or subsumption matching. The existing OM systems identify only one type of semantic correspondence and cannot simultaneously discover equivalence and subsumption mappings. In this paper, we introduce Hybrid Ontology Matching (HOM), a new OM task that unifies equivalence and subsumption discovery, and accordingly propose a Large Language Model (LLM)-based multi-agent OM framework AgentMap that is implemented </description>
+    </item>
+    <item>
+      <title>Mitigating Compounding Error via Video Representation Regularization</title>
+      <link>https://arxiv.org/abs/2607.27036</link>
+      <guid isPermaLink="false">arxiv:2607.27036</guid>
+      <pubDate>2026-07-29</pubDate>
+      <description>Video diffusion-based world models enable long autoregressive video generation for robotics, autonomous driving and simulation tasks, yet sliding-window autoregressive inference suffers from severe error accumulation that degrades frame quality over time. Although this phenomenon has been widely observed, the underlying mechanism of compounding error and how to achieve stable long-horizon generation remain largely unresolved. In this paper, we investigate the internal representation dynamics of </description>
+    </item>
+    <item>
+      <title>Two Calls Beat Five Agents: Evaluating Multi-Agent Pipelines Against Self-Refinement for Local Language Models</title>
+      <link>https://arxiv.org/abs/2607.26922</link>
+      <guid isPermaLink="false">arxiv:2607.26922</guid>
+      <pubDate>2026-07-29</pubDate>
+      <description>Multi-agent LLM pipeline systems break down the task among multiple roles for better reasoning, but are benchmarked mainly with large-scale commercial models. In this study, we investigate Parishad, a structured multi-agent system involving five roles, by deploying it on Qwen2.5-7B-Instruct, a local model, on two datasets: GSM8K (500 questions) and HumanEval (164 questions), compared with prompting directly and two-call self-refinement. The multi-agent system drops GSM8K accuracy from 75.0\% to </description>
+    </item>
+    <item>
+      <title>Risk-Aware Motion Planning with Learned Trajectory Primitives and Probabilistic Safety Assessment</title>
+      <link>https://arxiv.org/abs/2607.26802</link>
+      <guid isPermaLink="false">arxiv:2607.26802</guid>
+      <pubDate>2026-07-29</pubDate>
+      <description>This paper presents a radial basis function network (RBFN)-informed motion planning framework for safe and efficient urban autonomous driving. The proposed approach combines RBFN-based candidate trajectory generation with an analytic collision probability assessment and optimization-based trajectory refinement. The network learns jerk-minimal trajectories, enabling the MPC to operate within a reduced and dynamically consistent search space. Candidate motion primitives are selected based on an ac</description>
+    </item>
+    <item>
+      <title>Do Latent Channels Actually Communicate? A Causal Audit of Latent Multi-Agent LLM</title>
+      <link>https://arxiv.org/abs/2607.26773</link>
+      <guid isPermaLink="false">arxiv:2607.26773</guid>
+      <pubDate>2026-07-29</pubDate>
+      <description>Latent communication in large language model (LLM)-based multi-agent systems (MAS) transmits continuous internal representations instead of text, but greater representational capacity does not establish that the receiver uses task-relevant information. End-task performance alone also cannot reveal whether an observed effect depends on message presence, content generated for the evaluated example, or information supplied by a separate agent. We introduce a causal audit that applies controlled mes</description>
     </item>
   </channel>
 </rss>
