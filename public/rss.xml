@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 03 Aug 2026 06:21:46 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 06:51:50 GMT</lastBuildDate>
     <item>
       <title>STAGE: STyle-controllable Action GEneration for personalized autonomous driving</title>
       <link>https://arxiv.org/abs/2607.29517</link>
@@ -95,6 +95,55 @@
       <guid isPermaLink="false">arxiv:2607.28802</guid>
       <pubDate>2026-07-30</pubDate>
       <description>Existing evaluations often reduce agent failures to system-level outcomes, obscuring where the fault originated and which intervention would improve the agent system. This creates a repair-assignment problem: the same visible failure may call for model post-training, harness engineering, environment redesign, or benchmark repair depending on its source. Because agent behavior emerges from interactions among models, harnesses, users, tools, memory, and environments, outcome-level labels are often</description>
+    </item>
+    <item>
+      <title>PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks</title>
+      <link>https://arxiv.org/abs/2607.28587</link>
+      <guid isPermaLink="false">arxiv:2607.28587</guid>
+      <pubDate>2026-07-30</pubDate>
+      <description>SWE-bench-like benchmarks are widely used for evaluating LLM's issue resolution capability. They typically follow a common construction pipeline: each PR (Pull Request) is paired with its linked issue by extracting issue references from the PR description; the issue description is used as the problem statement, and the PR patch serves as the test oracle. However, due to the inherent complexity of developing and maintaining large repositories, such PR-Issue pairings are often misaligned in practi</description>
+    </item>
+    <item>
+      <title>MANTA: Multi-Agent Network Topology Adaptation for Self-Evolving Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2607.28527</link>
+      <guid isPermaLink="false">arxiv:2607.28527</guid>
+      <pubDate>2026-07-30</pubDate>
+      <description>Large language model-based multi-agent systems improve complex problem solving through task decomposition, agent specialization, information exchange, and intermediate validation. However, existing systems typically treat communication topology as a fixed design choice or an offline optimization target. We introduce MANTA, a framework for Multi-Agent Network Topology Adaptation that enables communication structures to self-evolve at inference time. Before execution, MANTA initializes a task-cond</description>
+    </item>
+    <item>
+      <title>AgentRadio: Passive Awareness for Long-Horizon Multi-Agent Collaboration</title>
+      <link>https://arxiv.org/abs/2607.28430</link>
+      <guid isPermaLink="false">arxiv:2607.28430</guid>
+      <pubDate>2026-07-30</pubDate>
+      <description>Understanding large codebases is a long-horizon task for Large Language Model (LLM) agents: answering a single question can require building and running the software, tracing execution across files, and synthesizing evidence over tens of minutes. On SWE-Atlas QnA, a benchmark of long-horizon questions over production repositories, a single Claude Code agent (Opus 4.6) resolves only 32.3% of tasks. Dividing the work among agents with clean contexts mitigates this limitation. However, the subtasks</description>
+    </item>
+    <item>
+      <title>A Distributed Acoustic Sensing Dataset for Vessel Detection and Localization in Submarine Cable Protection</title>
+      <link>https://arxiv.org/abs/2607.28306</link>
+      <guid isPermaLink="false">arxiv:2607.28306</guid>
+      <pubDate>2026-07-30</pubDate>
+      <description>Recent incidents of accidental damage and suspected sabotage to submarine telecommunication and power cables, particularly in the Baltic Sea, have underscored their vulnerability and the need for continuous monitoring solutions. Distributed acoustic sensing (DAS) applied to submarine optical-fiber cables enables wide-area monitoring of underwater acoustic activity. We present the Marlinks-NS DAS dataset, comprising processed submarine DAS measurements and AIS-derived vessel information curated f</description>
+    </item>
+    <item>
+      <title>Integrating AI into Requirements Quality Learning in Software Engineering Education: A TPACK-Guided Empirical Study</title>
+      <link>https://arxiv.org/abs/2607.28176</link>
+      <guid isPermaLink="false">arxiv:2607.28176</guid>
+      <pubDate>2026-07-30</pubDate>
+      <description>The rapid adoption of generative Artificial Intelligence (AI) in software engineering (SE) practice creates a need for pedagogically grounded approaches to AI integration in SE education, especially in conceptually intensive subjects such as requirements engineering (RE). This study examines a TPACK-guided integration of a multi-agent AI tool into a master-level RE assignment on requirements quality analysis. Using a mixed-methods design (N=100; 72 submissions analysed), we examine how structure</description>
+    </item>
+    <item>
+      <title>SKIMIX: Multi-Agent Harness-Time Scaling with Skill Mixture for Dynamic Harness Engineering</title>
+      <link>https://arxiv.org/abs/2607.27994</link>
+      <guid isPermaLink="false">arxiv:2607.27994</guid>
+      <pubDate>2026-07-30</pubDate>
+      <description>AI agents increasingly rely on large skill libraries, but selecting, combining, and maintaining skills remains difficult. We propose SKIMIX, a multi-agent framework in which agents with different skill portfolios collaborate through iterative refinement. SKIMIX combines embedding-based skill retrieval, submodular anti-dilution routing, and adaptive skill evolution. Across six reasoning benchmarks, multi-agent collaboration substantially improves open-ended mathematical reasoning but offers limit</description>
+    </item>
+    <item>
+      <title>MARS-RA: Rank Aggregation for Credit Assignment via Multimodal Comparisons in Embodied Multi-Agent Cooperation</title>
+      <link>https://arxiv.org/abs/2607.27967</link>
+      <guid isPermaLink="false">arxiv:2607.27967</guid>
+      <pubDate>2026-07-30</pubDate>
+      <description>Credit assignment is a fundamental challenge in cooperative multi-agent reinforcement learning, particularly in embodied AI settings characterized by limited and delayed feedback as well as dynamically changing numbers of active agents. We propose MARS-RA, a framework that reformulates credit assignment as a rank aggregation problem using contribution-based pairwise comparisons among agents generated by large multimodal models. This shift from absolute to relative estimation ensures robustness a</description>
     </item>
   </channel>
 </rss>
