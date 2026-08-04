@@ -4,146 +4,104 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 03 Aug 2026 06:51:50 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 05:45:28 GMT</lastBuildDate>
     <item>
-      <title>STAGE: STyle-controllable Action GEneration for personalized autonomous driving</title>
-      <link>https://arxiv.org/abs/2607.29517</link>
-      <guid isPermaLink="false">arxiv:2607.29517</guid>
-      <pubDate>2026-07-31</pubDate>
-      <description>Driving style refers to the behavioral preferences that drivers maintain during driving, shaped by their diverse experiences, habits, and needs, and is typically reflected in varying levels of aggressiveness. If humans choose to use autonomous driving systems, they would expect the driving style of the systems to closely resemble their own habit. However, this is challenging for current industrial autonomous driving systems. To address this, we developed a style controllable action generation me</description>
+      <title>MoRAL: Sensor-Grounded BEV Reasoning for Compact VLMs toward Edge-Oriented Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2608.02449</link>
+      <guid isPermaLink="false">arxiv:2608.02449</guid>
+      <pubDate>2026-08-03</pubDate>
+      <description>Deploying vision-language models (VLMs) for safety-critical spatial reasoning on resource-constrained autonomous driving platforms requires both compact model size and reliable metric grounding. We present MoRAL (Multimodal Reasoning for Autonomous Language Models), a two-stage fine-tuning pipeline that teaches Cosmos-Reason2-2B to first read a physics-encoded Bird's Eye View (BEV) representation and then reason over it for driving decisions. The BEV image encodes LiDAR metric distance as color </description>
     </item>
     <item>
-      <title>Homotopy-Aware Corridor Generation without Predefined Reference Paths</title>
-      <link>https://arxiv.org/abs/2607.29513</link>
-      <guid isPermaLink="false">arxiv:2607.29513</guid>
-      <pubDate>2026-07-31</pubDate>
-      <description>Generating safe corridors is essential for collision-free robotic motion planning, yet most existing methods rely on predefined reference paths, which bias corridor geometry and implicitly limit the homotopy classes that can be explored. We propose a reference-path-free corridor generation framework on graphs of convex sets (GCS) that constructs corridors directly as sequences of convex sets, allowing corridor structure to emerge from the free-space representation rather than from a guiding path</description>
+      <title>Shared Prefixes, Better Credit: Adaptive Routing for Multi-Agent Reasoning</title>
+      <link>https://arxiv.org/abs/2608.02291</link>
+      <guid isPermaLink="false">arxiv:2608.02291</guid>
+      <pubDate>2026-08-03</pubDate>
+      <description>Multi-agent reasoning (MAR) improves reasoning reliability through iterative solution exchange and refinement. Existing adaptive MAR methods typically learn routing decisions from query-level labels or trajectory-level returns, but such coarse supervision cannot accurately estimate the state-conditioned utility of individual operators in multi-step collaboration. We propose TreeCredit, a shared-prefix credit assignment framework for efficient adaptive MAR. Its core insight is to estimate operato</description>
     </item>
     <item>
-      <title>Transcript-Managed Transformers: Monotone Multi-Agent Collapse and Universality with Two Pop-Enabled Transcripts</title>
-      <link>https://arxiv.org/abs/2607.29496</link>
-      <guid isPermaLink="false">arxiv:2607.29496</guid>
-      <pubDate>2026-07-31</pubDate>
-      <description>We study transcript management for fixed, finite-precision causal Transformers. A transcript is partitioned into channels of bounded blocks. Each transition consults a fixed visible suffix and may append one block, leaving the model, weights, and token protocol unchanged. The operation $P_c:=\PopContext(c)$ deletes the newest block on channel $c$ and exposes its predecessor. We model the layer by the Transcript-Managed Transducer $\TMTn{k}$: one finite controller, $k$ channels, and per-round act</description>
+      <title>PosterMELD: Multi-Agent Paper-to-Poster Generation for Controllable Design Diversity with Editable Print-Ready Outputs</title>
+      <link>https://arxiv.org/abs/2608.02218</link>
+      <guid isPermaLink="false">arxiv:2608.02218</guid>
+      <pubDate>2026-08-03</pubDate>
+      <description>Scientific poster construction compresses a long multimodal paper into a readable, editable canvas. Existing systems hide request-level failures by scoring only completed outputs; direct image generation is not element-editable, while coding-agent workflows are costly. PosterMELD is a template-conditioned multi-agent pipeline: capacity-aware slots guide writing before rendering, and deterministic gates plus vision-language model (VLM) review route failures to bounded repair. Each accepted reques</description>
     </item>
     <item>
-      <title>AgenticRepair: Multi-Faceted Program Context Engineering for Agentic Vulnerability Repair</title>
-      <link>https://arxiv.org/abs/2607.29422</link>
-      <guid isPermaLink="false">arxiv:2607.29422</guid>
-      <pubDate>2026-07-31</pubDate>
-      <description>Automated vulnerability repair aims to reduce the time and effort required to patch security flaws from a vulnerability triage report. Recent agentic AI approaches have shown promising results in automated program repair. However, vulnerability repair demands richer program context than general bug repair - context that security engineers routinely assemble in practice but that existing agentic approaches do not engineer. We identify three critical gaps: code-structure context capturing cross-fi</description>
+      <title>Microscopic dynamics of consensus formation in multi-agent LLM Naming Games</title>
+      <link>https://arxiv.org/abs/2608.02178</link>
+      <guid isPermaLink="false">arxiv:2608.02178</guid>
+      <pubDate>2026-08-03</pubDate>
+      <description>Decentralized populations of Large Language Model (LLM) agents can spontaneously reach consensus on shared conventions, yet the microscopic mechanisms by which their internal stochasticity shapes macroscopic ordering remain unexplored. We study a minimal LLM Naming Game in which the listener's decision is a single-token LLM call at decoding temperature $T$, replacing the inventory check of the deterministic Naming Game. Each interaction decomposes into an in-inventory and an out-inventory channe</description>
     </item>
     <item>
-      <title>Beyond Component Testing: Validating Agentic AI Systems</title>
-      <link>https://arxiv.org/abs/2607.29405</link>
-      <guid isPermaLink="false">arxiv:2607.29405</guid>
-      <pubDate>2026-07-31</pubDate>
-      <description>Agentic AI systems act through multi-step trajectories that combine planning, tool use, memory, interaction, and adaptation. This behavior stretches validation practice beyond component testing and one-shot input--output evaluation, because acceptable system behavior now depends on how decisions unfold over time and under changing environmental conditions. This survey synthesizes 257 papers spanning agent evaluation, software assurance, cyber-physical systems, runtime monitoring, and regulatory </description>
+      <title>Evolving in the Agent Jungle via History-Informed Opponent Awareness</title>
+      <link>https://arxiv.org/abs/2608.02005</link>
+      <guid isPermaLink="false">arxiv:2608.02005</guid>
+      <pubDate>2026-08-03</pubDate>
+      <description>Learning to adapt strategies through interaction is a key step toward more general and autonomous LLM agents. Existing approaches typically achieve behavioral adaptation by revising skill libraries. However, in multi-agent environments, opponents may simultaneously update their strategies, causing the environment itself to evolve continuously. Applying skill-revision methods designed for static environments in such settings therefore amounts to updating against an obsolete reference. To address </description>
     </item>
     <item>
-      <title>SeekBrain: An Autonomous Multi-Agent System for Accelerating Neuroscience Discovery</title>
-      <link>https://arxiv.org/abs/2607.29347</link>
-      <guid isPermaLink="false">arxiv:2607.29347</guid>
-      <pubDate>2026-07-31</pubDate>
-      <description>Modern neuroscience relies on integrating multi-scale, multimodal datasets to uncover the neural principles underlying intelligence. However, analytical challenges posed by highly heterogeneous data and fragmented workflows increasingly constrain discoveries. Here we introduce SeekBrain, an autonomous multi-agent framework designed to accelerate neuroscience discovery through domain-grounded hierarchical planning and cross-modal data analysis. SeekBrain dynamically constructs a repertoire of ana</description>
+      <title>TALSC: Timeliness-Aware Large-Small VLM Collaboration for Infrastructure-Assisted Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2608.01998</link>
+      <guid isPermaLink="false">arxiv:2608.01998</guid>
+      <pubDate>2026-08-03</pubDate>
+      <description>The deployment of Vision-Language Models (VLMs) in autonomous driving (AD) systems is constrained by on-board computing power, restricting vehicles to small VLMs (SVLMs) with limited perception and reasoning capabilities. Infrastructure-assisted AD alleviates this resource constraint by enabling collaboration with large VLMs (LVLMs) at edge servers. However, in dynamic vehicular environments, the utility of sensory data for downstream tasks decays rapidly, making timeliness of information a crit</description>
     </item>
     <item>
-      <title>Autonomous Repair for Multi-Agent Systems via Monte-Carlo Tree Search</title>
-      <link>https://arxiv.org/abs/2607.29055</link>
-      <guid isPermaLink="false">arxiv:2607.29055</guid>
-      <pubDate>2026-07-31</pubDate>
-      <description>Multi-agent systems (MAS) are increasingly deployed to solve complex tasks. In case of incorrect or unsatisfactory outputs, users have to manually locate agent mistakes by inspecting agent trajectories (i.e., {\em failure attribution}) and provide feedback to refine the outputs (i.e., {\em repair}). Despite some recent work in MAS failure attribution, automated mechanisms to recover from such mistakes remain largely unexplored. To bridge this gap, we propose MARS, a search-based framework that f</description>
+      <title>CockpitHAT: Dependency-Graph-Driven Hierarchical Attribution for Embodied Multi-Agent Cockpits</title>
+      <link>https://arxiv.org/abs/2608.01805</link>
+      <guid isPermaLink="false">arxiv:2608.01805</guid>
+      <pubDate>2026-08-03</pubDate>
+      <description>LLM multi-agent systems suffer from Correctness Collapse, where high task-level accuracy conceals severe process-level failures. This is especially hazardous in safety-critical embodied settings such as automotive cockpits, where lexically correct utterances may trigger dangerous physical operations. Existing attribution methods rely on text traces alone, missing dependency structure, multi-channel evidence, and safety-aware evaluation. We introduce CockpitHAT, a hierarchical attribution framewo</description>
     </item>
     <item>
-      <title>Outcome-Guided Distillation: A Teacher-Student Framework to Advance VLM Reasoning in Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2607.29052</link>
-      <guid isPermaLink="false">arxiv:2607.29052</guid>
-      <pubDate>2026-07-31</pubDate>
-      <description>End-to-end (E2E) autonomous driving aims to learn a direct mapping from visual observations to control actions. However, these E2E models often act as black boxes and struggle with complex scenarios. To address this, recent works incorporate Vision-Language Models (VLMs) to provide explicit reasoning, enhancing both interpretability and driving robustness. These approaches typically rely on pre-generated annotations, which suffer from potentially flawed labels and require costly human labor. In </description>
+      <title>PICopilot: An LLM-based Agentic Framework for Assisting Photonic Integrated Circuit Design via Script Generation</title>
+      <link>https://arxiv.org/abs/2608.01791</link>
+      <guid isPermaLink="false">arxiv:2608.01791</guid>
+      <pubDate>2026-08-03</pubDate>
+      <description>The rapid development of photonic integrated circuits (PICs) is shifting the design flow from traditional graphical user interface (GUI)-based methods to script-based methods for higher flexibility, portability, and maintainability. However, script-based design introduces new challenges, requiring designers to possess additional proficiency in tool application programming interfaces (APIs) and programming. It also demands greater effort and time because it is inherently less intuitive and more c</description>
     </item>
     <item>
-      <title>Auto-JEPA: A Latent World Model of Continuous Intent for End-to-End Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2607.29031</link>
-      <guid isPermaLink="false">arxiv:2607.29031</guid>
-      <pubDate>2026-07-31</pubDate>
-      <description>Existing autonomous-driving world models typically perform dense prediction of future videos, occupancy states, BEV representations, or agent motion. We argue that planning need not reconstruct the complete future world, but only focus on scene features that affect future ego action. Based on this perspective, we propose Auto-JEPA, an action-oriented latent world model that learns continuous future driving intent through joint-embedding prediction. Given visual observations, egomotion history, a</description>
+      <title>Deferred Exposure of Future Trajectories for Verifiable Reasoning in Autonomous Driving VLMs</title>
+      <link>https://arxiv.org/abs/2608.01755</link>
+      <guid isPermaLink="false">arxiv:2608.01755</guid>
+      <pubDate>2026-08-03</pubDate>
+      <description>Recent Vision-Language-Action (VLA) models for autonomous driving (AD) increasingly utilize chain-of-thought (CoT) supervision to enhance the reasoning capabilities of their Vision-Language Model (VLM) components, yet existing annotation pipelines commonly expose the teacher model to the logged ground-truth (GT) future trajectory. We empirically show that this induces trajectory anchoring bias: teacher models rationalize the revealed outcome rather than infer a decision from scene evidence, prod</description>
     </item>
     <item>
-      <title>Adjudicated Captioning: Multi-Agent Alignment Scoring and Consensus-Distilled Beam Arbitration for Strict Zero-Shot Image Captioning</title>
-      <link>https://arxiv.org/abs/2607.28986</link>
-      <guid isPermaLink="false">arxiv:2607.28986</guid>
-      <pubDate>2026-07-31</pubDate>
-      <description>Zero-shot image captioning (ZIC) describes images without paired image-caption supervision during captioner training, relying on text-only corpora and frozen pretrained image-text scorers. Existing retrieval-augmented methods score image-text alignment once, at retrieval, then commit the captioner's autoregressive beam under language-model probability alone, leaving the decoder without further visual grounding feedback. Progress has stalled, with no method improving on the strict-regime best sin</description>
+      <title>Heterogeneous Multi-Agent Reinforcement Learning for Radio Resource Management under Coupled Finite-Horizon Constraints</title>
+      <link>https://arxiv.org/abs/2608.01745</link>
+      <guid isPermaLink="false">arxiv:2608.01745</guid>
+      <pubDate>2026-08-03</pubDate>
+      <description>Maximizing throughput under proportional fairness in dense wireless networks requires jointly managing user association, scheduling, base station (BS) activation, and handover control under hard finite-horizon energy and handover budgets, which induces a fundamental tension between BS-side energy management and user-side handover regulation. While multi-agent reinforcement learning (MARL) is a natural framework for such distributed sequential control, its application here faces two difficulties:</description>
     </item>
     <item>
-      <title>Open-Source LLM-Driven Formal Verification: A Multi-Agent Pipeline for RTL Repair</title>
-      <link>https://arxiv.org/abs/2607.28877</link>
-      <guid isPermaLink="false">arxiv:2607.28877</guid>
-      <pubDate>2026-07-30</pubDate>
-      <description>Verification consumes the majority of modern chip design effort, yet the formal verification tools that provide mathematical guarantees of correctness remain expensive and restrictively licensed. While large language models (LLMs) have shown promise for hardware design, existing approaches to RTL repair validate their results through simulation - which exercises only a subset of inputs - or rely on commercial tools, and few combine formal proof with an entirely open-source toolchain. In this pap</description>
+      <title>MNC: Scope-Bound Semantic Declassification for Private LLM-Agent Communication</title>
+      <link>https://arxiv.org/abs/2608.01719</link>
+      <guid isPermaLink="false">arxiv:2608.01719</guid>
+      <pubDate>2026-08-03</pubDate>
+      <description>Multi-agent large language model (LLM) systems can expose protected state through internal messages, tool arguments, logs, and persistent memory even when their public outputs appear innocuous. Existing privacy prompts, redaction methods, and source-level access controls restrict surface content or data access, but do not specify what a legitimately informed agent should disclose or how that disclosure may be reused downstream. We introduce Minimum-Necessary Communication (MNC), a typed semantic</description>
     </item>
     <item>
-      <title>CyberNeuro: A Privacy-Preserving Agentic Workbench for Cohort-Scale Neuroimage and Clinical Data Analysis</title>
-      <link>https://arxiv.org/abs/2607.28841</link>
-      <guid isPermaLink="false">arxiv:2607.28841</guid>
-      <pubDate>2026-07-30</pubDate>
-      <description>Despite tremendous success in neuroimaging methodology, making large-scale, high-dimensional datasets ready for AI/ML applications remains a critical operational bottleneck. Conventional workflows require extensive manual effort across metadata curation, pipeline execution, post-processing quality control, and data management, a burden that disproportionately excludes laboratories with limited manpower and computational infrastructure. To address this real-world barrier, there is an urgent need </description>
+      <title>Entity-Aware Sequence Transduction for Player-Centric Ball Action Spotting</title>
+      <link>https://arxiv.org/abs/2608.01696</link>
+      <guid isPermaLink="false">arxiv:2608.01696</guid>
+      <pubDate>2026-08-03</pubDate>
+      <description>Player-centric ball action spotting requires temporally precise event detection together with actor attribution in crowded, partially observed multi-agent sports videos. Existing Denoising Sequence Transduction (DST) baselines treat the player-role dimension as part of a flattened frame-level representation, which weakens the inductive bias for modeling player-specific temporal evolution and inter-player interactions. To address this limitation, we propose Multi-Entity Denoising Sequence Transdu</description>
     </item>
     <item>
-      <title>Model or Harness? An Interaction-Centric Taxonomy for Localizing Agent Failures</title>
-      <link>https://arxiv.org/abs/2607.28802</link>
-      <guid isPermaLink="false">arxiv:2607.28802</guid>
-      <pubDate>2026-07-30</pubDate>
-      <description>Existing evaluations often reduce agent failures to system-level outcomes, obscuring where the fault originated and which intervention would improve the agent system. This creates a repair-assignment problem: the same visible failure may call for model post-training, harness engineering, environment redesign, or benchmark repair depending on its source. Because agent behavior emerges from interactions among models, harnesses, users, tools, memory, and environments, outcome-level labels are often</description>
+      <title>SyncPlan: Long-Horizon LLM Coordination with Explicit Synchronization and Adaptive Correction</title>
+      <link>https://arxiv.org/abs/2608.01652</link>
+      <guid isPermaLink="false">arxiv:2608.01652</guid>
+      <pubDate>2026-08-03</pubDate>
+      <description>LLM-based multi-agent coordination faces a fundamental trade-off between efficiency and adaptivity in dynamic environments. Existing approaches typically rely on repeated LLM invocations or multi-round communication to adapt decisions during execution, introducing substantial latency and making coordination vulnerable to asynchronous progress and environmental changes. Conversely, one-shot planning reduces coordination overhead but produces open-loop plans that can quickly become stale or fail w</description>
     </item>
     <item>
-      <title>PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks</title>
-      <link>https://arxiv.org/abs/2607.28587</link>
-      <guid isPermaLink="false">arxiv:2607.28587</guid>
-      <pubDate>2026-07-30</pubDate>
-      <description>SWE-bench-like benchmarks are widely used for evaluating LLM's issue resolution capability. They typically follow a common construction pipeline: each PR (Pull Request) is paired with its linked issue by extracting issue references from the PR description; the issue description is used as the problem statement, and the PR patch serves as the test oracle. However, due to the inherent complexity of developing and maintaining large repositories, such PR-Issue pairings are often misaligned in practi</description>
-    </item>
-    <item>
-      <title>MANTA: Multi-Agent Network Topology Adaptation for Self-Evolving Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2607.28527</link>
-      <guid isPermaLink="false">arxiv:2607.28527</guid>
-      <pubDate>2026-07-30</pubDate>
-      <description>Large language model-based multi-agent systems improve complex problem solving through task decomposition, agent specialization, information exchange, and intermediate validation. However, existing systems typically treat communication topology as a fixed design choice or an offline optimization target. We introduce MANTA, a framework for Multi-Agent Network Topology Adaptation that enables communication structures to self-evolve at inference time. Before execution, MANTA initializes a task-cond</description>
-    </item>
-    <item>
-      <title>AgentRadio: Passive Awareness for Long-Horizon Multi-Agent Collaboration</title>
-      <link>https://arxiv.org/abs/2607.28430</link>
-      <guid isPermaLink="false">arxiv:2607.28430</guid>
-      <pubDate>2026-07-30</pubDate>
-      <description>Understanding large codebases is a long-horizon task for Large Language Model (LLM) agents: answering a single question can require building and running the software, tracing execution across files, and synthesizing evidence over tens of minutes. On SWE-Atlas QnA, a benchmark of long-horizon questions over production repositories, a single Claude Code agent (Opus 4.6) resolves only 32.3% of tasks. Dividing the work among agents with clean contexts mitigates this limitation. However, the subtasks</description>
-    </item>
-    <item>
-      <title>A Distributed Acoustic Sensing Dataset for Vessel Detection and Localization in Submarine Cable Protection</title>
-      <link>https://arxiv.org/abs/2607.28306</link>
-      <guid isPermaLink="false">arxiv:2607.28306</guid>
-      <pubDate>2026-07-30</pubDate>
-      <description>Recent incidents of accidental damage and suspected sabotage to submarine telecommunication and power cables, particularly in the Baltic Sea, have underscored their vulnerability and the need for continuous monitoring solutions. Distributed acoustic sensing (DAS) applied to submarine optical-fiber cables enables wide-area monitoring of underwater acoustic activity. We present the Marlinks-NS DAS dataset, comprising processed submarine DAS measurements and AIS-derived vessel information curated f</description>
-    </item>
-    <item>
-      <title>Integrating AI into Requirements Quality Learning in Software Engineering Education: A TPACK-Guided Empirical Study</title>
-      <link>https://arxiv.org/abs/2607.28176</link>
-      <guid isPermaLink="false">arxiv:2607.28176</guid>
-      <pubDate>2026-07-30</pubDate>
-      <description>The rapid adoption of generative Artificial Intelligence (AI) in software engineering (SE) practice creates a need for pedagogically grounded approaches to AI integration in SE education, especially in conceptually intensive subjects such as requirements engineering (RE). This study examines a TPACK-guided integration of a multi-agent AI tool into a master-level RE assignment on requirements quality analysis. Using a mixed-methods design (N=100; 72 submissions analysed), we examine how structure</description>
-    </item>
-    <item>
-      <title>SKIMIX: Multi-Agent Harness-Time Scaling with Skill Mixture for Dynamic Harness Engineering</title>
-      <link>https://arxiv.org/abs/2607.27994</link>
-      <guid isPermaLink="false">arxiv:2607.27994</guid>
-      <pubDate>2026-07-30</pubDate>
-      <description>AI agents increasingly rely on large skill libraries, but selecting, combining, and maintaining skills remains difficult. We propose SKIMIX, a multi-agent framework in which agents with different skill portfolios collaborate through iterative refinement. SKIMIX combines embedding-based skill retrieval, submodular anti-dilution routing, and adaptive skill evolution. Across six reasoning benchmarks, multi-agent collaboration substantially improves open-ended mathematical reasoning but offers limit</description>
-    </item>
-    <item>
-      <title>MARS-RA: Rank Aggregation for Credit Assignment via Multimodal Comparisons in Embodied Multi-Agent Cooperation</title>
-      <link>https://arxiv.org/abs/2607.27967</link>
-      <guid isPermaLink="false">arxiv:2607.27967</guid>
-      <pubDate>2026-07-30</pubDate>
-      <description>Credit assignment is a fundamental challenge in cooperative multi-agent reinforcement learning, particularly in embodied AI settings characterized by limited and delayed feedback as well as dynamically changing numbers of active agents. We propose MARS-RA, a framework that reformulates credit assignment as a rank aggregation problem using contribution-based pairwise comparisons among agents generated by large multimodal models. This shift from absolute to relative estimation ensures robustness a</description>
+      <title>A Forward-Inverse Dynamic Game Framework for Enhanced Multi-Agent Trajectory Planning</title>
+      <link>https://arxiv.org/abs/2608.01636</link>
+      <guid isPermaLink="false">arxiv:2608.01636</guid>
+      <pubDate>2026-08-03</pubDate>
+      <description>This paper studies feedback Nash equilibrium (FBNE) seeking for multi-agent trajectory planning in nonlinear dynamical systems with unknown agents' objectives and state-dependent inter-agent coupling. While dynamic game theory provides a principled framework for such problems, existing approaches typically assume fully rational agents with known objectives or rely on fixed regularization, limiting their ability to capture bounded rationality and spatially varying interaction intensity in safety-</description>
     </item>
   </channel>
 </rss>
