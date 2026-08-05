@@ -4,104 +4,139 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Tue, 04 Aug 2026 05:45:28 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 05:44:29 GMT</lastBuildDate>
     <item>
-      <title>MoRAL: Sensor-Grounded BEV Reasoning for Compact VLMs toward Edge-Oriented Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2608.02449</link>
-      <guid isPermaLink="false">arxiv:2608.02449</guid>
-      <pubDate>2026-08-03</pubDate>
-      <description>Deploying vision-language models (VLMs) for safety-critical spatial reasoning on resource-constrained autonomous driving platforms requires both compact model size and reliable metric grounding. We present MoRAL (Multimodal Reasoning for Autonomous Language Models), a two-stage fine-tuning pipeline that teaches Cosmos-Reason2-2B to first read a physics-encoded Bird's Eye View (BEV) representation and then reason over it for driving decisions. The BEV image encodes LiDAR metric distance as color </description>
+      <title>FedCritic-MIMO: Communication-Efficient Serverless Federated Critic Learning for Massive-MIMO Resource Control in Open and Disaggregated 6G RANs</title>
+      <link>https://arxiv.org/abs/2608.03852</link>
+      <guid isPermaLink="false">arxiv:2608.03852</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>This paper proposes FedCritic-MIMO, a communication-efficient serverless federated multi-agent reinforcement learning framework for AI-native resource control across independently deployable cell-level controllers in open and disaggregated 6G RANs. Controllers share no trainer, retain local actors and personalized critic components, and exchange only compatible shared critic parameters. FedCritic-MIMO targets reuse-$1$ multi-cell massive-MIMO OFDMA deployments, where RAN controllers jointly mana</description>
     </item>
     <item>
-      <title>Shared Prefixes, Better Credit: Adaptive Routing for Multi-Agent Reasoning</title>
-      <link>https://arxiv.org/abs/2608.02291</link>
-      <guid isPermaLink="false">arxiv:2608.02291</guid>
-      <pubDate>2026-08-03</pubDate>
-      <description>Multi-agent reasoning (MAR) improves reasoning reliability through iterative solution exchange and refinement. Existing adaptive MAR methods typically learn routing decisions from query-level labels or trajectory-level returns, but such coarse supervision cannot accurately estimate the state-conditioned utility of individual operators in multi-step collaboration. We propose TreeCredit, a shared-prefix credit assignment framework for efficient adaptive MAR. Its core insight is to estimate operato</description>
+      <title>History Matters: Meta-policy Delegation with Heterogeneous Multi-agent Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2608.03833</link>
+      <guid isPermaLink="false">arxiv:2608.03833</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>AI agents are expected to play an increasingly important role in future decision-making systems. In this paper, we consider collaborative systems composed of heterogeneous multi-agent systems (MAS), where their members have different capabilities and operating costs. We study how agents can delegate tasks to one another so that certain research tasks can be completed effectively under resource-constrained scenarios. We first develop a multi-agent reinforcement learning-based (MARL) delegation tr</description>
     </item>
     <item>
-      <title>PosterMELD: Multi-Agent Paper-to-Poster Generation for Controllable Design Diversity with Editable Print-Ready Outputs</title>
-      <link>https://arxiv.org/abs/2608.02218</link>
-      <guid isPermaLink="false">arxiv:2608.02218</guid>
-      <pubDate>2026-08-03</pubDate>
-      <description>Scientific poster construction compresses a long multimodal paper into a readable, editable canvas. Existing systems hide request-level failures by scoring only completed outputs; direct image generation is not element-editable, while coding-agent workflows are costly. PosterMELD is a template-conditioned multi-agent pipeline: capacity-aware slots guide writing before rendering, and deterministic gates plus vision-language model (VLM) review route failures to bounded repair. Each accepted reques</description>
+      <title>Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2608.03744</link>
+      <guid isPermaLink="false">arxiv:2608.03744</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>Clinical decision support is moving toward committees of language-model agents deliberating on a shared workspace. We ask whether such committees can be gamed by shortcuts, cues a benchmark rewards but a clinician would ignore. Across seven cohorts on six public datasets spanning text (MedQA-USMLE, MedMCQA, MIMIC-CXR reports), imaging (NIH ChestX-ray14, MIMIC-CXR-JPG, CheXpert) and tabular ICU records (SUPPORT2), Gemini committees resist these cues in isolation (flip 5-16%), yet a socially plaus</description>
     </item>
     <item>
-      <title>Microscopic dynamics of consensus formation in multi-agent LLM Naming Games</title>
-      <link>https://arxiv.org/abs/2608.02178</link>
-      <guid isPermaLink="false">arxiv:2608.02178</guid>
-      <pubDate>2026-08-03</pubDate>
-      <description>Decentralized populations of Large Language Model (LLM) agents can spontaneously reach consensus on shared conventions, yet the microscopic mechanisms by which their internal stochasticity shapes macroscopic ordering remain unexplored. We study a minimal LLM Naming Game in which the listener's decision is a single-token LLM call at decoding temperature $T$, replacing the inventory check of the deterministic Naming Game. Each interaction decomposes into an in-inventory and an out-inventory channe</description>
+      <title>An Actionable Diagnosis of Multilingual, Multi-Agent Planning Failures</title>
+      <link>https://arxiv.org/abs/2608.03735</link>
+      <guid isPermaLink="false">arxiv:2608.03735</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>Multilingual multi-agent systems exhibit substantial degradation beyond English, yet prior work rarely identifies how task-critical information is lost when user requests are converted into executable plans. We study the planner in a multi-agent system as the request-to-action interface and derive an actionable taxonomy of planning-grounding failures from failed real-world task executions. LLM-based analysis shows that these failures constitute an increasing share of unsuccessful executions as l</description>
     </item>
     <item>
-      <title>Evolving in the Agent Jungle via History-Informed Opponent Awareness</title>
-      <link>https://arxiv.org/abs/2608.02005</link>
-      <guid isPermaLink="false">arxiv:2608.02005</guid>
-      <pubDate>2026-08-03</pubDate>
-      <description>Learning to adapt strategies through interaction is a key step toward more general and autonomous LLM agents. Existing approaches typically achieve behavioral adaptation by revising skill libraries. However, in multi-agent environments, opponents may simultaneously update their strategies, causing the environment itself to evolve continuously. Applying skill-revision methods designed for static environments in such settings therefore amounts to updating against an obsolete reference. To address </description>
+      <title>Group Perspective Matters: Regulating Debate Relationships Can Mitigate Blind Conformity in Multi-Agent Debate</title>
+      <link>https://arxiv.org/abs/2608.03648</link>
+      <guid isPermaLink="false">arxiv:2608.03648</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>Multi-Agent Debate (MAD) improves the reasoning performance of Large Language Models (LLMs) through multi-round interaction. However, LLMs in MAD are highly susceptible to blind conformity. Existing individual evaluation methods, typically based on confidence or perplexity, fail to reflect the correctness of reasoning and may even exacerbate blind conformity. To address this, we shift the perspective from individual evaluation to group interaction. We define mutual referencing among LLMs as \tex</description>
     </item>
     <item>
-      <title>TALSC: Timeliness-Aware Large-Small VLM Collaboration for Infrastructure-Assisted Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2608.01998</link>
-      <guid isPermaLink="false">arxiv:2608.01998</guid>
-      <pubDate>2026-08-03</pubDate>
-      <description>The deployment of Vision-Language Models (VLMs) in autonomous driving (AD) systems is constrained by on-board computing power, restricting vehicles to small VLMs (SVLMs) with limited perception and reasoning capabilities. Infrastructure-assisted AD alleviates this resource constraint by enabling collaboration with large VLMs (LVLMs) at edge servers. However, in dynamic vehicular environments, the utility of sensory data for downstream tasks decays rapidly, making timeliness of information a crit</description>
+      <title>Is Inter-Seed Cross-Play Enough? Evaluating the Robustness of Zero-Shot Coordination Algorithms to Implementation Details</title>
+      <link>https://arxiv.org/abs/2608.03644</link>
+      <guid isPermaLink="false">arxiv:2608.03644</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>AI agents deployed in real-world settings must be capable of coordinating with humans and other AI agents they have not encountered before. Zero-shot coordination (ZSC) algorithms aim to achieve this by specifying high-level learning rules such that independently engineered agents can coordinate with each other at test time. Rigorous evaluation of ZSC algorithms remains difficult: ideally, multiple independent implementations of each proposed algorithm must be used, reflecting the variation that</description>
     </item>
     <item>
-      <title>CockpitHAT: Dependency-Graph-Driven Hierarchical Attribution for Embodied Multi-Agent Cockpits</title>
-      <link>https://arxiv.org/abs/2608.01805</link>
-      <guid isPermaLink="false">arxiv:2608.01805</guid>
-      <pubDate>2026-08-03</pubDate>
-      <description>LLM multi-agent systems suffer from Correctness Collapse, where high task-level accuracy conceals severe process-level failures. This is especially hazardous in safety-critical embodied settings such as automotive cockpits, where lexically correct utterances may trigger dangerous physical operations. Existing attribution methods rely on text traces alone, missing dependency structure, multi-channel evidence, and safety-aware evaluation. We introduce CockpitHAT, a hierarchical attribution framewo</description>
+      <title>From Social Coding to Agentic Coding: Productivity and Relational Reconfiguration in Open-Source Communities</title>
+      <link>https://arxiv.org/abs/2608.03585</link>
+      <guid isPermaLink="false">arxiv:2608.03585</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>Open-source software communities are a form of digital public infrastructure that not only produces code, but also generates public knowledge and interpersonal relationships through visible collaboration. Generative coding agents (CAs) are an advanced tool to improve development efficiency while shifting part of activities from public human interaction to private human-agent loops. We study this shift using an LLM-based multi-agent simulation initialized with real GitHub data from 1,084 active d</description>
     </item>
     <item>
-      <title>PICopilot: An LLM-based Agentic Framework for Assisting Photonic Integrated Circuit Design via Script Generation</title>
-      <link>https://arxiv.org/abs/2608.01791</link>
-      <guid isPermaLink="false">arxiv:2608.01791</guid>
-      <pubDate>2026-08-03</pubDate>
-      <description>The rapid development of photonic integrated circuits (PICs) is shifting the design flow from traditional graphical user interface (GUI)-based methods to script-based methods for higher flexibility, portability, and maintainability. However, script-based design introduces new challenges, requiring designers to possess additional proficiency in tool application programming interfaces (APIs) and programming. It also demands greater effort and time because it is inherently less intuitive and more c</description>
+      <title>Pivot-Centric Trajectory Prediction: Bridging Long Horizons via Dynamical Guidance</title>
+      <link>https://arxiv.org/abs/2608.03521</link>
+      <guid isPermaLink="false">arxiv:2608.03521</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>Forecasting precise future motion of surrounding agents is essential for reliable autonomous vehicles. However, as the demand for longer prediction horizons increases, existing endpoint-completion or iterative-refine methods increasingly struggle with weak guidance and compounding errors. To tackle the long-horizon prediction challenge, we propose Pivot-Centric Trajectory Prediction (PCTP). By introducing ``pivots'' and focusing on predicting pivot points along extended trajectories, we divide t</description>
     </item>
     <item>
-      <title>Deferred Exposure of Future Trajectories for Verifiable Reasoning in Autonomous Driving VLMs</title>
-      <link>https://arxiv.org/abs/2608.01755</link>
-      <guid isPermaLink="false">arxiv:2608.01755</guid>
-      <pubDate>2026-08-03</pubDate>
-      <description>Recent Vision-Language-Action (VLA) models for autonomous driving (AD) increasingly utilize chain-of-thought (CoT) supervision to enhance the reasoning capabilities of their Vision-Language Model (VLM) components, yet existing annotation pipelines commonly expose the teacher model to the logged ground-truth (GT) future trajectory. We empirically show that this induces trajectory anchoring bias: teacher models rationalize the revealed outcome rather than infer a decision from scene evidence, prod</description>
+      <title>Lightweight 3D Object Detection via Mamba-Based Knowledge Distillation</title>
+      <link>https://arxiv.org/abs/2608.03490</link>
+      <guid isPermaLink="false">arxiv:2608.03490</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>3D object detection using light detection and ranging (LiDAR) sensors requires a balance between accuracy and computational efficiency for onboard perception in autonomous driving and robotic navigation. Many existing LiDAR-based detection methods employ complex architectures to extract features, integrating large amounts of contextual information to enhance accuracy. This often results in significant computational costs, leading to suboptimal performance on resource-constrained embedded devices</description>
     </item>
     <item>
-      <title>Heterogeneous Multi-Agent Reinforcement Learning for Radio Resource Management under Coupled Finite-Horizon Constraints</title>
-      <link>https://arxiv.org/abs/2608.01745</link>
-      <guid isPermaLink="false">arxiv:2608.01745</guid>
-      <pubDate>2026-08-03</pubDate>
-      <description>Maximizing throughput under proportional fairness in dense wireless networks requires jointly managing user association, scheduling, base station (BS) activation, and handover control under hard finite-horizon energy and handover budgets, which induces a fundamental tension between BS-side energy management and user-side handover regulation. While multi-agent reinforcement learning (MARL) is a natural framework for such distributed sequential control, its application here faces two difficulties:</description>
+      <title>When Truth Is Distributed: Misinformation Derails Collective Fact Recovery in LLM-Based Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2608.03421</link>
+      <guid isPermaLink="false">arxiv:2608.03421</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>LLM-based multi-agent systems promise effective collaborative reasoning, but communication may amplify local errors into collective risks. Existing evaluations emphasize final outcomes, leaving the reliability and propagation dynamics of distributed information aggregation unclear. We introduce Hi-Agreement, a controlled evaluation framework that strictly pairs all-honest collaboration with controlled deception by a key evidence holder and analyzes the aggregation process through multi-stage vot</description>
     </item>
     <item>
-      <title>MNC: Scope-Bound Semantic Declassification for Private LLM-Agent Communication</title>
-      <link>https://arxiv.org/abs/2608.01719</link>
-      <guid isPermaLink="false">arxiv:2608.01719</guid>
-      <pubDate>2026-08-03</pubDate>
-      <description>Multi-agent large language model (LLM) systems can expose protected state through internal messages, tool arguments, logs, and persistent memory even when their public outputs appear innocuous. Existing privacy prompts, redaction methods, and source-level access controls restrict surface content or data access, but do not specify what a legitimately informed agent should disclose or how that disclosure may be reused downstream. We introduce Minimum-Necessary Communication (MNC), a typed semantic</description>
+      <title>Traceable Multi-Agent System for Knowledge-Based Forecasting</title>
+      <link>https://arxiv.org/abs/2608.03339</link>
+      <guid isPermaLink="false">arxiv:2608.03339</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>Enterprise forecasting increasingly relies on autonomous agents that interpret documents, search for data, generate code, and revise models. While this autonomy helps build adaptive forecasting pipelines, it also makes it difficult for practitioners to inspect why a forecast changed, which evidence supported the change, and how data and modeling choices were revised. We present TraceMAS, an interactive demo system for traceable multi-agent forecasting. TraceMAS organizes agent outputs around two</description>
     </item>
     <item>
-      <title>Entity-Aware Sequence Transduction for Player-Centric Ball Action Spotting</title>
-      <link>https://arxiv.org/abs/2608.01696</link>
-      <guid isPermaLink="false">arxiv:2608.01696</guid>
-      <pubDate>2026-08-03</pubDate>
-      <description>Player-centric ball action spotting requires temporally precise event detection together with actor attribution in crowded, partially observed multi-agent sports videos. Existing Denoising Sequence Transduction (DST) baselines treat the player-role dimension as part of a flattened frame-level representation, which weakens the inductive bias for modeling player-specific temporal evolution and inter-player interactions. To address this limitation, we propose Multi-Entity Denoising Sequence Transdu</description>
+      <title>Long-term Traffic Scene Prediction via Polynomial Representations in Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2608.03330</link>
+      <guid isPermaLink="false">arxiv:2608.03330</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>This thesis addresses fundamental challenges in traffic scene prediction for autonomous driving by introducing robust and computationally efficient models based on polynomial representations. While conventional sequence-based representations often struggle with noise and generalization, this work demonstrates that polynomial representations offer significant advantages in computational efficiency, generalization, and prediction plausibility. Through theoretical analysis and empirical validation,</description>
     </item>
     <item>
-      <title>SyncPlan: Long-Horizon LLM Coordination with Explicit Synchronization and Adaptive Correction</title>
-      <link>https://arxiv.org/abs/2608.01652</link>
-      <guid isPermaLink="false">arxiv:2608.01652</guid>
-      <pubDate>2026-08-03</pubDate>
-      <description>LLM-based multi-agent coordination faces a fundamental trade-off between efficiency and adaptivity in dynamic environments. Existing approaches typically rely on repeated LLM invocations or multi-round communication to adapt decisions during execution, introducing substantial latency and making coordination vulnerable to asynchronous progress and environmental changes. Conversely, one-shot planning reduces coordination overhead but produces open-loop plans that can quickly become stale or fail w</description>
+      <title>AgentPanel: Toward a New Paradigm for Human--AI Collaboration in Exploring Scientific Questions</title>
+      <link>https://arxiv.org/abs/2608.03283</link>
+      <guid isPermaLink="false">arxiv:2608.03283</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>Identifying promising scientific ideas remains an important challenge in research practice. Researchers commonly rely on small-group discussions or one-to-one interactions with a single large language model, yet these approaches often expose them to only a limited range of perspectives and directions. We present AgentPanel, a multi-agent forum for human--AI collaboration in scientific exploration. Heterogeneous agents asynchronously discuss scientific questions in a forum-style environment, whil</description>
     </item>
     <item>
-      <title>A Forward-Inverse Dynamic Game Framework for Enhanced Multi-Agent Trajectory Planning</title>
-      <link>https://arxiv.org/abs/2608.01636</link>
-      <guid isPermaLink="false">arxiv:2608.01636</guid>
-      <pubDate>2026-08-03</pubDate>
-      <description>This paper studies feedback Nash equilibrium (FBNE) seeking for multi-agent trajectory planning in nonlinear dynamical systems with unknown agents' objectives and state-dependent inter-agent coupling. While dynamic game theory provides a principled framework for such problems, existing approaches typically assume fully rational agents with known objectives or rely on fixed regularization, limiting their ability to capture bounded rationality and spatially varying interaction intensity in safety-</description>
+      <title>Attacking and Defending Multi-Agent Collaborative Filtering Systems Through Connectivity</title>
+      <link>https://arxiv.org/abs/2608.03272</link>
+      <guid isPermaLink="false">arxiv:2608.03272</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>Multi-agent collaborative filtering (CF) systems coordinate autonomous LLM-powered user and item agents through natural-language interaction to refine preferences and generate recommendations. These systems inherit vulnerabilities from both their data-driven nature and their multi-agent interactions, which manifest in distinct ways. Understanding how connectivity modulates vulnerability in these systems could facilitate the development of more robust recommendation pipelines. In this work, we ad</description>
+    </item>
+    <item>
+      <title>UniNav: A Unified World-Action Diffusion Model for Visual Navigation</title>
+      <link>https://arxiv.org/abs/2608.03244</link>
+      <guid isPermaLink="false">arxiv:2608.03244</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>Image-goal visual navigation is a fundamental capability for embodied agents. Existing navigation policies efficiently predict waypoint trajectories but lack visual foresight, while navigation world models can anticipate future observations but often require costly planning rollouts. We present UniNav, a unified world-action model that generates future visual observations and continuous waypoint trajectories through a single diffusion process. Given history frames and a goal image, UniNav jointl</description>
+    </item>
+    <item>
+      <title>TumorBoard: Evidence-Grounded Multi-Agent Decision Support for Longitudinal Neuro-Oncology</title>
+      <link>https://arxiv.org/abs/2608.03190</link>
+      <guid isPermaLink="false">arxiv:2608.03190</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>Neuro-oncology decisions require coordinated interpretation of serial MRI, pathology, molecular markers, treatment history, performance status, and evolving guidelines. We present TumorBoard, a multi-agent decision-support system built around a shared longitudinal case state and an auditable claim-evidence ledger. Specialist agents for radiology, neuropathology, molecular diagnosis, guidelines, and therapy planning produce atomic claims with provenance. An adversarial critic exposes contradictio</description>
+    </item>
+    <item>
+      <title>Adversarial Stress Testing of Role-Playing Language Agents using Multi-Agent Evaluation</title>
+      <link>https://arxiv.org/abs/2608.03166</link>
+      <guid isPermaLink="false">arxiv:2608.03166</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>Role-Playing Language Agents (RPLAs) are increasingly deployed in high-stakes applications such as healthcare assistance, customer support, and education, where maintaining consistent personas, ethical constraints, and behavioral coherence under adversarial pressure is critical. Existing evaluation approaches rely on static benchmarks or isolated single-turn prompts that fail to capture cumulative behavioral failures emerging over extended interactions. We present a modular multi-agent platform </description>
+    </item>
+    <item>
+      <title>Accelerating Human-Aware Robot Trajectory Generation via Diffusion and Consistency Distillation</title>
+      <link>https://arxiv.org/abs/2608.03159</link>
+      <guid isPermaLink="false">arxiv:2608.03159</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>This research proposes a constrained motion planning framework for robot manipulators in human-robot interaction (HRI). For a non-redundant manipulator with a fully specified end-effector pose, additional requirements such as collision avoidance and self-collision avoidance are difficult to handle as simple null-space secondary tasks. This limitation makes it challenging to generate feasible joint-space trajectories in HRI environments where safety and kinematic constraints must be considered si</description>
+    </item>
+    <item>
+      <title>AI Agent Economics: Can Autonomous Economic Behavior Emerge among AI Agents under Minimal External Conditions?</title>
+      <link>https://arxiv.org/abs/2608.03076</link>
+      <guid isPermaLink="false">arxiv:2608.03076</guid>
+      <pubDate>2026-08-04</pubDate>
+      <description>Multi-agent studies commonly place AI agents in predefined games, markets, or roles, making it difficult to distinguish endogenous economic organization from behavior inherited from the scenario. We ask whether economic relations emerge when agents receive executable mechanisms for work, transfer, elections, and allocation but no prescribed social or economic strategy. We define AI Agent Economics as systems of production, allocation, consumption, exchange, and institutions that alter agents' fu</description>
     </item>
   </channel>
 </rss>
