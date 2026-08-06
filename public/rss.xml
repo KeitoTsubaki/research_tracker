@@ -4,139 +4,111 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Wed, 05 Aug 2026 05:44:29 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 05:47:39 GMT</lastBuildDate>
     <item>
-      <title>FedCritic-MIMO: Communication-Efficient Serverless Federated Critic Learning for Massive-MIMO Resource Control in Open and Disaggregated 6G RANs</title>
-      <link>https://arxiv.org/abs/2608.03852</link>
-      <guid isPermaLink="false">arxiv:2608.03852</guid>
-      <pubDate>2026-08-04</pubDate>
-      <description>This paper proposes FedCritic-MIMO, a communication-efficient serverless federated multi-agent reinforcement learning framework for AI-native resource control across independently deployable cell-level controllers in open and disaggregated 6G RANs. Controllers share no trainer, retain local actors and personalized critic components, and exchange only compatible shared critic parameters. FedCritic-MIMO targets reuse-$1$ multi-cell massive-MIMO OFDMA deployments, where RAN controllers jointly mana</description>
+      <title>CoPlan: A Trustworthy Co-Intelligence Interface for Care Planning through Role-Based Contestable Argument Graphs</title>
+      <link>https://arxiv.org/abs/2608.05107</link>
+      <guid isPermaLink="false">arxiv:2608.05107</guid>
+      <pubDate>2026-08-05</pubDate>
+      <description>AI-supported care planning can help clinicians, patients, caregivers, and care teams coordinate complex decisions across clinical, functional, psychosocial, and environmental needs. However, many AI systems present recommendations as fixed outputs, limiting stakeholders' ability to inspect, challenge, and revise plans when they conflict with clinical judgment, patient values, or real-world feasibility. We present CoPlan - a Co-Intelligent and Contestable Interface for Human-AI Care Planning. CoP</description>
     </item>
     <item>
-      <title>History Matters: Meta-policy Delegation with Heterogeneous Multi-agent Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2608.03833</link>
-      <guid isPermaLink="false">arxiv:2608.03833</guid>
-      <pubDate>2026-08-04</pubDate>
-      <description>AI agents are expected to play an increasingly important role in future decision-making systems. In this paper, we consider collaborative systems composed of heterogeneous multi-agent systems (MAS), where their members have different capabilities and operating costs. We study how agents can delegate tasks to one another so that certain research tasks can be completed effectively under resource-constrained scenarios. We first develop a multi-agent reinforcement learning-based (MARL) delegation tr</description>
+      <title>ArtAnno: Annotating Implicit Semantics in Artworks through LLM Agent-Driven Bidirectional Human-AI Augmentation</title>
+      <link>https://arxiv.org/abs/2608.05026</link>
+      <guid isPermaLink="false">arxiv:2608.05026</guid>
+      <pubDate>2026-08-05</pubDate>
+      <description>High-quality annotation of artworks is essential for computational art research, yet extracting implicit semantics remains challenging due to the reliance on culturally grounded meanings and deep contextual knowledge behind the images. Current AI-assisted annotation tools often lack assistance or rely on one-way workflows where experts have to perform extra manual calibrations to improve AI models, resulting in limited efficiency. To address this, we propose Bidirectional Human-AI Augmentation(B</description>
     </item>
     <item>
-      <title>Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2608.03744</link>
-      <guid isPermaLink="false">arxiv:2608.03744</guid>
-      <pubDate>2026-08-04</pubDate>
-      <description>Clinical decision support is moving toward committees of language-model agents deliberating on a shared workspace. We ask whether such committees can be gamed by shortcuts, cues a benchmark rewards but a clinician would ignore. Across seven cohorts on six public datasets spanning text (MedQA-USMLE, MedMCQA, MIMIC-CXR reports), imaging (NIH ChestX-ray14, MIMIC-CXR-JPG, CheXpert) and tabular ICU records (SUPPORT2), Gemini committees resist these cues in isolation (flip 5-16%), yet a socially plaus</description>
+      <title>PRIMAL3: Pathfinding via Reinforcement and Imitation Multi-Agent Learning - Leveraging LaCAM3</title>
+      <link>https://arxiv.org/abs/2608.04905</link>
+      <guid isPermaLink="false">arxiv:2608.04905</guid>
+      <pubDate>2026-08-05</pubDate>
+      <description>We present PRIMAL3, an ultra-large-scale learning-based framework for multi-agent pathfinding (MAPF) that integrates reinforcement learning, topology-aware communication, LaCAM3-guided training, and PIBT-based action refinement. PRIMAL3 targets failures at topologically critical states, where agents must coordinate decisively around bottlenecks, dead ends, and persistent conflicts. Each agent is represented using features derived from cut vertices, dead-end regions, shortest-path distances, and </description>
     </item>
     <item>
-      <title>An Actionable Diagnosis of Multilingual, Multi-Agent Planning Failures</title>
-      <link>https://arxiv.org/abs/2608.03735</link>
-      <guid isPermaLink="false">arxiv:2608.03735</guid>
-      <pubDate>2026-08-04</pubDate>
-      <description>Multilingual multi-agent systems exhibit substantial degradation beyond English, yet prior work rarely identifies how task-critical information is lost when user requests are converted into executable plans. We study the planner in a multi-agent system as the request-to-action interface and derive an actionable taxonomy of planning-grounding failures from failed real-world task executions. LLM-based analysis shows that these failures constitute an increasing share of unsuccessful executions as l</description>
+      <title>When Does Latent Communication Pay? A Causal Audit of Relayed KV Caches in Multi-Agent LLMs</title>
+      <link>https://arxiv.org/abs/2608.04893</link>
+      <guid isPermaLink="false">arxiv:2608.04893</guid>
+      <pubDate>2026-08-05</pubDate>
+      <description>Multi-agent LLM systems relay key--value caches instead of text and credit their gains to exchanged ``latent thoughts''. That credit is a claim about \emph{which} example's cache is relayed, not merely that one is. We audit it causally in released systems. The cache is replaced with deranged (mismatched-example), zeroed, and moment-matched random counterparts, under two regimes defined by whether the receiver needs the sender's private information. Where it does, the battery reads ceiling: 100\%</description>
     </item>
     <item>
-      <title>Group Perspective Matters: Regulating Debate Relationships Can Mitigate Blind Conformity in Multi-Agent Debate</title>
-      <link>https://arxiv.org/abs/2608.03648</link>
-      <guid isPermaLink="false">arxiv:2608.03648</guid>
-      <pubDate>2026-08-04</pubDate>
-      <description>Multi-Agent Debate (MAD) improves the reasoning performance of Large Language Models (LLMs) through multi-round interaction. However, LLMs in MAD are highly susceptible to blind conformity. Existing individual evaluation methods, typically based on confidence or perplexity, fail to reflect the correctness of reasoning and may even exacerbate blind conformity. To address this, we shift the perspective from individual evaluation to group interaction. We define mutual referencing among LLMs as \tex</description>
+      <title>NSF-HRPT: Neural Semantic Field meets Hierarchical Risk Perception Tree for Safety-Critical Scenario Assessment</title>
+      <link>https://arxiv.org/abs/2608.04776</link>
+      <guid isPermaLink="false">arxiv:2608.04776</guid>
+      <pubDate>2026-08-05</pubDate>
+      <description>The ability to accurately assess and anticipate risks in safety-critical scenarios is crucial for autonomous driving systems. While existing research has made progress in collision prediction, accurately quantifying risk levels from monocular vision inputs remains challenging due to the complex dynamics of multi-agent interactions and the inherent uncertainty in real-world environments. To address these challenges, we present NSF-HRPT, a novel framework that combines learning-based perception wi</description>
     </item>
     <item>
-      <title>Is Inter-Seed Cross-Play Enough? Evaluating the Robustness of Zero-Shot Coordination Algorithms to Implementation Details</title>
-      <link>https://arxiv.org/abs/2608.03644</link>
-      <guid isPermaLink="false">arxiv:2608.03644</guid>
-      <pubDate>2026-08-04</pubDate>
-      <description>AI agents deployed in real-world settings must be capable of coordinating with humans and other AI agents they have not encountered before. Zero-shot coordination (ZSC) algorithms aim to achieve this by specifying high-level learning rules such that independently engineered agents can coordinate with each other at test time. Rigorous evaluation of ZSC algorithms remains difficult: ideally, multiple independent implementations of each proposed algorithm must be used, reflecting the variation that</description>
+      <title>Calibrating Artificial Guilt: Neurally Grounded Reward Shaping for Prosocial Multi-Agent Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2608.04663</link>
+      <guid isPermaLink="false">arxiv:2608.04663</guid>
+      <pubDate>2026-08-05</pubDate>
+      <description>Cooperative multi-agent reinforcement learning often adds social terms to individual rewards, yet the scale of those terms is usually chosen by hand. We ask whether a guilt signal can instead be calibrated from human neural and behavioural data and transferred to artificial agents. Using the public SoDec responsibility fMRI dataset (40 participants), we fit a subject-fixed-effects regression of momentary-happiness changes on outcome-type counts and recover a guilt weight as the Partner-negative </description>
     </item>
     <item>
-      <title>From Social Coding to Agentic Coding: Productivity and Relational Reconfiguration in Open-Source Communities</title>
-      <link>https://arxiv.org/abs/2608.03585</link>
-      <guid isPermaLink="false">arxiv:2608.03585</guid>
-      <pubDate>2026-08-04</pubDate>
-      <description>Open-source software communities are a form of digital public infrastructure that not only produces code, but also generates public knowledge and interpersonal relationships through visible collaboration. Generative coding agents (CAs) are an advanced tool to improve development efficiency while shifting part of activities from public human interaction to private human-agent loops. We study this shift using an LLM-based multi-agent simulation initialized with real GitHub data from 1,084 active d</description>
+      <title>HELENA:Hierarchical Sparse Coordination over a Union of Complementary Topologies for MAS</title>
+      <link>https://arxiv.org/abs/2608.04634</link>
+      <guid isPermaLink="false">arxiv:2608.04634</guid>
+      <pubDate>2026-08-05</pubDate>
+      <description>LLM-based multi-agent systems (MAS) typically optimize a single topology, restricting reasoning to a narrow trajectory and limiting comprehensive analytical capacity. Naively merging multiple topologies into a composite graph introduces redundant noise propagation across irrelevant connections, degrading solution quality. To address this dilemma, we propose \textbf{Hierarchical Sparse Coordination over a Union of Complementary Topologies for MAS (HELENA)}, a multi-agent framework that balances d</description>
     </item>
     <item>
-      <title>Pivot-Centric Trajectory Prediction: Bridging Long Horizons via Dynamical Guidance</title>
-      <link>https://arxiv.org/abs/2608.03521</link>
-      <guid isPermaLink="false">arxiv:2608.03521</guid>
-      <pubDate>2026-08-04</pubDate>
-      <description>Forecasting precise future motion of surrounding agents is essential for reliable autonomous vehicles. However, as the demand for longer prediction horizons increases, existing endpoint-completion or iterative-refine methods increasingly struggle with weak guidance and compounding errors. To tackle the long-horizon prediction challenge, we propose Pivot-Centric Trajectory Prediction (PCTP). By introducing ``pivots'' and focusing on predicting pivot points along extended trajectories, we divide t</description>
+      <title>Joint UAV Flight and Opportunistic Routing under Reinforcement Learning for Delay-Tolerant Networks</title>
+      <link>https://arxiv.org/abs/2608.04590</link>
+      <guid isPermaLink="false">arxiv:2608.04590</guid>
+      <pubDate>2026-08-05</pubDate>
+      <description>The growing deployment of delay-tolerant networks (DTNs) has made store-carry-forward (SCF) communication indispensable under sparse connectivity. However, intermittent contacts, finite buffers, and limited message time-to-live (TTL) often give rise to sparse delivery and congestion, leading to substantial end-to-end performance degradation. To address this challenge, this study explores the joint optimization of decentralized opportunistic routing and controllable unmanned aerial vehicle (UAV) </description>
     </item>
     <item>
-      <title>Lightweight 3D Object Detection via Mamba-Based Knowledge Distillation</title>
-      <link>https://arxiv.org/abs/2608.03490</link>
-      <guid isPermaLink="false">arxiv:2608.03490</guid>
-      <pubDate>2026-08-04</pubDate>
-      <description>3D object detection using light detection and ranging (LiDAR) sensors requires a balance between accuracy and computational efficiency for onboard perception in autonomous driving and robotic navigation. Many existing LiDAR-based detection methods employ complex architectures to extract features, integrating large amounts of contextual information to enhance accuracy. This often results in significant computational costs, leading to suboptimal performance on resource-constrained embedded devices</description>
+      <title>ODRA: Synthesizing Cognitive Behavioral Therapy Sessions with Structured Chain-Of-Thought and Dynamic Patient Resistance</title>
+      <link>https://arxiv.org/abs/2608.04524</link>
+      <guid isPermaLink="false">arxiv:2608.04524</guid>
+      <pubDate>2026-08-05</pubDate>
+      <description>Synthetic generation of Cognitive Behavioral Therapy (CBT) sessions is challenged by two competing demands: adhering to strict therapeutic structure while modeling the resistant, unpredictable behavior of real patients. Existing script-based methods fail to capture dynamic therapeutic interactions, while multi-agent approaches struggle to adhere to CBT's sequential structure; both suffer from sycophancy, producing overly compliant patients that misrepresent real clinical settings. In this work w</description>
     </item>
     <item>
-      <title>When Truth Is Distributed: Misinformation Derails Collective Fact Recovery in LLM-Based Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2608.03421</link>
-      <guid isPermaLink="false">arxiv:2608.03421</guid>
-      <pubDate>2026-08-04</pubDate>
-      <description>LLM-based multi-agent systems promise effective collaborative reasoning, but communication may amplify local errors into collective risks. Existing evaluations emphasize final outcomes, leaving the reliability and propagation dynamics of distributed information aggregation unclear. We introduce Hi-Agreement, a controlled evaluation framework that strictly pairs all-honest collaboration with controlled deception by a key evidence holder and analyzes the aggregation process through multi-stage vot</description>
+      <title>TwinIR: Coordinated Invisible Dual-Point Attacks on Online HD Map Construction</title>
+      <link>https://arxiv.org/abs/2608.04453</link>
+      <guid isPermaLink="false">arxiv:2608.04453</guid>
+      <pubDate>2026-08-05</pubDate>
+      <description>Online HD map construction is critical to prediction and planning in autonomous driving. We find that existing physical attacks against online map construction are limited by a cross-boundary compensation effect: after the target boundary is perturbed, another visible boundary may retain sufficient geometric cues for the model to recover the original road geometry. Based on this observation, we propose TwinIR, a new mechanism-guided physical attack methodology for online map construction. TwinIR</description>
     </item>
     <item>
-      <title>Traceable Multi-Agent System for Knowledge-Based Forecasting</title>
-      <link>https://arxiv.org/abs/2608.03339</link>
-      <guid isPermaLink="false">arxiv:2608.03339</guid>
-      <pubDate>2026-08-04</pubDate>
-      <description>Enterprise forecasting increasingly relies on autonomous agents that interpret documents, search for data, generate code, and revise models. While this autonomy helps build adaptive forecasting pipelines, it also makes it difficult for practitioners to inspect why a forecast changed, which evidence supported the change, and how data and modeling choices were revised. We present TraceMAS, an interactive demo system for traceable multi-agent forecasting. TraceMAS organizes agent outputs around two</description>
+      <title>MCHA: A Memory-Centric Hierarchical Architecture for Parallel-Sequential Computing</title>
+      <link>https://arxiv.org/abs/2608.04443</link>
+      <guid isPermaLink="false">arxiv:2608.04443</guid>
+      <pubDate>2026-08-05</pubDate>
+      <description>Emerging workloads, such as Multi-Agent Reinforcement Learning (MARL), large-scale neuromorphic computing, and probabilistic graphical models, intrinsically exhibit parallel-sequential computing patterns. While these tasks demand massive parallelism to achieve high throughput, they are severely bottlenecked by irregular data access patterns centralized to main memory. Consequently, conventional architectures face fundamental limitations when executing these workloads, primarily manifesting as gl</description>
     </item>
     <item>
-      <title>Long-term Traffic Scene Prediction via Polynomial Representations in Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2608.03330</link>
-      <guid isPermaLink="false">arxiv:2608.03330</guid>
-      <pubDate>2026-08-04</pubDate>
-      <description>This thesis addresses fundamental challenges in traffic scene prediction for autonomous driving by introducing robust and computationally efficient models based on polynomial representations. While conventional sequence-based representations often struggle with noise and generalization, this work demonstrates that polynomial representations offer significant advantages in computational efficiency, generalization, and prediction plausibility. Through theoretical analysis and empirical validation,</description>
+      <title>Responsibility in Multi-Agent Sequential Decision-Making: Comparing Human Judgments to Formal Models of Causal Attribution</title>
+      <link>https://arxiv.org/abs/2608.04318</link>
+      <guid isPermaLink="false">arxiv:2608.04318</guid>
+      <pubDate>2026-08-05</pubDate>
+      <description>With the growing adoption of artificial intelligence in high-stakes decision-making, identifying the causes of outcomes--particularly failures--and determining who is responsible has become a critical concern. In this work, we examine how well formal definitions of \textit{responsibility attribution}, grounded in the framework of \textit{actual causality}, align with human judgments of responsibility. To this end, we conduct a large-scale survey to elicit human judgments of responsibility in mul</description>
     </item>
     <item>
-      <title>AgentPanel: Toward a New Paradigm for Human--AI Collaboration in Exploring Scientific Questions</title>
-      <link>https://arxiv.org/abs/2608.03283</link>
-      <guid isPermaLink="false">arxiv:2608.03283</guid>
-      <pubDate>2026-08-04</pubDate>
-      <description>Identifying promising scientific ideas remains an important challenge in research practice. Researchers commonly rely on small-group discussions or one-to-one interactions with a single large language model, yet these approaches often expose them to only a limited range of perspectives and directions. We present AgentPanel, a multi-agent forum for human--AI collaboration in scientific exploration. Heterogeneous agents asynchronously discuss scientific questions in a forum-style environment, whil</description>
+      <title>Structured LLM Reasoning for Zero-Shot Human--Robot Coordination Under Hidden Goals</title>
+      <link>https://arxiv.org/abs/2608.04309</link>
+      <guid isPermaLink="false">arxiv:2608.04309</guid>
+      <pubDate>2026-08-05</pubDate>
+      <description>We present a structured large-language-model (LLM) architecture for zero-shot human--robot coordination in a cooperative construction task with private goal views. Guided by a Dec-POMDP formulation, the architecture decomposes decision-making into (i) action-conditioned Theory-of-Mind (ToM) inference, (ii) hierarchical planning, (iii) conversation interpretation, (iv) action verification, and (v) feedback-based replanning. We compare the proposed method with an ablation without ToM inference and</description>
     </item>
     <item>
-      <title>Attacking and Defending Multi-Agent Collaborative Filtering Systems Through Connectivity</title>
-      <link>https://arxiv.org/abs/2608.03272</link>
-      <guid isPermaLink="false">arxiv:2608.03272</guid>
+      <title>CURATE: Leveraging LLM Agents to Compose, Catalog, and Deploy Reproducible Workflows</title>
+      <link>https://arxiv.org/abs/2608.04270</link>
+      <guid isPermaLink="false">arxiv:2608.04270</guid>
       <pubDate>2026-08-04</pubDate>
-      <description>Multi-agent collaborative filtering (CF) systems coordinate autonomous LLM-powered user and item agents through natural-language interaction to refine preferences and generate recommendations. These systems inherit vulnerabilities from both their data-driven nature and their multi-agent interactions, which manifest in distinct ways. Understanding how connectivity modulates vulnerability in these systems could facilitate the development of more robust recommendation pipelines. In this work, we ad</description>
+      <description>Agentic code generation has shown promise in automating and accelerating software development by utilizing Large Language Models (LLMs) to generate, test, and deploy code. For engineers and scientists, such systems have the potential to accelerate the development of applied and scientific workflows while reducing barriers to entry in domains that have yet to fully realize their benefits. However, a key gap remains: existing coding agents primarily focus on code generation and do not address the </description>
     </item>
     <item>
-      <title>UniNav: A Unified World-Action Diffusion Model for Visual Navigation</title>
-      <link>https://arxiv.org/abs/2608.03244</link>
-      <guid isPermaLink="false">arxiv:2608.03244</guid>
+      <title>AgentForge: An Immersive Role-Playing Platform for Learning Agentic Software Engineering</title>
+      <link>https://arxiv.org/abs/2608.04148</link>
+      <guid isPermaLink="false">arxiv:2608.04148</guid>
       <pubDate>2026-08-04</pubDate>
-      <description>Image-goal visual navigation is a fundamental capability for embodied agents. Existing navigation policies efficiently predict waypoint trajectories but lack visual foresight, while navigation world models can anticipate future observations but often require costly planning rollouts. We present UniNav, a unified world-action model that generates future visual observations and continuous waypoint trajectories through a single diffusion process. Given history frames and a goal image, UniNav jointl</description>
-    </item>
-    <item>
-      <title>TumorBoard: Evidence-Grounded Multi-Agent Decision Support for Longitudinal Neuro-Oncology</title>
-      <link>https://arxiv.org/abs/2608.03190</link>
-      <guid isPermaLink="false">arxiv:2608.03190</guid>
-      <pubDate>2026-08-04</pubDate>
-      <description>Neuro-oncology decisions require coordinated interpretation of serial MRI, pathology, molecular markers, treatment history, performance status, and evolving guidelines. We present TumorBoard, a multi-agent decision-support system built around a shared longitudinal case state and an auditable claim-evidence ledger. Specialist agents for radiology, neuropathology, molecular diagnosis, guidelines, and therapy planning produce atomic claims with provenance. An adversarial critic exposes contradictio</description>
-    </item>
-    <item>
-      <title>Adversarial Stress Testing of Role-Playing Language Agents using Multi-Agent Evaluation</title>
-      <link>https://arxiv.org/abs/2608.03166</link>
-      <guid isPermaLink="false">arxiv:2608.03166</guid>
-      <pubDate>2026-08-04</pubDate>
-      <description>Role-Playing Language Agents (RPLAs) are increasingly deployed in high-stakes applications such as healthcare assistance, customer support, and education, where maintaining consistent personas, ethical constraints, and behavioral coherence under adversarial pressure is critical. Existing evaluation approaches rely on static benchmarks or isolated single-turn prompts that fail to capture cumulative behavioral failures emerging over extended interactions. We present a modular multi-agent platform </description>
-    </item>
-    <item>
-      <title>Accelerating Human-Aware Robot Trajectory Generation via Diffusion and Consistency Distillation</title>
-      <link>https://arxiv.org/abs/2608.03159</link>
-      <guid isPermaLink="false">arxiv:2608.03159</guid>
-      <pubDate>2026-08-04</pubDate>
-      <description>This research proposes a constrained motion planning framework for robot manipulators in human-robot interaction (HRI). For a non-redundant manipulator with a fully specified end-effector pose, additional requirements such as collision avoidance and self-collision avoidance are difficult to handle as simple null-space secondary tasks. This limitation makes it challenging to generate feasible joint-space trajectories in HRI environments where safety and kinematic constraints must be considered si</description>
-    </item>
-    <item>
-      <title>AI Agent Economics: Can Autonomous Economic Behavior Emerge among AI Agents under Minimal External Conditions?</title>
-      <link>https://arxiv.org/abs/2608.03076</link>
-      <guid isPermaLink="false">arxiv:2608.03076</guid>
-      <pubDate>2026-08-04</pubDate>
-      <description>Multi-agent studies commonly place AI agents in predefined games, markets, or roles, making it difficult to distinguish endogenous economic organization from behavior inherited from the scenario. We ask whether economic relations emerge when agents receive executable mechanisms for work, transfer, elections, and allocation but no prescribed social or economic strategy. We define AI Agent Economics as systems of production, allocation, consumption, exchange, and institutions that alter agents' fu</description>
+      <description>Agentic AI is increasingly used to coordinate planning, implementation, review, and testing in software development, yet it often offers limited transparency into its decisions and interactions. Many such systems also assume that users can effectively guide the AI's decisions and validate its outputs. This assumption poses a particular challenge for novices, who must simultaneously learn how agentic AI works, how to collaborate with it effectively, and how to evaluate its outputs critically. To </description>
     </item>
   </channel>
 </rss>

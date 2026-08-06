@@ -1,5 +1,350 @@
 [
   {
+    "id": "arxiv:2608.05107",
+    "title": "CoPlan: A Trustworthy Co-Intelligence Interface for Care Planning through Role-Based Contestable Argument Graphs",
+    "authors": [
+      "Hung Truong Thanh Nguyen",
+      "Hélène Fournier",
+      "Piper Jackson",
+      "Makoto Itoh",
+      "Shannon Freeman",
+      "Rene Richard",
+      "Hung Cao"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.05107",
+    "abstract": "AI-supported care planning can help clinicians, patients, caregivers, and care teams coordinate complex decisions across clinical, functional, psychosocial, and environmental needs. However, many AI systems present recommendations as fixed outputs, limiting stakeholders' ability to inspect, challenge, and revise plans when they conflict with clinical judgment, patient values, or real-world feasibility. We present CoPlan - a Co-Intelligent and Contestable Interface for Human-AI Care Planning. CoPlan uses a multi-agent workflow in which specialized AI agents generate candidate interventions and supporting or challenging arguments, while human care planners can accept, reject, modify, or add arguments before final plan generation. Through this design, CoPlan combines co-intelligence, in which humans and AI agents contribute complementary expertise, with contestability, where recommendations remain open to inspection, revision, and justification. We demonstrate CoPlan in an aging-in-place care planning scenario. The system supports adaptive care team recruitment, role-based argument review, final care plan generation, and practical follow-up through scheduling agents. This work contributes a contestable care planning interface and a design framing for trustworthy human-AI care planning that preserves human agency and clinical accountability.",
+    "published_date": "2026-08-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted at the 2026 International Conference on Next Generation AI Systems (NGEN-AI 2026)",
+    "fetched_at": "2026-08-06T05:47:39Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.05026",
+    "title": "ArtAnno: Annotating Implicit Semantics in Artworks through LLM Agent-Driven Bidirectional Human-AI Augmentation",
+    "authors": [
+      "Xiaoyan Gu",
+      "Yifang Wang",
+      "Wenqing Zheng",
+      "Haozhong Liu",
+      "Yixia Zheng",
+      "Peiyi Jiang",
+      "Wenjie Ning",
+      "Wei Zhang",
+      "Wei Chen"
+    ],
+    "source": "arxiv",
+    "category": "cs.HC",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.05026",
+    "abstract": "High-quality annotation of artworks is essential for computational art research, yet extracting implicit semantics remains challenging due to the reliance on culturally grounded meanings and deep contextual knowledge behind the images. Current AI-assisted annotation tools often lack assistance or rely on one-way workflows where experts have to perform extra manual calibrations to improve AI models, resulting in limited efficiency. To address this, we propose Bidirectional Human-AI Augmentation(BiHAA), a closed-loop framework in which skills and domain knowledge base evolve through real-time interaction and bidirectional HAI augmentation. Informed by a formative study with 20 artwork annotators from different backgrounds, we implement this framework in ArtAnno, an artwork annotation system driven by a multi-agent architecture. The system includes a Proactive Agentic Support Module, where AI augments humans through semantic mining and label suggestion, and an Interaction-Driven Evolution Module, where human expertise continuously enhances the AI through distilling annotation trajectories into reusable experience. Evaluation through a user study and two case studies demonstrates that our framework and system improve annotation efficiency, enable knowledge accumulation, and reduce the effort of information seeking and verification for annotators with limited domain expertise. We conclude by discussing broader implications and future directions.",
+    "published_date": "2026-08-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-06T05:47:39Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.04905",
+    "title": "PRIMAL3: Pathfinding via Reinforcement and Imitation Multi-Agent Learning - Leveraging LaCAM3",
+    "authors": [
+      "Chengyang He",
+      "Tanishq Duhan",
+      "Gadiel Sznaier Camps",
+      "Fangyuan Wang",
+      "Yuhong Cao",
+      "Jiankai Sun",
+      "Ge Sun",
+      "Mac Schwager",
+      "Guillaume Sartoretti"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.04905",
+    "abstract": "We present PRIMAL3, an ultra-large-scale learning-based framework for multi-agent pathfinding (MAPF) that integrates reinforcement learning, topology-aware communication, LaCAM3-guided training, and PIBT-based action refinement. PRIMAL3 targets failures at topologically critical states, where agents must coordinate decisively around bottlenecks, dead ends, and persistent conflicts. Each agent is represented using features derived from cut vertices, dead-end regions, shortest-path distances, and blocking estimates. Two complementary graphs capture agent interactions: a same-direction following graph propagates multihop context along compatible paths, while a different-direction conflict graph differentiates agents competing for shared space through masked attention and relative features. During training, we propose to let policy entropy identify uncertain agents, for which LaCAM3 provides confidence-triggered action interventions and label-smoothed imitation targets. During execution, a priority-aware PIBT module refines the proposed joint actions using persistent, learned, and distance-aware priorities together with policy-aware fallback preferences while maintaining collision-free execution. The resulting framework combines learned exploration with structured expert guidance without requiring LaCAM3 at inference. Experiments demonstrate that PRIMAL3 substantially outperforms state-of-the-art learning-based baselines and scales to ultra-large instances with up to city-level 100,000 agents. Real-world experiments further demonstrate the feasibility of deploying PRIMAL3 on physical robotic systems and ablation studies validate the individual contributions the components we proposed. Project page: https://marmotlab.github.io/PRIMAL3/",
+    "published_date": "2026-08-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "Under Review",
+    "fetched_at": "2026-08-06T05:47:39Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.04893",
+    "title": "When Does Latent Communication Pay? A Causal Audit of Relayed KV Caches in Multi-Agent LLMs",
+    "authors": [
+      "Jiaming Cheng",
+      "Subhransu Das",
+      "Rajiv Ramnath"
+    ],
+    "source": "arxiv",
+    "category": "cs.CR",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.04893",
+    "abstract": "Multi-agent LLM systems relay key--value caches instead of text and credit their gains to exchanged ``latent thoughts''. That credit is a claim about \\emph{which} example's cache is relayed, not merely that one is. We audit it causally in released systems. The cache is replaced with deranged (mismatched-example), zeroed, and moment-matched random counterparts, under two regimes defined by whether the receiver needs the sender's private information. Where it does, the battery reads ceiling: 100\\% against 23--25\\% for answer-irrelevant relays on the primary backbone, a contrast replicated across three families, five checkpoints, and a prose document-QA surface. Where it does not, a pre-registered five-seed protocol establishes equivalence within 2.8 points, a margin anchored to the audited system's reported gain, under Holm-corrected TOST on GSM8K and ARC-Challenge across three Qwen3 scales and on MedQA at 8B (one cell shows a small detected advantage inside the margin); a second family shows no detected advantage. A large cache effect need not be a pairing effect. In one natural cell, zeroing the relay costs 14.7 points; a mismatched cache, 0.4. Nor is need sufficient: under the same test, delivered channels span ceiling (LatentMAS's native relay), partial (KVComm's layer subset), and no detected example-specific transfer (C2C's released projector). Benchmark deltas do not by themselves establish latent-thought transmission; establishing it takes a mismatched-cache audit, which we release.",
+    "published_date": "2026-08-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-06T05:47:39Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.04776",
+    "title": "NSF-HRPT: Neural Semantic Field meets Hierarchical Risk Perception Tree for Safety-Critical Scenario Assessment",
+    "authors": [
+      "Yu Zhao",
+      "Jiangyu Pan",
+      "Tao Hu",
+      "Ming Yin",
+      "Fan Yang",
+      "Jiangfan Liu",
+      "Xiubo Liang"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.04776",
+    "abstract": "The ability to accurately assess and anticipate risks in safety-critical scenarios is crucial for autonomous driving systems. While existing research has made progress in collision prediction, accurately quantifying risk levels from monocular vision inputs remains challenging due to the complex dynamics of multi-agent interactions and the inherent uncertainty in real-world environments. To address these challenges, we present NSF-HRPT, a novel framework that combines learning-based perception with structured reasoning for quantitative risk assessment. Our approach features a Neural Semantic Field (NSF) that learns to model scene semantics, trajectory predictions, and probabilistic Time-to-Collision (TTC) distributions from simulation data. During inference, the pre-trained NSF serves as a prior for our Hierarchical Risk Perception Tree (HRPT), which enables efficient parallel computation and spatial reasoning about multi-agent risks. Additionally, we introduce a Sim2Real enhancement strategy that improves real-world applicability without retraining by incorporating priors from foundation models. Extensive evaluations demonstrate that our framework achieves state-of-the-art performance on synthetic benchmarks and delivers competitive, near-state-of-the-art results on real-world datasets for both TTC estimation accuracy and risk localization precision. The proposed method provides an effective solution for real-time risk awareness from monocular camera inputs.",
+    "published_date": "2026-08-05",
+    "tags": [
+      "marl",
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "13 pages, 5 figures",
+    "fetched_at": "2026-08-06T05:47:39Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.04663",
+    "title": "Calibrating Artificial Guilt: Neurally Grounded Reward Shaping for Prosocial Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Aaditya Mehta",
+      "Arya Shah"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.04663",
+    "abstract": "Cooperative multi-agent reinforcement learning often adds social terms to individual rewards, yet the scale of those terms is usually chosen by hand. We ask whether a guilt signal can instead be calibrated from human neural and behavioural data and transferred to artificial agents. Using the public SoDec responsibility fMRI dataset (40 participants), we fit a subject-fixed-effects regression of momentary-happiness changes on outcome-type counts and recover a guilt weight as the Partner-negative minus Social-negative contrast ($\\hat{w}=1.118$, Cohen's $d=0.214$). We embed this weight in a two-agent Social Lottery environment and train independent Proximal Policy Optimization actor-critics under four shaping regimes: neurally calibrated, uniform constant, zero (selfish), and a unit-coefficient oracle. Across 1{,}000 evaluation episodes per condition, the calibrated agents track the human Social safe-choice rate most closely ($0.459$ vs.\\ human $0.484$; $\\mathrm{KL}=0.0012$), while the other three conditions deviate by one to three orders of magnitude in KL. Human neurobehavioural priors can therefore act as quantitative constraints on prosocial reward shaping.",
+    "published_date": "2026-08-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "12 pages, 6 figures, 3 tables",
+    "fetched_at": "2026-08-06T05:47:39Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.04634",
+    "title": "HELENA:Hierarchical Sparse Coordination over a Union of Complementary Topologies for MAS",
+    "authors": [
+      "Zhifang Mao",
+      "Linyao Zheng",
+      "Xuhang Shi",
+      "Xiuquan Hou"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.04634",
+    "abstract": "LLM-based multi-agent systems (MAS) typically optimize a single topology, restricting reasoning to a narrow trajectory and limiting comprehensive analytical capacity. Naively merging multiple topologies into a composite graph introduces redundant noise propagation across irrelevant connections, degrading solution quality. To address this dilemma, we propose \\textbf{Hierarchical Sparse Coordination over a Union of Complementary Topologies for MAS (HELENA)}, a multi-agent framework that balances diverse reasoning paths with sparse task-dependent execution. \\helena{} constructs a union MAS graph from complementary candidate topologies selected via Monte Carlo Tree Search and Determinantal Point Process, broadening the reasoning trajectory for comprehensive analysis of complex problems. A Hierarchical Sparse Coordination module then activates only a sparse subgraph at each step while agents exchange compressed latent briefs to suppress redundant noise propagation. Finally, a Local Self-Refinement stage identifies decision units with discrepancy evidence and rewrites them only when contrastive evidence simultaneously confirms a reliable solution-side failure and a challenger-side improvement. Experiments across eight benchmarks show that \\helena{} achieves state-of-the-art results on all benchmarks, with an average gain of \\pctup{3.47} over the strongest baseline and up to \\pctup{10.34} on MMLU-Pro, achieving larger improvements on harder benchmarks at a reasonable additional cost.",
+    "published_date": "2026-08-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-06T05:47:39Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.04590",
+    "title": "Joint UAV Flight and Opportunistic Routing under Reinforcement Learning for Delay-Tolerant Networks",
+    "authors": [
+      "Xiao Wang",
+      "Shun-Ren Yang"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.04590",
+    "abstract": "The growing deployment of delay-tolerant networks (DTNs) has made store-carry-forward (SCF) communication indispensable under sparse connectivity. However, intermittent contacts, finite buffers, and limited message time-to-live (TTL) often give rise to sparse delivery and congestion, leading to substantial end-to-end performance degradation. To address this challenge, this study explores the joint optimization of decentralized opportunistic routing and controllable unmanned aerial vehicle (UAV) flight, aiming to enlarge future contacts through discrete UAV headings while enabling per-node replication under contact-limited observations. Building upon this architecture, we study cooperative factored routing--UAV control under centralized training and decentralized execution (CTDE) and propose JUROR (Joint UAV flight and Opportunistic Routing, based on the proximal policy optimization (PPO) framework. In our design, we first cast the problem as a factored partially observable Markov decision process with sequential motion--routing coupling and a per-step team reward; subsequently, decentralized actors act on local observations while a training-time critic uses global statistics, and an optional multi-horizon hotspot predictor provides auxiliary supervision. Simulation results over four traffic modes demonstrate effective gains over PRoPHET and MaxProp, while retaining contact-limited decentralized execution.",
+    "published_date": "2026-08-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-06T05:47:39Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.04524",
+    "title": "ODRA: Synthesizing Cognitive Behavioral Therapy Sessions with Structured Chain-Of-Thought and Dynamic Patient Resistance",
+    "authors": [
+      "Javier Rodriguez-Juan",
+      "Hiba Arnaout",
+      "Jose Garcia-Rodriguez",
+      "David Tomás",
+      "Iryna Gurevych"
+    ],
+    "source": "arxiv",
+    "category": "cs.CL",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.04524",
+    "abstract": "Synthetic generation of Cognitive Behavioral Therapy (CBT) sessions is challenged by two competing demands: adhering to strict therapeutic structure while modeling the resistant, unpredictable behavior of real patients. Existing script-based methods fail to capture dynamic therapeutic interactions, while multi-agent approaches struggle to adhere to CBT's sequential structure; both suffer from sycophancy, producing overly compliant patients that misrepresent real clinical settings. In this work we introduce ODRA, a novel framework for synthesizing therapy dialogues through a Chain-of-Thought (CoT) strategy grounded in foundational CBT guidelines (Beck, 2020). ODRA further incorporates a resistance orchestrator to solve patient sycophancy, which employs steering techniques to elicit behaviors aligned with their resistance level. Automated and expert evaluations show that ODRA significantly outperforms existing methods across therapeutic skills, CBT alignment, and patient behavioral fidelity, with licensed psychologists preferring ODRA sessions across 12 of 13 clinical metrics. Furthermore, models fine-tuned on our dataset demonstrate superior therapeutic performance against both cooperative and resistant patients, validating that explicit resistance modeling in synthetic training data directly translates to downstream clinical robustness.",
+    "published_date": "2026-08-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "39 pages, 23 figures, 12 tables",
+    "fetched_at": "2026-08-06T05:47:39Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.04453",
+    "title": "TwinIR: Coordinated Invisible Dual-Point Attacks on Online HD Map Construction",
+    "authors": [
+      "Haibo Hu",
+      "Jianghuai Deng",
+      "Chen Tang",
+      "Yang Lou",
+      "Qian Xu",
+      "Jianping Wang"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.04453",
+    "abstract": "Online HD map construction is critical to prediction and planning in autonomous driving. We find that existing physical attacks against online map construction are limited by a cross-boundary compensation effect: after the target boundary is perturbed, another visible boundary may retain sufficient geometric cues for the model to recover the original road geometry. Based on this observation, we propose TwinIR, a new mechanism-guided physical attack methodology for online map construction. TwinIR jointly optimizes attack effectiveness and point sparsity, seeking the minimum number of attack points needed to suppress compensating geometric cues from surrounding boundaries. To reduce the perceptibility of multi-point attacks, TwinIR models camera responses to near-infrared illumination and maps optimized attack points to feasible physical placements, producing camera-visible interference with minimal visible-spectrum changes. Experiments on nuScenes across state-of-the-art online map construction models show that TwinIR reduces mAP by 8.18-8.96 percentage points under RSA and 2.84-5.62 points under ETA, while increasing the unreachable-goal rate by 25-28 points and the unsafe-planned-trajectory rate by 19-20 points over clean inputs. These attacks are also validated on a real-world testbed AV, where TwinIR successfully induces both road straightening and early-turn deformations while remaining inconspicuous in full-color views.",
+    "published_date": "2026-08-05",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-06T05:47:39Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.04443",
+    "title": "MCHA: A Memory-Centric Hierarchical Architecture for Parallel-Sequential Computing",
+    "authors": [
+      "Daijing Shi",
+      "Hongxiao Zhao",
+      "Yihan Fu",
+      "Zhan Chen",
+      "Jiayi Li",
+      "Yihang Zhu",
+      "Anjunyi Fan",
+      "Yaoyu Tao",
+      "Yuchao Yang",
+      "Bonan Yan"
+    ],
+    "source": "arxiv",
+    "category": "cs.AR",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.04443",
+    "abstract": "Emerging workloads, such as Multi-Agent Reinforcement Learning (MARL), large-scale neuromorphic computing, and probabilistic graphical models, intrinsically exhibit parallel-sequential computing patterns. While these tasks demand massive parallelism to achieve high throughput, they are severely bottlenecked by irregular data access patterns centralized to main memory. Consequently, conventional architectures face fundamental limitations when executing these workloads, primarily manifesting as global buffer saturation and memory-bound bottlenecks. To address these challenges, we propose the Memory-Centric Hierarchical Architecture (MCHA), a reconfigurable hardware solution tailored for parallel-sequential execution. MCHA leverages a hierarchical communication strategy that facilitates distributed, inter-core data routing, thereby significantly reducing the bandwidth burden on the global memory. Complementing the hardware, MCHA introduces a novel parallel-sequential programming model that utilizes event-driven conditional triggers to effectively hide data transmission latency within the execution pipeline. We benchmark MCHA against a diverse suite of parallel-sequential tasks, including MARL, motor variable control, and Markov random fields. Validated through our open-source, cycle-accurate simulator, MCHA demonstrates performance speedups ranging from 153.06$\\times$ to 2456.96$\\times$ over NVIDIA A100 GPUs on MARL workloads, while maintaining robust programming flexibility across other application domains. Furthermore, the architecture successfully reduces main memory access from 96% to 5.44%. When synthesized in a 28 nm process, the MCHA implementation occupies an area footprint of 2.92mm$^2$ and consumes 115.36 mW of power at 200 MHz. MCHA is open-sourced at https://github.com/carabdis/MCHA.",
+    "published_date": "2026-08-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted in MICRO'26",
+    "fetched_at": "2026-08-06T05:47:39Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.04318",
+    "title": "Responsibility in Multi-Agent Sequential Decision-Making: Comparing Human Judgments to Formal Models of Causal Attribution",
+    "authors": [
+      "Nripsuta Ani Saxena",
+      "Stelios Triantafyllou",
+      "Goran Radanović"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.04318",
+    "abstract": "With the growing adoption of artificial intelligence in high-stakes decision-making, identifying the causes of outcomes--particularly failures--and determining who is responsible has become a critical concern. In this work, we examine how well formal definitions of \\textit{responsibility attribution}, grounded in the framework of \\textit{actual causality}, align with human judgments of responsibility. To this end, we conduct a large-scale survey to elicit human judgments of responsibility in multi-agent sequential decision-making scenarios, using a modified version of the card game Goofspiel. We evaluate multiple responsibility attribution methods, assess their alignment with human judgments about responsibility, and identify factors that significantly shape responsibility judgments. While no single responsibility attribution method consistently aligns with human responses, our findings highlight key factors that influence human responsibility judgments, including agent-specific biases and amount of information available to agents during decision-making.",
+    "published_date": "2026-08-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-06T05:47:39Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.04309",
+    "title": "Structured LLM Reasoning for Zero-Shot Human--Robot Coordination Under Hidden Goals",
+    "authors": [
+      "Dong Hae Mangalindan",
+      "Anand Gokhale",
+      "Francesco Bullo",
+      "Vaibhav Srivastava"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.04309",
+    "abstract": "We present a structured large-language-model (LLM) architecture for zero-shot human--robot coordination in a cooperative construction task with private goal views. Guided by a Dec-POMDP formulation, the architecture decomposes decision-making into (i) action-conditioned Theory-of-Mind (ToM) inference, (ii) hierarchical planning, (iii) conversation interpretation, (iv) action verification, and (v) feedback-based replanning. We compare the proposed method with an ablation without ToM inference and a multi-agent reinforcement-learning policy trained offline over many goal pairs. In human-participant experiments, the proposed method required fewer interaction steps and yielded higher post-interaction trust ratings than both baselines. These results suggest that systematically decomposing the team decision problem, using LLMs as tractable surrogates for otherwise intractable inference and planning computations, and retaining conventional verification for physical feasibility can improve both task coordination and the human experience.",
+    "published_date": "2026-08-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-06T05:47:39Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2608.03852",
     "title": "FedCritic-MIMO: Communication-Efficient Serverless Federated Critic Learning for Massive-MIMO Resource Control in Open and Disaggregated 6G RANs",
     "authors": [
@@ -515,6 +860,56 @@
     "venue_status": "preprint",
     "venue_note": "8 pages, 4 figures, 3 tables",
     "fetched_at": "2026-08-05T05:44:29Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.04270",
+    "title": "CURATE: Leveraging LLM Agents to Compose, Catalog, and Deploy Reproducible Workflows",
+    "authors": [
+      "Nolan Cutler",
+      "Chia-Chen Kuo",
+      "Nanda Velugoti",
+      "Kathryn Newhart",
+      "Renato Figueiredo"
+    ],
+    "source": "arxiv",
+    "category": "cs.SE",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.04270",
+    "abstract": "Agentic code generation has shown promise in automating and accelerating software development by utilizing Large Language Models (LLMs) to generate, test, and deploy code. For engineers and scientists, such systems have the potential to accelerate the development of applied and scientific workflows while reducing barriers to entry in domains that have yet to fully realize their benefits. However, a key gap remains: existing coding agents primarily focus on code generation and do not address the entire workflow lifecycle, including deployment and sharing. As a result, users develop and stitch modules independently while managing deployment on their own. To address this gap, we propose CURATE - Composition, User-in-the-loop, Reuse, and Automated Task Execution - a novel human-in-the-loop multi-agent system that uses LLM agents to manage and develop composable workflows across their entire lifecycle. A key feature of the system is a catalog that allows for the storage and reuse of modules across workflows. Module catalogs provide a foundation that can be expanded to support FAIR principles by facilitating the sharing and reuse of curated modules and subgraphs. We demonstrate the feasibility of our system with an initial prototype using Claude Opus 4.8, comprising 6 experiments: reproducing and adapting 4 workflows derived from the SeBS-Flow benchmark suite, and automating the development and scaling of a workflow that leverages a complex mechanistic model in environmental engineering used to simulate anaerobic digestion.",
+    "published_date": "2026-08-04",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 3 figures",
+    "fetched_at": "2026-08-06T05:47:39Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.04148",
+    "title": "AgentForge: An Immersive Role-Playing Platform for Learning Agentic Software Engineering",
+    "authors": [
+      "Zihan Fang",
+      "Yueke Zhang",
+      "Yu Huang"
+    ],
+    "source": "arxiv",
+    "category": "cs.SE",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.04148",
+    "abstract": "Agentic AI is increasingly used to coordinate planning, implementation, review, and testing in software development, yet it often offers limited transparency into its decisions and interactions. Many such systems also assume that users can effectively guide the AI's decisions and validate its outputs. This assumption poses a particular challenge for novices, who must simultaneously learn how agentic AI works, how to collaborate with it effectively, and how to evaluate its outputs critically. To address this challenge, we present \\textit{AgentForge}, an immersive learning system in which novices take on one of four software-engineering roles: Task Planner, Patch Author, Code Reviewer, or Test Runner, within a multi-agent code-repair workflow. In each practice session, the novices perform their chosen role while AI agents perform the remaining three. Through role-based scaffolding and metacognitive support, AgentForge clarifies role-specific responsibilities, makes agent coordination and intermediate artifacts visible, and encourages novices to monitor and evaluate their decisions. In a study with 37 novice developers, participants achieved high task-completion rates with AI-agent support. However, interaction demands differed significantly across practices: the Code Reviewer practice required more interaction turns, reroutes, and completion time ($p_{\\mathrm{adj}} = .004$) and was perceived as the most challenging. Participants nevertheless reported significant gains in their understanding of software repair and agent collaboration ($p_{\\mathrm{adj}} < .001$). These findings suggest that AgentForge can help novices develop practical software-engineering skills while learning to collaborate with agentic AI more critically and effectively.",
+    "published_date": "2026-08-04",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "7 pages, 2 figures",
+    "fetched_at": "2026-08-06T05:47:39Z",
     "memo": "",
     "memo_updated_at": null
   },
