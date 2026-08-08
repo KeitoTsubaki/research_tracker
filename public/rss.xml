@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Fri, 07 Aug 2026 04:53:08 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 04:09:31 GMT</lastBuildDate>
     <item>
       <title>Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering</title>
       <link>https://arxiv.org/abs/2608.06366</link>
@@ -116,6 +116,34 @@
       <guid isPermaLink="false">arxiv:2608.05266</guid>
       <pubDate>2026-08-05</pubDate>
       <description>Large language model agents are increasingly being developed to control a wide range of scientific characterization tools including microscopes and synchrotron beamlines. Research into agentic control of physical infrastructure is nascent and there are few well-established paradigms for how to engineer an agentic system. There are many choices to make when designing a microscopy agent, including the choice of LLM, the number of agents to use, agent responsibilities and delegation rules, retrieva</description>
+    </item>
+    <item>
+      <title>CoPlan: A Trustworthy Co-Intelligence Interface for Care Planning through Role-Based Contestable Argument Graphs</title>
+      <link>https://arxiv.org/abs/2608.05107</link>
+      <guid isPermaLink="false">arxiv:2608.05107</guid>
+      <pubDate>2026-08-05</pubDate>
+      <description>AI-supported care planning can help clinicians, patients, caregivers, and care teams coordinate complex decisions across clinical, functional, psychosocial, and environmental needs. However, many AI systems present recommendations as fixed outputs, limiting stakeholders' ability to inspect, challenge, and revise plans when they conflict with clinical judgment, patient values, or real-world feasibility. We present CoPlan - a Co-Intelligent and Contestable Interface for Human-AI Care Planning. CoP</description>
+    </item>
+    <item>
+      <title>ArtAnno: Annotating Implicit Semantics in Artworks through LLM Agent-Driven Bidirectional Human-AI Augmentation</title>
+      <link>https://arxiv.org/abs/2608.05026</link>
+      <guid isPermaLink="false">arxiv:2608.05026</guid>
+      <pubDate>2026-08-05</pubDate>
+      <description>High-quality annotation of artworks is essential for computational art research, yet extracting implicit semantics remains challenging due to the reliance on culturally grounded meanings and deep contextual knowledge behind the images. Current AI-assisted annotation tools often lack assistance or rely on one-way workflows where experts have to perform extra manual calibrations to improve AI models, resulting in limited efficiency. To address this, we propose Bidirectional Human-AI Augmentation(B</description>
+    </item>
+    <item>
+      <title>PRIMAL3: Pathfinding via Reinforcement and Imitation Multi-Agent Learning - Leveraging LaCAM3</title>
+      <link>https://arxiv.org/abs/2608.04905</link>
+      <guid isPermaLink="false">arxiv:2608.04905</guid>
+      <pubDate>2026-08-05</pubDate>
+      <description>We present PRIMAL3, an ultra-large-scale learning-based framework for multi-agent pathfinding (MAPF) that integrates reinforcement learning, topology-aware communication, LaCAM3-guided training, and PIBT-based action refinement. PRIMAL3 targets failures at topologically critical states, where agents must coordinate decisively around bottlenecks, dead ends, and persistent conflicts. Each agent is represented using features derived from cut vertices, dead-end regions, shortest-path distances, and </description>
+    </item>
+    <item>
+      <title>When Does Latent Communication Pay? A Causal Audit of Relayed KV Caches in Multi-Agent LLMs</title>
+      <link>https://arxiv.org/abs/2608.04893</link>
+      <guid isPermaLink="false">arxiv:2608.04893</guid>
+      <pubDate>2026-08-05</pubDate>
+      <description>Multi-agent LLM systems relay key--value caches instead of text and credit their gains to exchanged ``latent thoughts''. That credit is a claim about \emph{which} example's cache is relayed, not merely that one is. We audit it causally in released systems. The cache is replaced with deranged (mismatched-example), zeroed, and moment-matched random counterparts, under two regimes defined by whether the receiver needs the sender's private information. Where it does, the battery reads ceiling: 100\%</description>
     </item>
   </channel>
 </rss>
