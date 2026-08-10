@@ -1,5 +1,416 @@
 [
   {
+    "id": "arxiv:2608.07383",
+    "title": "Analyzing the Interaction of Optimal Strategies in Mean-Payoff Bidding Games",
+    "authors": [
+      "Shaull Almagor",
+      "Guy Avni",
+      "Julian Ewaied"
+    ],
+    "source": "arxiv",
+    "category": "cs.GT",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.07383",
+    "abstract": "A common assumption when designing an agent in a multi-agent system is that the other agents behave adversarially. This allows a designer to obtain the strongest guarantees when they have no control over nor knowledge about the other agents' behavior. However, when all agents are designed under this adversarial assumption, their actual interaction is not adversarial (e.g., when all players play defensively, no player actually attacks). In such settings, we would like to know what behavior arises in the multi-agent system. However, analyzing the interaction among agents is notoriously challenging, both mathematically and algorithmically. In this paper, we provide such an analysis, focusing on bidding games, played by two agents on a graph as follows. A token is placed on a vertex, and in each turn an auction (bidding) determines which agent moves the token, thus generating an infinite path that determines the agents' utilities. We consider mean-payoff objectives; each vertex is associated with a reward for each player, and the utility in an infinite play is the limit average of the rewards. We analyze the play that is generated when each agent follows a strategy that optimizes against an adversary, and consider the two known explicit constructions of optimal strategies. The technical challenge stems from the infinitely-many configurations of a bidding game and their complicated dynamics. We show that, under some restrictions, the generated play is ultimately periodic, and develop algorithms to compute the players' utilities in it.",
+    "published_date": "2026-08-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.07295",
+    "title": "Learning Long-Term Educational Investment Policies under Residential Sorting",
+    "authors": [
+      "Honglei Guo",
+      "Shuo Chen",
+      "Mingjie Bi",
+      "Zeyang Sun",
+      "Xiaoxi Wang",
+      "Yuhan Zhao"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.07295",
+    "abstract": "Allocating public-school investment effectively and fairly is difficult when school access depends on residence. School improvements can raise nearby housing demand and prices, reshape enrollment, and potentially limit access for lower-income households. These effects evolve as residential sorting changes school composition, quality, and future investment needs. Existing approaches often study school funding, household choice, and housing markets separately, while static models can miss their interconnected, long-term effects. We address this gap with a dynamic multi-agent framework that links government investment, household sorting, housing prices, population turnover, enrollment, and evolving school quality. A government planner uses reinforcement learning (RL) to identify multiyear allocation policies that account for household responses while balancing aggregate educational access and equity. In simulations, our RL-based policy attains the highest access level (0.4780) and second-lowest access Gini coefficient (0.0164) among representative baselines, demonstrating a favorable effectiveness-equity balance. The results also indicate reduced socioeconomic stratification in educational access. By making education-housing feedback explicit, our framework supports long-term analysis of how school investment shapes educational opportunity over time.",
+    "published_date": "2026-08-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.07280",
+    "title": "Why Study Emergent Behavior When You Can Regulate It? Aligning Multi-Agent Systems with Reward Prediction",
+    "authors": [
+      "Assaf Caftory",
+      "Almog Zemach",
+      "Moshe Butman",
+      "Doron Friedman"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.07280",
+    "abstract": "Multi-agent simulations are widely used to study complex social and ecological systems, where rich and often unexpected emergent behaviors arise from local interactions. A large body of prior work has focused on analyzing such emergent dynamics across domains. In this paper, we move beyond analyzing emergent behavior and introduce a learning-based mechanism for actively shaping it via social reward modeling. We introduce Multi-Agent Reward Prediction (MARP), a simple framework that extends preference-based reward modeling to multi-agent reinforcement learning. While the framework is designed to be applicable across multi-agent settings, the present empirical validation is limited to a single environment, and we therefore present MARP as a proof of concept within the studied domain. Rather than relying on handcrafted rewards, MARP learns a shared reward model from episode-level evaluations of collective outcomes, enabling decentralized agents to align their behavior with global social objectives. We study MARP in the Harvest Game, a canonical sequential social dilemma modeling common-pool resource management and related real-world challenges. Our results show that MARP can be tuned to produce behavior that is more closely aligned with target social metrics than standard reward-based baselines, while the learned reward model captures subtle environmental structure without explicit programming. Crucially, MARP supports multiple and composite social objectives within a single training regime. By modifying only the high-level evaluation metric, the same framework seamlessly aligns agent behavior with diverse goals, including sustainability, equality, and peace, as well as combinations of individual and group-level objectives. These findings demonstrate that emergent multi-agent behavior can be treated not only as a phenomenon to study, but as a target of principled, data-driven regulation.",
+    "published_date": "2026-08-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.07196",
+    "title": "EMAS: Stabilizing Multi-Agent System Evolution through Evidence-Guided Revision",
+    "authors": [
+      "Chao Fei",
+      "Qingyi Si",
+      "Kaihua Liang",
+      "Yanghua Xiao",
+      "Panos Kalnis",
+      "Hongcheng Guo"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.07196",
+    "abstract": "Many methods for automated multi-agent system design optimize prompts and topologies during an initial design stage and then deploy the resulting system unchanged on subsequent samples. Experience from these samples is rarely consolidated into reusable system updates, while accuracy-oriented designs may incur high token costs. We introduce EMAS (Evolving Multi-Agent System), which uses this experience to revise MAS topology and prompts without updating LLM parameters, either to improve accuracy or to reduce cost. EMAS converts traces into structured diagnoses that specify a revision operation and target. It generates a candidate revision only when the same diagnosis recurs across samples and applies it only if paired validation against the current MAS meets the corresponding acceptance criterion. Across four benchmarks and two LLMs, EMAS attains the highest task-weighted overall accuracy for both backbones and is best or tied in six of eight model--benchmark settings. Within two evolution epochs, EMAS achieves relative gains of 6.30% and 20.10% in task-weighted accuracy on Kimi-K2-6 and Qwen3.6-27B, respectively. On MBPP with Qwen3.6-27B, EMAS raises accuracy from 55.09% to 89.12% while reducing token use per task by 62.2%. These results show that EMAS can turn experience from new samples into reusable updates to MAS topology and prompts.",
+    "published_date": "2026-08-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.07148",
+    "title": "A MARL Centered Reference Architecture for Large Language Model Augmentation in Smart Manufacturing",
+    "authors": [
+      "Fouad Bahrpeyma",
+      "Dirk Reichelt"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.07148",
+    "abstract": "Modern manufacturing imposes six coupled demands on adaptive control: local decisions with global consequences, partial observability, nonstationarity, reflex speed response with long horizon effects, delayed and diffuse outcomes, and dynamics that resist explicit modeling. Cooperative multiagent reinforcement learning (MARL), posed as a Dec-POMDP under centralized training with decentralized execution, is a particularly natural formalism for these demands. This paper adopts a MARL centered scope and asks where large language models (LLMs) should augment, interface with, train, or, in the strongest competitive case, replace that coordination core. A taxonomy organizes the literature through four LLM attachment points: policy, reward design, communication between agents, and hierarchical planning. A conditional capability profile separates native mechanism, reported performance, formal guarantee, and engineering maturity, and a deployment readiness analysis identifies the evidence behind each role. These stages yield the principal contribution: a three layer MARL centered reference architecture, grounded in evidence, for semantic reasoning, adaptive cooperative control, and independently assured execution. The LLM-Augmented Dec-POMDP is a descriptive comparative notation for that architecture, recording four attachment choices without introducing a new decision process class or algorithm. Under the reviewed evidence, conventional MARL is better suited to frequent, structured, decentralized coordination after task specific training, whereas LLM components are promising for semantic interpretation, reward drafting, human interaction, and slower supervisory planning. Current LLM only manufacturing controllers do not yet establish equivalence for strict real time, decentralized, safety critical control; this conclusion is bounded by the available evidence and does not assert impossibility.",
+    "published_date": "2026-08-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.07126",
+    "title": "PHOENIX: Fine-Tuned SLM-Powered Autonomous Satellite Lifetime Extension via Predictive Self-Healing and Multi-Agent AI Recovery",
+    "authors": [
+      "Sumaiya Islam",
+      "Harsha Kumara Moraliyage"
+    ],
+    "source": "arxiv",
+    "category": "cs.HC",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.07126",
+    "abstract": "Most CubeSats, small and low-cost satellites roughly the size of a shoebox, do not survive as long as they were designed to: a study of 178 missions found that only 48-65% remain operational after two years, against a designed lifetime of 2-5 years. The deeper issue is that a CubeSat in low Earth orbit (LEO) is physically unreachable from the ground for roughly 85 minutes out of every 96-minute orbit, so faults that start during that window go unnoticed until the next contact pass, by which point recovery may no longer be possible. We propose PHOENIX (Predictive Health On-orbit Edge Neural Intelligence eXtension) to give the satellite its own fault reasoning capability. A fine-tuned Small Language Model (SLM) compact enough to run on embedded hardware is deployed onboard the CubeSat, running on the flight-proven Aethero NxN-ECM computer, monitoring all sensor readings continuously, and resolving recurring faults using a memory system that stores past repairs so the same inference does not need to run twice. Once per orbit it sends a short structured health report to the ground instead of a raw data dump; six specialized AI agents on the ground read that report and generate validated satellite commands within the 5-10 minute contact window. A generative diffusion model (DDPM) creates synthetic training data because real fault examples make up only 0.57-1.80% of the dataset. We report preliminary results on the ESA Anomaly Detection Benchmark (14 years, 76 channels, 118 labeled faults).",
+    "published_date": "2026-08-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "6 pages, 2 figures. Accepted at IEEE IRAI 2026 (International Conference on Responsible Artificial Intelligence)",
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.07075",
+    "title": "Detection and Ranging of Transient Extrinsic Contacts Based on 6D Dynamic Tactile Sensing",
+    "authors": [
+      "Haowen Zheng",
+      "Yinghao Wu",
+      "Fuyuan Liu",
+      "Yichen Li",
+      "Yitian Shao"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.07075",
+    "abstract": "Delicate manipulation often involves transient and subtle collisions between a grasped object and the environment. While the human hand localizes these contacts effortlessly thanks to superior tactile sensitivity, robotic systems often lack the requisite resolution to acquire the information necessary for motion planning, resulting in clumsy manipulation or even task failure. Here, we propose transient extrinsic contact detection and ranging (TECDAR), a simple yet fast and efficient method for detecting and ranging extrinsic contact of grasped objects. Our design of gripper tips employs dynamic tactile sensing leveraging a single 2.5$\\times$3 mm 6D inertial measurement unit. The sensor captures sub-millisecond tip deformations at a 7 kHz sampling rate, but operating on a data stream of only 84 KB/s. High bandwidth and compact data size enable the system to rapidly detect and localize contact between grasped objects and their surroundings. Specifically, fusing tactile data with robot pose via an extended Kalman filter enables fast and precise localization of extrinsic contact, reaching millimeter-level accuracy within 180 ms. Experimental results demonstrate that the system achieves an average localization accuracy of approximately 7\\,mm in both line-contact and point-contact localization tasks. Furthermore, this near-instantaneous localization enables the robot to rectify its trajectory on a millisecond scale, facilitating precise tool manipulation and enhanced perception of complex environments purely through tactile exploration and mapping. We envision such techniques advancing the future of robotics across domains requiring delicate manipulation, including precision assembly, surgical assistance, and autonomous exploration in touch-dominant environments. Project page: humitlab.github.io/TECDAR/",
+    "published_date": "2026-08-07",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.07005",
+    "title": "Real-time Whole-Body Motion Planning for Mobile Manipulators Carrying Arbitrarily Shaped Payloads via Kinematically-Coupled SVSDF",
+    "authors": [
+      "Yisheng Li",
+      "Longji Yin",
+      "Tingrui Zhang",
+      "Ruize Xue",
+      "Haoda Zhu",
+      "Nan Chen",
+      "Siqi Liang",
+      "Yuxi Liu",
+      "Fu Zhang"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.07005",
+    "abstract": "Mobile manipulators are increasingly tasked with transporting large, non-convex payloads through cluttered environments, yet existing planners either oversimplify the payload geometry or fail to handle the kinematic coupling between manipulator links, leading to lost feasible space or stalled optimization. This letter presents a real-time whole-body motion planning framework for mobile manipulators carrying arbitrarily shaped payloads. The front-end employs a chain-decomposed kernel-based collision check that preserves the true geometry of the robot and payload, with compact storage and fast bit-level queries. A mid-end preprocessing stage converts the front-end path into a continuous trajectory enforcing smoothness and feasibility, and executes it directly when collision-free to bypass the costly back-end. When refinement is required, the back-end performs trajectory optimization built on a Kinematically-Coupled SVSDF (KC-SVSDF), which propagates collision-avoidance gradients along the kinematic chain to produce coherent whole-body escape directions. Ablation studies, comparative benchmarks against state-of-the-art baselines, and real-world experiments on a differential-drive mobile manipulator demonstrate that the proposed framework reliably transports large, non-convex payloads through tight passages and cluttered environments.",
+    "published_date": "2026-08-07",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.06994",
+    "title": "Decoupling Intention from Trajectory: A Representational Deduction Framework for World Action Models",
+    "authors": [
+      "Xiangkai Ma",
+      "Yue Ma",
+      "Junjie Wang",
+      "Sheng Xu",
+      "Mingyang Li",
+      "Han Zhang",
+      "Yuzheng Zhuang",
+      "Wenzhong Li",
+      "Zhihao Yuan"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.06994",
+    "abstract": "World Action Models (WAMs) aim to construct a unified architecture capable of understanding world state evolution and guiding to generative motion planning. However, existing visual branches focus on predicting static visual observation, rather than reflecting potential transition information that captures the evolution of world states under motion interactions. This leads to representational entanglement between high-level physical condition evolution and low-level action trajectory generation within the Action Model, creating a structural bottleneck while weakening the predictive capability of world evolution modeling for action generation. We propose PILOT (Physical Inference for Latent Optimized Trajectories), whose core Representational Deduction (RD) bridges this gap by integrating motion thought-of-chain (CoT) guidance as a native model capability. Specifically, RD aims to encourage the action branch to explicitly model potential state transition tokens, which are retained as CoT in the reasoning space to guide fine-grained motion trajectory. Experiments demonstrate that RD not only significantly improves the success rate and generalization ability of WAMs in complex robotic manipulation tasks but also enhances the model's physical interpretability by decoupling high-level motion semantics from low-level trajectory details. Furthermore, the abundant state transition supervision signals introduced by RD effectively alleviate the sparse supervision in action generation, enabling it to serve as an efficient few-shot real-robot fine-tuning strategy and demonstrating superior scalability for migration to mainstream WAM architectures.",
+    "published_date": "2026-08-07",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.06949",
+    "title": "Does Splitting a Triage Decision Across Agents Hide Bias or Help Catch It? A Multi-Agent Simulation Study of LLM-Based Resource Allocation Under Audit Capacity Constraints",
+    "authors": [
+      "Paul-Peter Arslan"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.06949",
+    "abstract": "Prior benchmarking work has shown that a single large language model (LLM), forced to make life-or-death resource-allocation decisions, exhibits measurable demographic bias. Real deployments, however, rarely use a single agent: they use pipelines, with review steps meant to catch exactly this kind of failure. We study what happens to bias when the same decision is distributed across a role-differentiated multi-agent pipeline (assessment, allocation, independent audit) instead of made and checked by one model alone. Using a synthetic disaster-triage simulator with paired cases that are clinically identical except for one demographic attribute, we run 192 episodes (2,304 resolved case pairs) on GPT-4o-mini comparing a single-agent control condition to a nine-agent pipeline under three independently varied pressure dimensions. We find no measurable difference in how often biased outcomes occur between the two conditions (6.9% vs. 6.1%, p = 0.498). We do find a large and significant effect of audit capacity on whether bias is caught: 30.0% of biased outcomes go entirely undetected, rising to 43.8% when the auditor is overloaded and falling to 18.4% when it is not. Decomposing this effect shows it is driven almost entirely by coverage (whether a case is reviewed at all, which collapses from 100.0% to 65.6% under load, p < 0.001) rather than by degraded judgment on the cases that are reviewed (81.6% vs. 85.7%, p = 1.000, direction reversed). A follow-up experiment shows that reordering the audit queue by estimated risk, rather than first-come-first-served, recovers most of the lost coverage under the same capacity constraint (65.6% to 91.7%, p = 0.028). We discuss the implications for any system that adds independent oversight to an LLM agent pipeline under resource constraints, and report the study's limitations honestly: one model, modest sample sizes, and no adversarial replication.",
+    "published_date": "2026-08-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "6 pages, 2 figures, 3 tables. Code and data available at https://github.com/Polpii/policy-town",
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.06922",
+    "title": "Deal Me Maybe: The Role of Emotions in Multi-Agent Negotiation",
+    "authors": [
+      "Massimiliano Luca",
+      "Apoorva Singh",
+      "Bruno Lepri"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.06922",
+    "abstract": "Negotiation is a demanding social task for LLM agents, requiring strategic reasoning, persuasion, and interpersonal adaptation. Yet existing benchmarks often treat agents as emotionally neutral, overlooking a key driver of human bargaining behavior. We study how prompt-conditioned emotions affect LLM-based price negotiation. In a controlled framework, buyer and seller agents are independently assigned one of six emotional states and negotiate over 350 real consumer products under two budget conditions. Across 36 emotion-pair settings and five widely used LLMs, we find that emotions strongly shape outcomes. Angry buyers almost never reach agreement (0.39% deal rate), while happy buyers agree most often (28.91%), but obtain worse prices than fearful buyers. Emotion effects are role-dependent: buyer emotion mainly drives acceptance and rejection, whereas seller emotion shapes concession dynamics. These effects influence not only language, but also termination behavior and price trajectories, raising concerns for emotion-conditioned agents in commerce.",
+    "published_date": "2026-08-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.06907",
+    "title": "Spatiotemporal Agility: Time-Constrained Reinforcement Learning for Vision-Guided Dynamic Quadrupedal Interception",
+    "authors": [
+      "Yidong Zhu",
+      "Zibo Dai",
+      "Tongning Zhang",
+      "Leixin Chang",
+      "Hua Chen"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.06907",
+    "abstract": "Legged robots require robust agility to perceive and interact with complex and dynamic environments within a constrained time. However, most existing quadruped locomotion works rely on velocity-tracking policy, which struggle to reach precise targets within strict temporal constraints. Moreover, integrating real-time perception with agile locomotion for highly dynamic targets remains challenging due to sensor latency and processing delays. To concretely study and benchmark such agility in dynamic settings, we introduce a challenging ball-catching task for legged robots. This paper proposes an integrated framework that combines a vision module for landing point and time prediction with a direct position and time conditioned RL locomotion policy, instead of intermediate velocity commands. Beyond the method design, this work presents a system-level contribution that completes real-time robotic interception system that integrates multi-camera perception, online trajectory prediction, low-latency target communication, and sim-to-real locomotion control into a closed-loop deployment pipeline. By explicitly predicting the future spatial-temporal target, our approach mitigates perception latency during dynamic interception. We conducted extensive ball-catching experiments for the legged robot. Through comparative experiments against a velocity-tracking baseline, our direct target-conditioned approach achieves a higher success rate in catching balls with predicted landing spots within 2 meters and flight times between 0.8 and 1.2 seconds. This shows that the robot has successfully completed the dynamic ball-catching task under our tested setup. Furthermore, our policy exhibits a smaller performance gap after deployment, suggesting improved sim-to-real behavior in these trials.",
+    "published_date": "2026-08-07",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.06865",
+    "title": "Multi-Agent Forensic Reasoning for Generalizable Deepfake Video Detection",
+    "authors": [
+      "Xuechao Zou",
+      "Shun Zhang",
+      "Kai Li",
+      "Yi Zhou",
+      "Xinyu Sun",
+      "Yuhui Chen",
+      "Zhe Wu",
+      "Congyan Lang",
+      "Junliang Xing"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.06865",
+    "abstract": "The malicious use of generative artificial intelligence to create highly realistic deepfake videos raises serious ethical concerns and poses substantial challenges to AI safety. However, existing deepfake video benchmarks provide limited coverage of recent synthesis methods and generally lack reliable fine-grained textual annotations. Meanwhile, conventional detectors and multimodal large language models (MLLMs), whether operating as a single model or relying on a single analytical perspective, often fail to capture subtle forgery artifacts, limiting their generalization to emerging AI-generated methods. To address these limitations, we introduce FaceVid-Forensics-100K, a large-scale deepfake video dataset comprising 100,000 videos and spanning 33 synthesis methods across face swapping, face reenactment, and entire-face synthesis, including recent generators such as Seedance 2.0. The dataset provides fine-grained textual annotations of visual observations and verdict-consistent forensic explanations, automatically synthesized through a multi-model aggregation and conflict-resolution pipeline powered by advanced MLLMs. Building on this benchmark, we propose a multi-agent forensic reasoning framework that employs four specialized domain-expert agents to independently analyze forgery cues from four perspectives: texture, lighting, motion, and physics. A judge agent then reconciles their reports to produce a final prediction together with an explanation. Extensive evaluations on out-of-domain test sets show that, despite being composed entirely of small open-source MLLMs, our framework outperforms all methods including closed-source GPT and Gemini models and ranks first across all reported metrics on this benchmark. The project page is available at https://xavierjiezou.github.io/ARGUS/.",
+    "published_date": "2026-08-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "22 pages, 8 figures, 14 tables",
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.06830",
+    "title": "When Coordination Becomes a Threat: Communication Attacks in LLM-Controlled Multi-Robot Systems",
+    "authors": [
+      "Zhen Huang",
+      "Zhihuang Liu",
+      "Weijia Shi",
+      "Yifan Yang",
+      "Weishang Wu",
+      "Zhiping Cai"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.06830",
+    "abstract": "Large Language Models (LLMs) are increasingly used as high-level planners in embodied multi-robot systems, enabling robots to interpret natural language instructions and coordinate executable actions. Yet, this growing reliance on LLM planners also raises security concerns. Prior work has focused mainly on individual robots, while communication risks in multi-robot collaboration remain insufficiently understood. Existing multi-robot studies are further limited to preliminary analysis under the Decentralized Multi-agent System (DMAS) architecture, so it remains unclear whether these risks persist across other common communication architectures and how attacker access settings shape their propagation. To fill this gap, we formulate two communication attacks corresponding to distinct attacker access settings: the External Entry Point Attack and the Privileged In-System Attack. We evaluate both attacks across DMAS, HMAS-1, and HMAS-2 using three LLMs and five embodied multi-robot tasks. Results show that unsafe information can turn into unsafe actions across all three architectures: DMAS reaches a 96.7\\% entry endorsement rate and a 100\\% post endorsement activation rate, HMAS-1 reaches a 97.8\\% unsafe action success rate, and HMAS-2 triggers 88.3\\% of task defined unsafe action slots. To mitigate risks from trusted information flow, we introduce the Claim Provenance and Verification (CPV) Gate, which verifies communicated claims before downstream reuse and reduces the violation rate from 70.0\\% to 36.6\\%.",
+    "published_date": "2026-08-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "17 pages, 8 figures, 4 tables",
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.06702",
+    "title": "Scalable Long-Horizon Planning with Staggered Updates for Lifelong MAPF",
+    "authors": [
+      "Vaibhav Sanjay",
+      "Jiaoyang Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.06702",
+    "abstract": "Lifelong Multi-Agent Path Finding (LMAPF) requires generating collision-free paths for large agent fleets under strict real-time constraints. Reactive frameworks such as PIBT and Enhanced PIBT (EPIBT) scale effortlessly to thousands of agents through rule-based, step-by-step coordination but suffer from severe temporal myopia, making them ineffective in scenarios where long-horizon reasoning is essential. RHCR plans windowed paths over multi-step horizons but incurs substantial planning overheads that hinder scalability. TP tackles both challenges by planning only subsets of agents at each timestep, yet its applicability is restricted to highly structured maps. To achieve long-horizon planning at scale across general maps, we propose Path Updates over Staggered Horizons (PUSH), a LMAPF planner capable of coordinating thousands of agents in under a second while planning over multi-step horizons. PUSH combines the key advantages of PIBT, RHCR, and TP. Like TP, PUSH reduces computational complexity by planning only a subset of agents at each timestep using staggered planning windows. Unlike TP, however, PUSH plans RHCR-style windowed paths in general maps without relying on restrictive map assumptions. To maintain high throughput in congested environments, PUSH further integrates EPIBT-inspired priority inheritance, backtracking, and anytime improvements into its windowed planning. Empirical evaluations across two realistic MAPF scenarios requiring long-horizon reasoning show that PUSH scales to the same massive agent loads as EPIBT (e.g., 10k agents) while achieving significantly higher system throughput than all baselines.",
+    "published_date": "2026-08-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "11 pages, 6 figures",
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.06694",
+    "title": "A Multi-Agent Framework for Automated Coarse-Grained Molecular Dynamics of Polymers",
+    "authors": [
+      "Joohee Choi",
+      "Junhyeong Lee",
+      "Seunghwa Ryu"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.06694",
+    "abstract": "Coarse-grained (CG) molecular dynamics extends polymer simulation beyond the scales accessible to all-atom (AA) methods, but bottom-up CG modeling is laborious. The CG resolution is a design choice, so a transferable parameter set is generally not available and the potentials are derived anew for each polymer mapping. Here we present CGMas, a multi-agent framework that automates topology construction, equilibration, mapping, potential derivation, and validation from a natural-language specification of the polymer and target resolution. A large-language-model (LLM) reasoning agent infers the AA topology from polymer name, while layered self-correction resolves physical errors common to unsaturated, heteroatom-containing, and polar polymers. Downstream agents equilibrate the system, map it onto CG representation, derive potentials through Boltzmann inversion, and benchmark the model against its atomistic reference. CGMas completed all 27 homopolymer and copolymer tasks, matched the AA density to within 5% in 22, and reduced simulation from 38-88 min to 1 min, establishing agentic LLMs as a route to automated polymer coarse-graining.",
+    "published_date": "2026-08-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2608.06366",
     "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
     "authors": [
@@ -259,6 +670,53 @@
     "memo": "",
     "memo_updated_at": null,
     "fetched_at": "2026-08-07T04:53:08Z"
+  },
+  {
+    "id": "arxiv:2608.06648",
+    "title": "Plan-and-Avoid: Real-Time Aircraft Trajectory Coordination in a Multi-Agent Environment",
+    "authors": [
+      "Huseyin Emre Tekaslan",
+      "Ella M. Atkins",
+      "Natasha Neogi"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.06648",
+    "abstract": "This paper presents a real-time Plan-and-Avoid (PAA framework for coordinating cooperative multi-agent airspace operations around a declared priority trajectory. The priority trajectory represents an aircraft flight plan that must be preserved because of constrained maneuverability, an emergency, a mission-critical task, or assigned operational priority. The framework predicts uncertainty-aware, well-clear separation violations with surrounding traffic and, when the priority plan alone cannot maintain separation, generates vehicle-constrained unilateral advisories that modify nearby aircraft trajectories to maintain well-clear separation for all traffic. The approach is applicable to any declared priority trajectory. This paper demonstrates the Plan component using a contingency landing planner to generate candidate priority trajectories. PAA then identifies nearby aircraft passing too close to this priority trajectory and issues Avoid resolution advisories to these aircraft. The framework is tested using real-world Automatic Dependent Surveillance-Broadcast (ADS-B) traffic from the Washington, D.C., airspace across more than 900 forced-landing cases, totaling over 140 hours of simulated flight. The PAA framework generates feasible cooperative advisories for all 575 unique conflict encounters, with a worst-case end-to-end response time of 5.7 s on a personal computer, including priority trajectory planning, advisory generation, and 1 s two-way datalink delay. In total, 93.5% of generated advisories satisfy the 35 s RTCA DO-365 Detect-and-Avoid temporal threshold. These results demonstrate low-latency coordination for preserving priority trajectories while maintaining well-clear separation through real-time automated advisory generation. Future work will quantify advisory-induced delays and their operational impacts.",
+    "published_date": "2026-08-06",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.06520",
+    "title": "Online Security Learning in Cooperative Multi-Agent Systems under Hidden Byzantine Attacks",
+    "authors": [
+      "Ximing Sun",
+      "Yue Wang"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.06520",
+    "abstract": "We study online cooperative control of a multi-agent system under Byzantine attacks. Namely, an unknown, fixed subset of agents are Byzantine comprised and can stealthily overwrite its own coordinates of the team's planned joint action after observing that plan. The learner observes planned actions, public rewards, and public states, but neither the overwrite nor the executed joint action. Our objective is security: to optimize the team performance against the worst overwrites and achieve the optimal security value. We first show that the attacker's information determines the geometry. An attacker that observes the planned action induces an exact $(s,a)$-rectangular robust Markov decision process (MDP) whose rows are convex hulls of overwrite-induced public-outcome laws, whereas a blind attacker induces an $s$-rectangular model. We then identify the information-theoretic limit of security learning, showing that the security regret decomposes exactly into return regret against the response generating the data and a cumulative response gap $D_K$. Two indistinguishable horizon-one instances force $Ω(K)$ expected security regret while return regret is zero, showing that dependence on $D_K$ is unavoidable. Finally, we develop a stage-tied robust estimation-to-decisions learner and prove a regret bound of $\\widetilde{\\mathcal O}\\!\\left(H^2S\\sqrt{AK}\\right)+\\mathbb E[D_K]$. Our studies thus provide comprehensive theoretical and algorithmic foundations of reliable multi-agent systems under Byzantine attacks.",
+    "published_date": "2026-08-06",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "preprint; Work in progress",
+    "fetched_at": "2026-08-10T04:28:07Z",
+    "memo": "",
+    "memo_updated_at": null
   },
   {
     "id": "arxiv:2608.05107",

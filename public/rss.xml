@@ -4,146 +4,132 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Sun, 09 Aug 2026 04:16:50 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 04:28:07 GMT</lastBuildDate>
     <item>
-      <title>Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering</title>
-      <link>https://arxiv.org/abs/2608.06366</link>
-      <guid isPermaLink="false">arxiv:2608.06366</guid>
+      <title>Analyzing the Interaction of Optimal Strategies in Mean-Payoff Bidding Games</title>
+      <link>https://arxiv.org/abs/2608.07383</link>
+      <guid isPermaLink="false">arxiv:2608.07383</guid>
+      <pubDate>2026-08-07</pubDate>
+      <description>A common assumption when designing an agent in a multi-agent system is that the other agents behave adversarially. This allows a designer to obtain the strongest guarantees when they have no control over nor knowledge about the other agents' behavior. However, when all agents are designed under this adversarial assumption, their actual interaction is not adversarial (e.g., when all players play defensively, no player actually attacks). In such settings, we would like to know what behavior arises</description>
+    </item>
+    <item>
+      <title>Learning Long-Term Educational Investment Policies under Residential Sorting</title>
+      <link>https://arxiv.org/abs/2608.07295</link>
+      <guid isPermaLink="false">arxiv:2608.07295</guid>
+      <pubDate>2026-08-07</pubDate>
+      <description>Allocating public-school investment effectively and fairly is difficult when school access depends on residence. School improvements can raise nearby housing demand and prices, reshape enrollment, and potentially limit access for lower-income households. These effects evolve as residential sorting changes school composition, quality, and future investment needs. Existing approaches often study school funding, household choice, and housing markets separately, while static models can miss their in</description>
+    </item>
+    <item>
+      <title>Why Study Emergent Behavior When You Can Regulate It? Aligning Multi-Agent Systems with Reward Prediction</title>
+      <link>https://arxiv.org/abs/2608.07280</link>
+      <guid isPermaLink="false">arxiv:2608.07280</guid>
+      <pubDate>2026-08-07</pubDate>
+      <description>Multi-agent simulations are widely used to study complex social and ecological systems, where rich and often unexpected emergent behaviors arise from local interactions. A large body of prior work has focused on analyzing such emergent dynamics across domains. In this paper, we move beyond analyzing emergent behavior and introduce a learning-based mechanism for actively shaping it via social reward modeling. We introduce Multi-Agent Reward Prediction (MARP), a simple framework that extends prefe</description>
+    </item>
+    <item>
+      <title>EMAS: Stabilizing Multi-Agent System Evolution through Evidence-Guided Revision</title>
+      <link>https://arxiv.org/abs/2608.07196</link>
+      <guid isPermaLink="false">arxiv:2608.07196</guid>
+      <pubDate>2026-08-07</pubDate>
+      <description>Many methods for automated multi-agent system design optimize prompts and topologies during an initial design stage and then deploy the resulting system unchanged on subsequent samples. Experience from these samples is rarely consolidated into reusable system updates, while accuracy-oriented designs may incur high token costs. We introduce EMAS (Evolving Multi-Agent System), which uses this experience to revise MAS topology and prompts without updating LLM parameters, either to improve accuracy </description>
+    </item>
+    <item>
+      <title>A MARL Centered Reference Architecture for Large Language Model Augmentation in Smart Manufacturing</title>
+      <link>https://arxiv.org/abs/2608.07148</link>
+      <guid isPermaLink="false">arxiv:2608.07148</guid>
+      <pubDate>2026-08-07</pubDate>
+      <description>Modern manufacturing imposes six coupled demands on adaptive control: local decisions with global consequences, partial observability, nonstationarity, reflex speed response with long horizon effects, delayed and diffuse outcomes, and dynamics that resist explicit modeling. Cooperative multiagent reinforcement learning (MARL), posed as a Dec-POMDP under centralized training with decentralized execution, is a particularly natural formalism for these demands. This paper adopts a MARL centered scop</description>
+    </item>
+    <item>
+      <title>PHOENIX: Fine-Tuned SLM-Powered Autonomous Satellite Lifetime Extension via Predictive Self-Healing and Multi-Agent AI Recovery</title>
+      <link>https://arxiv.org/abs/2608.07126</link>
+      <guid isPermaLink="false">arxiv:2608.07126</guid>
+      <pubDate>2026-08-07</pubDate>
+      <description>Most CubeSats, small and low-cost satellites roughly the size of a shoebox, do not survive as long as they were designed to: a study of 178 missions found that only 48-65% remain operational after two years, against a designed lifetime of 2-5 years. The deeper issue is that a CubeSat in low Earth orbit (LEO) is physically unreachable from the ground for roughly 85 minutes out of every 96-minute orbit, so faults that start during that window go unnoticed until the next contact pass, by which poin</description>
+    </item>
+    <item>
+      <title>Detection and Ranging of Transient Extrinsic Contacts Based on 6D Dynamic Tactile Sensing</title>
+      <link>https://arxiv.org/abs/2608.07075</link>
+      <guid isPermaLink="false">arxiv:2608.07075</guid>
+      <pubDate>2026-08-07</pubDate>
+      <description>Delicate manipulation often involves transient and subtle collisions between a grasped object and the environment. While the human hand localizes these contacts effortlessly thanks to superior tactile sensitivity, robotic systems often lack the requisite resolution to acquire the information necessary for motion planning, resulting in clumsy manipulation or even task failure. Here, we propose transient extrinsic contact detection and ranging (TECDAR), a simple yet fast and efficient method for d</description>
+    </item>
+    <item>
+      <title>Real-time Whole-Body Motion Planning for Mobile Manipulators Carrying Arbitrarily Shaped Payloads via Kinematically-Coupled SVSDF</title>
+      <link>https://arxiv.org/abs/2608.07005</link>
+      <guid isPermaLink="false">arxiv:2608.07005</guid>
+      <pubDate>2026-08-07</pubDate>
+      <description>Mobile manipulators are increasingly tasked with transporting large, non-convex payloads through cluttered environments, yet existing planners either oversimplify the payload geometry or fail to handle the kinematic coupling between manipulator links, leading to lost feasible space or stalled optimization. This letter presents a real-time whole-body motion planning framework for mobile manipulators carrying arbitrarily shaped payloads. The front-end employs a chain-decomposed kernel-based collis</description>
+    </item>
+    <item>
+      <title>Decoupling Intention from Trajectory: A Representational Deduction Framework for World Action Models</title>
+      <link>https://arxiv.org/abs/2608.06994</link>
+      <guid isPermaLink="false">arxiv:2608.06994</guid>
+      <pubDate>2026-08-07</pubDate>
+      <description>World Action Models (WAMs) aim to construct a unified architecture capable of understanding world state evolution and guiding to generative motion planning. However, existing visual branches focus on predicting static visual observation, rather than reflecting potential transition information that captures the evolution of world states under motion interactions. This leads to representational entanglement between high-level physical condition evolution and low-level action trajectory generation </description>
+    </item>
+    <item>
+      <title>Does Splitting a Triage Decision Across Agents Hide Bias or Help Catch It? A Multi-Agent Simulation Study of LLM-Based Resource Allocation Under Audit Capacity Constraints</title>
+      <link>https://arxiv.org/abs/2608.06949</link>
+      <guid isPermaLink="false">arxiv:2608.06949</guid>
+      <pubDate>2026-08-07</pubDate>
+      <description>Prior benchmarking work has shown that a single large language model (LLM), forced to make life-or-death resource-allocation decisions, exhibits measurable demographic bias. Real deployments, however, rarely use a single agent: they use pipelines, with review steps meant to catch exactly this kind of failure. We study what happens to bias when the same decision is distributed across a role-differentiated multi-agent pipeline (assessment, allocation, independent audit) instead of made and checked</description>
+    </item>
+    <item>
+      <title>Deal Me Maybe: The Role of Emotions in Multi-Agent Negotiation</title>
+      <link>https://arxiv.org/abs/2608.06922</link>
+      <guid isPermaLink="false">arxiv:2608.06922</guid>
+      <pubDate>2026-08-07</pubDate>
+      <description>Negotiation is a demanding social task for LLM agents, requiring strategic reasoning, persuasion, and interpersonal adaptation. Yet existing benchmarks often treat agents as emotionally neutral, overlooking a key driver of human bargaining behavior. We study how prompt-conditioned emotions affect LLM-based price negotiation. In a controlled framework, buyer and seller agents are independently assigned one of six emotional states and negotiate over 350 real consumer products under two budget cond</description>
+    </item>
+    <item>
+      <title>Spatiotemporal Agility: Time-Constrained Reinforcement Learning for Vision-Guided Dynamic Quadrupedal Interception</title>
+      <link>https://arxiv.org/abs/2608.06907</link>
+      <guid isPermaLink="false">arxiv:2608.06907</guid>
+      <pubDate>2026-08-07</pubDate>
+      <description>Legged robots require robust agility to perceive and interact with complex and dynamic environments within a constrained time. However, most existing quadruped locomotion works rely on velocity-tracking policy, which struggle to reach precise targets within strict temporal constraints. Moreover, integrating real-time perception with agile locomotion for highly dynamic targets remains challenging due to sensor latency and processing delays. To concretely study and benchmark such agility in dynami</description>
+    </item>
+    <item>
+      <title>Multi-Agent Forensic Reasoning for Generalizable Deepfake Video Detection</title>
+      <link>https://arxiv.org/abs/2608.06865</link>
+      <guid isPermaLink="false">arxiv:2608.06865</guid>
+      <pubDate>2026-08-07</pubDate>
+      <description>The malicious use of generative artificial intelligence to create highly realistic deepfake videos raises serious ethical concerns and poses substantial challenges to AI safety. However, existing deepfake video benchmarks provide limited coverage of recent synthesis methods and generally lack reliable fine-grained textual annotations. Meanwhile, conventional detectors and multimodal large language models (MLLMs), whether operating as a single model or relying on a single analytical perspective, </description>
+    </item>
+    <item>
+      <title>When Coordination Becomes a Threat: Communication Attacks in LLM-Controlled Multi-Robot Systems</title>
+      <link>https://arxiv.org/abs/2608.06830</link>
+      <guid isPermaLink="false">arxiv:2608.06830</guid>
+      <pubDate>2026-08-07</pubDate>
+      <description>Large Language Models (LLMs) are increasingly used as high-level planners in embodied multi-robot systems, enabling robots to interpret natural language instructions and coordinate executable actions. Yet, this growing reliance on LLM planners also raises security concerns. Prior work has focused mainly on individual robots, while communication risks in multi-robot collaboration remain insufficiently understood. Existing multi-robot studies are further limited to preliminary analysis under the D</description>
+    </item>
+    <item>
+      <title>Scalable Long-Horizon Planning with Staggered Updates for Lifelong MAPF</title>
+      <link>https://arxiv.org/abs/2608.06702</link>
+      <guid isPermaLink="false">arxiv:2608.06702</guid>
+      <pubDate>2026-08-07</pubDate>
+      <description>Lifelong Multi-Agent Path Finding (LMAPF) requires generating collision-free paths for large agent fleets under strict real-time constraints. Reactive frameworks such as PIBT and Enhanced PIBT (EPIBT) scale effortlessly to thousands of agents through rule-based, step-by-step coordination but suffer from severe temporal myopia, making them ineffective in scenarios where long-horizon reasoning is essential. RHCR plans windowed paths over multi-step horizons but incurs substantial planning overhead</description>
+    </item>
+    <item>
+      <title>A Multi-Agent Framework for Automated Coarse-Grained Molecular Dynamics of Polymers</title>
+      <link>https://arxiv.org/abs/2608.06694</link>
+      <guid isPermaLink="false">arxiv:2608.06694</guid>
+      <pubDate>2026-08-07</pubDate>
+      <description>Coarse-grained (CG) molecular dynamics extends polymer simulation beyond the scales accessible to all-atom (AA) methods, but bottom-up CG modeling is laborious. The CG resolution is a design choice, so a transferable parameter set is generally not available and the potentials are derived anew for each polymer mapping. Here we present CGMas, a multi-agent framework that automates topology construction, equilibration, mapping, potential derivation, and validation from a natural-language specificat</description>
+    </item>
+    <item>
+      <title>Plan-and-Avoid: Real-Time Aircraft Trajectory Coordination in a Multi-Agent Environment</title>
+      <link>https://arxiv.org/abs/2608.06648</link>
+      <guid isPermaLink="false">arxiv:2608.06648</guid>
       <pubDate>2026-08-06</pubDate>
-      <description>Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an estimated 6.7 million U.S. adults and requires integrating fragmented EHR data with disease-specific, guideline-based clinical reasoning. Existing rule-based and large language model (LLM)-based approaches offer only partial automation with limited maintainability and evidence tra</description>
+      <description>This paper presents a real-time Plan-and-Avoid (PAA framework for coordinating cooperative multi-agent airspace operations around a declared priority trajectory. The priority trajectory represents an aircraft flight plan that must be preserved because of constrained maneuverability, an emergency, a mission-critical task, or assigned operational priority. The framework predicts uncertainty-aware, well-clear separation violations with surrounding traffic and, when the priority plan alone cannot ma</description>
     </item>
     <item>
-      <title>From Siloed Algorithms to Compliance-First Agentic Platforms: A Multi-Layered Architecture for Hospital AI Systems</title>
-      <link>https://arxiv.org/abs/2608.06112</link>
-      <guid isPermaLink="false">arxiv:2608.06112</guid>
+      <title>Online Security Learning in Cooperative Multi-Agent Systems under Hidden Byzantine Attacks</title>
+      <link>https://arxiv.org/abs/2608.06520</link>
+      <guid isPermaLink="false">arxiv:2608.06520</guid>
       <pubDate>2026-08-06</pubDate>
-      <description>Hospitals are rapidly adopting artificial intelligence for triage, imaging, scheduling etc., yet most deployments remain isolated point solutions locked inside departmental silos, resulting in duplicated effort, hidden risks, and unrealized enterprise value. Despite explosive growth of AI in healthcare market and accelerating investment, an estimated 70-80% of healthcare AI pilots fail to scale, largely due to governance gaps, fragmented data, and missing integration blueprints. This research pr</description>
-    </item>
-    <item>
-      <title>Adaptive-WAM: Quality-Guided Early-Exit Planning from Intermediate Video-Diffusion Features</title>
-      <link>https://arxiv.org/abs/2608.06008</link>
-      <guid isPermaLink="false">arxiv:2608.06008</guid>
-      <pubDate>2026-08-06</pubDate>
-      <description>Large video diffusion models provide rich spatiotemporal priors for autonomous driving, but existing world-action models often inherit the cost of iterative future-video generation even though deployment only requires an ego trajectory. We ask a more basic question: how much of a video diffusion model must be executed to make a reliable driving decision? Through a controlled study of video denoising timesteps and Diffusion Transformer (DiT) depth, we find that planning performance is largely ins</description>
-    </item>
-    <item>
-      <title>Certifying Collective Reasoning in Multi-Agent Systems via Koopman Spectral Analysis</title>
-      <link>https://arxiv.org/abs/2608.05956</link>
-      <guid isPermaLink="false">arxiv:2608.05956</guid>
-      <pubDate>2026-08-06</pubDate>
-      <description>Orchestrated collectives of large language model (LLM) agents that debate and vote are an emerging form of computational intelligence: the intelligent behaviour resides in the \emph{interaction}, not in any single agent. They improve task accuracy, yet remain black boxes at the system level: there is no principled test of convergence, no bound on the rounds needed, and no faithful account of what drove a decision. This paper develops a novel framework based on Koopman operator theory and validat</description>
-    </item>
-    <item>
-      <title>Coordinated Multi-Robot Disassembly for Makespan Optimization of Large-Scale Assemblies</title>
-      <link>https://arxiv.org/abs/2608.05830</link>
-      <guid isPermaLink="false">arxiv:2608.05830</guid>
-      <pubDate>2026-08-06</pubDate>
-      <description>Multi-robot task and motion planning for disassembly tasks requires robots to operate in confined workspaces while coordinating their motions with other robots. To tackle this problem, we propose a planning method called coordinated multi-robot disassembly (CoMuDi). CoMuDi coordinates a team of robots for disassembly tasks. The input is a team of robots, an assembly of objects, and a dependency graph. Based on this information, we create compound tasks for pick, place, and exit motions. By propa</description>
-    </item>
-    <item>
-      <title>When Agentic AI Meets Integrated Sensing and Communication</title>
-      <link>https://arxiv.org/abs/2608.05792</link>
-      <guid isPermaLink="false">arxiv:2608.05792</guid>
-      <pubDate>2026-08-06</pubDate>
-      <description>Agentic artificial intelligence (AI) is transforming Integrated Sensing and Communication (ISAC) from a function-oriented physical-layer technology into a goal-driven, closed-loop intelligent system, a paradigm we term AISAC. Existing work on learning-based sensing, resource allocation, reconfigurable intelligent surfaces (RIS), edge intelligence, multi-agent coordination, and resilient networking has developed largely in isolation. This survey unifies the literature within a six-stage closed-lo</description>
-    </item>
-    <item>
-      <title>A Two-Tier Perspective on Inference-Time Parallelism in Multi-Agent LLM Systems</title>
-      <link>https://arxiv.org/abs/2608.05791</link>
-      <guid isPermaLink="false">arxiv:2608.05791</guid>
-      <pubDate>2026-08-06</pubDate>
-      <description>Large language model (LLM)-driven multi-agent systems typically require multiple model invocations and complex coordination during inference, and their execution strategies directly affect system accuracy, latency, and computational cost. Parallel execution provides a means to improve inference-time efficiency. From the perspective of inference-time execution, this paper models parallelism in multi-agent systems as two distinct levels of decision processes: Replica Parallelism, which explores mu</description>
-    </item>
-    <item>
-      <title>Unified Agent: Managing Interactions across Devices</title>
-      <link>https://arxiv.org/abs/2608.05729</link>
-      <guid isPermaLink="false">arxiv:2608.05729</guid>
-      <pubDate>2026-08-06</pubDate>
-      <description>As capabilities rapidly increase, AI agents can move from running inside one app to acting across a user's devices over time. Yet existing agent systems still fall short in this scenario. This is because observations are scattered across devices and moments, but mainstream systems are not designed around this fact: a single agent that treats devices as tools lacks effective state management for all devices across time, and multi-agent systems coordinate across agents but do not maintain the comp</description>
-    </item>
-    <item>
-      <title>A Unified Framework for Trajectory Prediction with Explicit Planning and Reaction Decomposition</title>
-      <link>https://arxiv.org/abs/2608.05673</link>
-      <guid isPermaLink="false">arxiv:2608.05673</guid>
-      <pubDate>2026-08-06</pubDate>
-      <description>Trajectory prediction has shifted toward structured formulations with explicit social modeling. However, existing methods inadequately distinguish the functional roles of social influence in trajectory planning. Observing that agents typically form motion plans by anticipating others' future behaviors before making local reactive adjustments, we identify social interactions as playing staged roles, namely planning precedes reaction. We propose INTraJ, a unified framework that decomposes social i</description>
-    </item>
-    <item>
-      <title>Search-Aided Joint Agent-Environment Reinforcement Learning for Robust Lifelong Multi-Agent Path Finding with Rotations</title>
-      <link>https://arxiv.org/abs/2608.05588</link>
-      <guid isPermaLink="false">arxiv:2608.05588</guid>
-      <pubDate>2026-08-06</pubDate>
-      <description>Lifelong Multi-Agent Path Finding (LMAPF) requires repeatedly planning collision-free paths for agents that continuously receive new goals upon reaching their current ones. While many learning-based planners have been proposed for LMAPF, most rely on oversimplified kinematic assumptions that may overlook motion constraints critical to real-world performance. In this work, we study a more realistic LMAPF model derived from many real-world automated warehouse systems, termed LMAPF-R2, which incorp</description>
-    </item>
-    <item>
-      <title>Adaptive Arena-based Contestable Argumentative Network-of-Experts for Open-Ended Care Plan Coordination</title>
-      <link>https://arxiv.org/abs/2608.05391</link>
-      <guid isPermaLink="false">arxiv:2608.05391</guid>
-      <pubDate>2026-08-05</pubDate>
-      <description>Care plan coordination demands synthesizing heterogeneous clinical, functional, and psychosocial information across multiple professional disciplines, where monolithic LLM pipelines cannot perform in a transparent or safe manner. We present CANOE (Contestable Argumentative Network-of-Experts), a multi-agent neuro-symbolic framework that addresses these limitations through five modules: complexity assessment, adaptive team recruitment, role-based argumentative computation via an Arena-based Quant</description>
-    </item>
-    <item>
-      <title>LoDA: A Level of Detection Aware Method and a Multimodal Sensing Benchmark for Object Level Change Detection</title>
-      <link>https://arxiv.org/abs/2608.05356</link>
-      <guid isPermaLink="false">arxiv:2608.05356</guid>
-      <pubDate>2026-08-05</pubDate>
-      <description>High-definition 3D LiDAR maps are important for autonomous driving and smart-city services, which require reliable detection of object-level changes in multi-temporal urban LiDAR to keep digital maps aligned with the physical world. Existing approaches from raster height differencing to depth image and point-cloud networks often remain tile-based and threshold-driven, yielding per-point scores without explicit detection limits or consistent object-level labels. We propose an object-level 3D chan</description>
-    </item>
-    <item>
-      <title>Multi-Agent Reinforcement Learning for Online Traffic Scheduling in Time-Sensitive Application</title>
-      <link>https://arxiv.org/abs/2608.05346</link>
-      <guid isPermaLink="false">arxiv:2608.05346</guid>
-      <pubDate>2026-08-05</pubDate>
-      <description>Time-sensitive networking (TSN) is increasingly integrated into mobile edge computing (MEC) to support applications with stringent latency requirements, such as extended reality (XR). However, existing TSN scheduling solutions predominantly rely on static optimization techniques or centralized learning models that are based on fixed traffic patterns, limiting their effectiveness in dynamic environments. In practice, MEC environments often host multiple co-located XR traffic flows whose character</description>
-    </item>
-    <item>
-      <title>Multi-Agent Transformer for Queue-Level XR Traffic Scheduling in TSN Networks</title>
-      <link>https://arxiv.org/abs/2608.05340</link>
-      <guid isPermaLink="false">arxiv:2608.05340</guid>
-      <pubDate>2026-08-05</pubDate>
-      <description>Time-Sensitive Networking (TSN) and Mobile Edge Computing (MEC) hold strong potential for enabling ultra-reliable low-latency communication for time-sensitive applications, such as eXtended Reality (XR). However, the widespread adoption of XR introduces significant challenges due to co-located services in MEC environments, leading to contention for shared network resources. Moreover, XR traffic types have distinct characteristics and criticality in terms of timing requirements, further increasin</description>
-    </item>
-    <item>
-      <title>Computationally Efficient Collaborative Communication Via Regularity-Based Coarsening</title>
-      <link>https://arxiv.org/abs/2608.05327</link>
-      <guid isPermaLink="false">arxiv:2608.05327</guid>
-      <pubDate>2026-08-05</pubDate>
-      <description>Our results show that the existence of a short high-utility protocol already suffices for efficient communication. In particular, in a game with $n$ possible observations and $m$ actions: (1) For any achievable target utility $α$, we give an algorithm with $\mathrm{poly}(n, m, 1/ε)$ runtime that designs a protocol achieving utility at least $α-ε$ using only $2^{\mathcal O(CC_α(G))}/ε^2$ bits of communication. Here, $CC_α(G)$ is the minimum number of bits used by any protocol, even a computationa</description>
-    </item>
-    <item>
-      <title>Agentic self-driving microscopy benchmarks support qualification but do not necessarily generalize to unseen tasks</title>
-      <link>https://arxiv.org/abs/2608.05266</link>
-      <guid isPermaLink="false">arxiv:2608.05266</guid>
-      <pubDate>2026-08-05</pubDate>
-      <description>Large language model agents are increasingly being developed to control a wide range of scientific characterization tools including microscopes and synchrotron beamlines. Research into agentic control of physical infrastructure is nascent and there are few well-established paradigms for how to engineer an agentic system. There are many choices to make when designing a microscopy agent, including the choice of LLM, the number of agents to use, agent responsibilities and delegation rules, retrieva</description>
-    </item>
-    <item>
-      <title>CoPlan: A Trustworthy Co-Intelligence Interface for Care Planning through Role-Based Contestable Argument Graphs</title>
-      <link>https://arxiv.org/abs/2608.05107</link>
-      <guid isPermaLink="false">arxiv:2608.05107</guid>
-      <pubDate>2026-08-05</pubDate>
-      <description>AI-supported care planning can help clinicians, patients, caregivers, and care teams coordinate complex decisions across clinical, functional, psychosocial, and environmental needs. However, many AI systems present recommendations as fixed outputs, limiting stakeholders' ability to inspect, challenge, and revise plans when they conflict with clinical judgment, patient values, or real-world feasibility. We present CoPlan - a Co-Intelligent and Contestable Interface for Human-AI Care Planning. CoP</description>
-    </item>
-    <item>
-      <title>ArtAnno: Annotating Implicit Semantics in Artworks through LLM Agent-Driven Bidirectional Human-AI Augmentation</title>
-      <link>https://arxiv.org/abs/2608.05026</link>
-      <guid isPermaLink="false">arxiv:2608.05026</guid>
-      <pubDate>2026-08-05</pubDate>
-      <description>High-quality annotation of artworks is essential for computational art research, yet extracting implicit semantics remains challenging due to the reliance on culturally grounded meanings and deep contextual knowledge behind the images. Current AI-assisted annotation tools often lack assistance or rely on one-way workflows where experts have to perform extra manual calibrations to improve AI models, resulting in limited efficiency. To address this, we propose Bidirectional Human-AI Augmentation(B</description>
-    </item>
-    <item>
-      <title>PRIMAL3: Pathfinding via Reinforcement and Imitation Multi-Agent Learning - Leveraging LaCAM3</title>
-      <link>https://arxiv.org/abs/2608.04905</link>
-      <guid isPermaLink="false">arxiv:2608.04905</guid>
-      <pubDate>2026-08-05</pubDate>
-      <description>We present PRIMAL3, an ultra-large-scale learning-based framework for multi-agent pathfinding (MAPF) that integrates reinforcement learning, topology-aware communication, LaCAM3-guided training, and PIBT-based action refinement. PRIMAL3 targets failures at topologically critical states, where agents must coordinate decisively around bottlenecks, dead ends, and persistent conflicts. Each agent is represented using features derived from cut vertices, dead-end regions, shortest-path distances, and </description>
-    </item>
-    <item>
-      <title>When Does Latent Communication Pay? A Causal Audit of Relayed KV Caches in Multi-Agent LLMs</title>
-      <link>https://arxiv.org/abs/2608.04893</link>
-      <guid isPermaLink="false">arxiv:2608.04893</guid>
-      <pubDate>2026-08-05</pubDate>
-      <description>Multi-agent LLM systems relay key--value caches instead of text and credit their gains to exchanged ``latent thoughts''. That credit is a claim about \emph{which} example's cache is relayed, not merely that one is. We audit it causally in released systems. The cache is replaced with deranged (mismatched-example), zeroed, and moment-matched random counterparts, under two regimes defined by whether the receiver needs the sender's private information. Where it does, the battery reads ceiling: 100\%</description>
+      <description>We study online cooperative control of a multi-agent system under Byzantine attacks. Namely, an unknown, fixed subset of agents are Byzantine comprised and can stealthily overwrite its own coordinates of the team's planned joint action after observing that plan. The learner observes planned actions, public rewards, and public states, but neither the overwrite nor the executed joint action. Our objective is security: to optimize the team performance against the worst overwrites and achieve the op</description>
     </item>
   </channel>
 </rss>
