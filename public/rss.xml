@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 10 Aug 2026 04:28:07 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 05:16:09 GMT</lastBuildDate>
     <item>
       <title>Analyzing the Interaction of Optimal Strategies in Mean-Payoff Bidding Games</title>
       <link>https://arxiv.org/abs/2608.07383</link>
@@ -130,6 +130,20 @@
       <guid isPermaLink="false">arxiv:2608.06520</guid>
       <pubDate>2026-08-06</pubDate>
       <description>We study online cooperative control of a multi-agent system under Byzantine attacks. Namely, an unknown, fixed subset of agents are Byzantine comprised and can stealthily overwrite its own coordinates of the team's planned joint action after observing that plan. The learner observes planned actions, public rewards, and public states, but neither the overwrite nor the executed joint action. Our objective is security: to optimize the team performance against the worst overwrites and achieve the op</description>
+    </item>
+    <item>
+      <title>Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering</title>
+      <link>https://arxiv.org/abs/2608.06366</link>
+      <guid isPermaLink="false">arxiv:2608.06366</guid>
+      <pubDate>2026-08-06</pubDate>
+      <description>Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an estimated 6.7 million U.S. adults and requires integrating fragmented EHR data with disease-specific, guideline-based clinical reasoning. Existing rule-based and large language model (LLM)-based approaches offer only partial automation with limited maintainability and evidence tra</description>
+    </item>
+    <item>
+      <title>From Siloed Algorithms to Compliance-First Agentic Platforms: A Multi-Layered Architecture for Hospital AI Systems</title>
+      <link>https://arxiv.org/abs/2608.06112</link>
+      <guid isPermaLink="false">arxiv:2608.06112</guid>
+      <pubDate>2026-08-06</pubDate>
+      <description>Hospitals are rapidly adopting artificial intelligence for triage, imaging, scheduling etc., yet most deployments remain isolated point solutions locked inside departmental silos, resulting in duplicated effort, hidden risks, and unrealized enterprise value. Despite explosive growth of AI in healthcare market and accelerating investment, an estimated 70-80% of healthcare AI pilots fail to scale, largely due to governance gaps, fragmented data, and missing integration blueprints. This research pr</description>
     </item>
   </channel>
 </rss>
