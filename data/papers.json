@@ -1,5 +1,352 @@
 [
   {
+    "id": "arxiv:2608.12253",
+    "title": "One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL",
+    "authors": [
+      "Simon Yu",
+      "Nicholas Tomlin",
+      "Marwa Abdulhai",
+      "Ximing Lu",
+      "Derek Chong",
+      "Abe Hou",
+      "Dilara Soylu",
+      "Sergey Levine",
+      "Christopher D. Manning",
+      "Weiyan Shi"
+    ],
+    "source": "arxiv",
+    "category": "cs.CL",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.12253",
+    "abstract": "Multi-agent reinforcement learning for human-AI interaction typically relies on a single large language model to simulate user behavior. We show that this approach systematically fails to generalize, and trace the failure to simulator collapse: because the simulator LLM is mode-collapsed, an LLM policy trained against it overfits to narrow strategies that exploit the simulator's dominant mode, and such a policy transfers poorly to unseen simulators and real users. We formalize this collapse theoretically and propose two complementary solutions, one at inference time and one at training time. The inference-time solution, Verbalized Sampling, broadens the simulator's behavior by sampling from a verbalized response distribution, reducing mode collapse. The training-time solution, Co-Training, jointly optimizes the policy against a population of trainable simulators, preventing it from overfitting to any single simulator's mode. We validate both solutions on three multi-turn benchmarks: Persuasion for Good, $τ^2$-bench, and CooperBench. Verbalized Sampling improves held-out success by up to 9% over single-simulator RL, and Co-Training pushes gains further to 14%; the human study shows similar gain on real users. Both solutions preserve the policy diversity that collapses under single-simulator RL. To support further work in this direction, we release SCOPE, an open-source framework for Population Co-Training multi-agent RL. More broadly, our results suggest that the diversity of the training environment, not only the policy, is critical to the generalization of multi-turn RL to real-world deployment.",
+    "published_date": "2026-08-12",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "41 pages, 28 figures",
+    "fetched_at": "2026-08-13T04:49:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.12198",
+    "title": "Learning-Based Behavior Planning for Automated Driving: Real-World Integration and Deployment",
+    "authors": [
+      "Jean-Pierre Busch",
+      "Guido Linden",
+      "Jan Bergmann",
+      "Lutz Eckstein"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.12198",
+    "abstract": "Recent research in machine and deep learning has shown the potential of learningbased motion planning approaches to improve the driving behavior of automated vehicles, especially in complex environments. However, their complex nature and lack of transparency can hinder explainability and trustworthiness and complicate safety assurance. Motivated by these challenges, we propose a hybrid planning architecture that combines the advantages of machine learning with the verifiability and the determinism of classical approaches. Specifically, we developed a deep neural network to interpret complex traffic scenes and propose driving behavior, while an optimization-based supervision layer validates this proposal and enforces explicit drivability and safety constraints. We evaluate the learned planner's driving behavior in open-loop studies on real-world urban data, discuss system integration aspects for stable closed-loop operation, and report results from real-world deployment on our research vehicle karl..",
+    "published_date": "2026-08-12",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "17 pages; Accepted to be published as part of the 17. Uni-DAS e.V. Workshop \"Fahrerassistenz und automatisiertes Fahren\", September 29-30, 2026",
+    "fetched_at": "2026-08-13T04:49:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.12133",
+    "title": "GUIDE: Governed Unified Intelligence for Document-to-Artifact Generation in Enterprise Settings",
+    "authors": [
+      "Shivali Dalmia",
+      "Sumukha Thoppanahalli",
+      "Mohammadreza Sediqin",
+      "Abhishek Mukherji"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.12133",
+    "abstract": "Enterprise guideline documents are heterogeneous and multimodal, combining narrative text, complex tables, and embedded images. Existing LLM and VLM systems face hallucinated content, table structure degradation, and lack governed workflows extending beyond extraction to validation and artifact generation. This leaves enterprises to perform this manually, consuming 2-3 days per document. To address this, we introduce GUIDE, a governed multi-agent framework built on a shared versioned rule store with schema-validated inter-agent contracts and end-to-end provenance tracking. Six specialized agents handle parsing, VLM-driven extraction, consistency checking, evaluation, human-in-the-loop (HITL) escalation, and persona-tailored artifact synthesis. Evaluated on 120 real-world enterprise guideline documents, GUIDE achieves 96% document success, extracts 3,896 rules with 71.4% auto-approved, produces 812 deployment-ready artifacts, and reduces turnaround to 40-125 minutes per document.",
+    "published_date": "2026-08-12",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-13T04:49:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.12037",
+    "title": "Clustered Randomized Smoothing for Stochastic Prediction Functions",
+    "authors": [
+      "Eduardo Figueiredo",
+      "Frederik Mathiesen",
+      "Julian Schumann",
+      "Jens Kober",
+      "Arkady Zgonnikov",
+      "Luca Laurenti"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.12037",
+    "abstract": "Modern stochastic predictors can model rich, multi-modal outcome distributions. However, this expressive power comes with challenges in ensuring robust predictions $-$ a critical requirement in safety-critical domains. Randomized smoothing is a leading technique for improving robustness, particularly against adversarial perturbations. Yet, in stochastic multi-modal regression settings, randomized smoothing often fails due to mode collapse, yielding averaged predictions that do not reflect the underlying distribution. To address this limitation, we propose clustered $α$-smoothing, a framework that (1) partitions noisy samples using an arbitrary clustering algorithm, (2) applies $α$-smoothing locally within each cluster, and (3) combines the resulting predictions into a mixture distribution. By interpreting the smoothing distribution as a mixture of $α$-smoothers, we derive a lower bound on the probability that the smoothed prediction lies within a union of compact regions corresponding to distinct modes. We empirically evaluate our framework on two benchmarks, demonstrating substantial improvements over state-of-the-art methods. In stochastic trajectory prediction on a driving simulator dataset, our approach achieves, on average, a $27\\%$ lower Wasserstein distance to the ground-truth distribution compared to $α$-smoothing. In quadrotor control, where modes correspond to distinct feasible paths to a target, our method reduces the collision rate by $81\\%$ relative to the state-of-the-art randomized smoothing.",
+    "published_date": "2026-08-12",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-13T04:49:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.11949",
+    "title": "ExRole: From Team Trajectories to Executable Roles in Multi-Agent Language Models",
+    "authors": [
+      "Zhou Liu",
+      "Chaoyang Han",
+      "Zewei Pan",
+      "Zeli Su",
+      "Wentao Zhang"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.11949",
+    "abstract": "Roles provide an interpretable interface for organizing language-model agents, yet most multi-agent systems treat them as hand-written prompt labels disconnected from learned behavior and parameter updates. We argue that a useful role should instead be an executable control variable: it should summarize behavior predictive of future utility, guide subsequent interaction, and identify the trainable capacity responsible for that behavior. We introduce ExRole, a trajectory-to-role framework that learns future-aware role prototypes from prefix-local team traces, resolves them into readable instructions and token-aligned role markers, and optionally routes shared LoRA rank slots with turn-aligned credit. Across MuSiQue and 2WikiMultiHopQA, ExRole improves over single-agent search by 15.0/14.4 and 13.5/16.1 EM/F1 points, respectively. Against the strongest non-ExRole controls, the corresponding gains remain 11.5/11.6 and 7.7/9.7 points. Across both benchmarks, the controlled results consistently favor trajectory-induced role conditioning over role-free, manual, random, and shuffled alternatives. Role-Agent-Turn interventions further show that the induced roles capture transferable behavioral specialization beyond fixed agent identities or turn positions.",
+    "published_date": "2026-08-12",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-13T04:49:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.11895",
+    "title": "Scalable Multi-Agent Maze Traversal with Local Communication",
+    "authors": [
+      "Julian Rau",
+      "Jahir Argote-Gerald",
+      "Grace McFassel",
+      "Genki Miyauchi",
+      "Paul Trodden",
+      "Roderich Groß"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.11895",
+    "abstract": "Cave networks, pipe systems, and similar maze-like environments pose significant challenges for multi-agent navigation in unknown settings with limited communication. We propose a distributed algorithm that enables agents to collectively traverse an unknown, possibly cyclic graph. Agents enter sequentially at a designated start node and are tasked to localize and reach an undisclosed goal while avoiding collisions. They coordinate via local communication using leader-follower relationships and leader switching. At any moment in time, exploration is performed by only one of the agents, which runs a single-agent maze solver. We prove that the algorithm is complete, that its makespan is asymptotically equivalent (in the number of agents) to that of an optimal full-knowledge strategy, and derive its time and space complexity. Simulations with up to $625$ agents show a decreasing average sum-of-fuels as the number of agents increases and demonstrate that the proposed approach outperforms a naïve baseline in which all agents independently execute the single-agent solver.",
+    "published_date": "2026-08-12",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "This manuscript has been accepted for publication in the proceedings of the World Symposium on the Algorithmic Foundations of Robotics (WAFR 2026), to be published by Springer in the Springer Proceedings in Advanced Robotics (SPAR) series",
+    "fetched_at": "2026-08-13T04:49:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.11790",
+    "title": "High-Order Liquid Evidence Encoding for Gradual GNSS Spoofing Detection in Autonomous Driving",
+    "authors": [
+      "Muhammad Ayub Sabir",
+      "Junbiao Pang",
+      "Fatima Ashraf"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.11790",
+    "abstract": "Accurate Global Navigation Satellite System (GNSS)-based localization is essential for safe and reliable autonomous driving. However, spoofing attacks can manipulate vehicle position estimates. Continuous and subtle attacks are particularly difficult to detect because individual GNSS observations may remain plausible while the inconsistency between GNSS-implied displacement and onboard vehicle motion gradually increases. Existing methods often rely on static vehicle-behavior features or a single residual signal and do not explicitly model this evolution. To address this problem, we propose a causal high-order liquid evidence framework for GNSS spoofing detection. The method first constructs a physics-guided GNSS--motion inconsistency residual by comparing GNSS-implied displacement with onboard-motion-derived displacement. It then forms separate evidence streams for the residual level and its first- and second-order discrete variations, with relevant contextual cues selected according to the evidence order. Each stream is processed by a separate adaptive liquid encoder, and the resulting temporal states are hierarchically coupled to predict spoofing at the window endpoint using only current and past observations. Experiments on three subsets of the real-world AV-GPS dataset show that the proposed method achieves the highest F1-scores among the evaluated temporal models on Dataset~1 and Dataset~3, reaching 0.9535 and 0.9777, respectively. On Dataset~3, it detects both labeled normal-to-attack transitions within four sampling steps. Code and datasets are publicly available at: https://github.com/pangjunbiao/GNSS_Spoofing.git.",
+    "published_date": "2026-08-12",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-13T04:49:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.11738",
+    "title": "Advancing MLLM-based UAV Image Understanding and Reasoning: A Benchmark and a Training-Free Multi-Agent System",
+    "authors": [
+      "Haoyu Zhang",
+      "Shuoxun Zhang",
+      "Peng Ye",
+      "Lin Zhang",
+      "Jiakang Yuan",
+      "Shenghong Yi",
+      "Yuening Wang",
+      "Tao Chen"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.11738",
+    "abstract": "Multimodal Large Language Model (MLLM)-based UAV aerial image understanding and reasoning is essential for aerial intelligence yet poses distinct challenges arising from extreme scale variation, arbitrary camera orientations, and high object density. Despite growing interest, existing evaluations remain fragmented across individual datasets and narrow tasks, leaving a critical gap in unified assessment of UAV understanding and reasoning capabilities. To fill this gap, we construct UAVQA-Bench, a benchmark of 1,500 human-annotated QA pairs drawn from 13 public UAV datasets, covering 6 capability dimensions and 16 tasks in both multiple-choice and visual grounding formats. Systematic evaluation of a broad range of open-source and closed-source MLLMs as well as agent-based systems on UAVQA-Bench identifies three key failure modes: domain-toolset mismatch, unchecked error propagation, and static reasoning. Motivated by these findings, we propose UAV-MAS, a training-free multi-agent system for MLLM-based UAV aerial image understanding and reasoning, comprising a Domain-Specific Perception Engine (DSPE) that routes queries to task-appropriate visual tools, a Context-Aware Iterative Refinement module (CAIR) that validates intermediate reasoning to curb error accumulation, and a Difficulty-Aware Adaptive Search mechanism (DAAS) that adjusts search depth to question difficulty. UAV-MAS with a 32B open-source MLLM achieves 77.0% overall accuracy on UAVQA-Bench, surpassing Gemini 3 Pro by 4.0\\%, while the 8B variant improves 8.7\\% over its base model.",
+    "published_date": "2026-08-12",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-13T04:49:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.11676",
+    "title": "XBridge: Entity-Grounded Latent Bridge for Heterogeneous LLM Communication",
+    "authors": [
+      "Wooseong Yang",
+      "Wei-Chieh Huang",
+      "Weizhi Zhang",
+      "Yu Wang",
+      "Philip S. Yu",
+      "Junhyun Lee"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.11676",
+    "abstract": "Heterogeneous multi-agent LLM systems, where agents are powered by different model families, can outperform homogeneous configurations by reducing redundant reasoning patterns. Yet existing communication protocols either operate through text, discarding the sender's internal representations, or require architectural homogeneity for latent-level transfer. We identify the entity grounding problem in cross-architecture communication: cross-attention bridges that transfer continuous representations across different LLM families suffer from rare-token compression collapse, where entity identity is lost in the continuous bottleneck (bridge-only F1 ~30%). We propose XBRIDGE, a decode-free communication protocol that addresses this through two mechanisms. Lexical Anchor Mapping (LAM) maps the sender's original context tokens to the receiver's vocabulary, providing discrete entity anchors. A Latent Enrichment Bridge (LEB) lets the receiver query the sender's hidden states for contextual enrichment. The entity anchors ground the bridge's contextual signals to specific entities through the receiver's own self-attention. Across three model families (Llama, Qwen, and Mistral), seven benchmarks, and both communication directions, XBRIDGE outperforms text-based communication on all seven tasks for each model pair while achieving 11x lower latency, and in a same-architecture setting it also exceeds a KV-sharing baseline on six of seven tasks. LEB requires only 264M trainable parameters (3.8% of the receiver), is trained on a small balanced sample set, and adds negligible inference overhead.",
+    "published_date": "2026-08-12",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "18 pages, 4 figures",
+    "fetched_at": "2026-08-13T04:49:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.11658",
+    "title": "Is Per-Agent Policy Composition Safe? Rethinking Successor-Feature Transfer in Cooperative Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Zijian Zhao",
+      "Sen Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.11658",
+    "abstract": "Many reinforcement learning systems, from fleet management to traffic signal control, must serve an objective that changes dynamically after deployment, and retraining a policy for each new objective is prohibitively expensive. For a single agent, this problem is well understood: successor features with generalized policy improvement, together with their universal extension, recombine a library of learned policies into a policy for any new objective, with a guarantee that the result is never worse than any policy in the library. However, multi-agent transfer has received far less attention, and the common practice of letting each agent recombine its own library independently inherits the recipe but not the guarantee. We prove that this independent composition can produce joint behavior strictly worse than every policy in the library, because recombining teammates changes the environment each agent faces and invalidates the values it relies on, a failure with no single-agent counterpart. We further show that the only unconditionally safe fixed rule is synchronized composition, which moves the whole team to one jointly trained policy but cannot serve objectives that assign different goals to different agents. To attain safety and flexibility at once, we propose MA-USFA, a hierarchical method with two layers: a lower layer of universal successor feature approximators that predicts each agent's successor features while conditioned on its teammates' objectives, and an upper composer that selects, across agents, which library entry each agent should follow and supplies the cross-agent correction a per-agent value cannot represent. Trained once over the distribution of objectives, it is applied at deployment with no per-task adaptation.",
+    "published_date": "2026-08-12",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-13T04:49:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.11624",
+    "title": "Learning to Persuade Exposes How Easily LLMs Abandon Correct Beliefs",
+    "authors": [
+      "Nimet Beyza Bozdag",
+      "Emre Can Acikgoz",
+      "Gokhan Tur",
+      "Dilek Hakkani-Tür"
+    ],
+    "source": "arxiv",
+    "category": "cs.CL",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.11624",
+    "abstract": "Persuasion is a core dynamic of natural language communication, shaping how large language models (LLMs) update beliefs, resolve disagreements, and reach decisions. As LLMs increasingly debate, advise, and think collaboratively with humans and each other, resistance to harmful persuasion becomes a core requirement for reliable behavior. Yet we show that this requirement is far from met: a single targeted persuasive argument is enough to collapse model accuracy to near zero, even when the argument is factually false. We formalize this threat as adversarial persuasion and introduce an adversarial reinforcement learning framework that trains persuader agents to change a target model's answer in a single interaction. First, we show that optimizing persuasion strategies through trial and error exposes vulnerabilities that static prompting misses: RL-trained persuaders raise persuasion success from approximately 24% to over 93% against the training-time persuadee. Second, we find that these learned strategies transfer to unseen models, achieving 83% attack success on Qwen-14B, 79% on Llama-3.1-8B, and 25% on GPT-4o-mini. Third, we demonstrate that a curriculum that bootstraps on more persuadable open-weight models before targeting harder models further increases GPT-4o-mini attack success from 25% to 38%. Moreover, our results reveal that optimized persuaders increasingly rely on credibility-based tactics, including fabricated citations and false authoritative evidence. Together, these findings expose a critical weakness in current LLM agents: even when they initially reason correctly, they can be steered toward false conclusions by optimized natural language influence. This positions persuasion robustness as a necessary safety criterion for multi-agent and human-AI decision-making systems.",
+    "published_date": "2026-08-12",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-13T04:49:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.11592",
+    "title": "Video2Track: From Real-World Interaction Videos to Steerable Adversarial Closed-Track Testing for Automated Driving Systems",
+    "authors": [
+      "Mengjie Tian",
+      "Xinrui Zhang",
+      "Tianyu Li",
+      "Peizhi Zhang",
+      "Guirong Zhou",
+      "Haojie Feng",
+      "Junpeng Huang",
+      "Qixiang Zhang",
+      "Lu Xiong"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.11592",
+    "abstract": "Closed-track testing plays a fundamental role in the verification and validation of automated driving systems (ADS), particularly for safety-critical scenarios, by enabling reproducible evaluation under controlled conditions. However, most existing approaches still rely on standardized protocols or predefined trajectories, leading to overly scripted interactions and limited ability to reproduce the natural complexity of public-road traffic. To address this limitation, we propose Video2Track, a framework that transfers real-world interactive driving scenarios from videos into steerable adversarial closed-track testing. The framework consists of two tightly coupled modules. The first is a scenario semantic mapping module, which extracts structured semantics from driving videos using a vision-language model and grounds them onto a closed-track topology library via retrieval-augmented generation, thereby identifying compatible map segments and interaction anchors. The second is a dynamic interactive testing module, which conditions on the grounded topology and anchors to generate diverse multi-agent trajectories through a conditional diffusion model, while regulating interaction intensity via a Stackelberg game with a parameterized adversarial objective. Closed-track experiments demonstrate that the proposed framework can faithfully reproduce representative real-world interaction scenarios and generate executable scenario variants with controllable risk levels and interaction styles, providing a scalable approach for realistic and steerable ADS validation.",
+    "published_date": "2026-08-12",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-13T04:49:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.11580",
+    "title": "RoadWeaver: Large-Scale Lane-Level HD Map Generation from Scratch for Autonomous Driving Simulation",
+    "authors": [
+      "Yueyuan Li",
+      "Zexi Chen",
+      "Weijie Xi",
+      "Mingyang Jiang",
+      "Songan Zhang",
+      "Hanyang Zhuang",
+      "Ming Yang"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.11580",
+    "abstract": "Autonomous driving simulation requires diverse and scalable lane-level HD maps to support long-horizon evaluation across complex road networks. Existing approaches either rely on handcrafted or reconstructed real-world maps, which limits scalability, or generate only local road structures rather than complete HD maps. We present RoadWeaver, a coarse-to-fine framework for from-scratch generation of diverse, large-scale HD maps. RoadWeaver first synthesizes a global road layout, expands it into a connected road network, and then constructs lane-level geometry with topologically consistent lane connectivity. Experimental results show that RoadWeaver achieves a 99.8\\% reachability, a 10.7\\% dead-end ratio, and an endpoint alignment error of 0.24 m. Compared with SOTA generation methods, it reduces endpoint alignment error by 94.4\\% while generating complete HD maps in 1.39--3.50 s. The generated maps can be directly deployed in driving simulators, providing scalable simulation environments for future closed-loop evaluation of autonomous driving systems. The training code and an out-of-the-box implementation of RoadWeaver will be released upon acceptance.",
+    "published_date": "2026-08-12",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 6 figures, 2 tables",
+    "fetched_at": "2026-08-13T04:49:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2608.11175",
     "title": "Risk-Aware Kinodynamic Motion Planning Under Uncertainty For Safe Navigation on Planetary Environments",
     "authors": [
@@ -19,9 +366,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "3 pages, 4 figures",
-    "fetched_at": "2026-08-12T04:46:12Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-12T04:46:12Z"
   },
   {
     "id": "arxiv:2608.11071",
@@ -380,6 +727,77 @@
     "venue_status": "preprint",
     "venue_note": null,
     "fetched_at": "2026-08-12T04:46:12Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.11451",
+    "title": "Herding End-to-End Autonomous Driving via Neuro-Symbolic Safety Guards",
+    "authors": [
+      "Simón Patiño Idarraga",
+      "Erick Silva",
+      "Rehana Yasmin",
+      "Ali Shoker"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.11451",
+    "abstract": "Modern end-to-end driving agents can achieve high average performance yet still violate basic traffic rules that a human driver would never miss. The reason is structural: they learn statistical patterns rather than the physical conditions that guarantee safe driving, leaving their decision-making process opaque and safety constraints unenforced. We introduce a neuro-symbolic safety guard, a lightweight module that attaches to the final command interface of an already-trained agent. Immediately before a command reaches the vehicle, it checks the command against explicit safety rules and, only when necessary, replaces it with the nearest safe alternative. Each intervention is directly executable and traceable to the rule that triggered it, while the guard itself requires no retraining and adds no learned component. Evaluated on the long-tail benchmarks Fail2Drive and Bench2Drive using the state-of-the-art TransFuser v6 (TFv6) as a case study, the guard improves Success Rate by 15% and reduces safety-critical collisions by up to 53%, while preserving the original Driving Score.",
+    "published_date": "2026-08-11",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-13T04:49:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.11420",
+    "title": "Social Chain of Thought: A Multi-Agent Architecture Grounded in Medical Differential Diagnosis Methodology",
+    "authors": [
+      "Del Coburn",
+      "Scott Sanner",
+      "Dan Silver"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.11420",
+    "abstract": "Medical diagnostic reasoning is a high-impact use case for LLMs that carries significant implications for the health and wellbeing of users. When OpenAI (2026) reports that more than 5% of ChatGPT messages globally are healthcare-related, the transparency of these systems becomes a serious design concern. This is especially true for complex cases, where differential diagnosis often requires integrating multiple forms of specialist reasoning. Existing work has proposed multi-agent approaches to medical diagnosis, but it remains unclear when such systems are needed, why they help, and where they outperform monolithic inference. We introduce Social Chain of Thought (SCoT),a multi-round pipeline for medical differential diagnosis that structures multi-agent interaction as a deliberative framework for collabora. tive LLM reasoning. Evaluating SCoT against single-agent baselines, one-agent pipeline ablations, and best-of-n scaling, we show that its recall advantage is not reproduced by monolithic inference alone. SCoT is most successful in the hardest diagnostic cases, where multiple rounds of specialist conversation help recover ground-truth diagnoses and converge on a higher-recall differential.",
+    "published_date": "2026-08-11",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "14 pages, 9 figures, 6 tables",
+    "fetched_at": "2026-08-13T04:49:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.11357",
+    "title": "When Do Institutions Beat Intelligence?",
+    "authors": [
+      "Zhengye Han"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.11357",
+    "abstract": "More capable agents do not necessarily form a more capable collective. A multi-agent system may jointly possess sufficient information yet fail because evidence is poorly routed, unreliable reports enter public belief, correlated claims masquerade as independent support, shared state becomes stale or strategically distorted, or useful evidence is exposed through an ineffective action interface. We ask when additional resources should improve the reasoner and when they should instead change the institutional structure through which the collective forms and acts on public information. Drawing on functional distinctions from research on group decision making and distributed cognition, we construct controlled artificial ecologies around four loci of collective failure: access and routing, admission and dependence, state maintenance and incentives, and representation and action. Across these ecologies, we separately vary model capability and institutional structure, pairing positive interventions with matched reasoning baselines and mechanism-breaking controls. The experiments reveal a consistent boundary: institutions help when they repair failures in how a collective constructs usable public state, but lose their advantage when their signals are uninformative or uncheckable, when stronger intelligence can perform the same transformation directly, or when the resulting state cannot support reliable action. Our results recast the choice between intelligence and institutions as a diagnosis of where collective reasoning fails.",
+    "published_date": "2026-08-11",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-13T04:49:16Z",
     "memo": "",
     "memo_updated_at": null
   },
