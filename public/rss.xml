@@ -4,118 +4,146 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Thu, 13 Aug 2026 04:49:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 04:46:28 GMT</lastBuildDate>
     <item>
-      <title>One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL</title>
-      <link>https://arxiv.org/abs/2608.12253</link>
-      <guid isPermaLink="false">arxiv:2608.12253</guid>
+      <title>Joint Communication-Control Strategy Optimization with Partially Nested Information Structures: The Linear-Quadratic Case</title>
+      <link>https://arxiv.org/abs/2608.13535</link>
+      <guid isPermaLink="false">arxiv:2608.13535</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>In this paper, we formalize a joint communication-control strategy optimization (JCCO) problem in multi-agent linear systems with quadratic costs, under the common-information-based (CIB) framework from decentralized stochastic control. For computational tractability, we focus on such JCCO problems with partially nested (PN) information structures (ISs). In particular, with a baseline communication protocol that leads to a PN IS, we establish a series of conditions under which the partial nested</description>
+    </item>
+    <item>
+      <title>MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination</title>
+      <link>https://arxiv.org/abs/2608.13476</link>
+      <guid isPermaLink="false">arxiv:2608.13476</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>We present Multi-Agent Reasoning and Coordination (MARC), an open-source framework that replaces monolithic LLM prompting with deterministic multi-agent orchestration for clinical reasoning. MARC coordinates role-specialized agents for extraction, reasoning, answer generation, and evaluation, with explicit context passing and traceable intermediate outputs, enabling stage-wise failure attribution. We additionally introduce a Decomposer module that generates task-specific agent prompts from a pla</description>
+    </item>
+    <item>
+      <title>AaLLM: An End-to-End Analog Circuit Design Framework from Topology Generation to Sizing Using Large Language Models</title>
+      <link>https://arxiv.org/abs/2608.13472</link>
+      <guid isPermaLink="false">arxiv:2608.13472</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>Analog circuit design is a time-consuming, iterative process in a nonlinear and high-dimensional design space that relies heavily on expert intuition. Among recent developments, LLMs have introduced a promising approach by bringing natural language reasoning to circuit design tasks. The majority of conventional LLM-based approaches provide fragmented solutions that focus either only on sizing or topology generation. These methods require adding specific technical knowledge manually, which is ine</description>
+    </item>
+    <item>
+      <title>FIRE-VLA: Failure-Informed Self-Evolution for Vision-Language-Action Models in Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2608.13395</link>
+      <guid isPermaLink="false">arxiv:2608.13395</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>Reinforcement learning improves autonomous-driving vision-language-action (VLA) models by evaluating trajectories sampled from the current policy. Group relative policy optimization (GRPO) learns from reward differences within each rollout group. When all sampled trajectories are poor, this relative signal can rank failures without identifying behavior outside the failed region. We introduce FIRE-VLA, a failure-informed self-evolution framework that converts such unresolved failures into privile</description>
+    </item>
+    <item>
+      <title>StateBridge: Training-free Hidden-state Alignment for Latent Communication in LLM Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2608.13317</link>
+      <guid isPermaLink="false">arxiv:2608.13317</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>Large language model based multi-agent systems usually communicate in text, i.e., using discrete tokens. However, text introduces a discrete bottleneck. Converting the sender's continuous hidden states into discrete tokens discards information that token identities alone cannot capture. Recent work proposes latent communication as an alternative, where agents transmit hidden representations directly without converting them to text. However, existing latent methods either inject working memory la</description>
+    </item>
+    <item>
+      <title>Virtual Temperature Sensors in Power Transformers Using Neural Ordinary Differential Equations</title>
+      <link>https://arxiv.org/abs/2608.13260</link>
+      <guid isPermaLink="false">arxiv:2608.13260</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>Accurate modeling and forecasting of power transformer thermal behavior are critical for reliability, asset lifetime, and optimized power system operation. Numerical approaches such as finite element methods (FEM) and computational fluid dynamics (CFD) offer high fidelity but are computationally expensive, require complex mesh generation, and are often impractical for real-time or large-scale applications, particularly when transformer geometries are unknown. Lumped-parameter thermal models are </description>
+    </item>
+    <item>
+      <title>BoardroomAI: Dependency-Aware Human-Steerable Multi-Agent Deliberation through Evolving Decision Graphs</title>
+      <link>https://arxiv.org/abs/2608.13046</link>
+      <guid isPermaLink="false">arxiv:2608.13046</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>Organizational decisions are co-created while evidence, constraints, and human priorities continue to evolve. In conventional transcript-based multi-agent systems, humans typically provide an initial problem, agents deliberate internally, and the system returns a final response. BoardroomAI instead treats the human as a persistent participant who can intervene by challenging assumptions, modifying constraints, changing priorities, introducing evidence, or redirecting the decision process. We ope</description>
+    </item>
+    <item>
+      <title>OGR-MARL: Option-Guided Residual Multi-Agent Reinforcement Learning for Heterogeneous USV Cooperative Pursuit in Constrained Port Waterways</title>
+      <link>https://arxiv.org/abs/2608.12995</link>
+      <guid isPermaLink="false">arxiv:2608.12995</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>Heterogeneous USV cooperative pursuit in constrained port waterways requires evader interception under navigation, traffic, and role constraints. This paper proposes OGR-MARL, an option-guided residual multi-agent reinforcement learning framework that is decoupled from a specific MARL algorithm. OGR-MARL integrates shared evader belief, role-conditioned option targets, adaptive rule penalties, and residual policy learning, allowing different MARL algorithms to learn corrective actions on top of </description>
+    </item>
+    <item>
+      <title>Reconcile Once, Write Anytime: A Trust-Tiered Librarian and a Multi-Agent Writer for Drift-Free, Point-in-Time Research</title>
+      <link>https://arxiv.org/abs/2608.12984</link>
+      <guid isPermaLink="false">arxiv:2608.12984</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>Long-form research reports generated by large language models drift, contradict themselves, and lose provenance: the same metric appears with different values, and rumor is quoted as confidently as an audited filing. We present a two-tier agentic system that separates a maintained, point-in-time knowledge library from report writing. A deterministic "librarian" ingests timestamped sources into a trust-tiered ontology, layering evidence cards, an authoritative metric ledger, and a claim graph int</description>
+    </item>
+    <item>
+      <title>FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2608.12932</link>
+      <guid isPermaLink="false">arxiv:2608.12932</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>Vision-Language-Action (VLA) models promise to bring end-to-end reasoning to autonomous driving, but their computational cost remains far too high for real-time control. The core challenge is structural: VLA inference is not a single bottleneck but a cascade of four. Visual encoding wastes compute on overlapping video frames; language-model prefill recomputes context that could be carried over from the previous timestep; reasoning tokens are generated serially despite low entropy; and flow-match</description>
+    </item>
+    <item>
+      <title>Discovering Efficient and Explainable Communication Topologies for LLM-based Multi-Agent Systems via Causal Inference</title>
+      <link>https://arxiv.org/abs/2608.12921</link>
+      <guid isPermaLink="false">arxiv:2608.12921</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>The performance of large language model (LLM)-based multi-agent systems (MAS) largely depends on effective communication topologies. Existing topology generation methods, however, typically learn communication topologies through black-box optimization driven solely by task-level rewards. While effective, such optimization provides little insight into why particular communication edges are selected, making it difficult to identify the critical communication subgraphs responsible for successful co</description>
+    </item>
+    <item>
+      <title>Agent Behavioral Contracts II: Certifying Compositional Reliability Without Assuming Independence</title>
+      <link>https://arxiv.org/abs/2608.12895</link>
+      <guid isPermaLink="false">arxiv:2608.12895</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>Compositional reliability bounds for multi-agent systems multiply component reliabilities, a step licensed by a conditional-independence assumption that is routinely stated and rarely tested. We test it. Two instances of one model, in a two-agent handoff, co-fail on 90.0% of the missions on which either fails (log OR 6.66, 95% CI [6.38, 7.00]; phi 0.916), in a preregistered evaluation of 18,000 missions scored by deterministic code with no LLM judge. Substituting a different model reduces the as</description>
+    </item>
+    <item>
+      <title>ReflectFact: Self-Reflective Agents for Improving Comprehension and Reasoning in Multi-Hop Fact Verification</title>
+      <link>https://arxiv.org/abs/2608.12877</link>
+      <guid isPermaLink="false">arxiv:2608.12877</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>Multi-hop fact verification, which verifies claims by reasoning over multiple pieces of evidence, is critical for combating misinformation on social media yet remains highly challenging. Recent methods primarily rely on multi-agent collaboration to decompose fact verification into specialized subtasks. However, these methods face two critical limitations: (1) agents may perform individual subtasks without sufficient awareness of the global verification objective, causing their reasoning to devia</description>
+    </item>
+    <item>
+      <title>HumanoidVLN: A Physics-Grounded Simulator and Benchmark for Vision-Language Navigation Across Diverse Humanoid Embodiments</title>
+      <link>https://arxiv.org/abs/2608.12860</link>
+      <guid isPermaLink="false">arxiv:2608.12860</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>Vision-Language Navigation (VLN) for humanoid robots poses challenges existing benchmarks fail to address: bipedal locomotion imposes physical constraints absent from wheeled agents, humanoid morphologies vary across platforms, and egocentric observations are distorted by locomotion-induced camera dynamics. We present HumanoidVLN, a physics-grounded simulator and benchmark for VLN across diverse humanoid embodiments. Built on NVIDIA Isaac Sim, our platform supports an extensible set of humanoid </description>
+    </item>
+    <item>
+      <title>BrainWAM: Action-Space Coordination of Semantic Priors and Predictive Dynamics for Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2608.12854</link>
+      <guid isPermaLink="false">arxiv:2608.12854</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>Autonomous driving requires planning under both semantic constraints and predictive dynamics. Existing end-to-end driving approaches, however, typically emphasize only one side of this requirement: Vision-Language-Action (VLA) models exploit VLM priors for semantic reasoning, while World Action Models (WAMs) provide future-aware prediction through generative world modeling. This naturally motivates a unified planner that can leverage both semantic priors and predictive dynamics. However, we find</description>
+    </item>
+    <item>
+      <title>AQuA: Recursively Self-Improving Quantitative Trading Research Agents</title>
+      <link>https://arxiv.org/abs/2608.12841</link>
+      <guid isPermaLink="false">arxiv:2608.12841</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>We study recursive self-improvement at the level of quantitative-investment research: whether an autonomous system can use evidence from earlier experiments to improve the hypotheses and candidates proposed in later iterations. We present AQuA, which comprises two separate language-model-driven research systems: one for symbolic factor discovery and one for trainable model development. The two systems do not share agents, memories, candidate spaces, or research state. Instead, each independently</description>
+    </item>
+    <item>
+      <title>AirForesight: Current-to-Future Spatial Map Imagination with Cross-Space Planning Consistency for UAV-VLN</title>
+      <link>https://arxiv.org/abs/2608.12835</link>
+      <guid isPermaLink="false">arxiv:2608.12835</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>Unmanned Aerial Vehicle Vision-Language Navigation (UAV-VLN) requires agents to follow language instructions, infer spatial structure from sparse multi-view observations, and execute feasible 3D motion in complex outdoor environments. Despite recent progress with large language models, most existing methods still map vision-language inputs directly to actions, providing limited explicit scene grounding and future-aware spatial reasoning. We propose AirForesight, a current-to-future spatial map i</description>
+    </item>
+    <item>
+      <title>Genetic Fuzzy System-Based Multi-Robot Coordination for Planetary Missions</title>
+      <link>https://arxiv.org/abs/2608.12755</link>
+      <guid isPermaLink="false">arxiv:2608.12755</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>This paper proposes a decentralized approach for a multi-robot system (MRS) using a genetic fuzzy system to perform a collaborative object transportation task that minimizes the total path length of the MRS in unstructured environment while avoiding obstacles. For an environment given by an elevation map, terrain traversability analysis with respect to the slope is performed to reduce the dimension and identify non-traversable areas that can be considered as obstacles, and the given map is conve</description>
+    </item>
+    <item>
+      <title>Lines and Ladders: A Context-Aware Multi-Agent Framework for Large-Scale Retail Price Taxonomy</title>
+      <link>https://arxiv.org/abs/2608.12674</link>
+      <guid isPermaLink="false">arxiv:2608.12674</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>Maintaining price consistency and executing an Every Day Low Price strategy is critical for global retailers. However, with catalogs spanning millions of active items, manual governance of price relationships is infeasible. Inconsistent pricing across item variants distorts customer value perception and cannibalizes sales. To address this, we present a scalable, context-aware Multi-Agent Framework designed to automate the construction of "Lines and Ladders" pricing taxonomies. Our framework empl</description>
+    </item>
+    <item>
+      <title>Do LLMs Beat Nash? Testing Decentralized Coordination in Self-Play Multi-Agent Games</title>
+      <link>https://arxiv.org/abs/2608.12547</link>
+      <guid isPermaLink="false">arxiv:2608.12547</guid>
       <pubDate>2026-08-12</pubDate>
-      <description>Multi-agent reinforcement learning for human-AI interaction typically relies on a single large language model to simulate user behavior. We show that this approach systematically fails to generalize, and trace the failure to simulator collapse: because the simulator LLM is mode-collapsed, an LLM policy trained against it overfits to narrow strategies that exploit the simulator's dominant mode, and such a policy transfers poorly to unseen simulators and real users. We formalize this collapse theo</description>
-    </item>
-    <item>
-      <title>Learning-Based Behavior Planning for Automated Driving: Real-World Integration and Deployment</title>
-      <link>https://arxiv.org/abs/2608.12198</link>
-      <guid isPermaLink="false">arxiv:2608.12198</guid>
-      <pubDate>2026-08-12</pubDate>
-      <description>Recent research in machine and deep learning has shown the potential of learningbased motion planning approaches to improve the driving behavior of automated vehicles, especially in complex environments. However, their complex nature and lack of transparency can hinder explainability and trustworthiness and complicate safety assurance. Motivated by these challenges, we propose a hybrid planning architecture that combines the advantages of machine learning with the verifiability and the determini</description>
-    </item>
-    <item>
-      <title>GUIDE: Governed Unified Intelligence for Document-to-Artifact Generation in Enterprise Settings</title>
-      <link>https://arxiv.org/abs/2608.12133</link>
-      <guid isPermaLink="false">arxiv:2608.12133</guid>
-      <pubDate>2026-08-12</pubDate>
-      <description>Enterprise guideline documents are heterogeneous and multimodal, combining narrative text, complex tables, and embedded images. Existing LLM and VLM systems face hallucinated content, table structure degradation, and lack governed workflows extending beyond extraction to validation and artifact generation. This leaves enterprises to perform this manually, consuming 2-3 days per document. To address this, we introduce GUIDE, a governed multi-agent framework built on a shared versioned rule store </description>
-    </item>
-    <item>
-      <title>Clustered Randomized Smoothing for Stochastic Prediction Functions</title>
-      <link>https://arxiv.org/abs/2608.12037</link>
-      <guid isPermaLink="false">arxiv:2608.12037</guid>
-      <pubDate>2026-08-12</pubDate>
-      <description>Modern stochastic predictors can model rich, multi-modal outcome distributions. However, this expressive power comes with challenges in ensuring robust predictions $-$ a critical requirement in safety-critical domains. Randomized smoothing is a leading technique for improving robustness, particularly against adversarial perturbations. Yet, in stochastic multi-modal regression settings, randomized smoothing often fails due to mode collapse, yielding averaged predictions that do not reflect the un</description>
-    </item>
-    <item>
-      <title>ExRole: From Team Trajectories to Executable Roles in Multi-Agent Language Models</title>
-      <link>https://arxiv.org/abs/2608.11949</link>
-      <guid isPermaLink="false">arxiv:2608.11949</guid>
-      <pubDate>2026-08-12</pubDate>
-      <description>Roles provide an interpretable interface for organizing language-model agents, yet most multi-agent systems treat them as hand-written prompt labels disconnected from learned behavior and parameter updates. We argue that a useful role should instead be an executable control variable: it should summarize behavior predictive of future utility, guide subsequent interaction, and identify the trainable capacity responsible for that behavior. We introduce ExRole, a trajectory-to-role framework that le</description>
-    </item>
-    <item>
-      <title>Scalable Multi-Agent Maze Traversal with Local Communication</title>
-      <link>https://arxiv.org/abs/2608.11895</link>
-      <guid isPermaLink="false">arxiv:2608.11895</guid>
-      <pubDate>2026-08-12</pubDate>
-      <description>Cave networks, pipe systems, and similar maze-like environments pose significant challenges for multi-agent navigation in unknown settings with limited communication. We propose a distributed algorithm that enables agents to collectively traverse an unknown, possibly cyclic graph. Agents enter sequentially at a designated start node and are tasked to localize and reach an undisclosed goal while avoiding collisions. They coordinate via local communication using leader-follower relationships and l</description>
-    </item>
-    <item>
-      <title>High-Order Liquid Evidence Encoding for Gradual GNSS Spoofing Detection in Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2608.11790</link>
-      <guid isPermaLink="false">arxiv:2608.11790</guid>
-      <pubDate>2026-08-12</pubDate>
-      <description>Accurate Global Navigation Satellite System (GNSS)-based localization is essential for safe and reliable autonomous driving. However, spoofing attacks can manipulate vehicle position estimates. Continuous and subtle attacks are particularly difficult to detect because individual GNSS observations may remain plausible while the inconsistency between GNSS-implied displacement and onboard vehicle motion gradually increases. Existing methods often rely on static vehicle-behavior features or a single</description>
-    </item>
-    <item>
-      <title>Advancing MLLM-based UAV Image Understanding and Reasoning: A Benchmark and a Training-Free Multi-Agent System</title>
-      <link>https://arxiv.org/abs/2608.11738</link>
-      <guid isPermaLink="false">arxiv:2608.11738</guid>
-      <pubDate>2026-08-12</pubDate>
-      <description>Multimodal Large Language Model (MLLM)-based UAV aerial image understanding and reasoning is essential for aerial intelligence yet poses distinct challenges arising from extreme scale variation, arbitrary camera orientations, and high object density. Despite growing interest, existing evaluations remain fragmented across individual datasets and narrow tasks, leaving a critical gap in unified assessment of UAV understanding and reasoning capabilities. To fill this gap, we construct UAVQA-Bench, a</description>
-    </item>
-    <item>
-      <title>XBridge: Entity-Grounded Latent Bridge for Heterogeneous LLM Communication</title>
-      <link>https://arxiv.org/abs/2608.11676</link>
-      <guid isPermaLink="false">arxiv:2608.11676</guid>
-      <pubDate>2026-08-12</pubDate>
-      <description>Heterogeneous multi-agent LLM systems, where agents are powered by different model families, can outperform homogeneous configurations by reducing redundant reasoning patterns. Yet existing communication protocols either operate through text, discarding the sender's internal representations, or require architectural homogeneity for latent-level transfer. We identify the entity grounding problem in cross-architecture communication: cross-attention bridges that transfer continuous representations </description>
-    </item>
-    <item>
-      <title>Is Per-Agent Policy Composition Safe? Rethinking Successor-Feature Transfer in Cooperative Multi-Agent Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2608.11658</link>
-      <guid isPermaLink="false">arxiv:2608.11658</guid>
-      <pubDate>2026-08-12</pubDate>
-      <description>Many reinforcement learning systems, from fleet management to traffic signal control, must serve an objective that changes dynamically after deployment, and retraining a policy for each new objective is prohibitively expensive. For a single agent, this problem is well understood: successor features with generalized policy improvement, together with their universal extension, recombine a library of learned policies into a policy for any new objective, with a guarantee that the result is never wor</description>
-    </item>
-    <item>
-      <title>Learning to Persuade Exposes How Easily LLMs Abandon Correct Beliefs</title>
-      <link>https://arxiv.org/abs/2608.11624</link>
-      <guid isPermaLink="false">arxiv:2608.11624</guid>
-      <pubDate>2026-08-12</pubDate>
-      <description>Persuasion is a core dynamic of natural language communication, shaping how large language models (LLMs) update beliefs, resolve disagreements, and reach decisions. As LLMs increasingly debate, advise, and think collaboratively with humans and each other, resistance to harmful persuasion becomes a core requirement for reliable behavior. Yet we show that this requirement is far from met: a single targeted persuasive argument is enough to collapse model accuracy to near zero, even when the argumen</description>
-    </item>
-    <item>
-      <title>Video2Track: From Real-World Interaction Videos to Steerable Adversarial Closed-Track Testing for Automated Driving Systems</title>
-      <link>https://arxiv.org/abs/2608.11592</link>
-      <guid isPermaLink="false">arxiv:2608.11592</guid>
-      <pubDate>2026-08-12</pubDate>
-      <description>Closed-track testing plays a fundamental role in the verification and validation of automated driving systems (ADS), particularly for safety-critical scenarios, by enabling reproducible evaluation under controlled conditions. However, most existing approaches still rely on standardized protocols or predefined trajectories, leading to overly scripted interactions and limited ability to reproduce the natural complexity of public-road traffic. To address this limitation, we propose Video2Track, a f</description>
-    </item>
-    <item>
-      <title>RoadWeaver: Large-Scale Lane-Level HD Map Generation from Scratch for Autonomous Driving Simulation</title>
-      <link>https://arxiv.org/abs/2608.11580</link>
-      <guid isPermaLink="false">arxiv:2608.11580</guid>
-      <pubDate>2026-08-12</pubDate>
-      <description>Autonomous driving simulation requires diverse and scalable lane-level HD maps to support long-horizon evaluation across complex road networks. Existing approaches either rely on handcrafted or reconstructed real-world maps, which limits scalability, or generate only local road structures rather than complete HD maps. We present RoadWeaver, a coarse-to-fine framework for from-scratch generation of diverse, large-scale HD maps. RoadWeaver first synthesizes a global road layout, expands it into a </description>
-    </item>
-    <item>
-      <title>Herding End-to-End Autonomous Driving via Neuro-Symbolic Safety Guards</title>
-      <link>https://arxiv.org/abs/2608.11451</link>
-      <guid isPermaLink="false">arxiv:2608.11451</guid>
-      <pubDate>2026-08-11</pubDate>
-      <description>Modern end-to-end driving agents can achieve high average performance yet still violate basic traffic rules that a human driver would never miss. The reason is structural: they learn statistical patterns rather than the physical conditions that guarantee safe driving, leaving their decision-making process opaque and safety constraints unenforced. We introduce a neuro-symbolic safety guard, a lightweight module that attaches to the final command interface of an already-trained agent. Immediately </description>
-    </item>
-    <item>
-      <title>Social Chain of Thought: A Multi-Agent Architecture Grounded in Medical Differential Diagnosis Methodology</title>
-      <link>https://arxiv.org/abs/2608.11420</link>
-      <guid isPermaLink="false">arxiv:2608.11420</guid>
-      <pubDate>2026-08-11</pubDate>
-      <description>Medical diagnostic reasoning is a high-impact use case for LLMs that carries significant implications for the health and wellbeing of users. When OpenAI (2026) reports that more than 5% of ChatGPT messages globally are healthcare-related, the transparency of these systems becomes a serious design concern. This is especially true for complex cases, where differential diagnosis often requires integrating multiple forms of specialist reasoning. Existing work has proposed multi-agent approaches to m</description>
-    </item>
-    <item>
-      <title>When Do Institutions Beat Intelligence?</title>
-      <link>https://arxiv.org/abs/2608.11357</link>
-      <guid isPermaLink="false">arxiv:2608.11357</guid>
-      <pubDate>2026-08-11</pubDate>
-      <description>More capable agents do not necessarily form a more capable collective. A multi-agent system may jointly possess sufficient information yet fail because evidence is poorly routed, unreliable reports enter public belief, correlated claims masquerade as independent support, shared state becomes stale or strategically distorted, or useful evidence is exposed through an ineffective action interface. We ask when additional resources should improve the reasoner and when they should instead change the i</description>
+      <description>Large language model agents deployed without a central controller are often assumed to require communication to coordinate their actions. We ask what remains possible without it: when independent instances of the same model cannot communicate, can they still reason about their counterparts well enough to exceed the standard game-theoretic baseline for uncoordinated play? We introduce a benchmark of one-shot, no-communication games in which each of thirteen language models is told only that its c</description>
     </item>
   </channel>
 </rss>
