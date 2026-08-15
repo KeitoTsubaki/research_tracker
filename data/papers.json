@@ -18,9 +18,9 @@
     ],
     "venue_status": "published",
     "venue_note": "Preliminary version accepted to IEEE CDC 2026",
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.13476",
@@ -48,9 +48,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "13 pages, 4 figures",
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.13472",
@@ -72,9 +72,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.13395",
@@ -94,9 +94,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.13317",
@@ -119,9 +119,9 @@
     ],
     "venue_status": "published",
     "venue_note": "18 pages, 3 figures, 4 tables, accepted by COLM2026",
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.13260",
@@ -143,9 +143,9 @@
     ],
     "venue_status": "published",
     "venue_note": null,
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.13046",
@@ -165,9 +165,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "14 pages, 2 figures",
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.12995",
@@ -189,9 +189,9 @@
     ],
     "venue_status": "published",
     "venue_note": "6 pages,5 figures, accepted by ICUS 2026",
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.12984",
@@ -214,9 +214,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.12932",
@@ -241,9 +241,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "15 pages; 8 figures",
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.12921",
@@ -268,9 +268,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "18 pages, 4 figures. Submitted to AAAI 2027",
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.12895",
@@ -292,9 +292,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "49 pages, 12 tables, 25 numbered definitions, 18 theorems with full proofs, six experiments, 65 references. Code, analysis scripts, and preregistration: https://github.com/qualixar/agentassert-abc",
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.12877",
@@ -320,9 +320,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "9 pages, 4 figures, 3 tables",
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.12860",
@@ -352,9 +352,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.12854",
@@ -384,9 +384,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.12841",
@@ -412,9 +412,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.12835",
@@ -437,9 +437,9 @@
     ],
     "venue_status": "published",
     "venue_note": "Accepted by ACM Multimedia 2026",
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.12755",
@@ -460,9 +460,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "14 pages, 14 figures, 2021 31st AAS/AIAA Space Flight Mechanics Meeting",
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.12674",
@@ -487,9 +487,9 @@
     ],
     "venue_status": "published",
     "venue_note": "8 pages. Accepted in the Main Conference of IEEE ICMLA 2026",
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.12253",
@@ -859,9 +859,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "5 pages, 5 figures. Submitted to the 2026 IEEE MIT Undergraduate Research Technology Conference (URTC)",
-    "fetched_at": "2026-08-14T04:46:28Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-14T04:46:28Z"
   },
   {
     "id": "arxiv:2608.11175",
