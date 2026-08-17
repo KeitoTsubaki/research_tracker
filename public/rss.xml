@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 17 Aug 2026 03:48:27 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 04:31:58 GMT</lastBuildDate>
     <item>
       <title>Wyvern: An Agentic Framework for Generating Grounded Multimodal Reports</title>
       <link>https://arxiv.org/abs/2608.14446</link>
@@ -109,6 +109,41 @@
       <guid isPermaLink="false">arxiv:2608.13706</guid>
       <pubDate>2026-08-13</pubDate>
       <description>Existing defenses against hallucination in retrieval-augmented and multi-agent pipelines remain partial: evidence is trusted despite modality disagreement, debate verifies an aggregate report rather than individual claims, and such verification occurs only after drafting, leaving inter-agent errors undetected until the final text. To close this gap, we present CLAIR-Fin, a nine-agent framework that decomposes each question into atomic claims maintained in a typed Financial Claim Ledger. Each cla</description>
+    </item>
+    <item>
+      <title>Joint Communication-Control Strategy Optimization with Partially Nested Information Structures: The Linear-Quadratic Case</title>
+      <link>https://arxiv.org/abs/2608.13535</link>
+      <guid isPermaLink="false">arxiv:2608.13535</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>In this paper, we formalize a joint communication-control strategy optimization (JCCO) problem in multi-agent linear systems with quadratic costs, under the common-information-based (CIB) framework from decentralized stochastic control. For computational tractability, we focus on such JCCO problems with partially nested (PN) information structures (ISs). In particular, with a baseline communication protocol that leads to a PN IS, we establish a series of conditions under which the partial nested</description>
+    </item>
+    <item>
+      <title>MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination</title>
+      <link>https://arxiv.org/abs/2608.13476</link>
+      <guid isPermaLink="false">arxiv:2608.13476</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>We present Multi-Agent Reasoning and Coordination (MARC), an open-source framework that replaces monolithic LLM prompting with deterministic multi-agent orchestration for clinical reasoning. MARC coordinates role-specialized agents for extraction, reasoning, answer generation, and evaluation, with explicit context passing and traceable intermediate outputs, enabling stage-wise failure attribution. We additionally introduce a Decomposer module that generates task-specific agent prompts from a pla</description>
+    </item>
+    <item>
+      <title>AaLLM: An End-to-End Analog Circuit Design Framework from Topology Generation to Sizing Using Large Language Models</title>
+      <link>https://arxiv.org/abs/2608.13472</link>
+      <guid isPermaLink="false">arxiv:2608.13472</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>Analog circuit design is a time-consuming, iterative process in a nonlinear and high-dimensional design space that relies heavily on expert intuition. Among recent developments, LLMs have introduced a promising approach by bringing natural language reasoning to circuit design tasks. The majority of conventional LLM-based approaches provide fragmented solutions that focus either only on sizing or topology generation. These methods require adding specific technical knowledge manually, which is ine</description>
+    </item>
+    <item>
+      <title>FIRE-VLA: Failure-Informed Self-Evolution for Vision-Language-Action Models in Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2608.13395</link>
+      <guid isPermaLink="false">arxiv:2608.13395</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>Reinforcement learning improves autonomous-driving vision-language-action (VLA) models by evaluating trajectories sampled from the current policy. Group relative policy optimization (GRPO) learns from reward differences within each rollout group. When all sampled trajectories are poor, this relative signal can rank failures without identifying behavior outside the failed region. We introduce FIRE-VLA, a failure-informed self-evolution framework that converts such unresolved failures into privile</description>
+    </item>
+    <item>
+      <title>StateBridge: Training-free Hidden-state Alignment for Latent Communication in LLM Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2608.13317</link>
+      <guid isPermaLink="false">arxiv:2608.13317</guid>
+      <pubDate>2026-08-13</pubDate>
+      <description>Large language model based multi-agent systems usually communicate in text, i.e., using discrete tokens. However, text introduces a discrete bottleneck. Converting the sender's continuous hidden states into discrete tokens discards information that token identities alone cannot capture. Recent work proposes latent communication as an alternative, where agents transmit hidden representations directly without converting them to text. However, existing latent methods either inject working memory la</description>
     </item>
   </channel>
 </rss>
