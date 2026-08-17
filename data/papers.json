@@ -1,5 +1,268 @@
 [
   {
+    "id": "arxiv:2608.14446",
+    "title": "Wyvern: An Agentic Framework for Generating Grounded Multimodal Reports",
+    "authors": [
+      "Beatrice Alessandra Motetti",
+      "Emilien Guandalino",
+      "Daniele Jahier Pagliari",
+      "Alessio Burrello",
+      "Lorenz K. Müller",
+      "Konstantin Berestizshevsky",
+      "Lukas Cavigelli"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.14446",
+    "abstract": "In the current artificial intelligence-driven innovation era, the pace of knowledge growth is accelerating, and is hard to keep up with. While generative models are increasingly used to synthesize content, they often lack in information grounding. To address these peculiarities of our time, we propose Wyvern, a multi-agent framework for the automated generation of grounded, multimodal technical reports. Wyvern allows for the generation of multimodal outputs, integrating images, tables, and text with supporting references in a unified report. Additionally, a particular focus is placed on the grounding of the content, with the implementation of a claims auto-revision stage. We conduct a human evaluation study to assess the quality of our proposed framework. The results show that the figures' informativeness is perceived as superior to that of a recent baseline in 87% of cases. Furthermore, Wyvern's reports are rated as more useful than those produced by three alternative methods in 63% to 100% of instances. We also carry out automatic evaluations showing that Wyvern gains up to 2.3$\\times$ in citation recall and 1.6$\\times$ in citation precision with respect to the baselines.",
+    "published_date": "2026-08-14",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-17T03:48:27Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.14407",
+    "title": "The Past and Future of AI Scientists",
+    "authors": [
+      "Ross D. King"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.14407",
+    "abstract": "We present a survey of the past and future of AI Scientists: machines capable of automating science. AI Scientists can originate hypotheses, deduce their consequences, design and execute experiments, interpret their results, and revise their beliefs. Such systems are integrated scientific agents, connected to the literature, formal knowledge, mathematical models, simulations, data-analysis systems and physical laboratories. Adam was the first machine to make novel scientific discoveries through cycles of hypothesis formation and physical experimentation. Eve established the architecture of the modern self-driving laboratory. Foundation models, autonomous agents and laboratory robotics now make it possible to build systems far more general than either Adam or Eve. The central problem is no longer whether individual components of science can be automated. They can. The problem is integration. AI Scientists must combine neural learning with logic, probability, mathematics, causal reasoning, simulation, experimental design, robotics and formal scientific records. AI Scientists have the potential to transform science: to make science faster, cheaper, more systematic and more reproducible. AI Scientists could investigate systems too complicated for unaided human science, and enable thousands of AI scientists to work together on single problems. The Nobel Turing Challenge sets the goal of developing by 2050 AI systems capable of automating Nobel-quality discoveries. Progress is ahead of schedule. When we succeed it will create a new form of science and transform the world.",
+    "published_date": "2026-08-14",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-17T03:48:27Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.14390",
+    "title": "Submodular Policy Learning for Distributed Task Allocation in Open Multi-Agent Systems",
+    "authors": [
+      "Jing Liu",
+      "Luca Ballotta",
+      "Yangyang Yang",
+      "Fangfei Li",
+      "Yang Tang",
+      "Ruggero Carli"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.14390",
+    "abstract": "This paper studies policy learning for distributed task allocation in open multi-agent systems, where agents may join and leave in a time-varying fashion, with submodular stage team utilities. At each time, the active agents select actions from local categorical policies such that the feasible joint agent-action pairs form a partition matroid. Standard continuous relaxations of submodular set functions are based on independent Bernoulli sampling, making them inconsistent with agents' policies.To solve this mismatch, we propose the \\emph{partition multilinear extension} (PME), a policy-based relaxation whose continuous support matches feasible actions under categorical policies.We prove that the marginal gains of the stage utility provide an unbiased estimator of the gradient of the PME and that maximizing the PME over action distributions is equivalent to maximizing the stage utilities over agent actions, which are critical to devise principled policy gradient.Building on this, we design \\emph{SubMAPL}, a centralized-training decentralized-execution KL-mirror policy-learning method that uses local marginal gains as stochastic PME gradients during training. KL-mirror updates preserve categorical feasibility without Euclidean projection.In the case where agents run tabular-softmax policies, we introduce open policy migration and an open-system KL tracking variation to handle agent arrivals and departures. Using dynamic regret analysis, we establish a lower bound on the cumulative utility which accounts for the openness of the environment and for the gap between optimal stage-wise and global utilities. Simulations on multi-agent coverage demonstrate that SubMAPL outperforms policy-gradient and online-learning baselines.",
+    "published_date": "2026-08-14",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-17T03:48:27Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.14375",
+    "title": "Wrong but Useful: Trajectory Value Beyond Answer Correctness in Multi-Agent Messages",
+    "authors": [
+      "Chih-Hsuan Yang",
+      "Anjir Ahmed Chowdhury",
+      "Cheng-Hau Yang",
+      "Weijian Zheng",
+      "Fernando Llorente",
+      "Xiaolong Ma",
+      "Xinyang Li",
+      "Eliu A. Huerta",
+      "Ian T. Foster",
+      "Rajeev Thakur"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.14375",
+    "abstract": "Multi-agent reasoning systems often use agreement, confidence, or automated scores to decide which messages should shape a final answer. Such filtering assumes that a message likely to be correct is also worth keeping. Yet a wrong answer can contain a useful decomposition, constraint, or scientific principle. We test this distinction with Diverse Hypothesis Deliberation (DHD), a controlled measurement protocol that caches five independently generated messages and replays the same downstream solver, called the integrator, with each message available or hidden. The replay comparison measures a message's trajectory value: whether making the message available helps or harms subsequent reasoning. Across five mathematics and science benchmarks and two openly available model families, gpt-oss-120b and gemma-4-31B-it, wrong-helpful messages appear in every benchmark-model combination. Among wrong-answer messages that change final correctness, more than four in ten changes are helpful in each model. Controlled repeats show that the number of repeatable message effects is unlikely to arise from replay variation alone (p=0.0002). A focused intervention on repeatable wrong-helpful messages finds that the complete message works best, while retaining its reasoning preserves more success than retaining only its answer; the source of the complete-message advantage remains open. Within the same problem, repeated trajectory-value evidence also identifies a better keep-or-remove choice than answer correctness alone. Answer correctness is therefore informative but does not determine trajectory value. DHD measures this missing property and produces reusable labels for learning when agents should listen.",
+    "published_date": "2026-08-14",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "24 pages, 9 figures. Includes an appendix and an ancillary reproducibility artifact",
+    "fetched_at": "2026-08-17T03:48:27Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.14349",
+    "title": "Non-Parametric Spatiotemporal Trajectory Prediction via State-Conditioned Transition Sampling",
+    "authors": [
+      "Michael Fore",
+      "Akshay Jain",
+      "Justin Downes",
+      "Rohan Pradhan",
+      "Duncan Botti"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.14349",
+    "abstract": "We present a training-free method for multi-modal trajectory prediction that achieves comparable accuracy to a 57M-parameter transformer while requiring no GPU and zero learned parameters. The method builds a transition table of historical state-to-next-position pairs and retrieves neighbors using a product kernel over spatial proximity, bearing, speed, and temporal context. Two inference modes operate over this shared representation: diversity-penalized sampling produces trajectories covering distinct plausible routes, while beam search finds the highest-likelihood path. On the TrAISformer benchmark (Danish Maritime AIS), our method achieves competitive accuracy at full data availability and dramatically outperforms the transformer in data-scarce regimes---remaining stable down to 10% of training data where TrAISformer degrades catastrophically. This enables deployment in new geographic regions from an order of magnitude less historical data, and with no GPU training.",
+    "published_date": "2026-08-14",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-17T03:48:27Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.14246",
+    "title": "Polaris : Multi Agentic System for Conversational Enterprise Analytics",
+    "authors": [
+      "Varuni H K",
+      "Soham Sarkar",
+      "Jay Kumar",
+      "Goutham Krishnan",
+      "Tanvi Johari",
+      "Avinash Bharadwaj",
+      "Santosh Hegde"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.14246",
+    "abstract": "In today's fast-paced environment, the ability to swiftly access, understand, and act on data is no longer optional; it is essential. Yet most organizations remain data-rich but insight-poor, constrained by the complexity of querying, interpreting, and explaining enterprise-scale information. We present Polaris, a supervisor-led multi-agent framework for conversational enterprise analytics that bridges this gap. Polaris introduces Dynamic Task Coordination (DTC), a decision-theoretic orchestration layer that models agent-task assignment as adaptive bipartite matching, enabling real-time coordination, recovery, and optimization across specialized agents for querying, visualization, and reasoning. By coupling DTC with reason-first, ReAct-style agents, Polaris transforms natural-language queries into coherent analytical workflows that not only retrieve and visualize data but also explain the underlying \"why.\" Evaluation on structured enterprise datasets demonstrates high semantic fidelity and answer relevancy, underscoring the potential of multi-agent orchestration to deliver trustworthy, end-to-end business intelligence at scale.",
+    "published_date": "2026-08-14",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-17T03:48:27Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.14239",
+    "title": "A Temporal Barrier Framework for Collision Avoidance in Multi-Agent Autonomous Aerial Vehicles",
+    "authors": [
+      "Benedikt Barthel Sorensen",
+      "Mitchell Black",
+      "Erfaun Noorani",
+      "Themistoklis Sapsis"
+    ],
+    "source": "arxiv",
+    "category": "eess.SY",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.14239",
+    "abstract": "Operating teams of autonomous aircraft in dynamic, uncertain, and potentially adversarial environments requires safety protocols that are reliable yet selective, and allow agents to fly in close proximity while making progress toward mission objectives. We introduce adversarial time-to-collision (aTTC), a risk metric that quantifies, for a given agent, how quickly any surrounding agent could reach it assuming adversarial intent. We embed aTTC into the control barrier function (CBF) framework, defining the barrier directly in time rather than distance or velocity. The resulting aTTC-CBF is inherently anticipatory: agents modulate their own velocity based not on whether a peer is on a collision course, but on how quickly one could reach collision given its dynamical constraints. A differentiable neural-network surrogate makes the aTTC computable in real time within a standard CBF quadratic program. Across long time-horizon simulations of 3D independent-pursuit and formation-flight scenarios, the aTTC-CBF achieves up to twice the waypoint progress at half the collision rate of a higher-order distance-based CBF baseline.",
+    "published_date": "2026-08-14",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-17T03:48:27Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.14082",
+    "title": "PILOT: Privileged Imitation Learning for End-to-End Motion Planning of Autonomous UAVs under Partial Observability",
+    "authors": [
+      "Qingrui Zhang",
+      "Feng Xue",
+      "Xiang Zhou",
+      "Chenghao Yu"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.14082",
+    "abstract": "Autonomous navigation in cluttered environments is hampered by partial observability and dynamic constraints. This paper presents PILOT, a constraint-aware privileged imitation learning framework for vision-based end-to-end UAV motion planning under partial observability. The framework distills planning strategies from a computationally intensive optimal control expert into a student policy regularized toward safety and dynamic requirements via a dual-objective loss function. To mitigate partial observability, a spatiotemporal perception fusion module using a Temporal Convolutional Network (TCN) is developed to integrate historical depth images and odometry. This module infers task-relevant latent context from historical observations, enhancing spatial awareness beyond the instantaneous FOV without maintaining persistent map memory. A trajectory parameterization layer mapping network outputs to a structured trajectory, while enabling explicit continuity, dynamic-consistency, and obstacle soft penalties during training, encouraging constraint satisfaction for unseen observations without formal guarantees. Simulations on quadrotor and fixed-wing aircraft demonstrate that PILOT achieves performance comparable to the privileged expert while reducing computational overhead by over 80\\%. Successful indoor and outdoor zero-shot deployment confirms the practical feasibility and cross-domain generalization of the planner.",
+    "published_date": "2026-08-14",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "13 Pages, 12 figures",
+    "fetched_at": "2026-08-17T03:48:27Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.14068",
+    "title": "MACS: A Hybrid Multi-Agent Framework for Reliable Conversational E-Commerce Recommendation",
+    "authors": [
+      "Juli Huang",
+      "Hannah Clay",
+      "Sajjad Beygi",
+      "Thomas Sarda",
+      "Negin Golrezaei",
+      "Amin Saberi"
+    ],
+    "source": "arxiv",
+    "category": "cs.IR",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.14068",
+    "abstract": "Conversational recommendation for e-commerce is increasingly mediated by large language models (LLMs), yet many real-world deployments operate under a stricter requirement: recommendations must be drawn only from a merchant's fixed catalog, without web search or unsupported product claims. In this setting, the main challenge is reliability under hard constraints: the system must satisfy user requirements, remain grounded in available inventory, and preserve preferences across multiple conversational turns. We present MACS (Multi-Agent Commerce System), a hybrid multi-agent framework for reliable conversational recommendation in fixed-catalog settings. MACS uses LLMs for language-facing tasks such as interpreting user requests, eliciting preferences, and generating responses, while correctness-critical operations, including product retrieval, hard-constraint filtering, brand exclusion, and progressive relaxation, are executed deterministically by the merchant agent. A session-persistent preference layer tracks constraints across turns, enabling consistent handling of budget overwrites and exclusion reversals. On a 140-query single-turn benchmark, MACS achieves the highest pass rate (87.1%) and perfect brand compliance (1.000). On a 10-scenario multi-turn benchmark, MACS achieves the strongest macro Pass@5 (72% vs. 56% GPT+Catalog / 52% Gemini+Catalog) with zero constraint drift. The advantage is sharpest on exclusion reversal (100% vs. 20% / 0%) and constraint accumulation (100% vs. 60% / 40%). Mean judged response quality is similar across systems (0.751 vs. 0.736). These results suggest that hybrid architectures combining deterministic constraint enforcement with session-persistent preference tracking provide stronger reliability-oriented performance than catalog-bound prompt-only baselines in the fixed-catalog merchant setting.",
+    "published_date": "2026-08-14",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "9 pages, 2 figures, 8 tables. Will be presenting at Stanford Trust&Safety Conference, already presented at Stanford Market AI Conference",
+    "fetched_at": "2026-08-17T03:48:27Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.13982",
+    "title": "XAI-Guided Conservative Decentralized Execution for Offline Multi-Agent Network Slicing",
+    "authors": [
+      "Eslam Eldeeb",
+      "Hatim Chergui",
+      "Merouane Debbah"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.13982",
+    "abstract": "The recent advances toward sixth-generation (6G) and beyond-6G networks have accelerated the need for intelligent resource management mechanisms capable of supporting heterogeneous services under shared infrastructures in network slicing. However, resource allocation in network slicing naturally forms a resource-coupled cooperative optimization problem with competing slice demands. Slices compete for limited resources to minimize individual latencies while coordinating to avoid conflicts and underutilization. Although multi-agent reinforcement learning (MARL) has shown promising performance in such settings, existing online formulations remain costly, unsafe, and difficult to deploy due to their reliance on environmental interactions and communication among agents. In this work, we present explainable artificial intelligence (XAI)-guided conservative decentralized execution (X-CODE). X-CODE is an explainable offline MARL that operates offline without environmental interaction, nor inter-agent communication. It exploits explainability-aware reward shaping to modify the relative preference among joint offline transitions during centralized training to improve decentralized resource-allocation behavior. In deployment, the agents operate independently without signaling exchange among the agents. Simulation results demonstrate that the proposed approach achieves zero observed resource-conflict events in the evaluated test episodes while minimizing per-slice latencies. Moreover, the proposed framework exhibits lower signaling overhead and reduces effective inference latency by 88 % under the considered communication-delay model compared to the online baselines. Source codes and datasets are available through: https://github.com/Eslam211/xcode-ran-slicing.",
+    "published_date": "2026-08-14",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-17T03:48:27Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2608.13535",
     "title": "Joint Communication-Control Strategy Optimization with Partially Nested Information Structures: The Linear-Quadratic Case",
     "authors": [
@@ -490,6 +753,136 @@
     "memo": "",
     "memo_updated_at": null,
     "fetched_at": "2026-08-14T04:46:28Z"
+  },
+  {
+    "id": "arxiv:2608.13810",
+    "title": "What preferences can - and cannot - predict in multi-agent online learning",
+    "authors": [
+      "Omar Abbadi",
+      "Rida Laraki",
+      "Panayotis Mertikopoulos"
+    ],
+    "source": "arxiv",
+    "category": "cs.GT",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.13810",
+    "abstract": "We examine the interplay between ordinal, preference-based solution concepts in games and the long-run behavior of game dynamics, asking in particular to what extent the combinatorial data of a game -- its preference graph -- determine the outcomes of no-regret learning dynamics -- such as follow-the-regularized-leader (FTRL). In one direction, we show that the skeleton of every dynamically stable set (i.e. the set of pure profiles it contains) must also be preferentially stable, that is, it must be closed under profitable deviations. We then ask the converse question: when do preferences determine the long-run behavior of the players' learning dynamics? We begin by showing that preferences characterize asymptotic stability in the case of subgames -- i.e. subsets of pure profiles obtained by restricting players' action sets. Beyond this case however, the equivalence between dynamic and preferential stability collapses: concretely, we construct a three-player game with a preferentially stable set whose span is dynamically unstable, showing in this way that preferences do not suffice as a criterion of dynamic stability. We then bridge this gap via the notion of resilience under aggregate deviations, an easy-to-check payoff-based condition that guarantees asymptotic stability of arbitrary spans of pure strategies.",
+    "published_date": "2026-08-13",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "56 pages, 15 figures; oral presentation at ICML 2026",
+    "fetched_at": "2026-08-17T03:48:27Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.13767",
+    "title": "Simulation-Aware In-Context Policy Improvement for LLM-Aided Analog Layout Refinement",
+    "authors": [
+      "Bingyang Liu",
+      "Ziming Wei",
+      "Xiaohan Gao",
+      "David Z. Pan"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.13767",
+    "abstract": "Analog IC layout design remains a labor-intensive iterative process dominated by simulation-driven refinement. Although end-to-end layout generators accelerate initial placement and routing, they still require experts to manually tune layout optimization parameters with repeated post-layout simulations for stringent design specifications. While Bayesian Optimization (BO) is widely adopted for parameter tuning in analog IC design, at the layout level it typically requires hundreds to thousands of evaluations, each involving costly parasitic extraction and post-layout simulation, which makes it impractical. Recently, Large Language Models (LLMs) have demonstrated potential in improving the sample efficiency of such simulation-driven tuning. However, their restricted access to geometric layout context and design-specific heuristics limits their ability to manipulate the layout optimization process. In this paper, we propose a simulation-aware LLM multi-agent framework that performs in-context policy improvement (ICPI) by iteratively updating layout optimization parameters exposed by an analog layout generator through an act-observe-reflect loop on compact structured layout representations. Experiments on real-world analog circuits show that, with only tens of post-layout simulations, our approach improves post-layout performance over the generator's built-in heuristics and BO-based tuning method.",
+    "published_date": "2026-08-13",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "7 pages, 3 figures. To appear in the Proceedings of the 2026 International Conference on LLM-Aided Design (ICLAD 2026)",
+    "fetched_at": "2026-08-17T03:48:27Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.13719",
+    "title": "Coverage Aware Active Evaluation for Failure Discovery with Paired Systems",
+    "authors": [
+      "Anjali Parashar",
+      "Rachel Luo",
+      "Apoorva Sharma",
+      "Sushant Veer",
+      "Edward Schmerling",
+      "Carson Sobolewski",
+      "Mingxin Yu",
+      "Chuchu Fan",
+      "Marco Pavone"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.13719",
+    "abstract": "Autonomous systems can fail in rare and heterogeneous ways, making real-world failure discovery difficult under limited testing budgets. Although cheaper proxies such as simulators, lower-fidelity systems, or related policies can be sampled extensively to find failures, proxy failures often do not transfer to the real world due to sim-to-real and system-to-system gaps. The key challenge is therefore to effectively leverage proxy system information for accurate prediction of severe target system failures. We propose an adaptive failure discovery method that combines proxy evaluations with limited target system results to guide scenario selection for target system testing. Our method learns a local predictor of target risk by correcting proxy failure signals using control-variate-inspired residual modeling. To find failures that are both likely and diverse, we combine this predictor with a support-aware mutual-information objective that favors realistic, well-supported regions while expanding coverage across failure modes. Across autonomous driving, manipulation, and quadruped velocity-tracking tasks, our method discovers up to 2$\\times$ as many failures as random sampling and active-learning baselines, including severe and diverse failures missed by competing methods.",
+    "published_date": "2026-08-13",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "9 main pages followed by Appendix, total 21 pages, 12 figures",
+    "fetched_at": "2026-08-17T03:48:27Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.13708",
+    "title": "TeachMateGPT: A Multi-Agent Knowledge-Grounded Framework for Pedagogical Assessment Generation from Science Curriculum Materials",
+    "authors": [
+      "Fatema Tuj Johora Faria",
+      "Mukaffi Bin Moin",
+      "M. F. Mridha",
+      "Jubayer Al Mahmud"
+    ],
+    "source": "arxiv",
+    "category": "cs.CL",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.13708",
+    "abstract": "Automatically generating textbook-grounded assessment items can reduce science teachers' workload, but existing retrieval-augmented generation (RAG) systems rely on flat retrieval, support only single-question generation, lack safeguards against weak evidence, and are ill-suited to low-resource, board-exam-structured curricula. We address these limitations with TeachMateGPT, a multi-agent system contributing four advances to curriculum-grounded science-assessment authoring. (i) COPE, a hierarchical knowledge base replacing token-window chunking with a multi-resolution index that segments documents along syllabus structure and links them at three granularities via a traversable graph-based lineage, matching evidence to each topic's instructional level. (ii) A staged, fail-closed agent pipeline replacing one-shot retrieve-then-generate: routing gates search, retrieval fuses dense and lexical evidence under a coverage gate that withholds generation on insufficient evidence, and specialist agents draft objective and constructed-response items. (iii) SAVER, a source-attributed verification protocol scoring faithfulness, relevance, and hallucination risk against retrieved evidence, applying stricter grounding checks across each creative question's four sub-parts, paired with teacher-in-the-loop evaluation rather than automatic filtering. (iv) NCTB-SciGen8, a curriculum-grounded dataset of 198 items (143 multiple-choice, 55 creative questions) spanning all 14 chapters of the NCTB Class 8 science textbook, produced by the pipeline and rated by three practicing teachers. TeachMateGPT raises faithfulness (0.68 $\\rightarrow$ 0.96) and answer relevancy (0.60 $\\rightarrow$ 0.89) over a vanilla RAG baseline.",
+    "published_date": "2026-08-13",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-17T03:48:27Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.13706",
+    "title": "CLAIR-Fin: An Adversarial Multi-Agent Framework for Claim-Level Verification and Adaptive Debate in Cross-Modal Financial QA",
+    "authors": [
+      "Fatema Tuj Johora Faria",
+      "Mukaffi Bin Moin",
+      "Jubayer Al Mahmud",
+      "M. F. Mridha",
+      "Md. Alam Hossain"
+    ],
+    "source": "arxiv",
+    "category": "cs.CL",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.13706",
+    "abstract": "Existing defenses against hallucination in retrieval-augmented and multi-agent pipelines remain partial: evidence is trusted despite modality disagreement, debate verifies an aggregate report rather than individual claims, and such verification occurs only after drafting, leaving inter-agent errors undetected until the final text. To close this gap, we present CLAIR-Fin, a nine-agent framework that decomposes each question into atomic claims maintained in a typed Financial Claim Ledger. Each claim is resolved through Asymmetric Evidence Authority, which conditions evidence trust on claim type rather than treating all modalities as equally reliable; Chain-of-Custody Verification, which checks grounding at the hand-off between drafting and adversarial review rather than only at the pipeline's exit; an Adaptive Rebuttal Cycle, which routes contested claims through adversarial debate whose depth scales with what that debate finds; and a terminal entailment audit paired with a continuous Hallucination Risk Index that distinguishes claims that passed scrutiny from claims never contested. We evaluate CLAIR-Fin on BB-FinQA-X, a 500-question cross-modal financial evaluation set built from Bangladesh Bank Annual Report material, stratified by query type, format, and difficulty. Relative to a single-pass retrieval-augmented generation baseline, it raises faithfulness ($0.780 \\rightarrow 0.889$) while abstaining on 5.4% of questions when evidence is insufficient rather than forcing an unsupported response, and it exceeds stronger retrieval-strategy baselines such as HyDE and Graph-RAG on faithfulness ($\\leq 0.874$).",
+    "published_date": "2026-08-13",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-17T03:48:27Z",
+    "memo": "",
+    "memo_updated_at": null
   },
   {
     "id": "arxiv:2608.12253",
