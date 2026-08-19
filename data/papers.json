@@ -1,5 +1,237 @@
 [
   {
+    "id": "arxiv:2608.17928",
+    "title": "A Theoretical Framework for Parallel Lifelong MAPF Using Group Decentralized Planning",
+    "authors": [
+      "Alex DeWeese",
+      "Jiaoyang Li",
+      "Guannan Qu"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.17928",
+    "abstract": "In the Lifelong Multi-Agent Path Finding (L-MAPF) problem, agents must repeatedly move from one destination to another while avoiding obstacles and inter-agent collisions. Widely regarded as one of the highest-performing solutions to this problem is the Rolling-Horizon Collision Resolution (RHCR) framework. However, commensurate with its quality solutions, it incurs a computational cost that limits its applicability to even modest agent counts. In this paper, leveraging theoretical methods from the Locally Interdependent Multi-Agent MDP literature, we first theoretically prove the near-optimality of RHCR in a discounted MDP formulation of the L-MAPF problem. Then, we leverage these results to naturally motivate an extended framework called Group Decentralized RHCR (GD-RHCR) which incorporates a group decentralized structure that partitions agents based on a transitive communication scheme and plans for each partition of agents in parallel. We show that both RHCR and GD-RHCR achieve similar exponentially close to optimal guarantees, establishing a theoretical duality between the time based restrictions performed by vanilla RHCR and the additional space based partitioning performed by GD-RHCR. Lastly, we show that across varying maps, GD-RHCR is able to attain high throughput that scales into higher agent counts while maintaining a significantly lower per plan cost.",
+    "published_date": "2026-08-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-19T03:44:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.17882",
+    "title": "ControlledShifts: Towards Standardizing Robustness Evaluation in Trajectory Prediction Under Distribution Shifts",
+    "authors": [
+      "Ingrid navarro",
+      "Pablo Ortega-Kral",
+      "Yutong Duan",
+      "Jonathan Francis",
+      "Jean Oh"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.17882",
+    "abstract": "Trajectory prediction is central to safety in autonomous driving, yet learning-based predictors tend to degrade sharply when encountering scenarios poorly represented by their training data. Many methods attempt to mitigate distribution shift degradation through data-centric or test-time adaptation approaches; however, they are typically validated along fragmented axes of generalization, leaving the field without a standardized way to compare robustness across shifts a model may encounter. To address this, we introduce ControlledShifts, a framework and benchmark suite that systematically re-splits existing trajectory datasets into in-distribution (seen) and out-of-distribution (unseen) partitions, via a shared characterization-and-splitting formulation, in which a characterization function fixes the axis of variation a benchmark probes and a splitting function fixes how the tail of that axis is withheld. The suite comprises three benchmarks targeting key topological and behavioral distribution shifts. Furthermore, to aggregate multi-dimensional performance metrics across these benchmarks, we propose a unified robustness score that evaluates models along two complementary dimensions: prediction quality (relative performance gain) and prediction stability (performance preservation under shift). We showcase ControlledShifts by benchmarking prominent transformer-based architectures, exposing critical differences in how models of varying capacities handle latent relevance and environmental structure.",
+    "published_date": "2026-08-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 8 figures, 1 table",
+    "fetched_at": "2026-08-19T03:44:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.17779",
+    "title": "Stability Control for Real World Testing in Autonomous Racing",
+    "authors": [
+      "Phillip Pitschi",
+      "Simon Sagmeister",
+      "Frederik Werner",
+      "Markus Lienkamp",
+      "Boris Lohmann"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.17779",
+    "abstract": "Controlling an autonomous vehicle at the limits of handling is a challenging task. Due to external influences, such as road conditions or weather, a vehicle can easily become unstable. Since most control algorithms assume stable vehicle behavior, they might fail in these situations. Especially when operating expensive vehicles without a safety driver on board, as in autonomous racing, this poses a significant challenge. To enable safe operation at the vehicle's dynamic limits, we present a comprehensive stability control system that safeguards motion control algorithms in autonomous driving. The proposed system consists of an electronic stability control (ESC), a slip control (SC), and a countersteer system (CS), which collectively adapt steering and brake commands from the motion controller to maintain vehicle stability. We validate our approach through both simulation and experiments on a real-world, full-scale vehicle. The results show that the stability control system maintains vehicle stability in critical situations and extends the operational feasible region. To simplify integration, we provide an open-source implementation at github.com/TUMFTM/tam-stability-control.",
+    "published_date": "2026-08-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted at IEEE ITSC 2026",
+    "fetched_at": "2026-08-19T03:44:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.17776",
+    "title": "Debate Training Reduces Reward Hacking in RLAIF",
+    "authors": [
+      "Zachary Kenton",
+      "Lili Janzer",
+      "Rory Greig",
+      "Tian Huey Teh",
+      "Kirill Tyshchuk",
+      "Jonah Brown-Cohen",
+      "Harri Edwards",
+      "Senthooran Rajamanoharan",
+      "Noah Y. Siegel",
+      "Natasha Jaques",
+      "Rohin Shah"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.17776",
+    "abstract": "We demonstrate that RL finetuning an LLM using debate, a two-player adversarial game between a generator and a critic adjudicated by a weaker LLM judge, reduces reward hacking compared to a reinforcement learning from AI feedback (RLAIF) baseline. Reward hacking is a central obstacle in RLAIF: as training progresses, the policy learns to exploit systematic errors in its AI judge, degrading task performance, a problem that worsens precisely when the judge is weaker than the policy, the setting most relevant to overseeing increasingly capable AI systems. We study mathematics tasks, where final-answer correctness is verifiable, allowing us to measure reward hacking dynamics. We train a Gemini~2.5 Flash-class policy with a frozen, weaker Gemini~2.5 Flash Lite judge, comparing a single-player RLAIF baseline against debate. While the baseline quickly hacks the judge, debate maintains judge performance throughout training, leading to a higher peak validation accuracy (45\\% performance gap recovered) that persists through many RL steps. Additional experiments show that: 1) further weakening the judge leads to faster hacking, but this can be compensated by adding an additional debate round; 2) debate incentives override prompted misalignment; 3) RL using an LLM judge has a smaller train/validation reward gap than RL from verifiable rewards; 4) learning to critique to convince the judge using ground truth labels is possible but slow. Taken together, our results are a positive update on the feasibility of debate, while highlighting that balancing multi-agent training is critical: without player constraints, adversarial training risks defaulting to critic judge-hacking. We show that critique word limits (effective up to 150 words) successfully balance the game and avoid judge hacking, though this introduces a trade-off by restricting critic expressive clarity.",
+    "published_date": "2026-08-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-19T03:44:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.17749",
+    "title": "The Curious Case of Exploding DecPOMDPs: Containing the Fire through Policy Counting",
+    "authors": [
+      "Nazlı Nur Karabulut",
+      "tanya Braun"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.17749",
+    "abstract": "Decentralised partially observable Markov decision processes (DecPOMDPs) provide a general framework for modelling multi-agent decision making under uncertainty. However, DecPOMDPs are known to suffer from exponential complexity in the number of agents. One way to combat this intractability in agent numbers is to look at partitions of agents that exhibit a form of symmetry among agents, allowing for a compact encoding by counting. However, a challenge arises as the policy space explodes, even though the model complexity and evaluation cost reduce to a polynomial dependence. In this paper, we redirect our focus from counting agents to counting policies, which actually enables tractability in agent numbers for so called policy-counted DecPOMDPs. Further, we present policy-counted dynamic programming using the compact representation to solve policy-counted DecPOMDPs efficiently.",
+    "published_date": "2026-08-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Full version including appendix of a paper accepted at the 17th International Conference on Scalable Uncertainty Management (SUM2026) under the same name",
+    "fetched_at": "2026-08-19T03:44:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.17739",
+    "title": "Offline Multi-Agent Reinforcement Learning with a Physics-Informed World Model for Cooperative Mixed Traffic Control",
+    "authors": [
+      "Lu Liu",
+      "Chi Xie",
+      "Xi Xiong"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.17739",
+    "abstract": "This study investigates cooperative control of connected and automated vehicles (CAVs) at partially observable highway bottlenecks in mixed traffic, aiming to mitigate congestion without relying on complete global traffic states or online trial-and-error. We propose a physics-informed world model-based offline multi-agent reinforcement learning framework that reconstructs a physically interpretable global traffic state from local CAV observation-action histories, with coupled macroscopic-microscopic traffic dynamics providing physics-based supervision. A probabilistic ensemble world model learns traffic-state transitions and system rewards, while model disagreement quantifies epistemic uncertainty. Multi-step imagined rollouts with pessimistic rewards and uncertainty-driven truncation are then used for offline policy learning. Experiments in a SUMO-based on-ramp bottleneck using approximately $1\\times10^6$ offline transitions show that physics supervision improves state reconstruction and world-model prediction accuracy.",
+    "published_date": "2026-08-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-19T03:44:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.17694",
+    "title": "GADR: Gathering Architecture Decision Records from Meeting Transcriptions",
+    "authors": [
+      "Lucas Daniel Costa da Silva",
+      "Kiev Gama"
+    ],
+    "source": "arxiv",
+    "category": "cs.SE",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.17694",
+    "abstract": "Existing LLM-based approaches to Architecture Decision Record (ADR) generation share a critical and largely unexamined assumption: that input is already reasonably structured. In practice, architectural decisions emerge from informal, noisy meetings where choices are implicit, fragmented, and entangled with off-topic dialogue, precisely the conditions under which single-pass prompting degrades. This paper presents GADR, a multi-agent, self-correcting workflow that extracts architectural decisions from raw meeting transcriptions and generates Nygard-formatted ADR drafts. A feasibility study comprising five real project meeting transcripts, expert review by four senior architects, and evaluation by fifteen students provides initial evidence that the agentic workflow captures most expert-identified decisions and produces drafts participants found clear and useful, outperforming zero-shot and few-shot baselines in stability and structural adherence. The study also addresses the underexplored trade-off of RAG-based enrichment improving ADR depth while simultaneously risking transcript-unfaithful content, raising open questions about traceability in automated architectural documentation that we believe is worth the community's attention.",
+    "published_date": "2026-08-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-19T03:44:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.17567",
+    "title": "Domain-Adapted Molecular Language Models for Efficient Search of Make-on-Demand Libraries",
+    "authors": [
+      "Henrik Wille",
+      "Luis-Finley Schütz",
+      "Felix Strieth-Kalthoff"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.17567",
+    "abstract": "Pretrained molecular language models are increasingly used as molecular encoders for learning structure-property relationships. However, their practical suitability for molecular discovery within and beyond their pretraining domain remains unclear. Herein, we systematically benchmark four molecular language models across six virtual molecular libraries spanning drug discovery, organic materials, and catalysis. Native molecular language model embeddings show substantial variation in discovery performance across libraries, whereas molecular fingerprints provide a consistently strong and robust baseline. Consistent with a potential domain-representation mismatch, we show that explicit domain adaptation substantially improves representation performance. Fine-tuning molecular language model encoders on structures from the target virtual library consistently improves sample efficiency, with several adapted encoders emerging as the top-performing representations across the benchmark tasks. These results show that molecular representation quality depends strongly on the target domain and that explicit adaptation can improve the practical utility of molecular foundation models. More broadly, our findings establish domain-adapted molecular representations as a promising strategy for sample-efficient adaptive decision making in virtual screening and self-driving laboratories.",
+    "published_date": "2026-08-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-19T03:44:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.17253",
+    "title": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
+    "authors": [
+      "Yunhao Yang",
+      "Yuexin Bian",
+      "Yunjie Tian",
+      "Di Fu",
+      "Tianjin Huang",
+      "Yuanyuan Shi",
+      "Ziang Xiao",
+      "Nuno Vasconcelos",
+      "Yijiang Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.17253",
+    "abstract": "Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth supervision (e.g., verifiable reward). Such annotations are costly to obtain and become increasingly scarce as reasoning capabilities advance beyond what humans can reliably evaluate. Self-rewarding RL reduces this dependence by enabling models to derive reward signals from their own completions. However, training solely on self-generated feedback can reinforce existing biases and suboptimal behaviors, reduce response diversity, and ultimately lead to homogenized responses and training collapse. In this work, we show that unsupervised reasoning can emerge through cooperative multi-agent training. We introduce Co-RL, a framework in which multiple decoupled models, sharing no parameters, are simultaneously optimized through RL using rewards derived from their peers. We further show that increasing cohort diversity, through heterogeneous model families, sizes, and rephrased training samples, reduces the correlated errors that drive self-reinforcing feedback loops. This diversity consistently improves reasoning performance, maintains behavioral diversity, and mitigates training collapse. Across text-only and multimodal domains, Co-RL consistently outperforms the base models and prior label-free approaches, while matching or surpassing supervised methods, without access to any ground-truth labels. Concretely, Co-RL yields average gains of 3.0-8.6% across seven text-only benchmarks for LLMs and 2.3-7.2% across four multimodal benchmarks for VLMs. Code is available at https://github.com/DrStranded/Co-RL.",
+    "published_date": "2026-08-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "30 pages, 5 figures, 11 tables",
+    "fetched_at": "2026-08-19T03:44:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2608.16853",
     "title": "FlexWorm: Primitive-augmented Hybrid Contact-motion Planning for Suction-based Multi-segment Deformable Robots",
     "authors": [
@@ -20,9 +252,9 @@
     ],
     "venue_status": "published",
     "venue_note": "9 pages, 12 figures, accepted for publication in IEEE Robotics and Automation Letters (RA-L), 2026. Supplementary video: https://youtu.be/OQR5Sx5Bwnc",
-    "fetched_at": "2026-08-18T03:42:23Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-18T03:42:23Z"
   },
   {
     "id": "arxiv:2608.16843",
@@ -48,9 +280,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-18T03:42:23Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-18T03:42:23Z"
   },
   {
     "id": "arxiv:2608.16801",
@@ -71,9 +303,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-18T03:42:23Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-18T03:42:23Z"
   },
   {
     "id": "arxiv:2608.16741",
@@ -97,9 +329,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-18T03:42:23Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-18T03:42:23Z"
   },
   {
     "id": "arxiv:2608.16645",
@@ -322,6 +554,84 @@
     "venue_status": "preprint",
     "venue_note": null,
     "fetched_at": "2026-08-18T03:42:23Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.17188",
+    "title": "Token Optimization and Context Window Management in Multi-Agent AI Workflows",
+    "authors": [
+      "Dvir Shamay"
+    ],
+    "source": "arxiv",
+    "category": "cs.CL",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.17188",
+    "abstract": "Multi-agent AI workflows are limited not only by model quality but by token cost, latency, and context-window quality. This paper presents a practitioner framework for token optimization and context-window management, grounded in an internal production dashboard that extracts structured work items from meetings, email, and chat with LLMs and routes summaries across workstreams. Six patterns are described: context stratification, fetch-once/process-locally architecture, schema-contracted prompts, token-aware fallback chains, semantic caching, and inter-agent communication compression. In production they cut measured cold-load latency to 61-116 seconds (six timed runs) from an operational baseline of roughly 3.5-10.5 minutes, with an estimated 60-70% token reduction. It also reports a controlled context-composition study: 2,420 confirmatory trials across 11 model configurations, using 661 anonymized workplace items scored for relevance. Holding the prompt at a fixed ten items, replacing some high-relevance items with same-domain low-relevance items improves the model's relevance-score concordance on the target items, versus high-relevance items only; we call this relevance-contrast context. In the all-11 paired analysis, the 50:50 signal/noise condition improved relevance accuracy by +0.077 over the 100% condition (naive 95% CI [+0.056, +0.098], Cohen's d = 0.49, Holm-adjusted p < .001, n = 220). These cells are not independent; by the nine model families the effect is +0.084 (95% interval [+0.064, +0.103]), reported as a within-corpus descriptive comparison, not a population inference. A Fusion-of-N follow-up found that learned synthesis did not beat the mechanical set union of item IDs. The contribution is a measured engineering layer between model research and production agent practice: repeatable patterns and evaluation methods for faster, cheaper, more reliable workflows.",
+    "published_date": "2026-08-17",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "29 pages (main paper + technical appendix), 3 figures. Also archived on Zenodo: 10.5281/zenodo.21924612",
+    "fetched_at": "2026-08-19T03:44:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.17071",
+    "title": "KernelArc: A Multi-Agent Framework for GPU Kernel Optimization",
+    "authors": [
+      "Joyjit Kundu",
+      "Ben Stoffelen",
+      "Kaili Wang",
+      "Peter Vrancx",
+      "Ludovic Denoyer"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.17071",
+    "abstract": "We present KernelArc, a multi-agent framework for autonomous GPU kernel optimization across heterogeneous workloads. Strategy-specialized agents run in parallel and coordinate through conclusions-only shared memory, a deterministic benchmark guard, and read-only cross-agent state with plateau-triggered drafting. We evaluate \\kernelarc{} on NVIDIA H100 and B200 GPUs using category-representative SOL-ExecBench workloads. The resulting implementations span custom BF16 GEMM, static cuBLASLt Expert-API configuration tables, fused mixture-of-experts backward, shape-gated decoder-layer fusion, native NVFP4 grouped-query attention, and paged prefill attention. At the public SOL-ExecBench leaderboard snapshot recorded on July~30, 2026, these submissions ranked first on representative L1, L2, Quantization, and FlashInfer tasks. The trajectories support the paper's central motivation: shared multi-agent search can broaden exploration and reach stronger incumbents within a fixed candidate budget, while the value of individual coordination features depends on the kernel and optimization stage.",
+    "published_date": "2026-08-17",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "11 pages, 6 figures",
+    "fetched_at": "2026-08-19T03:44:16Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.17051",
+    "title": "Institution-Specific LLM Prompting Recovers PHI That De-identification Systems and Their Gold Standards Both Miss",
+    "authors": [
+      "Daniel Palacios",
+      "Matthew Brady Neeley",
+      "Angel Adetomike Otto",
+      "Shalini Dhamodharan",
+      "John P. Woodhouse",
+      "Chi-fan Lin",
+      "Mark Zobeck",
+      "Zhandong Liu",
+      "Hyun-Hwan Jeong"
+    ],
+    "source": "arxiv",
+    "category": "cs.CL",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.17051",
+    "abstract": "Secondary use of electronic health records requires de-identification, yet existing systems miss \\emph{institutionally situated} protected health information (PHI) such as hospital abbreviations, building names, and internal codes whose status is locally determined. We ask whether large language models (LLMs) with in-context learning (ICL) can close this gap and control the precision--recall trade-off. On 100 annotated pediatric oncology notes (5,322 PHI spans) from Texas Children's Hospital, we benchmarked eight LLMs against two purpose-built systems (Stanford TiDE, OpenMed PII) and two pattern-based baselines. Each LLM ran under three prompts of increasing specificity: (1) a HIPAA-aligned baseline, (2) baseline plus the institutional PHI categories it missed, and (3) prompt 2 plus instructions against over-redacting clinical content. We then compared 14~multi-agent and ensemble configurations against the best single prompt, with recall the primary safety metric. LLMs outperformed the purpose-built systems (best F1=0.918$\\pm$0.001 vs.\\ TiDE 0.779), with advantages concentrated in contextual categories. Naming the missed categories recovered 79\\% (48/61) of them, and discouraging over-redaction restored precision. No agentic architecture beat calibrated single-pass prompting (F1 0.906--0.907), but LLM outputs surfaced 414~candidate annotation gaps; re-annotation confirmed 227~PHI spans, against which the final prompt reached recall=0.981 (F1=0.907$\\pm$0.002). Well-calibrated ICL resolves both the institutional PHI gap and the precision--recall trade-off in one LLM call per note. LLMs cost more to run than traditional methods, but that cost buys a way to audit the reference standard. LLMs are a legitimate, adaptable alternative to purpose-built de-identification systems; institution-specific prompt development should be the primary adaptation strategy.",
+    "published_date": "2026-08-17",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-19T03:44:16Z",
     "memo": "",
     "memo_updated_at": null
   },
