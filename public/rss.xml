@@ -4,90 +4,153 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Wed, 19 Aug 2026 03:44:16 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 03:44:23 GMT</lastBuildDate>
     <item>
-      <title>A Theoretical Framework for Parallel Lifelong MAPF Using Group Decentralized Planning</title>
-      <link>https://arxiv.org/abs/2608.17928</link>
-      <guid isPermaLink="false">arxiv:2608.17928</guid>
+      <title>Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication</title>
+      <link>https://arxiv.org/abs/2608.19161</link>
+      <guid isPermaLink="false">arxiv:2608.19161</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Language-model agents can communicate through continuous hidden states that are invisible in public transcripts, creating opportunities for covert harmful coordination. We introduce Verifiable Latent Alignments (VLA), an activation-aware framework for monitoring and steering these private communication channels. For every monitored decision, VLA links the private latent-state record and channel status to the resulting public action using a shared event identifier, enabling matched causal analysi</description>
+    </item>
+    <item>
+      <title>Autonomous Cyber Defense in Connected Vehicles: A Multi-Agent Approach to V2X Security</title>
+      <link>https://arxiv.org/abs/2608.19135</link>
+      <guid isPermaLink="false">arxiv:2608.19135</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>A connected vehicle has roughly 100 milliseconds to decide whether an incoming Basic Safety Message is real or fabricated. If a false emergency braking alert reaches the planning pipeline in time, the car brakes - a safety failure triggered by a security failure. Existing intrusion detection systems are not designed to handle that coupling. They operate per vehicle, per message, with static rules - blind to attack patterns that only emerge across a fleet or over time, and blind to the fundamenta</description>
+    </item>
+    <item>
+      <title>DA-WAM: Decision-Aligned Future Latents for Driving World Models</title>
+      <link>https://arxiv.org/abs/2608.19085</link>
+      <guid isPermaLink="false">arxiv:2608.19085</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Anticipating how scenes evolve under ego actions is fundamental to safe autonomous driving, yet the full potential of world models for decision-making remains unrealized. The critical challenge lies in ensuring that future modeling is not merely predictive, but decision-informative: the predicted future must directly shape which trajectory is selected. Existing approaches decouple future representation learning from planning optimization, or share predicted states across trajectory candidates, t</description>
+    </item>
+    <item>
+      <title>Multi-Agent Off-Policy Deep Reinforcement Learning for Smart Campus Coverage</title>
+      <link>https://arxiv.org/abs/2608.19049</link>
+      <guid isPermaLink="false">arxiv:2608.19049</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Deep reinforcement learning (DRL) has recently gained a great attention due to its real-time adaptation and effectiveness in complex optimization problems. This paper investigates the optimal deployment of millimeter-wave (mmWave) base stations (BSs) in a realistic, non-convex campus topology. The optimization problem is NP-hard, due to the non-convex, non-smooth nature of the max-min fairness objective. To overcome these constraints, we formulate the BS placement as a Markov Decision Process (M</description>
+    </item>
+    <item>
+      <title>Adaptive Memory and Reflection Multi-Agent System for Medical Question Answering</title>
+      <link>https://arxiv.org/abs/2608.19029</link>
+      <guid isPermaLink="false">arxiv:2608.19029</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Accurate and responsible medical question answering (QA) is important in healthcare, where complex cases require factual knowledge and nuanced reasoning. Existing medical QA systems, typically based on single-agent architectures and static retrieval, often lack adaptability, persistent memory, and structured decision-making. This work introduces an adaptive memory and reflection (AMR) agentic system, a multi-agent framework in which specialized agents use dedicated memory and reflection-based fe</description>
+    </item>
+    <item>
+      <title>One-Stage Object Detectors in Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2608.19014</link>
+      <guid isPermaLink="false">arxiv:2608.19014</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Autonomous vehicles depend on fast and reliable perception systems to detect surrounding vehicles, pedestrians, cyclists, traffic signs, and other road objects in real time. This paper presents a comprehensive survey and analysis of one-stage object detectors for autonomous driving rather than an implementation of a new detection system. The survey reviews the evolution of major one-stage detectors, including YOLOv1, SSD, RetinaNet, EfficientDet, anchor-free detectors such as FCOS and CenterNet,</description>
+    </item>
+    <item>
+      <title>\textsc{TestifAI}: Tomography-Based Testing for Deep Learning Systems</title>
+      <link>https://arxiv.org/abs/2608.18900</link>
+      <guid isPermaLink="false">arxiv:2608.18900</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>As AI systems are increasingly deployed in safety-critical application domains (e.g., autonomous driving), associated risks increase too. Deep learning models underlying modern AI systems, therefore, must undergo thorough testing to ensure their correct behaviour. A single robustness test involves thousands of inferences to empirically verify if a model's outputs remain stable under a bounded perturbation of its inputs. However, existing testing frameworks lack the means to systematically explor</description>
+    </item>
+    <item>
+      <title>Training-Free Inference-Time Self-Reflection and Cost-Bounded Early Stopping for Large Language Models</title>
+      <link>https://arxiv.org/abs/2608.18884</link>
+      <guid isPermaLink="false">arxiv:2608.18884</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Reinforcement-learning training of reasoning LLMs (e.g., GRPO) is expensive and requires a controllable environment, committing every contribution to a full training pipeline. We present EvoResearcher, a training-free, inference-time protocol that adds cost-bounded self-reflection to a single frozen LLM backbone. The protocol iterates generate -&gt; self-critique -&gt; revise until a maximum depth D is reached or the critique returns the CONFIRMED sentinel, an implicit early stop that lets the backbon</description>
+    </item>
+    <item>
+      <title>DentAgent: Evidence-Centric Multi-Agent Coordination for Multimodal Dental Reasoning</title>
+      <link>https://arxiv.org/abs/2608.18878</link>
+      <guid isPermaLink="false">arxiv:2608.18878</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Oral diseases affect billions of people worldwide, underscoring a pressing need for accurate and reliable dental assessment that integrates heterogeneous evidence from domain knowledge, radiographs, intraoral photographs, and 3D dental data. Most existing dental AI systems remain modality- or task-specific. Although recent vision-language models support flexible dental question answering, directly generated response leaves evidence implicit and untraceable. To address these limitations, we intro</description>
+    </item>
+    <item>
+      <title>A Multi-Agent Platform for Automated Enterprise Analytics and Insight Generation</title>
+      <link>https://arxiv.org/abs/2608.18740</link>
+      <guid isPermaLink="false">arxiv:2608.18740</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>This paper proposes a multi-agent framework built on CrewAI [1] for conversational business intelligence. Five specialized AI agents operate in a sequential pipeline to process natural language queries, retrieve and analyze data, generate visualizations via the Model Context Protocol (MCP) [2], and deliver actionable insights. The platform features a defense-in-depth security architecture for multi-tenant data isolation and a query parameterization mechanism for transforming conversational insig</description>
+    </item>
+    <item>
+      <title>The Impact of CutMix on Reliability and Robustness in Semantic Segmentation</title>
+      <link>https://arxiv.org/abs/2608.18715</link>
+      <guid isPermaLink="false">arxiv:2608.18715</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Ensuring not only high accuracy but also reliable and robust predictions is critical for the deployment of semantic segmentation models in safety-critical applications such as autonomous driving. Despite the widespread use of CutMix - a simple yet powerful data augmentation strategy - its effect on the reliability and robustness in dense predictions tasks remains unexplored. Motivated by recent findings that semi-supervised segmentation methods, where CutMix is a core component, can severely deg</description>
+    </item>
+    <item>
+      <title>Sanyu Studio: A Multi-Agent System for Art-Historical Narrative Construction</title>
+      <link>https://arxiv.org/abs/2608.18677</link>
+      <guid isPermaLink="false">arxiv:2608.18677</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Amid concerns that generative AI may standardize art interpretation, this paper examines whether LLM-based interaction can support plural art-historical narrative construction. We present Sanyu Studio, a multi-agent dialogue system that models 321 Sanyu oil paintings as agents with fact, interpretation, organization, and memory-filtering mechanisms. Based on a seven-day workshop with eight art-university participants, the study shows that user prompts, evidence organization, and cognitive tenden</description>
+    </item>
+    <item>
+      <title>CentaurBench: Benchmarking LLM Capabilities on Augmenting vs. Automating Real-World Work Tasks</title>
+      <link>https://arxiv.org/abs/2608.18554</link>
+      <guid isPermaLink="false">arxiv:2608.18554</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Most LLM benchmarks rank models on their ability to automate work tasks. In practice, however, models are often used to assist other (human or LLM) agents. The question that drives model selection is therefore not only which model produces the best output, but which model most improves the work of another (weaker) agent. We introduce a unified framework that evaluates the capability of models to automate and augment another agent's performance. Across seven economically grounded real-world tasks</description>
+    </item>
+    <item>
+      <title>Bridging Search and CRM: Productionizing AI Product Research Agents for Customer Re-Engagement</title>
+      <link>https://arxiv.org/abs/2608.18543</link>
+      <guid isPermaLink="false">arxiv:2608.18543</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Modern e-commerce platforms often operate search, recommendation, personalization, and CRM systems independently, limiting opportunities for proactive customer re-engagement. This is particularly challenging for exploratory intents such as best smartphones or latest 5G phones, where users may leave the platform for external research before purchasing. We present a scalable, production-deployed framework that bridges search and CRM workflows through AI-powered Product Research Agents. The system </description>
+    </item>
+    <item>
+      <title>Bayesian Partner Modelling enables Adaptive Replanning for LLM Coordination</title>
+      <link>https://arxiv.org/abs/2608.18490</link>
+      <guid isPermaLink="false">arxiv:2608.18490</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Multi-agent Large Language Model (LLM) systems often struggle to collaborate with new teammates whose strategies shift mid-task. Because agents execute multi-step or temporally extended skills, they frequently continue executing outdated plans long after public evidence shows that a partner has changed its skill. Existing methods either treat partner tracking as passive context-leaving the agent aware of the shift but slow to act-or replan indiscriminately. We introduce BayesBeliefAgent, which p</description>
+    </item>
+    <item>
+      <title>A Locally Deployable Tool-Grounded LLM Multi-agent Framework for Automating Methane Emission Analysis and Reporting</title>
+      <link>https://arxiv.org/abs/2608.18473</link>
+      <guid isPermaLink="false">arxiv:2608.18473</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Methane field monitoring requires the integration of sampling design, meteorological interpretation, sensor processing, plume analysis, visualization, and reporting, but these steps are often distributed across separate expert-driven workflows. We developed a locally deployable, tool-grounded large language model (LLM) multi-agent framework for our low-cost methane sensing and field-monitoring campaigns. The framework uses LLM agents as workflow coordinators that link field measurements, meteoro</description>
+    </item>
+    <item>
+      <title>Backward Layout Search for Sequence-Constrained Robotic Assembly</title>
+      <link>https://arxiv.org/abs/2608.18454</link>
+      <guid isPermaLink="false">arxiv:2608.18454</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Robotic assembly layout planning must determine the assembly site and the initial pose of each part while ensuring collision-free execution of a prescribed assembly sequence. This problem is challenging because the obstacle environment changes after each assembly step, and unassembled parts re maining in the workspace may block robot motions. We observe that the feasibility of each assembly step depends only on the initial poses of the current and later-assembled parts. Based on this dependency,</description>
+    </item>
+    <item>
+      <title>Adaptive Multi-Agent Feature Selection for Personalized Fall Risk Prevention</title>
+      <link>https://arxiv.org/abs/2608.18450</link>
+      <guid isPermaLink="false">arxiv:2608.18450</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Falls among older adults represent a major public health challenge driven by complex, time-varying interactions across multiple risk domains. Effective fall risk factor identification requires learning from heterogeneous longitudinal data while accounting for sparse and delayed fall-related outcome events. However, existing approaches are largely static and fail to adaptively model evolving, individualized risk factors across modalities and time. We propose PAFIR, a Personalized and Adaptive Fea</description>
+    </item>
+    <item>
+      <title>Model Predictive Supervisory Control for Hierarchical and Distributed UAS Traffic Management</title>
+      <link>https://arxiv.org/abs/2608.18353</link>
+      <guid isPermaLink="false">arxiv:2608.18353</guid>
       <pubDate>2026-08-18</pubDate>
-      <description>In the Lifelong Multi-Agent Path Finding (L-MAPF) problem, agents must repeatedly move from one destination to another while avoiding obstacles and inter-agent collisions. Widely regarded as one of the highest-performing solutions to this problem is the Rolling-Horizon Collision Resolution (RHCR) framework. However, commensurate with its quality solutions, it incurs a computational cost that limits its applicability to even modest agent counts. In this paper, leveraging theoretical methods from </description>
+      <description>This work proposes a hierarchical Model Predictive Supervisory Control (MPSC) framework for multi-agent systems with shared resources. MPSC integrates receding-horizon cost-optimal control with Supervisory control theory (SCT) based supervision that enforces safety, nonblockingness, and resource exclusivity. Scalability arises from hierarchical and scalable supervisor and automaton templates, enabling distributed execution without monolithic synthesis. Using this framework, this work develops an</description>
     </item>
     <item>
-      <title>ControlledShifts: Towards Standardizing Robustness Evaluation in Trajectory Prediction Under Distribution Shifts</title>
-      <link>https://arxiv.org/abs/2608.17882</link>
-      <guid isPermaLink="false">arxiv:2608.17882</guid>
+      <title>SeisEvo: Evolution of Seismic Data Reconstruction Algorithms by Agents</title>
+      <link>https://arxiv.org/abs/2608.18272</link>
+      <guid isPermaLink="false">arxiv:2608.18272</guid>
       <pubDate>2026-08-18</pubDate>
-      <description>Trajectory prediction is central to safety in autonomous driving, yet learning-based predictors tend to degrade sharply when encountering scenarios poorly represented by their training data. Many methods attempt to mitigate distribution shift degradation through data-centric or test-time adaptation approaches; however, they are typically validated along fragmented axes of generalization, leaving the field without a standardized way to compare robustness across shifts a model may encounter. To ad</description>
+      <description>Classical seismic data reconstruction relies on manually designed structural priors and iterative operators, whose coupled design space is far larger than manual trial and error can explore systematically. Deep-learning methods encode the reconstruction rules in learned weights rather than in an explicit operator that can be inspected and modified. We propose SeisEvo (Seismic Algorithm Evolution), which does not optimize a single reconstruction result but searches for the algorithm that produces</description>
     </item>
     <item>
-      <title>Stability Control for Real World Testing in Autonomous Racing</title>
-      <link>https://arxiv.org/abs/2608.17779</link>
-      <guid isPermaLink="false">arxiv:2608.17779</guid>
+      <title>GAPL: Grounded Action-effect Policy Learning for LLM-Based Trajectory Planning</title>
+      <link>https://arxiv.org/abs/2608.18254</link>
+      <guid isPermaLink="false">arxiv:2608.18254</guid>
       <pubDate>2026-08-18</pubDate>
-      <description>Controlling an autonomous vehicle at the limits of handling is a challenging task. Due to external influences, such as road conditions or weather, a vehicle can easily become unstable. Since most control algorithms assume stable vehicle behavior, they might fail in these situations. Especially when operating expensive vehicles without a safety driver on board, as in autonomous racing, this poses a significant challenge. To enable safe operation at the vehicle's dynamic limits, we present a compr</description>
-    </item>
-    <item>
-      <title>Debate Training Reduces Reward Hacking in RLAIF</title>
-      <link>https://arxiv.org/abs/2608.17776</link>
-      <guid isPermaLink="false">arxiv:2608.17776</guid>
-      <pubDate>2026-08-18</pubDate>
-      <description>We demonstrate that RL finetuning an LLM using debate, a two-player adversarial game between a generator and a critic adjudicated by a weaker LLM judge, reduces reward hacking compared to a reinforcement learning from AI feedback (RLAIF) baseline. Reward hacking is a central obstacle in RLAIF: as training progresses, the policy learns to exploit systematic errors in its AI judge, degrading task performance, a problem that worsens precisely when the judge is weaker than the policy, the setting mo</description>
-    </item>
-    <item>
-      <title>The Curious Case of Exploding DecPOMDPs: Containing the Fire through Policy Counting</title>
-      <link>https://arxiv.org/abs/2608.17749</link>
-      <guid isPermaLink="false">arxiv:2608.17749</guid>
-      <pubDate>2026-08-18</pubDate>
-      <description>Decentralised partially observable Markov decision processes (DecPOMDPs) provide a general framework for modelling multi-agent decision making under uncertainty. However, DecPOMDPs are known to suffer from exponential complexity in the number of agents. One way to combat this intractability in agent numbers is to look at partitions of agents that exhibit a form of symmetry among agents, allowing for a compact encoding by counting. However, a challenge arises as the policy space explodes, even th</description>
-    </item>
-    <item>
-      <title>Offline Multi-Agent Reinforcement Learning with a Physics-Informed World Model for Cooperative Mixed Traffic Control</title>
-      <link>https://arxiv.org/abs/2608.17739</link>
-      <guid isPermaLink="false">arxiv:2608.17739</guid>
-      <pubDate>2026-08-18</pubDate>
-      <description>This study investigates cooperative control of connected and automated vehicles (CAVs) at partially observable highway bottlenecks in mixed traffic, aiming to mitigate congestion without relying on complete global traffic states or online trial-and-error. We propose a physics-informed world model-based offline multi-agent reinforcement learning framework that reconstructs a physically interpretable global traffic state from local CAV observation-action histories, with coupled macroscopic-microsc</description>
-    </item>
-    <item>
-      <title>GADR: Gathering Architecture Decision Records from Meeting Transcriptions</title>
-      <link>https://arxiv.org/abs/2608.17694</link>
-      <guid isPermaLink="false">arxiv:2608.17694</guid>
-      <pubDate>2026-08-18</pubDate>
-      <description>Existing LLM-based approaches to Architecture Decision Record (ADR) generation share a critical and largely unexamined assumption: that input is already reasonably structured. In practice, architectural decisions emerge from informal, noisy meetings where choices are implicit, fragmented, and entangled with off-topic dialogue, precisely the conditions under which single-pass prompting degrades. This paper presents GADR, a multi-agent, self-correcting workflow that extracts architectural decision</description>
-    </item>
-    <item>
-      <title>Domain-Adapted Molecular Language Models for Efficient Search of Make-on-Demand Libraries</title>
-      <link>https://arxiv.org/abs/2608.17567</link>
-      <guid isPermaLink="false">arxiv:2608.17567</guid>
-      <pubDate>2026-08-18</pubDate>
-      <description>Pretrained molecular language models are increasingly used as molecular encoders for learning structure-property relationships. However, their practical suitability for molecular discovery within and beyond their pretraining domain remains unclear. Herein, we systematically benchmark four molecular language models across six virtual molecular libraries spanning drug discovery, organic materials, and catalysis. Native molecular language model embeddings show substantial variation in discovery per</description>
-    </item>
-    <item>
-      <title>Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL</title>
-      <link>https://arxiv.org/abs/2608.17253</link>
-      <guid isPermaLink="false">arxiv:2608.17253</guid>
-      <pubDate>2026-08-18</pubDate>
-      <description>Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth supervision (e.g., verifiable reward). Such annotations are costly to obtain and become increasingly scarce as reasoning capabilities advance beyond what humans can reliably evaluate. Self-rewarding RL reduces this dependence by enabling models to derive reward signals from their own completions. However, t</description>
-    </item>
-    <item>
-      <title>Token Optimization and Context Window Management in Multi-Agent AI Workflows</title>
-      <link>https://arxiv.org/abs/2608.17188</link>
-      <guid isPermaLink="false">arxiv:2608.17188</guid>
-      <pubDate>2026-08-17</pubDate>
-      <description>Multi-agent AI workflows are limited not only by model quality but by token cost, latency, and context-window quality. This paper presents a practitioner framework for token optimization and context-window management, grounded in an internal production dashboard that extracts structured work items from meetings, email, and chat with LLMs and routes summaries across workstreams. Six patterns are described: context stratification, fetch-once/process-locally architecture, schema-contracted prompts,</description>
-    </item>
-    <item>
-      <title>KernelArc: A Multi-Agent Framework for GPU Kernel Optimization</title>
-      <link>https://arxiv.org/abs/2608.17071</link>
-      <guid isPermaLink="false">arxiv:2608.17071</guid>
-      <pubDate>2026-08-17</pubDate>
-      <description>We present KernelArc, a multi-agent framework for autonomous GPU kernel optimization across heterogeneous workloads. Strategy-specialized agents run in parallel and coordinate through conclusions-only shared memory, a deterministic benchmark guard, and read-only cross-agent state with plateau-triggered drafting. We evaluate \kernelarc{} on NVIDIA H100 and B200 GPUs using category-representative SOL-ExecBench workloads. The resulting implementations span custom BF16 GEMM, static cuBLASLt Expert-A</description>
-    </item>
-    <item>
-      <title>Institution-Specific LLM Prompting Recovers PHI That De-identification Systems and Their Gold Standards Both Miss</title>
-      <link>https://arxiv.org/abs/2608.17051</link>
-      <guid isPermaLink="false">arxiv:2608.17051</guid>
-      <pubDate>2026-08-17</pubDate>
-      <description>Secondary use of electronic health records requires de-identification, yet existing systems miss \emph{institutionally situated} protected health information (PHI) such as hospital abbreviations, building names, and internal codes whose status is locally determined. We ask whether large language models (LLMs) with in-context learning (ICL) can close this gap and control the precision--recall trade-off. On 100 annotated pediatric oncology notes (5,322 PHI spans) from Texas Children's Hospital, we</description>
+      <description>Trajectory planning for autonomous driving requires both high-level reasoning and precise low-level control. Large Language Models (LLMs) offer semantic-rich planning capabilities, however, their application is limited by hallucinated reasoning, poor grounding in environment dynamics, and limited numerical precision in control. We propose GAPL (Grounded Action-effect Policy Learning), a unified framework that integrates LLM-based effect estimation, simulation-based effect grounding, and policy o</description>
     </item>
   </channel>
 </rss>
