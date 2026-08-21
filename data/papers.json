@@ -1,5 +1,352 @@
 [
   {
+    "id": "arxiv:2608.20320",
+    "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
+    "authors": [
+      "Narges Ahmadi",
+      "Yubo Jiao",
+      "Jônatas Augusto Manzolli",
+      "Jiangbo Yu",
+      "Luis Miranda-Moreno"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20320",
+    "abstract": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral prediction. A chatbot-administered, image-augmented stated-preference survey collected mode choices from student commuters across five predefined weather scenarios, yielding 454 respondent-scenario observations. Weather-related associations were analyzed using a multinomial logit model, while logistic regression and random forest provided machine-learning benchmarks. Nine locally deployed large language models (LLMs), ranging from 2 to 35 billion parameters, were evaluated across four zero-shot prompt-and-context conditions and extended through persona, few-shot, and vision-based configurations. Random forest achieved 69.6% five-class accuracy, while the best text-only zero-shot LLM reached 69.9% without task-specific fitting. Habitual travel information produced the most consistent gains, Expert framing generally outperformed Role-Play, and persona information was most useful when habitual travel information was unavailable. Few-shot prompting improved prediction for several models, with gains stabilizing after a small number of examples. Using the same weather images shown to respondents, the best vision-based configuration reached 71.5% five-class accuracy, indicating that visual context may provide additional predictive information for selected models. Overall, the study shows how conversational surveys, structured data processing, conventional behavioral modeling, machine learning, and multimodal LLM prediction can be coordinated within an auditable multi-agent workflow.",
+    "published_date": "2026-08-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-21T03:48:41Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20284",
+    "title": "Towards Surgical World-Action Modeling: A Preliminary Joint Visual-Trajectory Forecasting for Surgical Motion Planning",
+    "authors": [
+      "Weiliang Huang",
+      "Huanrong Liu",
+      "Bob Zhang",
+      "Qi Dou",
+      "Zhen Chen",
+      "Yun Gu",
+      "Guy Rosman",
+      "Qingbiao Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20284",
+    "abstract": "Reliable surgical planning requires models to anticipate not only how instruments will move, but also how the operative visual state will evolve together with such motion. Existing approaches typically treat future scene generation and instrument trajectory prediction as two separate tasks. Scene-only models cannot directly evaluate the accuracy of future instrument motion at the trajectory level, while trajectory-only models fail to capture the visual consequences of instrument movement, leaving the consistency between predicted trajectories and future scene evolution unaddressed. Jointly forecasting both provides a more complete account of surgical action-scene dynamics by enabling explicit trajectory-level evaluation while simultaneously modeling the corresponding visual evolution. To bridge this gap, we present a preliminary joint visual-trajectory world-action model that simultaneously forecasts future visual states and instrument trajectories from historical surgical observations. Specifically, we encode historical video frames and tool trajectories into latent representations, which are processed by a temporal-spatial encoder and subsequently decoded through separate visual-state and trajectory prediction heads. Based on this preliminary architecture, a chunked autoregressive rollout is repeatedly applied to predict fifteen future steps. The chunked strategy consistently outperforms direct one-shot prediction across all evaluated horizons, improving first-segment PSNR from 18.86 to 23.11 dB and reducing ADE from 45.77 to 22.22 pixels. These results demonstrate the initial feasibility of joint visual-motion forecasting. However, we observe progressive visual degradation and accumulated trajectory errors over longer prediction horizons, which remain important challenges for future surgical world-action modeling.",
+    "published_date": "2026-08-20",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-21T03:48:41Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20129",
+    "title": "Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving",
+    "authors": [
+      "Mehdi Azarafza",
+      "Faezeh Pasandideh",
+      "Ali Ehteshami Bejnordi",
+      "Stefan Henkler",
+      "Achim Rettberg"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20129",
+    "abstract": "Autonomous vehicles require robust perception and decision-making capabilities to operate in diverse and unseen scenarios. While reinforcement learning and rule-based methods can provide effective control and safety mechanisms, their performance may degrade in situations requiring contextual reasoning. Large Language Models (LLMs) have demonstrated strong capabilities in understanding multimodal information and generating contextual reasoning, however, their use for direct vehicle control can introduce latency and hallucination risks. To address these limitations, a hybrid framework is proposed. This system uses an orchestrator to coordinate PPO-trained reinforcement learning and PID control, with LLM common-sense reasoning applied throughout the framework. LLM reasoning is further employed iteratively to refine the RL reward function for dynamic driving environments. The proposed framework is evaluated in highly randomized CARLA scenarios under diverse environmental and traffic conditions. The results demonstrate the potential of integrating LLM-based reasoning with conventional autonomous driving methods while retaining structured control and safety mechanism.",
+    "published_date": "2026-08-20",
+    "tags": [
+      "marl",
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "17 pages, 7 figures",
+    "fetched_at": "2026-08-21T03:48:41Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20111",
+    "title": "Planning-Oriented End-to-End Autonomous Driving: Architectures, Evaluation, and Emerging Paradigms",
+    "authors": [
+      "Yanchen Guan",
+      "Xingcheng Liu",
+      "Bin Rao",
+      "Chengyue Wang",
+      "Guofa Li",
+      "Yunjian Li",
+      "Lishengsa Yue",
+      "Zhiyong Cui",
+      "Chengzhong Xu",
+      "Zhenning Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20111",
+    "abstract": "End-to-end autonomous driving has evolved from camera-to-control regression toward planning-oriented systems that use structured representations, trajectory-level outputs, and increasingly realistic evaluation protocols. This survey reviews this transition across behavior cloning, conditional imitation learning, privileged distillation, BEV and vectorized planning, unified perception-prediction-planning architectures, world-model-based planners, and vision-language-action systems. We argue that the key distinction in modern end-to-end driving is not whether intermediate representations are used, but whether they are learned, supervised, and evaluated to support safe, feasible, and route-compliant planning. To organize the literature, we synthesize existing methods along four axes: input representation, planning output, supervision signal, and evaluation protocol. We further examine the benchmark shift from open-loop trajectory matching to closed-loop simulation, non-reactive real-log evaluation, long-tail testing, and human-preference-aware metrics. Our analysis highlights that architectural progress is difficult to interpret without benchmark-consistent evaluation, and that displacement-based open-loop metrics alone provide limited evidence for safe and human-aligned driving. We conclude with open challenges in uncertainty-aware planning, learner-expert mismatch, runtime safety assurance, language-action grounding, world-model validation, and reproducible benchmarking.",
+    "published_date": "2026-08-20",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-21T03:48:41Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20099",
+    "title": "Reward-Guided Autoregressive Graph Generation for Efficient Multi-Agent Communication Topology Design",
+    "authors": [
+      "Poomphob Suwannapichat",
+      "Boonyarit Changaival",
+      "Caesar Wu",
+      "Pascal Bouvry"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20099",
+    "abstract": "LLM-based Multi-Agent Systems (MAS) achieve strong performance on complex reasoning tasks by coordinating multiple agents, but at the cost of substantial token consumption. Recent work on automatic topology design, ARG-Designer, has reframed this problem as autoregressive graph generation. However, its training objective provides no explicit incentive for the model to generate sparse and efficient topologies. We address this limitation by introducing a Reward-Guided Autoregressive Graph Generation (RGA-Designer) inspired by Reinforcement Learning from Human Feedback (RLHF). We train a reward model that jointly captures task correctness and structural compactness, and then fine-tune the pretrained graph generator using the reward model as feedback. Our method preserves task accuracy at the level of ARG-Designer while reducing token consumption by an average of 20.5%.",
+    "published_date": "2026-08-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Full version of extended abstract accepted at ICONIP 2026 (poster)",
+    "fetched_at": "2026-08-21T03:48:41Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20087",
+    "title": "Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Planning and Tracking",
+    "authors": [
+      "Tao Huang",
+      "Ruofei Liu",
+      "Xuchen Tang",
+      "Xinyin Zhang",
+      "Junli Ren",
+      "Huayi Wang",
+      "Feiyu Jia",
+      "Yukai Qi",
+      "Kangning Yin",
+      "Weishuai Zeng",
+      "Lipeng Chen",
+      "Xi Li",
+      "Ting Wu",
+      "Kailin Li",
+      "Ruoli Dai",
+      "Jingbo Wang",
+      "Lei Han",
+      "Jiangmiao Pang"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20087",
+    "abstract": "Humanoid robots have recently demonstrated promising capabilities in real-world ball sports. However, achieving professional motion styles while maintaining strong task performance remains challenging. In this work, we propose AdaPT, an Adaptive Motion Planning and Tracking framework that learns professional tennis serving and rally styles directly from broadcast videos. This hierarchical design is motivated by the key insight that the planner generates stylistic kinematic motions, while the tracker executes them with minimal interference with planning. Despite its effectiveness in simulation, a substantial sim-to-real gap emerges: tracking performance inevitably degrades on real robots, and this degradation is partially overlooked by autoregressive planning and further compounded by noisy perception. To address these issues, our adaptation mechanism improves tracking robustness by learning to track randomized execution speeds, while conditioning the planner on a learned motion-speed adapter to mitigate compounding errors. Real-world experiments on the Unitree G1 demonstrate the effectiveness of our adaptation mechanism in bridging the sim-to-real gap. We further deploy AdaPT policies on the full-size Dobot Atom humanoid robot (1.7m) and demonstrate in-the-wild serving without motion capture. Beyond these results, our real-world experiments reveal both algorithmic and engineering insights for future humanoid ball-sports systems. Videos and code are available on our \\href{https://humanoidtennis.github.io/AdaPT/}{project website}.",
+    "published_date": "2026-08-20",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "14 pages",
+    "fetched_at": "2026-08-21T03:48:41Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20084",
+    "title": "Evidence-Gated Task and Motion Planning with Vision-Language Models",
+    "authors": [
+      "Tsunehiko Tanaka",
+      "Matthew Stephenson",
+      "Alistair Macvicar",
+      "Edgar Simo-Serra"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20084",
+    "abstract": "Robots executing long-horizon manipulation tasks from natural-language instructions must reason about both semantic task structure and geometric feasibility. However, under partial observability, the availability of goal-relevant objects may be uncertain. In such cases, approaches that combine Vision-Language Models (VLMs) with Task and Motion Planning (TAMP) may generate subgoals that rely on the VLM's prior knowledge without observational support, leading to execution failures or unintended outcomes. We propose Evidence Acquisition and Feasibility Gating (EAFG), a framework that acquires visual evidence through VLM-generated exploratory subgoals and TAMP-based execution. EAFG then applies a feasibility gate to decide whether to proceed with task planning, acquire further evidence, or halt. Our experiments show that, in cooking tasks with ambiguous object use, EAFG improves recipe completion by discovering task-relevant objects before planning. For instructions requiring an absent object, EAFG promotes appropriate halt decisions and reduces repeated attempts to manipulate that object.",
+    "published_date": "2026-08-20",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-21T03:48:41Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.19964",
+    "title": "G-MARK: Grounded Multi-Agent Reasoning for Cooperative Driving via Knowledge Graphs",
+    "authors": [
+      "Bhavya Gupta",
+      "Onat Gungor",
+      "Tajana Rosing"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.19964",
+    "abstract": "Autonomous driving systems must operate under partial observability, where safety-critical objects may be occluded or visible only to neighboring connected vehicles. Vehicle-to-vehicle cooperation can reduce this uncertainty, but existing cooperative driving methods often compress multi-agent evidence into latent features or hidden multimodal states. As a result, they obscure which agent observed each object, whether the object is visible to the ego vehicle, and how conflicting evidence affects downstream decisions. We propose G-MARK, a grounded multi-agent reasoning framework that converts cooperative object-centric observations into explicit provenance-aware knowledge graphs (KGs). The resulting KGs preserve object hypotheses together with their source attribution, ego-versus-partner visibility, uncertainty, conflicts, spatial relations, and planning-relevant context. G-MARK then derives a shared feature representation from these KGs, enabling lightweight task heads to support object reasoning, motion prediction, control selection, and trajectory forecasting. Compared with the state-of-the-art baseline, GMARK improves occlusion reasoning accuracy by 42.2%, reduces control-selection error by 13.1%, and achieves comparable trajectory-planning accuracy with a 25.6x smaller structured communication payload. Our code is available at https://github.com/bhavyagupta98/g-mark.",
+    "published_date": "2026-08-20",
+    "tags": [
+      "marl",
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted for oral presentation at the 25th IEEE International Conference on Machine Learning and Applications (ICMLA'26)",
+    "fetched_at": "2026-08-21T03:48:41Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.19740",
+    "title": "Keeping the Franka Emika Panda alive: a ROS 2 stack with a reliable position interface",
+    "authors": [
+      "Antonio Langella",
+      "Davide Risi",
+      "Vincenzo Petrone",
+      "Enrico Ferrentino",
+      "Pasquale Chiacchio"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.19740",
+    "abstract": "This paper presents an open-source software stack that restores ROS 2 support for the Franka Emika Panda robot while resolving the long-standing unreliability of its external position control interface. We first analyze the root causes of unstable position control and show that the observed vibrations and protective stops arise from the timing of the external control loop and sampling jitter, rather than from limitations of the robot itself. Building on this analysis, we introduce an asynchronous hardware interface that decouples real-time communication from the ROS 2 control loop, a rate-matching mechanism for slower command sources, and a position-domain reference generation strategy that produces reliable, smooth position commands. Experimental validation shows that the proposed architecture reliably tracks velocity references by reducing motion artifacts introduced by the official implementation, and the stack is validated across motion planning, compliance control, position-controlled manipulation, and haptic teleoperation on two independent Panda platforms. By restoring a modern, reliable, and open ROS 2 ecosystem for the Panda, this work lowers the barrier to developing safe, responsive, and reproducible human-robot collaboration applications that integrate planning, perception, interaction, and shared autonomy. Code and videos are available on our website at https://sites.google.com/view/fer-ros2/.",
+    "published_date": "2026-08-20",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "12 pages, 10 figures, submitted to ICINCO 2026",
+    "fetched_at": "2026-08-21T03:48:41Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.19739",
+    "title": "Question-Guided Evidence Acquisition for Multimodal Visual Question Answering",
+    "authors": [
+      "Alin-Ionut Popa"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.19739",
+    "abstract": "Multimodal LLMs can see a document, but they often can't read it reliably. Small text, tables, visual cues, and topological elements still trip them up under direct visual inference, even when the page is already sitting in the model's context. Most document-VQA systems treat perception as fixed: they encode the page once, ask the question, and answer from whatever the model happened to extract in that single fast pass. We think document VQA needs slower, more deliberate perception: rather than answering from one fixed encoding, the model should spend a bit of extra compute at inference time working out what to look at next, and only then answer. We build this into \\textbf{Q-Guide}, a small agent that reads a question, works out what evidence it is still missing, and calls targeted tool(s) to recover it---reading text where text is needed, zooming in where detail is needed, or grounding a region where position matters. On DocVQA2026 and Manga109, Q-Guide outperforms both direct prompting and recent multi-agent document systems ($65.0\\%$ vs.\\ $40.0\\%$ on DocVQA2026, $32.4\\%$ vs.\\ $24.4\\%$ on Manga109), and the improvement holds across three Claude backbones (Opus 4.6, Sonnet 4.6, and Opus 4.5). We find that accuracy scales with the perception budget---most of the gain appears within two to three deliberate rounds---and that the gain comes from directing perception to the right place, not from complex control logic: adding planners, routers, or multiple collaborating agents does not help.",
+    "published_date": "2026-08-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-21T03:48:41Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.19701",
+    "title": "Beyond Memory Majority: Latent-Source Reasoning for Multi-Agent Memory Arbitration",
+    "authors": [
+      "Chenchen Lin",
+      "Wenhao Yuan",
+      "Xuehe Wang",
+      "Edith Cheuk Han Ngai"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.19701",
+    "abstract": "Long-term multi-agent systems continuously accumulate the memories produced by different agents. Existing memory methods typically treat retrieved memories as independent evidence and combine them through voting or weighting. However, this independence assumption often fails in multi-agent settings: memories written by different agents may inherit the same upstream source or shared bias, causing correlated evidence to be repeatedly counted and creating a false majority. We term this failure mode \\textit{Memory Correlation Bias}. To address the issue, we propose the \\textbf{C}orrelation-\\textbf{A}ware \\textbf{M}emory \\textbf{A}rbitration (CAMA) framework that jointly decouples retrieved memories and recovers missing independent evidence. We model the retrieved memories as query-conditioned evidence groups and combine neural dependency inference with provenance-based symbolic priors to estimate the effective number of independent evidence sources, thereby preventing correlated memories from forming a false majority. Since critical independent evidence may be absent from the initial retrieval set, \\textsc{CAMA} further learns a sequential recovery policy that actively retrieves alternative evidence or traces upstream sources before making the final decision, aiming to recover sufficient independent evidence for reliable arbitration while minimizing retrieval cost. Experiments on multiple benchmarks demonstrate the superiority of our method over the state-of-the-art baseline methods, suppressing false majorities induced by correlated memories.",
+    "published_date": "2026-08-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-21T03:48:41Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.19699",
+    "title": "An Evidence-Grounded Multi-Agent System for High-Level Bio-Robot Design",
+    "authors": [
+      "Yujun Chen",
+      "Tianle Li",
+      "Jiayu Chen",
+      "Zhen Yin"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.19699",
+    "abstract": "In this paper, a bio-robot is an engineered living or biohybrid system in which living cells perform one or more core functions, such as sensing, information processing, actuation or output. We focus on systems whose cell-based functions are programmed by genetic circuits; physical movement is optional. Designing such a system requires translating application requirements into sensing, logic or memory, output, assembly, host and containment modules, while grounding each choice in traceable parts and evidence. We present micro_biorobot_agent, an offline multi-agent system built on Qwen3.5-27B. The system combines requirement analysis, module-specific retrieval, candidate assembly, conflict checking, local repair, independent review and validation over an integrated library of 23,762 records covering biological parts, measured combinations, literature-supported relationships and actuation evidence. Deterministic output checks align the final report with the retrieved part set and correct false gaps, unsupported part mentions and source-tracking errors. On two author-developed evaluation sets of 50 queries each, the system obtains mean overall scores of 7.35 and 8.04, the highest among the seven evaluated systems; on Scenario Design it exceeds the runner-up by 2.23 points. A 50-query paired ablation shows that the source-tracking check reduces false-gap incidents from 15 to 3, an 80% reduction, and increases source accuracy by 0.75 points. This paper reports the Qwen3.5-based v1 system and evaluates high-level design reports rather than experimentally validated circuits.",
+    "published_date": "2026-08-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "15 pages, 2 figures, 9 tables, and 4 algorithms",
+    "fetched_at": "2026-08-21T03:48:41Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.19557",
+    "title": "When Do LLM Agents Help? Deadline-Aware Mixed-Criticality Task Scheduling at the Autonomous-Vehicle Edge",
+    "authors": [
+      "Reza Zakerian"
+    ],
+    "source": "arxiv",
+    "category": "cs.DC",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.19557",
+    "abstract": "Autonomous vehicles offload latency-sensitive perception tasks to nearby mobile edge computing (MEC) servers, where a missed safety-critical task is unsafe rather than merely degraded. Large language models (LLMs) are increasingly proposed as adaptive, explainable schedulers, yet evidence of when they help is scarce. We study deadline-aware, mixed-criticality scheduling on heterogeneous MEC servers, where time-critical (TC) tasks must be protected at a controlled cost to best-effort traffic, and ask whether a multi-agent LLM control layer improves on a strong heuristic. We answer in two steps. First we build the heuristic: a windowed contract-net auction that orders each admission window time-critical-first by earliest deadline and places tasks by earliest-finish-time. Across 60 instances on three topologies and 15 baselines under an identical online constraint, it attains a TC completion rate of 0.902, above every baseline (Holm-corrected p < 0.001; best baseline 0.838) and at 0.87 of a CP-SAT upper bound. Second, we add the LLM control plane. A controlled decomposition traces the scheduler's advantage to two ordinary factors, the batching horizon and time-critical-first ordering; the auction, the per-window LLM policy, and online adaptation add nothing while the load is stationary, where the heuristic is already near-optimal. Under a mid-run surge of safety-critical tasks the picture changes, and the LLM control plane gains significantly over both the static heuristic and the bandit. LLM orchestration therefore earns its cost only when non-stationarity opens headroom a fixed policy cannot use. We report control-plane latency and rationale, and release all code and seeded instances.",
+    "published_date": "2026-08-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 5 figures, and 4 tables",
+    "fetched_at": "2026-08-21T03:48:41Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2608.19161",
     "title": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
     "authors": [
@@ -22,9 +369,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-20T03:44:23Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-20T03:44:23Z"
   },
   {
     "id": "arxiv:2608.19135",
@@ -45,9 +392,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-20T03:44:23Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-20T03:44:23Z"
   },
   {
     "id": "arxiv:2608.19085",
@@ -74,9 +421,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-20T03:44:23Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-20T03:44:23Z"
   },
   {
     "id": "arxiv:2608.19049",
@@ -99,9 +446,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-20T03:44:23Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-20T03:44:23Z"
   },
   {
     "id": "arxiv:2608.19029",
@@ -124,9 +471,9 @@
     ],
     "venue_status": "published",
     "venue_note": "Accepted by IEEE SMC 2026",
-    "fetched_at": "2026-08-20T03:44:23Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-20T03:44:23Z"
   },
   {
     "id": "arxiv:2608.19014",
@@ -151,13 +498,13 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-20T03:44:23Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-20T03:44:23Z"
   },
   {
     "id": "arxiv:2608.18900",
-    "title": "\\textsc{TestifAI}: Tomography-Based Testing for Deep Learning Systems",
+    "title": "TestifAI: Tomography-Based Testing for Deep Learning Systems",
     "authors": [
       "Arooj Arif",
       "Tobias Hartung",
@@ -176,9 +523,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-20T03:44:23Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-20T03:44:23Z"
   },
   {
     "id": "arxiv:2608.18884",
@@ -464,6 +811,56 @@
     "venue_status": "published",
     "venue_note": "38 pages, 10 figures, 12 tables. Accepted at Machine Learning for Healthcare (MLHC 2026)",
     "fetched_at": "2026-08-20T03:44:23Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.19453",
+    "title": "When Automata Meet Streams: Temporal Logic Compilation for Stream-Based Robotics Task and Motion Planning",
+    "authors": [
+      "Sayem Nazmuz Zaman",
+      "Cyrus Neary"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.19453",
+    "abstract": "Stream-based robotics Task and Motion Planning (TAMP) integrates discrete symbolic planning with dynamically generated continuous geometric parameters, such as poses, grasps, and trajectories. However, stream-based planners typically reason only about goal reachability, whereas long-horizon tasks also demand adherence to temporal specifications, such as safety-critical ordering, invariance, and liveness constraints. No methods currently exist to enforce such temporal constraints for stream-based solvers because streams generate an expanding geometric object set via iterative stream refinement loops during planning, rendering existing temporal-logic compilation techniques incompatible. We therefore present Synchronous Action Monitoring with Token Destruction (SAM-TD), a compilation method that enforces arbitrary Linear Temporal Logic over finite traces ($\\textrm{LTL}_f$) specifications in stream-based TAMP. SAM-TD translates arbitrary $\\textrm{LTL}_f$ constraints into automata and embeds regressed automaton guards into action schemas, which are pre-specified before planning begins. By doing so, SAM-TD can handle objects generated by streams during planning, thus circumventing the need to enumerate a fixed object set or modify the underlying planner. During search, SAM-TD synchronously updates automaton states and uses a validity token shared across all automata to prune constraint-violating branches. We show that SAM-TD supports dynamically generated stream objects from iterative stream refinements during plan search. Experimental results provide the first ever demonstration of stream-based TAMP under $\\textrm{LTL}_f$ constraints in three robotics PDDLStream environments. Furthermore, on standard discrete PDDL benchmarks, SAM-TD is competitive with state-of-the-art temporal-constraint compilation methods.",
+    "published_date": "2026-08-19",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-21T03:48:41Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.19425",
+    "title": "SCAPE: Scenario-Conditioned Simulation-Augmented Policy Evaluation",
+    "authors": [
+      "Dijie Zhu",
+      "Seunghun Oh",
+      "Ruopeng Huang",
+      "Zhiyu Huang",
+      "Jiaqi Ma",
+      "Chen Tang"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.19425",
+    "abstract": "Reliable performance evaluation is a central bottleneck for deploying robot-learning policies in real-world conditions. Real-world testing is faithful but costly and difficult to scale, whereas simulation-based testing scales easily but is inevitably biased by the sim-to-real gap. Existing simulation-augmented methods combine limited real-world rollouts with abundant simulation proxies, but focus on performance averaged over initial conditions and deployment settings. Such population-level averages obscure scenario-specific variation and provide limited guidance about when and where a policy can be safely deployed. We propose SCAPE, a scenario-conditioned simulation-augmented policy evaluation framework that predicts scenario-conditioned real-world policy performance using limited paired sim-and-real samples and large-scale simulation rollouts. SCAPE corrects sim-to-real bias in simulation labels before training the prediction model and calibrates prediction uncertainty through conformal prediction. We validate SCAPE on autonomous driving and quadruped velocity tracking. In sim-to-sim studies, SCAPE reduces scenario-level prediction error by 4.9%/34.7% (driving) and 14.5%/27.7% (quadruped) relative to scene-conditioned neural and aggregate statistical baselines on average. We further evaluate a velocity-tracking policy deployed on a physical Unitree Go2. SCAPE also improves testing sample efficiency, produces narrower calibrated prediction intervals, generalizes better to out-of-distribution scenarios, and enables fine-grained deployment strategies.",
+    "published_date": "2026-08-19",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "22 pages",
+    "fetched_at": "2026-08-21T03:48:41Z",
     "memo": "",
     "memo_updated_at": null
   },
