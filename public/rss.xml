@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Fri, 21 Aug 2026 03:48:41 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 03:39:48 GMT</lastBuildDate>
     <item>
       <title>An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction</title>
       <link>https://arxiv.org/abs/2608.20320</link>
@@ -109,6 +109,41 @@
       <guid isPermaLink="false">arxiv:2608.19425</guid>
       <pubDate>2026-08-19</pubDate>
       <description>Reliable performance evaluation is a central bottleneck for deploying robot-learning policies in real-world conditions. Real-world testing is faithful but costly and difficult to scale, whereas simulation-based testing scales easily but is inevitably biased by the sim-to-real gap. Existing simulation-augmented methods combine limited real-world rollouts with abundant simulation proxies, but focus on performance averaged over initial conditions and deployment settings. Such population-level avera</description>
+    </item>
+    <item>
+      <title>Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication</title>
+      <link>https://arxiv.org/abs/2608.19161</link>
+      <guid isPermaLink="false">arxiv:2608.19161</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Language-model agents can communicate through continuous hidden states that are invisible in public transcripts, creating opportunities for covert harmful coordination. We introduce Verifiable Latent Alignments (VLA), an activation-aware framework for monitoring and steering these private communication channels. For every monitored decision, VLA links the private latent-state record and channel status to the resulting public action using a shared event identifier, enabling matched causal analysi</description>
+    </item>
+    <item>
+      <title>Autonomous Cyber Defense in Connected Vehicles: A Multi-Agent Approach to V2X Security</title>
+      <link>https://arxiv.org/abs/2608.19135</link>
+      <guid isPermaLink="false">arxiv:2608.19135</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>A connected vehicle has roughly 100 milliseconds to decide whether an incoming Basic Safety Message is real or fabricated. If a false emergency braking alert reaches the planning pipeline in time, the car brakes - a safety failure triggered by a security failure. Existing intrusion detection systems are not designed to handle that coupling. They operate per vehicle, per message, with static rules - blind to attack patterns that only emerge across a fleet or over time, and blind to the fundamenta</description>
+    </item>
+    <item>
+      <title>DA-WAM: Decision-Aligned Future Latents for Driving World Models</title>
+      <link>https://arxiv.org/abs/2608.19085</link>
+      <guid isPermaLink="false">arxiv:2608.19085</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Anticipating how scenes evolve under ego actions is fundamental to safe autonomous driving, yet the full potential of world models for decision-making remains unrealized. The critical challenge lies in ensuring that future modeling is not merely predictive, but decision-informative: the predicted future must directly shape which trajectory is selected. Existing approaches decouple future representation learning from planning optimization, or share predicted states across trajectory candidates, t</description>
+    </item>
+    <item>
+      <title>Multi-Agent Off-Policy Deep Reinforcement Learning for Smart Campus Coverage</title>
+      <link>https://arxiv.org/abs/2608.19049</link>
+      <guid isPermaLink="false">arxiv:2608.19049</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Deep reinforcement learning (DRL) has recently gained a great attention due to its real-time adaptation and effectiveness in complex optimization problems. This paper investigates the optimal deployment of millimeter-wave (mmWave) base stations (BSs) in a realistic, non-convex campus topology. The optimization problem is NP-hard, due to the non-convex, non-smooth nature of the max-min fairness objective. To overcome these constraints, we formulate the BS placement as a Markov Decision Process (M</description>
+    </item>
+    <item>
+      <title>Adaptive Memory and Reflection Multi-Agent System for Medical Question Answering</title>
+      <link>https://arxiv.org/abs/2608.19029</link>
+      <guid isPermaLink="false">arxiv:2608.19029</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Accurate and responsible medical question answering (QA) is important in healthcare, where complex cases require factual knowledge and nuanced reasoning. Existing medical QA systems, typically based on single-agent architectures and static retrieval, often lack adaptability, persistent memory, and structured decision-making. This work introduces an adaptive memory and reflection (AMR) agentic system, a multi-agent framework in which specialized agents use dedicated memory and reflection-based fe</description>
     </item>
   </channel>
 </rss>
