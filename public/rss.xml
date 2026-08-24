@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 24 Aug 2026 03:52:42 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 04:35:27 GMT</lastBuildDate>
     <item>
       <title>Specification Portability Across LLM Development Agents: Cross-Agent Compatibility in Specification-Driven Software Migration</title>
       <link>https://arxiv.org/abs/2608.21208</link>
@@ -123,6 +123,27 @@
       <guid isPermaLink="false">arxiv:2608.20494</guid>
       <pubDate>2026-08-20</pubDate>
       <description>Multi-agent LLM systems are an emerging networked workload whose rapid deployment raises questions about the traffic patterns they generate. Compared to conventional applications, these systems generate requests internally: a single user task can induce a structured sequence of model calls whose timing is governed by coordination logic rather than by user arrival rate. It is not clear whether classical traffic models, designed for human-driven workloads, apply to this setting. We present an empi</description>
+    </item>
+    <item>
+      <title>An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction</title>
+      <link>https://arxiv.org/abs/2608.20320</link>
+      <guid isPermaLink="false">arxiv:2608.20320</guid>
+      <pubDate>2026-08-20</pubDate>
+      <description>Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral prediction. A chatbot-administered, image-augmented stated-preference survey collected mode choices from student commuters across five predefined weather scenarios, yielding 454 respondent-scenario observations</description>
+    </item>
+    <item>
+      <title>Towards Surgical World-Action Modeling: A Preliminary Joint Visual-Trajectory Forecasting for Surgical Motion Planning</title>
+      <link>https://arxiv.org/abs/2608.20284</link>
+      <guid isPermaLink="false">arxiv:2608.20284</guid>
+      <pubDate>2026-08-20</pubDate>
+      <description>Reliable surgical planning requires models to anticipate not only how instruments will move, but also how the operative visual state will evolve together with such motion. Existing approaches typically treat future scene generation and instrument trajectory prediction as two separate tasks. Scene-only models cannot directly evaluate the accuracy of future instrument motion at the trajectory level, while trajectory-only models fail to capture the visual consequences of instrument movement, leavin</description>
+    </item>
+    <item>
+      <title>Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2608.20129</link>
+      <guid isPermaLink="false">arxiv:2608.20129</guid>
+      <pubDate>2026-08-20</pubDate>
+      <description>Autonomous vehicles require robust perception and decision-making capabilities to operate in diverse and unseen scenarios. While reinforcement learning and rule-based methods can provide effective control and safety mechanisms, their performance may degrade in situations requiring contextual reasoning. Large Language Models (LLMs) have demonstrated strong capabilities in understanding multimodal information and generating contextual reasoning, however, their use for direct vehicle control can in</description>
     </item>
   </channel>
 </rss>
