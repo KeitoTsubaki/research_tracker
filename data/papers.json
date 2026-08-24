@@ -1,5 +1,353 @@
 [
   {
+    "id": "arxiv:2608.21208",
+    "title": "Specification Portability Across LLM Development Agents: Cross-Agent Compatibility in Specification-Driven Software Migration",
+    "authors": [
+      "Oleg Grynets",
+      "Oleksii Ilchuk",
+      "Dariia Zatulna",
+      "Vasyl Lyashkevych"
+    ],
+    "source": "arxiv",
+    "category": "cs.SE",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.21208",
+    "abstract": "This paper investigates cross-agent specification portability using Oracle-to-PostgreSQL migration as a controlled software transformation task. The study combines two experimental stages. First, a specification-first migration pipeline was evaluated on 1,006 PL/SQL files, of which 623 were successfully regenerated and 380 generated scripts executed successfully in PostgreSQL 16. Second, cross-agent experiments were conducted on a dataset of 1,802 Oracle scripts with corresponding PostgreSQL implementations using Amazon Kiro, Google Gemini, and GitHub Copilot, with Claude Code and Cursor included in the initial single-agent evaluation. Native and foreign specifications were assessed using Token F1, exact match, SQL syntax validity, AST exact match, AST mean similarity, and immediate runnability. The results show that specification size alone does not predict implementation quality and that cross-agent transfer can produce substantial agent-dependent degradation. The strongest replicated case occurred when Gemini directly consumed a Kiro-origin specification, producing a Token F1 of 0.035, SQL syntax validity of 2.33%, and AST mean similarity of 0.015. Rewriting substantially improved Gemini in the tested configuration, compression did not provide a universal benefit, and retrieval-augmented ingestion was the only common strategy represented on the per-agent Pareto frontiers of both Gemini and Copilot. The findings suggest that specifications in heterogeneous SDD workflows should not automatically be treated as agent-neutral artifacts and motivate explicit consideration of specification portability, agent-specific interpretation, and retrieval-based access in multi-agent software engineering.",
+    "published_date": "2026-08-21",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "11 pages, 4 figures, 7 tables, 27 references",
+    "fetched_at": "2026-08-24T03:52:42Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.21099",
+    "title": "A2DINOv3: Rethinking Multi-Modal Object Detection via Socialized Collaboration",
+    "authors": [
+      "Jiekang Feng",
+      "Zhihe Fan",
+      "Yunqi Zhu",
+      "Xinjie Yao",
+      "Yueying Zhang",
+      "Yike Gao",
+      "Ranxin Li",
+      "Guanzuo Chen"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.21099",
+    "abstract": "Multi-modal object detection is essential for robust scene understanding in challenging conditions, including low-light and adverse environments. Recent vision foundation models (e.g., DINOv3) have exhibited strong representation capabilities, yet adapting them to multi-modal scenarios remains challenging. Existing dense cross-modal fusion strategies often force heterogeneous modalities to interact indiscriminately, which may introduce redundant information and disrupt the valuable pre-trained representations. To address this issue, we revisit multi-modal fusion from the perspective of socialized learning and propose adapter to DINOv3 (A2DINOv3), a multi-expert collaboration framework with a Socialized Collaboration Protocol (SCP). Specifically, RGB and infrared branches are modeled as heterogeneous experts that independently preserve their specialized knowledge while exchanging complementary information through selective and constrained interactions. This design mitigates harmful cross-modal interference and prevents degradation of pre-trained priors during adaptation. Furthermore, a zero-initialization strategy is introduced to gradually activate cross-modal collaboration, enabling a smooth transition from modality-specific learning to cooperative representation learning. Extensive experiments on four multi-modal benchmarks, including aerial detection (GAIIC), autonomous driving (FLIR), low-light surveillance (LLVIP), and diverse real-world scenarios (M3FD), demonstrate that A2DINOv3 consistently achieves state-of-the-art performance in multi-modal object detection.",
+    "published_date": "2026-08-21",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-24T03:52:42Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.21055",
+    "title": "CoAnchor: Robust Collaborative Perception under Spatio-Temporal Misalignment via Object-Level Anchors",
+    "authors": [
+      "Chi Li",
+      "Rui Lin",
+      "Aobo Ji",
+      "Dongzhu Xu"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.21055",
+    "abstract": "Collaborative perception extends the sensing range of a single vehicle by fusing observations from nearby agents, which improves the robustness of autonomous driving. In realistic deployments, however, the received collaborator messages are often affected by both communication delay and relative-pose noise, which jointly cause stale observations, spatial misalignment, and unstable feature fusion. Existing methods usually address these issues from either the spatial or temporal side, but handling them jointly in a unified and efficient manner remains challenging. In this paper, we propose CoAnchor, an anchor-centric spatio-temporal alignment framework for asynchronous collaborative perception. Instead of directly reasoning on dense BEV features, CoAnchor builds sparse object-level spatio-temporal anchors as a shared interface for pose correction and tightly connects spatial refinement, temporal propagation, and current-time verification within one unified loop, while keeping the overall correction process lightweight. Extensive experiments on both simulated and real-world datasets illustrate that CoAnchor remains competitive under clean settings and improves the robustness under joint delay and pose perturbations with a favorable practical accuracy-efficiency trade-off.",
+    "published_date": "2026-08-21",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "MM2026",
+    "fetched_at": "2026-08-24T03:52:42Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.21032",
+    "title": "Roadside-Cooperative Autonomous Driving: From Data Platform to Vision-Language End-to-End Reasoning",
+    "authors": [
+      "Yitao Xu",
+      "Tong Wu",
+      "Yiyan Wu",
+      "Guoji Xu",
+      "Yanbo Jiang",
+      "Jiahao Wang",
+      "Zehong Ke",
+      "Junkai Jiang",
+      "Fang Zhang",
+      "Jianqiang Wang"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.21032",
+    "abstract": "Vehicle-to-Everything (V2X) cooperation enables beyond-line-of-sight perception, mitigating occlusions in single-vehicle sensing. However, existing V2X benchmarks provide limited support for closed-loop evaluation and language-grounded supervision, hindering the development of vision-language models (VLMs) for end-to-end cooperative driving. To address these limitations, we introduce V2XBench, a simulation platform featuring synchronized ego--roadside sensing and closed-loop evaluation, together with Chat-V2XBench, a progressively structured VQA dataset for cooperative reasoning. Building upon this benchmark infrastructure, we propose AURORA, an end-to-end cooperative driving framework. Equipped with a dual-view perception architecture, AURORA mitigates spatial and semantic discrepancies across ego and roadside viewpoints through a query-level Cross-View Query Alignment and Fusion (CQAF) module. Leveraging the resulting unified tokens, a LoRA-adapted VLM bridges semantic reasoning and generative trajectory planning. Extensive closed-loop evaluations on V2XBench demonstrate that AURORA achieves state-of-the-art performance in heavily occluded scenarios, with a Route Completion rate of 98.21% and a Driving Score of 76.02, while requiring low roadside communication bandwidth. Ultimately, this work pioneers an extensible V2X--VLM paradigm, paving the way for next-generation cooperative autonomous driving.",
+    "published_date": "2026-08-21",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "15 pages, 5 figures, under review",
+    "fetched_at": "2026-08-24T03:52:42Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20974",
+    "title": "WA-JEPA: Rethinking the Video JEPA Paradigm for World-Action Modeling in Autonomous Driving",
+    "authors": [
+      "Xinlin Wang",
+      "Yujiao Xiang",
+      "Yuheng Zhou",
+      "Jingqi Wang",
+      "Minqing Huang",
+      "Jiajie Huang",
+      "Dongxu Wei",
+      "Tingguang Zhou",
+      "Xiyang Wang",
+      "Gong Chen",
+      "Zhi Xu",
+      "Feiyang Tan",
+      "Hangning Zhou",
+      "Mu Yang"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20974",
+    "abstract": "Video Joint Embedding Predictive Architecture (V-JEPA) learns powerful spatiotemporal representations from video through self-supervised latent feature prediction. However, V-JEPA is built around random-mask completion and deterministic regression, making it fundamentally ill-suited for autonomous driving planning that demands future-directed prediction tightly coupled with action. To address this, we rethink the V-JEPA paradigm and present WA-JEPA, a V-JEPA-native world-action model designed for autonomous driving planning. Instead of random spatiotemporal masking, WA-JEPA employs hybrid future-masked pre-training, where the model infers future latents from observed context. Departing from deterministic regression, we recast future prediction as conditional flow matching over latent futures, which substantially improves the model's ability to generate plausible future latents for downstream planning. Finally, a joint future-action predictor is proposed to denoise future scene tokens and ego trajectories together in a unified spatiotemporal latent space, allowing action supervision to directly shape planning-relevant world representations. Pre-trained on nuPlan videos and fine-tuned on NAVSIM, WA-JEPA reaches 91.7 EPDMS on NAVSIM-v2, surpassing the strongest end-to-end and world-action baselines by 1.6 and 1.3 EPDMS, and, without HUGSIM-specific fine-tuning, attains the best HD-Score of 0.4462 on the closed-loop HUGSIM benchmark under the same evaluation protocol. These results validate V-JEPA-native world-action modeling as a powerful and scalable paradigm for autonomous driving planning. Code is available at https://github.com/AFARI-Research/WA-JEPA.",
+    "published_date": "2026-08-21",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-24T03:52:42Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20946",
+    "title": "Fast Coordinated Bimanual Motion Planning With Hard Constraints",
+    "authors": [
+      "Borna Paro",
+      "Luka Petrović",
+      "Ivan Marković"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20946",
+    "abstract": "Bimanual manipulation enables complex tasks but introduces added complexity from the high number of degrees of freedom involved. When handling rigid objects, the relative transformation between the two end effectors must remain fixed throughout the motion, manifesting as a nonlinear equality constraint that confines the feasible configuration space to a measure-zero manifold and challenges conventional motion planners. We propose a fast bimanual motion planning pipeline that enforces this hard transformation constraint continuously along the entire path, using a leader-follower parameterization: the leader's configuration is treated as a free variable, while the follower's is determined via inverse kinematics to satisfy the constraint. We extensively evaluate the method in simulation across diverse environments, constraints and bimanual platforms, achieving 19.4x faster planning than prior work while guaranteeing continuous constraint satisfaction. Real-world experiments on a bimanual Kinova Gen3 setup, involving tray transport and elongated-object manipulation, validate direct transfer of planned trajectories to physical hardware.",
+    "published_date": "2026-08-21",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-24T03:52:42Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20906",
+    "title": "A Safety-Driven Architectural Framework for Fail-Operational Drone Swarms in Critical Missions",
+    "authors": [
+      "Luiz Giacomossi",
+      "Zafer Yigit",
+      "Marwan Shakarna",
+      "Shoaib Saleemi",
+      "Ivan Tomasic",
+      "Baran Çurüklü",
+      "Håkan Forsberg"
+    ],
+    "source": "arxiv",
+    "category": "eess.SY",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20906",
+    "abstract": "The certification of Unmanned Aerial Vehicle (UAV) swarms for safety-critical operations requires verifiable design assurance. Airworthiness standards demand deterministic reliability, whereas multi-agent coordination algorithms execute non-deterministic models. This paper proposes a mixed-criticality architectural framework that applies SAE ARP4754B methods to swarm reconfiguration. First, a hardware-isolated Safety Monitor functions as a Run-Time Assurance (RTA) gateway, decoupling the flight-critical core from the non-deterministic Swarm Manager. Second, the monitor enforces formal safety contracts based on agent Health Vectors derived systematically from a Functional Hazard Assessment (FHA). Third, the framework propagates these Health Vectors to the collective planner to trigger fail-operational task reallocation, enabling intelligent swarm behaviors without compromising flight-critical isolation. Markov reliability modeling demonstrates that the $10^{-7}$ failures per flight hour Hazardous target is theoretically achievable for our SAIL IV scenario, provided the Safety Monitor meets $C_{monitor}>0.9991$, consistent with DAL B CMD/MON implementations.",
+    "published_date": "2026-08-21",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "10 pages, 7 figures. Accepted for presentation at the 45th AIAA/IEEE Digital Avionics Systems Conference (DASC), Orlando, FL, USA, 2026. \\c{opyright} 2026 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses",
+    "fetched_at": "2026-08-24T03:52:42Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20890",
+    "title": "A Collaborative Multi-Modality Interaction for VLA-based End-to-End Autonomous Driving",
+    "authors": [
+      "Jingtao Sun",
+      "Xiaohai He",
+      "Yike Zhang",
+      "Dong Huang",
+      "Yaonan Wang",
+      "Ajmal Mian",
+      "Mike Zheng Shou"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20890",
+    "abstract": "Vision-Language-Action (VLA) models have emerged as a powerful paradigm for end-to-end autonomous driving by jointly integrating perception, reasoning, and decision making within a unified multimodal framework. However, most existing VLA models formulate end-to-end autonomous driving as a visual question answering task, leading to unreliable and less interpretable decision reasoning. In addition, they fail to establish effective multi-modal interaction across heterogeneous sensors, thereby limiting robust scene perception and reliable driving reasoning in long-tail driving scenarios. To this end, we propose a robust VLA-based end-to-end autonomous driving system that combines multi-modality interaction with multi-trajectory planning and optimization, enabling more reliable, interpretable, and safer driving decisions. Our method comprises three core components: (1) Affinity-Guided Optimal Transport for main-auxiliary modality two-way interaction; (2) Distribution-Consistent Modality Transfer for heterogeneous modality distribution transfer and cross-modal interaction; (3) Multi-modal Multi-Trajectory Planning along with Perception-Oriented Trajectory Refinement for better driving decisions to long-tail driving scenarios. Experimental results in open-loop and closed-loop datasets demonstrate improvements in safety long-horizon driving reasoning and road scene perception over existing driving systems, highlighting the ability of our mutli-modality interaction and multi-trajectory planning and optimization for scalable VLA-based systems.",
+    "published_date": "2026-08-21",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-24T03:52:42Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20874",
+    "title": "Multi-Modal Traffic Sign Detection with Semantic Attributes for Autonomous Driving",
+    "authors": [
+      "Meda Lazar",
+      "Sourab Sridhar",
+      "Shashwata Gupta",
+      "Alexandra Tripcea",
+      "Varun Ravi",
+      "Senthil Yogamani"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20874",
+    "abstract": "Reliable traffic sign detection is a prerequisite for the global deployment of autonomous driving systems, where regulatory compliance and road safety depend on perceiving signs correctly across regions, ranges, and weather conditions. Despite recent progress, vision-based methods continue to face three fundamental limitations: poor cross-regional generalization due to high diversity across countries, degraded performance on small-object detection at long ranges (traffic signs occupy as little as $10{\\times}10$ pixels at 200m), and fragile temporal tracking under the strongly non-linear perspective distortion that occurs as a vehicle approaches a sign. In this paper, we address the problem of robust, long-range, region-agnostic traffic sign perception by combining camera and Light Detection and Ranging (LiDAR) sensing. We present a multi-modal detection framework whose Intensity-Aware Deformable Fusion module aligns retro-reflective LiDAR cues with camera features, anchoring detection on geometric invariants rather than region-specific visual appearance. We further introduce a dual motion-model tracker that explicitly accounts for non-linear perspective transformations during vehicle approach, substantially improving temporal consistency over linear motion assumptions. Additionally, we develop a semantic attribute classification pipeline that estimates occlusion level, readability, sign embeddedness, and road relevance, providing actionable context to downstream planning. Extensive evaluation on our dataset, spanning 60+ countries and 2,500+ hours of driving data, shows that the proposed pipeline achieves an Object Miss Ratio (OMR) of 0.49% across 221,068 evaluation sequences, demonstrating globally generalizable traffic sign perception in commercial-grade autonomous driving systems.",
+    "published_date": "2026-08-21",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-24T03:52:42Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20830",
+    "title": "Fine-tuning LLMs for Tourist Trajectory Prediction using Field Experiment Data",
+    "authors": [
+      "Tatsuya Amano",
+      "Hirozumi Yamaguchi"
+    ],
+    "source": "arxiv",
+    "category": "cs.CY",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20830",
+    "abstract": "Evaluating mobility interventions at tourist destinations requires predicting visitor behavior under varying conditions. Traditional methods struggle because tourist decisions depend heavily on context like weather and fatigue, yet models cannot generalize to unobserved scenarios. Large Language Models offer a solution by encoding commonsense knowledge about human behavior from pretraining, enabling reasoning about context-dependent decisions, while natural language representation flexibly integrates heterogeneous information. Fine-tuning on local trajectories adapts this general understanding to destination-specific patterns. We validate this approach using 566 trajectories from Wakayama Castle Park, Japan. Our fine-tuned Llama-3.1-8B achieves 49.1% next POI accuracy and maintains strong performance on undersampled scenarios like rainy days, demonstrating effective generalization. This establishes LLMs as high-fidelity behavior models for context-dependent tourist prediction, providing groundwork for counterfactual analysis of mobility interventions.",
+    "published_date": "2026-08-21",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "5 pages, 4 figures. Accepted at the 2nd Workshop on AI for Urban Planning (AI4UP) at AAAI-26, Singapore, January 2026",
+    "fetched_at": "2026-08-24T03:52:42Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20802",
+    "title": "SPARC: Single-Pass Scaling for Motion Forecasting with Conformal Bayesian Last Layers",
+    "authors": [
+      "Sakif Hossain",
+      "Julian Teusch",
+      "Jörg P. Müller"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20802",
+    "abstract": "Human motion forecasters are increasingly accurate and fast, but reliable deployment requires uncertainty estimates that are structured, calibrated, and efficient. Bayesian and ensemble-based uncertainty estimates often require repeated stochastic inference [15, 26], while conformal calibration alone does not provide an epistemic signal or preserve trajectory covariance structure [14, 50]. We introduce SPARC (Single-Pass Adaptive Risk Calibration), a Bayesian-conformal uncertainty layer for motion forecasting. A deterministic MLP backbone predicts the future mean, and a conjugate Bayesian last layer converts time-domain feature leverage into an analytic horizon-wise epistemic scale $κ_t(x)$. This scale inflates a graph-temporal Gaussian covariance without changing its correlation structure, and split conformal calibration produces 95% marginal prediction tubes with finite-sample validity under exchangeability. The key interface is the structured factorization $κ_t(x)Σ_{\\mathrm{str},t}(x)$, which injects feature-space epistemic uncertainty into trajectory densities without Monte Carlo sampling. Across nine dataset-protocol blocks and deterministic, multimodal, and calibration baselines, SPARC ranks first on NLL and on the combined MPJPE+NLL criterion while retaining competitive point accuracy and efficient calibrated tubes. Ranking windows by $κ$ separates high-error cases, making the scale usable as a lightweight risk monitor.",
+    "published_date": "2026-08-21",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted at ECCV 2026",
+    "fetched_at": "2026-08-24T03:52:42Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20786",
+    "title": "Structure for Reading, Prose for Writing: Asymmetric Structural Conditioning in Multi-Agent Document Authoring",
+    "authors": [
+      "Cheng Yu",
+      "Nikhil Mathew",
+      "Zhengjie Wang"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20786",
+    "abstract": "Multi-agent pipelines that author formal documents must both read a requester's forms and write against them. We report a deployed tender-response system, running an open-weights model under sovereignty constraints, and evaluate it against human-written bids the same organisation actually submitted. On a blind comparison where the system had no worked example available, an LLM judge rated its answers at least as good as the human-submitted answer on $40$ of $55$ ground-truth sections, better on $4$, missing on none, and flagged one unsupported claim in total. Classifying every gap the judge identified shows that $68\\%$ were content absent from the system's own sources -- knowledge the human author held and the pipeline was never given -- so only $6$ of the $15$ adverse verdicts involve a deficiency the system could have avoided. A divergence from ground truth is more often an information-availability result than a writing-quality one, and evaluations that do not separate the two understate such systems. Against this backdrop we report a conditioning asymmetry. It is well established that rendering documents as structural markup rather than flat prose improves extraction, and we reproduce that on three reading tasks. The benefit does not transfer to conditioning: converting a bid's \\emph{instruction} material from prose to nested XML dropped answer quality from $74\\%$ to $48\\%$ under a paired comparison. We further find that naming a forbidden construction concentrates rather than removes it -- $96\\%$ of surviving defects fall in the two forms the prompt explicitly names -- and that coupling a stochastic annotation to a deterministic windowing function moves the extracted requirement count from $68$ to $51$ on a byte-identical file. Structure belongs where the model reads; prose and self-applied tests belong where it writes.",
+    "published_date": "2026-08-21",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "10 pages, 3 figures",
+    "fetched_at": "2026-08-24T03:52:42Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20756",
+    "title": "Vis-Poison: Poisoning Visual Knowledge in Multimodal Retrieval-Augmented Generation",
+    "authors": [
+      "Rujin Liang",
+      "Zhongpu Chen",
+      "Yuhao Lei",
+      "Xin Miao"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20756",
+    "abstract": "While multimodal retrieval-augmented generation (RAG) systems increasingly rely on images as external knowledge sources, the introduction of poisoned visual evidence can severely compromise multimodal large language model (MLLM) generation. Unlike prior attacks that rely on altering textual metadata, we introduce Vis-Poison, a novel visual knowledge poisoning attack where the poisoned image itself is the attacker-controlled payload, without manipulating captions, summaries, metadata, or other associated text. Specifically, this attack is instantiated through an automated multi-agent method that constructs visually plausible poisoned images. To assess its impact, we evaluate Vis-Poison across two representative multimodal RAG pipelines, four embedding models, and six generation models. Empirically, Vis-Poison achieves an end-to-end attack success rate of 40.16\\% to 65.40\\% against 30k-entry multimodal knowledge bases in \\emph{black-box} settings. Moreover, Vis-Poison remains effective against various MLLMs that can answer correctly from parametric knowledge alone, with an average success rate above 60\\%. Code and data are available at https://github.com/SWUFE-DB-Group/Vis-Poison.",
+    "published_date": "2026-08-21",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "Findings of EMNLP, 2026",
+    "fetched_at": "2026-08-24T03:52:42Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2608.20320",
     "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
     "authors": [
@@ -345,6 +693,115 @@
     "memo": "",
     "memo_updated_at": null,
     "fetched_at": "2026-08-21T03:48:41Z"
+  },
+  {
+    "id": "arxiv:2608.20617",
+    "title": "Dual-Cache Latent Space Communication between Heterogeneous Language Models",
+    "authors": [
+      "Jiyao Liu",
+      "Qi Zhang",
+      "Yaoyi Jia",
+      "Ziwen Kan",
+      "Song Wang"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20617",
+    "abstract": "Multi-agent LLM systems split work across models, so answering often requires knowledge that sits in another agent's context: a Sharer has encoded information that a Receiver needs to complete its task. They usually communicate by exchanging text, which puts autoregressive decoding on the critical path and reduces the exchange to a discrete message written without sight of the receiver's state. Recent latent protocols instead translate the sharer's key-value (KV) cache into the receiver's: C2C supports heterogeneous models but requires both to read the same input, while LCF-X removes this shared-context requirement through position-free sharer-cache pooling. Three restrictions remain: LCF-X compresses the sharer alone, supplies the same layer-local summary to every receiver position with no joint cross-layer memory to retrieve from, and assumes matched layer count and KV geometry. We introduce XKV, which lifts all three: learned-query attention pools both caches; self-attention over receiver-aligned layer tokens, with a learned layer map reconciling different depths, mixes the pooled summaries into a compact joint memory; and a shared position decoder lets every raw receiver cache position retrieve its own per-head-gated residual in the receiver's native KV geometry. Both models stay frozen and may differ in family, depth, KV-head count, head dimension, and tokenizer; only the translator is trained. Across 45 dataset-model-pair settings (six heterogeneous and three same-model ordered pairings, five datasets), XKV attains the highest macro score and best average rank, improving on LCF-X on every dataset (by 4.6 exact-match and 4.2 F1 points on ROPES) and surpassing text communication on four of the five, while training 76% fewer parameters and translating a cache pair 10.3x faster (5.8 vs. 59.9 ms); end to end, XKV is 26% faster than LCF-X and 6.8x faster than text communication.",
+    "published_date": "2026-08-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-24T03:52:42Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20564",
+    "title": "Consilience: Conformally Calibrated Communication Control for Hidden-Profile Multi-Agent Reasoning",
+    "authors": [
+      "Abhijith Babu",
+      "Ramneet Kaur",
+      "Vishal Pramanik",
+      "Olivera Kotevska",
+      "Nathaniel D. Bastian",
+      "Susmit Jha",
+      "Sunny Raj",
+      "Yanzhao Wu",
+      "Sumit Kumar Jha",
+      "Anirban Roy"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20564",
+    "abstract": "Multi-agent LLM systems can improve reasoning by pooling diverse perspectives, but their effectiveness depends on coordinating communication, particularly in hidden-profile settings where each agent holds only part of the evidence required for a correct decision. Existing protocols, including fixed schedules, round-robin exchange, and unstructured debate, provide no guarantee that a conversational action is appropriate. We propose Consilience, an inference-time orchestration framework that both steers and certifies multi-agent communication under distributed private information. At each turn, Consilience summarizes the discussion using a compact state capturing uncertainty, disagreement, evidence gain, redundancy, and premature consensus, then selects both a communication intervention (challenge, clarify, seek evidence, or route) and an appropriate speaker. Its central contribution is a round-wise conformal calibration procedure that provides a distribution-free, finite-sample guarantee: at each discussion round, conditional on reaching that round, the one-step regret of a controller's proposed action is bounded by a calibrated threshold with marginal probability at least 1 - alpha; an acceptance mechanism enforces the same guarantee for the executed action by replacing inadmissible proposals. On HiddenBench-style hidden-profile tasks spanning 12 open and closed weight language models, Consilience improves decision accuracy and communication efficiency over fixed and unstructured discussion protocols, sometimes surpassing a full-information baseline where every agent observes all evidence. These results demonstrate that certified adaptive communication control can be more valuable than increasing information availability, providing a practical mechanism for reliable multi-agent LLM coordination.",
+    "published_date": "2026-08-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "39 pages, 2 figures, 9 tables. Includes appendix with full proof of Proposition 1, expanded results, ablations, and complete prompt templates",
+    "fetched_at": "2026-08-24T03:52:42Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20518",
+    "title": "FL-MAESTRO: Multi-Agent LLM Orchestration for Resource-Constrained Federated Learning",
+    "authors": [
+      "Jiajun Wu",
+      "Zirui Wang",
+      "Jiayu Zhou",
+      "Qiang Ye",
+      "Steve Drew"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20518",
+    "abstract": "In Federated Learning (FL), the communication topology is a runtime variable rather than a fixed design choice, since links and edge devices drop in and out during training. Each round, the server must commit three coupled decisions, namely the communication topology, per-client resource allocation, and the aggregation rule for combining local updates. Recent agentic systems have begun bringing large language models (LLM) into FL, but the existing line of work either operates at setup time or handles a single runtime dimension such as client selection. We propose FL-MAESTRO, a multi-agent orchestrator that makes the joint runtime FL decision directly through three specialist LLM agents, one per decision dimension. A coordinator combines their analyses into a single decision, and a non-LLM feasibility check confirms it before the round executes. Because the orchestrator consumes the server's predicted-failure list, it withholds clients whose updates would never be aggregated, which removes the dominant source of wasted round energy in classical FL on volatile edge networks. Because client state is read as natural-text profiles, the same orchestrator extends to heterogeneous device classes without per-class energy models. On a non-IID CIFAR-10 benchmark, FL-MAESTRO matches the accuracy of the strongest energy-aware baseline while cutting wasted round energy from over a third to near zero. Code is available at https://github.com/denoslab/FL-MAESTRO.",
+    "published_date": "2026-08-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted at IEEE GLOBECOM 2026",
+    "fetched_at": "2026-08-24T03:52:42Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.20494",
+    "title": "Towards Traffic Modelling of Multi-Agent Systems: The Role of Coordination Topology",
+    "authors": [
+      "Davide Lamagna",
+      "Albert Cabellos",
+      "Alberto Rodriguez-Natal",
+      "Gábor Rétvári",
+      "Berta Serracanta"
+    ],
+    "source": "arxiv",
+    "category": "cs.NI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.20494",
+    "abstract": "Multi-agent LLM systems are an emerging networked workload whose rapid deployment raises questions about the traffic patterns they generate. Compared to conventional applications, these systems generate requests internally: a single user task can induce a structured sequence of model calls whose timing is governed by coordination logic rather than by user arrival rate. It is not clear whether classical traffic models, designed for human-driven workloads, apply to this setting. We present an empirical characterisation of LLM-call interarrival time distributions across sequential, star, and full-mesh agentic coordination topologies, using a multi-layer measurement framework over 500 repeated runs per topology. We find that topology fundamentally shapes the arrival process of requests to the LLM backend: fan-out coordination introduces a structural bimodality absent in sequential execution, and the reasoningphase component is best described by a log-normal distribution, with the Poisson exponential null model decisively rejected across all topologies. These differences propagate to inference and network level metrics. The framework and analysis pipeline are released openly at https://github.com/dlamagna/agentraffic.",
+    "published_date": "2026-08-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "7 pages, 5 figures, 4 tables. Published at the ACM SIGCOMM Workshop on Networks for AI Computing (NAIC '26)",
+    "fetched_at": "2026-08-24T03:52:42Z",
+    "memo": "",
+    "memo_updated_at": null
   },
   {
     "id": "arxiv:2608.19161",
