@@ -4,146 +4,97 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 24 Aug 2026 04:35:27 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 03:46:28 GMT</lastBuildDate>
     <item>
-      <title>Specification Portability Across LLM Development Agents: Cross-Agent Compatibility in Specification-Driven Software Migration</title>
-      <link>https://arxiv.org/abs/2608.21208</link>
-      <guid isPermaLink="false">arxiv:2608.21208</guid>
-      <pubDate>2026-08-21</pubDate>
-      <description>This paper investigates cross-agent specification portability using Oracle-to-PostgreSQL migration as a controlled software transformation task. The study combines two experimental stages. First, a specification-first migration pipeline was evaluated on 1,006 PL/SQL files, of which 623 were successfully regenerated and 380 generated scripts executed successfully in PostgreSQL 16. Second, cross-agent experiments were conducted on a dataset of 1,802 Oracle scripts with corresponding PostgreSQL imp</description>
+      <title>The Interaction Tax: When Communication Erases Diversity in Multi-Agent Teams</title>
+      <link>https://arxiv.org/abs/2608.23541</link>
+      <guid isPermaLink="false">arxiv:2608.23541</guid>
+      <pubDate>2026-08-24</pubDate>
+      <description>Does multi-agent LLM interaction help or hurt? Some work reports gains from debate (Du et al., 2024), critique loops (Chen et al., 2025), and mixture-of-agents synthesis (Wang et al., 2025), while other work finds that interaction adds cost without improving quality under equal budgets (Tran &amp; Kiela, 2026; Xu et al., 2026; Jarrett et al., 2025), or that independent sampling already captures multi-agent gains (Li et al., 2024). We argue this contradiction partly reflects a missing distinction, be</description>
     </item>
     <item>
-      <title>A2DINOv3: Rethinking Multi-Modal Object Detection via Socialized Collaboration</title>
-      <link>https://arxiv.org/abs/2608.21099</link>
-      <guid isPermaLink="false">arxiv:2608.21099</guid>
-      <pubDate>2026-08-21</pubDate>
-      <description>Multi-modal object detection is essential for robust scene understanding in challenging conditions, including low-light and adverse environments. Recent vision foundation models (e.g., DINOv3) have exhibited strong representation capabilities, yet adapting them to multi-modal scenarios remains challenging. Existing dense cross-modal fusion strategies often force heterogeneous modalities to interact indiscriminately, which may introduce redundant information and disrupt the valuable pre-trained r</description>
+      <title>GeoWAM: Visual Geometry World Action Models for Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2608.23486</link>
+      <guid isPermaLink="false">arxiv:2608.23486</guid>
+      <pubDate>2026-08-24</pubDate>
+      <description>World action models (WAMs) have recently gained increasing attention as a framework for jointly modeling scene evolution and ego actions in autonomous driving. Most existing WAMs learn scene dynamics in pixel space by combining a video-generation backbone for future-observation prediction with an action head for ego-trajectory prediction. Pixels, however, provide only an indirect representation of these dynamics: they entangle geometry and motion with appearance, texture, and illumination, forci</description>
     </item>
     <item>
-      <title>CoAnchor: Robust Collaborative Perception under Spatio-Temporal Misalignment via Object-Level Anchors</title>
-      <link>https://arxiv.org/abs/2608.21055</link>
-      <guid isPermaLink="false">arxiv:2608.21055</guid>
-      <pubDate>2026-08-21</pubDate>
-      <description>Collaborative perception extends the sensing range of a single vehicle by fusing observations from nearby agents, which improves the robustness of autonomous driving. In realistic deployments, however, the received collaborator messages are often affected by both communication delay and relative-pose noise, which jointly cause stale observations, spatial misalignment, and unstable feature fusion. Existing methods usually address these issues from either the spatial or temporal side, but handling</description>
+      <title>MetaCaster: Meta-Harness-Optimized Agent for End-to-End Few-Shot Learning of Lightweight Time Series Forecasters</title>
+      <link>https://arxiv.org/abs/2608.23473</link>
+      <guid isPermaLink="false">arxiv:2608.23473</guid>
+      <pubDate>2026-08-24</pubDate>
+      <description>Time series forecasting (TSF) is evolving toward multimodal and agentic settings, yet using foundation models remains uneconomical in resource-constrained scenarios, where compact, specialized forecasters are more desirable. However, lightweight forecasters typically require substantial training data, limiting their use in domains with scarce, slowly accumulated, or privacy-sensitive time series. To address this dilemma, we investigate the challenging problem of few-shot learning for lightweight</description>
     </item>
     <item>
-      <title>Roadside-Cooperative Autonomous Driving: From Data Platform to Vision-Language End-to-End Reasoning</title>
-      <link>https://arxiv.org/abs/2608.21032</link>
-      <guid isPermaLink="false">arxiv:2608.21032</guid>
-      <pubDate>2026-08-21</pubDate>
-      <description>Vehicle-to-Everything (V2X) cooperation enables beyond-line-of-sight perception, mitigating occlusions in single-vehicle sensing. However, existing V2X benchmarks provide limited support for closed-loop evaluation and language-grounded supervision, hindering the development of vision-language models (VLMs) for end-to-end cooperative driving. To address these limitations, we introduce V2XBench, a simulation platform featuring synchronized ego--roadside sensing and closed-loop evaluation, together</description>
+      <title>MomADv2: Reliable Temporal Memory for End-to-End Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2608.23405</link>
+      <guid isPermaLink="false">arxiv:2608.23405</guid>
+      <pubDate>2026-08-24</pubDate>
+      <description>Long-horizon planning is critical for safe autonomous driving in complex scenarios. Existing methods improve planning continuity with temporal memory, but such memory may become invalid and mislead decisions when the driving command changes. Thus, selectively leveraging useful history while suppressing command-inconsistent memory remains a key challenge. To address this issue, we propose MomADv2, a reliable state-space memory framework for long-horizon end-to-end autonomous driving. At its core,</description>
     </item>
     <item>
-      <title>WA-JEPA: Rethinking the Video JEPA Paradigm for World-Action Modeling in Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2608.20974</link>
-      <guid isPermaLink="false">arxiv:2608.20974</guid>
-      <pubDate>2026-08-21</pubDate>
-      <description>Video Joint Embedding Predictive Architecture (V-JEPA) learns powerful spatiotemporal representations from video through self-supervised latent feature prediction. However, V-JEPA is built around random-mask completion and deterministic regression, making it fundamentally ill-suited for autonomous driving planning that demands future-directed prediction tightly coupled with action. To address this, we rethink the V-JEPA paradigm and present WA-JEPA, a V-JEPA-native world-action model designed fo</description>
+      <title>First Demonstration of Multi-Agent LLM System for Million-Scale Optical Link Management in Global Production AIDCs</title>
+      <link>https://arxiv.org/abs/2608.23145</link>
+      <guid isPermaLink="false">arxiv:2608.23145</guid>
+      <pubDate>2026-08-24</pubDate>
+      <description>We present the first LLM-powered multi-agent system for autonomous fault management across millions of optical links in production AIDCs. Refined via SFT and continuous memory evolution, it achieves 97.7% F1 and over 60% fault-incident reduction, outperforming SOTA LLMs on a ten-week field data evaluation.</description>
     </item>
     <item>
-      <title>Fast Coordinated Bimanual Motion Planning With Hard Constraints</title>
-      <link>https://arxiv.org/abs/2608.20946</link>
-      <guid isPermaLink="false">arxiv:2608.20946</guid>
-      <pubDate>2026-08-21</pubDate>
-      <description>Bimanual manipulation enables complex tasks but introduces added complexity from the high number of degrees of freedom involved. When handling rigid objects, the relative transformation between the two end effectors must remain fixed throughout the motion, manifesting as a nonlinear equality constraint that confines the feasible configuration space to a measure-zero manifold and challenges conventional motion planners. We propose a fast bimanual motion planning pipeline that enforces this hard t</description>
+      <title>Beyond Surface Cues: Disentangling Sociocultural Signals in Multilingual LLMs</title>
+      <link>https://arxiv.org/abs/2608.23026</link>
+      <guid isPermaLink="false">arxiv:2608.23026</guid>
+      <pubDate>2026-08-24</pubDate>
+      <description>Multilingual LLM outputs can vary across sociocultural contexts. However, evidence of cultural grounding can be misleading: identity labels may be inferred from explicit or indirect textual cues, while names and wording can reveal the source language. Treating all these signals as evidence of cultural grounding may obscure potential biases. We present a human-validated, multi-agent audit that separates three questions: whether outputs reproduce social biases, whether identity groups are represen</description>
     </item>
     <item>
-      <title>A Safety-Driven Architectural Framework for Fail-Operational Drone Swarms in Critical Missions</title>
-      <link>https://arxiv.org/abs/2608.20906</link>
-      <guid isPermaLink="false">arxiv:2608.20906</guid>
-      <pubDate>2026-08-21</pubDate>
-      <description>The certification of Unmanned Aerial Vehicle (UAV) swarms for safety-critical operations requires verifiable design assurance. Airworthiness standards demand deterministic reliability, whereas multi-agent coordination algorithms execute non-deterministic models. This paper proposes a mixed-criticality architectural framework that applies SAE ARP4754B methods to swarm reconfiguration. First, a hardware-isolated Safety Monitor functions as a Run-Time Assurance (RTA) gateway, decoupling the flight-</description>
+      <title>Minimal Local Simulation Foundations for LLM- and VLM-Driven Agents in 2D and 3D Environments</title>
+      <link>https://arxiv.org/abs/2608.22833</link>
+      <guid isPermaLink="false">arxiv:2608.22833</guid>
+      <pubDate>2026-08-24</pubDate>
+      <description>Large language models (LLMs) and vision-language models (VLMs) are expanding the range of behaviors that can be represented in agent-based simulations, but many contemporary platforms are difficult to study, modify, or run on ordinary computers. We present two intentionally minimal simulation foundations for education and rapid prototyping. SD-AgentFoundry-2D provides a two-dimensional multi-agent environment in which locally hosted LLM agents move, communicate, respond to place occupancy, and e</description>
     </item>
     <item>
-      <title>A Collaborative Multi-Modality Interaction for VLA-based End-to-End Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2608.20890</link>
-      <guid isPermaLink="false">arxiv:2608.20890</guid>
-      <pubDate>2026-08-21</pubDate>
-      <description>Vision-Language-Action (VLA) models have emerged as a powerful paradigm for end-to-end autonomous driving by jointly integrating perception, reasoning, and decision making within a unified multimodal framework. However, most existing VLA models formulate end-to-end autonomous driving as a visual question answering task, leading to unreliable and less interpretable decision reasoning. In addition, they fail to establish effective multi-modal interaction across heterogeneous sensors, thereby limit</description>
+      <title>Enrich-Retrieve-Rank: Scaling Capability Discovery Beyond In-Context Routing</title>
+      <link>https://arxiv.org/abs/2608.22695</link>
+      <guid isPermaLink="false">arxiv:2608.22695</guid>
+      <pubDate>2026-08-24</pubDate>
+      <description>Agent ecosystems now include thousands of MATS components (Models, Agents, Tools, and Skills), yet their discovery still relies on in-context routing. These systems read a registry (names, hints, or descriptions, as context budget permits), pick a candidate, invoke it, and retry on failure. This pattern degrades with scale, and registries are growing fast. We recast capability discovery as search over a registry by defining an offline enrichment step that turns sparse metadata into searchable pr</description>
     </item>
     <item>
-      <title>Multi-Modal Traffic Sign Detection with Semantic Attributes for Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2608.20874</link>
-      <guid isPermaLink="false">arxiv:2608.20874</guid>
-      <pubDate>2026-08-21</pubDate>
-      <description>Reliable traffic sign detection is a prerequisite for the global deployment of autonomous driving systems, where regulatory compliance and road safety depend on perceiving signs correctly across regions, ranges, and weather conditions. Despite recent progress, vision-based methods continue to face three fundamental limitations: poor cross-regional generalization due to high diversity across countries, degraded performance on small-object detection at long ranges (traffic signs occupy as little a</description>
+      <title>Clinical Graph-JEPA: Predictive Patient-State Knowledge Graphs for Cognitive Decision Support</title>
+      <link>https://arxiv.org/abs/2608.22583</link>
+      <guid isPermaLink="false">arxiv:2608.22583</guid>
+      <pubDate>2026-08-23</pubDate>
+      <description>Clinical records contain rich evidence about patient state, but converting that evidence into reliable, structured knowledge graphs remains difficult because extraction errors, ontology mismatch, missing relations, and temporal ambiguity can propagate into downstream systems. We propose a clinical knowledge graph construction and refinement framework that combines multi-agent relation proposal, ontology-aware normalization, deterministic evidence scoring, and JEPA-based latent refinement. Rather</description>
     </item>
     <item>
-      <title>Fine-tuning LLMs for Tourist Trajectory Prediction using Field Experiment Data</title>
-      <link>https://arxiv.org/abs/2608.20830</link>
-      <guid isPermaLink="false">arxiv:2608.20830</guid>
-      <pubDate>2026-08-21</pubDate>
-      <description>Evaluating mobility interventions at tourist destinations requires predicting visitor behavior under varying conditions. Traditional methods struggle because tourist decisions depend heavily on context like weather and fatigue, yet models cannot generalize to unobserved scenarios. Large Language Models offer a solution by encoding commonsense knowledge about human behavior from pretraining, enabling reasoning about context-dependent decisions, while natural language representation flexibly integ</description>
+      <title>Scaling Curriculum Learning For Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2608.22549</link>
+      <guid isPermaLink="false">arxiv:2608.22549</guid>
+      <pubDate>2026-08-23</pubDate>
+      <description>Batched simulators for autonomous driving have recently enabled training reinforcement learning (RL) agents at scale, encompassing thousands of traffic scenarios and billions of interactions within a matter of days. Although such high-throughput feeds RL algorithms faster than ever, their sample-efficiency has not kept pace: As the standard training scheme, domain randomization uniformly samples scenarios, thereby consuming a vast number of interactions on cases that contribute little to learnin</description>
     </item>
     <item>
-      <title>SPARC: Single-Pass Scaling for Motion Forecasting with Conformal Bayesian Last Layers</title>
-      <link>https://arxiv.org/abs/2608.20802</link>
-      <guid isPermaLink="false">arxiv:2608.20802</guid>
-      <pubDate>2026-08-21</pubDate>
-      <description>Human motion forecasters are increasingly accurate and fast, but reliable deployment requires uncertainty estimates that are structured, calibrated, and efficient. Bayesian and ensemble-based uncertainty estimates often require repeated stochastic inference [15, 26], while conformal calibration alone does not provide an epistemic signal or preserve trajectory covariance structure [14, 50]. We introduce SPARC (Single-Pass Adaptive Risk Calibration), a Bayesian-conformal uncertainty layer for moti</description>
+      <title>HANSARD: A Reference Architecture for Forensic Readiness, Runtime Witnessing, and Graded Attribution in Autonomous Multi-Agent AI Systems</title>
+      <link>https://arxiv.org/abs/2608.22512</link>
+      <guid isPermaLink="false">arxiv:2608.22512</guid>
+      <pubDate>2026-08-23</pubDate>
+      <description>Autonomous multi-agent systems nowadays act in finance, software supply chains, and security operations. Already, the first largely AI-orchestrated intrusion campaigns have been reported. Yet, when such a system causes harm, no method can robustly establish what happened, what caused it, or who is accountable. This is because provenance forensics works at the wrong abstraction, formal causality assumes the causal model, and agent auditing trusts self-recording. The target failure mode is, thus, </description>
     </item>
     <item>
-      <title>Structure for Reading, Prose for Writing: Asymmetric Structural Conditioning in Multi-Agent Document Authoring</title>
-      <link>https://arxiv.org/abs/2608.20786</link>
-      <guid isPermaLink="false">arxiv:2608.20786</guid>
-      <pubDate>2026-08-21</pubDate>
-      <description>Multi-agent pipelines that author formal documents must both read a requester's forms and write against them. We report a deployed tender-response system, running an open-weights model under sovereignty constraints, and evaluate it against human-written bids the same organisation actually submitted. On a blind comparison where the system had no worked example available, an LLM judge rated its answers at least as good as the human-submitted answer on $40$ of $55$ ground-truth sections, better on </description>
+      <title>Small Reasoning Models are Instruction Followers in Function Calling</title>
+      <link>https://arxiv.org/abs/2608.22472</link>
+      <guid isPermaLink="false">arxiv:2608.22472</guid>
+      <pubDate>2026-08-23</pubDate>
+      <description>Function calling represents the core capability of agentic large language models (LLMs). Existing research has focused on enhancing LLMs function-calling accuracy through fine-tuning, reinforcement learning (RL), and multi-agent frameworks, particularly for native function-calling LLMs. This work demonstrates that LLMs achieve superior accuracy in function calling in instruction-following contexts (i.e., standard user-assistant interactions) rather than a tool calling context. We introduce Instr</description>
     </item>
     <item>
-      <title>Vis-Poison: Poisoning Visual Knowledge in Multimodal Retrieval-Augmented Generation</title>
-      <link>https://arxiv.org/abs/2608.20756</link>
-      <guid isPermaLink="false">arxiv:2608.20756</guid>
-      <pubDate>2026-08-21</pubDate>
-      <description>While multimodal retrieval-augmented generation (RAG) systems increasingly rely on images as external knowledge sources, the introduction of poisoned visual evidence can severely compromise multimodal large language model (MLLM) generation. Unlike prior attacks that rely on altering textual metadata, we introduce Vis-Poison, a novel visual knowledge poisoning attack where the poisoned image itself is the attacker-controlled payload, without manipulating captions, summaries, metadata, or other as</description>
-    </item>
-    <item>
-      <title>Dual-Cache Latent Space Communication between Heterogeneous Language Models</title>
-      <link>https://arxiv.org/abs/2608.20617</link>
-      <guid isPermaLink="false">arxiv:2608.20617</guid>
-      <pubDate>2026-08-20</pubDate>
-      <description>Multi-agent LLM systems split work across models, so answering often requires knowledge that sits in another agent's context: a Sharer has encoded information that a Receiver needs to complete its task. They usually communicate by exchanging text, which puts autoregressive decoding on the critical path and reduces the exchange to a discrete message written without sight of the receiver's state. Recent latent protocols instead translate the sharer's key-value (KV) cache into the receiver's: C2C s</description>
-    </item>
-    <item>
-      <title>Consilience: Conformally Calibrated Communication Control for Hidden-Profile Multi-Agent Reasoning</title>
-      <link>https://arxiv.org/abs/2608.20564</link>
-      <guid isPermaLink="false">arxiv:2608.20564</guid>
-      <pubDate>2026-08-20</pubDate>
-      <description>Multi-agent LLM systems can improve reasoning by pooling diverse perspectives, but their effectiveness depends on coordinating communication, particularly in hidden-profile settings where each agent holds only part of the evidence required for a correct decision. Existing protocols, including fixed schedules, round-robin exchange, and unstructured debate, provide no guarantee that a conversational action is appropriate. We propose Consilience, an inference-time orchestration framework that both </description>
-    </item>
-    <item>
-      <title>FL-MAESTRO: Multi-Agent LLM Orchestration for Resource-Constrained Federated Learning</title>
-      <link>https://arxiv.org/abs/2608.20518</link>
-      <guid isPermaLink="false">arxiv:2608.20518</guid>
-      <pubDate>2026-08-20</pubDate>
-      <description>In Federated Learning (FL), the communication topology is a runtime variable rather than a fixed design choice, since links and edge devices drop in and out during training. Each round, the server must commit three coupled decisions, namely the communication topology, per-client resource allocation, and the aggregation rule for combining local updates. Recent agentic systems have begun bringing large language models (LLM) into FL, but the existing line of work either operates at setup time or ha</description>
-    </item>
-    <item>
-      <title>Towards Traffic Modelling of Multi-Agent Systems: The Role of Coordination Topology</title>
-      <link>https://arxiv.org/abs/2608.20494</link>
-      <guid isPermaLink="false">arxiv:2608.20494</guid>
-      <pubDate>2026-08-20</pubDate>
-      <description>Multi-agent LLM systems are an emerging networked workload whose rapid deployment raises questions about the traffic patterns they generate. Compared to conventional applications, these systems generate requests internally: a single user task can induce a structured sequence of model calls whose timing is governed by coordination logic rather than by user arrival rate. It is not clear whether classical traffic models, designed for human-driven workloads, apply to this setting. We present an empi</description>
-    </item>
-    <item>
-      <title>An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction</title>
-      <link>https://arxiv.org/abs/2608.20320</link>
-      <guid isPermaLink="false">arxiv:2608.20320</guid>
-      <pubDate>2026-08-20</pubDate>
-      <description>Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral prediction. A chatbot-administered, image-augmented stated-preference survey collected mode choices from student commuters across five predefined weather scenarios, yielding 454 respondent-scenario observations</description>
-    </item>
-    <item>
-      <title>Towards Surgical World-Action Modeling: A Preliminary Joint Visual-Trajectory Forecasting for Surgical Motion Planning</title>
-      <link>https://arxiv.org/abs/2608.20284</link>
-      <guid isPermaLink="false">arxiv:2608.20284</guid>
-      <pubDate>2026-08-20</pubDate>
-      <description>Reliable surgical planning requires models to anticipate not only how instruments will move, but also how the operative visual state will evolve together with such motion. Existing approaches typically treat future scene generation and instrument trajectory prediction as two separate tasks. Scene-only models cannot directly evaluate the accuracy of future instrument motion at the trajectory level, while trajectory-only models fail to capture the visual consequences of instrument movement, leavin</description>
-    </item>
-    <item>
-      <title>Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2608.20129</link>
-      <guid isPermaLink="false">arxiv:2608.20129</guid>
-      <pubDate>2026-08-20</pubDate>
-      <description>Autonomous vehicles require robust perception and decision-making capabilities to operate in diverse and unseen scenarios. While reinforcement learning and rule-based methods can provide effective control and safety mechanisms, their performance may degrade in situations requiring contextual reasoning. Large Language Models (LLMs) have demonstrated strong capabilities in understanding multimodal information and generating contextual reasoning, however, their use for direct vehicle control can in</description>
+      <title>EMPIRE: Explicit Manipulation Planning as a Learnable Intermediate Representation for Egocentric Hand-Motion Forecasting</title>
+      <link>https://arxiv.org/abs/2608.22449</link>
+      <guid isPermaLink="false">arxiv:2608.22449</guid>
+      <pubDate>2026-08-23</pubDate>
+      <description>Forecasting dexterous hand motions from egocentric observations is fundamental to intelligent interactive systems. Existing VLM-based methods typically map observations directly to future motions, overlooking the underlying manipulation process that governs hand-object interactions. Moreover, end-to-end optimization couples manipulation learning with motion synthesis, causing motion-generation gradients to interfere with the pre-learned manipulation-aware representations. To overcome these limit</description>
     </item>
   </channel>
 </rss>
