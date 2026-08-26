@@ -4,97 +4,146 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Tue, 25 Aug 2026 03:46:28 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 03:51:41 GMT</lastBuildDate>
     <item>
-      <title>The Interaction Tax: When Communication Erases Diversity in Multi-Agent Teams</title>
-      <link>https://arxiv.org/abs/2608.23541</link>
-      <guid isPermaLink="false">arxiv:2608.23541</guid>
+      <title>Test-Time Collaborative Classification over Multi-Agent Networks</title>
+      <link>https://arxiv.org/abs/2608.24787</link>
+      <guid isPermaLink="false">arxiv:2608.24787</guid>
+      <pubDate>2026-08-25</pubDate>
+      <description>The increasing heterogeneity of multi-agent systems poses significant challenges for jointly training a global model across agents. At the same time, cooperative inference between agents has long been recognized as a powerful mechanism for distributed decision making over networks. Motivated by these observations, we propose a collaboration framework for distributed binary classification over multi-agent networks, where a set of independently trained agents, potentially differing in architecture</description>
+    </item>
+    <item>
+      <title>VIP: Variation-based Iterative-learning Planning for Robotic Navigation</title>
+      <link>https://arxiv.org/abs/2608.24618</link>
+      <guid isPermaLink="false">arxiv:2608.24618</guid>
+      <pubDate>2026-08-25</pubDate>
+      <description>Over the past decade, autonomous robotic systems have been increasingly deployed in applications such as surveying, search and rescue, and last-mile delivery. These applications require robots to generate safe and efficient motion plans in large, complex, and obstacle-dense environments, often under limited onboard computing resources. However, conventional planning methods commonly rely on finite-dimensional trajectory parameterization or increasingly long prediction horizons, leading to rapidl</description>
+    </item>
+    <item>
+      <title>Pivot-and-Station Multi-Agent Path Finding: Solvability, Complexity, and Algorithms</title>
+      <link>https://arxiv.org/abs/2608.24585</link>
+      <guid isPermaLink="false">arxiv:2608.24585</guid>
+      <pubDate>2026-08-25</pubDate>
+      <description>Automated high-density storage systems (warehouses, robotic parking, plant logistics, etc.) require fleets of agents to move through scarce task-critical resources and then park without obstructing future operations. We introduce Pivot-and-Station Multi-Agent Path Finding (PS-MAPF), a MAPF variant in which a subset of tasked agents must each visit one of a set of interchangeable pivots (e.g., workstations) before the entire fleet terminates at anonymous stations, one agent per station. We charac</description>
+    </item>
+    <item>
+      <title>StrokeGuard: A Multi-Agent Guided System for Prehospital Stroke Assessment</title>
+      <link>https://arxiv.org/abs/2608.24555</link>
+      <guid isPermaLink="false">arxiv:2608.24555</guid>
+      <pubDate>2026-08-25</pubDate>
+      <description>Prehospital stroke assessment aims to accurately identify stroke symptoms and make rapid decisions through standardized procedures within an extremely narrow time window, thereby saving valuable time for subsequent treatment. In clinical practice, FAST-based scales are widely used for prehospital stroke assessment by issuing instructions that guide subjects to perform specific actions to screen facial, arm, and speech functions. However, in home and community settings, non-clinical users often e</description>
+    </item>
+    <item>
+      <title>RoG-DAgger: Rollout-Guided Post-Training for End-to-End Driving</title>
+      <link>https://arxiv.org/abs/2608.24525</link>
+      <guid isPermaLink="false">arxiv:2608.24525</guid>
+      <pubDate>2026-08-25</pubDate>
+      <description>Recent end-to-end driving systems demonstrate strong performance on closed-loop benchmarks, yet are still predominantly trained on fixed expert-collected data using open-loop imitation learning. This training-inference mismatch leaves the policy vulnerable in policy-induced states, where accumulated errors can lead to safety-critical failures. A promising post-training approach to overcome this issue is Dataset Aggregation (DAgger), which gathers expert demonstrations in policy-induced states an</description>
+    </item>
+    <item>
+      <title>Variance-Guided Spatial Attention Fusion for Robust End-to-End Driving under Asymmetric Sensor Degradation</title>
+      <link>https://arxiv.org/abs/2608.24366</link>
+      <guid isPermaLink="false">arxiv:2608.24366</guid>
+      <pubDate>2026-08-25</pubDate>
+      <description>End-to-end multimodal driving has progressed rapidly by fusing camera and LiDAR streams. Existing pipelines remain fragile under asymmetric sensor degradation, where either an entire modality or only a localized region is corrupted while other regions remain useful. The key difficulty is not simply to add an uncertainty head, but to obtain dense reliability supervision, calibrate this reliability against physical fault severity, and use it before unreliable features bias the planner. We propose </description>
+    </item>
+    <item>
+      <title>Adaptive Influence Graphs for Failure Attribution in Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2608.24361</link>
+      <guid isPermaLink="false">arxiv:2608.24361</guid>
+      <pubDate>2026-08-25</pubDate>
+      <description>Multi-agent LLM systems are increasingly deployed in real-world applications, where failures can be costly and difficult to localize. Despite growing efforts to automate failure attribution, diagnosing failed runs still largely relies on human engineers. Yet engineers rarely debug complex systems by reading raw logs end to end. Instead, observability tools organize traces around components, actions, and dependencies to support targeted navigation. We hypothesize that modern LLMs can benefit from</description>
+    </item>
+    <item>
+      <title>CARE: Camera-Residual Reserves for First Sightings in Adaptive LiDAR Sensing</title>
+      <link>https://arxiv.org/abs/2608.24282</link>
+      <guid isPermaLink="false">arxiv:2608.24282</guid>
+      <pubDate>2026-08-25</pubDate>
+      <description>Adaptive LiDAR scanning concentrates a limited sensing budget on regions of interest predicted from past object tracks, lowering data volume in autonomous driving while maintaining detection accuracy. However, existing scanning policies face three challenges. First, history-driven approaches depend on past tracks, so unseen objects are detected late or missed. Second, random or uniform sampling outside the predicted regions has no awareness of where new objects appear. Third, camera-guided alter</description>
+    </item>
+    <item>
+      <title>STRIVE: Multi-Agent Structured Temporal Reasoning with Integrated Verification for Longitudinal Radiology Report Generation</title>
+      <link>https://arxiv.org/abs/2608.24237</link>
+      <guid isPermaLink="false">arxiv:2608.24237</guid>
+      <pubDate>2026-08-25</pubDate>
+      <description>Longitudinal radiology report generation (LRRG) requires identifying both current findings and their changes relative to a prior study. Existing methods jointly model diagnosis, attribute estimation, temporal comparison, and language generation within implicit representations, which can cause task interference, obscure the evidence underlying each decision, and limit error traceability. They also model progression states as independent labels, ignoring their ordered structure and thus treating m</description>
+    </item>
+    <item>
+      <title>Agentopia on a Consumer GPU: A Reduced-Scale Long-Horizon Port with an 8B Model</title>
+      <link>https://arxiv.org/abs/2608.24215</link>
+      <guid isPermaLink="false">arxiv:2608.24215</guid>
+      <pubDate>2026-08-25</pubDate>
+      <description>Large language model (LLM)-based multi-agent social simulation has demonstrated compelling results, but Agentopia was evaluated with 100 agents over 10 simulated years using Qwen3.5-397B-A17B, leaving the behavior of reduced-scale deployments on consumer hardware unclear. In this paper, we implement and evaluate a reduced-scale Agentopia port on a single NVIDIA RTX 5070 Ti(12 GB VRAM) using Qwen3-8B-AWQ, a 4-bit quantized model. We introduce three structural adaptations for this setting: (1) sys</description>
+    </item>
+    <item>
+      <title>SIREN-Bench: Behavior-Driven Generation and Evaluation of Emergency-Vehicle Interactions</title>
+      <link>https://arxiv.org/abs/2608.24094</link>
+      <guid isPermaLink="false">arxiv:2608.24094</guid>
+      <pubDate>2026-08-25</pubDate>
+      <description>Emergency vehicles (EMVs) can reorganize surrounding traffic as civilian vehicles brake, change lanes, or form rescue corridors in response to their passage. Evaluating these safety-critical interactions requires behavior-level control over both EMV privileges and civilian responses, together with consistent sensing and ground truth. Existing datasets and simulation benchmarks do not directly provide this combination. We present \textbf{SIREN}, a behavior-driven SUMO--CARLA co-simulation platfor</description>
+    </item>
+    <item>
+      <title>Poisoning Agentic Alpha: Adversarial Vulnerabilities Across Roles and Architectures in Multi-Agent Trading Systems</title>
+      <link>https://arxiv.org/abs/2608.24069</link>
+      <guid isPermaLink="false">arxiv:2608.24069</guid>
+      <pubDate>2026-08-25</pubDate>
+      <description>LLM-based multi-agent trading systems, in which specialized agents collaborate through structured communication to produce trading decisions, are moving rapidly from research prototypes to live deployments that control real assets. The same inter-agent communication that makes them effective also exposes them: a corrupted signal can propagate to the final decision and translate into realized financial loss. Unlike prior attacks that presume privileged access to system internals, we restrict the </description>
+    </item>
+    <item>
+      <title>Design-to-Plan: A Large Language Model-Based Multi-Agent Framework for Manufacturing Process Planning from 3D CAD Models and 2D Engineering Drawings</title>
+      <link>https://arxiv.org/abs/2608.24039</link>
+      <guid isPermaLink="false">arxiv:2608.24039</guid>
+      <pubDate>2026-08-25</pubDate>
+      <description>Manufacturing process planning transforms heterogeneous design information into coherent manufacturing decisions. However, existing approaches focus on isolated subtasks, such as feature recognition, drawing interpretation, or tool selection, and struggle to support the full reasoning chain from design artifacts to process plans. This is critical when planning must interpret 3D CAD models, 2D engineering drawings, materials, and domain-specific rules. To address this gap, this paper presents Des</description>
+    </item>
+    <item>
+      <title>NeurRAFT: Robot Motion Planning via Anchor-Level Flow Matching with Clearance-Aware Preference Tuning</title>
+      <link>https://arxiv.org/abs/2608.24026</link>
+      <guid isPermaLink="false">arxiv:2608.24026</guid>
+      <pubDate>2026-08-25</pubDate>
+      <description>Recent end-to-end neural motion planners generate trajectories from raw sensor observations, avoiding the privileged geometric models required by classical planners. However, collision-free planning in cluttered environments remains challenging. We present NeurRAFT, a generative planning framework based on anchor-level flow matching and clearance-aware preference tuning. Unlike prior neural planners that model dense waypoint sequences and spend capacity on redundant local details and smoothness,</description>
+    </item>
+    <item>
+      <title>Trusted Polytopic Action Sets for Fast Planning in Underactuated Systems</title>
+      <link>https://arxiv.org/abs/2608.24019</link>
+      <guid isPermaLink="false">arxiv:2608.24019</guid>
+      <pubDate>2026-08-25</pubDate>
+      <description>Underactuated systems pose a challenge for convex motion planning because their dynamically feasible motions lie on a manifold of trajectories in function space. Building on our earlier formulation of polytopic action sets (PAS), this paper presents a method for rapidly generating, online, trusted convex sets of short-horizon actions for underactuated and potentially nonlinear systems. Around a nominal trajectory, we construct local finite-dimensional action coordinates in which each parameter v</description>
+    </item>
+    <item>
+      <title>SAGE: From Direct Answering to Evidence-Grounded Inference for Chinese Ancient Document Understanding</title>
+      <link>https://arxiv.org/abs/2608.24011</link>
+      <guid isPermaLink="false">arxiv:2608.24011</guid>
+      <pubDate>2026-08-25</pubDate>
+      <description>Chinese ancient document understanding demands complex visual, linguistic, and historical reasoning. Current Large Vision-Language Models (LVLMs) typically rely on an opaque, single-pass generation paradigm, often producing overconfident and weakly grounded responses. To address this, we propose SAGE, an evidence-grounded multi-agent framework that reformulates Chinese ancient document understanding as evidence-grounded inference rather than direct answer generation. SAGE coordinates specialized</description>
+    </item>
+    <item>
+      <title>Safety-aware Model Predictive Path Integral Control with Signal Temporal Logic</title>
+      <link>https://arxiv.org/abs/2608.23972</link>
+      <guid isPermaLink="false">arxiv:2608.23972</guid>
+      <pubDate>2026-08-25</pubDate>
+      <description>Safety-aware motion planning remains a challenge in robotics, especially when missions are time-critical and are under complex specifications. In this paper, we propose safety-aware-stl-mppi, a computationally efficient sampling-based receding-horizon planning framework designed to promote satisfaction of constraints expressed in Signal Temporal Logic (STL). Our approach encodes discrete-time STL formulas into candidate time-varying control barrier functions (CBF), which are integrated into a mo</description>
+    </item>
+    <item>
+      <title>MARS: Multi-Specialist LLM Relay System for Competitive Programming</title>
+      <link>https://arxiv.org/abs/2608.23918</link>
+      <guid isPermaLink="false">arxiv:2608.23918</guid>
       <pubDate>2026-08-24</pubDate>
-      <description>Does multi-agent LLM interaction help or hurt? Some work reports gains from debate (Du et al., 2024), critique loops (Chen et al., 2025), and mixture-of-agents synthesis (Wang et al., 2025), while other work finds that interaction adds cost without improving quality under equal budgets (Tran &amp; Kiela, 2026; Xu et al., 2026; Jarrett et al., 2025), or that independent sampling already captures multi-agent gains (Li et al., 2024). We argue this contradiction partly reflects a missing distinction, be</description>
+      <description>Large Language Models excel at code generation, yet competitive programming exposes a persistent failure mode: existing multi-agent pipelines distribute work over generic planner, coder, and debugger roles and delegate the choice of algorithmic technique to the backbone alone. We present MARS (Multi-Agent Relay of Specialized LLMs), a prompt-only framework in which each agent is a topic specialist---dynamic programming, graphs, strings, geometry, and so on---grounded by retrieval-augmented gener</description>
     </item>
     <item>
-      <title>GeoWAM: Visual Geometry World Action Models for Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2608.23486</link>
-      <guid isPermaLink="false">arxiv:2608.23486</guid>
+      <title>Retrieval-augmented generation vs. deterministic tax computation in multi-agent financial advisory: A 2x2 factorial experiment</title>
+      <link>https://arxiv.org/abs/2608.23908</link>
+      <guid isPermaLink="false">arxiv:2608.23908</guid>
       <pubDate>2026-08-24</pubDate>
-      <description>World action models (WAMs) have recently gained increasing attention as a framework for jointly modeling scene evolution and ego actions in autonomous driving. Most existing WAMs learn scene dynamics in pixel space by combining a video-generation backbone for future-observation prediction with an action head for ego-trajectory prediction. Pixels, however, provide only an indirect representation of these dynamics: they entangle geometry and motion with appearance, texture, and illumination, forci</description>
+      <description>Tax-loss harvesting demonstrates consistent benefits to long-term portfolio growth; yet implementing it efficiently often involves complex considerations that are specific to the holdings within that portfolio and the individual who owns it. We introduce a custom capital gains calculation engine and a RAG-retrieved vector store of market advisory reports to provide context for a multi-agent trade recommendation system. We investigate the effects of each context provider on the quality of recomme</description>
     </item>
     <item>
-      <title>MetaCaster: Meta-Harness-Optimized Agent for End-to-End Few-Shot Learning of Lightweight Time Series Forecasters</title>
-      <link>https://arxiv.org/abs/2608.23473</link>
-      <guid isPermaLink="false">arxiv:2608.23473</guid>
+      <title>Beyond the Mandate: A Systematic Security Analysis of the Agent Payments Protocol (AP2)</title>
+      <link>https://arxiv.org/abs/2608.23858</link>
+      <guid isPermaLink="false">arxiv:2608.23858</guid>
       <pubDate>2026-08-24</pubDate>
-      <description>Time series forecasting (TSF) is evolving toward multimodal and agentic settings, yet using foundation models remains uneconomical in resource-constrained scenarios, where compact, specialized forecasters are more desirable. However, lightweight forecasters typically require substantial training data, limiting their use in domains with scarce, slowly accumulated, or privacy-sensitive time series. To address this dilemma, we investigate the challenging problem of few-shot learning for lightweight</description>
-    </item>
-    <item>
-      <title>MomADv2: Reliable Temporal Memory for End-to-End Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2608.23405</link>
-      <guid isPermaLink="false">arxiv:2608.23405</guid>
-      <pubDate>2026-08-24</pubDate>
-      <description>Long-horizon planning is critical for safe autonomous driving in complex scenarios. Existing methods improve planning continuity with temporal memory, but such memory may become invalid and mislead decisions when the driving command changes. Thus, selectively leveraging useful history while suppressing command-inconsistent memory remains a key challenge. To address this issue, we propose MomADv2, a reliable state-space memory framework for long-horizon end-to-end autonomous driving. At its core,</description>
-    </item>
-    <item>
-      <title>First Demonstration of Multi-Agent LLM System for Million-Scale Optical Link Management in Global Production AIDCs</title>
-      <link>https://arxiv.org/abs/2608.23145</link>
-      <guid isPermaLink="false">arxiv:2608.23145</guid>
-      <pubDate>2026-08-24</pubDate>
-      <description>We present the first LLM-powered multi-agent system for autonomous fault management across millions of optical links in production AIDCs. Refined via SFT and continuous memory evolution, it achieves 97.7% F1 and over 60% fault-incident reduction, outperforming SOTA LLMs on a ten-week field data evaluation.</description>
-    </item>
-    <item>
-      <title>Beyond Surface Cues: Disentangling Sociocultural Signals in Multilingual LLMs</title>
-      <link>https://arxiv.org/abs/2608.23026</link>
-      <guid isPermaLink="false">arxiv:2608.23026</guid>
-      <pubDate>2026-08-24</pubDate>
-      <description>Multilingual LLM outputs can vary across sociocultural contexts. However, evidence of cultural grounding can be misleading: identity labels may be inferred from explicit or indirect textual cues, while names and wording can reveal the source language. Treating all these signals as evidence of cultural grounding may obscure potential biases. We present a human-validated, multi-agent audit that separates three questions: whether outputs reproduce social biases, whether identity groups are represen</description>
-    </item>
-    <item>
-      <title>Minimal Local Simulation Foundations for LLM- and VLM-Driven Agents in 2D and 3D Environments</title>
-      <link>https://arxiv.org/abs/2608.22833</link>
-      <guid isPermaLink="false">arxiv:2608.22833</guid>
-      <pubDate>2026-08-24</pubDate>
-      <description>Large language models (LLMs) and vision-language models (VLMs) are expanding the range of behaviors that can be represented in agent-based simulations, but many contemporary platforms are difficult to study, modify, or run on ordinary computers. We present two intentionally minimal simulation foundations for education and rapid prototyping. SD-AgentFoundry-2D provides a two-dimensional multi-agent environment in which locally hosted LLM agents move, communicate, respond to place occupancy, and e</description>
-    </item>
-    <item>
-      <title>Enrich-Retrieve-Rank: Scaling Capability Discovery Beyond In-Context Routing</title>
-      <link>https://arxiv.org/abs/2608.22695</link>
-      <guid isPermaLink="false">arxiv:2608.22695</guid>
-      <pubDate>2026-08-24</pubDate>
-      <description>Agent ecosystems now include thousands of MATS components (Models, Agents, Tools, and Skills), yet their discovery still relies on in-context routing. These systems read a registry (names, hints, or descriptions, as context budget permits), pick a candidate, invoke it, and retry on failure. This pattern degrades with scale, and registries are growing fast. We recast capability discovery as search over a registry by defining an offline enrichment step that turns sparse metadata into searchable pr</description>
-    </item>
-    <item>
-      <title>Clinical Graph-JEPA: Predictive Patient-State Knowledge Graphs for Cognitive Decision Support</title>
-      <link>https://arxiv.org/abs/2608.22583</link>
-      <guid isPermaLink="false">arxiv:2608.22583</guid>
-      <pubDate>2026-08-23</pubDate>
-      <description>Clinical records contain rich evidence about patient state, but converting that evidence into reliable, structured knowledge graphs remains difficult because extraction errors, ontology mismatch, missing relations, and temporal ambiguity can propagate into downstream systems. We propose a clinical knowledge graph construction and refinement framework that combines multi-agent relation proposal, ontology-aware normalization, deterministic evidence scoring, and JEPA-based latent refinement. Rather</description>
-    </item>
-    <item>
-      <title>Scaling Curriculum Learning For Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2608.22549</link>
-      <guid isPermaLink="false">arxiv:2608.22549</guid>
-      <pubDate>2026-08-23</pubDate>
-      <description>Batched simulators for autonomous driving have recently enabled training reinforcement learning (RL) agents at scale, encompassing thousands of traffic scenarios and billions of interactions within a matter of days. Although such high-throughput feeds RL algorithms faster than ever, their sample-efficiency has not kept pace: As the standard training scheme, domain randomization uniformly samples scenarios, thereby consuming a vast number of interactions on cases that contribute little to learnin</description>
-    </item>
-    <item>
-      <title>HANSARD: A Reference Architecture for Forensic Readiness, Runtime Witnessing, and Graded Attribution in Autonomous Multi-Agent AI Systems</title>
-      <link>https://arxiv.org/abs/2608.22512</link>
-      <guid isPermaLink="false">arxiv:2608.22512</guid>
-      <pubDate>2026-08-23</pubDate>
-      <description>Autonomous multi-agent systems nowadays act in finance, software supply chains, and security operations. Already, the first largely AI-orchestrated intrusion campaigns have been reported. Yet, when such a system causes harm, no method can robustly establish what happened, what caused it, or who is accountable. This is because provenance forensics works at the wrong abstraction, formal causality assumes the causal model, and agent auditing trusts self-recording. The target failure mode is, thus, </description>
-    </item>
-    <item>
-      <title>Small Reasoning Models are Instruction Followers in Function Calling</title>
-      <link>https://arxiv.org/abs/2608.22472</link>
-      <guid isPermaLink="false">arxiv:2608.22472</guid>
-      <pubDate>2026-08-23</pubDate>
-      <description>Function calling represents the core capability of agentic large language models (LLMs). Existing research has focused on enhancing LLMs function-calling accuracy through fine-tuning, reinforcement learning (RL), and multi-agent frameworks, particularly for native function-calling LLMs. This work demonstrates that LLMs achieve superior accuracy in function calling in instruction-following contexts (i.e., standard user-assistant interactions) rather than a tool calling context. We introduce Instr</description>
-    </item>
-    <item>
-      <title>EMPIRE: Explicit Manipulation Planning as a Learnable Intermediate Representation for Egocentric Hand-Motion Forecasting</title>
-      <link>https://arxiv.org/abs/2608.22449</link>
-      <guid isPermaLink="false">arxiv:2608.22449</guid>
-      <pubDate>2026-08-23</pubDate>
-      <description>Forecasting dexterous hand motions from egocentric observations is fundamental to intelligent interactive systems. Existing VLM-based methods typically map observations directly to future motions, overlooking the underlying manipulation process that governs hand-object interactions. Moreover, end-to-end optimization couples manipulation learning with motion synthesis, causing motion-generation gradients to interfere with the pre-learned manipulation-aware representations. To overcome these limit</description>
+      <description>The Agent Payments Protocol (AP2), introduced by Google, enables large language model (LLM)-driven shopping agents to authorize and execute payments on behalf of users. Its signed Checkout and Payment Mandates protect the integrity of transaction data after signing. Agent interactions and external inputs that shape a transaction before authorization remain outside that protection, including Agent-to-Agent Protocol (A2A) messages and Model Context Protocol (MCP) tool calls. Prior work identified </description>
     </item>
   </channel>
 </rss>
