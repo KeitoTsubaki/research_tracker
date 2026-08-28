@@ -4,146 +4,153 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Thu, 27 Aug 2026 13:46:50 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 14:53:43 GMT</lastBuildDate>
     <item>
-      <title>SwarmWorld: Stigmergic technological evolution in societies of language-model agents</title>
-      <link>https://arxiv.org/abs/2608.26081</link>
-      <guid isPermaLink="false">arxiv:2608.26081</guid>
-      <pubDate>2026-08-26</pubDate>
-      <description>Collective intelligence can emerge when individuals coordinate through a shared environment, allowing local actions to accumulate into durable social organization. Language-model agents offer a new substrate for this process, yet most multi-agent systems rely on direct conversation, predefined roles, or centralized workflows. It remains unclear whether decentralized agents can build functional technologies and outperform independent search. Here, initially homogeneous LLM agents in SwarmWorld se</description>
+      <title>Embodied Scene Rearrangement Planning</title>
+      <link>https://arxiv.org/abs/2608.27371</link>
+      <guid isPermaLink="false">arxiv:2608.27371</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>This paper introduces Embodied Scene Rearrangement Planning (ESRP), a novel task requiring embodied agents to rearrange furniture in 3D scenes to match a target configuration using only egocentric observations and a top-down target layout. Unlike prior rearrangement tasks, ESRP precludes global state access and introduces mutual object occlusions, reflecting the practical constraints of real-world robotic deployment. These factors make aligning partial egocentric observations with the global tar</description>
     </item>
     <item>
-      <title>Gating Before Commitment: Anticipating Intent Divergence to Prevent Post-Interaction Decision Failures in Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2608.26074</link>
-      <guid isPermaLink="false">arxiv:2608.26074</guid>
-      <pubDate>2026-08-26</pubDate>
-      <description>Intent misinterpretation during vehicle interactions causes recurring planning failures. We study a decision layer in which a language-guided intent module reads structured descriptors, computes a smoothed intent-geometry divergence score, and gates the planned maneuver before commitment, upstream of a corridor envelope. On a replayed off-road departure and four crash clips under a frozen, disclosed implementation, gating is the only layer that repairs the plan: on the main case it fires 72 ms a</description>
+      <title>One Model, Many Minds: Unlocking Multi-Agent Synergy in a Single Agent via Mixture of Roles</title>
+      <link>https://arxiv.org/abs/2608.27338</link>
+      <guid isPermaLink="false">arxiv:2608.27338</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Specializing Large Language Models (LLMs) toward distinct abilities underpins successes ranging from personalized assistants to multi-agent systems (MAS). Single-agent paradigms rely on pre-defined personas or steering vectors to induce specialization, yet they impose a single fixed specialization that fails to adapt to diverse queries. Conversely, MAS achieves dynamic multi-perspective problem solving by orchestrating agents with distinct text-based roles, but fusing these specializations requi</description>
     </item>
     <item>
-      <title>DESCENT: Directed Edge Scene Encoding for Airport Surface Movement Prediction</title>
-      <link>https://arxiv.org/abs/2608.26002</link>
-      <guid isPermaLink="false">arxiv:2608.26002</guid>
-      <pubDate>2026-08-26</pubDate>
-      <description>Advanced automation is a key technology for enhancing the safety of ground operations amidst the increasing density of commercial air traffic. While motion forecasting is a well-studied task in autonomous driving, its application to airport surface movements remains underexplored. To enable efficient and accurate prediction in this domain, we propose DESCENT, a transformer-based architecture designed to handle heterogeneous dynamics and strict topological constraints. Our approach features a Pot</description>
+      <title>Tensegrity Continuum Robots Enable Task-Adaptive Morphologies for Cooperative Behaviors</title>
+      <link>https://arxiv.org/abs/2608.27221</link>
+      <guid isPermaLink="false">arxiv:2608.27221</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Robots that can change their morphologies and behaviors for different tasks and environments hold great promise for adaptable, multifunctional systems. Modular reconfigurable robots (MRRs) can achieve such functionalities by docking and rearranging individual units, but most rely on rigid modules that lack structural compliance, resulting in limited capabilities. Continuum robots offer compliance through flexible backbones, yet they cannot self-reconfigure into task-adaptive multi-robot configur</description>
     </item>
     <item>
-      <title>ProgRouter: Online Progress-Guided Orchestration for Multi-Agent LLM Workflows under Quality-Cost Tradeoffs</title>
-      <link>https://arxiv.org/abs/2608.25992</link>
-      <guid isPermaLink="false">arxiv:2608.25992</guid>
-      <pubDate>2026-08-26</pubDate>
-      <description>Multi-agent large language model (LLM) workflows have emerged as a powerful paradigm for solving complex, open-ended tasks through collaborative reasoning among specialized LLM agents, but they incur substantial operating costs due to repeated LLM invocations and long-horizon context accumulation. Existing cascade routing methods make one-shot, query-level decisions and cannot adapt to the dynamic, state-dependent nature of multi-step workflows, in which the right LLM at each step depends on evo</description>
+      <title>GRAIN: Bridging Name and Narrative Shifts in Real-World Graph Reasoning through Invariance-Rewarded Agentic RL</title>
+      <link>https://arxiv.org/abs/2608.27142</link>
+      <guid isPermaLink="false">arxiv:2608.27142</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Despite their potential in standardized graph tasks, Large Language Models (LLMs) remain brittle to real-world shifts in node identifiers and task formulation. While deterministic graph tools are invariant to such shifts, extracting topological structures from noisy text is highly fragile for LLMs, which often overfit to surface patterns. Moreover, mitigating these parsing failures via multi-agent systems incurs prohibitive latency. To address this, we propose GRAIN, a single-agent framework opt</description>
     </item>
     <item>
-      <title>Candidate supply and answer selection shape the value of LLM judging in multi-agent systems</title>
-      <link>https://arxiv.org/abs/2608.25937</link>
-      <guid isPermaLink="false">arxiv:2608.25937</guid>
-      <pubDate>2026-08-26</pubDate>
-      <description>Multi-agent systems (MAS) sometimes already have the potential to answer correctly, but still report a wrong answer. Explaining this outcome is difficult because generation, communication and final answer-selection rules usually change simultaneously. We conceptualize multi-agent reasoning as an evolutionary pipeline of candidate generation, peer communication and terminal selection, wherein consensus without quality control can exhibit patterns of memetic drift. We study two questions: (1) when</description>
+      <title>TransMeme: A Multi-Agent Framework for Cross-Cultural Meme Transcreation</title>
+      <link>https://arxiv.org/abs/2608.27127</link>
+      <guid isPermaLink="false">arxiv:2608.27127</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Internet memes are a pervasive form of multimodal online communication; however, such communication often involves users from diverse linguistic and cultural backgrounds. Therefore, adapting memes across cultures and languages is a central challenge for enabling mutual understanding in online communication. Unlike ordinary translation or standalone text rewriting, cross-cultural meme transcreation must jointly preserve communicative intent, adapt culture-dependent meaning for the target audience</description>
     </item>
     <item>
-      <title>Repair or Resample? Rethinking Failure Debugging in LLM Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2608.25920</link>
-      <guid isPermaLink="false">arxiv:2608.25920</guid>
-      <pubDate>2026-08-26</pubDate>
-      <description>As large language model (LLM)-based multi-agent systems (MASs) are increasingly applied to long-horizon complex tasks, their reliability has emerged as the core bottleneck hindering their real-world deployment. Existing MAS debugging and repair methods typically rely on rerunning and resampling the entire execution trajectory. However, a fundamental question remains to be answered: do these methods causally repair MAS failures or merely stochastically repair by leveraging the randomness of LLM s</description>
+      <title>Active sensing to characterize the heterogeneity of plant stress</title>
+      <link>https://arxiv.org/abs/2608.27088</link>
+      <guid isPermaLink="false">arxiv:2608.27088</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>While most phenotyping platforms rely primarily on image-based measurements, advanced plant characterization requires the integration of active physiological sensing modali- ties such as chlorophyll fluorescence. We present an autonomous robotic platform designed to perform targeted fluorescence measurements on plant leaves. The system combines 3D plant reconstruction, geometric analysis, and motion planning to localize suitable measurement points and generate collision-free trajectories for a r</description>
     </item>
     <item>
-      <title>Anytime Global Tensor Motion Planning</title>
-      <link>https://arxiv.org/abs/2608.25830</link>
-      <guid isPermaLink="false">arxiv:2608.25830</guid>
-      <pubDate>2026-08-26</pubDate>
-      <description>Global Tensor Motion Planning (GTMP) solves motion planning with batched tensor operations over a layered multipartite graph. We generalize GTMP so that adjacent-layer edges are realized by any black-box local planner (e.g., linear interpolation, splines, sampling-based planning, trajectory optimization, or generative sampling). We provide two anytime policies on top of this generalization: Anytime GTMP with random restarts at a fixed budget, which covers every homotopy class almost surely, and </description>
+      <title>Pass the Bucket: Efficient, Robust, Local Load Balancing for Teams of Heterogeneous Robots</title>
+      <link>https://arxiv.org/abs/2608.27085</link>
+      <guid isPermaLink="false">arxiv:2608.27085</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>We study the problem of decentralized, self-organized task sharing for a swarm of heterogeneous robots that collaborate in transportation or other objectives that require coordinated motion planning. To this end, we present theoretical and practical results for the simple but effective mechanism of \emph{bucket brigades} for load balancing, in which a team of heterogenous robots share a spatial task in a confined, one-dimensional space, while only being able to sense collisions with neighbors or</description>
     </item>
     <item>
-      <title>Cooperative Multi-Agent Reinforcement Learning for Adaptive Aggregation in Semi-Supervised Federated Learning with non-IID Data</title>
-      <link>https://arxiv.org/abs/2608.25794</link>
-      <guid isPermaLink="false">arxiv:2608.25794</guid>
-      <pubDate>2026-08-26</pubDate>
-      <description>Federated Learning (FL) enables distributed training of machine learning models while preserving data privacy. However, FL struggles with heterogeneous, non-IID client data distributions, resulting in sub-optimal and biased global models. In this paper, we propose pFedMARL, a novel approach leveraging Multi-Agent Reinforcement Learning (MARL) with Twin Delayed Deep Deterministic Policy Gradient (TD3) to dynamically adapt aggregation strategies in FL settings. Our method employs a server-side age</description>
+      <title>Multi-Person Human Motion Forecasting in Complex Scenes</title>
+      <link>https://arxiv.org/abs/2608.27039</link>
+      <guid isPermaLink="false">arxiv:2608.27039</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Accurately forecasting the movement of people in complex scenes requires reasoning over the past and present state of the entire environment. In this context, effectively incorporating object information and social interactions into a unified framework remains particularly challenging. To address this, we propose Object-Conditioned Social Diffusion (OCSD), a conditional diffusion model that integrates motion history, multi-person interactions, and object cues into a single framework. OCSD uses a</description>
     </item>
     <item>
-      <title>HypoForge: A Self-Improving Multi-Agent Framework for Automated Hypothesis Generation and Testing via Scientific Skill Learning</title>
-      <link>https://arxiv.org/abs/2608.25770</link>
-      <guid isPermaLink="false">arxiv:2608.25770</guid>
-      <pubDate>2026-08-26</pubDate>
-      <description>Large language models (LLMs) have enabled AI scientist systems to automate scientific discovery, yet existing approaches most rely on static prompting or fixed workflows and fail to accumulate experience for continual improvement. We propose HypoForge, an experience-guided multi-agent framework that learns reusable scientific skills for automated hypothesis generation and hypothesis testing. HypoForge is built on the observation that these two stages involve different supervision signals. For hy</description>
+      <title>Dynamic Haven Selection for Multi-Agent Pickup and Delivery in Constrained Warehouses</title>
+      <link>https://arxiv.org/abs/2608.26939</link>
+      <guid isPermaLink="false">arxiv:2608.26939</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Space-efficient warehouse layouts often contain single-agent-width aisles and dead-end workstations where robots have few places to wait without blocking others. In Multi-Agent Pickup and Delivery (MAPD) on such constrained layouts, robots must accept online pickup-delivery tasks while preserving protected waiting locations called Havens. The Safe HAven Retreat Planner (SHARP) introduced a mechanism that extends each committed task path with a validated retreat to the agent's dedicated initial H</description>
     </item>
     <item>
-      <title>Leveraging Inter-object Affordances for Efficient Planning in Contact-rich Tasks</title>
-      <link>https://arxiv.org/abs/2608.25641</link>
-      <guid isPermaLink="false">arxiv:2608.25641</guid>
-      <pubDate>2026-08-26</pubDate>
-      <description>Traditional task-and-motion planning (TAMP) approaches primarily focus on defining sequences of actions along with the necessary geometric and kinematic constraints to execute long-horizon tasks. However, their applicability in real-world settings is limited, as they typically assume simplified object models that overlook key physical properties critical for the successful execution of contact-rich tasks. Moreover, they often use sub-symbolic reasoning during motion planning, which drastically i</description>
+      <title>AI agents in Algorithmic Electricity Markets: On the Emergence of Tacit Collusion</title>
+      <link>https://arxiv.org/abs/2608.26896</link>
+      <guid isPermaLink="false">arxiv:2608.26896</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>As electricity market participants increasingly adopt learning-based agents for their bidding strategies, electricity markets are becoming algorithmic. Evidence from algorithmic markets in other domains shows that tacit collusion can arise purely through independent learning. Moreover, electricity markets are typically oligopolistic and feature repeated interaction among a small number of participants, making them structurally susceptible to non-competitive behavior. In the face of these observa</description>
     </item>
     <item>
-      <title>AERIS: Offline Policy Improvement for Multi-UAV Integrated Sensing and Communication</title>
-      <link>https://arxiv.org/abs/2608.25477</link>
-      <guid isPermaLink="false">arxiv:2608.25477</guid>
-      <pubDate>2026-08-26</pubDate>
-      <description>Unmanned aerial vehicle (UAV)-enabled integrated sensing and communication (ISAC) is a promising 6G paradigm, but dynamic multi-UAV ISAC control must jointly balance communication quality, sensing reliability, and flight safety under stochastic mobility. Existing optimization methods often require repeated global non-convex solving, while online reinforcement learning (RL) depends on risky trial-and-error flights that may cause sensing loss or collision-risk events. This paper proposes AERIS, an</description>
+      <title>CGS-SLAM: Collaborative Gaussian Splatting based SLAM for Multi-Agent Reconstruction</title>
+      <link>https://arxiv.org/abs/2608.26868</link>
+      <guid isPermaLink="false">arxiv:2608.26868</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Recent advances in SLAM have leveraged 3DGS for photorealistic reconstruction and novel view synthesis. However, most methods rely on RGB-D input, which is unavailable on consumer-grade smartphones, and few integrate 3DGS within a collaborative framework. Therefore, we present CGS-SLAM, a hybrid decentralized/centralized system enabling multi-agent 3DGS SLAM using only RGB and inertial data. Each agent performs local tracking with inertial data as a motion prior and reconstructs a scaled map usi</description>
     </item>
     <item>
-      <title>MACGen: Toward Functionally Correct and Secure Code Generation via Multi-Agent Collaboration</title>
-      <link>https://arxiv.org/abs/2608.25457</link>
-      <guid isPermaLink="false">arxiv:2608.25457</guid>
-      <pubDate>2026-08-26</pubDate>
-      <description>Despite their strong ability to generate code, large language models often fail to produce secure code, as their outputs frequently contain security vulnerabilities. Secure code generation is inherently challenging because it requires solving a multi-objective problem: functional correctness and security. Existing approaches address this challenge by injecting external security knowledge or by using agentic feedback and iterative refinement. However, guideline retrieval often leaves the generato</description>
+      <title>LiveSim: Simulating Environment-Shaped Users in Multi-Agent Live-Stream Ecosystems</title>
+      <link>https://arxiv.org/abs/2608.26849</link>
+      <guid isPermaLink="false">arxiv:2608.26849</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>User behavior simulation with large language models~(LLMs) is increasingly used to support multi-agent ecosystem simulation. Existing simulators typically rely on static user profiles inferred from historical observations, which become inadequate in socially intensive environments such as live streaming where interaction dynamics continuously reshape user behavior. We propose \textbf{LiveSim}, an LLM-based framework for live-stream ecosystem simulation. It represents users as editable behavioral</description>
     </item>
     <item>
-      <title>SUPER ODOMETRY 2.0: Resilient Odometry via Hierarchical Adaptation</title>
-      <link>https://arxiv.org/abs/2608.25427</link>
-      <guid isPermaLink="false">arxiv:2608.25427</guid>
-      <pubDate>2026-08-26</pubDate>
-      <description>Resilient and robust odometry is crucial for autonomous systems operating in complex and dynamic environments. Existing odometry systems often struggle with severe sensory degradations and extreme conditions such as smoke, sandstorms, snow, or low-light conditions, threatening both the safety and functionality of robots. To address these challenges, we present Super Odometry, a sensor fusion framework that dynamically adapts to varying levels of environmental degradation. Super Odometry employs </description>
+      <title>Decoupling Planning and Control for Instructable Agents</title>
+      <link>https://arxiv.org/abs/2608.26788</link>
+      <guid isPermaLink="false">arxiv:2608.26788</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Recent work shows that pre-trained, instruction-tuned vision-language models (VLMs) perform well at mapping from instructions and observations to high-level plans, but struggle to realize such plans as reliable low-latency action sequences in unfamiliar environments. At the same time, world-model controllers excel at fast observation-to-action control, but lack open-ended task guidance. In this work, we combine these strengths into a single system, Instruct-to-Act, where we train a world-model c</description>
     </item>
     <item>
-      <title>BVR Sim: An Open and High-Throughput Environment for Heterogeneous Air-Combat Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2608.25419</link>
-      <guid isPermaLink="false">arxiv:2608.25419</guid>
-      <pubDate>2026-08-26</pubDate>
-      <description>Beyond-visual-range (BVR) air combat is a challenging reinforcement-learning domain characterized by partial observability, long-horizon decision making, energy management, and limited weapons. We present BVR Sim, an open-source Gymnasium-style environment designed for heterogeneous air-combat reinforcement learning. BVR Sim supports multiple JSBSim aircraft models, including the F-15, F-16, F/A-18, and F-22, with configurable weapons, sensors, controllers, and opponents. A unified tactical acti</description>
+      <title>Fixed-Haven Reservation for Online Multi-Agent Pickup and Delivery in Dense Warehouses</title>
+      <link>https://arxiv.org/abs/2608.26759</link>
+      <guid isPermaLink="false">arxiv:2608.26759</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Dense warehouses often contain single-lane aisles, dead ends, and tree-like guidepaths that leave little room for idle agents to wait without blocking others. Existing Multi-Agent Pickup and Delivery (MAPD) guarantees for completing all finitely released tasks typically rely on extra waiting endpoints that planned paths can avoid, or on biconnected topology; these assumptions may fail in such layouts. We study fixed-Haven reservation for online MAPD, where pickup-delivery tasks are released over</description>
     </item>
     <item>
-      <title>Generative Action-Chunk Sampling for Adaptive Stiffness Control in Physical Human-Robot Collaboration</title>
-      <link>https://arxiv.org/abs/2608.25284</link>
-      <guid isPermaLink="false">arxiv:2608.25284</guid>
-      <pubDate>2026-08-26</pubDate>
-      <description>Physical human-robot collaboration requires a robot to provide assistance when human intention is clear while remaining compliant when several future motions are plausible. We present an adaptive stiffness framework based on generative action-chunk sampling. Conditioned on an RGB image and external joint-torque estimates, the policy samples multiple future action chunks from an observation-conditioned prior. Variation among the sampled action chunks is used to continuously adapt joint stiffness </description>
+      <title>Safety by Design: Realized-Cost Constraints for Contextual Bandits with Continuous Actions</title>
+      <link>https://arxiv.org/abs/2608.26755</link>
+      <guid isPermaLink="false">arxiv:2608.26755</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Contextual bandits are a standard framework for sequential decision-making under uncertainty, with applications in clinical trials, dosage selection, recommendation systems, and autonomous systems. Safety is central in many of these applications, since a single unsafe decision in settings such as dosage selection or autonomous driving can have catastrophic consequences. A common way to model safety in bandit problems is to associate each action with both a reward signal and a cost signal, and to</description>
     </item>
     <item>
-      <title>Routed Graph Handoff: Adaptive Format Selection for Multi-Agent LLM Delegation</title>
-      <link>https://arxiv.org/abs/2608.25277</link>
-      <guid isPermaLink="false">arxiv:2608.25277</guid>
-      <pubDate>2026-08-26</pubDate>
-      <description>Multi-agent LLM systems coordinate through natural-language messages that consume 40--60\% of their token budget. Replacing these with structured graphs reduces cost but fails on tasks requiring adaptive reasoning. We propose \textbf{Routed Graph Handoff}, where a lightweight LLM router (155 tokens, 0.15\% overhead) selects between a typed dependency graph and natural language for each delegation. On four benchmarks (1,050+ trajectories), the routed system matches or exceeds NL-only on every tas</description>
+      <title>AgentFold: Closed-Loop Agentic Search for Protein Folding Model Design</title>
+      <link>https://arxiv.org/abs/2608.26747</link>
+      <guid isPermaLink="false">arxiv:2608.26747</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Scientific LLM agents have shown promise in literature reasoning, tool use, and experiment planning, but it remains unclear whether they can autonomously improve large, tightly coupled scientific machine-learning systems through executable code changes and computationally expensive validation. We study this question in protein folding, where progress requires coordinated architectural modifications, multi-objective evaluation, and domain-aware interpretation. We present AgentFold, a multi-agent </description>
     </item>
     <item>
-      <title>A Few Pages of Markdown: Committed AI Configuration and Lower Quality Cost after Coding-Agent Adoption</title>
-      <link>https://arxiv.org/abs/2608.25241</link>
-      <guid isPermaLink="false">arxiv:2608.25241</guid>
-      <pubDate>2026-08-26</pubDate>
-      <description>Coding agents increase development velocity but also technical debt. Prior work reports only average effects across adopters, hiding wide differences between teams. We introduce RAMP (Repository AI Maturity Profile), a four-level cumulative maturity model grounded in version-controlled artifacts that teams commit to configure AI tools. RAMP runs from behavioral rules and coding standards through named agent definitions to multi-agent orchestration, with observed practice concentrated in the firs</description>
+      <title>Accelerating Scientific Research with Gemini in the Real-World</title>
+      <link>https://arxiv.org/abs/2608.26701</link>
+      <guid isPermaLink="false">arxiv:2608.26701</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>We present an extension and comprehensive real-world validation of Co-Scientist, a Gemini-based multi-agent system designed to accelerate end-to-end scientific research across hypothesis generation, experimentation, and manuscript generation. Moving beyond in silico hypothesis generation, this specialized configuration transitions Co-Scientist into an execution-grounded research partner advancing closed-loop scientific workflows across materials science, biology, and computer science. In materia</description>
     </item>
     <item>
-      <title>Simulating Cognitive Smart Freight Corridors with Agent-Based Models and Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2608.25193</link>
-      <guid isPermaLink="false">arxiv:2608.25193</guid>
-      <pubDate>2026-08-25</pubDate>
-      <description>Smart freight corridors offer a practical pathway for connected and automated vehicle (CAV) deployment in freight transportation, but physical experimentation is expensive and existing approaches rely on predefined control policies that cannot capture adaptive behaviors. This paper presents an agent-based modeling (ABM) framework coupling a physical infrastructure layer, a connectivity layer (V2X), and a decision layer integrating reinforcement learning (RL) and multi-agent reinforcement learnin</description>
+      <title>SIGMA: Structured Noise-Effect-Aware Grouped Multi-Agent Aggregation</title>
+      <link>https://arxiv.org/abs/2608.26683</link>
+      <guid isPermaLink="false">arxiv:2608.26683</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Cooperative multi-agent reinforcement learning (MARL) faces significant challenges in maintaining robust coordination under noisy observations. Although observation disturbances are often introduced independently across agents, their downstream effects on cooperative decision-making can become structured through underlying cooperation structures. We characterize this phenomenon as structured noise effects, where noise-induced decision effects exhibit local correlation among agents with stronger </description>
     </item>
     <item>
-      <title>Belief Cascades Drive Persuasion in LLM Agent Networks</title>
-      <link>https://arxiv.org/abs/2608.25152</link>
-      <guid isPermaLink="false">arxiv:2608.25152</guid>
-      <pubDate>2026-08-25</pubDate>
-      <description>Multi-agent LLM systems increasingly debate answers, coordinate research, simulate users, and mediate information flows, making agent-to-agent persuasion a basic but undermeasured capability. We introduce a controlled testbed for studying how goal-directed persuaders shift elicited stances in networks of LLM agents grounded in real-world ego-network topologies. Across four LLM backbones, five graphs, and 55 policy statements, we find that persuasion dynamics depend on the interaction between top</description>
+      <title>Risks and Controls for Multi-Agent Systems: an analytical framework for deployment of AI agents across organisational boundaries</title>
+      <link>https://arxiv.org/abs/2608.26626</link>
+      <guid isPermaLink="false">arxiv:2608.26626</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>This report presents a framework to help organisations, policymakers and researchers reason about the risks that emerge when AI agents interact with each other, how those risks change as interactions cross organisational boundaries, and the controls that may help address them. As organisations deploy AI agents, those agents will increasingly interact with each other: inside the organisation, with the agents of partners, customers and suppliers, and with unknown counterparties on the open interne</description>
     </item>
     <item>
-      <title>SkyDrive: Learning to Drive in a New City from Aerial Traffic Monitoring</title>
-      <link>https://arxiv.org/abs/2608.25142</link>
-      <guid isPermaLink="false">arxiv:2608.25142</guid>
-      <pubDate>2026-08-25</pubDate>
-      <description>Autonomous driving has made remarkable progress through imitation learning with massive human demonstration data. However, a trained planner often degrades severely when applied to a new environment zero-shot, because of domain shifts in traffic regulations, road layout and driving behaviors. Therefore, adapting a trajectory planner to a new city typically requires resource-demanding local data collection with a vehicle sensor suite. In this work, we show that driving behavior can be learned fro</description>
+      <title>Barrier Function Conformal Safety Clearance Certification with CVaR for Driving Trajectory Selection</title>
+      <link>https://arxiv.org/abs/2608.26533</link>
+      <guid isPermaLink="false">arxiv:2608.26533</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Autonomous driving motion planners generate and select candidate trajectories while accounting for interactions with surrounding agents. However, these evaluations do not certify the actual safety clearance of the selected trajectory. The framework evaluates the trajectory selected by ant planners and calibrates the gap between its plan time margin and realized safety clearance. A differentiable separating axis barrier margin deterministically lower bounds exact signed oriented-bounding-box (OBB</description>
+    </item>
+    <item>
+      <title>Zero-Shot Self-Orchestration with Ledger-Based Control for Improved LLM Coding Performance</title>
+      <link>https://arxiv.org/abs/2608.26480</link>
+      <guid isPermaLink="false">arxiv:2608.26480</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Multi-agent large language model systems are widely reported to beat single-model baselines, but the evidence is mixed, and comparisons are usually confounded: pipelines change token budgets, tool calls, and prompts simultaneously, so an aggregate gain rarely reveals what actually helped. We investigate the effect of introducing the manager-worker scaffold over a shared filesystem workspace, with no training and no per-benchmark tuning, measured against the same model answering in a single pass.</description>
     </item>
   </channel>
 </rss>
