@@ -22,9 +22,9 @@
     ],
     "venue_status": "published",
     "venue_note": "Accepted for publication in IEEE Robotics and Automation Letters (RA-L), 2026. Project page: https://bit-pie.github.io/ESRP/ Code: https://github.com/BIT-PIE/ESRP Dataset: https://huggingface.co/datasets/serendipity800/ESRP-PD",
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.27338",
@@ -53,9 +53,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "19 pages, 10 figures",
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.27221",
@@ -80,9 +80,9 @@
     ],
     "venue_status": "published",
     "venue_note": "22 pages, 6 figures, Accepted to Nature Machine Intelligence",
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.27142",
@@ -114,9 +114,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.27127",
@@ -142,9 +142,9 @@
     ],
     "venue_status": "published",
     "venue_note": "10 pages, 4 figures. Accepted at the 34th ACM International Conference on Multimedia (ACM MM 2026)",
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.27088",
@@ -166,9 +166,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "UR2026",
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.27085",
@@ -191,9 +191,9 @@
     ],
     "venue_status": "published",
     "venue_note": "This paper was submitted to IROS 2026 on March 2nd and accepted on June 17th",
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.27039",
@@ -215,9 +215,9 @@
     ],
     "venue_status": "published",
     "venue_note": "Accepted to GCPR 2026",
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.26939",
@@ -240,9 +240,9 @@
     ],
     "venue_status": "published",
     "venue_note": "19 pages, 4 figures, and 3 tables. Accepted at the Joint Workshop on Planning for Complex Real-World Applications (CAIPI) and Bridging the Gap Between AI Planning and (Reinforcement) Learning (PRL), co-located with IJCAI-ECAI 2026",
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.26896",
@@ -263,9 +263,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "10 pages",
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.26868",
@@ -288,9 +288,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.26849",
@@ -315,9 +315,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "20 pages, 8 figures, 7 tables",
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.26788",
@@ -341,9 +341,9 @@
     ],
     "venue_status": "published",
     "venue_note": "Published as a conference paper at COLM 2026. Project page: https://zinengtang.github.io/instruct-to-act/",
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.26759",
@@ -366,9 +366,9 @@
     ],
     "venue_status": "published",
     "venue_note": "11 pages, 9 figures. Accepted at the 14th Workshop on Planning and Robotics (PlanRob), co-located with ICAPS 2026",
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.26755",
@@ -389,9 +389,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.26747",
@@ -421,9 +421,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.26701",
@@ -477,9 +477,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.26683",
@@ -499,9 +499,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.26626",
@@ -525,9 +525,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "This paper has been published by the Australian AI Safety Institute within the Department of Industry, Science and Resources under a CC BY 4.0 licence: https://www.industry.gov.au/publications/risks-and-controls-multi-agent-systems",
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.26533",
@@ -548,9 +548,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.26480",
@@ -576,9 +576,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-08-28T14:53:43Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-08-28T14:53:43Z"
   },
   {
     "id": "arxiv:2608.26081",
