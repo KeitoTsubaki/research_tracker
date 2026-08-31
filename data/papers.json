@@ -1,5 +1,303 @@
 [
   {
+    "id": "arxiv:2608.28475",
+    "title": "COVER: Identifiable Evaluation of Coalition Routing",
+    "authors": [
+      "Raghul Sugumar",
+      "Amrit Gopinath"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.28475",
+    "abstract": "When a multi-agent system changes its team, it also changes the messages and final answer it produces, so an end-to-end accuracy gap does not by itself identify a routing effect. We introduce method, an evaluation contract that fixes a public information boundary, downstream stack G, and finite legal team family before outcomes are generated. Complete coverage identifies exact finite-benchmark oracle regret conditional on that stack. For any finite collection of frozen policies, executing the union of their distinct selected teams is the minimal assumption-free support for every pairwise policy contrast, though not for absolute oracle regret. Two controlled tables with source-ID-disjoint splits test the instrument. On MuSiQue-12, a pre-specified privileged positive control improves regret from 0.532 to 0.402; a later public-interface control reaches 0.424 versus 0.554 but is retrospective. On HotpotQA-4, a pre-specified public direct scorer improves regret from 0.313 to 0.110. In fixed-stack Llama execution, verified route regret improves by 0.190, while the raw-answer gain is 0.010 with an interval crossing zero. A five-family ToolSandbox variant-shift validation exhaustively evaluates 16 declared teams on 14 untouched task variants (224/224 valid rows): the declared-family oracle reaches 0.768 safe-evidence completion, while the prospectively frozen router gets 0.637 (regret 0.131), failing the predeclared 0.10 criterion. A later retrospective comparator reaches 0.655, matching all-workers with 4.57 versus 5.00 workers on average. Thus COVER exposes selection headroom without manufacturing a routing win. A crossed-stack diagnostic shows absolute scores depend on G but finds no detectable router-by-finalizer interaction. COVER is an auditable measurement methodology, not a claim of stack-invariant or universal agent-routing superiority.",
+    "published_date": "2026-08-28",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "17 pages, 2 figures, 13 tables",
+    "fetched_at": "2026-08-31T09:20:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.28266",
+    "title": "CoCoBench: A Cooperative Coordination Benchmark for Embodied Multi-Agent Task Planning",
+    "authors": [
+      "Yang Chen",
+      "Ye-Xin Xie",
+      "Lirong Che",
+      "Danyang Peng",
+      "Yuzhe Yang",
+      "Peiwen Lin",
+      "Xu Cao",
+      "Chuang Wang",
+      "Lei Yuan",
+      "Jian Su",
+      "Lan-Zhe Guo"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.28266",
+    "abstract": "Agent systems powered by multimodal large language models (MLLMs) have advanced rapidly in recent years, yet existing embodied-agent benchmarks still lack fine-grained diagnostics for multi-agent coordination. Most benchmarks either focus on single-agent task completion or summarize multi-agent behavior with overall task success rates, which can obscure coordination failures such as duplicated work, violations of ordering constraints, resource contention, and desynchronized handoffs. In this paper, we introduce CoCoBench, a construct-level benchmark for evaluating multi-agent embodied coordination in executable household tasks. CoCoBench contains 897 oracle-validated instances organized around four recurring coordination constructs: task allocation, sequential ordering, mutual exclusion, and handoff coordination. In addition to task success rate, CoCoBench provides construct-level scores that measure whether agents coordinate effectively. We evaluate 11 leading MLLMs across different coordination modes, observation inputs, and numbers of agents. The results show that coordination ability is highly construct-specific: strong overall performance does not imply balanced competence across different coordination types. These findings point to new directions for designing targeted model architectures and improving multi-agent coordination ability.",
+    "published_date": "2026-08-28",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-31T09:20:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.28264",
+    "title": "Finding Where the Buck Stops: An Automated Failure Attribution-Based Reflection Framework for Multi-Agent Collaboration",
+    "authors": [
+      "Xiaoqing Wang",
+      "Keman Huang",
+      "Bin Liang",
+      "Hongyu Li",
+      "Xiaoyong Du",
+      "Wuqiong Pan"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.28264",
+    "abstract": "Multi-agent systems (MAS) powered by large language models have shown promise for complex tasks but suffer from high failure rates. Current self-reflection methods for MAS require all agents to reflect upon failure, overlooking a critical reality: failures typically stem from a specific agent leading the task astray, namely the decisive error agent, while others merely fulfill their regular duties. Forcing regular-behaving agents to reflect contaminates their memory with wrong insights. Hence, we propose DoCtOR (Diagnose-then-Correct PPO-enhanced Reflection), a novel reflection framework that enhances multi-agent collaboration. DoCtOR first identifies the decisive error step and decisive error agent through automated failure attribution, then employs counterfactual reasoning to generate a corrected decisive error step, and finally engages only the decisive error agent to produce targeted reflections. Experimental results show DoCtOR achieves 22%, 26%, and 27% improvements over initial success rates on HotPotQA, ChartQAPro, and Mind2Web datasets, outperforming Reflexion, Retroformer, and COPPER. We further establish the generalizability of our diagnose-then-correct paradigm and demonstrate that in low-resource settings, focusing reflection on reasoning steps after the decisive error step achieves comparable quality to reflecting on the complete failure trajectory.",
+    "published_date": "2026-08-28",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted by EMNLP 2026 main",
+    "fetched_at": "2026-08-31T09:20:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.28075",
+    "title": "Plan Along the Way: Event-Triggered Foundation-Model Planning for TAMP Execution in Partially Observable Manipulation",
+    "authors": [
+      "Puru Ojha",
+      "Narendhiran Vijayakumar",
+      "Nav Singhal",
+      "Girish Varma",
+      "Antony Thomas"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.28075",
+    "abstract": "Manipulation in partially observable environments requires planning under incomplete scene information. In such settings, an initially valid plan may execute successfully yet remain insufficient for task completion. Existing foundation-model-guided task and motion planning (TAMP) systems can generate useful long-horizon task decompositions, subgoals, or constraints, but they often assume having access to a fully specified scene state or invoke model-level replanning after a subgoal, refinement, or execution attempt fails. We present ROBUST TAMP, a modular LLM/VLM-guided planning framework for reactive TAMP where unseen task-relevant and non-target objects may become visible during execution. The framework restricts the foundation-model planner to the currently visible relational scene state, validates generated task-level actions against a strict executable interface, and routes the accepted actions to scene-specific execution adapters. Object discovery is treated as a distinct replanning event and, after a stable execution horizon, the system reconstructs the visible scene state and replans using completed-action history and structured replanning event context. Evaluations are performed on six RLBench/CoppeliaSim kitchen and grill variants involving hidden objects, non-target object discovery, articulated-container interaction, and temporal manipulation procedures. We compare text-only LLM and VLM planners of different sizes under the same validation, execution, monitoring, and replanning pipeline, reporting task success, partial goal completion, discovery- and failure-triggered replanning behavior, implicit non-target-object handling, and planner inference cost.",
+    "published_date": "2026-08-28",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 4 figures",
+    "fetched_at": "2026-08-31T09:20:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.27999",
+    "title": "PhenoIntel: A Lifecycle-Aligned Multi-Agent Web Application for Verified, Accessible Plant Phenotype Analysis",
+    "authors": [
+      "Narendren S",
+      "Soumyashree Kar"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.27999",
+    "abstract": "Existing conversational plant-phenotyping platforms are difficult for plant scientists to use and lack the reliability scientific research demands: failed analyses are reported as valid measurements rather than flagged as missing, statistical tests run without checking assumptions, predictions carry no uncertainty estimate, and specialised hardware limits accessibility. We present PhenoIntel, a lifecycle-aligned multi-agent web platform that turns the full machine-learning workflow into a reliable, user-friendly phenotyping system. Nine specialised agents divide the analysis into stages, from image collection through model selection, inference, and reporting, rather than handing the whole task to one AI manager. Independent checks separate these stages, and every agent reads from and writes to one shared, fixed-structure record, so an inconsistent output from one stage is caught before it reaches the next. Uncertainty is matched to each model family, conformal prediction, detection-confidence spread, or Monte Carlo Dropout, rather than applied uniformly, and quality thresholds adapt to crop and task instead of one global cutoff. When no suitable model exists, PhenoIntel can propose, validate, and integrate a new one on its own. The model repository spans ten trained models across five crops and four imaging modalities. Classification models reach Macro F1 of 0.78-0.996; object-detection models reach 0.96 mAP@50 with a 54% reduction in counting error over an unoptimised baseline; and a temporal model reaches held-out Macro F1 of 0.7050. PhenoIntel runs in a browser on standard hardware, requiring no GPU, and a 1,200-test automated suite confirms complete pipeline execution. Every result carries calibrated uncertainty, validated statistics, and FAIR-compliant provenance, a combination existing conversational phenotyping tools do not offer.",
+    "published_date": "2026-08-28",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "32 pages, 11 figures, 9 tables. Submitted to Engineering Applications of Artificial Intelligence (Elsevier)",
+    "fetched_at": "2026-08-31T09:20:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.27998",
+    "title": "Automated Analysis Framework for Multilingual Climate-Health Literature Based on Multi-Agent Large Language Model",
+    "authors": [
+      "Yuze Sun",
+      "Shihui Zhang",
+      "Jiancheng Pan",
+      "Yunjia Ye",
+      "Wentao Luo",
+      "Jiahao Li",
+      "Quan Zhang",
+      "Wenjia Cai",
+      "Xiaomeng Huang"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.27998",
+    "abstract": "The rapid proliferation of interdisciplinary and multilingual scientific literature has left traditional manual analysis and single-algorithm methods plagued by low efficiency, poor scalability, and insufficient domain adaptability. Targeting the literature analysis needs of the typical interdisciplinary climate-health field, this study proposes a multi-agent large language model automated analysis framework for multilingual scientific literature, which realizes full-process automation covering literature screening, structured information extraction, and standardized integration. With a central coordination module as the core, the framework deploys three dedicated agents for document evaluation, information extraction, and analytical review to mimic the literature analysis thinking of domain experts, and adopts a four-layer hallucination control strategy together with a manual verification procedure to ensure the accuracy and reliability of analytical outcomes. Validated on a bilingual Chinese-English corpus of 32,642 climate-health papers covering China from 1993 to 2023, the framework achieves an F1 score of 0.92 in core information extraction, and completes the extraction and standardization of 2,012 city-literature association pairs, offering effective technical support for large-scale evidence mining in the climate-health research domain.",
+    "published_date": "2026-08-28",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-31T09:20:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.27984",
+    "title": "When Evidence Shapes Collaboration: Knowledge-Conditioned Topology Generation for Multi-Agent Systems",
+    "authors": [
+      "Yangxiao Jiang",
+      "Jiarun Fan",
+      "Mingcong Xu",
+      "Yanxi Guo",
+      "Jiwen Feng",
+      "Shanqing Xu",
+      "Mengchen Qian",
+      "Wei Chen",
+      "Xiaojin Zhang"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.27984",
+    "abstract": "Multi-Agent Systems (MAS) have recently moved from static workflows toward dynamically generated collaboration topologies. However, existing topology generation methods rely primarily on the parametric knowledge of large language models, with external search or retrieval used only as a reactive tool rather than an explicit determinant of collaboration structure. This leads to structure-knowledge misalignment, where systems exhibit redundant interactions or insufficient verification in knowledge-intensive tasks. We propose K-GAT (Knowledge-Guided Agent Topology Generator), a neuro-symbolic framework that formulates collaboration topology design as a knowledge-conditioned structure learning problem, integrating external evidence directly into autoregressive graph generation. Extensive experiments on knowledge-intensive benchmarks demonstrate K-GAT's efficiency and effectiveness: notably on the expert-level GPQA dataset, K-GAT outperforms the LLM-Debate baseline by a substantial margin of +15.7% in accuracy, while consuming less than half the computational tokens.",
+    "published_date": "2026-08-28",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-31T09:20:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.27969",
+    "title": "openJiuwen: Beyond Static Harnesses for Long-Horizon Coding Agents",
+    "authors": [
+      "openJiuwen Team",
+      "Tao Yu",
+      "Xinyu Zhang",
+      "Qianqian Chen",
+      "Xiaoneng Xiang",
+      "Chia Kwangyang",
+      "Xingchen Huang",
+      "Ran Chen",
+      "Yangkai Ding",
+      "Zheng Wang",
+      "Yeo Boon Hong",
+      "Bingzheng Gan",
+      "Enrui Hu",
+      "Shuo Cheng",
+      "Deyang Li",
+      "Ruifeng Shi",
+      "Hongbo Wang",
+      "Qi Ye",
+      "Xuefeng Jin",
+      "Zhangchun Zhao"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.27969",
+    "abstract": "Long-horizon coding agents operate over evolving repository states while increasingly relying on heterogeneous capabilities, delegated agents, and multi-agent coordination. These trends pose two complementary challenges for the agent harness. First, developers need to compose capabilities, reconfigure execution logic, and scale increasingly complex agent systems without repeatedly rebuilding orchestration. Second, complex coding tasks continuously produce new evidence---such as semantic diagnostics, execution outcomes, task progress, and changing context relevance---that should dynamically influence subsequent runtime decisions. We characterize these challenges as Structural Composability and Runtime Adaptivity. We present openJiuwen, an open-source harness designed for both developer composability and adaptive task execution. openJiuwen provides a shared execution substrate and Rail-based capability composition across single agents, delegated sub-agents, and Swarm Flow, enabling developers to construct sophisticated agent harnesses under common execution semantics. It further adapts framework-controlled runtime decisions around a fixed model policy, allowing evolving evidence to dynamically affect context, feedback, and task control toward successful completion. We systematically evaluate openJiuwen on SWE-bench Verified and Terminal-Bench 2.1, where it achieves 82.6% and 87.19%, respectively, exceeding the strongest selected official-leaderboard point estimates by 3.4 and 3.39 percentage points. These results show that openJiuwen achieves strong performance on complex coding tasks while providing a composable and adaptive harness design.",
+    "published_date": "2026-08-28",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-31T09:20:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.27923",
+    "title": "PCBnet: A Dataset and Automatic Construction of SPICE Netlists from Schematic Images",
+    "authors": [
+      "Zhen Huang",
+      "Yuhao Gao",
+      "Yuzhi Liu",
+      "Daian Cheng",
+      "Chengyuan Shao",
+      "Yucheng Chen",
+      "Yongjian Jia",
+      "Futing Zhang",
+      "Yichen Shi",
+      "Wenhao Wang",
+      "Zuyan He",
+      "Yangbo Wei",
+      "Zhanfei Chen",
+      "Jinlong Yan",
+      "Yu Zhang",
+      "Haoying Wu",
+      "Ting-Jung Lin",
+      "Lei He"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.27923",
+    "abstract": "Printed circuit boards (PCBs) are fundamental to modern electronic systems, yet AI-driven PCB design automation remains constrained by the lack of large-scale paired schematic-netlist datasets. PCB schematics are particularly challenging due to diverse component types, complex wiring topologies, and noisy textual annotations. To address this gap, we present PCBnet, a large-scale PCB schematic dataset comprising over 300 real-world designs with annotated pins and paired SPICE netlists. It contains more than 50,000 component instances, 150,000 wires, 100,000 text regions, and 400,000 characters. We further develop an automated schematic-to-netlist pipeline that combines visual recognition, topology construction, and domain-knowledge-guided multi-agent correction. The proposed method achieves 94.54% component detection mAP, 98.57% text recognition accuracy, and 84.47% end-to-end connectivity accuracy. PCBnet provides a benchmark and data foundation for future AI-driven PCB design automation.",
+    "published_date": "2026-08-28",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted at the 2026 IEEE International Conference on LLM-Aided Design (ICLAD 2026)",
+    "fetched_at": "2026-08-31T09:20:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.27909",
+    "title": "Low-Altitude Fluid Antenna Network with Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Tong Zhang",
+      "Yanfei Su",
+      "Shuai Wang",
+      "Wanli Ni",
+      "Chengzhong Xu",
+      "Huseyin Arslan"
+    ],
+    "source": "arxiv",
+    "category": "cs.IT",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.27909",
+    "abstract": "Low-altitude wireless networks (LAWNs) integrate terrestrial and aerial platforms to provide ubiquitous communication, sensing, and localization services for unmanned aerial vehicles (UAVs) and electric vertical takeoff and landing (eVTOL) aircraft. However, dynamic air-ground and air-air channels, abrupt blockages, and heterogeneous interference hinder the realization of this goal. Nevertheless, fluid antenna (FA), a cutting-edge multiple-input multiple-output (MIMO) technique, overcomes these challenges by reconfiguring antenna positions to unlock additional spatial degrees-of-freedom. In this paper, towards bringing low-altitude FA networks into reality, we study the fast and high-performance FA reconfiguration for low-altitude FA networks with multi-agent reinforcement learning (MARL). Specifically, we present an electromagnetic digital twin (EM-DT)-assisted MARL framework. To fill the sim-to-real gap, we introduce a two-stage transfer learning framework. Our case study shows that joint FA positions and beamforming optimization can enhance the system sum-rate by 118.5%, compared to the fixed position baseline. This gain comes from the dynamic millisecond timescale reconfiguration of FA arrays and the adaptive steering of beams toward aerial users with mobility.",
+    "published_date": "2026-08-28",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted by IEEE Communications Magazine",
+    "fetched_at": "2026-08-31T09:20:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2608.27371",
     "title": "Embodied Scene Rearrangement Planning",
     "authors": [
@@ -579,6 +877,83 @@
     "memo": "",
     "memo_updated_at": null,
     "fetched_at": "2026-08-28T14:53:43Z"
+  },
+  {
+    "id": "arxiv:2608.27726",
+    "title": "Coordinated Motion Planning for Multi-Arm Systems via Iterative LQ Games",
+    "authors": [
+      "Junyoung Kim",
+      "Hanwen Ren",
+      "Lei Zhang",
+      "Ahmed H. Qureshi"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.27726",
+    "abstract": "Multi-agent motion planning for high-degree-of-freedom robotics manipulators in shared workspaces remains a fundamental yet challenging problem. Centralized planners often suffer from poor scalability, while decentralized approaches face robustness and safety concerns. Game-theoretic formulations offer a promising approach for modeling agent interactions, potentially overcoming these limitations. However, their application to articulated multi-arm systems remains limited. This paper presents an iterative Linear Quadratic (LQ) game framework for multi-manipulator motion planning, where each manipulator is modeled as an independent agent optimizing its own objective while interacting with other agents based on shared global states and collision constraints. The method solves a series of local LQ games by linearizing the dynamics and approximating the cost around a nominal trajectory, with Riccati backward recursions yielding feedback Nash strategies. To address the challenges of articulated systems, we incorporate differentiable penalties for self-collision and inter-arm collision into the optimization pipeline, enabling coordinated, collision-aware trajectory generation. Experiments demonstrate that our framework produces smooth, safe, and efficient trajectories in high-dimensional settings, outperforming traditional methods. This highlights the effectiveness of differential game formulations for multi-robot manipulation.",
+    "published_date": "2026-08-27",
+    "tags": [
+      "marl",
+      "cooperative-transport",
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-08-31T09:20:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.27685",
+    "title": "Distributed Model-Based Diffusion: Finite Horizon Contraction under Bounded Delay",
+    "authors": [
+      "Seth Golembeski",
+      "Keith L. Gibson",
+      "Alexander Gross",
+      "Shreyas Kousik",
+      "Anirban Mazumdar"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.27685",
+    "abstract": "Simultaneously optimizing the trajectories of multiple agents is a challenging problem plagued by nonlinearity, nonconvexity, and the curse of dimensionality. A collection of interacting aerial vehicles or self-driving cars in an intersection are examples of complex multi-agent systems that remain difficult to solve without many simplifying assumptions. The presence of communication latency between agents further increases the difficulty. In this paper, we analyze Distributed Model-Based Diffusion: a sampling-based Model-Predictive Control method suitable for highly nonlinear, nonconvex, nonsmooth, multi-agent systems. We prove contraction and robustness to latency for multi-agent, nonconvex problems, showing applicability to real-world constraints. We test the algorithm on a circleswap task, a cooperative medium-fidelity driving task, and in an aerial combat scenario. Despite the addition of latency, our algorithm improves circleswap makespan by 31% and increases aerial combat win rate by 25% compared to centralized Model-Based Diffusion.",
+    "published_date": "2026-08-27",
+    "tags": [
+      "marl",
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 3 figures",
+    "fetched_at": "2026-08-31T09:20:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2608.27633",
+    "title": "Depth-Aware Pothole Detection Using YOLO and RT-DETR at the Edge",
+    "authors": [
+      "Md Monjurul Ahsan Prodhan",
+      "Md Nour Hossain"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2608.27633",
+    "abstract": "Pothole detection and its severity measurement is still an important challenges in urban infrastructure management, where late maintenance directly contributes to vehicle damage, road accidents, and escalating repair costs. Existing automated approaches depend on 2D RGB images and cannot measure physical depth of potholes. In this paper, we present a depthaware pothole detection framework and then compare five architectures: YOLOv8n, YOLOv8nSeg, YOLOv9t, RTDETRL, and RTDETRX for RGB-D sensor fusion-based detection and automated depth measurement. A custom offline augmentation pipeline is used here to simulate adverse road monitoring conditions. All models are trained on the PothRGBD dataset with an 80% training and 20% validation split and evaluated using Precision, Recall, mAP@50, and mAP@50_95. Before measuring the depth data, all depth maps are corrected for camera tilt using RANSAC ground-plane orthorectification and all zero-valued sensor pixels are cast to NaN before any statistic is computed. YOLOv8nSeg achieves the highest mAP@50 of 0.9556 and mAP@50_95 of 0.6758 with the most accurate depth estimate of 2.96 cm with the pixel-precise Dseg algorithm. YOLOv8n achieves the fastest inference at 3.6ms. RTDETRX achieves the highest detection confidence at 92.70%. An important finding is that even after full RANSAC orthorectification, bounding box models overestimate pothole depth by 0.16 to 0.21 cm compared to pixel precise segmentation masks. This confirms that the pavement inclusion bias is structural rather than a calibration artifact.",
+    "published_date": "2026-08-27",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "6 pages, 7 figures, IEEE 9th International Conference on Multimedia Information Processing and Retrieval, Presented on Monday, 10 August 2026",
+    "fetched_at": "2026-08-31T09:20:10Z",
+    "memo": "",
+    "memo_updated_at": null
   },
   {
     "id": "arxiv:2608.26081",
