@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 31 Aug 2026 09:20:10 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 10:15:39 GMT</lastBuildDate>
     <item>
       <title>COVER: Identifiable Evaluation of Coalition Routing</title>
       <link>https://arxiv.org/abs/2608.28475</link>
@@ -95,6 +95,55 @@
       <guid isPermaLink="false">arxiv:2608.27633</guid>
       <pubDate>2026-08-27</pubDate>
       <description>Pothole detection and its severity measurement is still an important challenges in urban infrastructure management, where late maintenance directly contributes to vehicle damage, road accidents, and escalating repair costs. Existing automated approaches depend on 2D RGB images and cannot measure physical depth of potholes. In this paper, we present a depthaware pothole detection framework and then compare five architectures: YOLOv8n, YOLOv8nSeg, YOLOv9t, RTDETRL, and RTDETRX for RGB-D sensor fus</description>
+    </item>
+    <item>
+      <title>Embodied Scene Rearrangement Planning</title>
+      <link>https://arxiv.org/abs/2608.27371</link>
+      <guid isPermaLink="false">arxiv:2608.27371</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>This paper introduces Embodied Scene Rearrangement Planning (ESRP), a novel task requiring embodied agents to rearrange furniture in 3D scenes to match a target configuration using only egocentric observations and a top-down target layout. Unlike prior rearrangement tasks, ESRP precludes global state access and introduces mutual object occlusions, reflecting the practical constraints of real-world robotic deployment. These factors make aligning partial egocentric observations with the global tar</description>
+    </item>
+    <item>
+      <title>One Model, Many Minds: Unlocking Multi-Agent Synergy in a Single Agent via Mixture of Roles</title>
+      <link>https://arxiv.org/abs/2608.27338</link>
+      <guid isPermaLink="false">arxiv:2608.27338</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Specializing Large Language Models (LLMs) toward distinct abilities underpins successes ranging from personalized assistants to multi-agent systems (MAS). Single-agent paradigms rely on pre-defined personas or steering vectors to induce specialization, yet they impose a single fixed specialization that fails to adapt to diverse queries. Conversely, MAS achieves dynamic multi-perspective problem solving by orchestrating agents with distinct text-based roles, but fusing these specializations requi</description>
+    </item>
+    <item>
+      <title>Tensegrity Continuum Robots Enable Task-Adaptive Morphologies for Cooperative Behaviors</title>
+      <link>https://arxiv.org/abs/2608.27221</link>
+      <guid isPermaLink="false">arxiv:2608.27221</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Robots that can change their morphologies and behaviors for different tasks and environments hold great promise for adaptable, multifunctional systems. Modular reconfigurable robots (MRRs) can achieve such functionalities by docking and rearranging individual units, but most rely on rigid modules that lack structural compliance, resulting in limited capabilities. Continuum robots offer compliance through flexible backbones, yet they cannot self-reconfigure into task-adaptive multi-robot configur</description>
+    </item>
+    <item>
+      <title>GRAIN: Bridging Name and Narrative Shifts in Real-World Graph Reasoning through Invariance-Rewarded Agentic RL</title>
+      <link>https://arxiv.org/abs/2608.27142</link>
+      <guid isPermaLink="false">arxiv:2608.27142</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Despite their potential in standardized graph tasks, Large Language Models (LLMs) remain brittle to real-world shifts in node identifiers and task formulation. While deterministic graph tools are invariant to such shifts, extracting topological structures from noisy text is highly fragile for LLMs, which often overfit to surface patterns. Moreover, mitigating these parsing failures via multi-agent systems incurs prohibitive latency. To address this, we propose GRAIN, a single-agent framework opt</description>
+    </item>
+    <item>
+      <title>TransMeme: A Multi-Agent Framework for Cross-Cultural Meme Transcreation</title>
+      <link>https://arxiv.org/abs/2608.27127</link>
+      <guid isPermaLink="false">arxiv:2608.27127</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>Internet memes are a pervasive form of multimodal online communication; however, such communication often involves users from diverse linguistic and cultural backgrounds. Therefore, adapting memes across cultures and languages is a central challenge for enabling mutual understanding in online communication. Unlike ordinary translation or standalone text rewriting, cross-cultural meme transcreation must jointly preserve communicative intent, adapt culture-dependent meaning for the target audience</description>
+    </item>
+    <item>
+      <title>Active sensing to characterize the heterogeneity of plant stress</title>
+      <link>https://arxiv.org/abs/2608.27088</link>
+      <guid isPermaLink="false">arxiv:2608.27088</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>While most phenotyping platforms rely primarily on image-based measurements, advanced plant characterization requires the integration of active physiological sensing modali- ties such as chlorophyll fluorescence. We present an autonomous robotic platform designed to perform targeted fluorescence measurements on plant leaves. The system combines 3D plant reconstruction, geometric analysis, and motion planning to localize suitable measurement points and generate collision-free trajectories for a r</description>
+    </item>
+    <item>
+      <title>Pass the Bucket: Efficient, Robust, Local Load Balancing for Teams of Heterogeneous Robots</title>
+      <link>https://arxiv.org/abs/2608.27085</link>
+      <guid isPermaLink="false">arxiv:2608.27085</guid>
+      <pubDate>2026-08-27</pubDate>
+      <description>We study the problem of decentralized, self-organized task sharing for a swarm of heterogeneous robots that collaborate in transportation or other objectives that require coordinated motion planning. To this end, we present theoretical and practical results for the simple but effective mechanism of \emph{bucket brigades} for load balancing, in which a team of heterogenous robots share a spatial task in a confined, one-dimensional space, while only being able to sense collisions with neighbors or</description>
     </item>
   </channel>
 </rss>
