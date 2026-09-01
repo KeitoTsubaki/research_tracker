@@ -1,5 +1,20 @@
 {
-  "source": "conference_award",
-  "generated_at": "2026-08-31T10:15:39Z",
-  "ids": []
+  "source": "arxiv",
+  "generated_at": "2026-09-01T08:18:10Z",
+  "ids": [
+    "arxiv:2608.31029",
+    "arxiv:2608.30963",
+    "arxiv:2608.30938",
+    "arxiv:2608.30874",
+    "arxiv:2608.30819",
+    "arxiv:2608.30672",
+    "arxiv:2608.30659",
+    "arxiv:2608.30498",
+    "arxiv:2608.30428",
+    "arxiv:2608.30391",
+    "arxiv:2608.30192",
+    "arxiv:2608.30179",
+    "arxiv:2608.30144",
+    "arxiv:2608.30083"
+  ]
 }

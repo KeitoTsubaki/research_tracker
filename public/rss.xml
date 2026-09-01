@@ -4,146 +4,104 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 31 Aug 2026 10:15:39 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 08:18:10 GMT</lastBuildDate>
     <item>
-      <title>COVER: Identifiable Evaluation of Coalition Routing</title>
-      <link>https://arxiv.org/abs/2608.28475</link>
-      <guid isPermaLink="false">arxiv:2608.28475</guid>
-      <pubDate>2026-08-28</pubDate>
-      <description>When a multi-agent system changes its team, it also changes the messages and final answer it produces, so an end-to-end accuracy gap does not by itself identify a routing effect. We introduce method, an evaluation contract that fixes a public information boundary, downstream stack G, and finite legal team family before outcomes are generated. Complete coverage identifies exact finite-benchmark oracle regret conditional on that stack. For any finite collection of frozen policies, executing the un</description>
+      <title>Driving on Memory</title>
+      <link>https://arxiv.org/abs/2608.31029</link>
+      <guid isPermaLink="false">arxiv:2608.31029</guid>
+      <pubDate>2026-08-31</pubDate>
+      <description>End-to-end autonomous driving models plan future trajectories from raw sensor input. While earlier driving benchmarks often measured deviation from the human trajectory, current benchmarks such as NAVSIM and Bench2Drive evaluate models with richer simulation-based metrics intended to capture safe and compliant driving. A high benchmark score should reflect that a model can understand the scene in front of it and act accordingly. But how much of that score specifically comes from reacting to the </description>
     </item>
     <item>
-      <title>CoCoBench: A Cooperative Coordination Benchmark for Embodied Multi-Agent Task Planning</title>
-      <link>https://arxiv.org/abs/2608.28266</link>
-      <guid isPermaLink="false">arxiv:2608.28266</guid>
-      <pubDate>2026-08-28</pubDate>
-      <description>Agent systems powered by multimodal large language models (MLLMs) have advanced rapidly in recent years, yet existing embodied-agent benchmarks still lack fine-grained diagnostics for multi-agent coordination. Most benchmarks either focus on single-agent task completion or summarize multi-agent behavior with overall task success rates, which can obscure coordination failures such as duplicated work, violations of ordering constraints, resource contention, and desynchronized handoffs. In this pap</description>
+      <title>A Universal Context-Reuse Layer for Cross-Model KV Sharing</title>
+      <link>https://arxiv.org/abs/2608.30963</link>
+      <guid isPermaLink="false">arxiv:2608.30963</guid>
+      <pubDate>2026-08-31</pubDate>
+      <description>Modern large language model (LLM) serving systems increasingly operate over repeated or shared context, yet each model typically performs its own prefill computation even when another model has already processed the same input. Existing KV-cache reuse mechanisms substantially reduce redundant computation within a single model, but generally assume that the producer and consumer of a cache are identical. We study \emph{cross-model KV sharing}, which translates the KV state produced by a source mo</description>
     </item>
     <item>
-      <title>Finding Where the Buck Stops: An Automated Failure Attribution-Based Reflection Framework for Multi-Agent Collaboration</title>
-      <link>https://arxiv.org/abs/2608.28264</link>
-      <guid isPermaLink="false">arxiv:2608.28264</guid>
-      <pubDate>2026-08-28</pubDate>
-      <description>Multi-agent systems (MAS) powered by large language models have shown promise for complex tasks but suffer from high failure rates. Current self-reflection methods for MAS require all agents to reflect upon failure, overlooking a critical reality: failures typically stem from a specific agent leading the task astray, namely the decisive error agent, while others merely fulfill their regular duties. Forcing regular-behaving agents to reflect contaminates their memory with wrong insights. Hence, w</description>
+      <title>Evidence, Logic, and Compliance: Multi-Agent Structured Graph Reasoning with Expert Arbitration for Medical Referral</title>
+      <link>https://arxiv.org/abs/2608.30938</link>
+      <guid isPermaLink="false">arxiv:2608.30938</guid>
+      <pubDate>2026-08-31</pubDate>
+      <description>Medical referral (directing patients to the appropriate hospital department) is a complex decision-making process requiring the synthesis of multimodal data, including patient narratives, laboratory indicators, and radiology imaging. While Large Language Models (LLMs) have advanced medical dialogue systems, they struggle with real-world referral tasks due to two primary limitations: (1) Information Overload, where models fixate on high-frequency disease terms while overlooking subtle but critica</description>
     </item>
     <item>
-      <title>Plan Along the Way: Event-Triggered Foundation-Model Planning for TAMP Execution in Partially Observable Manipulation</title>
-      <link>https://arxiv.org/abs/2608.28075</link>
-      <guid isPermaLink="false">arxiv:2608.28075</guid>
-      <pubDate>2026-08-28</pubDate>
-      <description>Manipulation in partially observable environments requires planning under incomplete scene information. In such settings, an initially valid plan may execute successfully yet remain insufficient for task completion. Existing foundation-model-guided task and motion planning (TAMP) systems can generate useful long-horizon task decompositions, subgoals, or constraints, but they often assume having access to a fully specified scene state or invoke model-level replanning after a subgoal, refinement, </description>
+      <title>Provably Safe Decentralized Contingency MPC under State-Only Information and Limited Sensing for Nonlinear Multi-agent Systems</title>
+      <link>https://arxiv.org/abs/2608.30874</link>
+      <guid isPermaLink="false">arxiv:2608.30874</guid>
+      <pubDate>2026-08-31</pubDate>
+      <description>This paper considers decentralized contingency MPC for multi-agent control under a state-only information pattern, with particular focus on limited sensing and plug-and-play operation. The objective is to retain recursive feasibility, safety, and Lyapunov-type convergence while reducing conservatism in local interaction handling. The framework relies on agent-wise fallback regions (safe sets) in which a feasible contingency maneuver to a safe equilibrium is always available. A novel safe-set upd</description>
     </item>
     <item>
-      <title>PhenoIntel: A Lifecycle-Aligned Multi-Agent Web Application for Verified, Accessible Plant Phenotype Analysis</title>
-      <link>https://arxiv.org/abs/2608.27999</link>
-      <guid isPermaLink="false">arxiv:2608.27999</guid>
-      <pubDate>2026-08-28</pubDate>
-      <description>Existing conversational plant-phenotyping platforms are difficult for plant scientists to use and lack the reliability scientific research demands: failed analyses are reported as valid measurements rather than flagged as missing, statistical tests run without checking assumptions, predictions carry no uncertainty estimate, and specialised hardware limits accessibility. We present PhenoIntel, a lifecycle-aligned multi-agent web platform that turns the full machine-learning workflow into a reliab</description>
+      <title>What Emerges and What Breaks in Self-Play Driving</title>
+      <link>https://arxiv.org/abs/2608.30819</link>
+      <guid isPermaLink="false">arxiv:2608.30819</guid>
+      <pubDate>2026-08-31</pubDate>
+      <description>Training autonomous driving policies through pure self-play has recently shown promising results. Following Gigaflow and Puffer- Drive, we train driving policies in a similar self-play fashion, but extend the models from MLPs to Transformers and train on the high-definition map of a real city, where we ultimately aim to deploy them. On the CARLA and Waymax benchmarks, our policies fall short of Gigaflow, and we trace the gap to specific failure modes, including reward hacking at traffic lights a</description>
     </item>
     <item>
-      <title>Automated Analysis Framework for Multilingual Climate-Health Literature Based on Multi-Agent Large Language Model</title>
-      <link>https://arxiv.org/abs/2608.27998</link>
-      <guid isPermaLink="false">arxiv:2608.27998</guid>
-      <pubDate>2026-08-28</pubDate>
-      <description>The rapid proliferation of interdisciplinary and multilingual scientific literature has left traditional manual analysis and single-algorithm methods plagued by low efficiency, poor scalability, and insufficient domain adaptability. Targeting the literature analysis needs of the typical interdisciplinary climate-health field, this study proposes a multi-agent large language model automated analysis framework for multilingual scientific literature, which realizes full-process automation covering </description>
+      <title>HiRS-Agent: A Hierarchical Multi-Agent System for Reliable Long-Horizon Remote Sensing Task Solving</title>
+      <link>https://arxiv.org/abs/2608.30672</link>
+      <guid isPermaLink="false">arxiv:2608.30672</guid>
+      <pubDate>2026-08-31</pubDate>
+      <description>Recent advances in large language models and multimodal models have pushed remote sensing (RS) processing from simple perception models to agentic systems designed to tackle complex, long-horizon RS tasks. However, existing systems often rely on monolithic decision-making frameworks, which fail to accommodate the multi-stage, interdependent nature of RS tasks. This centralized approach leads to challenges such as unstable task execution, incorrect tool usage, and error propagation across stages.</description>
     </item>
     <item>
-      <title>When Evidence Shapes Collaboration: Knowledge-Conditioned Topology Generation for Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2608.27984</link>
-      <guid isPermaLink="false">arxiv:2608.27984</guid>
-      <pubDate>2026-08-28</pubDate>
-      <description>Multi-Agent Systems (MAS) have recently moved from static workflows toward dynamically generated collaboration topologies. However, existing topology generation methods rely primarily on the parametric knowledge of large language models, with external search or retrieval used only as a reactive tool rather than an explicit determinant of collaboration structure. This leads to structure-knowledge misalignment, where systems exhibit redundant interactions or insufficient verification in knowledge-</description>
+      <title>LLM-based Hardware Development with Hierarchical IRs and End-to-End Multi-Agent Workflow</title>
+      <link>https://arxiv.org/abs/2608.30659</link>
+      <guid isPermaLink="false">arxiv:2608.30659</guid>
+      <pubDate>2026-08-31</pubDate>
+      <description>Large language models (LLMs) are increasingly used in software development, but their use in complex hardware design remains limited. This gap stems from both the scarcity of public hardware training data and the fundamentally different methodologies used in hardware design. In particular, applying LLMs to hardware requires more than direct RTL generation: the model must understand module boundaries, inter-module connections, and verification requirements. In this paper, we present an LLM-based </description>
     </item>
     <item>
-      <title>openJiuwen: Beyond Static Harnesses for Long-Horizon Coding Agents</title>
-      <link>https://arxiv.org/abs/2608.27969</link>
-      <guid isPermaLink="false">arxiv:2608.27969</guid>
-      <pubDate>2026-08-28</pubDate>
-      <description>Long-horizon coding agents operate over evolving repository states while increasingly relying on heterogeneous capabilities, delegated agents, and multi-agent coordination. These trends pose two complementary challenges for the agent harness. First, developers need to compose capabilities, reconfigure execution logic, and scale increasingly complex agent systems without repeatedly rebuilding orchestration. Second, complex coding tasks continuously produce new evidence---such as semantic diagnost</description>
+      <title>CM2: Multimodal Cultural Reasoning via an Integrated Multi-Agent Framework</title>
+      <link>https://arxiv.org/abs/2608.30498</link>
+      <guid isPermaLink="false">arxiv:2608.30498</guid>
+      <pubDate>2026-08-31</pubDate>
+      <description>Multimodal Large Language Models (MLLMs) have shown remarkable success in STEM domains, where progress is often driven by vertical, step-by-step deduction under relatively stable symbol systems. Their horizontal, interdisciplinary cultural reasoning, however, remains underexplored.We propose CM2, a multi-agent framework grounded in the cognitive pathway of human cultural interpretation. CM2 integrates multimodal perception, retrieval-augmented generation, networked reasoning, gated fusion, and r</description>
     </item>
     <item>
-      <title>PCBnet: A Dataset and Automatic Construction of SPICE Netlists from Schematic Images</title>
-      <link>https://arxiv.org/abs/2608.27923</link>
-      <guid isPermaLink="false">arxiv:2608.27923</guid>
-      <pubDate>2026-08-28</pubDate>
-      <description>Printed circuit boards (PCBs) are fundamental to modern electronic systems, yet AI-driven PCB design automation remains constrained by the lack of large-scale paired schematic-netlist datasets. PCB schematics are particularly challenging due to diverse component types, complex wiring topologies, and noisy textual annotations. To address this gap, we present PCBnet, a large-scale PCB schematic dataset comprising over 300 real-world designs with annotated pins and paired SPICE netlists. It contain</description>
+      <title>Lies We Can See: Joint Verbal and Non-Verbal Deception by VLM Agents in Embodied Social Interactions</title>
+      <link>https://arxiv.org/abs/2608.30428</link>
+      <guid isPermaLink="false">arxiv:2608.30428</guid>
+      <pubDate>2026-08-31</pubDate>
+      <description>Strategic deception by LLM and VLM agents has emerged as a central AI alignment and safety concern. Social-deduction games (where each player holds a hidden role and communicates with others to deduce identities) serve as the canonical testbed, particularly in multi-agent settings. Existing testbeds, however, are text-only and run on a single fixed agent configuration, missing the non-verbal sensorimotor channels treated as core by deception taxonomies and leaving it ambiguous whether an observe</description>
     </item>
     <item>
-      <title>Low-Altitude Fluid Antenna Network with Multi-Agent Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2608.27909</link>
-      <guid isPermaLink="false">arxiv:2608.27909</guid>
-      <pubDate>2026-08-28</pubDate>
-      <description>Low-altitude wireless networks (LAWNs) integrate terrestrial and aerial platforms to provide ubiquitous communication, sensing, and localization services for unmanned aerial vehicles (UAVs) and electric vertical takeoff and landing (eVTOL) aircraft. However, dynamic air-ground and air-air channels, abrupt blockages, and heterogeneous interference hinder the realization of this goal. Nevertheless, fluid antenna (FA), a cutting-edge multiple-input multiple-output (MIMO) technique, overcomes these </description>
+      <title>Using Grounded Theory for Agent Behavior Analysis at Scale</title>
+      <link>https://arxiv.org/abs/2608.30391</link>
+      <guid isPermaLink="false">arxiv:2608.30391</guid>
+      <pubDate>2026-08-31</pubDate>
+      <description>Understanding agent behavior requires methods that scale to thousands of trajectories and surface new patterns in long, often unfamiliar tasks where pre-built classifiers fall short. We propose to bring grounded theory into agent trajectory analysis: a six-decade-old qualitative method from the social sciences, with a principled saturation criterion and an auditable trail from data to theory. We propose AutoTraceGT (Automated Trace analysis through Grounded Theory), the first multi-agent pipelin</description>
     </item>
     <item>
-      <title>Coordinated Motion Planning for Multi-Arm Systems via Iterative LQ Games</title>
-      <link>https://arxiv.org/abs/2608.27726</link>
-      <guid isPermaLink="false">arxiv:2608.27726</guid>
-      <pubDate>2026-08-27</pubDate>
-      <description>Multi-agent motion planning for high-degree-of-freedom robotics manipulators in shared workspaces remains a fundamental yet challenging problem. Centralized planners often suffer from poor scalability, while decentralized approaches face robustness and safety concerns. Game-theoretic formulations offer a promising approach for modeling agent interactions, potentially overcoming these limitations. However, their application to articulated multi-arm systems remains limited. This paper presents an </description>
+      <title>FaVOR: LLM-Based Agentic Framework for Factor Mining via Empirical Validation</title>
+      <link>https://arxiv.org/abs/2608.30192</link>
+      <guid isPermaLink="false">arxiv:2608.30192</guid>
+      <pubDate>2026-08-31</pubDate>
+      <description>Traditional finance relies on experts to hand-craft factors through a principled process grounded in economic rationale. Recent LLM-based multi-agent systems have automated this process, scaling factor mining far beyond manual effort. However, these automated approaches optimize directly for returns and rarely check whether a generated factor still expresses the economic hypothesis that motivated it. We identify this inconsistency between mathematical form and economic meaning as a structural fa</description>
     </item>
     <item>
-      <title>Distributed Model-Based Diffusion: Finite Horizon Contraction under Bounded Delay</title>
-      <link>https://arxiv.org/abs/2608.27685</link>
-      <guid isPermaLink="false">arxiv:2608.27685</guid>
-      <pubDate>2026-08-27</pubDate>
-      <description>Simultaneously optimizing the trajectories of multiple agents is a challenging problem plagued by nonlinearity, nonconvexity, and the curse of dimensionality. A collection of interacting aerial vehicles or self-driving cars in an intersection are examples of complex multi-agent systems that remain difficult to solve without many simplifying assumptions. The presence of communication latency between agents further increases the difficulty. In this paper, we analyze Distributed Model-Based Diffusi</description>
+      <title>Open-Source Autonomous Driving System Analysis and Multi-Disciplinary Hardware-in-the-Loop Research Paradigm with Reinforcement-Learning Testing and Large Language Models</title>
+      <link>https://arxiv.org/abs/2608.30179</link>
+      <guid isPermaLink="false">arxiv:2608.30179</guid>
+      <pubDate>2026-08-31</pubDate>
+      <description>Open-source autonomous driving systems provide an inspectable software foundation for intelligent vehicle research. Under real-vehicle deployment conditions, the recording and review of experimental conditions are important for interpreting system behavior and reusing experimental results. However, in a shared real-vehicle environment involving multiple vehicles, task processes, code modifications, and hardware testing feedback are often distributed across different teams and experimental stages</description>
     </item>
     <item>
-      <title>Depth-Aware Pothole Detection Using YOLO and RT-DETR at the Edge</title>
-      <link>https://arxiv.org/abs/2608.27633</link>
-      <guid isPermaLink="false">arxiv:2608.27633</guid>
-      <pubDate>2026-08-27</pubDate>
-      <description>Pothole detection and its severity measurement is still an important challenges in urban infrastructure management, where late maintenance directly contributes to vehicle damage, road accidents, and escalating repair costs. Existing automated approaches depend on 2D RGB images and cannot measure physical depth of potholes. In this paper, we present a depthaware pothole detection framework and then compare five architectures: YOLOv8n, YOLOv8nSeg, YOLOv9t, RTDETRL, and RTDETRX for RGB-D sensor fus</description>
+      <title>Rethinking Language's Role in Efficient VLA for Autonomous Vehicles: Toward Smarter, Trustworthy Driving</title>
+      <link>https://arxiv.org/abs/2608.30144</link>
+      <guid isPermaLink="false">arxiv:2608.30144</guid>
+      <pubDate>2026-08-31</pubDate>
+      <description>Vision-Language-Action (VLA) models are reshaping autonomous driving (AD) by unifying perception, reasoning, and control through language, enabling semantic grounding, interpretable decisions, and better long-tail generalization. But language is expensive onboard: latency and memory budgets are tight, and autoregressive decoding is inherently sequential. This work reframes the central question as when and where language should act at inference, since inference cost recurs at every deployed frame</description>
     </item>
     <item>
-      <title>Embodied Scene Rearrangement Planning</title>
-      <link>https://arxiv.org/abs/2608.27371</link>
-      <guid isPermaLink="false">arxiv:2608.27371</guid>
-      <pubDate>2026-08-27</pubDate>
-      <description>This paper introduces Embodied Scene Rearrangement Planning (ESRP), a novel task requiring embodied agents to rearrange furniture in 3D scenes to match a target configuration using only egocentric observations and a top-down target layout. Unlike prior rearrangement tasks, ESRP precludes global state access and introduces mutual object occlusions, reflecting the practical constraints of real-world robotic deployment. These factors make aligning partial egocentric observations with the global tar</description>
-    </item>
-    <item>
-      <title>One Model, Many Minds: Unlocking Multi-Agent Synergy in a Single Agent via Mixture of Roles</title>
-      <link>https://arxiv.org/abs/2608.27338</link>
-      <guid isPermaLink="false">arxiv:2608.27338</guid>
-      <pubDate>2026-08-27</pubDate>
-      <description>Specializing Large Language Models (LLMs) toward distinct abilities underpins successes ranging from personalized assistants to multi-agent systems (MAS). Single-agent paradigms rely on pre-defined personas or steering vectors to induce specialization, yet they impose a single fixed specialization that fails to adapt to diverse queries. Conversely, MAS achieves dynamic multi-perspective problem solving by orchestrating agents with distinct text-based roles, but fusing these specializations requi</description>
-    </item>
-    <item>
-      <title>Tensegrity Continuum Robots Enable Task-Adaptive Morphologies for Cooperative Behaviors</title>
-      <link>https://arxiv.org/abs/2608.27221</link>
-      <guid isPermaLink="false">arxiv:2608.27221</guid>
-      <pubDate>2026-08-27</pubDate>
-      <description>Robots that can change their morphologies and behaviors for different tasks and environments hold great promise for adaptable, multifunctional systems. Modular reconfigurable robots (MRRs) can achieve such functionalities by docking and rearranging individual units, but most rely on rigid modules that lack structural compliance, resulting in limited capabilities. Continuum robots offer compliance through flexible backbones, yet they cannot self-reconfigure into task-adaptive multi-robot configur</description>
-    </item>
-    <item>
-      <title>GRAIN: Bridging Name and Narrative Shifts in Real-World Graph Reasoning through Invariance-Rewarded Agentic RL</title>
-      <link>https://arxiv.org/abs/2608.27142</link>
-      <guid isPermaLink="false">arxiv:2608.27142</guid>
-      <pubDate>2026-08-27</pubDate>
-      <description>Despite their potential in standardized graph tasks, Large Language Models (LLMs) remain brittle to real-world shifts in node identifiers and task formulation. While deterministic graph tools are invariant to such shifts, extracting topological structures from noisy text is highly fragile for LLMs, which often overfit to surface patterns. Moreover, mitigating these parsing failures via multi-agent systems incurs prohibitive latency. To address this, we propose GRAIN, a single-agent framework opt</description>
-    </item>
-    <item>
-      <title>TransMeme: A Multi-Agent Framework for Cross-Cultural Meme Transcreation</title>
-      <link>https://arxiv.org/abs/2608.27127</link>
-      <guid isPermaLink="false">arxiv:2608.27127</guid>
-      <pubDate>2026-08-27</pubDate>
-      <description>Internet memes are a pervasive form of multimodal online communication; however, such communication often involves users from diverse linguistic and cultural backgrounds. Therefore, adapting memes across cultures and languages is a central challenge for enabling mutual understanding in online communication. Unlike ordinary translation or standalone text rewriting, cross-cultural meme transcreation must jointly preserve communicative intent, adapt culture-dependent meaning for the target audience</description>
-    </item>
-    <item>
-      <title>Active sensing to characterize the heterogeneity of plant stress</title>
-      <link>https://arxiv.org/abs/2608.27088</link>
-      <guid isPermaLink="false">arxiv:2608.27088</guid>
-      <pubDate>2026-08-27</pubDate>
-      <description>While most phenotyping platforms rely primarily on image-based measurements, advanced plant characterization requires the integration of active physiological sensing modali- ties such as chlorophyll fluorescence. We present an autonomous robotic platform designed to perform targeted fluorescence measurements on plant leaves. The system combines 3D plant reconstruction, geometric analysis, and motion planning to localize suitable measurement points and generate collision-free trajectories for a r</description>
-    </item>
-    <item>
-      <title>Pass the Bucket: Efficient, Robust, Local Load Balancing for Teams of Heterogeneous Robots</title>
-      <link>https://arxiv.org/abs/2608.27085</link>
-      <guid isPermaLink="false">arxiv:2608.27085</guid>
-      <pubDate>2026-08-27</pubDate>
-      <description>We study the problem of decentralized, self-organized task sharing for a swarm of heterogeneous robots that collaborate in transportation or other objectives that require coordinated motion planning. To this end, we present theoretical and practical results for the simple but effective mechanism of \emph{bucket brigades} for load balancing, in which a team of heterogenous robots share a spatial task in a confined, one-dimensional space, while only being able to sense collisions with neighbors or</description>
+      <title>Zero-Knowledge Predicate Proofs Between AI Agents: A Measured, Cross-Protocol Gateway and the Source-Integrity Gap</title>
+      <link>https://arxiv.org/abs/2608.30083</link>
+      <guid isPermaLink="false">arxiv:2608.30083</guid>
+      <pubDate>2026-08-30</pubDate>
+      <description>Multi-agent AI platforms move quickly from staging to production, but the way agents establish trust remains rudimentary: an agent either transmits raw data to a peer or accepts that peer's natural-language self-report that a value complies with policy. The first over-shares; the second is unverifiable and is exactly the channel prompt injection attacks. Prevailing responses emphasise identity, visibility, and post-hoc detection, and recent proposals for cryptographically enforced agent policy h</description>
     </item>
   </channel>
 </rss>
