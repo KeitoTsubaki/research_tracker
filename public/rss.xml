@@ -4,104 +4,125 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Tue, 01 Sep 2026 08:18:10 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 07:38:19 GMT</lastBuildDate>
     <item>
-      <title>Driving on Memory</title>
-      <link>https://arxiv.org/abs/2608.31029</link>
-      <guid isPermaLink="false">arxiv:2608.31029</guid>
-      <pubDate>2026-08-31</pubDate>
-      <description>End-to-end autonomous driving models plan future trajectories from raw sensor input. While earlier driving benchmarks often measured deviation from the human trajectory, current benchmarks such as NAVSIM and Bench2Drive evaluate models with richer simulation-based metrics intended to capture safe and compliant driving. A high benchmark score should reflect that a model can understand the scene in front of it and act accordingly. But how much of that score specifically comes from reacting to the </description>
+      <title>SG-AMP: Scene-Graph-Guided Active Perception and Semantics-Aware Motion Planning for Pepper Plants</title>
+      <link>https://arxiv.org/abs/2609.01579</link>
+      <guid isPermaLink="false">arxiv:2609.01579</guid>
+      <pubDate>2026-09-01</pubDate>
+      <description>We present SG-AMP, integrating robust depth completion with input-conditioned uncertainty, persistent panoptic mapping, plant scene-graph reasoning, and semantics-aware active view-motion planning. Beyond inspecting uncertain observed regions, the scene graph explicitly hypothesizes unobserved pepper--peduncle attachments and directs close-range sensing toward them. Candidate views are selected according to expected information gain, while class-dependent motion costs distinguish protected peppe</description>
     </item>
     <item>
-      <title>A Universal Context-Reuse Layer for Cross-Model KV Sharing</title>
-      <link>https://arxiv.org/abs/2608.30963</link>
-      <guid isPermaLink="false">arxiv:2608.30963</guid>
-      <pubDate>2026-08-31</pubDate>
-      <description>Modern large language model (LLM) serving systems increasingly operate over repeated or shared context, yet each model typically performs its own prefill computation even when another model has already processed the same input. Existing KV-cache reuse mechanisms substantially reduce redundant computation within a single model, but generally assume that the producer and consumer of a cache are identical. We study \emph{cross-model KV sharing}, which translates the KV state produced by a source mo</description>
+      <title>NashDreamer: Model-Based Reinforcement Learning for Zero-Sum Imperfect-Information Games</title>
+      <link>https://arxiv.org/abs/2609.01549</link>
+      <guid isPermaLink="false">arxiv:2609.01549</guid>
+      <pubDate>2026-09-01</pubDate>
+      <description>Model-based reinforcement learning (MBRL) has achieved remarkable results in single-agent domains, yet its extension to competitive imperfect information games (IIGs) remains underexplored. In multi-agent settings, opponent-induced non-stationarity complicates the learning process, and decentralized model learning faces severe identifiability barriers, which we argue make centralized model learning a mathematical necessity. Building on this analysis, we propose NashDreamer, a principled MBRL fra</description>
     </item>
     <item>
-      <title>Evidence, Logic, and Compliance: Multi-Agent Structured Graph Reasoning with Expert Arbitration for Medical Referral</title>
-      <link>https://arxiv.org/abs/2608.30938</link>
-      <guid isPermaLink="false">arxiv:2608.30938</guid>
-      <pubDate>2026-08-31</pubDate>
-      <description>Medical referral (directing patients to the appropriate hospital department) is a complex decision-making process requiring the synthesis of multimodal data, including patient narratives, laboratory indicators, and radiology imaging. While Large Language Models (LLMs) have advanced medical dialogue systems, they struggle with real-world referral tasks due to two primary limitations: (1) Information Overload, where models fixate on high-frequency disease terms while overlooking subtle but critica</description>
+      <title>GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions</title>
+      <link>https://arxiv.org/abs/2609.01491</link>
+      <guid isPermaLink="false">arxiv:2609.01491</guid>
+      <pubDate>2026-09-01</pubDate>
+      <description>The growing rate at which LLM agents interact with one another raises key questions about language evolution in multi-LLM-agent settings, with implications for safety and monitorability as well as for linguistic accounts of LLMs. To address these questions, we introduce GlossoGen, a novel platform for studying multi-agent language evolution in complex scenarios. Within GlossoGen, we build the SaveVeyru scenario, which requires agents with partial information to communicate under pressure. We fin</description>
     </item>
     <item>
-      <title>Provably Safe Decentralized Contingency MPC under State-Only Information and Limited Sensing for Nonlinear Multi-agent Systems</title>
-      <link>https://arxiv.org/abs/2608.30874</link>
-      <guid isPermaLink="false">arxiv:2608.30874</guid>
-      <pubDate>2026-08-31</pubDate>
-      <description>This paper considers decentralized contingency MPC for multi-agent control under a state-only information pattern, with particular focus on limited sensing and plug-and-play operation. The objective is to retain recursive feasibility, safety, and Lyapunov-type convergence while reducing conservatism in local interaction handling. The framework relies on agent-wise fallback regions (safe sets) in which a feasible contingency maneuver to a safe equilibrium is always available. A novel safe-set upd</description>
+      <title>EDGE: Error Dependency Graph-Guided Multi-Error Attribution in Multi-Agent LLM Systems</title>
+      <link>https://arxiv.org/abs/2609.01360</link>
+      <guid isPermaLink="false">arxiv:2609.01360</guid>
+      <pubDate>2026-09-01</pubDate>
+      <description>Large language model (LLM) agent failures often contain multiple related errors rather than a single mistake. Existing attribution methods usually identify a responsible agent, step, or root cause, but do not explicitly model dependency between errors. We introduce EDGE, an Error Dependency Graph-guided multi-Error attribution framework. EDGE constructs an error dependency graph from observed error events and validates a reliable causal subset through counterfactual rollout. The inference graph </description>
     </item>
     <item>
-      <title>What Emerges and What Breaks in Self-Play Driving</title>
-      <link>https://arxiv.org/abs/2608.30819</link>
-      <guid isPermaLink="false">arxiv:2608.30819</guid>
-      <pubDate>2026-08-31</pubDate>
-      <description>Training autonomous driving policies through pure self-play has recently shown promising results. Following Gigaflow and Puffer- Drive, we train driving policies in a similar self-play fashion, but extend the models from MLPs to Transformers and train on the high-definition map of a real city, where we ultimately aim to deploy them. On the CARLA and Waymax benchmarks, our policies fall short of Gigaflow, and we trace the gap to specific failure modes, including reward hacking at traffic lights a</description>
+      <title>Dual Process Motion Planning</title>
+      <link>https://arxiv.org/abs/2609.01260</link>
+      <guid isPermaLink="false">arxiv:2609.01260</guid>
+      <pubDate>2026-09-01</pubDate>
+      <description>Robotic systems are deeply embedded in both industry and everyday life, where they are expected to act with speed, precision, and reliability. Classical control and planning methods have long delivered strong guarantees, but often at the cost of computational efficiency and adaptability. More recently, learning-based approaches have shown promise in overcoming these limitations, enabling agents to leverage experience to accelerate decision-making and address previously intractable problems. In t</description>
     </item>
     <item>
-      <title>HiRS-Agent: A Hierarchical Multi-Agent System for Reliable Long-Horizon Remote Sensing Task Solving</title>
-      <link>https://arxiv.org/abs/2608.30672</link>
-      <guid isPermaLink="false">arxiv:2608.30672</guid>
-      <pubDate>2026-08-31</pubDate>
-      <description>Recent advances in large language models and multimodal models have pushed remote sensing (RS) processing from simple perception models to agentic systems designed to tackle complex, long-horizon RS tasks. However, existing systems often rely on monolithic decision-making frameworks, which fail to accommodate the multi-stage, interdependent nature of RS tasks. This centralized approach leads to challenges such as unstable task execution, incorrect tool usage, and error propagation across stages.</description>
+      <title>Explore More, Drift Less: Outcome-Only Reinforcement Learning Can Suffice for Long-Horizon Interactive Agents</title>
+      <link>https://arxiv.org/abs/2609.01245</link>
+      <guid isPermaLink="false">arxiv:2609.01245</guid>
+      <pubDate>2026-09-01</pubDate>
+      <description>Reinforcement learning is a natural way to post-train LLM agents for long-horizon interactive tasks judged only by end-of-task verification, yet a shared belief holds that outcome-only RL soon hits a ceiling on small open models. Recent work therefore compensates around the training with denser rewards, SFT priors, skill libraries, curated memory, or multi-agent orchestration. We argue the ceiling is an artifact of two failures of common practice. Signal starvation: group-relative RL with sparse</description>
     </item>
     <item>
-      <title>LLM-based Hardware Development with Hierarchical IRs and End-to-End Multi-Agent Workflow</title>
-      <link>https://arxiv.org/abs/2608.30659</link>
-      <guid isPermaLink="false">arxiv:2608.30659</guid>
-      <pubDate>2026-08-31</pubDate>
-      <description>Large language models (LLMs) are increasingly used in software development, but their use in complex hardware design remains limited. This gap stems from both the scarcity of public hardware training data and the fundamentally different methodologies used in hardware design. In particular, applying LLMs to hardware requires more than direct RTL generation: the model must understand module boundaries, inter-module connections, and verification requirements. In this paper, we present an LLM-based </description>
+      <title>Jailbreaking Text-to-Image Models Through Cracks: Navigating Heterogeneous Safety Filters via Multi-Agent Debate</title>
+      <link>https://arxiv.org/abs/2609.01168</link>
+      <guid isPermaLink="false">arxiv:2609.01168</guid>
+      <pubDate>2026-09-01</pubDate>
+      <description>Text-to-image (T2I) models remain vulnerable to jailbreak attacks that elicit Not-Safe-For-Work (NSFW) content, despite increasingly being guarded by heterogeneous, multi-layer safety stacks combining text filters, image classifiers, and cross-modal detectors. Existing jailbreak studies either optimize against individual filters or query the complete pipeline with aggregate feedback, making it difficult to identify the active constraint and adapt to conflicts across safety layers.In this paper, </description>
     </item>
     <item>
-      <title>CM2: Multimodal Cultural Reasoning via an Integrated Multi-Agent Framework</title>
-      <link>https://arxiv.org/abs/2608.30498</link>
-      <guid isPermaLink="false">arxiv:2608.30498</guid>
-      <pubDate>2026-08-31</pubDate>
-      <description>Multimodal Large Language Models (MLLMs) have shown remarkable success in STEM domains, where progress is often driven by vertical, step-by-step deduction under relatively stable symbol systems. Their horizontal, interdisciplinary cultural reasoning, however, remains underexplored.We propose CM2, a multi-agent framework grounded in the cognitive pathway of human cultural interpretation. CM2 integrates multimodal perception, retrieval-augmented generation, networked reasoning, gated fusion, and r</description>
+      <title>DNC-IMM: Early Lane-Change Intention Recognition via Neural Calibration Based on Driving Context Information</title>
+      <link>https://arxiv.org/abs/2609.01120</link>
+      <guid isPermaLink="false">arxiv:2609.01120</guid>
+      <pubDate>2026-09-01</pubDate>
+      <description>Early recognition of lane-change intention is essential for proactive decision-making in autonomous driving and advanced driver assistance systems. This paper proposes a Dual Neural-Calibrated Interacting Multiple Model (DNC-IMM) that improves adaptability to driving context while preserving the probabilistic structure and interpretability of a conventional IMM. The proposed method encodes driving-context information, including target-vehicle motion, gaps to surrounding vehicles, and relative ve</description>
     </item>
     <item>
-      <title>Lies We Can See: Joint Verbal and Non-Verbal Deception by VLM Agents in Embodied Social Interactions</title>
-      <link>https://arxiv.org/abs/2608.30428</link>
-      <guid isPermaLink="false">arxiv:2608.30428</guid>
-      <pubDate>2026-08-31</pubDate>
-      <description>Strategic deception by LLM and VLM agents has emerged as a central AI alignment and safety concern. Social-deduction games (where each player holds a hidden role and communicates with others to deduce identities) serve as the canonical testbed, particularly in multi-agent settings. Existing testbeds, however, are text-only and run on a single fixed agent configuration, missing the non-verbal sensorimotor channels treated as core by deception taxonomies and leaving it ambiguous whether an observe</description>
+      <title>Figures as Programs: Recursive Generation of Editable Scientific Figures</title>
+      <link>https://arxiv.org/abs/2609.01006</link>
+      <guid isPermaLink="false">arxiv:2609.01006</guid>
+      <pubDate>2026-09-01</pubDate>
+      <description>Scientific methodology figures are essential for communicating complex methods clearly, yet creating them remains labor-intensive and typically requires multiple rounds of refinement. Recent image-generation models can synthesize visually appealing raster figures, but producing a human-satisfactory result in a single generation step remains difficult. Moreover, precise edits to raster figures are challenging for both humans and models. We formulate scientific figure generation as recursive SVG p</description>
     </item>
     <item>
-      <title>Using Grounded Theory for Agent Behavior Analysis at Scale</title>
-      <link>https://arxiv.org/abs/2608.30391</link>
-      <guid isPermaLink="false">arxiv:2608.30391</guid>
-      <pubDate>2026-08-31</pubDate>
-      <description>Understanding agent behavior requires methods that scale to thousands of trajectories and surface new patterns in long, often unfamiliar tasks where pre-built classifiers fall short. We propose to bring grounded theory into agent trajectory analysis: a six-decade-old qualitative method from the social sciences, with a principled saturation criterion and an auditable trail from data to theory. We propose AutoTraceGT (Automated Trace analysis through Grounded Theory), the first multi-agent pipelin</description>
+      <title>Vision-Language-Guided Pseudo-Labels for Unsupervised Domain Adaptation in Semantic Segmentation for Waste Sorting</title>
+      <link>https://arxiv.org/abs/2609.00898</link>
+      <guid isPermaLink="false">arxiv:2609.00898</guid>
+      <pubDate>2026-09-01</pubDate>
+      <description>Obtaining labeled data for semantic segmentation in applied settings (e.g., autonomous driving, industrial waste sorting) is expensive and often infeasible at scale. We present a cross-modal pseudo-labeling pipeline that enables unsupervised domain adaptation without any target-domain annotations. The pipeline is built on two core foundation models: SAM generates class-agnostic region proposals, and EVA-CLIP assigns semantic labels based on region-text similarity, with confidence filtering ensur</description>
     </item>
     <item>
-      <title>FaVOR: LLM-Based Agentic Framework for Factor Mining via Empirical Validation</title>
-      <link>https://arxiv.org/abs/2608.30192</link>
-      <guid isPermaLink="false">arxiv:2608.30192</guid>
-      <pubDate>2026-08-31</pubDate>
-      <description>Traditional finance relies on experts to hand-craft factors through a principled process grounded in economic rationale. Recent LLM-based multi-agent systems have automated this process, scaling factor mining far beyond manual effort. However, these automated approaches optimize directly for returns and rarely check whether a generated factor still expresses the economic hypothesis that motivated it. We identify this inconsistency between mathematical form and economic meaning as a structural fa</description>
+      <title>Reinforcement Learning Enhanced LLM Agents for Complex Vehicle Routing Problems</title>
+      <link>https://arxiv.org/abs/2609.00859</link>
+      <guid isPermaLink="false">arxiv:2609.00859</guid>
+      <pubDate>2026-09-01</pubDate>
+      <description>Vehicle Routing Problems (VRPs) are fundamental combinatorial optimization problems with widespread applications in various scenarios. The advanced optimization solvers can effectively solve such problems. However, modeling complex VRP variants for solvers often requires substantial domain expertise, which limits the accessibility of advanced optimization technologies. In this paper, we propose Reinforcement Learning Enhanced LLMAgents(RLEA), a multi-agent framework designed to automate the mode</description>
     </item>
     <item>
-      <title>Open-Source Autonomous Driving System Analysis and Multi-Disciplinary Hardware-in-the-Loop Research Paradigm with Reinforcement-Learning Testing and Large Language Models</title>
-      <link>https://arxiv.org/abs/2608.30179</link>
-      <guid isPermaLink="false">arxiv:2608.30179</guid>
-      <pubDate>2026-08-31</pubDate>
-      <description>Open-source autonomous driving systems provide an inspectable software foundation for intelligent vehicle research. Under real-vehicle deployment conditions, the recording and review of experimental conditions are important for interpreting system behavior and reusing experimental results. However, in a shared real-vehicle environment involving multiple vehicles, task processes, code modifications, and hardware testing feedback are often distributed across different teams and experimental stages</description>
+      <title>Design and Implementation of a Kalman Filter-Infused Algorithm for Tilt Estimation</title>
+      <link>https://arxiv.org/abs/2609.00730</link>
+      <guid isPermaLink="false">arxiv:2609.00730</guid>
+      <pubDate>2026-09-01</pubDate>
+      <description>Accurate tilt angle estimation is important in many engineering applications, such as robotics, motion tracking, and embedded control systems. However, measurements from low-cost inertial sensors are often degraded by noise and drift. This paper presents a single-axis tilt angle estimation system based on the MPU6050 inertial measurement unit, implemented on an RP2040 microcontroller platform, with sensor fusion achieved through a Kalman filter. The accelerometer provides a direct estimate of ti</description>
     </item>
     <item>
-      <title>Rethinking Language's Role in Efficient VLA for Autonomous Vehicles: Toward Smarter, Trustworthy Driving</title>
-      <link>https://arxiv.org/abs/2608.30144</link>
-      <guid isPermaLink="false">arxiv:2608.30144</guid>
-      <pubDate>2026-08-31</pubDate>
-      <description>Vision-Language-Action (VLA) models are reshaping autonomous driving (AD) by unifying perception, reasoning, and control through language, enabling semantic grounding, interpretable decisions, and better long-tail generalization. But language is expensive onboard: latency and memory budgets are tight, and autoregressive decoding is inherently sequential. This work reframes the central question as when and where language should act at inference, since inference cost recurs at every deployed frame</description>
+      <title>ChatDev 2.0: A No-Code Multi-Agent Platform for Developing Everything</title>
+      <link>https://arxiv.org/abs/2609.00714</link>
+      <guid isPermaLink="false">arxiv:2609.00714</guid>
+      <pubDate>2026-09-01</pubDate>
+      <description>Large language model (LLM)-based multi-agent systems (MAS) have shown strong potential for solving complex tasks, yet their development forces a tradeoff: code frameworks are expressive but engineering-intensive, while no-code builders simplify authoring but constrain agent interactions to author-defined workflows. We present ChatDev 2.0: DevAll (hereafter DevAll), a no-code platform for building, executing, and inspecting heterogeneous MAS that delivers both high expressiveness and ease of use.</description>
     </item>
     <item>
-      <title>Zero-Knowledge Predicate Proofs Between AI Agents: A Measured, Cross-Protocol Gateway and the Source-Integrity Gap</title>
-      <link>https://arxiv.org/abs/2608.30083</link>
-      <guid isPermaLink="false">arxiv:2608.30083</guid>
-      <pubDate>2026-08-30</pubDate>
-      <description>Multi-agent AI platforms move quickly from staging to production, but the way agents establish trust remains rudimentary: an agent either transmits raw data to a peer or accepts that peer's natural-language self-report that a value complies with policy. The first over-shares; the second is unverifiable and is exactly the channel prompt injection attacks. Prevailing responses emphasise identity, visibility, and post-hoc detection, and recent proposals for cryptographically enforced agent policy h</description>
+      <title>Control-Data Flow Separation: Stable Prompt Optimization in Multi-Agent LLMs</title>
+      <link>https://arxiv.org/abs/2609.00621</link>
+      <guid isPermaLink="false">arxiv:2609.00621</guid>
+      <pubDate>2026-09-01</pubDate>
+      <description>Prompt optimization can improve multi-agent LLM systems, but the prompts being optimized often serve two entangled roles: generating task-relevant content and specifying execution-critical protocols, such as message routing, output formatting, and termination signals, on which the underlying code relies. As a result, a prompt edit intended to improve content generation can inadvertently corrupt the protocol and cause the entire agent pipeline to fail. Our key observation is that these two roles </description>
+    </item>
+    <item>
+      <title>SoK: When Safe Agents Fail Together: The Security of Multi Agent LLM Systems</title>
+      <link>https://arxiv.org/abs/2609.00595</link>
+      <guid isPermaLink="false">arxiv:2609.00595</guid>
+      <pubDate>2026-09-01</pubDate>
+      <description>Safe agents can fail together. Multi-agent LLM systems (MAS) move information, state, decisions, and authority across principal boundaries, creating failures that local checks may miss. Without an execution-level view, a multi-agent setting can easily be mistaken for evidence of a genuinely multi-agent security effect. We thus systematize MAS security through an execution-centered analysis of 197 works, covering six interaction interfaces, four adversary positions, seven system-level risks, and </description>
+    </item>
+    <item>
+      <title>GeoPAR: Large-Scale Multi-Agent Combinatorial Optimization with Geometry-Guided Parallel Autoregressive Learning</title>
+      <link>https://arxiv.org/abs/2609.00577</link>
+      <guid isPermaLink="false">arxiv:2609.00577</guid>
+      <pubDate>2026-09-01</pubDate>
+      <description>Multi-agent combinatorial optimization problems are notoriously challenging due to their NP-hard nature. Recent parallel autoregressive neural solvers improve inference efficiency by allowing agents to make decisions simultaneously, but their performance often degrades on large-scale instances. This is largely attributable to weak modeling of local geometric structures and the fact that conflicting task selections are handled only after action generation. To address these limitations, we propose</description>
+    </item>
+    <item>
+      <title>VoiceLongMemEval: Do Assistants Remember How You Sounded?</title>
+      <link>https://arxiv.org/abs/2609.00570</link>
+      <guid isPermaLink="false">arxiv:2609.00570</guid>
+      <pubDate>2026-09-01</pubDate>
+      <description>With the growing scale of multi-agent architectures and large language models, deployed AI assistants are increasingly tasked with reasoning over long, continuous, multi-session conversation histories. Current benchmarks evaluate this dialogue history as information retrieval over long horizon, temporal reasoning, or knowledge updates, while crucially ignoring the fundamental dynamics of human-agent interaction, i.e. how they said it. To address this gap, we present VoiceLongMemEval (VLME) bench</description>
     </item>
   </channel>
 </rss>
