@@ -4,125 +4,125 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Wed, 02 Sep 2026 07:38:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 07:47:20 GMT</lastBuildDate>
     <item>
-      <title>SG-AMP: Scene-Graph-Guided Active Perception and Semantics-Aware Motion Planning for Pepper Plants</title>
-      <link>https://arxiv.org/abs/2609.01579</link>
-      <guid isPermaLink="false">arxiv:2609.01579</guid>
-      <pubDate>2026-09-01</pubDate>
-      <description>We present SG-AMP, integrating robust depth completion with input-conditioned uncertainty, persistent panoptic mapping, plant scene-graph reasoning, and semantics-aware active view-motion planning. Beyond inspecting uncertain observed regions, the scene graph explicitly hypothesizes unobserved pepper--peduncle attachments and directs close-range sensing toward them. Candidate views are selected according to expected information gain, while class-dependent motion costs distinguish protected peppe</description>
+      <title>Toward Robust LiDAR Semantic Segmentation for Real-World Deployment: Evaluation under Coarse Labels, Adverse Conditions, and Domain Shifts</title>
+      <link>https://arxiv.org/abs/2609.02830</link>
+      <guid isPermaLink="false">arxiv:2609.02830</guid>
+      <pubDate>2026-09-02</pubDate>
+      <description>LiDAR-based semantic segmentation is a core perception module for autonomous vehicles and mobile robots. Despite the strong performance of recent state-of-the-art methods on standard benchmarks, existing evaluation protocols remain focused on clean, single-domain settings and fine-grained label taxonomies, leaving deployment readiness largely unassessed. Real-world systems must handle safety-critical label semantics, degraded sensing conditions, and cross-domain variability, yet no unified proto</description>
     </item>
     <item>
-      <title>NashDreamer: Model-Based Reinforcement Learning for Zero-Sum Imperfect-Information Games</title>
-      <link>https://arxiv.org/abs/2609.01549</link>
-      <guid isPermaLink="false">arxiv:2609.01549</guid>
-      <pubDate>2026-09-01</pubDate>
-      <description>Model-based reinforcement learning (MBRL) has achieved remarkable results in single-agent domains, yet its extension to competitive imperfect information games (IIGs) remains underexplored. In multi-agent settings, opponent-induced non-stationarity complicates the learning process, and decentralized model learning faces severe identifiability barriers, which we argue make centralized model learning a mathematical necessity. Building on this analysis, we propose NashDreamer, a principled MBRL fra</description>
+      <title>Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems</title>
+      <link>https://arxiv.org/abs/2609.02750</link>
+      <guid isPermaLink="false">arxiv:2609.02750</guid>
+      <pubDate>2026-09-02</pubDate>
+      <description>Multi-agent LLM systems commonly use an orchestrator to decompose a task for a team of workers and then improve through textual reflection. Despite strong empirical results, these systems lack a unified account of coordination, memory improvement, and the role of external verification. We model orchestrator-worker interaction as a bilevel coordination game: under bounded coupling, the workers' local-update game is an approximate potential game whose equilibrium slack is controlled by decompositi</description>
     </item>
     <item>
-      <title>GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions</title>
-      <link>https://arxiv.org/abs/2609.01491</link>
-      <guid isPermaLink="false">arxiv:2609.01491</guid>
-      <pubDate>2026-09-01</pubDate>
-      <description>The growing rate at which LLM agents interact with one another raises key questions about language evolution in multi-LLM-agent settings, with implications for safety and monitorability as well as for linguistic accounts of LLMs. To address these questions, we introduce GlossoGen, a novel platform for studying multi-agent language evolution in complex scenarios. Within GlossoGen, we build the SaveVeyru scenario, which requires agents with partial information to communicate under pressure. We fin</description>
+      <title>SPADE: SPaT Attack Detection from the Connected Vehicle's Perspective</title>
+      <link>https://arxiv.org/abs/2609.02741</link>
+      <guid isPermaLink="false">arxiv:2609.02741</guid>
+      <pubDate>2026-09-02</pubDate>
+      <description>Signal Phase and Timing (SPaT) messages are a cornerstone of connected vehicle (CV) safety, enabling CVs to perceive and respond to intersection state through Vehicle-to-Infrastructure (V2I) and Vehicle-to-Vehicle (V2V) communication. The integrity of these messages is threatened by a range of application-layer attacks that can bypass conventional authentication when a roadside unit or peer vehicle is compromised. Existing intrusion detection research either defends the infrastructure side or ta</description>
     </item>
     <item>
-      <title>EDGE: Error Dependency Graph-Guided Multi-Error Attribution in Multi-Agent LLM Systems</title>
-      <link>https://arxiv.org/abs/2609.01360</link>
-      <guid isPermaLink="false">arxiv:2609.01360</guid>
-      <pubDate>2026-09-01</pubDate>
-      <description>Large language model (LLM) agent failures often contain multiple related errors rather than a single mistake. Existing attribution methods usually identify a responsible agent, step, or root cause, but do not explicitly model dependency between errors. We introduce EDGE, an Error Dependency Graph-guided multi-Error attribution framework. EDGE constructs an error dependency graph from observed error events and validates a reliable causal subset through counterfactual rollout. The inference graph </description>
+      <title>From Proxy Learning to Driving Decisions: A Transfer-Based Framework for Evaluating Future-Aware Autonomous Driving Planners</title>
+      <link>https://arxiv.org/abs/2609.02688</link>
+      <guid isPermaLink="false">arxiv:2609.02688</guid>
+      <pubDate>2026-09-02</pubDate>
+      <description>Future-aware representations and world models are increasingly used in proposal-based autonomous-driving planners to improve trajectory selection. However, improvements in proxy objectives or restricted subsets are often interpreted as planning gains without verifying proposal ordering, selected trajectories, full-scale utility, and critical driving components. We propose the Proxy-to-Decision Transfer (PDT) Framework, an analysis framework that evaluates when learned future information supports</description>
     </item>
     <item>
-      <title>Dual Process Motion Planning</title>
-      <link>https://arxiv.org/abs/2609.01260</link>
-      <guid isPermaLink="false">arxiv:2609.01260</guid>
-      <pubDate>2026-09-01</pubDate>
-      <description>Robotic systems are deeply embedded in both industry and everyday life, where they are expected to act with speed, precision, and reliability. Classical control and planning methods have long delivered strong guarantees, but often at the cost of computational efficiency and adaptability. More recently, learning-based approaches have shown promise in overcoming these limitations, enabling agents to leverage experience to accelerate decision-making and address previously intractable problems. In t</description>
+      <title>WildFab: Multi-Axis 3D Printing from Models in the Wild</title>
+      <link>https://arxiv.org/abs/2609.02413</link>
+      <guid isPermaLink="false">arxiv:2609.02413</guid>
+      <pubDate>2026-09-02</pubDate>
+      <description>Multi-axis 3D printing enables support-free fabrication and improved part quality, but robustly processing real-world geometries remains challenging. Models from design workflows or direct data acquisition often contain solid--shell combinations and non-manifold structures. Handling such models in the wild typically requires time-consuming geometry repair, which may alter the intended geometry. In this work, we present WildFab, a computational framework for multi-axis 3D printing that directly c</description>
     </item>
     <item>
-      <title>Explore More, Drift Less: Outcome-Only Reinforcement Learning Can Suffice for Long-Horizon Interactive Agents</title>
-      <link>https://arxiv.org/abs/2609.01245</link>
-      <guid isPermaLink="false">arxiv:2609.01245</guid>
-      <pubDate>2026-09-01</pubDate>
-      <description>Reinforcement learning is a natural way to post-train LLM agents for long-horizon interactive tasks judged only by end-of-task verification, yet a shared belief holds that outcome-only RL soon hits a ceiling on small open models. Recent work therefore compensates around the training with denser rewards, SFT priors, skill libraries, curated memory, or multi-agent orchestration. We argue the ceiling is an artifact of two failures of common practice. Signal starvation: group-relative RL with sparse</description>
+      <title>CrashDiffuser: VLM-Guided Collision Intent Reasoning for Fine-Grained Safety-Critical Traffic Scenario Generation</title>
+      <link>https://arxiv.org/abs/2609.02270</link>
+      <guid isPermaLink="false">arxiv:2609.02270</guid>
+      <pubDate>2026-09-02</pubDate>
+      <description>Generating safety-critical scenarios is essential for evaluating autonomous driving systems. However, existing generators primarily focus on inducing collisions and offer limited control over where contact occurs on the target vehicle. In this paper, we study fine-grained safety-critical scenario generation, where success requires both a target collision and a specified head, rear, or side contact region. We propose CrashDiffuser, a closed-loop VLM-guided diffusion framework that decouples seman</description>
     </item>
     <item>
-      <title>Jailbreaking Text-to-Image Models Through Cracks: Navigating Heterogeneous Safety Filters via Multi-Agent Debate</title>
-      <link>https://arxiv.org/abs/2609.01168</link>
-      <guid isPermaLink="false">arxiv:2609.01168</guid>
-      <pubDate>2026-09-01</pubDate>
-      <description>Text-to-image (T2I) models remain vulnerable to jailbreak attacks that elicit Not-Safe-For-Work (NSFW) content, despite increasingly being guarded by heterogeneous, multi-layer safety stacks combining text filters, image classifiers, and cross-modal detectors. Existing jailbreak studies either optimize against individual filters or query the complete pipeline with aggregate feedback, making it difficult to identify the active constraint and adapt to conflicts across safety layers.In this paper, </description>
+      <title>Codebook Agent: Amortized Topology Design for LLM Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2609.02264</link>
+      <guid isPermaLink="false">arxiv:2609.02264</guid>
+      <pubDate>2026-09-02</pubDate>
+      <description>Adapting the communication topology of an LLM multi-agent system to each query improves both accuracy and efficiency, yet current designers treat this as conditional graph generation: a variational, autoregressive, or diffusion decoder searches the $N \times N$ adjacency space, and a graph-network proxy trained on utility and a structural cost such as edge count ranks the sampled candidates. We argue that this formulation is misaligned with the problem. Empirically, topologies that survive a rew</description>
     </item>
     <item>
-      <title>DNC-IMM: Early Lane-Change Intention Recognition via Neural Calibration Based on Driving Context Information</title>
-      <link>https://arxiv.org/abs/2609.01120</link>
-      <guid isPermaLink="false">arxiv:2609.01120</guid>
-      <pubDate>2026-09-01</pubDate>
-      <description>Early recognition of lane-change intention is essential for proactive decision-making in autonomous driving and advanced driver assistance systems. This paper proposes a Dual Neural-Calibrated Interacting Multiple Model (DNC-IMM) that improves adaptability to driving context while preserving the probabilistic structure and interpretability of a conventional IMM. The proposed method encodes driving-context information, including target-vehicle motion, gaps to surrounding vehicles, and relative ve</description>
+      <title>DiffuSearch: How Hybrid Trajectory Planning Benefits from Aligned Objectives in Diffusion and Action Space</title>
+      <link>https://arxiv.org/abs/2609.02252</link>
+      <guid isPermaLink="false">arxiv:2609.02252</guid>
+      <pubDate>2026-09-02</pubDate>
+      <description>In trajectory planning for autonomous driving, hybrid planning architectures are often realized as a collection of disparate modules, each with its own objectives. This lack of a unifying principle can lead to inconsistencies between the initial and refined trajectory, resulting in suboptimal behavior. We address this by introducing DiffuSearch, a novel hybrid planner that uses a unified set of objectives across generation and refinement. Our model encourages all components to follow the same sh</description>
     </item>
     <item>
-      <title>Figures as Programs: Recursive Generation of Editable Scientific Figures</title>
-      <link>https://arxiv.org/abs/2609.01006</link>
-      <guid isPermaLink="false">arxiv:2609.01006</guid>
-      <pubDate>2026-09-01</pubDate>
-      <description>Scientific methodology figures are essential for communicating complex methods clearly, yet creating them remains labor-intensive and typically requires multiple rounds of refinement. Recent image-generation models can synthesize visually appealing raster figures, but producing a human-satisfactory result in a single generation step remains difficult. Moreover, precise edits to raster figures are challenging for both humans and models. We formulate scientific figure generation as recursive SVG p</description>
+      <title>RideSkill: A Hierarchical Algorithm for Generalized Ride Sharing with LLM-Driven Automatic Evolution</title>
+      <link>https://arxiv.org/abs/2609.02250</link>
+      <guid isPermaLink="false">arxiv:2609.02250</guid>
+      <pubDate>2026-09-02</pubDate>
+      <description>Ride-sharing, which allows multiple passengers with different origin-destination (OD) pairs to share a single vehicle, is a challenging operational problem, as it requires orders with different OD pairs to be efficiently bundled and assigned to vehicles under uncertain and varying scenarios. Although multi-agent reinforcement learning (MARL) solutions have achieved promising performance, they suffer from limited generalization (adapting to different environmental scenarios), low transferability </description>
     </item>
     <item>
-      <title>Vision-Language-Guided Pseudo-Labels for Unsupervised Domain Adaptation in Semantic Segmentation for Waste Sorting</title>
-      <link>https://arxiv.org/abs/2609.00898</link>
-      <guid isPermaLink="false">arxiv:2609.00898</guid>
-      <pubDate>2026-09-01</pubDate>
-      <description>Obtaining labeled data for semantic segmentation in applied settings (e.g., autonomous driving, industrial waste sorting) is expensive and often infeasible at scale. We present a cross-modal pseudo-labeling pipeline that enables unsupervised domain adaptation without any target-domain annotations. The pipeline is built on two core foundation models: SAM generates class-agnostic region proposals, and EVA-CLIP assigns semantic labels based on region-text similarity, with confidence filtering ensur</description>
+      <title>Examining the Vulnerability of Multi-Agent Medical Systems to Human Interventions for Clinical Reasoning</title>
+      <link>https://arxiv.org/abs/2609.02191</link>
+      <guid isPermaLink="false">arxiv:2609.02191</guid>
+      <pubDate>2026-09-02</pubDate>
+      <description>Human interventions at fault points can alter the diagnostic accuracy of multi-agent medical systems. We defined fault points as moments in AI agent conversations, in which an agent's reasoning became most vulnerable to external influence. Using the MedQA dataset, this study analyzed simulated doctor-patient conversations to measure how interventions shifted reasoning and accuracy. Correct intervention methods showed an improvement in baseline diagnostic accuracy of up to 40%, while incorrect or</description>
     </item>
     <item>
-      <title>Reinforcement Learning Enhanced LLM Agents for Complex Vehicle Routing Problems</title>
-      <link>https://arxiv.org/abs/2609.00859</link>
-      <guid isPermaLink="false">arxiv:2609.00859</guid>
-      <pubDate>2026-09-01</pubDate>
-      <description>Vehicle Routing Problems (VRPs) are fundamental combinatorial optimization problems with widespread applications in various scenarios. The advanced optimization solvers can effectively solve such problems. However, modeling complex VRP variants for solvers often requires substantial domain expertise, which limits the accessibility of advanced optimization technologies. In this paper, we propose Reinforcement Learning Enhanced LLMAgents(RLEA), a multi-agent framework designed to automate the mode</description>
+      <title>MASkills: Continual Skills Optimization for Multi-Agent LLM Systems</title>
+      <link>https://arxiv.org/abs/2609.02094</link>
+      <guid isPermaLink="false">arxiv:2609.02094</guid>
+      <pubDate>2026-09-02</pubDate>
+      <description>LLM-based multi-agent systems have shown strong performance on complex tasks, yet continual improvement from interaction experience remains challenging. Existing self-reflection methods build experience memories, but memories are mostly hard to invoke, refine, or scale, while agent skills offer a more actionable unit: structured procedural knowledge that specifies when to act, how to act, and which resources or tools to use. We introduce MASkills, a continual learning framework that optimizes mu</description>
     </item>
     <item>
-      <title>Design and Implementation of a Kalman Filter-Infused Algorithm for Tilt Estimation</title>
-      <link>https://arxiv.org/abs/2609.00730</link>
-      <guid isPermaLink="false">arxiv:2609.00730</guid>
-      <pubDate>2026-09-01</pubDate>
-      <description>Accurate tilt angle estimation is important in many engineering applications, such as robotics, motion tracking, and embedded control systems. However, measurements from low-cost inertial sensors are often degraded by noise and drift. This paper presents a single-axis tilt angle estimation system based on the MPU6050 inertial measurement unit, implemented on an RP2040 microcontroller platform, with sensor fusion achieved through a Kalman filter. The accelerometer provides a direct estimate of ti</description>
+      <title>Beyond Outcome Gaps: Process-Aware Fairness Diagnosis for LLM-based Multi-Agent Decision Systems</title>
+      <link>https://arxiv.org/abs/2609.02092</link>
+      <guid isPermaLink="false">arxiv:2609.02092</guid>
+      <pubDate>2026-09-02</pubDate>
+      <description>LLM-based multi-agent systems (MAS) are increasingly considered for high-stakes decision-making, yet outcome-based fairness audits can miss where risks arise within the decision trajectory. We present SCOPED-Hiring, a process-aware fairness diagnosis pipeline for LLM-based hiring MAS. SCOPED-Hiring constructs controlled resume variants, runs role-based hiring committees, logs over 311K structured decision trajectories, and converts trajectory fields into quantitative fairness signals organized b</description>
     </item>
     <item>
-      <title>ChatDev 2.0: A No-Code Multi-Agent Platform for Developing Everything</title>
-      <link>https://arxiv.org/abs/2609.00714</link>
-      <guid isPermaLink="false">arxiv:2609.00714</guid>
-      <pubDate>2026-09-01</pubDate>
-      <description>Large language model (LLM)-based multi-agent systems (MAS) have shown strong potential for solving complex tasks, yet their development forces a tradeoff: code frameworks are expressive but engineering-intensive, while no-code builders simplify authoring but constrain agent interactions to author-defined workflows. We present ChatDev 2.0: DevAll (hereafter DevAll), a no-code platform for building, executing, and inspecting heterogeneous MAS that delivers both high expressiveness and ease of use.</description>
+      <title>InsightSeg: Reusing Correction Insights for Guideline-Consistent Segmentation</title>
+      <link>https://arxiv.org/abs/2609.02002</link>
+      <guid isPermaLink="false">arxiv:2609.02002</guid>
+      <pubDate>2026-09-02</pubDate>
+      <description>Guideline-consistent semantic segmentation requires more than category recognition, as real-world labeling policies demand fine-grained, task-specific decisions. Recent multi-agent refinement systems improve compliance with such textual guidelines by detecting and correcting errors. However, they are stateless: feedback from the critiquing agent is discarded, causing the same guideline-specific mistakes to be repeatedly rediscovered and corrected across the dataset at the cost of additional refi</description>
     </item>
     <item>
-      <title>Control-Data Flow Separation: Stable Prompt Optimization in Multi-Agent LLMs</title>
-      <link>https://arxiv.org/abs/2609.00621</link>
-      <guid isPermaLink="false">arxiv:2609.00621</guid>
+      <title>Epistemic Sybil Resistance: Multiplying AI Agents Without Multiplying Evidence</title>
+      <link>https://arxiv.org/abs/2609.01873</link>
+      <guid isPermaLink="false">arxiv:2609.01873</guid>
       <pubDate>2026-09-01</pubDate>
-      <description>Prompt optimization can improve multi-agent LLM systems, but the prompts being optimized often serve two entangled roles: generating task-relevant content and specifying execution-critical protocols, such as message routing, output formatting, and termination signals, on which the underlying code relies. As a result, a prompt edit intended to improve content generation can inadvertently corrupt the protocol and cause the entire agent pipeline to fail. Our key observation is that these two roles </description>
+      <description>Multi-agent AI systems improve inference by spawning agents and synthesizing reports. But another agent is not another observation: apparently independent reports may descend from the same evidence, and genuinely independent evidence can produce nearly identical reports. We formalize this as an epistemic Sybil problem. A report Z is an epistemic Sybil extension relative to reports R when I(Theta; Z | R) = 0. No report-only aggregator can generally distinguish replication from independent corrobo</description>
     </item>
     <item>
-      <title>SoK: When Safe Agents Fail Together: The Security of Multi Agent LLM Systems</title>
-      <link>https://arxiv.org/abs/2609.00595</link>
-      <guid isPermaLink="false">arxiv:2609.00595</guid>
+      <title>ArcticSwarm: Deferring Early Consensus in Long-Horizon Multi-Agent Research</title>
+      <link>https://arxiv.org/abs/2609.01870</link>
+      <guid isPermaLink="false">arxiv:2609.01870</guid>
       <pubDate>2026-09-01</pubDate>
-      <description>Safe agents can fail together. Multi-agent LLM systems (MAS) move information, state, decisions, and authority across principal boundaries, creating failures that local checks may miss. Without an execution-level view, a multi-agent setting can easily be mistaken for evidence of a genuinely multi-agent security effect. We thus systematize MAS security through an execution-centered analysis of 197 works, covering six interaction interfaces, four adversary positions, seven system-level risks, and </description>
+      <description>Multi-agent systems have shown strong performance in domains with reliable verifiers such as coding, where multi-parallel candidate generation selected by a verifier is effective. However, such pipelines would not generalize to open-ended, long-horizon research tasks without a verifier. While majority voting or self-consistency is often used to reach consensus as a proxy verifier, parallel agents repeatedly explore the same evidence, while access to peers' partial findings cause search to conver</description>
     </item>
     <item>
-      <title>GeoPAR: Large-Scale Multi-Agent Combinatorial Optimization with Geometry-Guided Parallel Autoregressive Learning</title>
-      <link>https://arxiv.org/abs/2609.00577</link>
-      <guid isPermaLink="false">arxiv:2609.00577</guid>
+      <title>Designing Versatile Samples for Learned Trajectory Scoring</title>
+      <link>https://arxiv.org/abs/2609.01799</link>
+      <guid isPermaLink="false">arxiv:2609.01799</guid>
       <pubDate>2026-09-01</pubDate>
-      <description>Multi-agent combinatorial optimization problems are notoriously challenging due to their NP-hard nature. Recent parallel autoregressive neural solvers improve inference efficiency by allowing agents to make decisions simultaneously, but their performance often degrades on large-scale instances. This is largely attributable to weak modeling of local geometric structures and the fact that conflicting task selections are handled only after action generation. To address these limitations, we propose</description>
+      <description>Many current end-to-end driving policies emit a pool of candidate trajectories and select one, which makes selection a separable component: a scorer can be retrained while the planner, its backbone, and its trajectory generator all stay frozen. However, many strong planners concentrate their proposals around safe mode, providing limited supervision near decision boundaries. In this work, we design a training dataset that provides more informative supervision for the scorer. In particular, we con</description>
     </item>
     <item>
-      <title>VoiceLongMemEval: Do Assistants Remember How You Sounded?</title>
-      <link>https://arxiv.org/abs/2609.00570</link>
-      <guid isPermaLink="false">arxiv:2609.00570</guid>
+      <title>Agents That Model Agents: Five Principles Toward a Theory of Mind for 6G Networks</title>
+      <link>https://arxiv.org/abs/2609.01779</link>
+      <guid isPermaLink="false">arxiv:2609.01779</guid>
       <pubDate>2026-09-01</pubDate>
-      <description>With the growing scale of multi-agent architectures and large language models, deployed AI assistants are increasingly tasked with reasoning over long, continuous, multi-session conversation histories. Current benchmarks evaluate this dialogue history as information retrieval over long horizon, temporal reasoning, or knowledge updates, while crucially ignoring the fundamental dynamics of human-agent interaction, i.e. how they said it. To address this gap, we present VoiceLongMemEval (VLME) bench</description>
+      <description>Future 6G networks will rely on Large Language Model (LLM) agents to manage the Radio Access Network (RAN). However, current architectures assume inter-agent messages convey objective facts. A message is instead a \emph{trace} of the sender's reasoning: it carries a subjective conclusion, so a syntactically valid report can propagate an AI hallucination and trigger a cascading outage invisible to protocol validation. Reading such a trace requires a Theory of Mind (ToM)---before acting, the recei</description>
     </item>
   </channel>
 </rss>
