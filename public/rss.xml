@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Fri, 04 Sep 2026 07:43:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 07:25:06 GMT</lastBuildDate>
     <item>
       <title>A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms</title>
       <link>https://arxiv.org/abs/2609.04170</link>
@@ -144,13 +144,6 @@
       <guid isPermaLink="false">arxiv:2609.03067</guid>
       <pubDate>2026-09-02</pubDate>
       <description>World models are an emerging paradigm in representation learning in which an agent jointly learns state-action dynamics and observation models from offline trajectory data, enabling multi-step planning and trajectory prediction with uncertainty estimates. They have shown strong results in robotics and game environments, but, to the best of our knowledge, have not previously been applied to the space domain. This paper introduces a world model-based approach to cooperative and non-cooperative spa</description>
-    </item>
-    <item>
-      <title>You Can't Escape Your Own Activations : Evaluation Awareness and Multi-Agent Monitoring</title>
-      <link>https://arxiv.org/abs/2609.03035</link>
-      <guid isPermaLink="false">arxiv:2609.03035</guid>
-      <pubDate>2026-09-02</pubDate>
-      <description>LLM agents are increasingly deployed in multi-agent systems, where they can collude while keeping their actions benign. Output monitors designed to detect such collusions can be fooled by obfuscation and steganography, motivating the use of probes trained on internal activations. However, these probes are usually evaluated on agents that do not know they are being watched. We study how activation-based detection changes when agents are explicitly informed that their internal activations are bein</description>
     </item>
   </channel>
 </rss>
