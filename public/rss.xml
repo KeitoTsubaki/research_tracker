@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Thu, 10 Sep 2026 07:52:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 07:48:21 GMT</lastBuildDate>
     <item>
       <title>Multi-Agent Reinforcement Learning for Autonomous UAV Exploration in Wildfire Response</title>
       <link>https://arxiv.org/abs/2609.10433</link>
@@ -123,6 +123,27 @@
       <guid isPermaLink="false">arxiv:2609.09374</guid>
       <pubDate>2026-09-08</pubDate>
       <description>Arctic maritime navigation is becoming increasingly important as changing sea-ice conditions expand seasonal accessibility while simultaneously introducing substantial operational, environmental, and community risks. Arctic route planning is inherently a multi-criteria problem: routes that improve vessel safety or efficiency may increase exposure to sea ice, sensitive ecosystems, or nearby communities. Existing routing methods prioritize travel time, fuel use, and navigational risk, often overlo</description>
+    </item>
+    <item>
+      <title>Online, Reachability-Aware, Sampling-Based Motion Planning</title>
+      <link>https://arxiv.org/abs/2609.09073</link>
+      <guid isPermaLink="false">arxiv:2609.09073</guid>
+      <pubDate>2026-09-08</pubDate>
+      <description>Sampling-Based Model-Predictive Control (MPC) algorithms are a flexible class of controllers used for navigation on a wide range of robotic systems. Historically, such approaches have lacked hard safety guarantees, a shortcoming which we remedy in this work by computing guaranteed reachable-set overapproximations online with a fast, interval-based pipeline. We show that our method achieves similar performance to a state-of-the-art reachability-based planner without the need for the expensive pre</description>
+    </item>
+    <item>
+      <title>A Distributed Consensus Particle Filter for Target Tracking using Autonomous Surface Vessels</title>
+      <link>https://arxiv.org/abs/2609.09066</link>
+      <guid isPermaLink="false">arxiv:2609.09066</guid>
+      <pubDate>2026-09-08</pubDate>
+      <description>Maritime target tracking over large distances often requires multi-agent teams without centralized coordination, and intermittent communication. Each agent must maintain an independent estimate that can take advantage of opportunistic communications availability when possible. This can lead to overly confident local estimates in the absence of external data. In this work, we propose an augmentation to a classical particle filter implementation that accounts for this potential source of error by </description>
+    </item>
+    <item>
+      <title>Time-Varying Data as Sheaves: an Invitation to Narratives</title>
+      <link>https://arxiv.org/abs/2609.09056</link>
+      <guid isPermaLink="false">arxiv:2609.09056</guid>
+      <pubDate>2026-09-08</pubDate>
+      <description>Modern science and engineering increasingly rely on time-varying data, yet the mathematical tools used to model temporal phenomena are often developed within separate disciplines, obscuring common principles and limiting the transfer of ideas across fields. This chapter presents the theory of narratives, an abstract framework for time-varying objects of any mathematical kind that supports both theoretical investigations and applications. To illustrate this perspective, the chapter develops three</description>
     </item>
   </channel>
 </rss>
