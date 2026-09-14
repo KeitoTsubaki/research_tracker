@@ -21626,28 +21626,6 @@
   },
   {
     "id": "conf:neurips2025:award:1",
-    "title": "Superposition Yields Robust Neural Scaling",
-    "authors": [
-      "Yizhou Liu",
-      "Ziming Liu",
-      "Jeff Gore"
-    ],
-    "source": "conference_award",
-    "category": "cs.LG",
-    "conference": "NeurIPS 2025",
-    "award": "Best Paper Runner-up",
-    "url": "https://neurips.cc/virtual/2025/poster/116346",
-    "abstract": "",
-    "published_date": "",
-    "tags": [],
-    "venue_status": "published",
-    "venue_note": null,
-    "memo": "",
-    "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
-  },
-  {
-    "id": "conf:neurips2025:award:2",
     "title": "Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free",
     "authors": [
       "Zihan Qiu",
@@ -21679,53 +21657,7 @@
     "fetched_at": "2026-07-22T01:52:39Z"
   },
   {
-    "id": "conf:neurips2025:award:3",
-    "title": "Why Diffusion Models Don’t Memorize:  The Role of Implicit Dynamical Regularization in Training",
-    "authors": [
-      "Tony Bonnaire",
-      "Raphaël Urfin",
-      "Giulio Biroli",
-      "Marc Mezard"
-    ],
-    "source": "conference_award",
-    "category": "cs.LG",
-    "conference": "NeurIPS 2025",
-    "award": "Best Paper",
-    "url": "https://neurips.cc/virtual/2025/poster/119372",
-    "abstract": "",
-    "published_date": "",
-    "tags": [],
-    "venue_status": "published",
-    "venue_note": null,
-    "memo": "",
-    "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
-  },
-  {
-    "id": "conf:neurips2025:award:4",
-    "title": "Optimal Mistake Bounds for Transductive Online Learning",
-    "authors": [
-      "Zachary Chase",
-      "Steve Hanneke",
-      "Shay Moran",
-      "Jonathan Shafer"
-    ],
-    "source": "conference_award",
-    "category": "cs.LG",
-    "conference": "NeurIPS 2025",
-    "award": "Best Paper Runner-up",
-    "url": "https://neurips.cc/virtual/2025/poster/119098",
-    "abstract": "",
-    "published_date": "",
-    "tags": [],
-    "venue_status": "published",
-    "venue_note": null,
-    "memo": "",
-    "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
-  },
-  {
-    "id": "conf:neurips2025:award:5",
+    "id": "conf:neurips2025:award:2",
     "title": "1000 Layer Networks for Self-Supervised RL: Scaling Depth Can Enable New Goal-Reaching Capabilities",
     "authors": [
       "Kevin Wang",
@@ -21739,6 +21671,79 @@
     "conference": "NeurIPS 2025",
     "award": "Best Paper",
     "url": "https://neurips.cc/virtual/2025/poster/115731",
+    "abstract": "",
+    "published_date": "",
+    "tags": [],
+    "venue_status": "published",
+    "venue_note": null,
+    "memo": "",
+    "memo_updated_at": null,
+    "fetched_at": "2026-07-22T01:52:39Z"
+  },
+  {
+    "id": "conf:neurips2025:award:3",
+    "title": "Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)",
+    "authors": [
+      "Liwei Jiang",
+      "Yuanjun Chai",
+      "Margaret Li",
+      "Mickel Liu",
+      "Raymond Fok",
+      "Nouha Dziri",
+      "Yulia Tsvetkov",
+      "Maarten Sap",
+      "Yejin Choi"
+    ],
+    "source": "conference_award",
+    "category": "cs.LG",
+    "conference": "NeurIPS 2025",
+    "award": "Best Paper (DB track)",
+    "url": "https://neurips.cc/virtual/2025/poster/121421",
+    "abstract": "",
+    "published_date": "",
+    "tags": [],
+    "venue_status": "published",
+    "venue_note": null,
+    "memo": "",
+    "memo_updated_at": null,
+    "fetched_at": "2026-07-22T01:52:39Z"
+  },
+  {
+    "id": "conf:neurips2025:award:4",
+    "title": "Superposition Yields Robust Neural Scaling",
+    "authors": [
+      "Yizhou Liu",
+      "Ziming Liu",
+      "Jeff Gore"
+    ],
+    "source": "conference_award",
+    "category": "cs.LG",
+    "conference": "NeurIPS 2025",
+    "award": "Best Paper Runner-up",
+    "url": "https://neurips.cc/virtual/2025/poster/116346",
+    "abstract": "",
+    "published_date": "",
+    "tags": [],
+    "venue_status": "published",
+    "venue_note": null,
+    "memo": "",
+    "memo_updated_at": null,
+    "fetched_at": "2026-07-22T01:52:39Z"
+  },
+  {
+    "id": "conf:neurips2025:award:5",
+    "title": "Optimal Mistake Bounds for Transductive Online Learning",
+    "authors": [
+      "Zachary Chase",
+      "Steve Hanneke",
+      "Shay Moran",
+      "Jonathan Shafer"
+    ],
+    "source": "conference_award",
+    "category": "cs.LG",
+    "conference": "NeurIPS 2025",
+    "award": "Best Paper Runner-up",
+    "url": "https://neurips.cc/virtual/2025/poster/119098",
     "abstract": "",
     "published_date": "",
     "tags": [],
@@ -21777,23 +21782,18 @@
   },
   {
     "id": "conf:neurips2025:award:7",
-    "title": "Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)",
+    "title": "Why Diffusion Models Don’t Memorize:  The Role of Implicit Dynamical Regularization in Training",
     "authors": [
-      "Liwei Jiang",
-      "Yuanjun Chai",
-      "Margaret Li",
-      "Mickel Liu",
-      "Raymond Fok",
-      "Nouha Dziri",
-      "Yulia Tsvetkov",
-      "Maarten Sap",
-      "Yejin Choi"
+      "Tony Bonnaire",
+      "Raphaël Urfin",
+      "Giulio Biroli",
+      "Marc Mezard"
     ],
     "source": "conference_award",
     "category": "cs.LG",
     "conference": "NeurIPS 2025",
-    "award": "Best Paper (DB track)",
-    "url": "https://neurips.cc/virtual/2025/poster/121421",
+    "award": "Best Paper",
+    "url": "https://neurips.cc/virtual/2025/poster/119372",
     "abstract": "",
     "published_date": "",
     "tags": [],
@@ -21829,6 +21829,35 @@
   },
   {
     "id": "conf:icml2025:award:2",
+    "title": "CollabLLM: From Passive Responders to Active Collaborators",
+    "authors": [
+      "Shirley Wu",
+      "Michel Galley",
+      "Baolin Peng",
+      "Hao Cheng",
+      "Gavin Li",
+      "Yao Dou",
+      "Weixin Cai",
+      "James Zou",
+      "Jure Leskovec",
+      "Jianfeng Gao"
+    ],
+    "source": "conference_award",
+    "category": "cs.LG",
+    "conference": "ICML 2025",
+    "award": "Outstanding Paper",
+    "url": "https://icml.cc/virtual/2025/oral/47250",
+    "abstract": "",
+    "published_date": "",
+    "tags": [],
+    "venue_status": "published",
+    "venue_note": null,
+    "memo": "",
+    "memo_updated_at": null,
+    "fetched_at": "2026-07-22T01:52:39Z"
+  },
+  {
+    "id": "conf:icml2025:award:3",
     "title": "The Value of Prediction in Identifying the Worst-Off",
     "authors": [
       "Unai Fischer Abaigar",
@@ -21850,7 +21879,7 @@
     "fetched_at": "2026-07-22T01:52:39Z"
   },
   {
-    "id": "conf:icml2025:award:3",
+    "id": "conf:icml2025:award:4",
     "title": "Score Matching with Missing Data",
     "authors": [
       "Josh Givens",
@@ -21861,7 +21890,7 @@
     "category": "cs.LG",
     "conference": "ICML 2025",
     "award": "Outstanding Paper",
-    "url": "https://icml.cc/virtual/2025/poster/44169",
+    "url": "https://icml.cc/virtual/2025/oral/47194",
     "abstract": "",
     "published_date": "",
     "tags": [],
@@ -21872,7 +21901,30 @@
     "fetched_at": "2026-07-22T01:52:39Z"
   },
   {
-    "id": "conf:icml2025:award:4",
+    "id": "conf:icml2025:award:5",
+    "title": "Roll the dice & look before you leap: Going beyond the creative limits of next-token prediction",
+    "authors": [
+      "Vaishnavh Nagarajan",
+      "Chen Wu",
+      "Charles Ding",
+      "Aditi Raghunathan"
+    ],
+    "source": "conference_award",
+    "category": "cs.LG",
+    "conference": "ICML 2025",
+    "award": "Outstanding Paper",
+    "url": "https://icml.cc/virtual/2025/oral/47241",
+    "abstract": "",
+    "published_date": "",
+    "tags": [],
+    "venue_status": "published",
+    "venue_note": null,
+    "memo": "",
+    "memo_updated_at": null,
+    "fetched_at": "2026-07-22T01:52:39Z"
+  },
+  {
+    "id": "conf:icml2025:award:6",
     "title": "Conformal Prediction as Bayesian Quadrature",
     "authors": [
       "Jake Snell",
@@ -21893,81 +21945,7 @@
     "fetched_at": "2026-07-22T01:52:39Z"
   },
   {
-    "id": "conf:icml2025:award:5",
-    "title": "CollabLLM: From Passive Responders to Active Collaborators",
-    "authors": [
-      "Shirley Wu",
-      "Michel Galley",
-      "Baolin Peng",
-      "Hao Cheng",
-      "Gavin Li",
-      "Yao Dou",
-      "Weixin Cai",
-      "James Zou",
-      "Jure Leskovec",
-      "Jianfeng Gao"
-    ],
-    "source": "conference_award",
-    "category": "cs.LG",
-    "conference": "ICML 2025",
-    "award": "Outstanding Paper",
-    "url": "https://icml.cc/virtual/2025/poster/45988",
-    "abstract": "",
-    "published_date": "",
-    "tags": [],
-    "venue_status": "published",
-    "venue_note": null,
-    "memo": "",
-    "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
-  },
-  {
-    "id": "conf:icml2025:award:6",
-    "title": "Roll the dice & look before you leap: Going beyond the creative limits of next-token prediction",
-    "authors": [
-      "Vaishnavh Nagarajan",
-      "Chen Wu",
-      "Charles Ding",
-      "Aditi Raghunathan"
-    ],
-    "source": "conference_award",
-    "category": "cs.LG",
-    "conference": "ICML 2025",
-    "award": "Outstanding Paper",
-    "url": "https://icml.cc/virtual/2025/poster/45769",
-    "abstract": "",
-    "published_date": "",
-    "tags": [],
-    "venue_status": "published",
-    "venue_note": null,
-    "memo": "",
-    "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
-  },
-  {
     "id": "conf:icml2025:award:7",
-    "title": "Position: The AI Conference Peer Review Crisis Demands Author Feedback and Reviewer Rewards",
-    "authors": [
-      "Jaeho Kim",
-      "Yunseok Lee",
-      "Seulki Lee"
-    ],
-    "source": "conference_award",
-    "category": "cs.LG",
-    "conference": "ICML 2025",
-    "award": "Outstanding Position Paper",
-    "url": "https://icml.cc/virtual/2025/poster/40108",
-    "abstract": "",
-    "published_date": "",
-    "tags": [],
-    "venue_status": "published",
-    "venue_note": null,
-    "memo": "",
-    "memo_updated_at": null,
-    "fetched_at": "2026-07-22T01:52:39Z"
-  },
-  {
-    "id": "conf:icml2025:award:8",
     "title": "Position: AI Safety should prioritize the Future of Work",
     "authors": [
       "Sanchaita Hazra",
@@ -21979,6 +21957,28 @@
     "conference": "ICML 2025",
     "award": "Outstanding Position Paper",
     "url": "https://icml.cc/virtual/2025/oral/40167",
+    "abstract": "",
+    "published_date": "",
+    "tags": [],
+    "venue_status": "published",
+    "venue_note": null,
+    "memo": "",
+    "memo_updated_at": null,
+    "fetched_at": "2026-07-22T01:52:39Z"
+  },
+  {
+    "id": "conf:icml2025:award:8",
+    "title": "Position: The AI Conference Peer Review Crisis Demands Author Feedback and Reviewer Rewards",
+    "authors": [
+      "Jaeho Kim",
+      "Yunseok Lee",
+      "Seulki Lee"
+    ],
+    "source": "conference_award",
+    "category": "cs.LG",
+    "conference": "ICML 2025",
+    "award": "Outstanding Position Paper",
+    "url": "https://icml.cc/virtual/2025/poster/40108",
     "abstract": "",
     "published_date": "",
     "tags": [],
