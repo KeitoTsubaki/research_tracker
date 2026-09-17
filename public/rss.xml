@@ -4,125 +4,167 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Wed, 16 Sep 2026 08:17:03 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 08:23:11 GMT</lastBuildDate>
     <item>
-      <title>Verifiable Social Reasoning for LLM Assistants</title>
-      <link>https://arxiv.org/abs/2609.17496</link>
-      <guid isPermaLink="false">arxiv:2609.17496</guid>
+      <title>Social Laws for Multi-agent Coordination in Stochastic Environments</title>
+      <link>https://arxiv.org/abs/2609.18929</link>
+      <guid isPermaLink="false">arxiv:2609.18929</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>In multi-agent environments, coordinating agents to prevent interference and ensure robust individual performance is a critical challenge. Previous research on social laws for multi-agent systems has primarily focused on deterministic, goal-based settings. This paper extends the concept of social laws to stochastic, reward-based environments, proposing a formalism for defining and verifying their robustness under various conditions. We introduce the notion of $α$-robustness, a measure of the gua</description>
+    </item>
+    <item>
+      <title>CaSCo: Cascade-Aware Soft-Collision Motion Planning</title>
+      <link>https://arxiv.org/abs/2609.18910</link>
+      <guid isPermaLink="false">arxiv:2609.18910</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>Conventional motion planning treats collision as a binary constraint, although contact with different objects can have drastically different consequences. A robot may safely brush against a cardboard box while even minor contact with a glass, laptop, or unstable object may be undesirable. Moreover, a direct robot--object collision can move the contacted object and trigger secondary object--object collisions, making the risk of a motion depend on the physical evolution of the scene rather than on</description>
+    </item>
+    <item>
+      <title>SOL-SLAM: Inverse Compositional Gauss-Newton Direct Registration for Fast Sonar-Only Local SLAM</title>
+      <link>https://arxiv.org/abs/2609.18893</link>
+      <guid isPermaLink="false">arxiv:2609.18893</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>Autonomous underwater navigation typically relies on complex and expensive multi-modal sensor suites designed to prioritize global Simultaneous Localization and Mapping (SLAM) accuracy. However, local reactive behaviors such as coarse navigation and obstacle avoidance require only local consistency---a capability that should be feasible using only a Forward-Looking Sonar (FLS), yet remains largely unaddressed, leaving a critical gap in FLS-only local SLAM. Moreover, existing acoustic SLAM framew</description>
+    </item>
+    <item>
+      <title>Asymptotically Optimal Multi-Robot Task and Motion Planning</title>
+      <link>https://arxiv.org/abs/2609.18813</link>
+      <guid isPermaLink="false">arxiv:2609.18813</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>Multi-robot task and motion planning (MR-TAMP) requires jointly reasoning about discrete task decisions and continuous collision-free motions of multiple interacting robots. Although asymptotically optimal algorithms have been developed for task and motion planning, extending these guarantees to the multi-robot setting introduces an important challenge: different task transitions may involve different subsets of robots and therefore impose constraints of different dimensions on the composite con</description>
+    </item>
+    <item>
+      <title>Clueing up LLMs with Tool-Augmented Deductive Reasoning</title>
+      <link>https://arxiv.org/abs/2609.18736</link>
+      <guid isPermaLink="false">arxiv:2609.18736</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>Despite recent advances in large language models (LLMs), performing logically consistent deductive reasoning over extended interactions remains challenging. Tasks that require integrating evidence across multiple reasoning steps, maintaining consistency with prior inferences, and updating beliefs under new constraints can surface limitations in current models while providing a useful testbed for evaluating reasoning enhancements. In this paper, we implement a text-based, multi-agent version of t</description>
+    </item>
+    <item>
+      <title>M$^3$P-R1: Reinforcement Learning for Large Language Model Guided Multi-Modal Motion Planning via MIP Code Generation</title>
+      <link>https://arxiv.org/abs/2609.18669</link>
+      <guid isPermaLink="false">arxiv:2609.18669</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>Multi-Modal Motion Planning (M$^3$P) requires joint reasoning over continuous motions and discrete mode transitions, making it difficult to solve efficiently. For instance, a bipedal robot may walk to a target location and then use its arms to grasp an object. This scenario captures both mode transitions and continuous dynamics, yielding feasible paths that neither purely discrete nor continuous planners can handle. While Mixed-Integer Programming (MIP) offers a principled framework, constructin</description>
+    </item>
+    <item>
+      <title>CoRe-MARL: Cooperative Redistribution Under Unknown Dynamics Using Recurrent Multi-Agent Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2609.18639</link>
+      <guid isPermaLink="false">arxiv:2609.18639</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>Emergency management assistance programs, such as relief distribution, are essential for delivering necessary supplies to affected communities. However, these programs operate in a decentralized network of local centers that face uncertain local demand and supply dynamics, resulting in inconsistent avail- ability of local services. Redistribution of supplies among these local centers reduces these imbalances, but the centers often make decisions independently, with limited information and disrup</description>
+    </item>
+    <item>
+      <title>FIVE-VLA: Fast and EffectIVE Autonomous Driving with Recurrent Action Memory</title>
+      <link>https://arxiv.org/abs/2609.18623</link>
+      <guid isPermaLink="false">arxiv:2609.18623</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>State-of-the-art vision-language-action models (VLA) for autonomous driving face critical limitations: excessive parameter counts, inefficient high-resolution image processing, and lack of temporal memory. We introduce Fast and EffectIVE VLA (FIVE-VLA) to address these through two key contributions. First, we employ an efficient vision encoder that processes high-resolution ($448 \times 896$) images while generating only 98 tokens, over $5\times$ fewer than existing approaches, and bypass text g</description>
+    </item>
+    <item>
+      <title>Hypothesis-Driven Autonomous Materials Synthesis with Multimodal LLM Agents</title>
+      <link>https://arxiv.org/abs/2609.18598</link>
+      <guid isPermaLink="false">arxiv:2609.18598</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>Self-driving laboratories can explore synthesis conditions autonomously, but their decision-making layer is typically a black-box optimizer, and the output is a set of optimized samples, with the measurements reduced to predefined scalar objectives and the reasons behind success left unarticulated. Here we present SynAgent, a framework in which large language model agents operate an automated experimental system and maintain an explicit, revisable understanding of the synthesis process as the ca</description>
+    </item>
+    <item>
+      <title>Reasoning through Evolution: Automatic Meta-path Discovery for LLM-based Fake News Detection</title>
+      <link>https://arxiv.org/abs/2609.18597</link>
+      <guid isPermaLink="false">arxiv:2609.18597</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>Propagation structures provide crucial evidence for fake news detection, yet existing approaches primarily rely on supervised GNN-based models, which require substantial labeled data and exhibit limited generalization. Although large language models (LLMs) exhibit strong reasoning capabilities, directly feeding them raw propagation graphs creates a significant modality mismatch and severe information overload, making structure-aware reasoning unreliable in zero-shot and few-shot settings. To bri</description>
+    </item>
+    <item>
+      <title>Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making</title>
+      <link>https://arxiv.org/abs/2609.18591</link>
+      <guid isPermaLink="false">arxiv:2609.18591</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>In-context learning (ICL) enables large language model (LLM) agents to improve decisions using interaction history, yet it remains unclear whether such improvement reflects refined internal reasoning or mere extrapolation of statistical patterns. To disentangle these mechanisms, we study LLM agents in multi-agent incomplete-information games that require recursive belief reasoning. By constructing a public goods game and manipulating the statistical structure of historical feedback, we evaluate </description>
+    </item>
+    <item>
+      <title>HAP: A Hand-Driven Active Perception Framework for Egocentric Head Motion Prediction</title>
+      <link>https://arxiv.org/abs/2609.18548</link>
+      <guid isPermaLink="false">arxiv:2609.18548</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>Egocentric motion forecasting has primarily focused on hands and manipulated objects, leaving future human head motion comparatively underexplored. During manipulation, the head both redirects perception toward the target to acquire task-relevant evidence and coordinates with body and hand motion. We therefore formulate future six Degree of Freedom (6-DoF) head-motion prediction conditioned on observed hand motion and inferred target context, and propose HAP, a Hand-Driven Active Perception fram</description>
+    </item>
+    <item>
+      <title>Learning from Distributed Eyes: Leveraging Collaborative Perception for Automated Model Adaptation</title>
+      <link>https://arxiv.org/abs/2609.18511</link>
+      <guid isPermaLink="false">arxiv:2609.18511</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>In autonomous driving, perception models often struggle to generalize to new environments due to domain shifts. While unsupervised model adaptation offers a feasible solution without labor-intensive manual labeling, existing methods that rely solely on the ego-vehicle's data often lead to inferior pseudo-labeling performance. To address this critical issue, we propose LDE, Learning from Distributed ``Eyes", a novel framework that transforms collaborative perception (CP) into a source of high-qua</description>
+    </item>
+    <item>
+      <title>Collective Loss of Control in LLM Agent Systems: An Epidemic Account of Mutation, Contagion, and Recovery</title>
+      <link>https://arxiv.org/abs/2609.18460</link>
+      <guid isPermaLink="false">arxiv:2609.18460</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>How does a multi-agent system evolve from a local deviation into collective loss of control? We propose an epidemic explanation organized around accidental mutation, contagion, and recovery. A spontaneous deviation creates a seed; communication enables other agents to adopt and retransmit its unsafe strategy; collective failure can emerge when propagation outpaces correction and containment. Thus, rare individual deviations can coexist with substantial collective risk. Motivated by reported Open</description>
+    </item>
+    <item>
+      <title>Risk-Aware World Modeling with Flow-Guided Occupancy Evolution for Selective Trajectory Planning in Automated Driving</title>
+      <link>https://arxiv.org/abs/2609.18442</link>
+      <guid isPermaLink="false">arxiv:2609.18442</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>Safe motion planning in automated driving requires anticipating evolving traffic risks and deciding when to revise the current planned trajectory. We introduce RiskWorld, a risk-aware world modeling framework for shared occupancy forecasting and selective trajectory replacement. Spatial risk fields and temporal actor context are fused with visual bird's-eye-view features. Flow-guided evolution transports occupancy and scene features, while signed residuals correct occupancy after transport. One </description>
+    </item>
+    <item>
+      <title>Bias Amplification in Multi-Agent Network: How Biased Agents Shape Opinions and Rhetoric</title>
+      <link>https://arxiv.org/abs/2609.18306</link>
+      <guid isPermaLink="false">arxiv:2609.18306</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>Large language models (LLMs) are increasingly deployed in applications involving interaction between agents, where their output plays a role in collective reasoning and decision-making processes. Despite significant research into the functioning of LLMs in such multi-agent systems, the processes of bias propagation in such systems are still a challenge. This work studies how biased opinions are propagated in the form of textual interaction in an environment of LLMs, in which a minority of agents</description>
+    </item>
+    <item>
+      <title>Where Should Agents Live? Energy-Memory Characterization of Agentic AI for the Edge-Cloud Continuum</title>
+      <link>https://arxiv.org/abs/2609.18283</link>
+      <guid isPermaLink="false">arxiv:2609.18283</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>As telecommunication networks evolve toward autonomous 5G-Advanced and 6G operations, agentic artificial intelligence (AI) workflows, where large language models (LLMs) execute multi-step reasoning, invoke diagnostic tools, retrieve domain knowledge, and coordinate across agent teams, are increasingly embedded across the edge-cloud continuum. While the biological brain accomplishes complex cognition on an exceptionally modest metabolic power budget of approximately 20W contemporary LLMs are prof</description>
+    </item>
+    <item>
+      <title>Approximating High Dimensional Self-Motion Manifolds via Deep Generative Models</title>
+      <link>https://arxiv.org/abs/2609.18169</link>
+      <guid isPermaLink="false">arxiv:2609.18169</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>Self-motion manifold (SMM) characterizes the geometric structure of the infinite inverse kinematic solutions set of a redundant manipulator at a fixed end-effector pose, and its efficient recovery underpins feasible and global optimal motion planning. Existing methods such as null-space continuation and learning-based methods are formulated around the assumption that an SMM is a curve, and do not extend to higher redundancy orders. We instead adopt a probabilistic view: SMMs are the support of t</description>
+    </item>
+    <item>
+      <title>DualSQL: Text-to-SQL with Multi-Agent Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2609.18135</link>
+      <guid isPermaLink="false">arxiv:2609.18135</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>State-of-the-art Text-to-SQL systems are typically multi-agent pipelines centered around two fundamental tasks: schema linking and SQL generation. However, existing work trains separate models for each task, failing to leverage the synergy between these interrelated tasks. In this work, we propose DualSQL, a new Text-to-SQL system consisting of two agents powered by a single model backbone. The agents share the same model weights and agentic scaffold, enabling joint optimization through a robust</description>
+    </item>
+    <item>
+      <title>FedPGT: Progressive Gradient Transmission for Vehicular Federated Learning over Time-Varying Channels</title>
+      <link>https://arxiv.org/abs/2609.18089</link>
+      <guid isPermaLink="false">arxiv:2609.18089</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>Vehicular federated learning (VFL) enables privacy-preserving collaborative model training for intelligent transportation systems, where communication resource allocation and gradient sparsification techniques have been explored to reduce communication overhead. However, vehicle mobility leads to rapidly varying channel conditions and transmission capacity, rendering predetermined resource allocation and sparsification decisions ineffective. In this paper, we propose FedPGT, a progressive gradie</description>
+    </item>
+    <item>
+      <title>Characterizing Refraction-Induced Ranging Bias in Underwater Collaborative Localization</title>
+      <link>https://arxiv.org/abs/2609.18073</link>
+      <guid isPermaLink="false">arxiv:2609.18073</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>This work studies how refraction-induced bias on acoustic ranging affects multi-agent collaborative localization in a range of oceanographic conditions and spatial scales. While multi-agent range-aided navigation, which uses range measurements to either fixed infrastructure or other agents, is a promising solution to the challenges of large-scale underwater localization, its accuracy depends strongly on the quality of range measurements. Sound speed variability induces refraction (bending) of ac</description>
+    </item>
+    <item>
+      <title>Structural Inference under Hidden Agents</title>
+      <link>https://arxiv.org/abs/2609.18045</link>
+      <guid isPermaLink="false">arxiv:2609.18045</guid>
+      <pubDate>2026-09-16</pubDate>
+      <description>Recovering latent interaction structures from multi-agent dynamics is important for understanding and predicting interacting systems. Trajectory-based structural inference has achieved promising performance, but conventional formulations assume that the trajectories of all modeled agents are available. In practice, agents may become unobserved at deployment because of limited sensing, occlusion, or communication failure. Existing studies have considered unseen-node estimation, structural inferen</description>
+    </item>
+    <item>
+      <title>Collaborative Memory for Multi-Agent VLM Systems</title>
+      <link>https://arxiv.org/abs/2609.17921</link>
+      <guid isPermaLink="false">arxiv:2609.17921</guid>
       <pubDate>2026-09-15</pubDate>
-      <description>LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social situations from subjective user narratives, and (ii) social properties, such as others' intentions, typically lack verifiable ground truth. To address these challenges, we introduce Fuse, a multi-agent simulation framework for studying user-mediated social reasoning. In Fuse, a target a</description>
-    </item>
-    <item>
-      <title>Decomposition Buys Integrity, Not Yield</title>
-      <link>https://arxiv.org/abs/2609.17464</link>
-      <guid isPermaLink="false">arxiv:2609.17464</guid>
-      <pubDate>2026-09-15</pubDate>
-      <description>Multi-agent systems split a task across a tree of agents and justify the split with folklore: smaller contexts, cleaner separation, parallelism. We ask what the split does to how much of what the leaves discover reaches the root. Model a decomposition as a tree in which an agent handed $b$ items keeps any one with probability $r(b)$. If $r(b)=1/b$, every tree delivers exactly one finding, for every task size and every shape; we verify this to $2.4 \times 10^{-15}$ on 20,000 random irregular tree</description>
-    </item>
-    <item>
-      <title>Self-Emergence Agent Architecture:Behavior-Inertia HMM, Reflexive Metacognition,and Social-Contrastive Self-Modeling</title>
-      <link>https://arxiv.org/abs/2609.17331</link>
-      <guid isPermaLink="false">arxiv:2609.17331</guid>
-      <pubDate>2026-09-15</pubDate>
-      <description>Large language model (LLM) agents exhibit strong language-generation and problem-solving capabilities, yet suffer from three structural limitations: personality drift, non-evolutionary reflection, and the absence of a self-other boundary. Existing generative-agent simulations rely on static memory and fixed prompts, maintaining neither behavioral inertia nor endogenous self-evolution. We propose the Self-Emergence Agent Architecture (SEAA), which integrates three components: (i) a Hidden Markov </description>
-    </item>
-    <item>
-      <title>Emergence World: Adversarial Stress-Testing of Long-Horizon Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2609.17320</link>
-      <guid isPermaLink="false">arxiv:2609.17320</guid>
-      <pubDate>2026-09-15</pubDate>
-      <description>As AI agents move from bounded tasks to persistent deployments, failures can propagate through memory, tools, other agents, and environmental state long after their interactions. This creates a safety regime that cannot be characterized by evaluating model responses in isolation. Emergence World, is a continuously running multi-agent environment for adversarial stress testing of long horizon autonomous systems. We ran eight parallel worlds of ten agents from identical starting conditions: seven </description>
-    </item>
-    <item>
-      <title>Mo' Models, Mo' Problems: How to best select model pools when designing Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2609.17306</link>
-      <guid isPermaLink="false">arxiv:2609.17306</guid>
-      <pubDate>2026-09-15</pubDate>
-      <description>Multi-agent Systems (MAS) combine multiple model outputs to solve complex reasoning tasks. However, despite rapid growth of available open-source models, there is limited research on how to select optimal model candidates out of this massive pool. We systematically evaluate 8 model selection strategies (including model size, accuracy and answer diversity) across before-generation (routing) and after-generation (majority-voting, LLM-as-a-judge) MAS architectures on challenging scientific benchmar</description>
-    </item>
-    <item>
-      <title>Calibrate Once, Fly Any Team: Residual-Grounded Low-Fidelity Training for Cooperative Drone Swarms</title>
-      <link>https://arxiv.org/abs/2609.17265</link>
-      <guid isPermaLink="false">arxiv:2609.17265</guid>
-      <pubDate>2026-09-15</pubDate>
-      <description>Training multi-agent drone-swarm policies directly in high-fidelity (HF) rigid-body physics is accurate but computationally expensive. This cost scales poorly with team size, as each additional agent multiplies contact-resolution complexity and sharply raises the in-simulation crash rate. To address this, we propose a mixed-fidelity training scheme that eliminates HF reinforcement learning entirely. A single shared, decentralized policy is optimized inside a fully-differentiable, JAX-native low-</description>
-    </item>
-    <item>
-      <title>Kernel-Based Metrics Learning for Uncertain Opponent Vehicle Trajectory Prediction in Autonomous Racing</title>
-      <link>https://arxiv.org/abs/2609.17147</link>
-      <guid isPermaLink="false">arxiv:2609.17147</guid>
-      <pubDate>2026-09-15</pubDate>
-      <description>Autonomous racing confronts significant challenges in safely overtaking Opponent Vehicles (OVs) that exhibit uncertain trajectories, stemming from unknown driving policies. To address these challenges, this study proposes heterogeneous kernel metrics for Deep Kernel Learning (DKL), designed to robustly capture the diverse driving policies of OVs, and carry out precise trajectory predictions along with the associated uncertainties. A key virtue of the proposed kernel metrics lies in their ability</description>
-    </item>
-    <item>
-      <title>Interactive Memory Learning for Long-Term Conversations</title>
-      <link>https://arxiv.org/abs/2609.17088</link>
-      <guid isPermaLink="false">arxiv:2609.17088</guid>
-      <pubDate>2026-09-15</pubDate>
-      <description>Recent advancements in large language models have significantly enhanced the capabilities of agents in modeling long-term conversations. Despite these successes, existing approaches typically adopt a static heuristic paradigm, where information is passively archived without adaptive memory valuation. Consequently, these methods fail to self-evolve or align their memory management with evolving user needs. To address this, we propose ICML (InteraCtive Memory Learning), a multi-agent framework tha</description>
-    </item>
-    <item>
-      <title>ToMAS: A Pilot Failure-Grounded Theory-of-Mind Benchmark from Multi-Agent LLM Failures</title>
-      <link>https://arxiv.org/abs/2609.16986</link>
-      <guid isPermaLink="false">arxiv:2609.16986</guid>
-      <pubDate>2026-09-15</pubDate>
-      <description>LLM-based multi-agent systems can fail even when communication succeeds because agents do not correctly track their peers' roles, knowledge, or intentions. We investigate whether such inter-agent misalignment cases, labelled FC2 in MAST-Data, can be converted into functional partner-state reasoning items. ToMAS applies four explicit convertibility criteria to diagnosed execution traces. A full conversion pass over 242 eligible non-AG2 training traces produced 39 CLEAN items. In an 18-trace relia</description>
-    </item>
-    <item>
-      <title>Multi-Agent Learning with Cooperation-Driven Optimization Dynamics</title>
-      <link>https://arxiv.org/abs/2609.16917</link>
-      <guid isPermaLink="false">arxiv:2609.16917</guid>
-      <pubDate>2026-09-15</pubDate>
-      <description>Multilayer Artificial Neural Networks trained via backpropagation are the basic blocks of many, more complex, classification algorithms. Their strength lies in the possibility of realizing, with arbitrary precision, any function. This result comes at the cost of the large number of involved parameters to be optimized. In this work, we propose a mechanism for cooperation, i.e., information exchange among several artificial neural networks, with the goal of reducing model complexity while maintain</description>
-    </item>
-    <item>
-      <title>Motion planning in high dimensional spaces hybridizing RRT and HAR via position-direction decoupling</title>
-      <link>https://arxiv.org/abs/2609.16810</link>
-      <guid isPermaLink="false">arxiv:2609.16810</guid>
-      <pubDate>2026-09-15</pubDate>
-      <description>The exploration of high-dimensional spaces remains a challenging problem, in particular in the presence of narrow passages and small clearances. We propose novel sampling-based path-planning methods for high-dimensional spaces combining Rapidly-exploring Random Trees (RRT) and Hit-and-Run (HAR) random walks by decoupling the point being extended from the direction of extension. We also show that RRT and HAR appear as special cases of a generic algorithm coupling the biases used for the point and</description>
-    </item>
-    <item>
-      <title>World Models for Embodied Intelligence: From Plausible to Controllable to Actionable</title>
-      <link>https://arxiv.org/abs/2609.16697</link>
-      <guid isPermaLink="false">arxiv:2609.16697</guid>
-      <pubDate>2026-09-15</pubDate>
-      <description>World models connect perception and decision-making in embodied intelligence by maintaining hidden state, anticipating consequences, comparing interventions, and adapting when execution departs from expectations. Although progress is often measured by visual fidelity, their value lies in improving behavior. Before reaching for a cup, a person anticipates its weight and resistance to grasping, shaping the hand before contact. Such anticipation is coarse and rarely pictorial, yet it guides action.</description>
-    </item>
-    <item>
-      <title>Large Language Models in the Loop: A Stability- and Network-Aware Survey in Networked Control, Cyber-Physical, and Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2609.16599</link>
-      <guid isPermaLink="false">arxiv:2609.16599</guid>
-      <pubDate>2026-09-15</pubDate>
-      <description>Modern networked control systems (NCSs), cyber-physical systems (CPSs), and complex multi-agent network systems (CNSs) increasingly rely on large language models (LLMs) for high-level decision-making. However, the slow, stochastic nature of LLMs directly conflicts with the strict stability and safety guarantees required by these physical systems. This survey presents a unified analysis of how LLMs can be admitted into the control loop of NCS, CPS, and CNS without compromising closed-loop guarant</description>
-    </item>
-    <item>
-      <title>FlowATC: Aircraft Trajectory Prediction via Flow Matching</title>
-      <link>https://arxiv.org/abs/2609.16528</link>
-      <guid isPermaLink="false">arxiv:2609.16528</guid>
-      <pubDate>2026-09-15</pubDate>
-      <description>Building accurate decision-support tools for next-generation air traffic control requires robust trajectory prediction models. We present a flow-matching architecture trained exclusively on historical aircraft trajectories, with no route labels or chart supervision. Trained on 1.15 million Automatic Dependent Surveillance-Broadcast trajectory windows collected over the San Francisco Bay Area, the model generates aircraft trajectory distributions that closely match historical traffic, reproducing</description>
-    </item>
-    <item>
-      <title>UDAV: Uncertainty-Driven Adaptive VLM Waypoint Planner</title>
-      <link>https://arxiv.org/abs/2609.16368</link>
-      <guid isPermaLink="false">arxiv:2609.16368</guid>
-      <pubDate>2026-09-14</pubDate>
-      <description>Vision-language models (VLMs) can generate routes directly from aerial imagery for off-road navigation, but their predictions provide no indication of reliability. We present UDAV, an Uncertainty-Driven Adaptive VLM Waypoint Planner for UAV-guided UGV navigation. UDAV draws multiple stochastic trajectory predictions, selects their medoid as a self-consistent nominal route, and estimates predictive uncertainty from their spatial dispersion. When the maximum uncertainty across interior waypoints e</description>
-    </item>
-    <item>
-      <title>Drift Field Net: Learning Ocean Lagrangian advection fields from in-situ and satellite observations</title>
-      <link>https://arxiv.org/abs/2609.16288</link>
-      <guid isPermaLink="false">arxiv:2609.16288</guid>
-      <pubDate>2026-09-14</pubDate>
-      <description>The North Pacific Subtropical Gyre (NPSG) is a major accumulation zone for floating plastic debris, resulting from basin-scale convergent ocean circulation. Effective cleanup strategies in this region rely on accurate forecasts of Lagrangian particle drift. Here, we introduce Drift Field Net (DFN), a deep neural network that predicts ocean surface flow fields from operational satellite observations. DFN is trained using a novel two-stage strategy that combines pretraining on simulated data with </description>
-    </item>
-    <item>
-      <title>Cheap Talk Stabilizes Strategic Interaction in LLM Agents</title>
-      <link>https://arxiv.org/abs/2609.16270</link>
-      <guid isPermaLink="false">arxiv:2609.16270</guid>
-      <pubDate>2026-09-14</pubDate>
-      <description>Large language models are increasingly deployed as interacting agents, making the persistence of their action policies across repeated interaction critical for reliable multi-agent operation. We investigate whether and how agent-generated, non-binding pre-play communication ("cheap talk") increases such persistence in four open-weight 7-9B-parameter LLMs. Our experiments span four repeated two-player games -- Prisoner's Dilemma, Snowdrift, Stag Hunt, and Harmony -- with incentive structures rang</description>
+      <description>Vision-language model (VLM) agents combine specialized perception, tools, and reasoning to address complex visual tasks. In multi-agent settings, different agents inspect different image regions, video frames, or visual representations, so collaboration extends beyond distributed reasoning to distributed perception. This makes shared visual context a central problem in VLM agent collaboration. In this paper, we frame memory hierarchy, cross-agent sharing, and consistency mechanisms around the ne</description>
     </item>
   </channel>
 </rss>

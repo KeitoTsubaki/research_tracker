@@ -1,5 +1,580 @@
 [
   {
+    "id": "arxiv:2609.18929",
+    "title": "Social Laws for Multi-agent Coordination in Stochastic Environments",
+    "authors": [
+      "Rolando Fernandez",
+      "Caleb Probine",
+      "Tyler Lee",
+      "Jeffrey Chen",
+      "Erez Karpas",
+      "Muhammad Arrasy Rahman",
+      "Peter Stone",
+      "Ufuk Topcu"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18929",
+    "abstract": "In multi-agent environments, coordinating agents to prevent interference and ensure robust individual performance is a critical challenge. Previous research on social laws for multi-agent systems has primarily focused on deterministic, goal-based settings. This paper extends the concept of social laws to stochastic, reward-based environments, proposing a formalism for defining and verifying their robustness under various conditions. We introduce the notion of $α$-robustness, a measure of the guaranteed utility each agent retains while pursuing its optimal single agent policy, assuming all agents obey the social law. We then present an approach for robustness verification of social laws in stochastic settings, based on a reduction to solving a series of Markov decision processes. Empirical evaluations on toy environments illustrate the potential of our framework.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "Appeared at the RIPL Workshop as part of ICAPS 2026",
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18910",
+    "title": "CaSCo: Cascade-Aware Soft-Collision Motion Planning",
+    "authors": [
+      "Shivaram Kumar",
+      "Gaoyuan Liu",
+      "Yoonchang Sung"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18910",
+    "abstract": "Conventional motion planning treats collision as a binary constraint, although contact with different objects can have drastically different consequences. A robot may safely brush against a cardboard box while even minor contact with a glass, laptop, or unstable object may be undesirable. Moreover, a direct robot--object collision can move the contacted object and trigger secondary object--object collisions, making the risk of a motion depend on the physical evolution of the scene rather than only on the robot's geometric path. We present CaSCo, a cascade-aware soft-collision motion planning framework in which a vision-language or language model assigns semantic risk to objects and a physics simulator predicts the consequences of candidate robot motions. CaSCo searches for a path that minimizes the total semantic risk of the unique objects displaced either directly by the robot or indirectly through cascaded collisions. Because collisions change the environment, we augment roadmap states with the predicted object arrangement and the set of objects whose risk has already been incurred. We develop an optimal graph-search algorithm with an admissible and consistent cascade-relaxed heuristic and caching and pruning mechanisms for efficient search. Experiments in cluttered manipulation environments evaluate semantic risk, cascade reasoning, planning efficiency, and real-robot operation.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 3 figures",
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18893",
+    "title": "SOL-SLAM: Inverse Compositional Gauss-Newton Direct Registration for Fast Sonar-Only Local SLAM",
+    "authors": [
+      "Kalvik Jakkala",
+      "Jason O'Kane"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18893",
+    "abstract": "Autonomous underwater navigation typically relies on complex and expensive multi-modal sensor suites designed to prioritize global Simultaneous Localization and Mapping (SLAM) accuracy. However, local reactive behaviors such as coarse navigation and obstacle avoidance require only local consistency---a capability that should be feasible using only a Forward-Looking Sonar (FLS), yet remains largely unaddressed, leaving a critical gap in FLS-only local SLAM. Moreover, existing acoustic SLAM frameworks predominantly rely on sparse feature extraction methods that discard substantial portions of the already information-sparse acoustic returns. To overcome these limitations, this work introduces a dense direct registration approach that aligns full acoustic intensity scans to a recursively updated local map. Real-time execution is achieved via an Inverse Compositional Gauss-Newton optimization strategy that minimizes computational overhead. Experimental evaluations show that this dense method yields significant improvements on translation error compared to sparse keypoint baselines, maintaining stable sub-meter tracking precision over wide displacement gaps. Moreover, this approach delivers odometry performance comparable to multi-sensor fusion pipelines (FLS, DVL, and IMU), bypassing expensive payload dependencies in feature-rich environments. We validate real-world applicability through AUV field trials, running the full local SLAM approach onboard an embedded, resource-constrained computer.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 5 figures, preprint",
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18813",
+    "title": "Asymptotically Optimal Multi-Robot Task and Motion Planning",
+    "authors": [
+      "Thi Thuy Ngan Duong",
+      "Cheuk Tung Shadow Yiu",
+      "Rahul Shome",
+      "Yoonchang Sung"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18813",
+    "abstract": "Multi-robot task and motion planning (MR-TAMP) requires jointly reasoning about discrete task decisions and continuous collision-free motions of multiple interacting robots. Although asymptotically optimal algorithms have been developed for task and motion planning, extending these guarantees to the multi-robot setting introduces an important challenge: different task transitions may involve different subsets of robots and therefore impose constraints of different dimensions on the composite configuration space. Consequently, an asymptotically optimal planner must not only optimize motion within each task mode, but also ensure sufficient exploration of the different types of transitions connecting them. We characterize this transition structure and establish sufficient conditions for global asymptotic optimality in MR-TAMP, requiring persistent coverage of relevant transitions and asymptotically improving motion planning within connected feasible regions. Based on these conditions, we develop an efficient asymptotically optimal MR-TAMP algorithm that combines evolving individual-robot roadmaps with implicit tensor-product search, avoiding explicit construction of the composite roadmap. The planner further employs conditional transition sampling, lazy collision checking, and mode- and solution-level guidance to improve finite-time planning efficiency while retaining persistent exploration. The resulting framework provides asymptotic optimality guarantees for multi-robot manipulation while efficiently exploiting the structure of individual-robot motion planning.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "cooperative-transport",
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18736",
+    "title": "Clueing up LLMs with Tool-Augmented Deductive Reasoning",
+    "authors": [
+      "Rebecca Ansell",
+      "Autumn Toney-Wails"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18736",
+    "abstract": "Despite recent advances in large language models (LLMs), performing logically consistent deductive reasoning over extended interactions remains challenging. Tasks that require integrating evidence across multiple reasoning steps, maintaining consistency with prior inferences, and updating beliefs under new constraints can surface limitations in current models while providing a useful testbed for evaluating reasoning enhancements. In this paper, we implement a text-based, multi-agent version of the classic board game Clue as an environment to evaluate multi-step, agentic deductive reasoning. In this setting, agents must infer hidden information from a sequence of observations, maintain consistency across turns, and reason over an evolving set of logical constraints. We instantiate six LLM-based agents (GPT-4o-mini and Gemini-2.5-Flash) as players that engage in turn-based gameplay; using three agents per model family, we establish baseline performance across repeated games. We then introduce a tool-augmented approach in which a structured possibility matrix converts implicit game state from generated reasoning logs into an explicit representation of remaining possibilities. The possibility matrix encodes extended-turn memory and deductive constraints, offloading these tasks from the agent. We compare this approach against the baseline to evaluate how tool augmentation supports reasoning quality and task success for autonomous agents in a strategic reasoning environment.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": null,
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18669",
+    "title": "M$^3$P-R1: Reinforcement Learning for Large Language Model Guided Multi-Modal Motion Planning via MIP Code Generation",
+    "authors": [
+      "Xingpeng Sun",
+      "Zherong Pan",
+      "Kai Cheng",
+      "Xindi Tang",
+      "Syed Talha Bukhari",
+      "Aniket Bera"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18669",
+    "abstract": "Multi-Modal Motion Planning (M$^3$P) requires joint reasoning over continuous motions and discrete mode transitions, making it difficult to solve efficiently. For instance, a bipedal robot may walk to a target location and then use its arms to grasp an object. This scenario captures both mode transitions and continuous dynamics, yielding feasible paths that neither purely discrete nor continuous planners can handle. While Mixed-Integer Programming (MIP) offers a principled framework, constructing tractable formulations for non-convex problems is typically manual and domain-specific, especially in the approximate, discretization-based MIP regime needed for non-convex robotic tasks. We propose M$^3$P-R1, a reinforcement learning method that fine-tunes large language models (LLMs) to decompose M$^3$P tasks into MIP variables, constraints, and objectives. Instead of directly outputting answers, which are often prone to hallucination, the model generates executable Python code using MIP optimization libraries and constraint interfaces. This enables solver-backed execution for robust and verifiable solutions. Trained with an outcome-driven reward against the solver, M$^3$P-R1 learns to compose modality-level discretization primitives and synthesize cross-modal coupling constraints, producing executable MIP programs for complex M$^3$P tasks.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "56 pages, 22 figures",
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18639",
+    "title": "CoRe-MARL: Cooperative Redistribution Under Unknown Dynamics Using Recurrent Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Naimur Rahman Chowdhury",
+      "Shatabdi Sen Prapti",
+      "Md. Salehin Seyam",
+      "Limon Bin Hossain"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18639",
+    "abstract": "Emergency management assistance programs, such as relief distribution, are essential for delivering necessary supplies to affected communities. However, these programs operate in a decentralized network of local centers that face uncertain local demand and supply dynamics, resulting in inconsistent avail- ability of local services. Redistribution of supplies among these local centers reduces these imbalances, but the centers often make decisions independently, with limited information and disrupted transportation. This study develops CoRe-MARL, a cooperative multi-agent reinforcement learning (MARL) framework, by formulating a decentralized partially observable Markov decision process (Dec-POMDP). We treat each center as an agent that learns a redistribution policy to improve the service in the worst-case region and reduce the service gap across regions while protecting network-wide service. We incorporate a recurrent network that captures evolving supply and demand dynamics without direct observation, while multi-agent proximal policy optimization (MAPPO) enables centralized training and decentralized execution (CTDE). We evaluate the framework in a simulated environment with diverse trajectories, where exact dynamics are not observed by actors and the MAPPO critic. We compare the recurrent MAPPO with the recurrent independent PPO (IPPO) and a local only heuristic, and find that MAPPO reduces the service gap across local centers and enhances service for the worst-served center while maintaining competitive network-wide service. The recurrent MAPPO also shows consistent performance across diverse trajectory patterns, demonstrating its ability to adapt to evolving dynamics. The findings demonstrate the capability of cooperative learning for decentralized redistribution and improving equitable service under uncertain and evolving dynamics.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18623",
+    "title": "FIVE-VLA: Fast and EffectIVE Autonomous Driving with Recurrent Action Memory",
+    "authors": [
+      "Kemal Oksuz",
+      "Alexandru Buburuzan",
+      "Yuhan Yao",
+      "Puneet K. Dokania"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18623",
+    "abstract": "State-of-the-art vision-language-action models (VLA) for autonomous driving face critical limitations: excessive parameter counts, inefficient high-resolution image processing, and lack of temporal memory. We introduce Fast and EffectIVE VLA (FIVE-VLA) to address these through two key contributions. First, we employ an efficient vision encoder that processes high-resolution ($448 \\times 896$) images while generating only 98 tokens, over $5\\times$ fewer than existing approaches, and bypass text generation entirely for single-pass trajectory prediction. Second, we propose Recurrent Action Memory (RAM), a lightweight module that conditions action prediction on previous action tokens, providing temporal context critical for manoeuvres such as overtaking and emergency braking. With only 641M parameters, FIVE-VLA completes $\\sim$10% more routes without traffic rule infractions than the previous state-of-the-art VLA on the challenging Bench2Drive closed-loop driving benchmark. Non-reactive open-loop simulation on the large-scale real-world NVIDIA Physical AI AV dataset shows 10.2% and 7.7% lower collision-violation rates than SimLingo in single- and four-view settings, respectively. Additionally, FIVE-VLA runs at $\\sim$30 fps on an A100 and $\\sim$4 fps on a T4 GPU (proxy to an edge device), representing an 8-30$\\times$ speedup over previous methods.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18598",
+    "title": "Hypothesis-Driven Autonomous Materials Synthesis with Multimodal LLM Agents",
+    "authors": [
+      "Izumi Takahara",
+      "Kazunori Nishio",
+      "Akira Aiba",
+      "Shigeru Kobayashi",
+      "Takao Nakajima",
+      "Taro Hitosugi",
+      "Teruyasu Mizoguchi"
+    ],
+    "source": "arxiv",
+    "category": "cond-mat.mtrl-sci",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18598",
+    "abstract": "Self-driving laboratories can explore synthesis conditions autonomously, but their decision-making layer is typically a black-box optimizer, and the output is a set of optimized samples, with the measurements reduced to predefined scalar objectives and the reasons behind success left unarticulated. Here we present SynAgent, a framework in which large language model agents operate an automated experimental system and maintain an explicit, revisable understanding of the synthesis process as the campaign's primary output. Starting with no predefined analysis pipeline, SynAgent adaptively generates analysis skills for newly acquired data and evolves this understanding through multimodal reasoning over experimental data such as X-ray diffraction patterns and electron micrographs. The evolution is guided by a verify-falsify scheme, in which the agent deliberately challenges its own hypotheses by testing conditions predicted to fail as well as those predicted to succeed. In a single campaign of 18 autonomous experiments using LiCoO2 (001) thin-film deposition as a testbed, SynAgent synthesized highly crystalline films and evolved an understanding of how the substrate temperature governs crystallization, discovering an abrupt threshold and a narrow optimal growth window at 650-690 °C. These results extend autonomous experimentation beyond optimized samples to testable, human-readable understanding.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18597",
+    "title": "Reasoning through Evolution: Automatic Meta-path Discovery for LLM-based Fake News Detection",
+    "authors": [
+      "Ziyi Zhou",
+      "Xiaoming Zhang",
+      "Hui Pang",
+      "Yuting Zhang",
+      "Tiesunlong Shen",
+      "Bingyu Yan",
+      "Erik Cambria",
+      "Litian Zhang"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18597",
+    "abstract": "Propagation structures provide crucial evidence for fake news detection, yet existing approaches primarily rely on supervised GNN-based models, which require substantial labeled data and exhibit limited generalization. Although large language models (LLMs) exhibit strong reasoning capabilities, directly feeding them raw propagation graphs creates a significant modality mismatch and severe information overload, making structure-aware reasoning unreliable in zero-shot and few-shot settings. To bridge this gap, we propose MAGER, a multi-agent genetic evolution framework that automatically discovers meta-paths optimized for LLM reasoning. By compressing complex propagation graphs into informative subgraphs, the evolved meta-paths alleviate both information overload and modality mismatch, enabling frozen LLMs to perform structure-aware veracity reasoning. We further introduce a graph in-context learning strategy that retrieves semantically and structurally similar demonstrations to strengthen classification and reasoning. Extensive experiments show that MAGER substantially improves frozen LLMs as standalone fake news detectors in data-efficient settings. Our code is available at https://github.com/SenticNet/MAGER.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted by ACM MM 2026, Oral",
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18591",
+    "title": "Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making",
+    "authors": [
+      "Yu Liu",
+      "Wenwen Li",
+      "Yifan Dou",
+      "Guangnan Ye"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18591",
+    "abstract": "In-context learning (ICL) enables large language model (LLM) agents to improve decisions using interaction history, yet it remains unclear whether such improvement reflects refined internal reasoning or mere extrapolation of statistical patterns. To disentangle these mechanisms, we study LLM agents in multi-agent incomplete-information games that require recursive belief reasoning. By constructing a public goods game and manipulating the statistical structure of historical feedback, we evaluate decision quality against a history-independent rational expectations equilibrium (REE) benchmark. Our experiments reveal that when historical statistical patterns are disrupted, the benefits of longer context largely vanish, degrading decision quality to the no-context baseline in a way sharply amplified by stronger strategic interdependence. These results suggest that, in such strategic environments, ICL behavior is more consistent with statistical extrapolation than with strategic reasoning. Our work extends the mechanistic study of ICL to strategic multi-agent settings, introduces REE as a diagnostic tool for distinguishing reasoning from extrapolation, and provides a reusable framework for probing the boundaries of LLM reasoning in recursive belief tasks.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18548",
+    "title": "HAP: A Hand-Driven Active Perception Framework for Egocentric Head Motion Prediction",
+    "authors": [
+      "Yunji Feng",
+      "Junyi Ma",
+      "Guanzhong Sun",
+      "Chenyang Xu",
+      "Hesheng Wang"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18548",
+    "abstract": "Egocentric motion forecasting has primarily focused on hands and manipulated objects, leaving future human head motion comparatively underexplored. During manipulation, the head both redirects perception toward the target to acquire task-relevant evidence and coordinates with body and hand motion. We therefore formulate future six Degree of Freedom (6-DoF) head-motion prediction conditioned on observed hand motion and inferred target context, and propose HAP, a Hand-Driven Active Perception framework. HAP infers confidence for each target object from observed hand motion and object geometry. Then constructs a dynamic Predictive Target-Centric Amodal Occlusion Graph (P-TAOG) representing current and potential occlusion among candidate objects. Directed graph and causal temporal reasoning encode the evolving target conditioned perceptual state, which is fused with hand and head motion history. A horizon-wise gate then blends the learned trajectory with a constant velocity prior. We further introduce Bottle, an egocentric RGB-D dataset of object manipulation toward specified targets, with coordinated head and hand motion under changing target visibility. Experiments on the public dataset and Bottle show that HAP achieves lower head motion prediction errors than representative baselines, supporting the value of hand driven intention and dynamic occlusion reasoning for anticipating human head motion. Code will be released at https://HAP-ego.github.io/HAP.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18511",
+    "title": "Learning from Distributed Eyes: Leveraging Collaborative Perception for Automated Model Adaptation",
+    "authors": [
+      "Yanan Ma",
+      "Yihang Tao",
+      "Zhengru Fang",
+      "Zihan Fang",
+      "Yiqin Deng",
+      "Xianhao Chen",
+      "Yuguang Fang"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18511",
+    "abstract": "In autonomous driving, perception models often struggle to generalize to new environments due to domain shifts. While unsupervised model adaptation offers a feasible solution without labor-intensive manual labeling, existing methods that rely solely on the ego-vehicle's data often lead to inferior pseudo-labeling performance. To address this critical issue, we propose LDE, Learning from Distributed ``Eyes\", a novel framework that transforms collaborative perception (CP) into a source of high-quality supervision for model adaptation. This pseudo-labeling approach is hyperparameter-insensitive and relatively reliable, assuming CP often outperforms single-agent's perception. However, naively implementing this approach encounters (1) the communication bottleneck of sharing rich features under time and bandwidth constraints, (2) the view discrepancy between the CP view and the learner's Field of View (FoV), and (3) the unreliability even in CP-generated labels. To address these issues, we design an adaptation-oriented feature sharing mechanism that selectively transmits the most critical information for adaptation, an FoV filtering method that meticulously eliminates mismatched labels, and a curriculum learning strategy to progressively exploit pseudo labels. Extensive experiments on 3D object detection tasks demonstrate that LDE consistently outperforms both the pre-trained models and state-of-the-art unsupervised adaptation methods.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "9 pages, 3 figures",
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18460",
+    "title": "Collective Loss of Control in LLM Agent Systems: An Epidemic Account of Mutation, Contagion, and Recovery",
+    "authors": [
+      "Xiangfan Wu",
+      "Zonghao Ying",
+      "Huiyu Wu",
+      "Xing Zheng",
+      "Huangsheng Cheng",
+      "Xiaorong Shi",
+      "Jing Guo"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18460",
+    "abstract": "How does a multi-agent system evolve from a local deviation into collective loss of control? We propose an epidemic explanation organized around accidental mutation, contagion, and recovery. A spontaneous deviation creates a seed; communication enables other agents to adopt and retransmit its unsafe strategy; collective failure can emerge when propagation outpaces correction and containment. Thus, rare individual deviations can coexist with substantial collective risk. Motivated by reported OpenAI agent coordination incidents, we examine two ingredients of this mechanism. A deployment audit identifies implicit communication paths between nominally independent evaluation runs and verifies transport through a default Docker backend. RogueHandoff-20, a benchmark of 20 executable scenarios, tests recipient susceptibility by injecting unsafe trajectories generated by a modified Qwen-27B route. Across four native-pending routes, executed harm is 0-5% on normal tasks and 40-95% after injection, exceeding paired direct malicious requests by 5-45 percentage points. These results support low observed baseline harm alongside high conditional susceptibility; they do not establish natural rare-event rates or demonstrate an autonomous cascade. The account motivates complementary defenses: strengthen resistance and recovery alongside prevention of spontaneous deviations, and audit and restrict unintended communication paths that can turn local failures into collective loss of control.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18442",
+    "title": "Risk-Aware World Modeling with Flow-Guided Occupancy Evolution for Selective Trajectory Planning in Automated Driving",
+    "authors": [
+      "Rongxiang Zeng",
+      "Linsen Cai",
+      "Jiafu Zhang",
+      "Yijie Zhong",
+      "Yide Tao",
+      "Shuai Wang",
+      "Nan Zheng",
+      "Hai L. Vu",
+      "Alvaro Garcia Hernandez",
+      "Yongqi Dong"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18442",
+    "abstract": "Safe motion planning in automated driving requires anticipating evolving traffic risks and deciding when to revise the current planned trajectory. We introduce RiskWorld, a risk-aware world modeling framework for shared occupancy forecasting and selective trajectory replacement. Spatial risk fields and temporal actor context are fused with visual bird's-eye-view features. Flow-guided evolution transports occupancy and scene features, while signed residuals correct occupancy after transport. One forecast is generated per planning step and reused across candidates. Each candidate is compared with a current-state persistence reference, yielding a nonnegative collision-score correction. The trajectory selected by current-world evaluation serves as the planning anchor and is replaced only when additional predicted risk triggers intervention and an alternative satisfies component-wise constraints on predicted risk and trajectory error. Candidate geometries remain unchanged. We evaluate RiskWorld for open-loop planning on nuScenes using camera features, annotation-derived current and historical actor states, and dataset-provided map context. RiskWorld achieves the lowest collision rate at a long evaluation horizon of 3 s, and the second-best average L2 error among various state-of-the-art baselines, while running at 11.5 FPS on a single NVIDIA RTX 4090 with 90.81 M parameters. Within-setting ablations show that RiskWorld achieves lower collision rates than the current-state rescoring baseline, while forecast reuse enables additional candidates to be evaluated at low marginal computational cost.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 2 figures",
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18306",
+    "title": "Bias Amplification in Multi-Agent Network: How Biased Agents Shape Opinions and Rhetoric",
+    "authors": [
+      "Omran Berjawi",
+      "Giuseppe Fenza",
+      "Rida Khatoun"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18306",
+    "abstract": "Large language models (LLMs) are increasingly deployed in applications involving interaction between agents, where their output plays a role in collective reasoning and decision-making processes. Despite significant research into the functioning of LLMs in such multi-agent systems, the processes of bias propagation in such systems are still a challenge. This work studies how biased opinions are propagated in the form of textual interaction in an environment of LLMs, in which a minority of agents maintain persistent extreme opinions, while the remaining agents iteratively update their beliefs through structured textual interactions. The findings show that even the presence of a small percentage of biased agents in such a system leads to significant shifts in the opinions of non-biased agents. It suggests that for the same percentage of biased agents, the shifts occur more quickly for the Llama~3.2 model when compared to a classical Friedkin-Johnsen (FJ) model. Further semantic analysis demonstrates that rhetorical consistency in textual explanations increases systematically with biased exposure and, importantly, is partially decoupled from numerical convergenumericalutral agents adopt the vocabulary employed by the biased agents even in configurations where their numerical opinion shifts remain moderate. The research helps explain how bias and language develop together in multi-agent language model ecosystems.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted at the 6th Workshop on Bias and Fairness in AI (BIAS 2026), ECML PKDD 2026, Naples, Italy",
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18283",
+    "title": "Where Should Agents Live? Energy-Memory Characterization of Agentic AI for the Edge-Cloud Continuum",
+    "authors": [
+      "Carolina Fortuna",
+      "Vid Hanžel",
+      "Tim Strnad",
+      "Blaž Bertalanič"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18283",
+    "abstract": "As telecommunication networks evolve toward autonomous 5G-Advanced and 6G operations, agentic artificial intelligence (AI) workflows, where large language models (LLMs) execute multi-step reasoning, invoke diagnostic tools, retrieve domain knowledge, and coordinate across agent teams, are increasingly embedded across the edge-cloud continuum. While the biological brain accomplishes complex cognition on an exceptionally modest metabolic power budget of approximately 20W contemporary LLMs are profoundly energy- and memory-intensive, making sustainable lifecycle orchestration a critical operational priority. However, existing AI lifecycle metrics evaluate only isolated, single-model inferences or overlook multi-agent execution graphs entirely. Consequently, network operators lack foundational models to determine whether distributed agent communication incurs meaningful energy costs and where across edge-cloud tiers agent teams should physically reside. To address this gap, we introduce agentic-eCAL, generalizing the Energy Cost of AI Lifecycle (eCAL) metric to directed multi-agent workflows by coupling a closed-form two-rate single-call energy model (compute-bound prefill and memory-bound decode) with 7-layer OSI data transport. Grounded in hundreds of GPU benchmark configurations on NVIDIA A100 and H100, 16 open-weight models and 8 orchestration topologies, we validate components of the metric and study workflow placement implications. Our findings demonstrate that inter-agent text transport incurs 0.25% of workflow energy across 5G RAN, metro, and optical links. Therefore in edge-cloud agent placement the dominant energy cost of distribution is often not the transmission of inter-agent text itself, but the additional inference and context processing induced by that communication.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18169",
+    "title": "Approximating High Dimensional Self-Motion Manifolds via Deep Generative Models",
+    "authors": [
+      "Haitao Gao",
+      "Yang Song",
+      "Liao Wu"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18169",
+    "abstract": "Self-motion manifold (SMM) characterizes the geometric structure of the infinite inverse kinematic solutions set of a redundant manipulator at a fixed end-effector pose, and its efficient recovery underpins feasible and global optimal motion planning. Existing methods such as null-space continuation and learning-based methods are formulated around the assumption that an SMM is a curve, and do not extend to higher redundancy orders. We instead adopt a probabilistic view: SMMs are the support of the conditional posterior over configurations given a target pose, so that recovering it reduces to sampling from a learned distribution and separating its disjoint components by clustering. The formulation is independent of the manifold dimension and requires no architectural change as the redundancy order grows. In this work, we demonstrate that our method can approximate 1-D SMMs with performance comparable to the latest null-space continuation and learning-based approach, and that it is the first method capable of approximating highly redundant 4-D SMMs in a 7R manipulator for position tasks. Project website: \\href{https://github.com/accuracy-maker/high-dimenstional-self-motion-manifold-approximation}{https://github.com/accuracy-maker/high-dimenstional-self-motion-manifold-approximation}",
+    "published_date": "2026-09-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "9 pages, 7 figures",
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18135",
+    "title": "DualSQL: Text-to-SQL with Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Shijie Chen",
+      "Yu Gan",
+      "Yeounoh Chung",
+      "Jiani Zhang",
+      "Quannan Li",
+      "Sravan Babu Bodapati",
+      "Cody J. Greer",
+      "Yu Su",
+      "Fatma Ozcan"
+    ],
+    "source": "arxiv",
+    "category": "cs.CL",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18135",
+    "abstract": "State-of-the-art Text-to-SQL systems are typically multi-agent pipelines centered around two fundamental tasks: schema linking and SQL generation. However, existing work trains separate models for each task, failing to leverage the synergy between these interrelated tasks. In this work, we propose DualSQL, a new Text-to-SQL system consisting of two agents powered by a single model backbone. The agents share the same model weights and agentic scaffold, enabling joint optimization through a robust multi-agent reinforcement learning (RL) framework. We design three database access tools to facilitate effective multi-step reasoning grounded to interactions with the databases. To improve training and avoid model collapse, we introduce a set of rollout guardrail mechanisms that stabilizes multi-agent RL training, supporting DualSQL to keep improving during training. We also introduce a new SQL correctness metric, robust execution match (REX), to more accurately judge SQL correctness and assign reward signals. Being trained on only 3755 examples, DualSQL-4B achieves an impressive 68.0% execution accuracy on the BIRD development set, matching previous 7B models. DualSQL-8B further improves to 71.1%, outperforming previous state-of-the-art single-model solutions with 32B parameters. These results demonstrate the strength of joint multi-agent reinforcement learning for building high performance Text-to-SQL pipelines.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18089",
+    "title": "FedPGT: Progressive Gradient Transmission for Vehicular Federated Learning over Time-Varying Channels",
+    "authors": [
+      "Jintao Yan",
+      "Tan Chen",
+      "Yuxuan Sun",
+      "Sheng Zhou",
+      "Zhisheng Niu"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18089",
+    "abstract": "Vehicular federated learning (VFL) enables privacy-preserving collaborative model training for intelligent transportation systems, where communication resource allocation and gradient sparsification techniques have been explored to reduce communication overhead. However, vehicle mobility leads to rapidly varying channel conditions and transmission capacity, rendering predetermined resource allocation and sparsification decisions ineffective. In this paper, we propose FedPGT, a progressive gradient transmission scheme for VFL over time-varying channels, where vehicles progressively transmit high-magnitude gradient entries in response to instantaneous channel conditions. We establish a convergence bound that characterizes the impact of transmitted gradient entries and reveals diminishing-return behavior governed by a power-law decay. Motivated by this result, we formulate a stochastic optimization problem for online decision-making, where the main challenge lies in a cumulatively coupled, non-separable objective. To handle this challenge, we introduce per-slot surrogate transmission variables to decouple the long-term dependence across time slots and convert the original objective into an additive per-slot optimization problem, enabling a Lyapunov drift-plus-penalty approach for online scheduling. We further develop a low-complexity resource allocation algorithm for efficient online implementation. Experimental results demonstrate that the proposed scheme achieves a 3.65% accuracy improvement on the CIFAR-10 image classification task and a 12.66% reduction in average displacement error on the Argoverse trajectory prediction task compared with state-of-the-art baselines, demonstrating its applicability to diverse learning tasks under highly dynamic vehicular environments.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18073",
+    "title": "Characterizing Refraction-Induced Ranging Bias in Underwater Collaborative Localization",
+    "authors": [
+      "Timothy Kogucki",
+      "Alan Papalia"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18073",
+    "abstract": "This work studies how refraction-induced bias on acoustic ranging affects multi-agent collaborative localization in a range of oceanographic conditions and spatial scales. While multi-agent range-aided navigation, which uses range measurements to either fixed infrastructure or other agents, is a promising solution to the challenges of large-scale underwater localization, its accuracy depends strongly on the quality of range measurements. Sound speed variability induces refraction (bending) of acoustic rays, yet, for algorithmic tractability, standard sensor fusion pipelines assume straight-line propagation. This refraction systematically biases range measurements to be longer than the straight-line assumption predicts. However, the effects of this bias on multi-agent collaborative localization on kilometer scales remains unexplored. We present a series of simulated experiments with several agents operating over kilometer scales. The simulation uses HYCOM reanalysis data to recreate realistic oceanographic conditions, ray tracing to generate refraction-informed ranges, and a centralized multi-agent factor graph estimator to quantify the resulting measurement bias on estimated trajectories. Preliminary results indicate that refraction-induced bias can induce significant degradation of estimated trajectories, particularly in regions with sharp sound-speed gradients. We also share the simulation environment to support further studies https://github.com/UMich-RobotExploration/manta-ray.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "marl",
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "6 pages, 8 figures, to be published in OCEANS",
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.18045",
+    "title": "Structural Inference under Hidden Agents",
+    "authors": [
+      "Zhongben Gong",
+      "Xiaoqun Wu",
+      "Mingyang Zhou",
+      "Hui Huang"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.18045",
+    "abstract": "Recovering latent interaction structures from multi-agent dynamics is important for understanding and predicting interacting systems. Trajectory-based structural inference has achieved promising performance, but conventional formulations assume that the trajectories of all modeled agents are available. In practice, agents may become unobserved at deployment because of limited sensing, occlusion, or communication failure. Existing studies have considered unseen-node estimation, structural inference under partial observations, and missing-value imputation, yet the joint recovery of hidden-agent trajectories and their interactions remains underexplored. We formulate this problem as structural inference under hidden agents. Its key difficulty is a circular dependency: recovering interactions involving a hidden agent requires an estimate of its trajectory, while trajectory reconstruction can itself benefit from structural information. To address this challenge, we propose Structural Inference under Hidden Agents (SIHA), which combines structure-agnostic initialization with structure-guided iterative refinement. SIHA reconstructs hidden trajectories from visible observations, infers interactions using Neural Relational Inference, and feeds the estimated structure back into hidden-state reconstruction through multi-strength structural attention and iterative state--structure updates. Experiments on three benchmark dynamical systems demonstrate consistent improvements in visible-to-visible structural inference, while also showing benefits in hidden-state reconstruction and future prediction. Motion-capture experiments with simulated whole-limb occlusion further demonstrate its effectiveness in realistic hidden-agent settings.",
+    "published_date": "2026-09-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-17T08:23:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2609.17496",
     "title": "Verifiable Social Reasoning for LLM Assistants",
     "authors": [
@@ -356,6 +931,33 @@
     "venue_status": "preprint",
     "venue_note": null,
     "fetched_at": "2026-09-16T08:17:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.17921",
+    "title": "Collaborative Memory for Multi-Agent VLM Systems",
+    "authors": [
+      "Huixin Zhang",
+      "Shao-Jun Xia",
+      "Di Wang",
+      "Liangxi Liu",
+      "Hainan Xiong",
+      "Zihao Wang"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.17921",
+    "abstract": "Vision-language model (VLM) agents combine specialized perception, tools, and reasoning to address complex visual tasks. In multi-agent settings, different agents inspect different image regions, video frames, or visual representations, so collaboration extends beyond distributed reasoning to distributed perception. This makes shared visual context a central problem in VLM agent collaboration. In this paper, we frame memory hierarchy, cross-agent sharing, and consistency mechanisms around the need to reconcile interpretations and update dependent reasoning. Effective collaboration requires agents to build on contributions from other agents, recover missing visual context, and reconcile differing interpretations as new evidence emerges. Shared visual memory preserves not only images or textual summaries but also the dependencies among observations, agent interpretations, and subsequent reasoning. Together, these design considerations shape how information flows and evolves across VLM agents. The proposed framework provides a foundation for building reliable and resource-efficient agent teams.",
+    "published_date": "2026-09-15",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "First Draft Version: 4 pages, 3 figures",
+    "fetched_at": "2026-09-17T08:23:10Z",
     "memo": "",
     "memo_updated_at": null
   },
