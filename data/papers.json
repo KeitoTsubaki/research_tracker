@@ -24,9 +24,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "9 pages, 5 figures",
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.20747",
@@ -50,9 +50,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "Evaluation video: https://www.youtube.com/watch?v=IZli3Z87URI",
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.20586",
@@ -81,9 +81,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "The established benchmark and source code will be publicly released at https://github.com/ruojiruoli17/CoRef-GS.git",
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.20582",
@@ -104,9 +104,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.20480",
@@ -128,9 +128,9 @@
     ],
     "venue_status": "published",
     "venue_note": "16 pages, 3 figures. Accepted at the ECCV 2026 Workshop on Safe and Defensive Autonomous Driving (SDAD) as an Oral Presentation; Best Paper Award. Workshop website: https://sdad.cc/papers.html",
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.20408",
@@ -155,9 +155,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.20407",
@@ -179,9 +179,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "7 pages, 7 figures",
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.20396",
@@ -204,9 +204,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.20330",
@@ -238,9 +238,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.20114",
@@ -265,9 +265,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "8 pages, 4 figures, 7 tables. Project page: https://universal-nav.github.io/",
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.20078",
@@ -289,9 +289,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.20034",
@@ -312,9 +312,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "Technical report. 25 pages, 13 figures, 10 tables. Project page: https://world.astronex.com.cn ; Code: https://github.com/Astronex-Robotics/Astronex-World ; Weights: https://huggingface.co/Astronex-Lab/Astronex-World",
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.19944",
@@ -336,9 +336,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "31 pages, 4 figures, 18 tables. The first two authors contributed equally",
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.19903",
@@ -364,9 +364,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "14 pages, 8 figures, 3 tables. Corresponding author: Yiwen Sun. This work was supported by the National Natural Science Foundation of China (Grant No. 62503015)",
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.19813",
@@ -387,9 +387,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "6 pages, 5 figures, 4 tables",
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.19803",
@@ -414,9 +414,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.19789",
@@ -441,9 +441,9 @@
     ],
     "venue_status": "published",
     "venue_note": "Published in ECML PKDD 2026. 25 pages, including 7 pages of supplementary material",
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.19759",
@@ -470,9 +470,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.19690",
@@ -495,9 +495,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "9 pages, 8 figures",
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.19681",
@@ -518,9 +518,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.19680",
@@ -567,9 +567,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.19644",
@@ -595,9 +595,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.19587",
@@ -620,9 +620,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-09-18T07:59:03Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-09-18T07:59:03Z"
   },
   {
     "id": "arxiv:2609.18929",

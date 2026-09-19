@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Fri, 18 Sep 2026 07:59:03 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 07:48:45 GMT</lastBuildDate>
     <item>
       <title>OPTED: On-Policy Fine-Tuning for End-to-End Driving using a Render-Free Teacher</title>
       <link>https://arxiv.org/abs/2609.20756</link>
@@ -144,27 +144,6 @@
       <guid isPermaLink="false">arxiv:2609.19681</guid>
       <pubDate>2026-09-17</pubDate>
       <description>Cooperative autonomous driving in the IoT-to-Edge-to-Cloud continuum requires system-level validation across vehicles, infrastructure sensors, edge-side Dynamic Map services, and in-vehicle autonomous-driving stacks. This paper presents VAST, a V2X/Dynamic Map-aware validation toolchain that connects Scenic, Scenario Simulator v2, AWSIM, Autoware, and SIM-LDM. VAST does not introduce a new search algorithm; instead, it addresses interoperability challenges, including Lanelet2-to-Scenic mapping, </description>
-    </item>
-    <item>
-      <title>FINSKILLOPS: A Self-Evolving Multi-Agent System for SEC Filing QA</title>
-      <link>https://arxiv.org/abs/2609.19680</link>
-      <guid isPermaLink="false">arxiv:2609.19680</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Financial QA systems are typically improved before deployment through better retrieval, prompting, or agent coordination, leaving their reliability behavior fixed thereafter. In practice, new SEC-filing questions repeatedly expose heterogeneous errors in period, entity, evidence use, and calculation. Existing self-improvement methods can turn failures into new behaviors, but offer limited control over where a correction should apply or which previously correct answers it may break. We therefore </description>
-    </item>
-    <item>
-      <title>ScientistTwo: Pioneering the Human Knowledge Frontier with Autonomous AI</title>
-      <link>https://arxiv.org/abs/2609.19644</link>
-      <guid isPermaLink="false">arxiv:2609.19644</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Scientific discovery is defined by the ability to identify the boundaries of existing knowledge and venture into unexplored territory. The ultimate vision for AI in science is problem-driven autonomous research: given a fundamental challenge by a human expert, the AI independently navigates the scientific landscape, uncovers theoretical and empirical bottlenecks, and systematically expands the frontier of knowledge. In this paper, we introduce ScientistTwo, a fully autonomous multi-agent framewo</description>
-    </item>
-    <item>
-      <title>Red-Teaming Auto Mode: Improving Blocking Classifiers Against Malign Coding Agents</title>
-      <link>https://arxiv.org/abs/2609.19587</link>
-      <guid isPermaLink="false">arxiv:2609.19587</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>To keep coding agents from going off the rails, production systems now review each proposed action with a blocking monitor that can reject it before it runs (Auto Mode in Claude Code, Guardian in OpenAI's Codex). Prior evaluations of such monitors largely measure robustness to accidental harm or prompt injections from untrusted sources looking to hijack the agent. Less understood is how they hold up when the agent they monitor is persistently misaligned. To understand this risk, we task an adver</description>
     </item>
   </channel>
 </rss>
