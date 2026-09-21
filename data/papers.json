@@ -1,5 +1,433 @@
 [
   {
+    "id": "arxiv:2609.22040",
+    "title": "PRIME: Perception Feedback with Situational Memory Embeddings in VLA Models",
+    "authors": [
+      "Erik Deinzer",
+      "Naya Baslan",
+      "Luca Paparusso",
+      "Narunas Vaskevicius",
+      "Peter Knott",
+      "Luigi Palmieri"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.22040",
+    "abstract": "Current Vision-Language-Action (VLA) models for autonomous driving operate primarily through feedforward inference across the perception--reasoning--planning hierarchy. While modern architectures maintain temporal recurrence within the perceptual module, early perception remains blind to downstream reasoning and navigation goals, processing visual inputs agnostically without prioritizing cues informed by prior decisions. To bridge this gap, this paper introduces PRIME, a learned feedback mechanism that conditions the VLA perceptual queries on a novel Situational Memory. By aggregating latent representations of past perception, reasoning, navigation goals, and predicted behaviors across an L-step window via cross-attention, PRIME enables intent-driven perceptual attention at minimal computational cost, adding only a maximum of 29.7M parameters (0.41% of the 7.3B-parameter base model). Evaluated on the Bench2Drive closed-loop benchmark, PRIME achieves a state-of-the-art Driving Score of 82.47 (+4.73 over ORION) and a Success Rate of 60.00% (+5.38 percentage points), the highest reported Driving Score among published VLAs trained on Think2Drive demonstrations.",
+    "published_date": "2026-09-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21944",
+    "title": "Guiding Agents of Quantum Games to Equilibrium using Matrix Exponential Fixed-Point Iteration",
+    "authors": [
+      "Alireza Habibi",
+      "Luis F. Abanto Leon",
+      "Setareh Maghsudi"
+    ],
+    "source": "arxiv",
+    "category": "quant-ph",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21944",
+    "abstract": "In recent years, quantum game theory has gained significant attention as a framework for studying decision-making in multi-agent systems using quantum principles. However, computing equilibrium strategies is challenging because the dimension of the joint Hilbert space grows as the product of the players' local dimensions. In this paper, we consider an extended Gutoski-Watrous (EGW) game in which each player's quantum strategy is represented by a local density matrix. We derive tensor-contraction expressions for the payoff functions and their gradients, thereby avoiding the explicit construction of the full joint density matrix and its computationally expensive multiplication by the payoff operators. Building on the resulting effective Hamiltonians, we propose the Matrix Exponential Fixed-Point Iteration with Annealing (MEFPIA) algorithm to search for equilibrium points in EGW games. We compare MEFPIA with the Matrix Multiplicative Weights Update (MMWU) algorithm in terms of convergence. For the tested instances and parameter settings, both algorithms approach the same strategy profiles and payoffs, while MEFPIA achieves lower relative error in fewer iterations. These results indicate that MEFPIA is a promising numerical method for equilibrium search in multi-agent quantum games. Our findings provide important insights into the quantum game theory's potential for addressing complex decision-making processes, as well as opening up new paths for future research and exploration in multi-agent quantum systems.",
+    "published_date": "2026-09-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21929",
+    "title": "MAAP: Multi-Agent Active Perception for Collaborative Manipulation",
+    "authors": [
+      "Bruno N. Y. Chen",
+      "Li Kang",
+      "Heng Zhou",
+      "Xiufeng Song",
+      "Zhemeng Zhang",
+      "Jiahua Ma",
+      "Yiran Qin"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21929",
+    "abstract": "Multi-agent manipulation naturally produces multiple task-driven viewpoints: every arm carries a wrist camera and moves through the scene while acting. Yet these observations are typically underutilized, and active perception in manipulation is still often treated as requiring a dedicated sensing agent. We introduce MAAP (Multi-Agent Active Perception), in which every arm is dual-purpose: it executes manipulation actions and, through the wrist camera it carries, simultaneously serves as a moving viewpoint for the team. We pair this with RAIL (Role-Aware Imitation Learning), a controller that predicts each arm's current role alongside its action chunk and conditions action generation on it, representing role-dependent actions within one network. Across four simulated tasks, widening the perception regime lifts average success from 56.5% with a fixed camera to 62.5% with one active wrist view and 70.0% with all of them, while MAAP+RAIL reaches 79.2%. RAIL's additional gain is concentrated on the three-arm Microwave task, where success rises from 47% to 82% on identical multi-wrist inputs. On a dual-arm platform, MAAP+RAIL succeeds in 14 of 20 placement trials compared with 0 of 20 for fixed-view ACT. Collaborative manipulation can thus serve as an active perception mechanism in its own right.",
+    "published_date": "2026-09-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "Project Page: https://nybchen.github.io/MAAP",
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21803",
+    "title": "Contact-Rich Motion Planning via GPU-Parallel Mode Evaluation",
+    "authors": [
+      "Jiayun Li",
+      "Georgia Chalvatzaki"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21803",
+    "abstract": "Contact-rich motion planning (CRMP) is essential for robotic manipulation and locomotion, yet remains computationally challenging due to combinatorial contact decisions. Existing methods typically avoid broad evaluation of contact-mode sequences through search heuristics or optimization reformulations. We revisit broad evaluation in light of modern GPU hardware and introduce Contact-Mode Expansion with parallel Trajectory optimization (CoMET), which combines GPU-parallel trajectory evaluation with greedy contact-mode expansion. On planar pushing benchmarks, CoMET is competitive with optimization-based, sampling, and tree-search baselines in solution quality and planning time, matching the full-enumeration reference on nearly all instances with fewer evaluations and shorter planning times. Ablations suggest that much of the performance gain comes from the high-throughput trajectory evaluator. In bimanual nonprehensile manipulation, GPU-friendly local mode expansion achieves higher planning success than the tested adaptive tree search as the mode space grows. These results demonstrate that broad explicit mode evaluation provides a simple yet effective alternative for CRMP.",
+    "published_date": "2026-09-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21533",
+    "title": "MACE: Memory-Agent Co-Evolution with Adaptive Memory Graphs for Multi-Agent Systems",
+    "authors": [
+      "Kairui Yang",
+      "Minghao An",
+      "Xunkai Li",
+      "Ziheng Yi",
+      "Zekai Chen",
+      "Guangyuan He",
+      "Rong-Hua Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21533",
+    "abstract": "LLM-based multi-agent systems generate collaboration traces that record how agents plan tasks, verify intermediate results, and repair failures. Reusing these procedures requires preserving an action's prerequisites and the outputs needed by subsequent agents. Our empirical studies show that grouping these dependencies into functional memory units improves their retention, while connecting units increases retrieval of the units and links jointly required by a task. The preferred combination of units also changes between instructions and checklists, even when each combination's content is fixed across formats. Updating choices from the outcomes of each combination and format pairing outperforms scoring combinations and formats separately. These findings motivate MACE, a memory-agent co-evolution framework that adapts memory organization and agent memory use through execution feedback. Its MemGoG structure represents functional units as subgraphs of related conditions, actions, and outputs, connecting them through support, conflict, and repair relations. MACE Loop selects task-relevant units and relations within a memory budget and provides each agent with instructions or checklists for its current operation. It records the selected units, presentation formats, agent outputs, and task outcomes to update unit scores and relations for retrieval and inform subsequent presentation choices. Across eight benchmarks, MACE outperforms ten baselines with an average score of 81.11%, compared with 78.97% for the strongest baseline, SAGE.",
+    "published_date": "2026-09-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21527",
+    "title": "OpenMAS-GCom. A Diagnostic Benchmark for Graph-enhanced Multi-Agent Systems",
+    "authors": [
+      "Kairui Yang",
+      "Xunkai Li",
+      "Kaixiang Zhang",
+      "Minghao An",
+      "Zekai Chen",
+      "Yuxuan Ba",
+      "Rong-Hua Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21527",
+    "abstract": "Graph-enhanced multi-agent systems (G-MAS) coordinate large language model agents through communication graphs and role assignments, which determine how agents exchange information and divide responsibilities. However, final-score comparisons across systems combine differences in models, communication patterns, roles, and computation costs, making performance differences difficult to attribute to specific communication structures, role assignments, and information flows. To address this evaluation attribution problem, we introduce OpenMAS-GCom, a benchmark for diagnosing how these components affect G-MAS performance through controlled interventions. We represent systems through collaboration units, communication links, shared intermediate information, and execution rules. OpenMAS-GCom compares original systems with versions modified by changing one component while keeping tasks, models, prompts, and budget limits fixed. We rewire communication edges, remove specialist or critic agents, replace intermediate messages with incorrect content, and disable workers during execution. The benchmark evaluates 17 single-agent, ordinary multi-agent, and graph-enhanced configurations on 29 datasets across six domains. We add 400 G-MAS-Complex tasks requiring agents to combine information from multiple documents, resolve conflicting records, and return specified values with source identifiers. Experiments show larger mean losses after specialist removal than after critic removal, different performance degradation under incorrect messages and worker failures despite similar original scores, and different configurations achieving the highest accuracy and accuracy per token on G-MAS-Complex.",
+    "published_date": "2026-09-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21519",
+    "title": "Learning-to-Optimize as the Missing Architectural Layer of AI-Native Networks",
+    "authors": [
+      "Giambattista Amati",
+      "Federica Mangiatordi",
+      "Pierpaolo Salvo",
+      "Emiliano Pallotti",
+      "Simone Angelini"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21519",
+    "abstract": "Artificial Intelligence (AI) is becoming a fundamental design principle of future AI-native communication networks, enabling autonomous resource management, adaptive control, and zero-touch network operation. While current AI-native architectures increasingly embed intelligence across network functions, they provide little guidance on how optimisation knowledge should be systematically generated, transferred, and exploited by AI models. This paper argues that the Learning-to-Optimize (L2O) represents the missing architectural layer between optimisation and AI-native intelligence. Rather than viewing optimisation merely as an online decision engine, the proposed paradigm redefines optimisation algorithms as offline knowledge generators that produce high-quality supervisory information for neural surrogate models. The resulting models inherit optimisation expertise while enabling low-latency runtime inference suitable for dynamic network environments. A generic four-stage L2O workflow is introduced, comprising optimisation, knowledge generation, surrogate learning, and runtime inference. Unlike existing Learning-to-Optimize approaches, which primarily focus on algorithm acceleration, the proposed framework establishes L2O as an architectural abstraction applicable across heterogeneous communication and computing systems. The proposed paradigm is illustrated by an NR-V2X relay-selection problem, in which optimisation-generated solutions from a Mixed-Integer Linear Programming (MILP) solver are used to train a Graph Neural Network that can reproduce near-optimal decisions in real time. The presented perspective positions Learning-to-Optimize as a key architectural enabler for future AI-native networks.",
+    "published_date": "2026-09-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "6 pages, conference",
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21486",
+    "title": "Driving on Registers, Reasoning on Risk: Risk-Aware Occupancy for Register-Based End-to-End Autonomous Driving",
+    "authors": [
+      "Jiaxing Chen",
+      "Hengduo Zou",
+      "YuKai Qin",
+      "Yiren Zhao",
+      "Lidong Yu",
+      "Bolin Gao"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21486",
+    "abstract": "Multimodal trajectory prediction improves behavioral coverage in end-to-end autonomous driving, but existing methods remain limited by sparse scene representations. Incomplete evidence leads to low-quality candidate generation and unreliable ranking among geometrically similar trajectories. On a register-based baseline, bad and poor candidates constitute 19.74% of the candidate set, while the oracle-best candidate ranks only 33.9th on average. We propose RRDrive, which introduces risk-aware occupancy as a dense, temporally aligned, and trajectory-queryable representation. Its global structure guides high-quality multimodal generation, while candidate-conditioned risk queries support fine-grained selection. We further construct RiskOcc4D-NAVSIM with automatic risk annotations. RRDrive achieves a selected-trajectory PDMS of 0.951, representing a 1.5% relative improvement over the baseline (0.937), and improves the average candidate PDMS by 7.7%. In challenging scenes, it improves candidate PDMS by 30.2% and increases the Spearman correlation among good candidates by 0.41, from 0.26 to 0.67. To move beyond this oracle setting, we further develop an external RiskOcc predictor, a perception module that estimates risk-aware occupancy directly from sensor inputs. The competitive performance validates the representation's feasibility.",
+    "published_date": "2026-09-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "This version of this research was completed in early 2026",
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21470",
+    "title": "Risk-Aware Occupancy for Safety-Oriented End-to-End Autonomous Driving",
+    "authors": [
+      "Jiaxing Chen",
+      "Hengduo Zou",
+      "Yiren Zhao",
+      "Bolin Gao"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21470",
+    "abstract": "Sparse representation formulates the environment perception for the end-to-end driving system as a set of discrete elements like objects and lane lines. This formulation meets safety risks in crowded, occluded scenes dealing with unstructured obstacles, uncertain regions, and intricate interactions. In this paper, we propose a dense representation, risk-aware occupancy, to characterize planning-relevant risks in an explicit and uniform manner. It jointly encodes global scene occupancy, map-derived traffic constraints, and future dynamic agent occupancy into a unified BEV map. The unified BEV map captures the risk evidence for trajectory planning in both spatial and temporal dimensions. We design an E2E network, ROIDrive, to realize risk-aware occupancy. It predicts risk-aware occupancy with an independent branch and injects it into planning queries for safety-oriented trajectory generation. In addition, to quantify the safety problem, we introduce RiskOcc4D-nuScenes built upon nuscenes and occ3d-nuscenes. Our risk-aware occupancy yields relative open-loop collision reductions of 52.9% under the UniAD metric and 35.0% under the ST-P3 metric on nuScenes.",
+    "published_date": "2026-09-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "The first version of this research was completed in early 2025",
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21465",
+    "title": "OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue",
+    "authors": [
+      "Haolin He",
+      "Yunfei Chu",
+      "Qi Chen",
+      "Wen Huang",
+      "Yuan Feng",
+      "Muzhi Zhu",
+      "Zheqi Dai",
+      "Haoning Xu",
+      "Dongchao Yang",
+      "Chunyat Wu",
+      "Zining Liang",
+      "Zhengxi Liu",
+      "Xiquan Li",
+      "Xie Chen",
+      "Xize Cheng",
+      "Qize Yang",
+      "Jin Xu",
+      "Qiuqiang Kong"
+    ],
+    "source": "arxiv",
+    "category": "eess.AS",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21465",
+    "abstract": "We define OmniVChat (Omni Video Chat) as the task of native audio-visual dialogue between a user and an omni model. In OmniVChat, omni models directly and simultaneously receive audio and video from a user and return text. The user's query is embedded in the audio and video, without a separate text question, external captioning, or speech recognition. Direct audio-visual input reduces external latency and computation while preserving perceptual cues. However, research on OmniVChat faces two constraints: data availability and evaluation. Recordings of people using their own devices are scarce. Furthermore, a good reply often needs to account for the user's surroundings, facial expressions, and nearby objects, and such responses can be expressed in many different ways, making keyword matching unreliable for evaluating reply quality. Recent progress in agent systems and video generation makes generation for comprehension viable, which means using synthesized dialogues for training and evaluation. Therefore, we present OmniVChat-Studio, a multi-agent data engine for synthesizing single- and multi-turn audio-visual dialogues. We use synthesized dialogues to build OmniVChat-Bench, an evaluation benchmark that evaluates omni models' basic dialogue abilities across five ability categories. We also present OmniVChat-RL, a reinforcement learning reward design that jointly targets reply correctness, efficiency, and style in OmniVChat. Training Qwen3-Omni-Instruct with OmniVChat-RL on synthesized dialogues improves its performance on both OmniVChat-Bench and the human-recorded OmniVChat-Bench-Human. These gains validate the reward design and show transfer to real-world dialogues in training and evaluation.",
+    "published_date": "2026-09-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21404",
+    "title": "Stabilizing Trajectory Outputs in End-to-End Autonomous Driving via SC-IMM Based Teacher Signals",
+    "authors": [
+      "Siewoo Kim",
+      "Seung-Hyun Kong"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21404",
+    "abstract": "End-to-End autonomous driving models commonly predict future waypoints from sensor inputs and convert them into vehicle control commands through a downstream controller. However, conventional waypoint-based imitation learning mainly minimizes coordinate-level errors, making it difficult to capture scene-dependent path-speed changes and temporal instability across waypoint outputs. In this paper, we propose an offline teacher-signal generation and learning method for trajectory-output stabilization based on a Scene-Conditioned Interacting Multiple Model (SC-IMM) to mitigate this issue. The proposed method converts expert trajectories into path-speed states and performs IMM updates conditioned on scene cues to generate path-speed teacher labels and mode posterior probabilities. The generated signals are added to the original trajectory loss as auxiliary supervision during training, while the inference structure and waypoint controller remain unchanged. In closed-loop evaluation on 100 short routes in CARLA Town12, the proposed method improved the driving score by 28.0% and reduced Collision/km by 62.3% compared with the baseline, while also improving jerk and trajectory-variation metrics. These results demonstrate that offline teacher signals embedding scene-conditioned motion-model cues can guide trajectory-output driving models toward more stable closed-loop behavior.",
+    "published_date": "2026-09-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "9 pages, 5 figures, 4 tables",
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21263",
+    "title": "PlaceReasoner-Beta: Reasoning-Driven Macro Placement and Benchmarking",
+    "authors": [
+      "Qiufeng Li",
+      "Chengxuan Wang",
+      "Rongqian Chen",
+      "Quan Cheng",
+      "Yihui Ren",
+      "Chia-Tung Ho",
+      "David Z. Pan",
+      "Tian Lan",
+      "Weidong Cao"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21263",
+    "abstract": "Automated macro placement remains a fundamental challenge in VLSI physical design. Despite decades of research, existing approaches predominantly optimize hand-crafted proxy objectives, such as estimated wirelength, and typically produce placements through one-shot numerical optimization, limiting their ability to incorporate visual layout context, codified design expertise, and downstream physical-design feedback in a unified loop. We present PlaceReasoner-Beta, a verifier-guided multi-agent framework that reformulates macro placement as a closed-loop reasoning problem rather than black-box optimization. A vision-language model (VLM) planner generates candidate placements from the floorplan image, macro specifications, and connectivity structure; a geometric verifier enforces physical legality and expert placement principles; a physical verifier refines candidates using early implementation feedback; and a post-route optimizer further improves promising layouts using final PPA. To enable reproducible evaluation, we introduce PlaceReasoner-Bench, a fully open end-to-end benchmark built from open RTL designs, EDA tools, and technology libraries. It comprises 8 designs at two aspect ratios, yielding 16 tasks with fixed floorplans and I/O assignments, so methods differ only in macro positions and orientations and are evaluated using routed PPA and DRC rather than pre-route proxies. Across the benchmark, PlaceReasoner-Beta achieves the best timing among DRC-clean methods on all square tasks, reducing post-route TNS by 61.2% at 1:1 and 53.0% at 2:1 relative to the classical baseline field. It also shortens routed wirelength on most designs despite never explicitly optimizing it, demonstrating that reasoning over spatial structure under physical-design feedback can improve end-to-end layout quality beyond proxy-objective optimization.",
+    "published_date": "2026-09-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21229",
+    "title": "KnowDemo: Knowledge-Guided Robot Demonstration Generation from Human Videos",
+    "authors": [
+      "Zhiyuan Gao",
+      "Yanxiang Zhan",
+      "Mohammad Khoshnazar",
+      "Jeroen Schäfer",
+      "Michael Beetz"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21229",
+    "abstract": "Learning robot manipulation policies typically requires substantial demonstration data, which are costly to collect on real robots. Recent methods generate robot demonstrations from human videos by adapting recovered motion and validating the resulting trajectories in simulation. However, methods centered on motion-reference adaptation can limit behavioral diversity by retaining the demonstrated contact strategies and subtask orders, while insufficient understanding of task requirements and scene relations can reduce demonstration generation efficiency by generating invalid candidates. To address these limitations, we propose KnowDemo, a framework that uses structured manipulation knowledge from human videos to generate diverse robot demonstrations for a target workspace. To distinguish task requirements from demonstration-specific choices, we develop a knowledge extraction and reasoning module based on a vision-language model (VLM) that associates object and action descriptions with inferred task conditions, demonstration references, and permissible execution variations. To translate this knowledge into executable demonstrations, we resolve the descriptions against target-scene entities and geometry to guide candidate generation and screening before motion planning and simulation. The resulting demonstrations exhibit multimodal behavior through alternative contact strategies and valid subtask orders, with structured execution labels. Experiments demonstrate additional verified execution modes beyond a reference-only configuration and improved candidate planning success through task-guided grasp sampling. To validate the generated data for policy learning, we fine-tune the pretrained $π_{0.5}$ model on simulation data, achieving sim-to-real transfer across three tasks. Project page: https://zhiyuan-gao.github.io/knowdemo/",
+    "published_date": "2026-09-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21226",
+    "title": "AirSplan: Risk-Aware Motion Planning for Quadrotors in Cluttered 3D Gaussian Splats",
+    "authors": [
+      "Seth Isaacson",
+      "William Hong",
+      "Katherine A. Skinner",
+      "Ram Vasudevan"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21226",
+    "abstract": "Quadrotors are increasingly deployed in applications such as agriculture, infrastructure inspection, and maintenance. In each of these applications, the robot must navigate complex scene geometry while remaining strictly collision-free. Unlike in ground domains, even minor collisions for aerial vehicles can result in the loss of the robot. This safety requirement induces a pair of technical challenges. First, the environment must be represented with sufficient fidelity to encode complex structure, even when no ground-truth obstacle data is available. Second, a motion planner must leverage this representation to determine a collision-free path to the goal. This paper proposes a system that addresses these complementary challenges. The proposed method, AirSplan, adopts a normalized variant of 3D Gaussian Splatting that encodes high-fidelity scene geometry. It then applies a novel reachability-based motion planner that leverages the differential flatness of quadrotors to compute continuous-time collision constraints that tightly overapproximate the robot's occupancy. Experiments demonstrate that AirSplan successfully finds a path in 81.2% of challenging test cases, a significant improvement over the nearest baseline method's 51.2%.",
+    "published_date": "2026-09-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "To appear in the proceedings of IROS 2026",
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21211",
+    "title": "Stochastic Neural Signed Swept Volume for Real-time Chance-Constrained Trajectory Optimization",
+    "authors": [
+      "Qingyi Chen",
+      "Kevin Zhang",
+      "Lucas Chen",
+      "Zachary Kingston"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21211",
+    "abstract": "Collision-free motion planning requires reliable collision models from sensed environments and validation of states along a continuous trajectory. To make this tractable, most planners check for collision at discrete states along continuous trajectories against a single determinized model of the environment, introducing a trade-off between safety and computational efficiency. While continuous collision checking approaches that approximate the swept volume of the robot exist, they are computationally expensive or overly conservative. Data-driven approaches can learn the swept volume; however, these neural models are susceptible to approximation errors and are therefore often limited to serving as coarse filters for downstream collision checkers. In this work, we propose to learn a signed distance function of the swept volume as a probabilistic field, enabling quantification of epistemic uncertainty, incorporation of perception noise, and eventual integration into a chance-constrained trajectory optimization framework. We demonstrate our approach on challenging high-dimensional manipulation problems with significant sensor noise, both in simulation and on real hardware.",
+    "published_date": "2026-09-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21167",
+    "title": "MA-LIPP: Cooperative Multi-Agent Load-Aware Informative Path Planning for Heterogeneous Robot Teams",
+    "authors": [
+      "Hojune Kim",
+      "Guangyao Shi",
+      "Gaurav S. Sukhatme"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21167",
+    "abstract": "Field robotics missions often require physical samples to be returned to laboratories for analysis, making path planning inherently load-aware and order-dependent as accumulated samples increase payload and traversal energy costs. In single-robot Load-Aware Informative Path Planning (LIPP), this rigidly couples sensing with hauling: a solitary robot must transport every collected sample, forcing frequent depot returns that severely restrict its spatial coverage. Heterogeneous multi-robot teams can overcome this bottleneck by dividing labor---enabling high-precision samplers to collect while high-capacity carriers handle transport. However, this introduces a complex coordination challenge regarding when, where, what, and to whom handoffs should occur on top of the LIPP problem. To address this tightly coupled problem, we introduce Multi-Agent LIPP (MA-LIPP), which enables teams to cooperate through asynchronous \"dead drops,\" allowing one robot to deposit samples for another to retrieve later without requiring synchronous rendezvous. We formulate MA-LIPP as an exact Mixed-Integer Quadratic Program (MIQP) alongside a scalable Pairwise Large-Neighborhood Search (LNS) heuristic for complex real-world applications. The heuristic matches exact optima in $95.5\\%$ of certified cases and reduces weighted posterior variance by $16.1$--$19.8\\%$ relative to a sequential baseline on larger instances of up to 12 robots, providing a robust framework for cooperative physical-sampling missions.",
+    "published_date": "2026-09-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2609.20756",
     "title": "OPTED: On-Policy Fine-Tuning for End-to-End Driving using a Render-Free Teacher",
     "authors": [
@@ -623,6 +1051,108 @@
     "memo": "",
     "memo_updated_at": null,
     "fetched_at": "2026-09-18T07:59:03Z"
+  },
+  {
+    "id": "arxiv:2609.21130",
+    "title": "SAGE: Safety-Aligned Gradient Enforcement for Human--Robot Collaboration",
+    "authors": [
+      "Yisen Li",
+      "Hao Zhang",
+      "Ruize Geng",
+      "Yves Tseng",
+      "Ding Zhao",
+      "H. Eric Tseng"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21130",
+    "abstract": "Multi-party human-robot collaboration poses a dual challenge: robot decisions should remain interpretable and auditable, while executed actions must satisfy safety constraints during physical interaction. Combining explainable decision-tree policies with control-barrier-function (CBF) filtering provides a promising architecture but creates two learning mismatches in multi-agent reinforcement learning. Safety projection changes the action applied to the environment, while the coupled proposal graph can misalign independently optimized actor updates with a team-level update. We present safety-aligned gradient enforcement (SAGE) to address both mismatches. Its shield-annealed internalization layer (SAIL) uses a differentiable finite-penalty proposal map while retaining the exact CBF quadratic program for execution, preserving constraint-normal sensitivity to internalize repeatedly active safety constraints. Team-averaged Lyapunov policy optimization (TALO) constructs a team-aware update reference and applies a Lyapunov half-space correction to regulate independent actor updates. Physical experiments with two humanoid robots and a human partner demonstrate deployment feasibility. Across nine simulation scenarios, SAGE achieves a 71.0% success rate with 0.5 collision steps per thousand environment steps. Ablations show that direct CBF filtering reduces collision frequency by 98.5% but decreases success from 67.3% to 59.3%. SAIL reduces proposal violation by 48.8% and proposal-execution correction by 85.2%, while TALO reduces the update-consistency gap by 50.8%.",
+    "published_date": "2026-09-17",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21109",
+    "title": "Talk to Me, Jarvis: An Open-Source Edge-Deployable Voice Assistant Framework for Autonomous Racecars",
+    "authors": [
+      "Daniel Henel",
+      "Frederik Werner",
+      "Alexander Langmann",
+      "Johannes Betz"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21109",
+    "abstract": "Recent advances in large language models have improved their effectiveness as back-end components for voice assistants, particularly in intent understanding and context-aware input classification. However, online-hosted models introduce network dependency and variable inference latency, limiting their suitability for time-critical autonomous driving applications. In this work, we address these issues by developing Jarvis, an offline voice assistant for high-level behavioral commands of autonomous vehicles. Its architecture integrates speech recognition and synthesis with natural language command classification into a lightweight, local framework. Jarvis core component is a text-to-command classifier, built using a domain-specific fine-tuning of the Mistral 7B model, demonstrating low-latency inference. Our experimental evaluation demonstrates that our solution outperforms larger online-hosted models, achieving 97.63 % intent recognition accuracy with an average processing latency of 1.39 s, making it well-suited for operations requiring quick response times. To support further research and fine-tuning, we provide an open-source implementation.",
+    "published_date": "2026-09-17",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21032",
+    "title": "Scaling Discovery through Test-Time Communication",
+    "authors": [
+      "Jongho Park",
+      "Vasilis Kontonis",
+      "Shivam Garg",
+      "Akshay Krishnamurthy",
+      "Dimitris Papailiopoulos"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21032",
+    "abstract": "Science advances not in isolation but through collaboration, yet existing agentic systems capture little of this. Whether communicating agents help remains an open question with mixed prior results. We show that test-time communication can substantially outperform independent parallel attempts on challenging tasks, where sharing a breakthrough can push the whole group forward. We first study the effect of scaling multi-agent test-time communication, where agents have no predefined roles and communicate via a shared directory, on ARC-AGI-3, a benchmark requiring novel problem solving. We find that a team of $k$ communicating agents, team@$k$, matches the success rate of $4k$ independent agents, and this advantage grows with $k$, suggesting gains compound with scale. The effect is not merely efficiency: a task that no single agent can solve, a team of agents can solve reliably. Furthermore, these gains transfer to research-oriented tasks, given sufficient compute. On polyomino packing, communicating agents outperform best@$k$ and exceed the prior best-known score. On MNIST classifier compression, communication surpasses the best-known human solution. A team of four agents produced a 1,957-byte classifier submission achieving 99.4% test accuracy, smaller than both the best-known human solution and the best single-agent result. These gains are not unconditional. Independent agents may outperform communication when compute is limited or when a clear measure of progress is absent. However, under sufficient compute and clear feedback, multi-agent communication consistently yields stronger results.",
+    "published_date": "2026-09-17",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "34 pages, 12 figures",
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.21015",
+    "title": "Towards Effective Visual-Inertial SLAM with Passive-Only Sensors for Low-Cost Autonomous Underwater Vehicles",
+    "authors": [
+      "Grant Schwidder",
+      "David Widhalm",
+      "Junaed Sattar"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.21015",
+    "abstract": "Improvements to Visual-Inertial Simultaneous Localization and Mapping (VI-SLAM) for low-cost autonomous underwater vehicles (AUVs) are critical for transitioning advanced marine robotics from specialized labs to broader research and hobbyist applications. While high-end AUVs typically rely on expensive sensor suites - such as Doppler Velocity Logs (DVLs) and Ultra-Short Baseline (USBL) systems - this work demonstrates that robust, high-quality navigation is achievable using a sub-$10, 000(USD) platform equipped only with inexpensive consumer-grade sensors. By leveraging a similarly priced, open-source AUV, we evaluate the performance of stereo cameras, Micro-electromechanical System (MEMS)-based IMUs, and depth sensors in a fully unconstrained 6-degree-of-freedom (6-DOF) underwater environment. We analyze the efficacy of off-the-shelf SLAM packages and propose optimizations for sensor fusion to mitigate the visual and physical challenges of untethered underwater operation. Our results prove that a usable SLAM solution can be accessible to the masses, providing a benchmark for expectations in demanding, real-time maritime missions without the financial barrier of industrial-grade hardware.",
+    "published_date": "2026-09-17",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-21T08:34:54Z",
+    "memo": "",
+    "memo_updated_at": null
   },
   {
     "id": "arxiv:2609.18929",

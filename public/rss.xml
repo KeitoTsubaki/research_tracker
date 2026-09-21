@@ -4,146 +4,146 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Sun, 20 Sep 2026 08:17:16 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 08:34:54 GMT</lastBuildDate>
     <item>
-      <title>OPTED: On-Policy Fine-Tuning for End-to-End Driving using a Render-Free Teacher</title>
-      <link>https://arxiv.org/abs/2609.20756</link>
-      <guid isPermaLink="false">arxiv:2609.20756</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>As scaling pre-training data alone yields diminishing returns, post-training is becoming increasingly important across physical AI domains such as autonomous driving. End-to-end driving policies are pre-trained in open loop with behavior cloning on human demonstrations. However, compounding errors during closed-loop deployment can take the vehicle outside the training data distribution, increasing the risk of safety-critical incidents. Closed-loop post-training can mitigate this risk but require</description>
+      <title>PRIME: Perception Feedback with Situational Memory Embeddings in VLA Models</title>
+      <link>https://arxiv.org/abs/2609.22040</link>
+      <guid isPermaLink="false">arxiv:2609.22040</guid>
+      <pubDate>2026-09-18</pubDate>
+      <description>Current Vision-Language-Action (VLA) models for autonomous driving operate primarily through feedforward inference across the perception--reasoning--planning hierarchy. While modern architectures maintain temporal recurrence within the perceptual module, early perception remains blind to downstream reasoning and navigation goals, processing visual inputs agnostically without prioritizing cues informed by prior decisions. To bridge this gap, this paper introduces PRIME, a learned feedback mechani</description>
     </item>
     <item>
-      <title>MILER: Semantic Mid-Level Representation for Sim-to-Real Reinforcement Learning in Unstructured Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2609.20747</link>
-      <guid isPermaLink="false">arxiv:2609.20747</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Reinforcement learning constitutes a promising approach owing to its potential for superhuman performance and self-learned policies. However, its application to real-world autonomous driving remains scarce, particularly in unstructured environments, because of the challenges associated with sim-to-real transfer for unstructured environments. In this work, we present MILER, an end-to-end policy framework with zero-shot sim-to-real transfer. During offline training, we employ a custom semantic mid</description>
+      <title>Guiding Agents of Quantum Games to Equilibrium using Matrix Exponential Fixed-Point Iteration</title>
+      <link>https://arxiv.org/abs/2609.21944</link>
+      <guid isPermaLink="false">arxiv:2609.21944</guid>
+      <pubDate>2026-09-18</pubDate>
+      <description>In recent years, quantum game theory has gained significant attention as a framework for studying decision-making in multi-agent systems using quantum principles. However, computing equilibrium strategies is challenging because the dimension of the joint Hilbert space grows as the product of the players' local dimensions. In this paper, we consider an extended Gutoski-Watrous (EGW) game in which each player's quantum strategy is represented by a local density matrix. We derive tensor-contraction</description>
     </item>
     <item>
-      <title>CoRef-GS: Cooperative Referring Gaussian Splatting for Multi-Agent Scene Understanding</title>
-      <link>https://arxiv.org/abs/2609.20586</link>
-      <guid isPermaLink="false">arxiv:2609.20586</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Referring scene understanding for embodied robots requires grounding object- and relation-centric language queries from a designated viewpoint. While a local semantic Gaussian map can support such grounding within one agent's observations, cooperative settings require this ability to remain effective after independently reconstructed maps are aligned and fused. In this setting, the referred target or its contextual landmark may come from another agent's observations, while spatial relations must</description>
+      <title>MAAP: Multi-Agent Active Perception for Collaborative Manipulation</title>
+      <link>https://arxiv.org/abs/2609.21929</link>
+      <guid isPermaLink="false">arxiv:2609.21929</guid>
+      <pubDate>2026-09-18</pubDate>
+      <description>Multi-agent manipulation naturally produces multiple task-driven viewpoints: every arm carries a wrist camera and moves through the scene while acting. Yet these observations are typically underutilized, and active perception in manipulation is still often treated as requiring a dedicated sensing agent. We introduce MAAP (Multi-Agent Active Perception), in which every arm is dual-purpose: it executes manipulation actions and, through the wrist camera it carries, simultaneously serves as a moving</description>
     </item>
     <item>
-      <title>V2-STRep: VLM-Grounded Structured Task Representations for Reusable Robot Skills Acquired from Generated Videos</title>
-      <link>https://arxiv.org/abs/2609.20582</link>
-      <guid isPermaLink="false">arxiv:2609.20582</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Human manipulation videos provide rich motion and interaction cues for acquiring robot skills without robot demonstrations. Video generation models synthesize such demonstrations from an initial scene image and task instruction, avoiding the need to record demonstrations for each task. However, the recovered motion captures only one scene-specific realization, leaving task structure, geometric relations, and constraints implicit. We present V2-STRep, a zero-shot framework that converts generated</description>
+      <title>Contact-Rich Motion Planning via GPU-Parallel Mode Evaluation</title>
+      <link>https://arxiv.org/abs/2609.21803</link>
+      <guid isPermaLink="false">arxiv:2609.21803</guid>
+      <pubDate>2026-09-18</pubDate>
+      <description>Contact-rich motion planning (CRMP) is essential for robotic manipulation and locomotion, yet remains computationally challenging due to combinatorial contact decisions. Existing methods typically avoid broad evaluation of contact-mode sequences through search heuristics or optimization reformulations. We revisit broad evaluation in light of modern GPU hardware and introduce Contact-Mode Expansion with parallel Trajectory optimization (CoMET), which combines GPU-parallel trajectory evaluation wi</description>
     </item>
     <item>
-      <title>Worst-Case Hidden-Vehicle Trajectory Search in Spatiotemporal Occlusion Regions</title>
-      <link>https://arxiv.org/abs/2609.20480</link>
-      <guid isPermaLink="false">arxiv:2609.20480</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Occlusion creates fundamental uncertainty in autonomous driving. Existing methods often propagate frame-wise hypotheses or optimize ego behavior against prescribed hidden-agent predictions, leaving the worst history-consistent interaction unexplored. We introduce History-Conditioned Minimax Trajectory Search (HC-MTS), which combines temporal occlusion reasoning with response-aware search. First, HC-MTS constructs finite hidden-state modes, each certified by a backward witness satisfying multi-fr</description>
+      <title>MACE: Memory-Agent Co-Evolution with Adaptive Memory Graphs for Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2609.21533</link>
+      <guid isPermaLink="false">arxiv:2609.21533</guid>
+      <pubDate>2026-09-18</pubDate>
+      <description>LLM-based multi-agent systems generate collaboration traces that record how agents plan tasks, verify intermediate results, and repair failures. Reusing these procedures requires preserving an action's prerequisites and the outputs needed by subsequent agents. Our empirical studies show that grouping these dependencies into functional memory units improves their retention, while connecting units increases retrieval of the units and links jointly required by a task. The preferred combination of u</description>
     </item>
     <item>
-      <title>Xeno-Interpretability: Investigating the Alien Minds of LLMs</title>
-      <link>https://arxiv.org/abs/2609.20408</link>
-      <guid isPermaLink="false">arxiv:2609.20408</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Large language models are usually interpreted through concepts that humans already possess: truthfulness, refusal, deception, personality, harmfulness, and related categories. This paper asks whether models may also represent and use distinctions for which no adequate human concept exists. We call such internal structures xeno-representations, and their study xeno-interpretability. We distinguish the human-interpretable semantic space from the xeno-semantic space: the region of model-native repr</description>
+      <title>OpenMAS-GCom. A Diagnostic Benchmark for Graph-enhanced Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2609.21527</link>
+      <guid isPermaLink="false">arxiv:2609.21527</guid>
+      <pubDate>2026-09-18</pubDate>
+      <description>Graph-enhanced multi-agent systems (G-MAS) coordinate large language model agents through communication graphs and role assignments, which determine how agents exchange information and divide responsibilities. However, final-score comparisons across systems combine differences in models, communication patterns, roles, and computation costs, making performance differences difficult to attribute to specific communication structures, role assignments, and information flows. To address this evaluati</description>
     </item>
     <item>
-      <title>Resilient Motion Planning for Free-Flying Space Robots under Actuator Failures</title>
-      <link>https://arxiv.org/abs/2609.20407</link>
-      <guid isPermaLink="false">arxiv:2609.20407</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Free-flying robots rely on multiple thrusters to maneuver in space. If one or more of these thrusters fail, the robot may lose control authority and risk mission failure. At the same time, their free-flying nature implies that, even in the absence of actuation, they continue along (locally) straight-line trajectories. In this work we present a probabilistic, proactive, motion planning framework that explicitly accounts for actuator failures in space. We model actuator failure modes as a Markov c</description>
+      <title>Learning-to-Optimize as the Missing Architectural Layer of AI-Native Networks</title>
+      <link>https://arxiv.org/abs/2609.21519</link>
+      <guid isPermaLink="false">arxiv:2609.21519</guid>
+      <pubDate>2026-09-18</pubDate>
+      <description>Artificial Intelligence (AI) is becoming a fundamental design principle of future AI-native communication networks, enabling autonomous resource management, adaptive control, and zero-touch network operation. While current AI-native architectures increasingly embed intelligence across network functions, they provide little guidance on how optimisation knowledge should be systematically generated, transferred, and exploited by AI models. This paper argues that the Learning-to-Optimize (L2O) repre</description>
     </item>
     <item>
-      <title>Imagine-TAMP: Imagination-Guided Task and Motion Planning in Partial Observability</title>
-      <link>https://arxiv.org/abs/2609.20396</link>
-      <guid isPermaLink="false">arxiv:2609.20396</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Robots operating in cluttered environments must often manipulate objects whose locations are only partially observable. A central challenge is deciding whether to acquire another observation or to first manipulate objects that may occlude the target. Conventional task and motion planning (TAMP) approaches typically make this decision using symbolic action costs or expensive geometric planning, neither of which adequately captures how likely an observation is to reveal an occluded target. We intr</description>
+      <title>Driving on Registers, Reasoning on Risk: Risk-Aware Occupancy for Register-Based End-to-End Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2609.21486</link>
+      <guid isPermaLink="false">arxiv:2609.21486</guid>
+      <pubDate>2026-09-18</pubDate>
+      <description>Multimodal trajectory prediction improves behavioral coverage in end-to-end autonomous driving, but existing methods remain limited by sparse scene representations. Incomplete evidence leads to low-quality candidate generation and unreliable ranking among geometrically similar trajectories. On a register-based baseline, bad and poor candidates constitute 19.74% of the candidate set, while the oracle-best candidate ranks only 33.9th on average. We propose RRDrive, which introduces risk-aware occu</description>
     </item>
     <item>
-      <title>RoboFind: Multi-Agent Personalized Object Search for People Who Are Blind or Have Low Vision</title>
-      <link>https://arxiv.org/abs/2609.20330</link>
-      <guid isPermaLink="false">arxiv:2609.20330</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Blind and low-vision users often need to locate a specific personal object rather than an arbitrary instance of the same category. The task calls for a robot that can move through the space and reach viewpoints the user cannot, and for an accessible interface where the user says which object is meant and learns whether the right one was found. We present RoboFind, a multi-agent framework in which a smartphone teaches the target and a quadruped robot carries out the search. A Target Teaching Agen</description>
+      <title>Risk-Aware Occupancy for Safety-Oriented End-to-End Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2609.21470</link>
+      <guid isPermaLink="false">arxiv:2609.21470</guid>
+      <pubDate>2026-09-18</pubDate>
+      <description>Sparse representation formulates the environment perception for the end-to-end driving system as a set of discrete elements like objects and lane lines. This formulation meets safety risks in crowded, occluded scenes dealing with unstructured obstacles, uncertain regions, and intricate interactions. In this paper, we propose a dense representation, risk-aware occupancy, to characterize planning-relevant risks in an explicit and uniform manner. It jointly encodes global scene occupancy, map-deriv</description>
     </item>
     <item>
-      <title>Universal Navigation Interface: Robot-Free Data for Wheeled Robot Navigation</title>
-      <link>https://arxiv.org/abs/2609.20114</link>
-      <guid isPermaLink="false">arxiv:2609.20114</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Collecting real-world navigation data for mobile robots typically requires platform-specific teleoperation, making large-scale collection expensive and difficult to scale. We introduce Universal Navigation Interface (UNI), a robot-free data collection paradigm that uses a four-wheeled rollator walker (rollator) and smartphone to collect physically constrained human demonstrations. Because the rollator cannot climb stairs, negotiate uncut curbs, or pass through narrow gaps, demonstrations are nat</description>
+      <title>OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue</title>
+      <link>https://arxiv.org/abs/2609.21465</link>
+      <guid isPermaLink="false">arxiv:2609.21465</guid>
+      <pubDate>2026-09-18</pubDate>
+      <description>We define OmniVChat (Omni Video Chat) as the task of native audio-visual dialogue between a user and an omni model. In OmniVChat, omni models directly and simultaneously receive audio and video from a user and return text. The user's query is embedded in the audio and video, without a separate text question, external captioning, or speech recognition. Direct audio-visual input reduces external latency and computation while preserving perceptual cues. However, research on OmniVChat faces two cons</description>
     </item>
     <item>
-      <title>FlipToSee: A Probabilistic Stable Placement Prior for Active Visual Exploration via Regrasping</title>
-      <link>https://arxiv.org/abs/2609.20078</link>
-      <guid isPermaLink="false">arxiv:2609.20078</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Active visual exploration of tabletop objects often requires reorienting an unknown resting object onto a different stable support face to expose occluded surfaces. To identify such placements without exhaustive physical search, we learn a probabilistic placement prior from a single-view point cloud. Stable placement prediction is inherently multimodal, and conventional 6-DoF regression introduces further ambiguity by modeling translation and in-plane yaw. We therefore propose FlipToSee, a proba</description>
+      <title>Stabilizing Trajectory Outputs in End-to-End Autonomous Driving via SC-IMM Based Teacher Signals</title>
+      <link>https://arxiv.org/abs/2609.21404</link>
+      <guid isPermaLink="false">arxiv:2609.21404</guid>
+      <pubDate>2026-09-18</pubDate>
+      <description>End-to-End autonomous driving models commonly predict future waypoints from sensor inputs and convert them into vehicle control commands through a downstream controller. However, conventional waypoint-based imitation learning mainly minimizes coordinate-level errors, making it difficult to capture scene-dependent path-speed changes and temporal instability across waypoint outputs. In this paper, we propose an offline teacher-signal generation and learning method for trajectory-output stabilizati</description>
     </item>
     <item>
-      <title>Astronex-World 1.0: Real-Time Interactive World Model Foundation</title>
-      <link>https://arxiv.org/abs/2609.20034</link>
-      <guid isPermaLink="false">arxiv:2609.20034</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>We present Astronex-World 1.0, an open controllable video world-model foundation. Given a text prompt (text-to-video) or an initial observation (image-to-video), the model predicts future visual states under frame-aligned camera trajectories, continuous actions, and an embodiment identifier, and accepts text events inserted at a specified position of a rollout. The family provides a bidirectional model for full-context generation and a causal model with block-causal attention and cross-block KV </description>
+      <title>PlaceReasoner-Beta: Reasoning-Driven Macro Placement and Benchmarking</title>
+      <link>https://arxiv.org/abs/2609.21263</link>
+      <guid isPermaLink="false">arxiv:2609.21263</guid>
+      <pubDate>2026-09-18</pubDate>
+      <description>Automated macro placement remains a fundamental challenge in VLSI physical design. Despite decades of research, existing approaches predominantly optimize hand-crafted proxy objectives, such as estimated wirelength, and typically produce placements through one-shot numerical optimization, limiting their ability to incorporate visual layout context, codified design expertise, and downstream physical-design feedback in a unified loop. We present PlaceReasoner-Beta, a verifier-guided multi-agent fr</description>
     </item>
     <item>
-      <title>MaSCoD: A Multi-Agent Framework for Structural-Context-Guided Candidate Causal Graph Generation</title>
-      <link>https://arxiv.org/abs/2609.19944</link>
-      <guid isPermaLink="false">arxiv:2609.19944</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Large language models (LLMs) have been applied to causal discovery, but candidate-graph generation rarely treats premature omission of potentially relevant causal relations as an explicit design objective. We propose MaSCoD, a multi-agent framework that organizes candidate third variables and local structural patterns before direct-edge judgment. We evaluate MaSCoD on Auto-MPG, DWD, and Sachs using GPT-5.4 as the primary backbone and GPT-4o for replication. MaSCoD exhibits a dataset- and backbon</description>
+      <title>KnowDemo: Knowledge-Guided Robot Demonstration Generation from Human Videos</title>
+      <link>https://arxiv.org/abs/2609.21229</link>
+      <guid isPermaLink="false">arxiv:2609.21229</guid>
+      <pubDate>2026-09-18</pubDate>
+      <description>Learning robot manipulation policies typically requires substantial demonstration data, which are costly to collect on real robots. Recent methods generate robot demonstrations from human videos by adapting recovered motion and validating the resulting trajectories in simulation. However, methods centered on motion-reference adaptation can limit behavioral diversity by retaining the demonstrated contact strategies and subtask orders, while insufficient understanding of task requirements and scen</description>
     </item>
     <item>
-      <title>REARL: A Closed-loop Autonomous Driving Simulation Enhancement Framework with Real Traffic Data and Large Language Models</title>
-      <link>https://arxiv.org/abs/2609.19903</link>
-      <guid isPermaLink="false">arxiv:2609.19903</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Accurate simulation is crucial for autonomous driving development, yet capturing real-world traffic complexity remains challenging. Existing simulators that rely on predefined rules or static data playback struggle with dynamic traffic. CRITICAL uses real traffic data and a large language model (LLM) to adjust the initial simulation configuration, but the simulated distribution still diverges from real traffic as the rollout evolves. We propose REARL, a closed-loop simulation enhancement framewo</description>
+      <title>AirSplan: Risk-Aware Motion Planning for Quadrotors in Cluttered 3D Gaussian Splats</title>
+      <link>https://arxiv.org/abs/2609.21226</link>
+      <guid isPermaLink="false">arxiv:2609.21226</guid>
+      <pubDate>2026-09-18</pubDate>
+      <description>Quadrotors are increasingly deployed in applications such as agriculture, infrastructure inspection, and maintenance. In each of these applications, the robot must navigate complex scene geometry while remaining strictly collision-free. Unlike in ground domains, even minor collisions for aerial vehicles can result in the loss of the robot. This safety requirement induces a pair of technical challenges. First, the environment must be represented with sufficient fidelity to encode complex structur</description>
     </item>
     <item>
-      <title>Vehicle Trajectory Prediction via Neural Fusion of Multiple EKF-Based Trajectory Candidates</title>
-      <link>https://arxiv.org/abs/2609.19813</link>
-      <guid isPermaLink="false">arxiv:2609.19813</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Predicting the future trajectories of surrounding vehicles in autonomous driving is important for collision risk assessment and safe ego-vehicle path planning. Conventional neural network-based trajectory predictors typically achieve strong prediction performance by exploiting agent history, dynamic scene graphs, and semantic maps. However, in specific motion regimes such as acceleration, deceleration, and turning, these predictors may fail to reflect physically feasible trajectories. To address</description>
+      <title>Stochastic Neural Signed Swept Volume for Real-time Chance-Constrained Trajectory Optimization</title>
+      <link>https://arxiv.org/abs/2609.21211</link>
+      <guid isPermaLink="false">arxiv:2609.21211</guid>
+      <pubDate>2026-09-18</pubDate>
+      <description>Collision-free motion planning requires reliable collision models from sensed environments and validation of states along a continuous trajectory. To make this tractable, most planners check for collision at discrete states along continuous trajectories against a single determinized model of the environment, introducing a trade-off between safety and computational efficiency. While continuous collision checking approaches that approximate the swept volume of the robot exist, they are computation</description>
     </item>
     <item>
-      <title>HEROIC: Heterogeneous Evidential Reasoning for Open-Vocabulary Identification and Cross-Robot Collaboration</title>
-      <link>https://arxiv.org/abs/2609.19803</link>
-      <guid isPermaLink="false">arxiv:2609.19803</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Multi-agent heterogeneous air-ground robot teams are attractive for open world search, with applications for reconnaissance, urban search and rescue missions (USAR), disaster response and recovery, and hazardous environments. These two platforms have different failure modes: aerial robots cover ground quickly but cannot resolve small or occluded targets from altitude, while ground robots can identify objects-of-interest, such as people or hazardous objects, at close range but cover less area. Ex</description>
+      <title>MA-LIPP: Cooperative Multi-Agent Load-Aware Informative Path Planning for Heterogeneous Robot Teams</title>
+      <link>https://arxiv.org/abs/2609.21167</link>
+      <guid isPermaLink="false">arxiv:2609.21167</guid>
+      <pubDate>2026-09-18</pubDate>
+      <description>Field robotics missions often require physical samples to be returned to laboratories for analysis, making path planning inherently load-aware and order-dependent as accumulated samples increase payload and traversal energy costs. In single-robot Load-Aware Informative Path Planning (LIPP), this rigidly couples sensing with hauling: a solitary robot must transport every collected sample, forcing frequent depot returns that severely restrict its spatial coverage. Heterogeneous multi-robot teams c</description>
     </item>
     <item>
-      <title>Contagion on the Trading Floor: How Adversarial Signals Spread in Multi-Agent Trading Systems</title>
-      <link>https://arxiv.org/abs/2609.19789</link>
-      <guid isPermaLink="false">arxiv:2609.19789</guid>
+      <title>SAGE: Safety-Aligned Gradient Enforcement for Human--Robot Collaboration</title>
+      <link>https://arxiv.org/abs/2609.21130</link>
+      <guid isPermaLink="false">arxiv:2609.21130</guid>
       <pubDate>2026-09-17</pubDate>
-      <description>Multi-agent trading systems built on large language models (LLMs) are beginning to appear in quantitative finance, yet their robustness to adversarial inputs is largely unknown. We study the vulnerability of LLM trading stacks to black-box, input-only attacks that enter solely via admissible social-media feeds. We introduce the Generic Multi-Agent Trading System (GMATS), a framework that captures modern multiagent trading architectures and instantiate a class of black-box poisoning attackers tha</description>
+      <description>Multi-party human-robot collaboration poses a dual challenge: robot decisions should remain interpretable and auditable, while executed actions must satisfy safety constraints during physical interaction. Combining explainable decision-tree policies with control-barrier-function (CBF) filtering provides a promising architecture but creates two learning mismatches in multi-agent reinforcement learning. Safety projection changes the action applied to the environment, while the coupled proposal gra</description>
     </item>
     <item>
-      <title>Rethinking Multi-Agent Collaboration: When More Is Less</title>
-      <link>https://arxiv.org/abs/2609.19759</link>
-      <guid isPermaLink="false">arxiv:2609.19759</guid>
+      <title>Talk to Me, Jarvis: An Open-Source Edge-Deployable Voice Assistant Framework for Autonomous Racecars</title>
+      <link>https://arxiv.org/abs/2609.21109</link>
+      <guid isPermaLink="false">arxiv:2609.21109</guid>
       <pubDate>2026-09-17</pubDate>
-      <description>The rapid advancement of large language models and single-agent harnesses has reshaped the landscape of autonomous systems, raising a critical question of when multi-agent collaboration offers genuine value. As individual agent capabilities continue to scale, multi-agent collaboration faces diminishing returns while incurring growing context overhead. Through systematic analysis, we delineate the capability boundaries of multi-agent collaboration relative to single-agent alternatives, showing th</description>
+      <description>Recent advances in large language models have improved their effectiveness as back-end components for voice assistants, particularly in intent understanding and context-aware input classification. However, online-hosted models introduce network dependency and variable inference latency, limiting their suitability for time-critical autonomous driving applications. In this work, we address these issues by developing Jarvis, an offline voice assistant for high-level behavioral commands of autonomou</description>
     </item>
     <item>
-      <title>UniExo: Unified Multi-Skill Policies for Musculoskeletal Locomotion and Co-Adaptive Exoskeleton Control</title>
-      <link>https://arxiv.org/abs/2609.19690</link>
-      <guid isPermaLink="false">arxiv:2609.19690</guid>
+      <title>Scaling Discovery through Test-Time Communication</title>
+      <link>https://arxiv.org/abs/2609.21032</link>
+      <guid isPermaLink="false">arxiv:2609.21032</guid>
       <pubDate>2026-09-17</pubDate>
-      <description>Daily locomotion encompasses diverse activities and frequent transitions between them, yet most exoskeleton controllers are designed for a single activity or a narrow set of related movements. Changes in activity therefore typically require explicit mode switching and separately tuned or retrained controllers. Simulation-based learning reduces the need for hardware-based tuning but generally retains this limitation. Here we present UniExo, a framework that first constructs a multi-skill musculos</description>
+      <description>Science advances not in isolation but through collaboration, yet existing agentic systems capture little of this. Whether communicating agents help remains an open question with mixed prior results. We show that test-time communication can substantially outperform independent parallel attempts on challenging tasks, where sharing a breakthrough can push the whole group forward. We first study the effect of scaling multi-agent test-time communication, where agents have no predefined roles and comm</description>
     </item>
     <item>
-      <title>VAST: V2X/Dynamic Map-Aware Autonomous Driving Systems Validation Toolchain</title>
-      <link>https://arxiv.org/abs/2609.19681</link>
-      <guid isPermaLink="false">arxiv:2609.19681</guid>
+      <title>Towards Effective Visual-Inertial SLAM with Passive-Only Sensors for Low-Cost Autonomous Underwater Vehicles</title>
+      <link>https://arxiv.org/abs/2609.21015</link>
+      <guid isPermaLink="false">arxiv:2609.21015</guid>
       <pubDate>2026-09-17</pubDate>
-      <description>Cooperative autonomous driving in the IoT-to-Edge-to-Cloud continuum requires system-level validation across vehicles, infrastructure sensors, edge-side Dynamic Map services, and in-vehicle autonomous-driving stacks. This paper presents VAST, a V2X/Dynamic Map-aware validation toolchain that connects Scenic, Scenario Simulator v2, AWSIM, Autoware, and SIM-LDM. VAST does not introduce a new search algorithm; instead, it addresses interoperability challenges, including Lanelet2-to-Scenic mapping, </description>
+      <description>Improvements to Visual-Inertial Simultaneous Localization and Mapping (VI-SLAM) for low-cost autonomous underwater vehicles (AUVs) are critical for transitioning advanced marine robotics from specialized labs to broader research and hobbyist applications. While high-end AUVs typically rely on expensive sensor suites - such as Doppler Velocity Logs (DVLs) and Ultra-Short Baseline (USBL) systems - this work demonstrates that robust, high-quality navigation is achievable using a sub-$10, 000(USD) p</description>
     </item>
   </channel>
 </rss>
