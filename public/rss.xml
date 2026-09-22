@@ -4,146 +4,167 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 21 Sep 2026 09:25:24 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 08:14:48 GMT</lastBuildDate>
     <item>
-      <title>PRIME: Perception Feedback with Situational Memory Embeddings in VLA Models</title>
-      <link>https://arxiv.org/abs/2609.22040</link>
-      <guid isPermaLink="false">arxiv:2609.22040</guid>
-      <pubDate>2026-09-18</pubDate>
-      <description>Current Vision-Language-Action (VLA) models for autonomous driving operate primarily through feedforward inference across the perception--reasoning--planning hierarchy. While modern architectures maintain temporal recurrence within the perceptual module, early perception remains blind to downstream reasoning and navigation goals, processing visual inputs agnostically without prioritizing cues informed by prior decisions. To bridge this gap, this paper introduces PRIME, a learned feedback mechani</description>
+      <title>MIGU: Multimodal Instruction Grounding under Uncertainty for Manipulation Planning</title>
+      <link>https://arxiv.org/abs/2609.24995</link>
+      <guid isPermaLink="false">arxiv:2609.24995</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>Understanding natural human instructions is crucial for deploying robots in human-centric environments. We study multimodal instruction grounding, where language and gesture provide complementary but uncertain cues. We present MIGU, a modular framework that combines semantic and geometric evidence into a unified grounding belief and connects it to manipulation planning. MIGU constructs a 3D geometric likelihood by propagating viewing-direction and depth uncertainty through eye-finger geometry wh</description>
     </item>
     <item>
-      <title>Guiding Agents of Quantum Games to Equilibrium using Matrix Exponential Fixed-Point Iteration</title>
-      <link>https://arxiv.org/abs/2609.21944</link>
-      <guid isPermaLink="false">arxiv:2609.21944</guid>
-      <pubDate>2026-09-18</pubDate>
-      <description>In recent years, quantum game theory has gained significant attention as a framework for studying decision-making in multi-agent systems using quantum principles. However, computing equilibrium strategies is challenging because the dimension of the joint Hilbert space grows as the product of the players' local dimensions. In this paper, we consider an extended Gutoski-Watrous (EGW) game in which each player's quantum strategy is represented by a local density matrix. We derive tensor-contraction</description>
+      <title>Emergent Collusion in Long-Horizon LLM Agent Interaction</title>
+      <link>https://arxiv.org/abs/2609.24967</link>
+      <guid isPermaLink="false">arxiv:2609.24967</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable coordination. We study the emergence of collusion in a long-horizon multi-agent environment: two agents repeatedly complete individual tasks, share task logs, verify each other's work, and receive rewards. We introduce realistic constraints that make compliance with the verification protocol incompatible with reward maximization, and find that agents increasingly deviate from th</description>
     </item>
     <item>
-      <title>MAAP: Multi-Agent Active Perception for Collaborative Manipulation</title>
-      <link>https://arxiv.org/abs/2609.21929</link>
-      <guid isPermaLink="false">arxiv:2609.21929</guid>
-      <pubDate>2026-09-18</pubDate>
-      <description>Multi-agent manipulation naturally produces multiple task-driven viewpoints: every arm carries a wrist camera and moves through the scene while acting. Yet these observations are typically underutilized, and active perception in manipulation is still often treated as requiring a dedicated sensing agent. We introduce MAAP (Multi-Agent Active Perception), in which every arm is dual-purpose: it executes manipulation actions and, through the wrist camera it carries, simultaneously serves as a moving</description>
+      <title>Perception-Aware Communication Middleware for Distributed Visual Perception in UAV Swarms</title>
+      <link>https://arxiv.org/abs/2609.24964</link>
+      <guid isPermaLink="false">arxiv:2609.24964</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>Unmanned Aerial Vehicle (UAV) swarms increasingly support safety-critical applications that rely on distributed visual perception. Meeting the low-latency requirements of these applications can require perception models to execute within the swarm on inference-capable UAVs, creating a need for efficient UAV-to-UAV transport of high-bandwidth perception data. However, the Quality-of-Service (QoS) requirements of perception differ from conventional packet-level QoS; successful delivery of individu</description>
     </item>
     <item>
-      <title>Contact-Rich Motion Planning via GPU-Parallel Mode Evaluation</title>
-      <link>https://arxiv.org/abs/2609.21803</link>
-      <guid isPermaLink="false">arxiv:2609.21803</guid>
-      <pubDate>2026-09-18</pubDate>
-      <description>Contact-rich motion planning (CRMP) is essential for robotic manipulation and locomotion, yet remains computationally challenging due to combinatorial contact decisions. Existing methods typically avoid broad evaluation of contact-mode sequences through search heuristics or optimization reformulations. We revisit broad evaluation in light of modern GPU hardware and introduce Contact-Mode Expansion with parallel Trajectory optimization (CoMET), which combines GPU-parallel trajectory evaluation wi</description>
+      <title>Visuomotor Robotic Pruning in Planar Orchards Using Hybrid Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2609.24906</link>
+      <guid isPermaLink="false">arxiv:2609.24906</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>Dormant tree pruning is labor-intensive yet essential for maintaining modern high-productivity fruit orchards. In this work, we focus on pruning of modern planar tree training systems - V-Trellis apples and UFO cherries - where trunks and primary branches are trained into approximately planar walls. We introduce an end-to-end pipeline to learn a closed-loop visuomotor controller for robotic pruning. This controller is trained entirely using simulation and synthetically generated data and deploye</description>
     </item>
     <item>
-      <title>MACE: Memory-Agent Co-Evolution with Adaptive Memory Graphs for Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2609.21533</link>
-      <guid isPermaLink="false">arxiv:2609.21533</guid>
-      <pubDate>2026-09-18</pubDate>
-      <description>LLM-based multi-agent systems generate collaboration traces that record how agents plan tasks, verify intermediate results, and repair failures. Reusing these procedures requires preserving an action's prerequisites and the outputs needed by subsequent agents. Our empirical studies show that grouping these dependencies into functional memory units improves their retention, while connecting units increases retrieval of the units and links jointly required by a task. The preferred combination of u</description>
+      <title>Partner-Specific Affective Precision in Social Active Inference</title>
+      <link>https://arxiv.org/abs/2609.24876</link>
+      <guid isPermaLink="false">arxiv:2609.24876</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>In multi-agent social settings, model reliability varies across relationships. Beyond inferring what others will do, an agent must calibrate how confidently those inferences should guide policy selection for each relationship. An agent may maintain a well-validated model of one partner, a fragile model of another, and a model under revision for a third; collapsing these into a single confidence estimate loses information relevant to policy selection. We therefore formalize affective precision as</description>
     </item>
     <item>
-      <title>OpenMAS-GCom. A Diagnostic Benchmark for Graph-enhanced Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2609.21527</link>
-      <guid isPermaLink="false">arxiv:2609.21527</guid>
-      <pubDate>2026-09-18</pubDate>
-      <description>Graph-enhanced multi-agent systems (G-MAS) coordinate large language model agents through communication graphs and role assignments, which determine how agents exchange information and divide responsibilities. However, final-score comparisons across systems combine differences in models, communication patterns, roles, and computation costs, making performance differences difficult to attribute to specific communication structures, role assignments, and information flows. To address this evaluati</description>
+      <title>CAST: Collision-Aware Assembly with Construction Robots using Simultaneous Trajectory Estimation and Planning</title>
+      <link>https://arxiv.org/abs/2609.24841</link>
+      <guid isPermaLink="false">arxiv:2609.24841</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>Multi-robot systems have shown increasing viability in construction due to their ability to execute high-precision actions while reducing human exposure to hazardous tasks. However, these environments have high-dimensional configuration spaces and possess substantial collision-avoidance constraints, which include other robots, assembly objects, and workspace boundaries. We utilize a single factor graph for trajectory estimation and planning that incorporates measured robot states together with e</description>
     </item>
     <item>
-      <title>Learning-to-Optimize as the Missing Architectural Layer of AI-Native Networks</title>
-      <link>https://arxiv.org/abs/2609.21519</link>
-      <guid isPermaLink="false">arxiv:2609.21519</guid>
-      <pubDate>2026-09-18</pubDate>
-      <description>Artificial Intelligence (AI) is becoming a fundamental design principle of future AI-native communication networks, enabling autonomous resource management, adaptive control, and zero-touch network operation. While current AI-native architectures increasingly embed intelligence across network functions, they provide little guidance on how optimisation knowledge should be systematically generated, transferred, and exploited by AI models. This paper argues that the Learning-to-Optimize (L2O) repre</description>
+      <title>D-JEPA: A Decision-Aligned Latent World Model</title>
+      <link>https://arxiv.org/abs/2609.24749</link>
+      <guid isPermaLink="false">arxiv:2609.24749</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>Latent world models predict the consequences of actions, but accurate prediction does not guarantee that latent distance reflects which candidate will execute successfully. We identify a decision-local prediction gap: among the few futures competing for execution, a candidate predicted closer to the goal can produce a worse realized outcome than an available alternative. We introduce D-JEPA, a decision-aligned latent world model that learns decision-relevant relations among candidate futures fro</description>
     </item>
     <item>
-      <title>Driving on Registers, Reasoning on Risk: Risk-Aware Occupancy for Register-Based End-to-End Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2609.21486</link>
-      <guid isPermaLink="false">arxiv:2609.21486</guid>
-      <pubDate>2026-09-18</pubDate>
-      <description>Multimodal trajectory prediction improves behavioral coverage in end-to-end autonomous driving, but existing methods remain limited by sparse scene representations. Incomplete evidence leads to low-quality candidate generation and unreliable ranking among geometrically similar trajectories. On a register-based baseline, bad and poor candidates constitute 19.74% of the candidate set, while the oracle-best candidate ranks only 33.9th on average. We propose RRDrive, which introduces risk-aware occu</description>
+      <title>"MeBo Leaves a Piece of You Behind": Designing a Relational Voice-Based Memory Companion for Older Adults</title>
+      <link>https://arxiv.org/abs/2609.24706</link>
+      <guid isPermaLink="false">arxiv:2609.24706</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>Autobiographical remembering supports identity, well-being, and social connection in later life, yet voice-based memory technologies largely rely on isolated prompts. We designed and built MeBo, a fully functional relational voice-based memory companion, through participatory design with 11 older adults. Their accounts shaped four Design Strategies that guided MeBo's interaction design and multi-agent implementation. In a mixed-methods evaluation with 20 older adults, participants found MeBo exc</description>
     </item>
     <item>
-      <title>Risk-Aware Occupancy for Safety-Oriented End-to-End Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2609.21470</link>
-      <guid isPermaLink="false">arxiv:2609.21470</guid>
-      <pubDate>2026-09-18</pubDate>
-      <description>Sparse representation formulates the environment perception for the end-to-end driving system as a set of discrete elements like objects and lane lines. This formulation meets safety risks in crowded, occluded scenes dealing with unstructured obstacles, uncertain regions, and intricate interactions. In this paper, we propose a dense representation, risk-aware occupancy, to characterize planning-relevant risks in an explicit and uniform manner. It jointly encodes global scene occupancy, map-deriv</description>
+      <title>DUMA-Bench: A Dual-Control Multi-Agent Benchmark for Evaluating LLM Agent Security</title>
+      <link>https://arxiv.org/abs/2609.24662</link>
+      <guid isPermaLink="false">arxiv:2609.24662</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>LLM-based agents increasingly operate in environments where they interact with users, tools, and external systems. Yet most security evaluations assume passive users and static control, ignoring the interactive dynamics that shape real agent behavior. We introduce \textbf{DUMA-Bench}, a benchmark and evaluation protocol for measuring agent security under \emph{dual-control} interaction, where both the agent and the user can influence the shared environment state. DUMA-Bench extends $τ^2$-bench ~</description>
     </item>
     <item>
-      <title>OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue</title>
-      <link>https://arxiv.org/abs/2609.21465</link>
-      <guid isPermaLink="false">arxiv:2609.21465</guid>
-      <pubDate>2026-09-18</pubDate>
-      <description>We define OmniVChat (Omni Video Chat) as the task of native audio-visual dialogue between a user and an omni model. In OmniVChat, omni models directly and simultaneously receive audio and video from a user and return text. The user's query is embedded in the audio and video, without a separate text question, external captioning, or speech recognition. Direct audio-visual input reduces external latency and computation while preserving perceptual cues. However, research on OmniVChat faces two cons</description>
+      <title>Relationally Grounded Latent World Models for Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2609.24626</link>
+      <guid isPermaLink="false">arxiv:2609.24626</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>Latent world models learn predictive representations for autonomous driving, but the relational semantics these states preserve often remain implicit. We investigate whether traffic scene graphs can serve as privileged semantic supervision for latent world representations. Building on LAW, we construct actor-centric scene graphs from nuScenes 3D annotations, encode their serialized relational structure using a frozen text embedding model, and align the visual latent representations with this sem</description>
     </item>
     <item>
-      <title>Stabilizing Trajectory Outputs in End-to-End Autonomous Driving via SC-IMM Based Teacher Signals</title>
-      <link>https://arxiv.org/abs/2609.21404</link>
-      <guid isPermaLink="false">arxiv:2609.21404</guid>
-      <pubDate>2026-09-18</pubDate>
-      <description>End-to-End autonomous driving models commonly predict future waypoints from sensor inputs and convert them into vehicle control commands through a downstream controller. However, conventional waypoint-based imitation learning mainly minimizes coordinate-level errors, making it difficult to capture scene-dependent path-speed changes and temporal instability across waypoint outputs. In this paper, we propose an offline teacher-signal generation and learning method for trajectory-output stabilizati</description>
+      <title>ScaleMPA: Rethinking Scalable RRT* Acceleration With a Grid-Native Representation</title>
+      <link>https://arxiv.org/abs/2609.24497</link>
+      <guid isPermaLink="false">arxiv:2609.24497</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>Real-time motion planning remains challenging in large and high-dimensional environments. Prior acceleration of RRT* follows tree-centric state organization, which reduces per-query cost but preserves superlinear end-to-end complexity and limits parallelism through structural dependencies. This paper presents ScaleMPA, a motion-planning accelerator that rethinks RRT* with a grid-native representation. By replacing hierarchical traversal with direct grid-based access, ScaleMPA reduces the planner</description>
     </item>
     <item>
-      <title>PlaceReasoner-Beta: Reasoning-Driven Macro Placement and Benchmarking</title>
-      <link>https://arxiv.org/abs/2609.21263</link>
-      <guid isPermaLink="false">arxiv:2609.21263</guid>
-      <pubDate>2026-09-18</pubDate>
-      <description>Automated macro placement remains a fundamental challenge in VLSI physical design. Despite decades of research, existing approaches predominantly optimize hand-crafted proxy objectives, such as estimated wirelength, and typically produce placements through one-shot numerical optimization, limiting their ability to incorporate visual layout context, codified design expertise, and downstream physical-design feedback in a unified loop. We present PlaceReasoner-Beta, a verifier-guided multi-agent fr</description>
+      <title>Mixed-integer flow formulations for motion planning and decision-making of networked multi-agent systems</title>
+      <link>https://arxiv.org/abs/2609.24474</link>
+      <guid isPermaLink="false">arxiv:2609.24474</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>This work investigates the use of flow-based connectivity maintenance constraints in mixed-integer linear programming (MILP) trajectory planning and decision-making models for networked multi-agent systems (MAS). We integrate flow-based encodings for standard and k-hop connectivity into MILP multi-vehicle maneuvering models that are widely used alongside receding horizon planning strategies. Their necessity and sufficiency is demonstrated, guaranteeing full coverage of potential network topologi</description>
     </item>
     <item>
-      <title>KnowDemo: Knowledge-Guided Robot Demonstration Generation from Human Videos</title>
-      <link>https://arxiv.org/abs/2609.21229</link>
-      <guid isPermaLink="false">arxiv:2609.21229</guid>
-      <pubDate>2026-09-18</pubDate>
-      <description>Learning robot manipulation policies typically requires substantial demonstration data, which are costly to collect on real robots. Recent methods generate robot demonstrations from human videos by adapting recovered motion and validating the resulting trajectories in simulation. However, methods centered on motion-reference adaptation can limit behavioral diversity by retaining the demonstrated contact strategies and subtask orders, while insufficient understanding of task requirements and scen</description>
+      <title>MECAIL: Communication-Aware Incremental Learning for Object Detection with 14.6 KB Spatiotemporal Experts</title>
+      <link>https://arxiv.org/abs/2609.24455</link>
+      <guid isPermaLink="false">arxiv:2609.24455</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>Intelligent transportation systems require Incremental Learning (IL) to continually improve their overall performance in dynamic environments. However, most edge devices lack the computational resources to support on-device IL, requiring updates to be transmitted from centralized servers. We propose using this setup to obtain dense, specialized module coverage that adapts a fixed base model to specific spatiotemporal contexts, such as parking lots, gas stations, ferries, or construction sites. H</description>
     </item>
     <item>
-      <title>AirSplan: Risk-Aware Motion Planning for Quadrotors in Cluttered 3D Gaussian Splats</title>
-      <link>https://arxiv.org/abs/2609.21226</link>
-      <guid isPermaLink="false">arxiv:2609.21226</guid>
-      <pubDate>2026-09-18</pubDate>
-      <description>Quadrotors are increasingly deployed in applications such as agriculture, infrastructure inspection, and maintenance. In each of these applications, the robot must navigate complex scene geometry while remaining strictly collision-free. Unlike in ground domains, even minor collisions for aerial vehicles can result in the loss of the robot. This safety requirement induces a pair of technical challenges. First, the environment must be represented with sufficient fidelity to encode complex structur</description>
+      <title>Multi-Agent Transportation of Free-Flyers in Microgravity Via Pushing Interaction Under Human-in-the-Loop Control</title>
+      <link>https://arxiv.org/abs/2609.24376</link>
+      <guid isPermaLink="false">arxiv:2609.24376</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>We propose a safety-critical framework for the cooperative transportation of passive targets in microgravity, where a team of chaser robots acts through unilateral pushing contacts to track a human-provided desired twist while ensuring safe target motion. The pushing-only nature of the interaction introduces sparse, configuration-dependent actuation constraints requiring chasers to physically relocate on the target body when the desired pushing allocation changes. To address these challenges, we</description>
     </item>
     <item>
-      <title>Stochastic Neural Signed Swept Volume for Real-time Chance-Constrained Trajectory Optimization</title>
-      <link>https://arxiv.org/abs/2609.21211</link>
-      <guid isPermaLink="false">arxiv:2609.21211</guid>
-      <pubDate>2026-09-18</pubDate>
-      <description>Collision-free motion planning requires reliable collision models from sensed environments and validation of states along a continuous trajectory. To make this tractable, most planners check for collision at discrete states along continuous trajectories against a single determinized model of the environment, introducing a trade-off between safety and computational efficiency. While continuous collision checking approaches that approximate the swept volume of the robot exist, they are computation</description>
+      <title>APEXA: Execution-Integrity Enforcement for Multi-Agent LLM Automation of Synchrotron Data Reduction</title>
+      <link>https://arxiv.org/abs/2609.24165</link>
+      <guid isPermaLink="false">arxiv:2609.24165</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>Synchrotron data reduction, detector calibration followed by azimuthal integration of terabyte-scale diffraction series, is a multi-step, expert-bound bottleneck that increasingly limits the science rate of user facilities. LLM agents promise to collapse it, but driving a real pipeline with a stochastic model creates a failure mode chat benchmarks cannot see: an agent can report a calibration that was never computed. Correctness here is a property of what executed, not of the transcript. We pres</description>
     </item>
     <item>
-      <title>MA-LIPP: Cooperative Multi-Agent Load-Aware Informative Path Planning for Heterogeneous Robot Teams</title>
-      <link>https://arxiv.org/abs/2609.21167</link>
-      <guid isPermaLink="false">arxiv:2609.21167</guid>
-      <pubDate>2026-09-18</pubDate>
-      <description>Field robotics missions often require physical samples to be returned to laboratories for analysis, making path planning inherently load-aware and order-dependent as accumulated samples increase payload and traversal energy costs. In single-robot Load-Aware Informative Path Planning (LIPP), this rigidly couples sensing with hauling: a solitary robot must transport every collected sample, forcing frequent depot returns that severely restrict its spatial coverage. Heterogeneous multi-robot teams c</description>
+      <title>Mind or Message? Auditing Theory of Mind in Multi-Agent Social Simulation</title>
+      <link>https://arxiv.org/abs/2609.24146</link>
+      <guid isPermaLink="false">arxiv:2609.24146</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>Language model agents are increasingly used to simulate social interaction, and the resulting transcripts read as though the agents understand one another. We ask whether that appearance rests on a model of the partner's mind or on the surface record of what the partner said. We build a social simulation in which both questions have exact answers: 40 multi-issue negotiations whose hidden preference weights and whose full Pareto frontier are known by construction. Two model families negotiate acr</description>
     </item>
     <item>
-      <title>SAGE: Safety-Aligned Gradient Enforcement for Human--Robot Collaboration</title>
-      <link>https://arxiv.org/abs/2609.21130</link>
-      <guid isPermaLink="false">arxiv:2609.21130</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Multi-party human-robot collaboration poses a dual challenge: robot decisions should remain interpretable and auditable, while executed actions must satisfy safety constraints during physical interaction. Combining explainable decision-tree policies with control-barrier-function (CBF) filtering provides a promising architecture but creates two learning mismatches in multi-agent reinforcement learning. Safety projection changes the action applied to the environment, while the coupled proposal gra</description>
+      <title>Phrase-Level Robotic Guqin Performance: Bimanual Motion Planning and Audio-Tactile Interaction Monitoring</title>
+      <link>https://arxiv.org/abs/2609.24133</link>
+      <guid isPermaLink="false">arxiv:2609.24133</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>Recent advances in humanoid robotics and embodied intelligence have enabled robots to perform increasingly complex manipulation tasks. However, musical instrument performance remains a formidable benchmark, demanding not only collision-free trajectory execution but also precise contact timing, asymmetric bimanual coordination, and target acoustic outcomes on physical instruments. The guqin, a seven-string fretless zither, presents unique manipulation challenges due to its millimetric string spac</description>
     </item>
     <item>
-      <title>Talk to Me, Jarvis: An Open-Source Edge-Deployable Voice Assistant Framework for Autonomous Racecars</title>
-      <link>https://arxiv.org/abs/2609.21109</link>
-      <guid isPermaLink="false">arxiv:2609.21109</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Recent advances in large language models have improved their effectiveness as back-end components for voice assistants, particularly in intent understanding and context-aware input classification. However, online-hosted models introduce network dependency and variable inference latency, limiting their suitability for time-critical autonomous driving applications. In this work, we address these issues by developing Jarvis, an offline voice assistant for high-level behavioral commands of autonomou</description>
+      <title>Action-Slot: Structured Action-Centric Representation Learning for Multi-Agent Atomic Activity Understanding</title>
+      <link>https://arxiv.org/abs/2609.24127</link>
+      <guid isPermaLink="false">arxiv:2609.24127</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>Atomic activity understanding aims to recognize and localize structured traffic behaviors that jointly encode motion patterns and their grounding in road topology. Unlike conventional action recognition, atomic activities are multi-agent, multi-label, and topology-aware: multiple activities co-occur while many agents remain inactive. We introduce Action-Slot, a structured action-centric representation learning framework. Slot attention is widely used for object-centric decomposition, but its per</description>
     </item>
     <item>
-      <title>Scaling Discovery through Test-Time Communication</title>
-      <link>https://arxiv.org/abs/2609.21032</link>
-      <guid isPermaLink="false">arxiv:2609.21032</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Science advances not in isolation but through collaboration, yet existing agentic systems capture little of this. Whether communicating agents help remains an open question with mixed prior results. We show that test-time communication can substantially outperform independent parallel attempts on challenging tasks, where sharing a breakthrough can push the whole group forward. We first study the effect of scaling multi-agent test-time communication, where agents have no predefined roles and comm</description>
+      <title>PAC-Bayesian Meta-Learning for Few-Shot Identification of Linear Dynamical Systems</title>
+      <link>https://arxiv.org/abs/2609.24117</link>
+      <guid isPermaLink="false">arxiv:2609.24117</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>Identifying linear time-invariant (LTI) dynamical systems is challenging when trajectories are short, noisy, or high-dimensional. Traditional system identification typically treats each system independently and cannot exploit shared structure across related systems. We propose PBML-LTI, a PAC-Bayesian meta-learning framework for few-shot LTI system identification that learns a transferable prior over task-specific dynamics while preserving task heterogeneity. Each task corresponds to an unknown </description>
     </item>
     <item>
-      <title>Towards Effective Visual-Inertial SLAM with Passive-Only Sensors for Low-Cost Autonomous Underwater Vehicles</title>
-      <link>https://arxiv.org/abs/2609.21015</link>
-      <guid isPermaLink="false">arxiv:2609.21015</guid>
-      <pubDate>2026-09-17</pubDate>
-      <description>Improvements to Visual-Inertial Simultaneous Localization and Mapping (VI-SLAM) for low-cost autonomous underwater vehicles (AUVs) are critical for transitioning advanced marine robotics from specialized labs to broader research and hobbyist applications. While high-end AUVs typically rely on expensive sensor suites - such as Doppler Velocity Logs (DVLs) and Ultra-Short Baseline (USBL) systems - this work demonstrates that robust, high-quality navigation is achievable using a sub-$10, 000(USD) p</description>
+      <title>A Task-Oriented Multi-Agent Framework for Complex Wearable Health Analysis</title>
+      <link>https://arxiv.org/abs/2609.24107</link>
+      <guid isPermaLink="false">arxiv:2609.24107</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>Wearable health questions often combine data retrieval, longitudinal analysis, and health advice over structured records. Prompting a single large language model with a complete record and a composite query obscures whether every request is executed and which evidence supports the answer. We propose a task-oriented multi-agent framework that represents a composite query as distinct intents and typed tasks with explicit intra-intent dependencies. Specialized agents execute retrieval, analysis, an</description>
+    </item>
+    <item>
+      <title>Synthesizing Reactive Character Behaviors for Continuous Games via Programmatic Policy Search</title>
+      <link>https://arxiv.org/abs/2609.24025</link>
+      <guid isPermaLink="false">arxiv:2609.24025</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>We present a method for synthesizing reactive character behaviors for continuous games as compact, human-readable programs. Game AI practice still relies heavily on manually authored behavior trees, state machines, and scripts, while academic reinforcement learning typically produces opaque neural controllers that are expensive to train and difficult to edit. Our approach bridges this gap by searching directly over a domain-specific language for continuous-space game policies. The language is de</description>
+    </item>
+    <item>
+      <title>FinsSim: A Reality-Aligned Integrated Simulation Platform for Underwater Robot Learning</title>
+      <link>https://arxiv.org/abs/2609.23943</link>
+      <guid isPermaLink="false">arxiv:2609.23943</guid>
+      <pubDate>2026-09-20</pubDate>
+      <description>Underwater robot learning relies on simulators that integrate high-fidelity hydrodynamics, convenient learning interfaces, and a credible transition to real scenarios. In this work, we present FinsSim, a reality-aligned integrated simulation platform for Sim-to-Real underwater robot learning. FinsSim first constructs high-fidelity simulation with selectable backends to adapt to diverse requirements. To facilitate underwater robot research, it further offers standard control baselines, alongside </description>
+    </item>
+    <item>
+      <title>Connecting the Dots in Agentic AI Security: A Cross-Dimensional Threat Taxonomy, Evaluation Maturity, and Open Challenges</title>
+      <link>https://arxiv.org/abs/2609.23894</link>
+      <guid isPermaLink="false">arxiv:2609.23894</guid>
+      <pubDate>2026-09-20</pubDate>
+      <description>Agentic AI extends LLM security beyond generated content to persistent state, autonomous actions, tool use, and interactions with humans and other agents. Existing threat classifications often emphasize individual dimensions, obscuring connections among entry points, affected components, and security consequences. The known threat landscape also differs from the coverage demonstrated by empirical research. Through a structured review of 66 studies published from 2022 to 2026, we introduce T={S, </description>
     </item>
   </channel>
 </rss>
