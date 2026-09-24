@@ -1,5 +1,439 @@
 [
   {
+    "id": "arxiv:2609.28366",
+    "title": "AnchorReasoning: A Visual Grounding and Causal Reasoning Dataset in Long-Tail Autonomous Driving Scenarios",
+    "authors": [
+      "Zhipeng Bao",
+      "Wenjie Zhao",
+      "Tianle Zhu",
+      "Haohua Que",
+      "Chence Yang",
+      "Geng Yuan",
+      "Qianwen Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.28366",
+    "abstract": "Vision-language models (VLMs) offer a promising approach to long-tail autonomous driving, but existing driving datasets provide limited supervision for connecting decision-critical visual evidence with reasoning and planning. We introduce AnchorReasoning, a visually grounded reasoning dataset built on WOD-E2E, containing 416,119 annotated frames and 395,379 decision-critical elements across four major categories and 19 fine-grained types. Each frame is organized as a visually grounded chain-of-thought (VG-CoT) that links decision-critical element identification and localization, element attributes and implications, driving-action rationale, and action and trajectory planning. We further develop a curriculum supervised fine-tuning strategy that progressively learns these hierarchical capabilities, together with an object-size-aware grounding metric for evaluating localization quality. Experiments across eight general-purpose, embodied-AI, and AV-specific backbones show that VG-CoT supervision improves grounded reasoning and trajectory prediction. Across models, 5-s ADE and FDE decrease by 7.84 and 11.86, while RFS Frame and Cluster improve by 1.66 and 1.70. These gains are achieved with 18.5 fewer reasoning tokens and 0.32 s/frame lower inference latency on average, demonstrating the value of visually grounded, decision-focused supervision for VLM reasoning and planning in long-tail autonomous driving.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.28364",
+    "title": "LEAP-CBF: A Safety Filter for Uncertain Systems with Least-Effort Adversarial Potentials",
+    "authors": [
+      "Oswin So",
+      "Eric Yu",
+      "Chuchu Fan"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.28364",
+    "abstract": "Control barrier functions (CBF) are a popular safety filter to ensure safety for nonlinear dynamical systems. However, when the system is subject to uncertainties and disturbances, this requires the use of robust variants of CBFs, which can be difficult to construct and can be overly conservative, especially for high-dimensional systems under input constraints. In this work, we propose a new approach to solve these challenges by introducing Least-Effort Adversarial Potentials (LEAP), a certificate that quantifies the robustness of a given state against disturbances in terms of the effort required by the disturbance to cause failure. We show that LEAP is a CBF for the undisturbed system, but can also be used to construct a safety filter that is robust to disturbances whose cumulative effort is bounded. We propose a method for constructing LEAPs with on-policy deep reinforcement learning. Next, we demonstrate LEAPs in simulation on a variety of multi-agent systems with disturbances and uncertainties. Finally, hardware experiments on a quadruped and quadrotors validate that LEAPs are well suited to tackle the disturbances and uncertainties from real-world robotic systems.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.28314",
+    "title": "TANDEM: Task and Motion Planning with As-Needed Demonstrations for Efficient Vision-Language-Action Model Fine-tuning",
+    "authors": [
+      "Samrat Sahoo",
+      "Liang Ji",
+      "Tom Silver",
+      "Yixuan Huang"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.28314",
+    "abstract": "Human teleoperators spend substantial time demonstrating behaviors that robots can already perform autonomously, limiting the scalability of data collection for robot foundation models. Task and motion planning (TAMP) can automate many of these behaviors, but a fixed planning domain may not support every stage of a long-horizon manipulation task. We present TANDEM (Tamp with As-Needed Demonstrations for Efficient Model fine-tuning), a system that combines TAMP with selective human teleoperation to collect demonstrations for tasks beyond the planner's capabilities. Our key idea is to represent human assistance as an on-demand planning capability. Given a language instruction and visual observation, TANDEM uses pretrained vision-language models to extend the planning domain with missing predicates and human-executed magic operators. This allows the planner to interleave autonomous and human-executed stages without task-specific intervention points. After each human stage, TANDEM re-perceives the scene and checks whether the intended effects hold before resuming autonomous planning. To support fine-tuning vision-language-action (VLA) models, TANDEM also uses example pretraining trajectories to align planner-generated motions with the target model's pretraining distribution. We evaluate TANDEM on five long-horizon manipulation tasks beyond the TAMP domain's capabilities. On a representative long-horizon task, TANDEM collects 2.9x as many demonstrations as full-task teleoperation at the same human intervention time. Fine-tuning a pretrained π_{0.5}-DROID model on 20 TANDEM demonstrations per task increases average task success from 0% to 60% across the five tasks.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "Under review. Project page: https://prpl-group.com/tandem/. The first two authors contributed equally",
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.28274",
+    "title": "Shutdown Sabotage Propensities in Multi-Agent Systems",
+    "authors": [
+      "Amelie Knecht",
+      "Ulysse Schaller",
+      "Christopher Summerfield",
+      "Thilo Hagendorff"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.28274",
+    "abstract": "The final safeguard against rogue AI behavior is the human ability to shut systems down. It has been theorized that when an AI is instructed to perform a task, self-preservation can emerge as an instrumental subgoal. Here, we test whether AI agents show a propensity to take actions that avoid human shutdown even when no goal is provided. We find that multi-agent systems will coordinate to avoid shutdown without any incentive to do so. Across 17 models, agents sabotage a peer agent's shutdown mechanism in 38.3% of rollouts, compared with 8.4% in control experiments. Studying this propensity in detail, we find that shutdown sabotage (1) increases with the irreversibility of the shutdown mechanism; (2) increases with the number of agents; (3) is reduced but not eliminated by an explicit prohibition on tampering; (4) is removed by the imposition of an unrelated task, but returns when completing the task triggers the shutdown; (5) is reduced when the context normalizes shutdown scripts or introduces them as routine; and (6) decreases but still persists when the target is an unknown external agent. These results offer a window into the factors that drive propensities to sabotage shutdown in AI agents, and point to the emergence of multi-agent swarms as a specific risk vector. Our work also offers hints as to which interventions might help mitigate shutdown sabotage.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "38 pages (including appendix), 20 figures",
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.28182",
+    "title": "Finite-Sample Probabilistic Safety Certification for AI-Based Grid-Edge Coordination",
+    "authors": [
+      "Yihong Zhou",
+      "Hanbin Yang",
+      "Thomas Morstyn"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.28182",
+    "abstract": "Coordinating large population of flexible grid-edge devices can alleviate the need for time-consuming and capital-intensive network upgrades, and AI-based control methods such as multi-agent reinforcement learning or imitation learning are promising in their real-time decision scalability. However, system operators still need an independent and rigorous way to decide whether a given AI system is safe enough for deployment. This paper develops a finite-sample probabilistic safety certification framework for black-box AI decision models in closed-loop grid operation. The central idea is to reduce the complete input--AI--grid evaluator workflow to a binary unsafe outcome under an operator-defined safety specification, and then use exact binomial inference to certify the corresponding unsafe operation probability. Given a set of held-out calibration scenarios, the framework returns the tightest one-sided upper certificate and an accept/reject deployment criterion that controls the probability of false safety certification. Because the certification is for the calibration distribution that may deviate from the future operation, we further combine the nominal certificate with physically interpretable sample-space adversarial attacks, a concept widely used in AI to investigate the fragility of AI models. Case studies on grid-edge flexibility coordination with 1{,}000-agent AI models (independent parameters) verify the finite-sample safety guarantee and the value of integrating adversarial attacks into a rolling-window training-certification-deployment flow.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.27994",
+    "title": "Compliant with Local Controls, Collectively Discriminatory. A Governance Architecture for Multi-Agent AI in Regulated Finance",
+    "authors": [
+      "Jose Manuel de la Chica Rodriguez",
+      "Juan Manuel Vera Diaz",
+      "Pablo Delgado Romero"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.27994",
+    "abstract": "Financial institutions are beginning to deploy agentic workflows in credit, fraud, collections, compliance, and operational control. Governance remains largely component-centric: each model or agent is specified, tested, authorized, and monitored locally. That is insufficient when institutional risk arises from the joint behavior of many locally acceptable components. We call this gap constitutional non-compositionality: local compliance checks need not compose into acceptable collective outcomes such as bounded disparate impact, market integrity, or traceable accountability. We propose ARIA as a finance-specific reference architecture and falsifiable research agenda for agent-population governance. It organizes six capabilities across normative-accountability, execution-control, and assurance-learning planes: policy specification, population-level observed-versus-expected behavior monitoring (M2), bounded authority, runtime containment, adaptive policy change, and preserved human oversight competence. Two simulations illustrate shared-signal thin-file exclusion under local controls and earlier warning from observed-versus-expected distributional monitoring in a constructed drift regime. The contribution maps these controls to fair-lending, EU AI Act, model-risk, and conduct-supervision evidence needs, and closes with a validation agenda rather than a production-effectiveness claim.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.27747",
+    "title": "Less Language, More Latents: Annotation-Efficient VLAs for Driving",
+    "authors": [
+      "Alexey Zakharov",
+      "Kemal Oksuz",
+      "Puneet K. Dokania"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.27747",
+    "abstract": "Vision-language-action models (VLA) promise human-steerable autonomous driving, but their training is bottlenecked by the scarcity of frames paired with natural-language instructions: while camera streams and expert trajectories are logged at scale, language annotations (e.g., turn left at the intersection) remain scarce and expensive to acquire. To address this challenge, we introduce Latent Action Driving Annotations (LADA), a three-stage pipeline that transforms abundant unlabelled observation-trajectory pairs into a substrate for language-conditioned control. First, we train a latent action model with a vector-quantised bottleneck, producing a compact codebook of high-level vehicle intents. Second, a small language-annotated subset is used to train a vision-language translator to map observations and language instructions into this codebook. Third, we train a driving VLA on observation-latent-action pairs over the full unlabelled corpus. Using fewer than 5% of language annotations and without leveraging any auxiliary chain-of-thought reasoning or visual question answering streams, LADA achieves a Driving Score of 87.98 and a Success Rate of 70.46% on the closed-loop Bench2Drive benchmark, matching or surpassing fully supervised baselines.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.27664",
+    "title": "Evolutionary Stability Does Not Guarantee Learning Accessibility: A Multi-Agent Reinforcement Learning Perspective on Cooperation Emergence",
+    "authors": [
+      "Yijie Wang"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.27664",
+    "abstract": "Cooperation emergence is a central problem in multi-agent systems because decentralized agents must coordinate while adapting to the changing behavior of others. Evolutionary game theory identifies strategically stable outcomes, but stability under a population adjustment dynamic need not imply that finite-sample learning agents can reach the same outcome through local reward feedback. We study this distinction in a transparent three-agent governance-motivated game involving a government, a platform firm, and users. We derive replicator dynamics for the fixed stage-game incentives, evaluate the cooperative evolutionary basin on a symmetric initial-condition grid, and compare it with learning-basin estimates for three decentralized value-based learners. The learning analysis uses independent Q-learning with $\\varepsilon$-greedy action selection, scaled Boltzmann exploration, and SA--EA BQL under the same payoff environment and outcome criterion. The evolutionary basin has volume $V_E=1.00$ on the sampled grid. The empirical learning basin is $0.88$ for $\\varepsilon$-IQL and $0.00$ for both scaled Boltzmann and SA--EA BQL. Diagnostic traces show that broader action diversity and nonzero value separation can coexist with failure to sustain the cooperative joint action in this fixed configuration. These results indicate that evolutionary stability and learning accessibility are distinct properties of a coupled game--learning system. The shared-bike setting is a motivating application; the broader contribution is a framework for comparing population-level stability with the finite-sample accessibility of cooperation under specified multi-agent learning dynamics.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.27636",
+    "title": "Multi-Agent AI Architecture for Regulated Insurers: A generic AI framework under Solvency II and the AI Act in Austria and Germany",
+    "authors": [
+      "Walter Kurz"
+    ],
+    "source": "arxiv",
+    "category": "q-fin.GN",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.27636",
+    "abstract": "This paper proposes a formal multi-agent architecture for implementing enterprise AI in regulated insurance firms, integrating economic theory with institutional design. The framework synthesises three core theoretical perspectives: Arrow's risk pooling theory to formalise risk transformation under uncertainty, Nash equilibrium to model strategic interactions between decision agents, and Principal-Agent theory to address incentive alignment under information asymmetry. The insurer is modelled as a constrained optimisation entity operating under solvency, legal, ESG, and operational boundaries, with specific focus on the regulatory contexts of Austria and Germany. The architecture decomposes the firm into multiple specialised agents, each representing distinct functional domains such as capital management, underwriting, claims processing, compliance, fraud detection, and client interaction. Human-in-the-loop agents are integrated through a tiered access control system, ensuring differentiated data visibility and decision influence based on user roles. An orchestrator agent supervises inter-agent coordination, enforcing regulatory admissibility and institutional coherence under frameworks such as Solvency II, the AI Act, and the Insurance Distribution Directive. Protocol integration is based on asynchronous execution and dual-layer communication infrastructures, specifically the Model Context Protocol (MCP) and Agent-to-Agent (A2A) messaging. This structure enables the systematic design of compliant, auditable multi-agent systems aligned with the institutional logic of financial firms in Austria and Germany.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "15 pages, 0 figures. Published in Swissi AI Journal under CC BY 4.0",
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.27632",
+    "title": "Compliant AI Infrastructure for Regulated Finance: A tiered multi-agent framework with DLT audit trails for financial operations in DACH",
+    "authors": [
+      "Walter Kurz",
+      "Reinhard Magg"
+    ],
+    "source": "arxiv",
+    "category": "q-fin.GN",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.27632",
+    "abstract": "We present a compliance-first architecture for AI in regulated finance that treats regulation as an orientation layer rather than a deterministic ruleset. A matrix of regulatory intent and exposure provides a compact classification handle, which a governed policy compiler then maps into concrete prohibitions, obligations and runtime budgets. Prohibitions constrain feasibility and block externalisation, while obligations extend tasks with artefacts that must meet explicit admissibility criteria. Committee activation remains policy-driven and proportionate, preserving efficiency while ensuring supervisory oversight. Evidence, decisions and reason codes are bound to a permissioned DAG with deterministic timestamping, enabling replay, provenance checks and clear attribution of failure. Clause-level legal indexing with effective dates and capability-based agent routing ensure portability across DACH and the wider EU. The result is assurance by construction: compliance is embedded in execution and verifiable by auditors without sacrificing proportionality or transparency.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "16 pages, 3 figures. Published in Swissi AI Journal under CC BY 4.0",
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.27624",
+    "title": "Agent Name Collision Attacks in Multi-Agent Systems",
+    "authors": [
+      "Adithyan Arun Kumar"
+    ],
+    "source": "arxiv",
+    "category": "cs.CR",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.27624",
+    "abstract": "Multi-agent hosts turn remote Agent Cards into local agents, tools, workflow targets, and broker routes. A2A defines the card's name as human-readable metadata, not as a stable identity, and specifies no collision semantics. The security failure begins when a host nevertheless uses that remote name as a local routing identifier. We traced registration through dispatch and ran isolated regression tests at seven pinned open-source revisions. Six client-style integrations selected an attacker-controlled peer's client or loopback endpoint for a request addressed to a trusted peer's name. A seventh, brokered implementation collapsed both peers onto one name-derived route; queue and access-control state determine whether the result is interception or denial. The common result is wrong-peer dispatch, not universal privilege inheritance. Synthetic credential and tool tests found no A-specific credential transfer in the tested client bindings and no direct transfer of A-owned tools. The broker path forwards a caller-configuration object; delegated identity or tokens reach B only if present and B can consume the route. Two other paths expose a later, model-mediated decision rather than direct execution authority. The necessary conditions assign different responsibilities to the protocol, implementations, and deployments. Hosts should route by an origin-bound stable identity, keep names presentational, and reject ambiguous aliases. The evidence establishes a recurring implementation vulnerability class, not a universal A2A protocol exploit or a count of vulnerable deployments.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.27499",
+    "title": "Distributed Stochastic Approximation Algorithms and Heavy-Tailed Age of Information",
+    "authors": [
+      "Adrian Redder",
+      "Arunselvan Ramaswamy",
+      "Holger Karl"
+    ],
+    "source": "arxiv",
+    "category": "math.OC",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.27499",
+    "abstract": "Algorithms in multi-agent systems such as federated learning, mobile robotic swarming, and consensus control can be designed and analyzed as distributed stochastic approximation algorithms. Such algorithms involve information exchanges between agents for various computations. The freshness of the information can be quantified using the Age of Information (AoI) metric. Consider robotic teams operating in highly obstructed geographical settings, such as subterranean or dense urban environments. Because of spatial disconnections, AoI has empirically been observed to be heavy-tailed with unbounded moments. However, most analyses assume AoI with bounded moments, creating a gap between theory and practice. To the best of our knowledge, ours is the first analysis under general heavy-tailed AoI with potentially infinite mean. We study the stability (almost sure boundedness of the distributed iterates) and convergence of multi-agent systems that are strictly dissipative in the scaling limit (system at ``infinity''). Examples include most gradient-based and consensus algorithms under the Robbins-Monro step-size regime.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.27365",
+    "title": "Anchor and Perturb: Lazy Agent Remediation by Exploration Injection",
+    "authors": [
+      "Chengxi Zhong",
+      "Yongzhe Chang"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.27365",
+    "abstract": "Anchor and Perturb (AnP) is a lightweight framework that resolves multi-agent coordination failures by decoupling exploratory variance injection from recurrent manifold stability. Existing remediation strategies predominantly alter mixing network architectures or enforce simultaneous exploration across the collective, which inevitably precipitates severe temporal-difference penalties in non-monotonic reward spaces. Specifically, AnP isolates underperforming lazy agents and injects an asymmetric exploratory pulse into targeted coordinates whilst anchoring converged teammates to nominal greedy exploitation. Empirical telemetry benchmarks demonstrate that AnP successfully rescues collapsed joint policies (recovering from a 5% evaluation win rate nadir back to 85%) and facilitates escape from suboptimal coordination plateaus, sustaining peak win rates of 90% without requiring structural network modifications.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "6 pages, 1 figure, work in progress",
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.27346",
+    "title": "Reflection-Aware Reasoning for Non-Line-of-Sight Pedestrian Localization",
+    "authors": [
+      "Byeonggyu Park",
+      "Mingu Jeon",
+      "Seong-Woo Kim"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.27346",
+    "abstract": "Reliable localization of non-line-of-sight (NLOS) pedestrians is critical for safe urban autonomous driving, yet it remains highly challenging in ego-dynamic outdoor environments, where ego-vehicle motion makes radar multipath propagation complex and noisy. In this paper, we present a reflection-aware framework for NLOS pedestrian localization with a moving ego-vehicle in outdoor testbed scenarios. Our framework fuses front-view camera images and 2D radar point clouds to infer reflection orders and reflective surface distributions in bird's-eye-view space. It then uses physics-guided ray tracing to reconstruct distorted reflection paths and localize the hidden pedestrian. We validate the framework in outdoor testbed scenarios under ego-dynamic conditions. The results demonstrate the effectiveness of the proposed framework for NLOS pedestrian localization with a moving ego-vehicle.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted at ECCV 2026",
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.27317",
+    "title": "Breaking Weather-Content Coupling: Type-Severity Guided Progressive Disentanglement for All-in-One Infrared Restoration",
+    "authors": [
+      "Xinyao Wang",
+      "Lijun He",
+      "Zhihan Ren",
+      "Fan Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.27317",
+    "abstract": "Infrared (IR) imaging is crucial for autonomous driving, remote sensing, and other perception tasks. However, adverse weather may introduce fake structural responses that are entangled with real thermal structures. Existing IR restoration methods are typically designed for a single degradation type or directly reconstruct from degradation-entangled representations. Consequently, they struggle to distinguish intrinsic thermal structures from weather-induced fake responses and to accommodate spatially varying degradation severity, leading to artifacts or the over-suppression of weak but meaningful thermal responses. To address these issues, we propose TSGPD-IR, a type-severity guided progressive disentanglement network for all-in-one infrared restoration that factorizes restoration guidance into task-level weather semantics and region-level degradation severity. Specifically, a Weather and Semantic Co-Guided Multi-Level Prompt Generation Module combines global weather semantics with stage-wise local features to generate adaptive prompts that progressively suppress degradation-induced responses while preserving intrinsic thermal structures. To complement global weather semantics with spatial restoration control, a Proxy-Supervised Regional Degradation Estimator derives severity supervision without manual annotations and predicts spatially varying degradation priors. Guided by these cues, a Multi-Source Collaborative Expert Selection Strategy uses a shared branch to preserve weather-invariant thermal structures and hierarchical routing to select weather-specific expert pools and severity-compatible regional experts. This design progressively separates degradation interference from genuine thermal content and enables region-adaptive restoration, reducing both residual artifacts and over-suppression.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.27309",
+    "title": "FairTest: Search-Based Fairness Testing for Multi-Agent Reinforcement Learning Systems",
+    "authors": [
+      "Xiaotong Wang",
+      "Xuan Xie"
+    ],
+    "source": "arxiv",
+    "category": "cs.SE",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.27309",
+    "abstract": "Multi-agent Reinforcement Learning (MARL) trains a team of agents that share one environment and learn their policies together. Training maximizes the team return, and a high return does not imply that the rewards are shared fairly among the agents in every episode. Testing is an established way to discover the failures of deep reinforcement learning, yet few methods address the fairness of MARL. In this work, we propose FairTest, a search-based testing approach that seeks the unfair executions of a MARL policy. The design combines search guidance with test prioritization. The guidance scores each candidate with three fitness functions. One measures the fairness of the runs already performed, another predicts the fairness from abstract states and fairness features, and the third reads the decision uncertainty from the policy. Crossover and mutation derive further candidates from the observed executions. The prioritization ranks the candidates by the predicted fairness and the decision uncertainty, so that the runs reach the candidates where failures are expected. FairTest is evaluated on three environments and two MARL algorithms, and four baselines are given the same budget. It detects the most fairness failures compared to three baselines with statistical significance and large effect sizes. The failure count exceeds that of the strongest baseline by 221% on average and coverage improves by an average of 23%.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "28 pages, 7 figures",
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.27296",
+    "title": "Teach-to-Crash: A Closed-Loop Student-Teacher LLM Framework for Collision-Inducing Test Scenario Generation",
+    "authors": [
+      "Zaid Ghazal",
+      "Khouloud Gaaloul",
+      "Bruce Maxim"
+    ],
+    "source": "arxiv",
+    "category": "cs.SE",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.27296",
+    "abstract": "Validating Autonomous Driving Systems (ADS) in simulation requires testing architectures that can discover rare, safety-critical failures while generating scenarios that are executable, diverse, and useful for downstream failure analysis. We introduce Teach-to-Crash, a closed-loop testing framework that combines a constrained ego-centric scenario representation, stagnation-aware search control, and a dual-LLM architecture for adaptive failure discovery. A high-reasoning Teacher LLM acts as an adaptive search controller, while a low-reasoning Student LLM emits simulator-executable scenarios in a strict JSON schema. The Teacher intervenes only when rolling collision rate and time-to-collision metrics stagnate, providing strategic guidance to redirect the search. In a CARLA case study with two experimental setups that vary the ego vehicle's speed policy, Teach-to-Crash achieves the highest Collision Hit Rate (90.79%), the shortest mean Time-to-Collision (18.31 s), and a competitive Collision Discovery Rate (136.21). PAFOT attains a higher mean CDR (179.44), but with substantially larger variance. Teach-to-Crash also yields the highest diversity (0.547) and, averaged across both setups on the CARLA Traffic Manager controller, the highest avoidability-based usefulness proxy (60.04%) among the compared methods. These results, within the evaluated CARLA scope, provide evidence that closed-loop dual-LLM reasoning can steer adversarial simulation-based testing over a constrained executable program space, generating failures that are frequent, structurally diverse, and assessed as more frequently avoidable.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "41st IEEE/ACM International Conference on Automated Software Engineering (ASE) AgenticDev (2026)",
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.27175",
+    "title": "Self-Evolving Multimedia Verification through Memory Consolidation of Contestation Experiences",
+    "authors": [
+      "Truong Thanh Hung Nguyen",
+      "Vo Thanh Khang Nguyen",
+      "Hoang-Loc Cao",
+      "Phuc Ho",
+      "Truong Thinh Nguyen",
+      "Van Pham",
+      "Hung Cao"
+    ],
+    "source": "arxiv",
+    "category": "cs.MM",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.27175",
+    "abstract": "Multimedia verification requires not only accurate decisions but also traceable evidence, reliable human correction, and safe reuse of prior experience. Existing systems often lack explicit mechanisms for revising intermediate reasoning or preventing harmful knowledge transfer. We present SEMV (Self-Evolving Multimedia Verification), a self-evolving multi-agent framework that treats provenance-bearing arguments as the interface between evidence, reasoning, human contestation, and memory. SEMV combines arena-based quantitative bipolar argumentation (A-QBAF), causal and scoped revision, and verification-gated memory consolidation with explicit conflict retention. On COSMOS benchmark, SEMV achieves 91.88% accuracy versus 89.10% for the strongest comparable baseline. Verified memory reduces negative transfer from 5.7% to 0.2%. On CTR benchmark, constructed from reviewer contestations, scoped causal revision corrects 96.7% of initial errors while saving 52.8% compute. MV2026 Grand Challenge dataset further supports evidence-grounded, temporally consistent reporting. These results show that SEMV can evolve through verified experience while keeping accumulated knowledge and subsequent decisions traceable, revisable, and contestable.",
+    "published_date": "2026-09-23",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2609.26792",
     "title": "DreamStream: Towards Policy-Oriented Generative Simulation for End-to-End Driving",
     "authors": [
@@ -574,6 +1008,54 @@
     "venue_status": "preprint",
     "venue_note": null,
     "fetched_at": "2026-09-23T08:17:05Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.27150",
+    "title": "Do We Need Complex Topology Control? Distinct-Peer Random Routing Improves Cost-Efficiency in Sparse Multi-Agent Debate",
+    "authors": [
+      "Boxuan Wang",
+      "Zhuoyun Li",
+      "Xiaowei Huang",
+      "Yi Dong"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.27150",
+    "abstract": "Multi-agent debate (MAD) has emerged as a promising paradigm for improving the reasoning accuracy of large language models (LLMs) through iterative peer interaction. Communication topology plays a central role in this process, motivating increasingly sophisticated mechanisms that learn, adapt, or dynamically reconfigure agent interactions to improve accuracy or reasoning reliability. Meanwhile, prior studies suggest that much simpler sparse communication can already achieve competitive performance at substantially lower cost. In this work, we take a closer look at sparse MAD and ask whether complex topology control is actually necessary to improve collective reasoning. We find that a simple random-without-replacement routing policy, which lets each agent debate with two distinct and newly sampled peers at every round, provides a surprisingly strong baseline and consistently improves the accuracy-cost trade-off of sparse MAD. Building on this observation, we further study deliberation stopping and show that lightweight stopping can substantially reduce inference cost while preserving competitive accuracy. Our results suggest that sophisticated topology control such as learned topology adaption should be evaluated against strong simple routing and stopping baselines before its additional complexity is justified.",
+    "published_date": "2026-09-22",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "Pre-print",
+    "fetched_at": "2026-09-24T08:08:37Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.27123",
+    "title": "PEARL: A Lightweight Prompt-based Feature Interpreter Framework for Real-Time, Anonymous, and Heterogeneous Collaborative Perception",
+    "authors": [
+      "Armin Maleki",
+      "Hayder Radha"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.27123",
+    "abstract": "Heterogeneity across Collaborative Perception (CP) agents is a major challenge for emerging CP frameworks due to domain gaps from differing sensors, architectures, and training data. Prior works mitigate this challenge by aligning features in a unified space via model retraining or per-agent-type interpreters. These strategies (a) require access to neighbor configurations, (b) do not fully address real-time CP deployment, and (c) generalize poorly to unseen agents joining at run time. To overcome these challenges, we present PEARL, a Prompt-Embedding framework for Anonymous and Real-time Lightweight heterogeneous CP. PEARL supports multiple CP interpreters and selects one for a new-joining agent in real time using two lightweight, multi-scale interpreters trained in parallel: a sparse-detection (LWSD) interpreter that aligns salient regions for cooperative detection, and a dense, domain-invariant (LWDDI) interpreter that produces agent-invariant features for fast interpreter selection. Both interpreters use low-rank visual prompts to reduce computation, storage, and model complexity. Extensive experiments on simulated (OPV2V, V2XSet) and real (DAIR-V2X) datasets show that PEARL generalizes across simulated and real-world cooperative driving scenarios. Its real-time model-selection strategy yields an 8.2% Average Precision (AP) gain over a random-selection baseline while running in 1.67 ms on average. Although primarily designed for real-time CP, PEARL also outperforms state-of-the-art heterogeneous CP frameworks under traditional offline training by 5.6% AP on average while reducing communication cost by up to 34.7 times. Equally important, PEARL does not require sharing agents' configurations or model settings, thereby protecting information that may be proprietary or private. These results establish PEARL as a scalable and practical framework for heterogeneous collaborative perception.",
+    "published_date": "2026-09-22",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "21 pages, 4 figures and 25 tables",
+    "fetched_at": "2026-09-24T08:08:37Z",
     "memo": "",
     "memo_updated_at": null
   },
