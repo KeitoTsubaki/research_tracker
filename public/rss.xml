@@ -4,146 +4,146 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Thu, 24 Sep 2026 08:08:37 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 08:31:57 GMT</lastBuildDate>
     <item>
-      <title>AnchorReasoning: A Visual Grounding and Causal Reasoning Dataset in Long-Tail Autonomous Driving Scenarios</title>
-      <link>https://arxiv.org/abs/2609.28366</link>
-      <guid isPermaLink="false">arxiv:2609.28366</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>Vision-language models (VLMs) offer a promising approach to long-tail autonomous driving, but existing driving datasets provide limited supervision for connecting decision-critical visual evidence with reasoning and planning. We introduce AnchorReasoning, a visually grounded reasoning dataset built on WOD-E2E, containing 416,119 annotated frames and 395,379 decision-critical elements across four major categories and 19 fine-grained types. Each frame is organized as a visually grounded chain-of-t</description>
+      <title>Coding Agents for Generalized Task and Motion Planning Problems</title>
+      <link>https://arxiv.org/abs/2609.30233</link>
+      <guid isPermaLink="false">arxiv:2609.30233</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalized TAMP addresses this difficulty by exploiting regularities across problem instances to reduce planning effort on new instances. However, existing methods require substantial TAMP-specific engineering. We investigate whether coding agents can automate this process by synthesizing</description>
     </item>
     <item>
-      <title>LEAP-CBF: A Safety Filter for Uncertain Systems with Least-Effort Adversarial Potentials</title>
-      <link>https://arxiv.org/abs/2609.28364</link>
-      <guid isPermaLink="false">arxiv:2609.28364</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>Control barrier functions (CBF) are a popular safety filter to ensure safety for nonlinear dynamical systems. However, when the system is subject to uncertainties and disturbances, this requires the use of robust variants of CBFs, which can be difficult to construct and can be overly conservative, especially for high-dimensional systems under input constraints. In this work, we propose a new approach to solve these challenges by introducing Least-Effort Adversarial Potentials (LEAP), a certifica</description>
+      <title>ReVAMP: Vector-Accelerated Motion Planning for Kinematically-Constrained Systems via Reparameterization</title>
+      <link>https://arxiv.org/abs/2609.30213</link>
+      <guid isPermaLink="false">arxiv:2609.30213</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>Robots often must satisfy one or more constraints during motion planning for real-world tasks. When such constraints reduce the valid configuration space to a measure-zero subset, sampling based planning algorithms require modifications to draw feasible samples. For many common end-effector constraints, parameterizations built on inverse kinematics (IK) provide an alternate formulation where the constraints are satisfied by construction, allowing directly sampling the feasible set. Despite their</description>
     </item>
     <item>
-      <title>TANDEM: Task and Motion Planning with As-Needed Demonstrations for Efficient Vision-Language-Action Model Fine-tuning</title>
-      <link>https://arxiv.org/abs/2609.28314</link>
-      <guid isPermaLink="false">arxiv:2609.28314</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>Human teleoperators spend substantial time demonstrating behaviors that robots can already perform autonomously, limiting the scalability of data collection for robot foundation models. Task and motion planning (TAMP) can automate many of these behaviors, but a fixed planning domain may not support every stage of a long-horizon manipulation task. We present TANDEM (Tamp with As-Needed Demonstrations for Efficient Model fine-tuning), a system that combines TAMP with selective human teleoperation </description>
+      <title>Graph-Based Inference and Topology-Aware Multi-Agent Reinforcement Learning for Large-Scale Railway Network Management</title>
+      <link>https://arxiv.org/abs/2609.30150</link>
+      <guid isPermaLink="false">arxiv:2609.30150</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>Modern infrastructure asset management constitutes a complex sequential decision-making problem, characterized by long planning horizons and system-level interactions, such as spatial deterioration correlations and economies of scale. While deep reinforcement learning has shown promise in optimizing maintenance policies, scaling to real-world networks remains challenging. Centralized approaches become computationally intractable in large-scale systems, whereas decentralized approaches often fail</description>
     </item>
     <item>
-      <title>Shutdown Sabotage Propensities in Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2609.28274</link>
-      <guid isPermaLink="false">arxiv:2609.28274</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>The final safeguard against rogue AI behavior is the human ability to shut systems down. It has been theorized that when an AI is instructed to perform a task, self-preservation can emerge as an instrumental subgoal. Here, we test whether AI agents show a propensity to take actions that avoid human shutdown even when no goal is provided. We find that multi-agent systems will coordinate to avoid shutdown without any incentive to do so. Across 17 models, agents sabotage a peer agent's shutdown mec</description>
+      <title>KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization</title>
+      <link>https://arxiv.org/abs/2609.30059</link>
+      <guid isPermaLink="false">arxiv:2609.30059</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>Deep learning inference and training performance depends critically on GPU kernel efficiency. Modern compilers such as PyTorch Inductor automatically generate GPU kernels from high-level model code, but frequently underperform expert-written implementations by wide margins. Recent LLM-assisted kernel optimizers can close this gap for standalone kernels, yet treat compiled models as black boxes, generally optimizing individual standalone kernels without respecting the compiler's structural decisi</description>
     </item>
     <item>
-      <title>Finite-Sample Probabilistic Safety Certification for AI-Based Grid-Edge Coordination</title>
-      <link>https://arxiv.org/abs/2609.28182</link>
-      <guid isPermaLink="false">arxiv:2609.28182</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>Coordinating large population of flexible grid-edge devices can alleviate the need for time-consuming and capital-intensive network upgrades, and AI-based control methods such as multi-agent reinforcement learning or imitation learning are promising in their real-time decision scalability. However, system operators still need an independent and rigorous way to decide whether a given AI system is safe enough for deployment. This paper develops a finite-sample probabilistic safety certification fr</description>
+      <title>How does Adversarial Influence Scale in Multi-Agent Systems?</title>
+      <link>https://arxiv.org/abs/2609.30028</link>
+      <guid isPermaLink="false">arxiv:2609.30028</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>Multi-agent deliberation can improve performance, but what happens when some agents do not act in good faith? In practice, an agent may be deceptive and work to subvert the group, whether through its own objectives or external instruction. We study how susceptibility to deception scales as groups increase in size and deceivers become more prevalent. It is not the number of agents in the group that matters, but the proportion of deceivers. We observe that the defection rate, how often initially c</description>
     </item>
     <item>
-      <title>Compliant with Local Controls, Collectively Discriminatory. A Governance Architecture for Multi-Agent AI in Regulated Finance</title>
-      <link>https://arxiv.org/abs/2609.27994</link>
-      <guid isPermaLink="false">arxiv:2609.27994</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>Financial institutions are beginning to deploy agentic workflows in credit, fraud, collections, compliance, and operational control. Governance remains largely component-centric: each model or agent is specified, tested, authorized, and monitored locally. That is insufficient when institutional risk arises from the joint behavior of many locally acceptable components. We call this gap constitutional non-compositionality: local compliance checks need not compose into acceptable collective outcome</description>
+      <title>World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal</title>
+      <link>https://arxiv.org/abs/2609.29964</link>
+      <guid isPermaLink="false">arxiv:2609.29964</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>General-purpose vision-language models (VLMs) bring broad knowledge and spatial reasoning to robot manipulation, yet existing systems either use them indirectly, to predict constraints or write programs, or give them a view of the scene rather than a world in which to act. We present World Action Agent (WAA), a multi-agent harness through which VLMs pilot robots with basic tools, making every decision within a visual action workspace. The workspace has three properties. Contact views, selected a</description>
     </item>
     <item>
-      <title>Less Language, More Latents: Annotation-Efficient VLAs for Driving</title>
-      <link>https://arxiv.org/abs/2609.27747</link>
-      <guid isPermaLink="false">arxiv:2609.27747</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>Vision-language-action models (VLA) promise human-steerable autonomous driving, but their training is bottlenecked by the scarcity of frames paired with natural-language instructions: while camera streams and expert trajectories are logged at scale, language annotations (e.g., turn left at the intersection) remain scarce and expensive to acquire. To address this challenge, we introduce Latent Action Driving Annotations (LADA), a three-stage pipeline that transforms abundant unlabelled observatio</description>
+      <title>SplatLabel: Pseudo-Labelling through 4D Gaussian Splatting</title>
+      <link>https://arxiv.org/abs/2609.29836</link>
+      <guid isPermaLink="false">arxiv:2609.29836</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>While 2D Vision Foundation Models offer a pathway to automate 3D semantic pseudo-labelling, translating these priors into robust 3D representations typically requires complex heuristics or multi-model ensembles. We introduce SplatLabel, an automated pipeline that leverages a 4D Gaussian representation to extract LiDAR segmentation with predictive confidence, as well as semantic occupancy grids at arbitrary voxel resolutions. At its core, SplatLabel handles dynamic environments through an explici</description>
     </item>
     <item>
-      <title>Evolutionary Stability Does Not Guarantee Learning Accessibility: A Multi-Agent Reinforcement Learning Perspective on Cooperation Emergence</title>
-      <link>https://arxiv.org/abs/2609.27664</link>
-      <guid isPermaLink="false">arxiv:2609.27664</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>Cooperation emergence is a central problem in multi-agent systems because decentralized agents must coordinate while adapting to the changing behavior of others. Evolutionary game theory identifies strategically stable outcomes, but stability under a population adjustment dynamic need not imply that finite-sample learning agents can reach the same outcome through local reward feedback. We study this distinction in a transparent three-agent governance-motivated game involving a government, a plat</description>
+      <title>Retrieve-to-Localize: Bridging Large Language Models and LiDAR Geometry for Spatial Grounding</title>
+      <link>https://arxiv.org/abs/2609.29835</link>
+      <guid isPermaLink="false">arxiv:2609.29835</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>LiDAR provides precise geometric information for spatial perception tasks such as object detection in autonomous driving and outdoor robotics. However, recognizing and localizing individual objects is not sufficient to answer questions that require composing spatial relations and grounding the intended target. Motivated by recent advances in large language models (LLMs) for autonomous driving, we leverage their language priors to interpret complex spatial questions and ground the referred target</description>
     </item>
     <item>
-      <title>Multi-Agent AI Architecture for Regulated Insurers: A generic AI framework under Solvency II and the AI Act in Austria and Germany</title>
-      <link>https://arxiv.org/abs/2609.27636</link>
-      <guid isPermaLink="false">arxiv:2609.27636</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>This paper proposes a formal multi-agent architecture for implementing enterprise AI in regulated insurance firms, integrating economic theory with institutional design. The framework synthesises three core theoretical perspectives: Arrow's risk pooling theory to formalise risk transformation under uncertainty, Nash equilibrium to model strategic interactions between decision agents, and Principal-Agent theory to address incentive alignment under information asymmetry. The insurer is modelled as</description>
+      <title>S2Planner: Multi-Scale Semantic Planner for End-to-End Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2609.29813</link>
+      <guid isPermaLink="false">arxiv:2609.29813</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>We present S2Planner, a trajectory planner that combines three front-facing cameras with ego-motion history and the current driving command. A fine-tuned DINOv3 backbone and a Spatial Tuning Adapter produce multi-scale image features; a coarse-to-fine decoder then uses trajectory self-attention and camera-projected cross-attention to refine candidate waypoints. The contribution is the integration of ego-conditioned trajectory initialization with iterative, geometry-guided sampling of multi-scale</description>
     </item>
     <item>
-      <title>Compliant AI Infrastructure for Regulated Finance: A tiered multi-agent framework with DLT audit trails for financial operations in DACH</title>
-      <link>https://arxiv.org/abs/2609.27632</link>
-      <guid isPermaLink="false">arxiv:2609.27632</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>We present a compliance-first architecture for AI in regulated finance that treats regulation as an orientation layer rather than a deterministic ruleset. A matrix of regulatory intent and exposure provides a compact classification handle, which a governed policy compiler then maps into concrete prohibitions, obligations and runtime budgets. Prohibitions constrain feasibility and block externalisation, while obligations extend tasks with artefacts that must meet explicit admissibility criteria. </description>
+      <title>REAT: A Reflective Experience-Augmented Tutoring Framework for Multi-turn Mathematical Instruction</title>
+      <link>https://arxiv.org/abs/2609.29804</link>
+      <guid isPermaLink="false">arxiv:2609.29804</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>Current Large Language Models (LLMs) excel at solving complex mathematical problems, yet this proficiency does not inherently translate into effective tutoring. While advanced LLM tutors may leverage multi-agent frameworks or fine-tuning, most still lack a mechanism to systematically accumulate and reuse pedagogical experience over time, limiting their adaptability to diverse student needs during fluid, multi-turn interactions. To bridge this gap, we propose the Reflective Experience-Augmented T</description>
     </item>
     <item>
-      <title>Agent Name Collision Attacks in Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2609.27624</link>
-      <guid isPermaLink="false">arxiv:2609.27624</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>Multi-agent hosts turn remote Agent Cards into local agents, tools, workflow targets, and broker routes. A2A defines the card's name as human-readable metadata, not as a stable identity, and specifies no collision semantics. The security failure begins when a host nevertheless uses that remote name as a local routing identifier. We traced registration through dispatch and ran isolated regression tests at seven pinned open-source revisions. Six client-style integrations selected an attacker-contr</description>
+      <title>WeatherDiagFlow: Evidence-Grounded Radar Nowcasting with Diagnostic Flow Refinement</title>
+      <link>https://arxiv.org/abs/2609.29772</link>
+      <guid isPermaLink="false">arxiv:2609.29772</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>Radar nowcasting is essential for short-term warning and emergency response, yet conventional systems mainly return future radar fields and provide limited support for operational communication and post-event verification. We formulate radar nowcasting as an evidence-grounded forecast--bulletin--audit task, in which a numerical forecaster produces both future radar fields and structured diagnostic evidence. Forecast-time bulletins use only model-available evidence, whereas post-event audits inco</description>
     </item>
     <item>
-      <title>Distributed Stochastic Approximation Algorithms and Heavy-Tailed Age of Information</title>
-      <link>https://arxiv.org/abs/2609.27499</link>
-      <guid isPermaLink="false">arxiv:2609.27499</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>Algorithms in multi-agent systems such as federated learning, mobile robotic swarming, and consensus control can be designed and analyzed as distributed stochastic approximation algorithms. Such algorithms involve information exchanges between agents for various computations. The freshness of the information can be quantified using the Age of Information (AoI) metric. Consider robotic teams operating in highly obstructed geographical settings, such as subterranean or dense urban environments. Be</description>
+      <title>Temperament Engineering: Designing Strategic Behavioural Diversity in Robot Swarms</title>
+      <link>https://arxiv.org/abs/2609.29423</link>
+      <guid isPermaLink="false">arxiv:2609.29423</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>No two robots are truly identical: calibration, battery state, sensor drift and wear give every swarm a distribution of behaviour rather than a single point, usually treated as an imperfection to be minimised. In animal collectives the reverse holds: consistent individual differences in behaviour ('temperament') are shaped by natural selection and often decisive for group performance. This perspective proposes 'temperament engineering', a bio-inspired framework that treats the swarm's distributi</description>
     </item>
     <item>
-      <title>Anchor and Perturb: Lazy Agent Remediation by Exploration Injection</title>
-      <link>https://arxiv.org/abs/2609.27365</link>
-      <guid isPermaLink="false">arxiv:2609.27365</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>Anchor and Perturb (AnP) is a lightweight framework that resolves multi-agent coordination failures by decoupling exploratory variance injection from recurrent manifold stability. Existing remediation strategies predominantly alter mixing network architectures or enforce simultaneous exploration across the collective, which inevitably precipitates severe temporal-difference penalties in non-monotonic reward spaces. Specifically, AnP isolates underperforming lazy agents and injects an asymmetric </description>
+      <title>WRAP: Fixtureless Wrench-aware Multi-Robot Assembly Planning</title>
+      <link>https://arxiv.org/abs/2609.29407</link>
+      <guid isPermaLink="false">arxiv:2609.29407</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>Assembly using robots often requires specially designed fixtures, or relies on top-down only assembly strategies. Using multiple robots, we can avoid using fixtures and make robotic assembly more flexible. Planning assembly sequences for multiple robots is challenging due to the high number of possible task assignments and orders. In addition, we need to reason over forces that occur during the assembly process, e.g., to decide if multiple robots are required for support, or if external support </description>
     </item>
     <item>
-      <title>Reflection-Aware Reasoning for Non-Line-of-Sight Pedestrian Localization</title>
-      <link>https://arxiv.org/abs/2609.27346</link>
-      <guid isPermaLink="false">arxiv:2609.27346</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>Reliable localization of non-line-of-sight (NLOS) pedestrians is critical for safe urban autonomous driving, yet it remains highly challenging in ego-dynamic outdoor environments, where ego-vehicle motion makes radar multipath propagation complex and noisy. In this paper, we present a reflection-aware framework for NLOS pedestrian localization with a moving ego-vehicle in outdoor testbed scenarios. Our framework fuses front-view camera images and 2D radar point clouds to infer reflection orders </description>
+      <title>Epistemic-Probabilistic Model for Guarded Multi-Agent LLM Coordination</title>
+      <link>https://arxiv.org/abs/2609.29366</link>
+      <guid isPermaLink="false">arxiv:2609.29366</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>Multi-agent large language models (LLMs) have become ubiquitous in applied AI, yet their theoretical foundations remain surprisingly understudied. Viewed through the lens of multi-agent systems theory, several shortcomings come to light: a lack of social intelligence, the absence of coordination mechanisms among agents, unknown emergent behavior, and interactions between agents that are bounded by natural language. We address two of these gaps: the absence of social behavior and the lack of mech</description>
     </item>
     <item>
-      <title>Breaking Weather-Content Coupling: Type-Severity Guided Progressive Disentanglement for All-in-One Infrared Restoration</title>
-      <link>https://arxiv.org/abs/2609.27317</link>
-      <guid isPermaLink="false">arxiv:2609.27317</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>Infrared (IR) imaging is crucial for autonomous driving, remote sensing, and other perception tasks. However, adverse weather may introduce fake structural responses that are entangled with real thermal structures. Existing IR restoration methods are typically designed for a single degradation type or directly reconstruct from degradation-entangled representations. Consequently, they struggle to distinguish intrinsic thermal structures from weather-induced fake responses and to accommodate spati</description>
+      <title>DocuTeam: Mixed-Initiative Multi-Agent Discussions around Evolving Documents</title>
+      <link>https://arxiv.org/abs/2609.29309</link>
+      <guid isPermaLink="false">arxiv:2609.29309</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>In open-ended problem solving, collaborators often rely on discussion to surface concerns, challenge perspectives, and refine shared work as it evolves. While AI agents are increasingly used as discussion partners, existing multi-agent systems place a heavy burden on users to initiate and carefully orchestrate the discussions. We present DocuTeam, a mixed-initiative multi-agent discussion system in which both users and agents can initiate and steer conversations. Agents monitor document changes </description>
     </item>
     <item>
-      <title>FairTest: Search-Based Fairness Testing for Multi-Agent Reinforcement Learning Systems</title>
-      <link>https://arxiv.org/abs/2609.27309</link>
-      <guid isPermaLink="false">arxiv:2609.27309</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>Multi-agent Reinforcement Learning (MARL) trains a team of agents that share one environment and learn their policies together. Training maximizes the team return, and a high return does not imply that the rewards are shared fairly among the agents in every episode. Testing is an established way to discover the failures of deep reinforcement learning, yet few methods address the fairness of MARL. In this work, we propose FairTest, a search-based testing approach that seeks the unfair executions </description>
+      <title>SARFusion: Scene-Aware Routing Fusion for Robust Camera-LiDAR 3D Object Detection</title>
+      <link>https://arxiv.org/abs/2609.29235</link>
+      <guid isPermaLink="false">arxiv:2609.29235</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>Camera-LiDAR fusion has become a prevailing paradigm for 3D object detection in autonomous driving. However, existing fusion detectors often establish strong inter-modality dependencies by decoding object queries from tightly coupled multimodal representations. Under corrupted driving conditions, such dependencies make the detector vulnerable to unreliable modalities, where degraded observations may interfere with reliable modality-specific evidence and lead to suboptimal predictions. Moreover, </description>
     </item>
     <item>
-      <title>Teach-to-Crash: A Closed-Loop Student-Teacher LLM Framework for Collision-Inducing Test Scenario Generation</title>
-      <link>https://arxiv.org/abs/2609.27296</link>
-      <guid isPermaLink="false">arxiv:2609.27296</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>Validating Autonomous Driving Systems (ADS) in simulation requires testing architectures that can discover rare, safety-critical failures while generating scenarios that are executable, diverse, and useful for downstream failure analysis. We introduce Teach-to-Crash, a closed-loop testing framework that combines a constrained ego-centric scenario representation, stagnation-aware search control, and a dual-LLM architecture for adaptive failure discovery. A high-reasoning Teacher LLM acts as an ad</description>
+      <title>Assessing the Impact of Fleet Size on Crowdsourced Mapping Using a Dissimilarity Measure</title>
+      <link>https://arxiv.org/abs/2609.29198</link>
+      <guid isPermaLink="false">arxiv:2609.29198</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>Accurate digital maps are essential for Advanced Driver Assistance Systems (ADAS) or Autonomous Driving (AD), providing critical information such as road geometry, traffic signs and speed limits required by safety functions including Intelligent Speed Assistance (ISA). Maintaining these map layers using traditional surveying methods is costly and difficult to scale. Crowdsourced approaches based on fleets provide a promising alternative for continuously validating and updating map information. H</description>
     </item>
     <item>
-      <title>Self-Evolving Multimedia Verification through Memory Consolidation of Contestation Experiences</title>
-      <link>https://arxiv.org/abs/2609.27175</link>
-      <guid isPermaLink="false">arxiv:2609.27175</guid>
-      <pubDate>2026-09-23</pubDate>
-      <description>Multimedia verification requires not only accurate decisions but also traceable evidence, reliable human correction, and safe reuse of prior experience. Existing systems often lack explicit mechanisms for revising intermediate reasoning or preventing harmful knowledge transfer. We present SEMV (Self-Evolving Multimedia Verification), a self-evolving multi-agent framework that treats provenance-bearing arguments as the interface between evidence, reasoning, human contestation, and memory. SEMV co</description>
+      <title>ASIRF: An Agentic Framework for Context-Dependent Sensitive Information Redaction</title>
+      <link>https://arxiv.org/abs/2609.29191</link>
+      <guid isPermaLink="false">arxiv:2609.29191</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>Sensitive information is defined by domain and intent, not a universal category, yet redaction systems such as privacy filters and named-entity recognizers fix a taxonomy at training time, requiring retraining for each new domain. We introduce ASIRF (Agentic Sensitive Information Redaction Framework), which retrieves domain-specific definitions based on the input's domain from a flexible knowledge base at inference time, needing no retraining to adapt. Two architectures, a three-call multi-agent</description>
     </item>
     <item>
-      <title>Do We Need Complex Topology Control? Distinct-Peer Random Routing Improves Cost-Efficiency in Sparse Multi-Agent Debate</title>
-      <link>https://arxiv.org/abs/2609.27150</link>
-      <guid isPermaLink="false">arxiv:2609.27150</guid>
-      <pubDate>2026-09-22</pubDate>
-      <description>Multi-agent debate (MAD) has emerged as a promising paradigm for improving the reasoning accuracy of large language models (LLMs) through iterative peer interaction. Communication topology plays a central role in this process, motivating increasingly sophisticated mechanisms that learn, adapt, or dynamically reconfigure agent interactions to improve accuracy or reasoning reliability. Meanwhile, prior studies suggest that much simpler sparse communication can already achieve competitive performan</description>
+      <title>Multi-Agent Orchestration of 3GPP Channel Estimators</title>
+      <link>https://arxiv.org/abs/2609.29044</link>
+      <guid isPermaLink="false">arxiv:2609.29044</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>Pilot-aided channel estimation is a decisive block in orthogonal frequency-division multiplexing (OFDM) receivers for both 5G New Radio (5G-NR) and Long-Term Evolution (LTE). A large body of estimators exists, from simple least-squares (LS) interpolation to statistically optimal linear minimum-mean-square-error (LMMSE) variants and, more recently, deep convolutional denoisers, yet no single estimator is uniformly best: the winner depends on the propagation scenario, the numerology, the operating</description>
     </item>
     <item>
-      <title>PEARL: A Lightweight Prompt-based Feature Interpreter Framework for Real-Time, Anonymous, and Heterogeneous Collaborative Perception</title>
-      <link>https://arxiv.org/abs/2609.27123</link>
-      <guid isPermaLink="false">arxiv:2609.27123</guid>
-      <pubDate>2026-09-22</pubDate>
-      <description>Heterogeneity across Collaborative Perception (CP) agents is a major challenge for emerging CP frameworks due to domain gaps from differing sensors, architectures, and training data. Prior works mitigate this challenge by aligning features in a unified space via model retraining or per-agent-type interpreters. These strategies (a) require access to neighbor configurations, (b) do not fully address real-time CP deployment, and (c) generalize poorly to unseen agents joining at run time. To overcom</description>
+      <title>CAMP: Cooperative Arm-Hand Motion Planning in Constrained Spaces</title>
+      <link>https://arxiv.org/abs/2609.29021</link>
+      <guid isPermaLink="false">arxiv:2609.29021</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>Coordinated arm-hand motion planning is fundamental to dexterous robotic manipulation in complex and constrained environments. A straightforward solution is to decompose the problem into separate arm path planning and hand motion generation; however, this poses a dilemma: decomposition can miss feasible solutions that require coordinated arm-hand adaptation along the path. Alternatively, directly planning in the high-dimensional joint arm-hand configuration space captures such coupling but faces</description>
     </item>
   </channel>
 </rss>

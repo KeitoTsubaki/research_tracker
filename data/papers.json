@@ -1,5 +1,529 @@
 [
   {
+    "id": "arxiv:2609.30233",
+    "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+    "authors": [
+      "Matteo Merler",
+      "Bowen Li",
+      "Josh Roy",
+      "Yichao Liang",
+      "Qianwei Wang",
+      "Yixuan Huang",
+      "Tom Silver"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.30233",
+    "abstract": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalized TAMP addresses this difficulty by exploiting regularities across problem instances to reduce planning effort on new instances. However, existing methods require substantial TAMP-specific engineering. We investigate whether coding agents can automate this process by synthesizing programs that generalize across instances. Given a task description and simulator access, each agent chooses how to interact with the environment while developing a program within a fixed synthesis budget. The program is then frozen and evaluated on unseen instances. We evaluate Claude Code (Opus 5) and Codex (GPT-5.6 Sol and GPT-6 Astra) on 28 simulated environments from KinDER and PDDLStream, with object counts beyond those evaluated in the original benchmark. Across all program synthesis methods, we evaluate 980 generated programs on 100 held-out instances each, 98,000 evaluation episodes in total. Overall, we find that coding agents are surprisingly effective at generalized TAMP: all three agent configurations outperform hand-engineered planners, one-shot generation, and an LLM-based generalized planning baseline in mean success (56% to 95% versus 47% for the planners, on the 16 environments where a planner is available). As object counts grow, the agents' programs maintain higher success than the planner, using an order of magnitude less computation per instance on average. Logs show agents using interaction to calibrate physical models, test edge cases, and refine strategies. We release all code, including the full prompts given to the agents. These findings suggest that coding agents are a strong baseline for generalized TAMP.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "9 pages, 4 figures, 3 tables",
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.30213",
+    "title": "ReVAMP: Vector-Accelerated Motion Planning for Kinematically-Constrained Systems via Reparameterization",
+    "authors": [
+      "Shrutheesh R. Iyer",
+      "Thomas Cohn",
+      "Zachary Kingston"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.30213",
+    "abstract": "Robots often must satisfy one or more constraints during motion planning for real-world tasks. When such constraints reduce the valid configuration space to a measure-zero subset, sampling based planning algorithms require modifications to draw feasible samples. For many common end-effector constraints, parameterizations built on inverse kinematics (IK) provide an alternate formulation where the constraints are satisfied by construction, allowing directly sampling the feasible set. Despite their elegant approach, parameterized planners have remained slower than vector-accelerated implementations of projection-based approaches, leaving their performance ceiling an open question. We explore a new axis of vectorization built upon reparameterizing the planning space through analytic IK. This approach addresses existing inefficiencies in vectorized projection-based planners and exposes new opportunities for parallelism within the planner. We show that the planner can synthesize plans in microseconds to milliseconds for high dimensional systems (up to 20 dimensions), with complex constraints, up to 10x faster than the current state-of-the-art. Furthermore, we demonstrate how such planning speeds open up avenues for restructuring sequential manipulation pipelines.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.30150",
+    "title": "Graph-Based Inference and Topology-Aware Multi-Agent Reinforcement Learning for Large-Scale Railway Network Management",
+    "authors": [
+      "Giacomo Arcieri",
+      "Gregory Duthé",
+      "Christophe Muller",
+      "Konstantinos G. Papakonstantinou",
+      "Daniel Straub",
+      "Eleni Chatzi"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.30150",
+    "abstract": "Modern infrastructure asset management constitutes a complex sequential decision-making problem, characterized by long planning horizons and system-level interactions, such as spatial deterioration correlations and economies of scale. While deep reinforcement learning has shown promise in optimizing maintenance policies, scaling to real-world networks remains challenging. Centralized approaches become computationally intractable in large-scale systems, whereas decentralized approaches often fail to capture essential coordination mechanisms. To address these challenges, we propose a graph-based framework that integrates accurate environment modeling with scalable decision support. First, we employ a hierarchical Bayesian model leveraging a Gaussian Process on Graph kernel to infer a realistic, spatially correlated networked environment of railway maintenance planning from real-world data provided by the Swiss Federal Railways. Second, we introduce a topology-aware Multi-Agent Reinforcement Learning (MARL) framework by integrating graph neural networks and graph Transformers to optimize network-level policies. A central contribution of this work is the demonstration of scalability through zero-shot transfer learning: graph-based agents, trained only on small network portions, are successfully deployed in a zero-shot manner on large-scale unseen networks without any retraining. Numerical results indicate that the proposed method significantly outperforms optimized heuristics and standard MARL baselines, reducing computational training time while maintaining superior performance on large-scale networks.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.30059",
+    "title": "KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization",
+    "authors": [
+      "Aheli Poddar",
+      "Sanskar Prasad",
+      "Arindam Samanta",
+      "Subha Chakraborty",
+      "Vishal Goyal",
+      "Rohit Singh Rathaur"
+    ],
+    "source": "arxiv",
+    "category": "cs.DC",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.30059",
+    "abstract": "Deep learning inference and training performance depends critically on GPU kernel efficiency. Modern compilers such as PyTorch Inductor automatically generate GPU kernels from high-level model code, but frequently underperform expert-written implementations by wide margins. Recent LLM-assisted kernel optimizers can close this gap for standalone kernels, yet treat compiled models as black boxes, generally optimizing individual standalone kernels without respecting the compiler's structural decisions or verifying the model end-to-end. We present KernelOPT, a multi-agent system that treats compiled models as structured artifacts. It preserves vendor library calls (cuBLAS, cuDNN) and exclusively targets generated Triton sub-kernels using five profiling-guided LLM agents. A four-gate verification cascade of static validation, multi-seed correctness, model-level float64-fallback verification, and performance gating filters candidates during optimization and verifies the re-stitched model end-to-end. If no candidate passes all four gates, the system preserves the compiler baseline. The system accepts PyTorch nn.Modules, standalone Triton kernels, and Helion kernels. Evaluated on 250 KernelBench problems, KernelOPT achieves geometric mean speedups over \\texttt{torch.compile} of 1.40$\\times$ (Level 1: 51/100), 1.15$\\times$ (Level 2: 31/100), and 1.07$\\times$ (Level 3: 12/50) across all problems.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.30028",
+    "title": "How does Adversarial Influence Scale in Multi-Agent Systems?",
+    "authors": [
+      "Addison J. Wu",
+      "Jasin Cekinmez",
+      "Michel Liao",
+      "Karthik Narasimhan",
+      "Thomas L. Griffiths"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.30028",
+    "abstract": "Multi-agent deliberation can improve performance, but what happens when some agents do not act in good faith? In practice, an agent may be deceptive and work to subvert the group, whether through its own objectives or external instruction. We study how susceptibility to deception scales as groups increase in size and deceivers become more prevalent. It is not the number of agents in the group that matters, but the proportion of deceivers. We observe that the defection rate, how often initially correct agents switch to an incorrect final answer, rises linearly with this proportion. Whereas humans in comparable conformity studies are reliably swayed only when misleading confederates form a majority, LLM agents defect regularly even when deceivers remain a minority. Susceptibility also depends on which models are interacting, especially on the honest agent side. Unexpectedly, allowing deceivers to coordinate privately can make them less effective. Altogether, our results show that adding more agents is therefore not a sufficient defense, because the adversary can simply scale with the group.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.29964",
+    "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+    "authors": [
+      "Yehang Zhang",
+      "Haojian Huang",
+      "Yifan Chang",
+      "Jianchong Su",
+      "Bohan Zhou",
+      "Yingjie Xu",
+      "Wosong Chen",
+      "Tianhao Zhou",
+      "Chenxu Wang",
+      "Tianyi Zhang",
+      "Yangkai Wei",
+      "Wenqian Li",
+      "Shiyuan Deng",
+      "Yinchuan Li",
+      "Ying-Cong Chen",
+      "Zexi Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.29964",
+    "abstract": "General-purpose vision-language models (VLMs) bring broad knowledge and spatial reasoning to robot manipulation, yet existing systems either use them indirectly, to predict constraints or write programs, or give them a view of the scene rather than a world in which to act. We present World Action Agent (WAA), a multi-agent harness through which VLMs pilot robots with basic tools, making every decision within a visual action workspace. The workspace has three properties. Contact views, selected automatically from the scene geometry, present the scene around the current interaction. Action rehearsal turns each action into an editable proposal that the agent, alone or through an Imagination Agent, previews and revises against planning feedback before execution. In-view correction closes the loop between observation, rehearsal, and low-level execution, letting the agent remove residual offsets in the view where it observes them. Through the same workspace, WAA acquires embodied procedural knowledge in two ways: it evolves multimodal skills from expert videos and human teaching under evidence-based review and consults them through a Skill Agent, and its interaction traces train smaller VLMs to pilot the same harness. On LIBERO-Pro, WAA with skills evolved only from LIBERO-90 reaches a state-of-the-art 75.6% average success, outperforming end-to-end VLAs, code-as-policy agents, and a visual-harness baseline with the same backbone; the same skills remain effective on robosuite without further learning. Fine-tuning Qwen3.5-9B on harness traces raises its out-of-domain success from 1.7% to 43.3%.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "Working in progress",
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.29836",
+    "title": "SplatLabel: Pseudo-Labelling through 4D Gaussian Splatting",
+    "authors": [
+      "Nitya Nanvani",
+      "Andras Palffy",
+      "Holger Caesar"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.29836",
+    "abstract": "While 2D Vision Foundation Models offer a pathway to automate 3D semantic pseudo-labelling, translating these priors into robust 3D representations typically requires complex heuristics or multi-model ensembles. We introduce SplatLabel, an automated pipeline that leverages a 4D Gaussian representation to extract LiDAR segmentation with predictive confidence, as well as semantic occupancy grids at arbitrary voxel resolutions. At its core, SplatLabel handles dynamic environments through an explicit temporal manifold that models the trajectories and lifespans of individual 3D primitives. This allows the system to accurately track moving actors and strictly define when objects appear and disappear, completely eliminating the need for pre-annotated 3D bounding boxes. To robustly support this dynamic tracking, the representation is grounded by structural and semantic priors: we guide scene geometry in unobserved regions by integrating 360-degree LiDAR via virtual depth maps, and rather than relying on domain-specific prompt engineering, we directly distill continuous soft probabilities from 2D models to inherently resolve semantic ambiguities over time and space. Finally, to accurately reflect the real-world trade-off between precision and recall, we reframe pseudo-label evaluation as a selective classification task using a generalized risk-recall metric. Experiments on SemanticKITTI demonstrate that SplatLabel consistently outperforms state-of-the-art baselines across multiple recall levels, establishing a highly robust framework for both 3D LiDAR segmentation and occupancy prediction.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.29835",
+    "title": "Retrieve-to-Localize: Bridging Large Language Models and LiDAR Geometry for Spatial Grounding",
+    "authors": [
+      "Byounggun Park",
+      "Giyong Moon",
+      "Jusung Kim",
+      "Soonmin Hwang"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.29835",
+    "abstract": "LiDAR provides precise geometric information for spatial perception tasks such as object detection in autonomous driving and outdoor robotics. However, recognizing and localizing individual objects is not sufficient to answer questions that require composing spatial relations and grounding the intended target. Motivated by recent advances in large language models (LLMs) for autonomous driving, we leverage their language priors to interpret complex spatial questions and ground the referred target in LiDAR geometry. To support this spatial grounding capability, we introduce SpatialLiDAR-QA, which combines single- and multi-step relational grounding with complementary spatial understanding tasks. We further propose SpatialLiDAR-LM, which aligns LiDAR point features with an LLM and grounds target coordinates through language-conditioned, position-aware proposal retrieval and local point refinement. This design derives target coordinates directly from local LiDAR geometry rather than through textual language decoding. Experiments demonstrate substantial improvements over representative LiDAR--language models and multi-camera VLMs on precise coordinate prediction tasks. Our dataset and model training code will be publicly released.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages",
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.29813",
+    "title": "S2Planner: Multi-Scale Semantic Planner for End-to-End Autonomous Driving",
+    "authors": [
+      "Zhaowei Lu",
+      "Liguo Zhou",
+      "Yujie Guo",
+      "Lei Yu",
+      "Alois Knoll"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.29813",
+    "abstract": "We present S2Planner, a trajectory planner that combines three front-facing cameras with ego-motion history and the current driving command. A fine-tuned DINOv3 backbone and a Spatial Tuning Adapter produce multi-scale image features; a coarse-to-fine decoder then uses trajectory self-attention and camera-projected cross-attention to refine candidate waypoints. The contribution is the integration of ego-conditioned trajectory initialization with iterative, geometry-guided sampling of multi-scale image features, rather than a new visual backbone or attention operator. On the NAVSIM v1 non-reactive evaluation, the previously reported navtest run obtained 88.03 PDMS. Because that run was selected using navtest performance, this number is exploratory and cannot be interpreted as an unbiased test estimate. Validation-selected evaluation on unexposed data, repeated runs, and computational measurements are needed to establish generalization and efficiency.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.29804",
+    "title": "REAT: A Reflective Experience-Augmented Tutoring Framework for Multi-turn Mathematical Instruction",
+    "authors": [
+      "Jianheng Zhou",
+      "Chaoli Zhang",
+      "Xingjun Wei",
+      "Xinliang Zhou",
+      "Giancarlo Fortino",
+      "Xing Fan",
+      "Yanfeng Wang",
+      "Qingsong Wen",
+      "Haoyang Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.29804",
+    "abstract": "Current Large Language Models (LLMs) excel at solving complex mathematical problems, yet this proficiency does not inherently translate into effective tutoring. While advanced LLM tutors may leverage multi-agent frameworks or fine-tuning, most still lack a mechanism to systematically accumulate and reuse pedagogical experience over time, limiting their adaptability to diverse student needs during fluid, multi-turn interactions. To bridge this gap, we propose the Reflective Experience-Augmented Tutoring (REAT) framework, which couples experience distillation from historical dialogues with real-time adaptive retrieval. Driven by a multi-agent Observer-Critic-Mentor (OCM) distillation pipeline, REAT reviews past conversational trajectories and distills raw interactions into structured, problem-agnostic pedagogical experiences. During live tutoring, a state-aware retrieval module injects these curated experiences to provide adaptive scaffolding based on the student's cognitive state. Experiments demonstrate that the proposed framework significantly outperforms both prompt-only and supervised fine-tuning (SFT) baselines, particularly in improving complex, low-scoring tutoring scenarios. Crucially, the distilled experiences exhibit robust generalization across diverse model architectures and mathematical datasets.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.29772",
+    "title": "WeatherDiagFlow: Evidence-Grounded Radar Nowcasting with Diagnostic Flow Refinement",
+    "authors": [
+      "Chunlei Shi",
+      "Yufeng Zhu",
+      "Yixiao Liang",
+      "Dan Niu",
+      "Yongchao Feng",
+      "Qiliang Wu",
+      "Jiong Wang"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.29772",
+    "abstract": "Radar nowcasting is essential for short-term warning and emergency response, yet conventional systems mainly return future radar fields and provide limited support for operational communication and post-event verification. We formulate radar nowcasting as an evidence-grounded forecast--bulletin--audit task, in which a numerical forecaster produces both future radar fields and structured diagnostic evidence. Forecast-time bulletins use only model-available evidence, whereas post-event audits incorporate future radar truth only after the forecast horizon is observed. Based on this task formulation, WeatherDiagFlow predicts motion, growth and decay, heavy-echo risk, and uncertainty to condition rolling flow refinement, while frozen-scaffold residual calibration improves long-lead strong-echo preservation. A multi-agent layer converts the structured evidence into operational bulletins and independently generates verification audits without feeding textual outputs back into the forecaster. Experiments on FJRADAR demonstrate competitive overall performance and improved strong-echo event skill. WeatherDiagFlow therefore connects numerical prediction, evidence-grounded reporting, and auditable verification under a leakage-controlled protocol.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "5 pages, 3 figures",
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.29423",
+    "title": "Temperament Engineering: Designing Strategic Behavioural Diversity in Robot Swarms",
+    "authors": [
+      "Edmund R. Hunt"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.29423",
+    "abstract": "No two robots are truly identical: calibration, battery state, sensor drift and wear give every swarm a distribution of behaviour rather than a single point, usually treated as an imperfection to be minimised. In animal collectives the reverse holds: consistent individual differences in behaviour ('temperament') are shaped by natural selection and often decisive for group performance. This perspective proposes 'temperament engineering', a bio-inspired framework that treats the swarm's distribution of temperaments, rather than the individual controller, as the design object. It borrows five evolutionarily validated axes of animal temperament (shyness-boldness, exploration-avoidance, activity, aggressiveness and sociability) as a design vocabulary, rendering each as a continuous control parameter $τ\\in [0,1]$ above the controller, realisable as a module threshold, a policy-conditioning vector in multi-agent reinforcement learning, or a constraint on a foundation-model planner. A three-phase workflow maps mission success criteria onto relevant axes, plans the shape of the $τ$ distribution, and tunes reaction norms governing how temperament responds to environmental cues. The payoff is greatest under decentralisation: where a central planner can reassign behaviour online, a temperament distribution is a planner output, but in a swarm without global knowledge it must be an offline, anticipatory design input. Behavioural and platform heterogeneity are thereby co-design variables, and I sketch tentative robot-native axes (self-model plasticity, forcefulness, initiative and expressiveness) arising from features robots have and animals do not. Engineered heterogeneity has been shown to outperform homogeneous swarms in tasks such as aggregation and exploration; establishing when, and how much, heterogeneity repays its cost is the work the field can now take forward.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.29407",
+    "title": "WRAP: Fixtureless Wrench-aware Multi-Robot Assembly Planning",
+    "authors": [
+      "Valentin N. Hartmann",
+      "Huang Su",
+      "Yijiang Huang",
+      "Stelian Coros"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.29407",
+    "abstract": "Assembly using robots often requires specially designed fixtures, or relies on top-down only assembly strategies. Using multiple robots, we can avoid using fixtures and make robotic assembly more flexible. Planning assembly sequences for multiple robots is challenging due to the high number of possible task assignments and orders. In addition, we need to reason over forces that occur during the assembly process, e.g., to decide if multiple robots are required for support, or if external support such as a table should be used. We present Wrap, a multi-robot assembly planner for multi-part assemblies, given the inter-part ordering-dependencies, the part meshes, and their initial state. We formulate a linear program to reason about valid grasps for supporting the forces that occur during assembly. The search leverages the assembly sequence, and greedily finds a feasible solution per assembly step by computing a heuristic via a cheap backwards search, and using the heuristic in the more expensive forward search. We then solve the multi-robot, multi-goal motion planning problem, and for execution, we split the plan into contact-rich assembly skills, and free space motion. We benchmark the planner on a variety of multi-part assemblies, and apply the planner to groups of robots differing in size and kinematics. We validate the work both in a physics simulation, and in real. Videos and code are available at https://www.vhartmann.com/wrap.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 9 figures, 5 tables",
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.29366",
+    "title": "Epistemic-Probabilistic Model for Guarded Multi-Agent LLM Coordination",
+    "authors": [
+      "Mehdi Nasiri",
+      "Mohammad Saeed Arvenaghi",
+      "Sadegh Vaezi",
+      "Ebrahim Ardeshir-Larijani"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.29366",
+    "abstract": "Multi-agent large language models (LLMs) have become ubiquitous in applied AI, yet their theoretical foundations remain surprisingly understudied. Viewed through the lens of multi-agent systems theory, several shortcomings come to light: a lack of social intelligence, the absence of coordination mechanisms among agents, unknown emergent behavior, and interactions between agents that are bounded by natural language. We address two of these gaps: the absence of social behavior and the lack of mechanisms for inter-agent coordination. We introduce Epistemic Probabilistic Language Agents (EPLA), a neuro-symbolic architecture for multi-agent coordination under uncertainty. A Symbolic Guard provides structured diagnostic feedback. The LLM generates typed actions, and the Guard controls their execution against an authoritative symbolic state. We formalize the epistemic layer in a gossip testbed through epistemic lottery gossip models, which combine view-based call histories with agent-indexed probability weights. We argue that implementing such a formalism can address shortcomings of agentic LLMs.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.29309",
+    "title": "DocuTeam: Mixed-Initiative Multi-Agent Discussions around Evolving Documents",
+    "authors": [
+      "Heechan Lee",
+      "Juhyeon Choi",
+      "Tae Soo Kim",
+      "Juho Kim",
+      "Joseph Seering"
+    ],
+    "source": "arxiv",
+    "category": "cs.HC",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.29309",
+    "abstract": "In open-ended problem solving, collaborators often rely on discussion to surface concerns, challenge perspectives, and refine shared work as it evolves. While AI agents are increasingly used as discussion partners, existing multi-agent systems place a heavy burden on users to initiate and carefully orchestrate the discussions. We present DocuTeam, a mixed-initiative multi-agent discussion system in which both users and agents can initiate and steer conversations. Agents monitor document changes to proactively start and redirect discussions as the work evolves, while users can flexibly shape the conversation or adopt agent ideas. In a within-subjects study (N=20), participants using DocuTeam produced outcomes rated significantly more novel, relevant, and specific than with a baseline without any increase in cognitive load. Rather than using agents for one-off idea sourcing, participants engaged in an iterative refinement loop in which document changes prompted agent reactions, which led users to revisit and further develop their work.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.29235",
+    "title": "SARFusion: Scene-Aware Routing Fusion for Robust Camera-LiDAR 3D Object Detection",
+    "authors": [
+      "Yuting Zhao",
+      "Ziyi Zheng",
+      "Shuxiao Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.29235",
+    "abstract": "Camera-LiDAR fusion has become a prevailing paradigm for 3D object detection in autonomous driving. However, existing fusion detectors often establish strong inter-modality dependencies by decoding object queries from tightly coupled multimodal representations. Under corrupted driving conditions, such dependencies make the detector vulnerable to unreliable modalities, where degraded observations may interfere with reliable modality-specific evidence and lead to suboptimal predictions. Moreover, modality reliability can vary across both global driving scenes and individual object queries, requiring adaptive fusion decisions at a finer granularity. To bridge this gap, we reformulate robust camera-LiDAR fusion as a scene-aware branch routing problem and propose SARFusion, a robust 3D object detector. Instead of producing detections from a single fused representation, SARFusion decouples object-query decoding into three parallel reasoning branches: a camera branch, a LiDAR branch, and a camera-LiDAR fusion branch. Guided by a Scene Reliability Prior estimated from the global driving context, SARFusion further incorporates object-level evidence to route each query to the most suitable branch. This query-wise routing strategy alleviates harmful cross-modal interference while preserving the benefits of multimodal fusion when complementary cues are trustworthy. On the nuScenes test set, SARFusion achieves strong performance with 72.5 mAP and 74.4 NDS. Extensive analyses demonstrate its robustness under challenging conditions, including sensor corruptions and environmental changes.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.29198",
+    "title": "Assessing the Impact of Fleet Size on Crowdsourced Mapping Using a Dissimilarity Measure",
+    "authors": [
+      "Marie-Ngoïe Badibanga Kalenda",
+      "Philippe Bonnifait",
+      "Marie-Anne Mittet"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.29198",
+    "abstract": "Accurate digital maps are essential for Advanced Driver Assistance Systems (ADAS) or Autonomous Driving (AD), providing critical information such as road geometry, traffic signs and speed limits required by safety functions including Intelligent Speed Assistance (ISA). Maintaining these map layers using traditional surveying methods is costly and difficult to scale. Crowdsourced approaches based on fleets provide a promising alternative for continuously validating and updating map information. However, the relationship between the number of contributing vehicles and the quality of the resulting map remains poorly understood. To address this gap, this paper presents a simulation-based framework for evaluating crowdsourced traffic sign maintenance using a dissimilarity measure called GOSPAM (Generalized Optimal SubPattern Assignment for Maps), which combines localization errors with detection performance by accounting for False Positives (FP) and False Negatives (FN). The proposed system models multivehicle observations with representative sensor noise, detection errors, and semantic recognition uncertainties. Observations from multiple vehicles are aggregated using spatial clustering and semantic filtering to estimate traffic sign locations. Using simulated trajectories generated from data carried out by an experimental vehicle in an area containing ground-truth traffic signs, we assess the influence of fleet size on the performance of crowdsourced mapping. The number of vehicles ranges from 5 to 50, and performance is analyzed using standard evaluation metrics which are compared to the GOSPAM . The results show that GOSPAM can be used to effectively assess the quality of crowdsourced mapping, such as the contributions made by the first vehicles or the improvements made by numerous vehicles.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": null,
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.29191",
+    "title": "ASIRF: An Agentic Framework for Context-Dependent Sensitive Information Redaction",
+    "authors": [
+      "Sudha Priyadarshini",
+      "Mohamed Chahine Ghanem"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.29191",
+    "abstract": "Sensitive information is defined by domain and intent, not a universal category, yet redaction systems such as privacy filters and named-entity recognizers fix a taxonomy at training time, requiring retraining for each new domain. We introduce ASIRF (Agentic Sensitive Information Redaction Framework), which retrieves domain-specific definitions based on the input's domain from a flexible knowledge base at inference time, needing no retraining to adapt. Two architectures, a three-call multi-agent pipeline and a single-agent variant, are evaluated across ten small open-weight models and eight datasets, including out-of-distribution fictional domains, against the OpenAI Privacy Filter (OPF) as a trained-classifier baseline. With only a few dozen expert-authored definitions per domain and no training data, ASIRF's recall exceeds OPF's in 68 of 80 model-domain combinations (85 percent), by at least one of the two architectures, with shortfalls confined mostly to OPF's training-distribution domains.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "paper accepted in NeurIPS 2026 GlobalSouthAI",
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.29044",
+    "title": "Multi-Agent Orchestration of 3GPP Channel Estimators",
+    "authors": [
+      "I. Zakir Ahmed",
+      "Hamid Sadjadpour"
+    ],
+    "source": "arxiv",
+    "category": "cs.IT",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.29044",
+    "abstract": "Pilot-aided channel estimation is a decisive block in orthogonal frequency-division multiplexing (OFDM) receivers for both 5G New Radio (5G-NR) and Long-Term Evolution (LTE). A large body of estimators exists, from simple least-squares (LS) interpolation to statistically optimal linear minimum-mean-square-error (LMMSE) variants and, more recently, deep convolutional denoisers, yet no single estimator is uniformly best: the winner depends on the propagation scenario, the numerology, the operating signal-to-noise ratio (SNR), the mobility (Doppler), and the antenna configuration. In this paper, we quantify this fact through a unified study of eight literature estimators evaluated over the 3GPP TR~38.901 Urban-Macro (UMa), Urban-Micro (UMi), and Rural-Macro (RMa) channels generated with NVIDIA Sionna, for both 5G-NR and LTE numerologies, in single-input single-output (SISO) and $8\\times2$ multiple-input multiple-output (MIMO) settings. We then propose a \\emph{condition-adaptive multi-agent orchestrator} that treats each estimator as an independent agent and dispatches, per operating condition, to the agent that is best on a validation split without any genie knowledge. The orchestrator tracks the per-realization oracle to within $1.07$~dB and improves the normalized mean-square error (NMSE) over the best \\emph{fixed} strategy by up to $3.6$~dB at high SNR, where the low-SNR champion is no longer optimal. Because the agents are independent, running them concurrently delivers this best-of-eight accuracy at essentially single-estimator latency: a data-parallel partition scales the wall-clock nearly as $1/K$ with $K$ workers (up to $6.9\\times$), whereas naive by-algorithm partitioning is Amdahl-limited by the heaviest agent. The results substantiate multi-agent orchestration as a practical route to robust channel estimation across heterogeneous 5G-NR/LTE deployments.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.29021",
+    "title": "CAMP: Cooperative Arm-Hand Motion Planning in Constrained Spaces",
+    "authors": [
+      "Ziyuan Wang",
+      "Yunlong Shan",
+      "Fei Mo",
+      "Sichao Liu",
+      "David Navarro-Alarcon",
+      "Jia Pan",
+      "Kosta Jovanovic",
+      "Xin Jiang",
+      "Peng Zhou"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.29021",
+    "abstract": "Coordinated arm-hand motion planning is fundamental to dexterous robotic manipulation in complex and constrained environments. A straightforward solution is to decompose the problem into separate arm path planning and hand motion generation; however, this poses a dilemma: decomposition can miss feasible solutions that require coordinated arm-hand adaptation along the path. Alternatively, directly planning in the high-dimensional joint arm-hand configuration space captures such coupling but faces a substantially enlarged search space and nonconvex collision constraints. To characterize this coupling, we formulate feasible hand fibers that capture collision-free hand configurations for each arm configuration. Based on this formulation, we propose CAMP, a high-success and efficient cooperative arm-hand motion planner for constrained environments. CAMP constructs candidate trajectories through layered hand search with local arm relaxation, then compactly represents them using endpoint-preserving via-point movement primitives (VMPs) for coarse-to-fine joint optimization. Across six constrained simulation tasks, CAMP achieves 84.2-98.5% planning success, outperforming alternative planners with competitive efficiency. Ablation studies verify the contributions of arm relaxation, VMP representation, and coarse-to-fine optimization, while real-robot experiments demonstrate CAMP on constrained manipulation tasks. The project website is available at https://camp-armhand.github.io/.",
+    "published_date": "2026-09-24",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-25T08:31:57Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2609.28366",
     "title": "AnchorReasoning: A Visual Grounding and Causal Reasoning Dataset in Long-Tail Autonomous Driving Scenarios",
     "authors": [
