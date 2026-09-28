@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 28 Sep 2026 09:21:59 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 10:18:31 GMT</lastBuildDate>
     <item>
       <title>AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs</title>
       <link>https://arxiv.org/abs/2609.31590</link>
@@ -123,6 +123,27 @@
       <guid isPermaLink="false">arxiv:2609.30690</guid>
       <pubDate>2026-09-25</pubDate>
       <description>Ensuring operational safety in threat-prone environments remains a critical challenge for multi-UAV networks serving as aerial base stations. This paper proposes an efficient framework to maximize global energy efficiency (EE) while promoting safe operation through threat-aware clustering and reward-based safety enforcement. The proposed framework is executed in three steps. First, a threat-aware K-means (TAKM) algorithm determines the minimum required UAVs and computes safe initial placements. </description>
+    </item>
+    <item>
+      <title>Coding Agents for Generalized Task and Motion Planning Problems</title>
+      <link>https://arxiv.org/abs/2609.30233</link>
+      <guid isPermaLink="false">arxiv:2609.30233</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalized TAMP addresses this difficulty by exploiting regularities across problem instances to reduce planning effort on new instances. However, existing methods require substantial TAMP-specific engineering. We investigate whether coding agents can automate this process by synthesizing</description>
+    </item>
+    <item>
+      <title>ReVAMP: Vector-Accelerated Motion Planning for Kinematically-Constrained Systems via Reparameterization</title>
+      <link>https://arxiv.org/abs/2609.30213</link>
+      <guid isPermaLink="false">arxiv:2609.30213</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>Robots often must satisfy one or more constraints during motion planning for real-world tasks. When such constraints reduce the valid configuration space to a measure-zero subset, sampling based planning algorithms require modifications to draw feasible samples. For many common end-effector constraints, parameterizations built on inverse kinematics (IK) provide an alternate formulation where the constraints are satisfied by construction, allowing directly sampling the feasible set. Despite their</description>
+    </item>
+    <item>
+      <title>Graph-Based Inference and Topology-Aware Multi-Agent Reinforcement Learning for Large-Scale Railway Network Management</title>
+      <link>https://arxiv.org/abs/2609.30150</link>
+      <guid isPermaLink="false">arxiv:2609.30150</guid>
+      <pubDate>2026-09-24</pubDate>
+      <description>Modern infrastructure asset management constitutes a complex sequential decision-making problem, characterized by long planning horizons and system-level interactions, such as spatial deterioration correlations and economies of scale. While deep reinforcement learning has shown promise in optimizing maintenance policies, scaling to real-world networks remains challenging. Centralized approaches become computationally intractable in large-scale systems, whereas decentralized approaches often fail</description>
     </item>
   </channel>
 </rss>
