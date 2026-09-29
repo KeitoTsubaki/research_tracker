@@ -4,146 +4,76 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 28 Sep 2026 10:18:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 09:28:10 GMT</lastBuildDate>
     <item>
-      <title>AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs</title>
-      <link>https://arxiv.org/abs/2609.31590</link>
-      <guid isPermaLink="false">arxiv:2609.31590</guid>
-      <pubDate>2026-09-25</pubDate>
-      <description>Existing multi-agent benchmarks primarily test in competitive settings, short-horizon interactions under 20 steps, or simply aggregate individual performance, failing to isolate and highlight genuine collaboration capabilities of LLM-based agents. We introduce AgentWorld, a benchmark of 100 human-annotated tasks (with 100 augmented variants) for evaluating long-horizon, multi-agent collaboration. Tasks span 50+ interaction rounds across a rich MMORPG sandbox and require 3-20 agents with asymmetr</description>
+      <title>CollisionSplatting: Collision-Aware Motion Planning in 3DGS Scenes with Image-Conditioned Objectives and Adjustable Conservatism</title>
+      <link>https://arxiv.org/abs/2609.35619</link>
+      <guid isPermaLink="false">arxiv:2609.35619</guid>
+      <pubDate>2026-09-28</pubDate>
+      <description>Incorporating dense visual information into motion planning remains challenging, as geometric planners rely on abstracted scene representations that discard visual richness, while learned visual models often lack geometric interpretability and computational efficiency. This paper introduces CollisionSplatting, a simple, modular, GPU-accelerated, probability-inspired distance metric with tunable conservatism that operates directly on standard 3D Gaussian Splatting (3DGS) scenes. When combined wit</description>
     </item>
     <item>
-      <title>Multi-agent Scaling Across Disjunctive and Compensatory Tasks</title>
-      <link>https://arxiv.org/abs/2609.31563</link>
-      <guid isPermaLink="false">arxiv:2609.31563</guid>
-      <pubDate>2026-09-25</pubDate>
-      <description>Multi-agent LLM systems are often expected to improve as team size increases, yet the scaling behavior may depend on task structure. Our central contribution is to introduce Steiner's taxonomy of group tasks as a framework for analyzing multi-agent LLM scaling and focusing the analysis on disjunctive and compensatory tasks. We model independently sampled agents as conditionally independent given the item, which yields their large-team limits: plurality voting converges to the model's modal answe</description>
+      <title>BaRe-Mem: Bayesian Reliability Memory for Robust and Adaptive Agent Consultation</title>
+      <link>https://arxiv.org/abs/2609.35551</link>
+      <guid isPermaLink="false">arxiv:2609.35551</guid>
+      <pubDate>2026-09-28</pubDate>
+      <description>In multi-agent systems, reliable consultation is challenging because advisor capabilities vary across tasks, and misleading information can make consultation worse than autonomous reasoning. We introduce BaRe-Mem, an online Bayesian reliability memory for multi-agent consultation. It estimates advisor reliability based on the central model's internal belief representations and updates these estimates from historical interactions. These estimates modulate the influence of advisor responses and gu</description>
     </item>
     <item>
-      <title>HySTAR: Anchored Hypergraphs for Stable Credit Assignment in Cooperative Multi-Agent Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2609.31531</link>
-      <guid isPermaLink="false">arxiv:2609.31531</guid>
-      <pubDate>2026-09-25</pubDate>
-      <description>Cooperative multi-agent reinforcement learning under partial observability and shared rewards requires assigning team outcomes to individual agents and high-order coalitions. A MAPPO-style critic compresses joint behavior into one global value, while critics that dynamically reconstruct the grouping topology change the mapping from agents and coalitions to value components as interactions or active agents evolve. We refer to this inconsistency as structural target drift. We introduce HySTAR, a M</description>
+      <title>Memory in the Sky: Low-Altitude Question Answering with Multi-Agent Memory Aggregation</title>
+      <link>https://arxiv.org/abs/2609.35431</link>
+      <guid isPermaLink="false">arxiv:2609.35431</guid>
+      <pubDate>2026-09-28</pubDate>
+      <description>This paper studies low-altitude question answering (LAQA), in which distributed unmanned aerial vehicle (UAV) memories are aggregated at a ground server to answer questions about observations over a long horizon. Unlike conventional resource allocation based on sensing, communication, control, or computation metrics, LAQA requires an explicit measure of memory value. We propose a generative adversarial exam (GAE) that uses forward simulation to evaluate memory retrieval and exam scores to quanti</description>
     </item>
     <item>
-      <title>Towards Mitigating Fabricated Consensus: The Active Provenance Gate for Multi-Agent Debate Synthesis</title>
-      <link>https://arxiv.org/abs/2609.31422</link>
-      <guid isPermaLink="false">arxiv:2609.31422</guid>
-      <pubDate>2026-09-25</pubDate>
-      <description>Large language model-based multi-agent debate (MAD) systems are being increasingly used as complex decision pipelines in distributed processes. However, their final synthesis phase still remains inadequately controlled. Even with detailed debate logs, summarizing models are prone to fabricating smoothly written debate consensus that is not grounded in the debate's history. To address this safety gap, this paper presents empirical research and studies if the introduction of active post-debate ver</description>
+      <title>Self-Adapting Group of Experts for Multi-Agent Reasoning</title>
+      <link>https://arxiv.org/abs/2609.35412</link>
+      <guid isPermaLink="false">arxiv:2609.35412</guid>
+      <pubDate>2026-09-28</pubDate>
+      <description>Multi-agent systems bring together language model agents with different roles to propose, review, and refine solutions. Each agent's response depends on its model's capabilities, the reasoning strategy defined by its system prompt, and the information in its input context. Existing frameworks often adapt communication by changing this context while leaving individual prompts fixed, even when a problem calls for different skills. We study whether agents' initial responses can identify a strategy </description>
     </item>
     <item>
-      <title>dRVG: Quadtree-Guided, Resolution-Complete Online Motion Planning for Polygonal Robots in Unknown Environments</title>
-      <link>https://arxiv.org/abs/2609.31412</link>
-      <guid isPermaLink="false">arxiv:2609.31412</guid>
-      <pubDate>2026-09-25</pubDate>
-      <description>We present the dynamic rotation-stacked visibility graph (dRVG), an online motion planner that guides polygonal robots to specified goals in initially unknown, static environ- ments. It merges local roadmaps from successive observations to plan collision-free translations and rotations without a uniform position grid. A spatial quadtree schedules sensing goals across regions to reduce repeated visits while retaining all orientation configurations for routing. Under exact sensing and geometric co</description>
+      <title>TMCS: Tool-Grounded Multi-Agent Reasoning for Compositional Chemical Problem Solving</title>
+      <link>https://arxiv.org/abs/2609.35336</link>
+      <guid isPermaLink="false">arxiv:2609.35336</guid>
+      <pubDate>2026-09-28</pubDate>
+      <description>Despite the promise of Large Language Models (LLMs) in computational chemistry, rigorous combinatorial chemistry problems remain difficult because they require quantitatively constrained molecular modification, candidate validation, and systematic revision after failed attempts. Existing tool-augmented chemical agents demonstrate useful planning and tool use, but they rarely provide a unified loop for property-driven molecular optimization and workflow-level composition. To bridge this gap, we p</description>
     </item>
     <item>
-      <title>Guiding End-to-End Driving Models with Endpoint-Constrained Trajectory Optimization</title>
-      <link>https://arxiv.org/abs/2609.31383</link>
-      <guid isPermaLink="false">arxiv:2609.31383</guid>
-      <pubDate>2026-09-25</pubDate>
-      <description>End-to-end driving policies are commonly trained through open-loop behavior cloning, yet they must ultimately operate in closed-loop when deployed on a vehicle, creating a fundamental mismatch between training and execution. Beyond the commonly studied effects of covariate shift and causal confusion, we identify a complementary factor for this open-loop/closed-loop gap: waypoint-based supervision and displacement metrics do not ensure that the intermediate trajectory is physically coherent or ea</description>
+      <title>GuardPIBT: Counterfactually Gated Neural Guidance for Ultra-Large-Scale 3D Multi-Agent Path Finding</title>
+      <link>https://arxiv.org/abs/2609.35267</link>
+      <guid isPermaLink="false">arxiv:2609.35267</guid>
+      <pubDate>2026-09-28</pubDate>
+      <description>Large-scale 3D multi-agent path finding becomes increasingly difficult under dense traffic. Priority Inheritance with Backtracking (PIBT) scales well, but its one-step goal-directed ordering may become insufficient under dense interactions and large-scale congestion. We present GuardPIBT, which augments rather than replaces the PIBT executor: neural predictions only propose residual reorderings of PIBT's native candidates, while final actions remain determined by PIBT. First, local graph attenti</description>
     </item>
     <item>
-      <title>Open Vocabulary Domain Unlearning</title>
-      <link>https://arxiv.org/abs/2609.31356</link>
-      <guid isPermaLink="false">arxiv:2609.31356</guid>
-      <pubDate>2026-09-25</pubDate>
-      <description>Vision-Language Models (VLMs) exhibit remarkable zero-shot generalization, yet they often encode unwanted or hazardous stylistic domains such as idealized textbook diagrams in medical AI or cartoon vehicles in autonomous driving. Approximate Domain Unlearning (ADU) aims to selectively erase a model's recognition of a target visual domain while preserving accuracy on the remaining domains. However, existing ADU methods operate under a flawed closed-vocabulary assumption: they evaluate unlearning </description>
+      <title>Coordinated Lane-Level Variable Speed Limits and Ramp Metering for Successive Weaving Segments Considering Merging/Diverging Risks: A Hybrid Model Predictive Control and Multi-Agent Reinforcement Learning Approach</title>
+      <link>https://arxiv.org/abs/2609.35152</link>
+      <guid isPermaLink="false">arxiv:2609.35152</guid>
+      <pubDate>2026-09-28</pubDate>
+      <description>Successive weaving segments (SWSs) on urban expressways are bottlenecks prone to recurrent congestion and collisions, requiring fine-grained active traffic management (ATM). Existing approaches struggle to balance the adaptive performance of data-driven optimization with the resilience and transferability of model-based control. We propose a hybrid framework to coordinate lane-level variable speed limits (VSLs) and ramp metering across SWSs. First, we reconstruct L-METANET, a lane-level macrosco</description>
     </item>
     <item>
-      <title>G2MAF: Test-Time Gradient Guidance for Multi-Agent Flow Policies</title>
-      <link>https://arxiv.org/abs/2609.31286</link>
-      <guid isPermaLink="false">arxiv:2609.31286</guid>
-      <pubDate>2026-09-25</pubDate>
-      <description>Offline multi-agent reinforcement learning (MARL) learns cooperative policies from fixed datasets without further environment interaction and a learned policy is frozen at deployment. Such a frozen policy typically proposes a single joint action and executes it directly at deployment time. However, this one-shot deployment often commits to a suboptimal proposal, even when better nearby alternatives remain consistent with the behavior data. To address this issue, we propose Gradient Guided Multi </description>
+      <title>Strategically Robust Game-Theoretic Multi-Agent Trajectory Optimization</title>
+      <link>https://arxiv.org/abs/2609.35142</link>
+      <guid isPermaLink="false">arxiv:2609.35142</guid>
+      <pubDate>2026-09-28</pubDate>
+      <description>Aviation authorities worldwide expect Advanced Air Mobility (AAM) traffic management to be decentralized among service providers, requiring AAM flights to autonomously plan trajectories by predicting other flights' control inputs rather than relying on centralized coordination. Game-theoretic approaches that formulate multi-agent collision avoidance as an exact dynamic potential game can efficiently find open-loop equilibria, but they assume that agents exactly follow their equilibrium trajector</description>
     </item>
     <item>
-      <title>MA-WAM: Multi-Agent World-Action Model for Test-Time Planning</title>
-      <link>https://arxiv.org/abs/2609.31281</link>
-      <guid isPermaLink="false">arxiv:2609.31281</guid>
-      <pubDate>2026-09-25</pubDate>
-      <description>Multi-agent cooperative tasks require different agents to execute a joint action simultaneously, and each agent's action affects both the observations and responses of the other agents. Hence, a world model is needed to predict the team return resulting from the joint actions of all agents. A naive extension directly applies a single-agent world model to each agent's action when predicting the team return step by step. However, such an extension fails to capture the dependencies among the simult</description>
+      <title>QuadHand: A Compact Quadrotor Aerial Manipulator with MRC-SDF-Based Whole-Body Motion Planning</title>
+      <link>https://arxiv.org/abs/2609.35094</link>
+      <guid isPermaLink="false">arxiv:2609.35094</guid>
+      <pubDate>2026-09-28</pubDate>
+      <description>Uncrewed aerial manipulators (UAMs) integrate robotic arms with aerial platforms for three-dimensional physical interaction. However, enlarging the workspace increases arm-induced disturbances, while existing geometric representations face a trade-off between geometric fidelity and computational efficiency in close-proximity interaction. This paper presents QuadHand, a compact quadrotor aerial manipulator with a 3-DoF arm, gripper, and battery-assisted passive CoG compensation module to reduce d</description>
     </item>
     <item>
-      <title>INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement</title>
-      <link>https://arxiv.org/abs/2609.31137</link>
-      <guid isPermaLink="false">arxiv:2609.31137</guid>
-      <pubDate>2026-09-25</pubDate>
-      <description>Driving in dense urban traffic is interactive: whether a merge or an unprotected turn succeeds depends on how surrounding agents respond to the ego vehicle. Conventional planners predict first and plan second and, therefore, cannot account for this dependency. Methods that integrate prediction and planning either train both jointly, which introduces task interference, or keep them separate and are restricted to a predefined set of proposals. We present INTERACT: Interactive Planning for Autonomo</description>
-    </item>
-    <item>
-      <title>Collision-free Movement on Grids and Beyond</title>
-      <link>https://arxiv.org/abs/2609.31099</link>
-      <guid isPermaLink="false">arxiv:2609.31099</guid>
-      <pubDate>2026-09-25</pubDate>
-      <description>We study collision-free movement problems on graphs, where the task is to coordinate a set of robots so that they reach a target formation satisfying a desired property while minimizing the total travel distance. This framework extends two classical models: (a) minimizing movement [Demaine et al., TALG '09, '14], which does not enforce collision avoidance, and (b) coordinated motion planning or multi-agent path finding [Eiben et al., SoCG '23, Deligkas et al., ICALP '24, among many others], wher</description>
-    </item>
-    <item>
-      <title>Compact Force Sensor for Dual-UAV Cable-Suspended Payload Transport with Tension-Aware Outer-Loop Control</title>
-      <link>https://arxiv.org/abs/2609.31035</link>
-      <guid isPermaLink="false">arxiv:2609.31035</guid>
-      <pubDate>2026-09-25</pubDate>
-      <description>Cooperative payload transportation using multiple \textit{Unmanned Aerial Vehicles} (UAVs) poses challenges in stability, coordination, and robustness, especially under external disturbances and unmodeled dynamics. This work proposes a dual-UAV payload transportation framework supported by a compact, custom-designed force sensor measuring the interaction force at the UAV cable anchor point. The sensor design and mathematical model are presented, and its performance is characterized through stati</description>
-    </item>
-    <item>
-      <title>MACBT: A Multi-Agent Cognitive Behavioral Therapy Decision Support System with Longitudinal Memory</title>
-      <link>https://arxiv.org/abs/2609.30939</link>
-      <guid isPermaLink="false">arxiv:2609.30939</guid>
-      <pubDate>2026-09-25</pubDate>
-      <description>Cognitive behavioral therapy (CBT) is an evidence-based first-line treatment for depression, yet its scale is constrained by the time clinicians spend on pre-session preparation, post-session documentation, and longitudinal cognitive-pathology tracking. We present a clinician-facing AI decision-support system that combines a multi-agent CBT framework (MACBT) with a CBT-specific longitudinal memory module (CD Memory). MACBT encodes the five-stage CBT workflow (assessment, Socratic questioning, co</description>
-    </item>
-    <item>
-      <title>Evaluation Is All You Need for Multi-Modal Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2609.30818</link>
-      <guid isPermaLink="false">arxiv:2609.30818</guid>
-      <pubDate>2026-09-25</pubDate>
-      <description>Multi-modal planning is promising for autonomous driving by representing multiple plausible behaviors in ambiguous and long-tail scenarios. Existing methods mainly focus on improving trajectory multi-modality, enhancing trajectory representations, or reshaping the candidate distribution. Nevertheless, we identify a pronounced generation-evaluation asymmetry in multi-modal planning: despite strong oracle performance, existing planners often fail to reliably select the best available candidate, le</description>
-    </item>
-    <item>
-      <title>A Benchmark and Diagnostic Study of Epistemic Admission in Shared Agent Memory</title>
-      <link>https://arxiv.org/abs/2609.30813</link>
-      <guid isPermaLink="false">arxiv:2609.30813</guid>
-      <pubDate>2026-09-25</pubDate>
-      <description>Evaluating claim admission in shared agent memory is challenging because repeated claims may be mistaken for independent evidence. An agent may copy or paraphrase a retrieved belief, while admitting a false claim exposes subsequent agents to it. To study this problem, we introduce the Correlated Promotion Benchmark (CPB), which evaluates whether candidate claims should be admitted to shared memory.CPB-Static constructs a frozen test split from publicly annotated sources with fixed gold actions. </description>
-    </item>
-    <item>
-      <title>Learning What to Skip: Counterfactual Credit Assignment for Efficient Multi-Agent LLM Workflows</title>
-      <link>https://arxiv.org/abs/2609.30734</link>
-      <guid isPermaLink="false">arxiv:2609.30734</guid>
-      <pubDate>2026-09-25</pubDate>
-      <description>Multi-agent LLM workflows use planning, execution, verification, and summarization to improve task performance, yet the value of each component depends on the state already produced. Executing every component can waste computation or overwrite a correct intermediate answer. We formulate component omission as counterfactual credit assignment: full-workflow logs reveal the executed trajectory's reward, while controlled skip interventions reveal the consequences of omitting a future step. We introd</description>
-    </item>
-    <item>
-      <title>Threat-Aware Energy-Efficient Deployment for Dynamic UAV Networks: A Multi-Agent RL Approach</title>
-      <link>https://arxiv.org/abs/2609.30690</link>
-      <guid isPermaLink="false">arxiv:2609.30690</guid>
-      <pubDate>2026-09-25</pubDate>
-      <description>Ensuring operational safety in threat-prone environments remains a critical challenge for multi-UAV networks serving as aerial base stations. This paper proposes an efficient framework to maximize global energy efficiency (EE) while promoting safe operation through threat-aware clustering and reward-based safety enforcement. The proposed framework is executed in three steps. First, a threat-aware K-means (TAKM) algorithm determines the minimum required UAVs and computes safe initial placements. </description>
-    </item>
-    <item>
-      <title>Coding Agents for Generalized Task and Motion Planning Problems</title>
-      <link>https://arxiv.org/abs/2609.30233</link>
-      <guid isPermaLink="false">arxiv:2609.30233</guid>
-      <pubDate>2026-09-24</pubDate>
-      <description>Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalized TAMP addresses this difficulty by exploiting regularities across problem instances to reduce planning effort on new instances. However, existing methods require substantial TAMP-specific engineering. We investigate whether coding agents can automate this process by synthesizing</description>
-    </item>
-    <item>
-      <title>ReVAMP: Vector-Accelerated Motion Planning for Kinematically-Constrained Systems via Reparameterization</title>
-      <link>https://arxiv.org/abs/2609.30213</link>
-      <guid isPermaLink="false">arxiv:2609.30213</guid>
-      <pubDate>2026-09-24</pubDate>
-      <description>Robots often must satisfy one or more constraints during motion planning for real-world tasks. When such constraints reduce the valid configuration space to a measure-zero subset, sampling based planning algorithms require modifications to draw feasible samples. For many common end-effector constraints, parameterizations built on inverse kinematics (IK) provide an alternate formulation where the constraints are satisfied by construction, allowing directly sampling the feasible set. Despite their</description>
-    </item>
-    <item>
-      <title>Graph-Based Inference and Topology-Aware Multi-Agent Reinforcement Learning for Large-Scale Railway Network Management</title>
-      <link>https://arxiv.org/abs/2609.30150</link>
-      <guid isPermaLink="false">arxiv:2609.30150</guid>
-      <pubDate>2026-09-24</pubDate>
-      <description>Modern infrastructure asset management constitutes a complex sequential decision-making problem, characterized by long planning horizons and system-level interactions, such as spatial deterioration correlations and economies of scale. While deep reinforcement learning has shown promise in optimizing maintenance policies, scaling to real-world networks remains challenging. Centralized approaches become computationally intractable in large-scale systems, whereas decentralized approaches often fail</description>
+      <title>Can Generative AI Automate Data Extraction for Meta-Analysis? A Case Study on Intercropping Research</title>
+      <link>https://arxiv.org/abs/2609.35089</link>
+      <guid isPermaLink="false">arxiv:2609.35089</guid>
+      <pubDate>2026-09-28</pubDate>
+      <description>Meta-analysis is the synthesis of information from multiple sources to arrive at an overarching conclusion. There is a large need for meta-analysis in agricultural research to synthesize what is known and analyze overarching patterns. Extracting data from published literature is, however, labor-intensive, time-consuming, and tedious, and is impeded by a lack of standardization in research design, units of measurement, and terminology. These challenges are particularly evident in the domain of cr</description>
     </item>
   </channel>
 </rss>

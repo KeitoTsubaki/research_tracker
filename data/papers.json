@@ -1,5 +1,269 @@
 [
   {
+    "id": "arxiv:2609.35619",
+    "title": "CollisionSplatting: Collision-Aware Motion Planning in 3DGS Scenes with Image-Conditioned Objectives and Adjustable Conservatism",
+    "authors": [
+      "R. Khorrambakht",
+      "Joaquim Ortiz-Haro",
+      "Stephan Weiss",
+      "Ludovic Righetti"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.35619",
+    "abstract": "Incorporating dense visual information into motion planning remains challenging, as geometric planners rely on abstracted scene representations that discard visual richness, while learned visual models often lack geometric interpretability and computational efficiency. This paper introduces CollisionSplatting, a simple, modular, GPU-accelerated, probability-inspired distance metric with tunable conservatism that operates directly on standard 3D Gaussian Splatting (3DGS) scenes. When combined with learned image-conditioned reward functions, this metric enables joint geometric and visual planning by unifying collision-aware costs with image-space objectives. We integrate the metric into GPU-accelerated Model Predictive Path Integral (MPPI) and Rapidly-Exploring Random Tree (RRT) planners, and show on-par or better collision-classification performance compared to representative baselines while achieving substantially higher collision-checking throughput and significantly lower VRAM usage. Finally, we demonstrate the effectiveness of our metric in real-world vision-guided navigation and manipulation tasks, highlighting 3DGS as a practical bridge between rich perception and real-time motion planning.",
+    "published_date": "2026-09-28",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-29T09:28:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.35551",
+    "title": "BaRe-Mem: Bayesian Reliability Memory for Robust and Adaptive Agent Consultation",
+    "authors": [
+      "Peilin Feng",
+      "Zhengyang Huang",
+      "Soujanya Poria"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.35551",
+    "abstract": "In multi-agent systems, reliable consultation is challenging because advisor capabilities vary across tasks, and misleading information can make consultation worse than autonomous reasoning. We introduce BaRe-Mem, an online Bayesian reliability memory for multi-agent consultation. It estimates advisor reliability based on the central model's internal belief representations and updates these estimates from historical interactions. These estimates modulate the influence of advisor responses and guide the choice between consultation and autonomous reasoning. Across nine benchmarks and six central models, BaRe-Mem is more robust to misleading advisor information than debate and majority voting. On the more challenging tasks, it remains above autonomous reasoning across all tested misleading levels. Moreover, we extend the BaRe-Mem mechanism to worker allocation in agent teams. On the MuSiQue benchmark, BaRe-Mem improves task completion over routing by historical success counts and identifies capable workers earlier.",
+    "published_date": "2026-09-28",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "BaRe-Mem is an online Bayesian reliability memory that learns context-dependent advisor reliability from verified interactions, modulates external advice accordingly, and adaptively decides whether to consult or reason autonomously",
+    "fetched_at": "2026-09-29T09:28:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.35431",
+    "title": "Memory in the Sky: Low-Altitude Question Answering with Multi-Agent Memory Aggregation",
+    "authors": [
+      "Chengyang Li",
+      "Yujie Wan",
+      "Shuai Wang",
+      "Kejiang Ye",
+      "Weijie Yuan",
+      "Boyu Zhou",
+      "Yik-Chung Wu",
+      "Chengzhong Xu",
+      "Huseyin Arslan"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.35431",
+    "abstract": "This paper studies low-altitude question answering (LAQA), in which distributed unmanned aerial vehicle (UAV) memories are aggregated at a ground server to answer questions about observations over a long horizon. Unlike conventional resource allocation based on sensing, communication, control, or computation metrics, LAQA requires an explicit measure of memory value. We propose a generative adversarial exam (GAE) that uses forward simulation to evaluate memory retrieval and exam scores to quantify memory quality. This enables the downstream QA value of candidate memories to be measured and optimized without accessing the internal mechanisms of the black-box captioning, retrieval, and reasoning pipeline. Building on this metric, we develop a memory-centric (MemCen) framework that jointly selects UAVs and allocates transmit power to maximize memory quality under communication constraints. In the noise-limited regime, we derive a QoM-aware capped water-filling law that explicitly connects task utility with physical-layer power allocation. We further develop penalty successive optimization (PSO) and learning to memorize (L2M) solvers. MemCen achieves QA accuracies of 92.4% and 84.0% in CARLA Town04 and Town05 under static and dynamic communication conditions, respectively. In real-world experiments, MemCen achieves 88.5% QA accuracy on the panoramic multi-agent system (PMAS) benchmark. Finally, UAV-to-robot-dog demonstrations further validate the practical utility of the acquired memories for environmental understanding and navigation.",
+    "published_date": "2026-09-28",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "16 pages, 19 figures",
+    "fetched_at": "2026-09-29T09:28:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.35412",
+    "title": "Self-Adapting Group of Experts for Multi-Agent Reasoning",
+    "authors": [
+      "Mohammad Atif Quamar",
+      "Nurbek Tastan",
+      "Karthik Nandakumar",
+      "Junpei Komiyama"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.35412",
+    "abstract": "Multi-agent systems bring together language model agents with different roles to propose, review, and refine solutions. Each agent's response depends on its model's capabilities, the reasoning strategy defined by its system prompt, and the information in its input context. Existing frameworks often adapt communication by changing this context while leaving individual prompts fixed, even when a problem calls for different skills. We study whether agents' initial responses can identify a strategy better suited to the current problem and guide its transfer to other agents. To address this, we introduce SAGE (Self-Adapting Group of Experts), a training-free framework that uses answer agreement, prefix consistency, and reciprocal peer review to select a strategy donor. SAGE transfers the selected donor's reasoning strategy to the other agents while preserving their original roles. This transfer uses only the agents' original system prompts, without access to the problem or generated solutions. After strategy adaptation, agents exchange responses through a dynamic, sparse directed acyclic graph that routes information from higher-scoring agents to lower-scoring agents. Experiments across multiple agent backbones and reasoning benchmarks show that SAGE achieves higher average accuracy than the evaluated baselines. Our code is available at https://github.com/atifquamar07/sage.",
+    "published_date": "2026-09-28",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-29T09:28:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.35336",
+    "title": "TMCS: Tool-Grounded Multi-Agent Reasoning for Compositional Chemical Problem Solving",
+    "authors": [
+      "Shengqin Wang",
+      "Jie Jin",
+      "Yu Cheng",
+      "Yihang Chen",
+      "Weilin Luo",
+      "Yuan Xie",
+      "Zhizhong Zhang"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.35336",
+    "abstract": "Despite the promise of Large Language Models (LLMs) in computational chemistry, rigorous combinatorial chemistry problems remain difficult because they require quantitatively constrained molecular modification, candidate validation, and systematic revision after failed attempts. Existing tool-augmented chemical agents demonstrate useful planning and tool use, but they rarely provide a unified loop for property-driven molecular optimization and workflow-level composition. To bridge this gap, we propose Tool-Grounded Multi-Agent Reasoning for Compositional Chemical Problem Solving (TMCS), a step-by-step multi-agent framework that formalizes chemical problem solving as an interpretable, tool-augmented workflow. At the task level, specialized agents leverage external tools, few-shot trajectory memory, and structured reflection to iteratively refine solutions. At the workflow level, TMCS chains generation, understanding, editing, description, and optimization into a closed-loop pipeline. Evaluations across multiple chemical tasks demonstrate that TMCS consistently enhances chemical reasoning across both open- and closed-source base models, achieving state-of-the-art performance.",
+    "published_date": "2026-09-28",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-29T09:28:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.35267",
+    "title": "GuardPIBT: Counterfactually Gated Neural Guidance for Ultra-Large-Scale 3D Multi-Agent Path Finding",
+    "authors": [
+      "Yuan Zhou",
+      "Zhenyu Hou",
+      "Guangtong Xu",
+      "Xiaoqiang Ji",
+      "Yuqing Tang",
+      "Jialiang Hou",
+      "Fei Gao"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.35267",
+    "abstract": "Large-scale 3D multi-agent path finding becomes increasingly difficult under dense traffic. Priority Inheritance with Backtracking (PIBT) scales well, but its one-step goal-directed ordering may become insufficient under dense interactions and large-scale congestion. We present GuardPIBT, which augments rather than replaces the PIBT executor: neural predictions only propose residual reorderings of PIBT's native candidates, while final actions remain determined by PIBT. First, local graph attention models nearby interactions, while global source--goal transport features provide population-level coordination context for candidate reordering. Second, a counterfactual group gate filters reorderings whose closed-loop effects may degrade coordination. Third, for ultra-large populations, population-adaptive grouping preserves decision granularity, asynchronous cached inference amortizes neural computation, and selective repair resolves long-tail agents. PIBT retains validity checking, priority inheritance, and backtracking throughout. Experiments with up to 100,000 agents demonstrate reliable completion across 2D and 3D environments, including all three 100,000-agent warehouse runs with zero audited graph violations. The project website is available at {\\color{magenta}\\texttt{https://guardpibt.github.io/GuardPIBT/}}.",
+    "published_date": "2026-09-28",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-29T09:28:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.35152",
+    "title": "Coordinated Lane-Level Variable Speed Limits and Ramp Metering for Successive Weaving Segments Considering Merging/Diverging Risks: A Hybrid Model Predictive Control and Multi-Agent Reinforcement Learning Approach",
+    "authors": [
+      "Guodong Ma",
+      "Baofeng Sun",
+      "Wenyu Yang",
+      "Zhihong Yao"
+    ],
+    "source": "arxiv",
+    "category": "math.OC",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.35152",
+    "abstract": "Successive weaving segments (SWSs) on urban expressways are bottlenecks prone to recurrent congestion and collisions, requiring fine-grained active traffic management (ATM). Existing approaches struggle to balance the adaptive performance of data-driven optimization with the resilience and transferability of model-based control. We propose a hybrid framework to coordinate lane-level variable speed limits (VSLs) and ramp metering across SWSs. First, we reconstruct L-METANET, a lane-level macroscopic traffic flow model that captures free and forced lane changes. Second, we combine XGBoost-SHAP with a random-parameters binary logit (RPBL) model to derive analytical equations for merging and diverging collision risks and formulate system cost and reward functions. Third, we develop MPC-STMAPPO, a hierarchical controller integrating model predictive control (MPC) and multi-agent reinforcement learning (MARL). Its upper MPC layer uses L-METANET for long-horizon rolling optimization and generates baseline commands; its lower spatiotemporal MAPPO (ST-MAPPO) layer, enhanced with Mamba cells and graph attention, produces residual actions for short-horizon adjustment. Real-world experiments on the 18-km Eastern Expressway in Changchun, China, show that L-METANET accurately reproduces lane-changing-induced flow redistribution and capacity drops, with state evolution aligned with ground truth. XGBoost-SHAP-RPBL achieves AUCs above 0.80 in most tasks, outperforming conventional logit models. MPC-STMAPPO converges faster and performs better across multiple metrics than MPC- and MARL-based baselines. Under randomly fluctuating demand, it also significantly outperforms pure MARL in generalization, demonstrating strong potential for industrial deployment.",
+    "published_date": "2026-09-28",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-29T09:28:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.35142",
+    "title": "Strategically Robust Game-Theoretic Multi-Agent Trajectory Optimization",
+    "authors": [
+      "Victor L. Qin",
+      "Nicolas Lanzetti",
+      "Saverio Bolognani",
+      "Hamsa Balakrishnan"
+    ],
+    "source": "arxiv",
+    "category": "eess.SY",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.35142",
+    "abstract": "Aviation authorities worldwide expect Advanced Air Mobility (AAM) traffic management to be decentralized among service providers, requiring AAM flights to autonomously plan trajectories by predicting other flights' control inputs rather than relying on centralized coordination. Game-theoretic approaches that formulate multi-agent collision avoidance as an exact dynamic potential game can efficiently find open-loop equilibria, but they assume that agents exactly follow their equilibrium trajectories---an unrealistic assumption given uncertainties in actuation, perception, and computation. We propose a strategically robust formulation where each agent protects against a fictitious adversary that, for each timestep, perturbs other agents' control inputs within a bounded budget to minimize distance at that timestep. We show that, under reasonable assumptions on agents' distance cost and robustness levels, the strategically robust game remains an exact dynamic potential game and admits a quasi-closed-form solution to the inner adversarial problem for linear dynamics, which limits computational overhead. Experiments with up to eight agents using logarithmic distance costs show that strategic robustness selects more robust trajectories in high-collision-risk configurations while leaving low-risk trajectories nearly unchanged, with only a modest increase in runtime.",
+    "published_date": "2026-09-28",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "7 pages, 5 figures, accepted to CDC 2026",
+    "fetched_at": "2026-09-29T09:28:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.35094",
+    "title": "QuadHand: A Compact Quadrotor Aerial Manipulator with MRC-SDF-Based Whole-Body Motion Planning",
+    "authors": [
+      "Rui Jin",
+      "Ruiyang Liu",
+      "Xinhang Xu",
+      "Haotian Jin",
+      "Yi Wang",
+      "Yizhuo Yang",
+      "Lihua Xi"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.35094",
+    "abstract": "Uncrewed aerial manipulators (UAMs) integrate robotic arms with aerial platforms for three-dimensional physical interaction. However, enlarging the workspace increases arm-induced disturbances, while existing geometric representations face a trade-off between geometric fidelity and computational efficiency in close-proximity interaction. This paper presents QuadHand, a compact quadrotor aerial manipulator with a 3-DoF arm, gripper, and battery-assisted passive CoG compensation module to reduce dominant arm-induced disturbances. We further propose MRC-SDF, a Multi-articulated Robot-Centric Signed Distance Field that preserves fine geometric detail with tractable computation, and a spatiotemporal whole-body trajectory optimization framework that jointly optimizes the quadrotor and manipulator for safe and executable trajectory generation. Simulations and real-world experiments demonstrate safe and executable aerial manipulation in complex environments.",
+    "published_date": "2026-09-28",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-29T09:28:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2609.35089",
+    "title": "Can Generative AI Automate Data Extraction for Meta-Analysis? A Case Study on Intercropping Research",
+    "authors": [
+      "Zehao Lu",
+      "Xingguo Xiong",
+      "Wopke van der Werf",
+      "Thijs L. van der Plas",
+      "Ioannis N. Athanasiadis"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2609.35089",
+    "abstract": "Meta-analysis is the synthesis of information from multiple sources to arrive at an overarching conclusion. There is a large need for meta-analysis in agricultural research to synthesize what is known and analyze overarching patterns. Extracting data from published literature is, however, labor-intensive, time-consuming, and tedious, and is impeded by a lack of standardization in research design, units of measurement, and terminology. These challenges are particularly evident in the domain of crop species mixtures, also called intercropping. With the growing capabilities of LLMs, many recent attempts have focused on building systems and tools to automate data collection, yet rigorous assessment against human-labeled ground truth is often missing. In this research, we evaluate three LLM-based approaches---direct zero-shot prompting, a staged workflow, and a multi-agent system---with six open-weight models to extract data from the intercropping literature. The results are evaluated against the manually curated ground truth and through a downstream statistical analysis. Overall, direct zero-shot prompting is the strongest and most consistent approach, achieving the highest mean similarity-adjusted F1 of 0.577, although none of the approaches is close to fully accurate. In the downstream analysis, most model--approach combinations recover the direction of the relationship between the predictor and outcome variables, but do not estimate its magnitude accurately.",
+    "published_date": "2026-09-28",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-09-29T09:28:10Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2609.31590",
     "title": "AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs",
     "authors": [
