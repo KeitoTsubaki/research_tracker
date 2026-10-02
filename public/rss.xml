@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Thu, 01 Oct 2026 09:46:25 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 09:22:00 GMT</lastBuildDate>
     <item>
       <title>Cogentic: Multi-Agent Orchestration for Automated Proof Discovery</title>
       <link>https://arxiv.org/abs/2609.40324</link>
@@ -116,6 +116,34 @@
       <guid isPermaLink="false">arxiv:2609.39542</guid>
       <pubDate>2026-09-30</pubDate>
       <description>This report examines and compares some of the many fine tuning and prompting methods existing, applying them within the domain of autonomous driving. The idea is to compare these methods by adapting a Large Language Model (LLM) on a video dataset. LLM's have become extremely good at achieving a good understanding of different forms of data and this study aims to induce a low dimensional understanding of driving situations into our primary test model SpaceTimeGPT. Experiments on BDD-X (Berkeley D</description>
+    </item>
+    <item>
+      <title>Multi-Agent Flow Matching with Decoupled Generative Guidance</title>
+      <link>https://arxiv.org/abs/2609.38133</link>
+      <guid isPermaLink="false">arxiv:2609.38133</guid>
+      <pubDate>2026-09-29</pubDate>
+      <description>Generative modeling is widely used for producing diverse objects from complex, multimodal distributions. However, its expressivity does not, in general, come with formal guarantees that the generated objects satisfy hard constraints or requirements. In multi-agent generation, this problem becomes more challenging because a hard requirement can depend on multiple agents, while each agent may need to determine its own guidance input without relying on the simultaneously computed guidance inputs of</description>
+    </item>
+    <item>
+      <title>IMPACT: Modeling Socially Interdependent Movement in a Generative Multi-Agent Simulation of a Pompeian Household</title>
+      <link>https://arxiv.org/abs/2609.38113</link>
+      <guid isPermaLink="false">arxiv:2609.38113</guid>
+      <pubDate>2026-09-29</pubDate>
+      <description>Simulations of archaeological sites can make interpretations of past cultural practices observable and examinable. Generative multi-agent simulations offer a bottom-up approach to modeling how people collectively moved through and used historical spaces. However, current agents designed to simulate everyday life often plan and act independently, limiting their ability to capture how movement depends on others' actions. We introduce IMPACT (Interdependent Movement Planning through Inter-Agent Con</description>
+    </item>
+    <item>
+      <title>doPlan: A Variable-Horizon Dataset for Multi-Stage Language-Conditioned Planning in Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2609.38028</link>
+      <guid isPermaLink="false">arxiv:2609.38028</guid>
+      <pubDate>2026-09-29</pubDate>
+      <description>Autonomous vehicles interacting with passengers through natural language must reason beyond immediate commands. Passenger intent may span multiple stages of behavior, depend on future events, refer to surrounding agents or landmarks, and remain relevant as driving conditions evolve. Existing language-enabled driving datasets largely focus on short, localized interactions, leaving these longer-horizon forms of passenger intent comparatively underexplored. We introduce doPlan, to our knowledge the</description>
+    </item>
+    <item>
+      <title>Brain-SAD: A Brain-Inspired Safe Autonomous Driving Control Framework with Dynamic Fear-Oriented Constraint on Dual-Policy</title>
+      <link>https://arxiv.org/abs/2609.38016</link>
+      <guid isPermaLink="false">arxiv:2609.38016</guid>
+      <pubDate>2026-09-29</pubDate>
+      <description>Constrained Reinforcement Learning has recently gained increasing attention in the field of Safe Autonomous Driving, where the general mechanism is to maximize the expected reward while keeping the overall action risk bounded. In this way, the safety issues arising in AD can be mitigated through constrained actions. However, existing Constrained RL methods still lack dynamics on the imposed constraints. For instance, the action cost adopted by the existing Primal-Dual/soft-constrained methods is</description>
     </item>
   </channel>
 </rss>
