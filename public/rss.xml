@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Sat, 03 Oct 2026 08:52:10 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 09:21:00 GMT</lastBuildDate>
     <item>
       <title>Decentralized Power-Optimal Coordination for Spacecraft Swarms Using Time-Varying Magnetorquer Actuation</title>
       <link>https://arxiv.org/abs/2610.02118</link>
@@ -102,6 +102,48 @@
       <guid isPermaLink="false">arxiv:2610.01364</guid>
       <pubDate>2026-10-01</pubDate>
       <description>Factories are shifting toward smaller lot sizes with high product customization, requiring frequent re-programming of flexible and reconfigurable automation systems. LLM-based agents can be deployed in two complementary roles: Offline, they generate deterministic production sequences, reducing programming effort; online, they operate live machines and handle unforeseen runtime faults that static programs cannot anticipate. We propose a solution in which each factory module is paired with a dedic</description>
+    </item>
+    <item>
+      <title>Cogentic: Multi-Agent Orchestration for Automated Proof Discovery</title>
+      <link>https://arxiv.org/abs/2609.40324</link>
+      <guid isPermaLink="false">arxiv:2609.40324</guid>
+      <pubDate>2026-09-30</pubDate>
+      <description>We present Cogentic, a multi-agent harness for automated proof discovery on open research problems. While frontier language models can generate strong mathematical ideas in a single shot, single-shot generation is often insufficient for open problems that require exploring multiple competing conjectures, overcoming subtle technical obstructions, and retaining intermediate progress over a long horizon. Cogentic addresses these challenges through an iterative prove--verify loop in which an orchest</description>
+    </item>
+    <item>
+      <title>How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?</title>
+      <link>https://arxiv.org/abs/2609.40303</link>
+      <guid isPermaLink="false">arxiv:2609.40303</guid>
+      <pubDate>2026-09-30</pubDate>
+      <description>Recent autonomous machine learning engineering (MLE) agents have made significant progress on public leaderboards. Often motivated by progress stagnation over long-horizon cycles and limited Large Language Model (LLM) primitives, modern MLE agents are deployed on top of increasingly elaborate machinery: multi-agent orchestrators, dedicated retrieval subagents, and more. While such harnesses expand, the use of more primitive but improved coding agents - where LLMs have direct access to the execut</description>
+    </item>
+    <item>
+      <title>Belief-Aware Multi-Agent Path Finding under Map Uncertainty</title>
+      <link>https://arxiv.org/abs/2609.40269</link>
+      <guid isPermaLink="false">arxiv:2609.40269</guid>
+      <pubDate>2026-09-30</pubDate>
+      <description>Multi-Agent Path Finding (MAPF) aims to find collision-free paths for multiple agents in a shared environment. Classical MAPF assumes that all static obstacles are known in advance, but real-world environments can change unexpectedly due to fallen objects, spills, or other local disturbances. When such changes are spatially correlated, an observation can inform traversability estimates beyond the observed location. Prior approaches address uncertainty in traversability through contingent plans o</description>
+    </item>
+    <item>
+      <title>Passive Stiffness Shaping in Cable-Suspended Aerial Manipulation via Movable Compliant Anchors</title>
+      <link>https://arxiv.org/abs/2609.40102</link>
+      <guid isPermaLink="false">arxiv:2609.40102</guid>
+      <pubDate>2026-09-30</pubDate>
+      <description>Cable-suspended aerial manipulation offers a lightweight architecture for cooperative transportation and physical interaction, yet the passive mechanical response perceived at the load remains insufficiently understood and systematically exploited. This work interprets aerial vehicles as movable compliant anchors and develops a gravity-aware quasi-static theory for predicting and shaping the passive Cartesian stiffness of a suspended load. The formulation applies to an arbitrary number of aerial</description>
+    </item>
+    <item>
+      <title>Learning to Explain While Planning: Rule-Aligned Diffusion Planning for Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2609.39995</link>
+      <guid isPermaLink="false">arxiv:2609.39995</guid>
+      <pubDate>2026-09-30</pubDate>
+      <description>Diffusion planners exhibit strong capabilities in generating multimodal trajectories. However, existing methods primarily rely on expert demonstrations to fit trajectory distributions, learning statistical correlations among scenes, behaviors, and trajectories without explicitly modeling driving rules. In long-tail scenarios where expert data are scarce, the lack of behaviors to imitate may lead to trajectories that violate safety or compliance requirements. Moreover, their generation process la</description>
+    </item>
+    <item>
+      <title>Solving Multi-Agent Sokoban via LaCAM</title>
+      <link>https://arxiv.org/abs/2609.39889</link>
+      <guid isPermaLink="false">arxiv:2609.39889</guid>
+      <pubDate>2026-09-30</pubDate>
+      <description>Sokoban, a puzzle game in which an agent pushes boxes onto unlabelled target locations in a grid world, is a long-standing benchmark planning problem. While it is easy to see the connection to practical applications such as warehouse logistics with autonomous forklifts, its multi-agent counterpart has remained underdeveloped. This is because Multi-Agent Sokoban is substantially more difficult due to factors specific to multi-agent planning, such as the rapidly growing branching factor as the num</description>
     </item>
   </channel>
 </rss>
