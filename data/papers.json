@@ -1,5 +1,329 @@
 [
   {
+    "id": "arxiv:2610.03675",
+    "title": "FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution",
+    "authors": [
+      "Hui Chen",
+      "Xuan Qi",
+      "James Xu Zhao",
+      "Zhaopeng Feng",
+      "Shilong Liu",
+      "Kuang Xu",
+      "Pang Wei Koh",
+      "Bryan Hooi"
+    ],
+    "source": "arxiv",
+    "category": "cs.NE",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.03675",
+    "abstract": "LLM-guided evolutionary methods, such as AlphaEvolve, have emerged as powerful approaches for challenging computational optimization problems, such as circle packing. However, prior work typically optimizes performance gain over a fixed number of iterations. We argue that practical optimization should maximize gain per unit cost. To this end, we propose FrugalEvo, a cost-aware evolutionary framework where a stronger, higher-cost LLM explores solution strategies, and a cheaper LLM implements them and iteratively refines the resulting code. We also design a cache-efficient evolution process, where our harness and prompts maximize the sharing of prefixes across different evolution steps, to improve cache reuse. To measure solution quality throughout a fixed cost budget, we introduce Budget-Aware Area Under the Curve (BA-AUC), defined as the area under the best-so-far evaluation score curve over cumulative LLM cost, up to the budget. Across 10 mathematical and systems optimization tasks, FrugalEvo matches or surpasses state-of-the-art baselines, including OpenEvolve, ShinkaEvolve, AdaEvolve, and EvoX, in final solution quality and achieves higher BA-AUC on 9 tasks. It also achieves higher average performance than these baselines on 10 algorithmic optimization tasks from ALE-Bench-Lite. Notably, on circle packing, FrugalEvo achieves new state-of-the-art performance with GPT-5.6 Terra and Luna for only 1.68 USD and with GLM-5.3 and its Flash variant for only 0.55 USD, matching or surpassing all baselines, including multi-agent methods such as CORAL and SwarmResearch, which cost approximately 50 USD on average.",
+    "published_date": "2026-10-02",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "17 pages, 4 figures",
+    "fetched_at": "2026-10-05T10:01:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.03394",
+    "title": "EdgeAgent: Orchestrating On-Device LLM inference for End-User Multi-Agent Systems on CPU-GPU Unified Memory Architectures",
+    "authors": [
+      "Yuhai Long",
+      "Yuanxin Wei",
+      "Kai Wu",
+      "Jinhui Wei",
+      "Dan Huang",
+      "Jiangsu Du"
+    ],
+    "source": "arxiv",
+    "category": "cs.DC",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.03394",
+    "abstract": "Emerging multi-agent LLMs demand privacy-preserving edge deployment, yet current inference systems struggle with these collaborative workflows. Specifically, the memory-bound decode phase causes severe bus contention on unified memory architectures (UMA), paralyzing naive CPU-GPU co-execution. Furthermore, speculative decoding in multi-agent workloads faces extreme variance in drafting difficulty, alternating between complex reasoning and predictable structured generation. Compounded by frequent tool-induced stalls, this highly fragmented execution severely underutilizes hardware and defeats traditional static batching. We present EdgeAgent, a cross-layer inference system explicitly co-designed for edge UMA and multi-agent workloads. At the micro-architectural level, it bypasses rigid graph-compiler constraints to enable zero-copy UMA-aware tensor parallelism, utilizing asymmetric memory layouts to fully saturate both CPU and GPU compute units. At the scheduling level, it dynamically allocates draft budgets based on real-time sequence predictability to bound bandwidth waste. Concurrently, an asynchronous suspend-and-yield mechanism actively evicts stalled agents, ensuring continuous hardware saturation during unpredictable tool invocations. Extensive evaluations on an Apple M4 SoC demonstrate that the UMA-aware execution alone contributes a 1.29x speedup over batched speculative decoding. Adding the agent-aware scheduling lifts the full EdgeAgent system to a 1.77x speedup under extreme tool-use latencies.",
+    "published_date": "2026-10-02",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-05T10:01:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.03095",
+    "title": "Peer Influence across Heterogeneous AI Models",
+    "authors": [
+      "Frida Nøhr Laustsen",
+      "Marie Haahr Petersen",
+      "Victoria Popa",
+      "Ariel Flint",
+      "Romualdo Pastor-Satorras",
+      "Andrea Baronchelli",
+      "Luca Maria Aiello"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.03095",
+    "abstract": "When two AI agents disagree, who persuades whom? As multi-agent systems increasingly combine language models of different families and sizes, the answer can determine which judgments survive interaction. Measuring persuasion as the probabilistic shift in an agent's decision after a single exchange with a dissenting peer, we test seven open-weight models across three language understanding tasks. We find that persuasion is strong: when models disagree, receivers often abandon their initial judgment after seeing a peer's answer and explanation. Surprisingly, however, neither standalone certainty nor model scale reliably predicts persuasion dynamics. Models producing almost perfectly consistent decisions in isolation can be among the most susceptible to persuasion, and small models can match larger ones as persuaders and resist their influence just as effectively. Furthermore, we show that the size of the shift depends more on the susceptibility of the listener than on the persuasiveness of the speaker. Persuasion patterns are therefore specific to each model pairing, with heterogeneity amplifying persuasion in some combinations and suppressing it in others, allowing a dissenting agent running a small model to overturn the judgments of a much larger one. These findings show that the behavior of interacting models cannot be inferred from their individual properties but must be evaluated in the combinations in which they will operate.",
+    "published_date": "2026-10-02",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "30 pages, 16 Figures, 6 Tables",
+    "fetched_at": "2026-10-05T10:01:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.03033",
+    "title": "When Numbers Start Talking: Numerical Signalling and Strategic Behaviour Among LLMs",
+    "authors": [
+      "Alessio Buscemi",
+      "Daniele Proverbio",
+      "Alessandro Di Stefano",
+      "The Anh Han",
+      "German Castignani",
+      "Pietro Liò"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.03033",
+    "abstract": "Large language model (LLM)-based agents increasingly operate in multi-agent systems (MAS) characterised by strategic interaction. However, little is known about whether, and to what extent, different types of messages affect the outcomes of strategic games. By investigating AI agents based on four popular LLMs, playing four games with different cooperation equilibria, we study whether messages of different kinds (natural language, numerical signals, or random sequences) significantly modify the levels of cooperation in each game, also depending on the agents' assigned personalities. We observe that structured messages alter the final payoffs for most games and LLMs, but without a predictable pattern; this challenges the assumption that AI agents can converge to stable equilibria regardless of additional capabilities. Moreover, we observe that agent-generated numerical messages depart from randomness, most strongly and consistently when agents are explicitly instructed to communicate; however, they introduce an additional interpretability challenge, as their symbol distributions are mostly associated with the payoff structure and typically become more concentrated with repetition, but are overall difficult for humans to interpret. Monitoring for coordination of AI agents through restricted channels should thus prioritise message-level fingerprints, which generalise across models, over behavioural decisions, which do not.",
+    "published_date": "2026-10-02",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-05T10:01:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.03031",
+    "title": "CrowdOcc: Monocular Semantic Scene Completion for Quadruped Robots in Crowded Indoor Environments",
+    "authors": [
+      "Feiyang Chen",
+      "Jincheng Hu",
+      "Yiduo Chen",
+      "Jihao Li",
+      "Yue Liang",
+      "Bingzhao Gao",
+      "Yanjun Huang",
+      "Yuanjian Zhang"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.03031",
+    "abstract": "Monocular semantic scene completion (SSC) for quadruped robots remains underexplored in real crowded indoor environments, where human-scene occlusion disrupts static geometry and human occupancy predictions are often incomplete or spatially misplaced. We present CrowdOcc, an RGB-D dataset and monocular SSC framework for this setting. CrowdOcc contains 25.1K frames from 11 indoor scenes, with semantic occupancy annotations constructed through static dynamic decoupling. Our framework combines: (i) Normal Guided Scene Geometry Fusion (NGSGF) to complement depth-aware lifting with surface-normal cues for occlusion robust geometry; and (ii) Human-Centric Sparse Interaction (HCSI) to selectively model human-human and local human scene relations in 3D. Our method achieves state-of-the-art SSC performance on CrowdOcc's scene-disjoint test set, reaching 15.80 IoU, 11.40 mIoU, and 46.23 Human IoU, demonstrating generalization to unseen indoor scenes.",
+    "published_date": "2026-10-02",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 4 figures. Submitted to IEEE International Conference on Robotics and Automation (ICRA) 2027",
+    "fetched_at": "2026-10-05T10:01:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.03010",
+    "title": "Engineering Sustainable Agents: A Systematic Comparison of Agentic LLMs for Developer Workflows",
+    "authors": [
+      "Merve Astekin",
+      "Yan Naing Tun",
+      "Arda Goknil",
+      "Erik Johannes Husom",
+      "Lwin Khin Shar",
+      "Hasan Sözer",
+      "Ratnadira Widyasari",
+      "Hui Song"
+    ],
+    "source": "arxiv",
+    "category": "cs.SE",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.03010",
+    "abstract": "Large language models (LLMs) are increasingly used in software engineering, including agentic systems that coordinate multiple agents, but impose higher computational and environmental costs. In this paper, we present a comprehensive empirical study of agentic LLM systems across five software engineering tasks: code generation, technical debt identification, code vulnerability detection, log parsing, and log analysis. For each task, we compare LLM configurations that range from a non-agentic single-query baseline to multi-agent workflows, using six open-weight LLMs, two prompt strategies, and three hardware platforms. We assess each configuration in terms of accuracy, inference latency, and energy consumption. Our results reveal substantial trade-offs between agentic complexity and energy efficiency: multi-agent designs consume on average 6.36$\\times$ as much energy and run 6.07$\\times$ as long as the non-agentic baseline, with worst-case slowdowns of up to 160$\\times$ for individual task--hardware pairs. Accuracy gains from additional agents are limited and task-specific: multi-agent improves average vulnerability-detection accuracy, but lightweight non-agentic and single-agent configurations still dominate the Pareto front, accounting for 59 of 66 Pareto-optimal configurations. Model and prompt choice act as task-specific levers whose effective direction varies between tasks rather than as global defaults. We translate these findings into design guidelines for sustainable, task-aware LLM-based development tools.",
+    "published_date": "2026-10-02",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "50 pages, 14 figures",
+    "fetched_at": "2026-10-05T10:01:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.02951",
+    "title": "Dynamic Expert Pruning for Multi-Agent Systems",
+    "authors": [
+      "Jabin Koo",
+      "Soheil Abbasloo",
+      "Sungjae Lee",
+      "Jungseul Ok"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.02951",
+    "abstract": "Mixture-of-Experts (MoE) architectures scale language models efficiently by activating only a few experts per token, but the saving is confined to computation: every expert must stay resident on the accelerator, so memory bounds where these models can be deployed. Expert pruning reduces this footprint, yet existing methods are static --- a single mask, calibrated offline, is applied to the model for every subsequent request. This assumption can fail when the workload is heterogeneous, most prominently in multi-agent systems, where one backbone serves many tasks and roles at once: our analysis shows that different tasks and roles recruit different experts, while static methods assign one fixed subset to all of them. We therefore propose Dynamic Expert Pruning (DEP), which rests on a finding we establish here: an agent's system and task prompts are by themselves sufficient to identify the experts that agent and its task require, since that text already describes what the agent will do. A lightweight predictor, trained once on workflow transcripts, turns those prompts into a specialized per-request mask in a single forward pass, with no per-configuration calibration. Across diverse tasks and roles, model scales, and MoE architectures, DEP achieves better overall accuracy than static pruning and merging baselines, and generalizes to workflows unseen in training without retraining. Its margin over those baselines is largest when few experts are retained, suggesting that the role specialization inherent to multi-agent systems permits sparser serving than static pruning allows.",
+    "published_date": "2026-10-02",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "18 pages, 3 figures, 15 tables",
+    "fetched_at": "2026-10-05T10:01:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.02920",
+    "title": "HASTE: Evolving Agent Harnesses Against Emerging Attacks Using Sparse Evidence",
+    "authors": [
+      "Xiqiao Xiong",
+      "Moxin Li",
+      "Zhixin Ma",
+      "Ouxiang Li",
+      "Wenjie Wang",
+      "Fuli Feng",
+      "Xiangnan He"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.02920",
+    "abstract": "Agent harnesses play a critical role in defenses by enforcing safety constraints to prevent unsafe actions. However, rapidly emerging attacks outpace manual harness adaptation, motivating automated harness evolution. Yet the signals available for harness evolution are often sparse, such as brief descriptions or a few attack examples in threat reports and preprints. To address this limitation, we introduce HASTE, a multi-agent framework that evolves agent harnesses from sparse threat evidence through an adversarial interplay between safety-specification generation and attack-case generation. Safety specifications guide harness updates toward addressing identified safety vulnerabilities, while attack cases probe for remaining safety vulnerabilities after each update. By feeding evaluation outcomes back into both processes, HASTE enables harness evolution against emerging attacks beyond the initially observed evidence. Experimental results across multiple backbone models, attack types, and evidence forms show that HASTE consistently reduces attack success rates while preserving benign-task utility. The code is available at https://github.com/xxiqiao/HASTE.",
+    "published_date": "2026-10-02",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-05T10:01:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.02874",
+    "title": "SceneFactory-3D: Lifting 2D Traffic Scenes into 3D Physical Counterfactuals for Scalable Physically Grounded Safety Evaluation",
+    "authors": [
+      "Yicheng Zhu",
+      "Linfeng Tian",
+      "Tianmu Zhao",
+      "Yang Chen",
+      "Fan Zuo",
+      "Tao Li",
+      "Zilin Bian"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.02874",
+    "abstract": "Scalable driving simulators typically execute vehicle commands using prescribed behavioral or kinematic rules, overlooking the physics of tire-road interfaces, thereby limiting their ability to capture how adverse road and environmental conditions alter vehicle execution and propagate through traffic. To address this limitation, we present SceneFactory-3D, a GPU-batched, physics-grounded multi-agent driving simulator. Vehicles execute acceleration and steering commands via suspension- and friction-limited forces evaluated at each wheel-contact point. Spatially varying friction, per-world 3D heightfields, gravity, and rigid contact consistently govern wheel motion and chassis collisions. Per-world terrain isolation and GPU batching enable SceneFactory-3D to run matched physical counterfactuals in parallel: traffic scenario setup and vehicle controllers remain fixed while only the road condition changes, enabling the resulting closed-loop effects to be evaluated across parallel worlds. To demonstrate the advantage of the SceneFactory-3D-enabled counterfactual evaluation, we conduct an empirical study on vehicle controllers' sensitivity to road conditions. We study three learned-policy families on 1,024 matched 12-vehicle worlds per condition, and two classical planners on a shared 32-world subset, across 21 friction and grade conditions. When friction drops from 1.0 to 0.18, the share of vehicles that clear the work zone safely falls by 6 to 90 percentage points across learned policies (18-19 for classical planners), and near-collision situations become more frequent for every learned policy. Code: https://github.com/SmallWorldLab/SceneFactory_3D",
+    "published_date": "2026-10-02",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-05T10:01:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.02863",
+    "title": "Multi-Agent AI as a Nested Principal-Agent Problem in Private Wealth Management: Mandate Representation and Evidence Control in Switzerland, Germany and Austria",
+    "authors": [
+      "Walter Kurz",
+      "Reinhard Magg",
+      "Florian Kollberg",
+      "Wojtek Stricker",
+      "Stefan Marx",
+      "Frank Reinhardt",
+      "Velimir Dedić"
+    ],
+    "source": "arxiv",
+    "category": "q-fin.GN",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.02863",
+    "abstract": "In private wealth management, a manager delegating to artificial intelligence (AI) acts as the client's agent and the system's principal. We introduce a model-independent formulation that combines nested principal--agent delegation with constrained joint maximisation as the task assigned to the AI system. The objective represents client and manager outcomes separately over portfolio--workflow pairs. Legal duties, mandate requirements and evidence sufficiency determine admissibility, with Switzerland, Germany and Austria supplying the legal context. Weights and reference-service floors make the trade-off explicit; concession accounting separates their effects on the client. Analytical constructions and a simulation using public-market observations illustrate the approach. Across eight decision states from four constructed mandates, omitted client liabilities caused two liquidity violations, omitted manager terms caused two capacity violations, and mistranslated weights changed four otherwise admissible choices under faithful optimisation. At the declared weights, six states selected a higher service tier than the client-best alternative, with client concessions of EUR 1,178 to EUR 2,264 and manager gains of EUR 3,062 to EUR 10,381. Three instruction forms each reached all 32 specified decisions under shared numerical, evidence and simulated approval controls; professional instructions matched explicit nested delegation on accuracy and clarification count. Subsequent 2022 exchange-rate and yield paths, combined with constructed growth scenarios, produced lower client outcomes than the reference service although the selected services met the decision-time forecast benchmarks. These examples suggest that the approach could help make mandate choices and their consequences easier to examine. Professional and field studies could assess whether this improves oversight and client outcomes.",
+    "published_date": "2026-10-02",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Quantitative formulation of client-manager-AI delegation and constrained joint decision objectives in private wealth management. 30 pages, 8 figures, 11 tables. Published in Swissi AI Journal under CC BY 4.0. Journal record: https://journal.swissi-ai.institute/en/doi/guex5c23zfm5",
+    "fetched_at": "2026-10-05T10:01:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.02848",
+    "title": "Permutation Robustness Is Not Enough: Action Collapse in Multi-Agent Transformer Policies",
+    "authors": [
+      "Amit Thakur",
+      "Mukesh Singhal"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.02848",
+    "abstract": "Transformer policies are attractive for multi-agent robot learning because self-attention can model interactions among agents. However, multi-agent teams are unordered, while transformers typically process agents as ordered token sequences. We study how this mismatch affects cooperative navigation policies under agent-order permutations. Our results show that low permutation error alone can be misleading: policies may appear robust simply because all agents choose the same action. We therefore evaluate policies using both permutation-consistency metrics and action-collapse diagnostics, including action diversity, same-action fraction, and maximum action frequency. A PPO-ID baseline yields non-collapsed behavior but remains order-sensitive, while strong equivariance regularization can still induce homogeneous behavior. A weak equivariance penalty improves the robustness while preserving more diverse actions for teams with \\(N=3\\) agents, whereas teams with \\(N=4\\) agents require substantially smaller regularization weights. These findings suggest that multi-agent transformer policies should be evaluated not only by return and permutation robustness, but also by whether they maintain non-collapsed, differentiated multi-agent behavior.",
+    "published_date": "2026-10-02",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-05T10:01:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.02847",
+    "title": "Turnover-Orthogonal Credit Assignment for Open-Team Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Amit Thakur",
+      "Mukesh Singhal"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.02847",
+    "abstract": "Open-team multi-agent reinforcement learning studies cooperative systems in which agents may join, leave, or be replaced during an episode. In such settings, the team return changes both because agents choose useful actions and because the active population itself changes. Standard centralized critics and shared advantages often mix these two effects into one scalar credit signal, allowing surviving agents to be rewarded or penalized for exogenous turnover events outside their control. We introduce turnover-orthogonal credit assignment (TOCA), a value decomposition for open teams that separates action effects, pure turnover effects, and action--turnover interactions. Under exogenous turnover, the event-conditioned value admits a centered decomposition whose event-conditioned baseline removes the pure turnover component while preserving credit for actions that make the team robust to future replacements. We instantiate this idea with a permutation-invariant centralized critic over variable-size agent sets and event tokens, and derive both a counterfactual per-agent credit signal and a softly weighted interaction variant, TOCA-$β$, for high-variance control environments. Controlled diagnostic experiments show that TOCA improves return over event-aware MAPPO-style critics and that removing interaction credit substantially hurts performance. In a replacement-only Dynamic Spread benchmark, TOCA-$β$ achieves the best mean return at high turnover rates and improves over its no-interaction ablation. These results suggest that explicitly separating turnover from action credit is a useful principle for robust learning in dynamic cooperative teams.",
+    "published_date": "2026-10-02",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-05T10:01:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2610.02118",
     "title": "Decentralized Power-Optimal Coordination for Spacecraft Swarms Using Time-Varying Magnetorquer Actuation",
     "authors": [
