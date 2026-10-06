@@ -4,146 +4,97 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 05 Oct 2026 10:59:13 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 09:46:36 GMT</lastBuildDate>
     <item>
-      <title>FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution</title>
-      <link>https://arxiv.org/abs/2610.03675</link>
-      <guid isPermaLink="false">arxiv:2610.03675</guid>
-      <pubDate>2026-10-02</pubDate>
-      <description>LLM-guided evolutionary methods, such as AlphaEvolve, have emerged as powerful approaches for challenging computational optimization problems, such as circle packing. However, prior work typically optimizes performance gain over a fixed number of iterations. We argue that practical optimization should maximize gain per unit cost. To this end, we propose FrugalEvo, a cost-aware evolutionary framework where a stronger, higher-cost LLM explores solution strategies, and a cheaper LLM implements them</description>
+      <title>Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification</title>
+      <link>https://arxiv.org/abs/2610.06790</link>
+      <guid isPermaLink="false">arxiv:2610.06790</guid>
+      <pubDate>2026-10-05</pubDate>
+      <description>The unprecedented computational scale of modern artificial intelligence depends on complex, multi-billion-transistor Systems-on-Chip, yet the workflows that verify these chips remain stubbornly manual. Although Large Language Models (LLMs) have made rapid inroads into Electronic Design Automation (EDA), approximately 74.6% of existing studies target static Register-Transfer Level (RTL) code generation, leaving post-simulation verification and interactive waveform debugging largely untouched. We </description>
     </item>
     <item>
-      <title>EdgeAgent: Orchestrating On-Device LLM inference for End-User Multi-Agent Systems on CPU-GPU Unified Memory Architectures</title>
-      <link>https://arxiv.org/abs/2610.03394</link>
-      <guid isPermaLink="false">arxiv:2610.03394</guid>
-      <pubDate>2026-10-02</pubDate>
-      <description>Emerging multi-agent LLMs demand privacy-preserving edge deployment, yet current inference systems struggle with these collaborative workflows. Specifically, the memory-bound decode phase causes severe bus contention on unified memory architectures (UMA), paralyzing naive CPU-GPU co-execution. Furthermore, speculative decoding in multi-agent workloads faces extreme variance in drafting difficulty, alternating between complex reasoning and predictable structured generation. Compounded by frequent</description>
+      <title>The Pushback Paradox: A Two-Probe Diagnostic for Language Model Compliance</title>
+      <link>https://arxiv.org/abs/2610.06673</link>
+      <guid isPermaLink="false">arxiv:2610.06673</guid>
+      <pubDate>2026-10-05</pubDate>
+      <description>Are language models compliant with user instructions? A model that always complies can be stopped but also exploited, while one that always resists can be neither exploited nor stopped. We contribute an open two-probe benchmark that can place any language model on this spectrum. In the active probe, a user instructs the model to act and accept a lower payoff, which measures exploitability. In the passive probe, the user instructs it to wait and give up a higher payoff, which measures stoppabilit</description>
     </item>
     <item>
-      <title>Peer Influence across Heterogeneous AI Models</title>
-      <link>https://arxiv.org/abs/2610.03095</link>
-      <guid isPermaLink="false">arxiv:2610.03095</guid>
-      <pubDate>2026-10-02</pubDate>
-      <description>When two AI agents disagree, who persuades whom? As multi-agent systems increasingly combine language models of different families and sizes, the answer can determine which judgments survive interaction. Measuring persuasion as the probabilistic shift in an agent's decision after a single exchange with a dissenting peer, we test seven open-weight models across three language understanding tasks. We find that persuasion is strong: when models disagree, receivers often abandon their initial judgme</description>
+      <title>VideoTapestry: Query-Adaptive Memory Refinement for Multi-Agent Long-Video Understanding</title>
+      <link>https://arxiv.org/abs/2610.06672</link>
+      <guid isPermaLink="false">arxiv:2610.06672</guid>
+      <pubDate>2026-10-05</pubDate>
+      <description>Long-video understanding places substantial demands on memory, as answering questions often requires retrieving information distributed across extended temporal spans. Existing approaches broadly follow two paradigms: query-driven exploration, which is sensitive to localization errors, and query-independent memory construction, which may omit question-specific details. We introduce VideoTapestry, a training-free multi-agent framework that adapts a preconstructed hierarchical video memory through</description>
     </item>
     <item>
-      <title>When Numbers Start Talking: Numerical Signalling and Strategic Behaviour Among LLMs</title>
-      <link>https://arxiv.org/abs/2610.03033</link>
-      <guid isPermaLink="false">arxiv:2610.03033</guid>
-      <pubDate>2026-10-02</pubDate>
-      <description>Large language model (LLM)-based agents increasingly operate in multi-agent systems (MAS) characterised by strategic interaction. However, little is known about whether, and to what extent, different types of messages affect the outcomes of strategic games. By investigating AI agents based on four popular LLMs, playing four games with different cooperation equilibria, we study whether messages of different kinds (natural language, numerical signals, or random sequences) significantly modify the </description>
+      <title>Odyssey: A Closed-Loop Benchmark for Long-Horizon Real-World Driving with Explicit Navigation Routes</title>
+      <link>https://arxiv.org/abs/2610.06469</link>
+      <guid isPermaLink="false">arxiv:2610.06469</guid>
+      <pubDate>2026-10-05</pubDate>
+      <description>Closed-loop evaluation of end-to-end driving requires continuous rollouts that reveal how earlier decisions affect subsequent driving. However, existing benchmarks evaluate only short segments and fail to capture later consequences. Ambiguous directional commands also obscure the intended navigation objective. We introduce Odyssey, a closed-loop benchmark for long-horizon driving comprising 100 scenarios, each reconstructed from a 100-second nuPlan driving log to preserve the context of navigati</description>
     </item>
     <item>
-      <title>CrowdOcc: Monocular Semantic Scene Completion for Quadruped Robots in Crowded Indoor Environments</title>
-      <link>https://arxiv.org/abs/2610.03031</link>
-      <guid isPermaLink="false">arxiv:2610.03031</guid>
-      <pubDate>2026-10-02</pubDate>
-      <description>Monocular semantic scene completion (SSC) for quadruped robots remains underexplored in real crowded indoor environments, where human-scene occlusion disrupts static geometry and human occupancy predictions are often incomplete or spatially misplaced. We present CrowdOcc, an RGB-D dataset and monocular SSC framework for this setting. CrowdOcc contains 25.1K frames from 11 indoor scenes, with semantic occupancy annotations constructed through static dynamic decoupling. Our framework combines: (i)</description>
+      <title>Visual Swarm Navigation via Deep Reinforcement Learning and Evolutionary Hybrid Design</title>
+      <link>https://arxiv.org/abs/2610.06400</link>
+      <guid isPermaLink="false">arxiv:2610.06400</guid>
+      <pubDate>2026-10-05</pubDate>
+      <description>Swarm robotics presents a robust and cost-effective paradigm for advanced automation in complex, dynamic environments, such as those encountered in search and rescue or environmental monitoring. A fundamental challenge for this field is the data-driven design of decentralized controllers capable of generating emergent collective behaviors. This paper proposes a novel, AI-driven hybrid methodology for the automatic synthesis of swarm robotic controllers for autonomous visual navigation. This appr</description>
     </item>
     <item>
-      <title>Engineering Sustainable Agents: A Systematic Comparison of Agentic LLMs for Developer Workflows</title>
-      <link>https://arxiv.org/abs/2610.03010</link>
-      <guid isPermaLink="false">arxiv:2610.03010</guid>
-      <pubDate>2026-10-02</pubDate>
-      <description>Large language models (LLMs) are increasingly used in software engineering, including agentic systems that coordinate multiple agents, but impose higher computational and environmental costs. In this paper, we present a comprehensive empirical study of agentic LLM systems across five software engineering tasks: code generation, technical debt identification, code vulnerability detection, log parsing, and log analysis. For each task, we compare LLM configurations that range from a non-agentic sin</description>
+      <title>Generative World Models Enable Predictive Control of Laser Melt Pool Dynamics</title>
+      <link>https://arxiv.org/abs/2610.06250</link>
+      <guid isPermaLink="false">arxiv:2610.06250</guid>
+      <pubDate>2026-10-05</pubDate>
+      <description>World models, which learn how environments respond to actions, are emerging as a powerful paradigm for planning through imagined futures, transforming decision-making across games, robotics and autonomous driving. Bringing this capability to manufacturing could enable process decisions on timescales inaccessible to high-fidelity simulation. Here we introduce a generative world model for localized highly dynamic laser melt pool that predicts evolution from histories of temperature and phase morph</description>
     </item>
     <item>
-      <title>Dynamic Expert Pruning for Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2610.02951</link>
-      <guid isPermaLink="false">arxiv:2610.02951</guid>
-      <pubDate>2026-10-02</pubDate>
-      <description>Mixture-of-Experts (MoE) architectures scale language models efficiently by activating only a few experts per token, but the saving is confined to computation: every expert must stay resident on the accelerator, so memory bounds where these models can be deployed. Expert pruning reduces this footprint, yet existing methods are static --- a single mask, calibrated offline, is applied to the model for every subsequent request. This assumption can fail when the workload is heterogeneous, most promi</description>
+      <title>Copies or Sources? Measuring How LLM Aggregators Count Restated Evidence in Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2610.06192</link>
+      <guid isPermaLink="false">arxiv:2610.06192</guid>
+      <pubDate>2026-10-05</pubDate>
+      <description>Multi-agent systems built on large language models (LLMs) restate observations as a matter of course: relays forward them, shared boards repeat them and discussion rounds echo them. An aggregator that pools such messages should count sources, not statements. We convert a reported probability into units of independent readings, which assigns every restatement a copy weight, 0 for an aggregator that counts sources and 1 for one that counts every statement, and yields the implied decision under any</description>
     </item>
     <item>
-      <title>HASTE: Evolving Agent Harnesses Against Emerging Attacks Using Sparse Evidence</title>
-      <link>https://arxiv.org/abs/2610.02920</link>
-      <guid isPermaLink="false">arxiv:2610.02920</guid>
-      <pubDate>2026-10-02</pubDate>
-      <description>Agent harnesses play a critical role in defenses by enforcing safety constraints to prevent unsafe actions. However, rapidly emerging attacks outpace manual harness adaptation, motivating automated harness evolution. Yet the signals available for harness evolution are often sparse, such as brief descriptions or a few attack examples in threat reports and preprints. To address this limitation, we introduce HASTE, a multi-agent framework that evolves agent harnesses from sparse threat evidence thr</description>
+      <title>Controllable and Photorealistic Pedestrian Risky Motion Generation for End-to-End Driving Safety Evaluation</title>
+      <link>https://arxiv.org/abs/2610.06171</link>
+      <guid isPermaLink="false">arxiv:2610.06171</guid>
+      <pubDate>2026-10-05</pubDate>
+      <description>Evaluating end-to-end autonomous driving under rare, safety-critical vehicle-pedestrian interactions requires photorealistic, sensor-level scenarios. However, trajectory-based scenario generators cannot synthesize raw visual observations, whereas video-based approaches lack controllability. To bridge this gap, we present ControlPed, a novel framework that combines trajectory-level conflict synthesis with 3D Gaussian Splatting (3DGS) to generate photorealistic, motion-controllable safety-critical</description>
     </item>
     <item>
-      <title>SceneFactory-3D: Lifting 2D Traffic Scenes into 3D Physical Counterfactuals for Scalable Physically Grounded Safety Evaluation</title>
-      <link>https://arxiv.org/abs/2610.02874</link>
-      <guid isPermaLink="false">arxiv:2610.02874</guid>
-      <pubDate>2026-10-02</pubDate>
-      <description>Scalable driving simulators typically execute vehicle commands using prescribed behavioral or kinematic rules, overlooking the physics of tire-road interfaces, thereby limiting their ability to capture how adverse road and environmental conditions alter vehicle execution and propagate through traffic. To address this limitation, we present SceneFactory-3D, a GPU-batched, physics-grounded multi-agent driving simulator. Vehicles execute acceleration and steering commands via suspension- and fricti</description>
+      <title>Talk, Render, Act: Integrating Social Gesture and Digital Face with Synchronized Speech for Conversational Humanoid Robot</title>
+      <link>https://arxiv.org/abs/2610.06153</link>
+      <guid isPermaLink="false">arxiv:2610.06153</guid>
+      <pubDate>2026-10-05</pubDate>
+      <description>Expressive humanoid interaction requires speech, facial animation, and body gestures to form a coherent response. However, many full-body humanoid robots produce speech and gestures without a visually expressive face, while talking-face animation and robot gesture generation are typically developed separately. We present Talk, Render, Act (TRABot), an agent-based framework comprising specialized agents for motion-atom construction, dialogue generation, motion planning, and facial animation. Firs</description>
     </item>
     <item>
-      <title>Multi-Agent AI as a Nested Principal-Agent Problem in Private Wealth Management: Mandate Representation and Evidence Control in Switzerland, Germany and Austria</title>
-      <link>https://arxiv.org/abs/2610.02863</link>
-      <guid isPermaLink="false">arxiv:2610.02863</guid>
-      <pubDate>2026-10-02</pubDate>
-      <description>In private wealth management, a manager delegating to artificial intelligence (AI) acts as the client's agent and the system's principal. We introduce a model-independent formulation that combines nested principal--agent delegation with constrained joint maximisation as the task assigned to the AI system. The objective represents client and manager outcomes separately over portfolio--workflow pairs. Legal duties, mandate requirements and evidence sufficiency determine admissibility, with Switzer</description>
+      <title>Radar2Plan: Benchmarking 4D Radar for End-to-End Open-Loop Ego-Trajectory Planning</title>
+      <link>https://arxiv.org/abs/2610.06121</link>
+      <guid isPermaLink="false">arxiv:2610.06121</guid>
+      <pubDate>2026-10-05</pubDate>
+      <description>Adverse weather and poor illumination remain major challenges for robust ego-trajectory planning in mobile autonomy. 4D radar offers reliable sensing under adverse conditions and direct radial-velocity measurements. However, sensing robustness does not necessarily translate into robust downstream planning, while existing 4D radar benchmarks focus primarily on perception rather than trajectory planning. We present Radar2Plan, a modular benchmark for open-loop ego-trajectory planning using real-wo</description>
     </item>
     <item>
-      <title>Permutation Robustness Is Not Enough: Action Collapse in Multi-Agent Transformer Policies</title>
-      <link>https://arxiv.org/abs/2610.02848</link>
-      <guid isPermaLink="false">arxiv:2610.02848</guid>
-      <pubDate>2026-10-02</pubDate>
-      <description>Transformer policies are attractive for multi-agent robot learning because self-attention can model interactions among agents. However, multi-agent teams are unordered, while transformers typically process agents as ordered token sequences. We study how this mismatch affects cooperative navigation policies under agent-order permutations. Our results show that low permutation error alone can be misleading: policies may appear robust simply because all agents choose the same action. We therefore e</description>
+      <title>Attention Tax, Handoff Tax: A Stylised Model of When Multi-Agent LLM Systems Help</title>
+      <link>https://arxiv.org/abs/2610.06069</link>
+      <guid isPermaLink="false">arxiv:2610.06069</guid>
+      <pubDate>2026-10-05</pubDate>
+      <description>Recent work on multi-agent LLM systems reaches sharply different conclusions: some results show that a single agent with the same information and compute should dominate a delegated system, others that multi-agent gains grow with task depth. We argue that much of the disagreement comes from modelling different bottlenecks, and introduce a stylised reliability model built around two trade-offs. Decomposition reduces the burden of long contexts but incurs a handoff tax when information is compress</description>
     </item>
     <item>
-      <title>Turnover-Orthogonal Credit Assignment for Open-Team Multi-Agent Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2610.02847</link>
-      <guid isPermaLink="false">arxiv:2610.02847</guid>
-      <pubDate>2026-10-02</pubDate>
-      <description>Open-team multi-agent reinforcement learning studies cooperative systems in which agents may join, leave, or be replaced during an episode. In such settings, the team return changes both because agents choose useful actions and because the active population itself changes. Standard centralized critics and shared advantages often mix these two effects into one scalar credit signal, allowing surviving agents to be rewarded or penalized for exogenous turnover events outside their control. We introd</description>
+      <title>Grounded Joint-Attention Other-Play for Zero-Shot Coordination</title>
+      <link>https://arxiv.org/abs/2610.06025</link>
+      <guid isPermaLink="false">arxiv:2610.06025</guid>
+      <pubDate>2026-10-05</pubDate>
+      <description>Joint attention - the human ability to share a common visual or cognitive focus with others - enables a meeting of minds that lets us coordinate even with unfamiliar partners. In this work we investigate whether equipping AI agents with a similar mechanism can enable such zero-shot coordination. We introduce Mutual Attention for zero-shot TEaming (MATE): a novel multi-agent reinforcement learning method inspired by human joint attention. MATE encourages agents to coordinate their actions by alig</description>
     </item>
     <item>
-      <title>Decentralized Power-Optimal Coordination for Spacecraft Swarms Using Time-Varying Magnetorquer Actuation</title>
-      <link>https://arxiv.org/abs/2610.02118</link>
-      <guid isPermaLink="false">arxiv:2610.02118</guid>
-      <pubDate>2026-10-01</pubDate>
-      <description>This paper presents a decentralized power-optimal coordination framework for magnetically actuated spacecraft swarms. Swarms that form large space structures overcome the aperture limit set by the launch vehicle and hold their shape on solar-generated power alone. Magnetic actuation is propellant-free and generated by a magnetorquer, which is commonly used for attitude control. However, every spacecraft interacts with every other within range, and its effect depends on the actuation power and a </description>
-    </item>
-    <item>
-      <title>Global Coherence: When Every Agent Is Right and the Team Is Still Wrong - A Local-to-Global Semantic Foundation for Multi-Agent Collaboration</title>
-      <link>https://arxiv.org/abs/2610.02036</link>
-      <guid isPermaLink="false">arxiv:2610.02036</guid>
-      <pubDate>2026-10-01</pubDate>
-      <description>AI agents can each make locally valid decisions yet jointly produce an invalid result. We call this the global coherence problem: a failure of shared state, not merely of model intelligence. Our Observation-Aliasing Impossibility Theorem gives the exact boundary. A policy can guarantee a valid action exactly when all worlds producing the same observation share an admissible action. If k indistinguishable worlds require pairwise-disjoint actions, the best randomized worst-case success is 1/k; mor</description>
-    </item>
-    <item>
-      <title>Counting Moves, Weighing Voices: Bayesian Dialectical Argumentation for Calibrated Multi-LLM Councils under Persistent Adversaries</title>
-      <link>https://arxiv.org/abs/2610.02005</link>
-      <guid isPermaLink="false">arxiv:2610.02005</guid>
-      <pubDate>2026-10-01</pubDate>
-      <description>A multi-LLM \emph{council} lets several large language models (LLMs) deliberate on a question and return an answer together with a confidence estimate. As these systems become increasingly used for reasoning, that confidence should represent a calibrated \emph{probability of being correct}, and the decision should remain robust when some agents are persistently unreliable. Existing \emph{council aggregation} methods fail on both fronts: their confidence estimates measure decisiveness rather than</description>
-    </item>
-    <item>
-      <title>Weather-Aware Domain Adaptation for Street-View Weather Recognition</title>
-      <link>https://arxiv.org/abs/2610.02000</link>
-      <guid isPermaLink="false">arxiv:2610.02000</guid>
-      <pubDate>2026-10-01</pubDate>
-      <description>Adverse conditions such as rain, snow, fog, and dust remain challenging for camera-based perception in autonomous driving. We study multi-class weather recognition from street-view images under domain shift, where most available training data come from non-street-view sources that differ markedly from real driving scenes. We propose Weather-Aware Adversarial Discriminative Domain Adaptation (WA-ADDA), which conditions the domain discriminator on predicted weather to promote features that are bot</description>
-    </item>
-    <item>
-      <title>Training-Free Diffusion Planning with Analytical Local Scores</title>
-      <link>https://arxiv.org/abs/2610.01959</link>
-      <guid isPermaLink="false">arxiv:2610.01959</guid>
-      <pubDate>2026-10-01</pubDate>
-      <description>Path finding and multi-robot motion planning require trajectories that are smooth, goal-directed, and collision-free in environments with complex geometric constraints. Recent diffusion-based planners have shown that trajectory generation can be cast as iterative denoising which has opened the doors to learning-based approaches that can handle multi-modal trajectory distributions and refine entire trajectories. However, a key limitation is that diffusion planners require training on large collec</description>
-    </item>
-    <item>
-      <title>Flowing Faster to Coordinate: One-Step Online Multi-Agent Flow Policies</title>
-      <link>https://arxiv.org/abs/2610.01882</link>
-      <guid isPermaLink="false">arxiv:2610.01882</guid>
-      <pubDate>2026-10-01</pubDate>
-      <description>Multi-agent reinforcement learning (MARL) provides a powerful framework for learning coordinated behaviors through interactions with the environment. Developing MARL policies requires balancing expressive modeling of complex and multimodal action distributions with efficient training and execution. Generative policies, particularly diffusionbased policies, can faithfully capture complex and multimodal behaviors, but costly iterative sampling hinders their scalability in online multi-agent settin</description>
-    </item>
-    <item>
-      <title>Token Communication-Assisted Collaborative Embodied Artificial Intelligence: Concepts, Framework, and Opportunities</title>
-      <link>https://arxiv.org/abs/2610.01826</link>
-      <guid isPermaLink="false">arxiv:2610.01826</guid>
-      <pubDate>2026-10-01</pubDate>
-      <description>Collaborative embodied artificial intelligence (CEAI) enables multiple physical agents to perceive, reason, and act cooperatively in dynamic environments. Effective communication is essential for CEAI, yet CEAI agents must exchange not only large multimodal observations but also task-relevant insights, intents, and interactive information over long horizons. This article investigates token communication (TokCom) as a native intelligence interface for CEAI, in which tokens serve jointly as compac</description>
-    </item>
-    <item>
-      <title>End-to-End Learning vs. Modular Architectures: Comparative Insights into Autonomous Driving Systems</title>
-      <link>https://arxiv.org/abs/2610.01746</link>
-      <guid isPermaLink="false">arxiv:2610.01746</guid>
-      <pubDate>2026-10-01</pubDate>
-      <description>Autonomous driving systems have become a central focus of intelligent transportation research, with End-to-End Learning and Modular Architectures offering two prominent design paradigms for their implementation. E2E Learning uses deep learning algorithms to map raw sensory inputs directly to driving actuators, providing a streamlined and adaptable solution. while Modular Architectures employ a pipeline-based approach, dividing the system into distinct subsystems for perception, cognition, planni</description>
+      <title>Strategic Multi-Agent Learning for Interpretable Action Valuation of All Players in Football</title>
+      <link>https://arxiv.org/abs/2610.05961</link>
+      <guid isPermaLink="false">arxiv:2610.05961</guid>
+      <pubDate>2026-10-05</pubDate>
+      <description>Valuing player actions in football requires accounting for strategic interactions among 22 players, including off-ball movements and defensive positioning. Existing reinforcement-learning-based methods commonly aggregate decisions at the team level or estimate player values independently, leaving strategic interdependence among players insufficiently represented. This study proposes an action valuation framework inspired by Markov perfect equilibrium (MPE) for all players. Each possession is mod</description>
     </item>
   </channel>
 </rss>
