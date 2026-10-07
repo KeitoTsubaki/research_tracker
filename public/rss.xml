@@ -4,97 +4,146 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Tue, 06 Oct 2026 09:46:36 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 09:48:51 GMT</lastBuildDate>
     <item>
-      <title>Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification</title>
-      <link>https://arxiv.org/abs/2610.06790</link>
-      <guid isPermaLink="false">arxiv:2610.06790</guid>
-      <pubDate>2026-10-05</pubDate>
-      <description>The unprecedented computational scale of modern artificial intelligence depends on complex, multi-billion-transistor Systems-on-Chip, yet the workflows that verify these chips remain stubbornly manual. Although Large Language Models (LLMs) have made rapid inroads into Electronic Design Automation (EDA), approximately 74.6% of existing studies target static Register-Transfer Level (RTL) code generation, leaving post-simulation verification and interactive waveform debugging largely untouched. We </description>
+      <title>SquidAgent: Parallelize Wisely, Coordinate Efficiently</title>
+      <link>https://arxiv.org/abs/2610.08647</link>
+      <guid isPermaLink="false">arxiv:2610.08647</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>LLM-based agents solve complex multi-step tasks, but sequential execution incurs substantial latency. In principle, parallelizing work across multiple agents should yield near-linear speedups. Yet existing parallel multi-agent systems often run slower than a single-agent baseline. We attribute this gap to two hidden costs that parallel execution incurs but a serial agent avoids. First, there is a re-exploration cost: redundant effort spent by parallel workers reconstructing context that the orch</description>
     </item>
     <item>
-      <title>The Pushback Paradox: A Two-Probe Diagnostic for Language Model Compliance</title>
-      <link>https://arxiv.org/abs/2610.06673</link>
-      <guid isPermaLink="false">arxiv:2610.06673</guid>
-      <pubDate>2026-10-05</pubDate>
-      <description>Are language models compliant with user instructions? A model that always complies can be stopped but also exploited, while one that always resists can be neither exploited nor stopped. We contribute an open two-probe benchmark that can place any language model on this spectrum. In the active probe, a user instructs the model to act and accept a lower payoff, which measures exploitability. In the passive probe, the user instructs it to wait and give up a higher payoff, which measures stoppabilit</description>
+      <title>Parallel Predictive World Models for Accurate and Efficient Long-Horizon Planning</title>
+      <link>https://arxiv.org/abs/2610.08627</link>
+      <guid isPermaLink="false">arxiv:2610.08627</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>Long-horizon world-model planning typically relies on autoregressive rollouts, where predicted states are repeatedly fed back into the model. This preserves temporal structure but creates a horizon-length sequential path and exposes later predictions to recursive decoded-state feedback. We introduce Parallel Predictive World Models (PPWM), which predict a finite-horizon trajectory in parallel while retaining causal interaction among future representations. Each horizon is conditioned on its caus</description>
     </item>
     <item>
-      <title>VideoTapestry: Query-Adaptive Memory Refinement for Multi-Agent Long-Video Understanding</title>
-      <link>https://arxiv.org/abs/2610.06672</link>
-      <guid isPermaLink="false">arxiv:2610.06672</guid>
-      <pubDate>2026-10-05</pubDate>
-      <description>Long-video understanding places substantial demands on memory, as answering questions often requires retrieving information distributed across extended temporal spans. Existing approaches broadly follow two paradigms: query-driven exploration, which is sensitive to localization errors, and query-independent memory construction, which may omit question-specific details. We introduce VideoTapestry, a training-free multi-agent framework that adapts a preconstructed hierarchical video memory through</description>
+      <title>Feature Information Dynamics in Diffusion</title>
+      <link>https://arxiv.org/abs/2610.08626</link>
+      <guid isPermaLink="false">arxiv:2610.08626</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>Diffusion models generate data through a continuum of denoising problems, and are widely observed to reveal coarse structure before fine detail. Yet, this intuition is mostly empirical and qualitative. We introduce feature information dynamics, an information-theoretic framework for localizing when a feature is generated during diffusion. Using the I-MMSE identity, we connect the rate of feature mutual information change to a gap between optimal unconditional and feature-conditional denoising lo</description>
     </item>
     <item>
-      <title>Odyssey: A Closed-Loop Benchmark for Long-Horizon Real-World Driving with Explicit Navigation Routes</title>
-      <link>https://arxiv.org/abs/2610.06469</link>
-      <guid isPermaLink="false">arxiv:2610.06469</guid>
-      <pubDate>2026-10-05</pubDate>
-      <description>Closed-loop evaluation of end-to-end driving requires continuous rollouts that reveal how earlier decisions affect subsequent driving. However, existing benchmarks evaluate only short segments and fail to capture later consequences. Ambiguous directional commands also obscure the intended navigation objective. We introduce Odyssey, a closed-loop benchmark for long-horizon driving comprising 100 scenarios, each reconstructed from a 100-second nuPlan driving log to preserve the context of navigati</description>
+      <title>One for All, All for One: Coordinated Multi-Agent Diffusion Steering via Stochastic Optimal Control</title>
+      <link>https://arxiv.org/abs/2610.08595</link>
+      <guid isPermaLink="false">arxiv:2610.08595</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>Deep generative models often produce structured outputs composed of interacting components. Modelling these outputs with a single model requires learning both the component distributions and their interactions. We pursue a modular alternative: reuse independently trained component generators and learn only how to coordinate them to produce coherent structured outputs. Our framework, Coordinated Multi-Agent Diffusion Steering (CMDS), treats frozen pretrained diffusion models as reusable generativ</description>
     </item>
     <item>
-      <title>Visual Swarm Navigation via Deep Reinforcement Learning and Evolutionary Hybrid Design</title>
-      <link>https://arxiv.org/abs/2610.06400</link>
-      <guid isPermaLink="false">arxiv:2610.06400</guid>
-      <pubDate>2026-10-05</pubDate>
-      <description>Swarm robotics presents a robust and cost-effective paradigm for advanced automation in complex, dynamic environments, such as those encountered in search and rescue or environmental monitoring. A fundamental challenge for this field is the data-driven design of decentralized controllers capable of generating emergent collective behaviors. This paper proposes a novel, AI-driven hybrid methodology for the automatic synthesis of swarm robotic controllers for autonomous visual navigation. This appr</description>
+      <title>Safe Multi-Robot Collaborative Transport Using Density Functions</title>
+      <link>https://arxiv.org/abs/2610.08441</link>
+      <guid isPermaLink="false">arxiv:2610.08441</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>This paper presents a hierarchical density-based model predictive control framework for safe collaborative manipulation by multiple quadrupedal robots. The framework enables a team of robots to push a shared object to a desired pose using only the initial and goal poses, without requiring a precomputed reference trajectory. A centralized box-level MPC optimizes contact forces while enforcing a control-density constraint for goal convergence and obstacle avoidance. Each robot then solves its own </description>
     </item>
     <item>
-      <title>Generative World Models Enable Predictive Control of Laser Melt Pool Dynamics</title>
-      <link>https://arxiv.org/abs/2610.06250</link>
-      <guid isPermaLink="false">arxiv:2610.06250</guid>
-      <pubDate>2026-10-05</pubDate>
-      <description>World models, which learn how environments respond to actions, are emerging as a powerful paradigm for planning through imagined futures, transforming decision-making across games, robotics and autonomous driving. Bringing this capability to manufacturing could enable process decisions on timescales inaccessible to high-fidelity simulation. Here we introduce a generative world model for localized highly dynamic laser melt pool that predicts evolution from histories of temperature and phase morph</description>
+      <title>Transect: Retaining Observability for Long-Horizon LLM Agent Evaluations</title>
+      <link>https://arxiv.org/abs/2610.08364</link>
+      <guid isPermaLink="false">arxiv:2610.08364</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>Frontier AI evaluations increasingly use open-ended, agentic, long-horizon tasks whose transcripts can span hundreds of pages of outputs and actions from complex multi-agent networks. The observability envelop-the range of what evaluators can reliably infer about an agent's behaviours-is therefore narrowing. Language model assistants can help classify and interpret agent behaviour but also afford human evaluators significant analytical degrees of freedom, threatening the reproducibility and audi</description>
     </item>
     <item>
-      <title>Copies or Sources? Measuring How LLM Aggregators Count Restated Evidence in Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2610.06192</link>
-      <guid isPermaLink="false">arxiv:2610.06192</guid>
-      <pubDate>2026-10-05</pubDate>
-      <description>Multi-agent systems built on large language models (LLMs) restate observations as a matter of course: relays forward them, shared boards repeat them and discussion rounds echo them. An aggregator that pools such messages should count sources, not statements. We convert a reported probability into units of independent readings, which assigns every restatement a copy weight, 0 for an aggregator that counts sources and 1 for one that counts every statement, and yields the implied decision under any</description>
+      <title>Transferable Spatial Temporal Coherence Adversarial Attack on Black-Box Vision Language Models for Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2610.08331</link>
+      <guid isPermaLink="false">arxiv:2610.08331</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>The rapid integration of Vision Language Models (VLMs) into sensitive systems introduces critical safety vulnerabilities that remain unexplored in exist studies. While adversarial attack robustness has been extensively studied for image-based models, the susceptibility of VLMs to temporally-aware adversarial attacks against video in driving context poses a distinct and under examined threat. In this paper, we introduce novel adversarial attack against video targeting VLM models used for autonomo</description>
     </item>
     <item>
-      <title>Controllable and Photorealistic Pedestrian Risky Motion Generation for End-to-End Driving Safety Evaluation</title>
-      <link>https://arxiv.org/abs/2610.06171</link>
-      <guid isPermaLink="false">arxiv:2610.06171</guid>
-      <pubDate>2026-10-05</pubDate>
-      <description>Evaluating end-to-end autonomous driving under rare, safety-critical vehicle-pedestrian interactions requires photorealistic, sensor-level scenarios. However, trajectory-based scenario generators cannot synthesize raw visual observations, whereas video-based approaches lack controllability. To bridge this gap, we present ControlPed, a novel framework that combines trajectory-level conflict synthesis with 3D Gaussian Splatting (3DGS) to generate photorealistic, motion-controllable safety-critical</description>
+      <title>Communication-Free Obstacle Localization from Aggregate Wrench Measurements in Leader--Follower Cooperative Transport</title>
+      <link>https://arxiv.org/abs/2610.08324</link>
+      <guid isPermaLink="false">arxiv:2610.08324</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>We consider obstacle localization for a team of robots cooperatively transporting a rigid payload without explicit inter-robot communication. A leader robot directs the payload's motion, while follower robots assist and react to locally detected obstacles. The leader measures the followers' aggregate wrench, i.e., the combined force and torque they exert on the payload, but cannot directly distinguish their individual reactions. We design a follower control law that allows the leader to recover </description>
     </item>
     <item>
-      <title>Talk, Render, Act: Integrating Social Gesture and Digital Face with Synchronized Speech for Conversational Humanoid Robot</title>
-      <link>https://arxiv.org/abs/2610.06153</link>
-      <guid isPermaLink="false">arxiv:2610.06153</guid>
-      <pubDate>2026-10-05</pubDate>
-      <description>Expressive humanoid interaction requires speech, facial animation, and body gestures to form a coherent response. However, many full-body humanoid robots produce speech and gestures without a visually expressive face, while talking-face animation and robot gesture generation are typically developed separately. We present Talk, Render, Act (TRABot), an agent-based framework comprising specialized agents for motion-atom construction, dialogue generation, motion planning, and facial animation. Firs</description>
+      <title>Mitigating Concept Drift in QoS Prediction for Teleoperation of Autonomous Vehicles Using Historic Data</title>
+      <link>https://arxiv.org/abs/2610.08297</link>
+      <guid isPermaLink="false">arxiv:2610.08297</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>Teleoperation serves as the fallback solution to autonomous driving but reliable functions of the teleoperation require a certain amount of mobile network resources, which cannot be guaranteed at all times. Therefore, predictive quality of service (pQoS) is introduced as a concept to increase the resilience of the teleoperation. In this paper, based on a data measurement campaign, we propose a prediction framework to prediction two important network KPIs of teleoperation: uplink data-rate and ro</description>
     </item>
     <item>
-      <title>Radar2Plan: Benchmarking 4D Radar for End-to-End Open-Loop Ego-Trajectory Planning</title>
-      <link>https://arxiv.org/abs/2610.06121</link>
-      <guid isPermaLink="false">arxiv:2610.06121</guid>
-      <pubDate>2026-10-05</pubDate>
-      <description>Adverse weather and poor illumination remain major challenges for robust ego-trajectory planning in mobile autonomy. 4D radar offers reliable sensing under adverse conditions and direct radial-velocity measurements. However, sensing robustness does not necessarily translate into robust downstream planning, while existing 4D radar benchmarks focus primarily on perception rather than trajectory planning. We present Radar2Plan, a modular benchmark for open-loop ego-trajectory planning using real-wo</description>
+      <title>Reinforcement Learning with Segment Reward Feedback under Linear Function Approximation</title>
+      <link>https://arxiv.org/abs/2610.08271</link>
+      <guid isPermaLink="false">arxiv:2610.08271</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>Classical reinforcement learning (RL) assumes that a reward is observed for every visited state-action pair. However, in real-world applications such as autonomous driving, such fine-grained feedback can be costly or difficult to collect, whereas trajectory-level feedback may be too sparse for efficient learning. To provide a general feedback model bridging these two extremes and handle large state spaces, we study RL with segment reward feedback under linear function approximation. Our work ans</description>
     </item>
     <item>
-      <title>Attention Tax, Handoff Tax: A Stylised Model of When Multi-Agent LLM Systems Help</title>
-      <link>https://arxiv.org/abs/2610.06069</link>
-      <guid isPermaLink="false">arxiv:2610.06069</guid>
-      <pubDate>2026-10-05</pubDate>
-      <description>Recent work on multi-agent LLM systems reaches sharply different conclusions: some results show that a single agent with the same information and compute should dominate a delegated system, others that multi-agent gains grow with task depth. We argue that much of the disagreement comes from modelling different bottlenecks, and introduce a stylised reliability model built around two trade-offs. Decomposition reduces the burden of long contexts but incurs a handoff tax when information is compress</description>
+      <title>MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling</title>
+      <link>https://arxiv.org/abs/2610.08250</link>
+      <guid isPermaLink="false">arxiv:2610.08250</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>Large language models are increasingly used to simulate clients for counselor training and psychological counseling research, but reliable simulation requires clients to remain psychologically coherent across extended interactions. Existing role-playing methods largely rely on static profile prompts and may exhibit persona drift, unrealistic cooperativeness, or inconsistent psychological states, communicative actions, and emotions. Existing evaluations also lack a unified testbed for both stable</description>
     </item>
     <item>
-      <title>Grounded Joint-Attention Other-Play for Zero-Shot Coordination</title>
-      <link>https://arxiv.org/abs/2610.06025</link>
-      <guid isPermaLink="false">arxiv:2610.06025</guid>
-      <pubDate>2026-10-05</pubDate>
-      <description>Joint attention - the human ability to share a common visual or cognitive focus with others - enables a meeting of minds that lets us coordinate even with unfamiliar partners. In this work we investigate whether equipping AI agents with a similar mechanism can enable such zero-shot coordination. We introduce Mutual Attention for zero-shot TEaming (MATE): a novel multi-agent reinforcement learning method inspired by human joint attention. MATE encourages agents to coordinate their actions by alig</description>
+      <title>Token-Efficient Multi-Agent Collaboration via System One-Guided Computational Division of Labor</title>
+      <link>https://arxiv.org/abs/2610.08155</link>
+      <guid isPermaLink="false">arxiv:2610.08155</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>Large language model (LLM)-based multi-agent systems (MAS) have become a promising paradigm for complex information-seeking and reasoning tasks by enabling collaborative problem solving among specialized agents. However, existing MAS frameworks tightly couple task reasoning with coordination operations, including task selection, role assignment, message routing, and context management. As interactions grow, using powerful LLMs for these bounded control decisions introduces substantial token over</description>
     </item>
     <item>
-      <title>Strategic Multi-Agent Learning for Interpretable Action Valuation of All Players in Football</title>
-      <link>https://arxiv.org/abs/2610.05961</link>
-      <guid isPermaLink="false">arxiv:2610.05961</guid>
-      <pubDate>2026-10-05</pubDate>
-      <description>Valuing player actions in football requires accounting for strategic interactions among 22 players, including off-ball movements and defensive positioning. Existing reinforcement-learning-based methods commonly aggregate decisions at the team level or estimate player values independently, leaving strategic interdependence among players insufficiently represented. This study proposes an action valuation framework inspired by Markov perfect equilibrium (MPE) for all players. Each possession is mod</description>
+      <title>Beyond Waypoint Regression: Query-Based Cost Learning over Reachable Ego Futures for End-to-End Driving</title>
+      <link>https://arxiv.org/abs/2610.08123</link>
+      <guid isPermaLink="false">arxiv:2610.08123</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>End-to-end planners based on waypoint regression achieve strong open-loop accuracy, but they primarily learn to mimic expert geometry and remain difficult to adapt to deployment-time safety constraints. We propose a query-based cost-learning framework that estimates bounded costs for dynamically reachable ego trajectory queries, rather than dense BEV cells or a small regressed trajectory set. Compact joint scene tokens capture coherent multimodal agent futures, while contingency-aware cost aggre</description>
+    </item>
+    <item>
+      <title>ChartBmkAgent: Harness-Governed Multi-Agent Construction of Chart QA Benchmarks from Sparse Error-Taxonomy Specifications</title>
+      <link>https://arxiv.org/abs/2610.08106</link>
+      <guid isPermaLink="false">arxiv:2610.08106</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>Multimodal large language models (MLLMs) advance rapidly, while conventional benchmark development lags behind, delaying investigation of newly observed capability gaps. Such investigation requires an expressive task format and an on-demand construction process: information-rich charts make chart question answering (Chart QA) suitable for probing coupled perception and reasoning. Automated Chart QA construction is intended to shorten the benchmark-development cycle by turning identified gaps int</description>
+    </item>
+    <item>
+      <title>Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2610.08101</link>
+      <guid isPermaLink="false">arxiv:2610.08101</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>Shared memory coordinates agents' actions, but correct records do not establish that those actions satisfy task requirements. Memory governance and failure diagnosis regulate or inspect recorded information; they do not by themselves establish whether it is sufficient to judge task duties. We define execution consistency through duties governing state use, information handoffs, and final-state agreement, with explicit evidence conditions for judging fulfillment. Our core claim is that identical </description>
+    </item>
+    <item>
+      <title>Vector Map Quality Metrics for Contextual Autonomous Driving Systems</title>
+      <link>https://arxiv.org/abs/2610.08043</link>
+      <guid isPermaLink="false">arxiv:2610.08043</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>Ensuring safety in autonomous driving requires continuous map maintenance supported by reliable quality indicators. In this context, it is crucial to identify when and where map updates should be triggered, for instance through crowdsourced data, and under which conditions a new map compilation should be deployed. This paper focuses on effective metrics for assessing the quality of vector maps and guiding such decisions. We present a new metric called GOSPAM designed to measure map discrepancies</description>
+    </item>
+    <item>
+      <title>Learning in Dreams, Winning in Reality: A Continuous Dyna Loop for a Ten-Hero MOBA</title>
+      <link>https://arxiv.org/abs/2610.08033</link>
+      <guid isPermaLink="false">arxiv:2610.08033</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>World models are usually judged from the inside: by prediction loss, by the return a policy earns in imagination, or by how convincing their frames look. We judge one from the outside. We learn a structured, multi-agent world model of a complete ten-hero MOBA (206 units, every hero acting every tick, games of up to 6,000 ticks), train a policy only inside it with 1,400-tick free-running imagined episodes, and measure that policy in the real game against the opponent the game ships with. The real</description>
+    </item>
+    <item>
+      <title>Self-Referenced Social Preferences: Cooperation without Observing Others Rewards</title>
+      <link>https://arxiv.org/abs/2610.07881</link>
+      <guid isPermaLink="false">arxiv:2610.07881</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>Social preferences can promote cooperation in multi-agent reinforcement learning, but existing approaches often require agents to observe the rewards of their peers. In many real-world interactions, however, an agent can, as humans do, observe others' behavior and outcomes without access to their private reward signals. We introduce self-referenced social preferences, in which each agent learns a model of its own reward, applies it to other agents' observed transitions to assess their outcomes f</description>
+    </item>
+    <item>
+      <title>WorkflowOps: Learning Agent Collaboration Priors for Multi-Agent Workflow Orchestration</title>
+      <link>https://arxiv.org/abs/2610.07860</link>
+      <guid isPermaLink="false">arxiv:2610.07860</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>Multi-agent systems are increasingly deployed for complex knowledge work, yet their orchestration layers remain largely memoryless: each new task is decomposed, assigned, and executed from scratch with no benefit from prior successful executions. We present WorkflowOps, a multi-agent workflow orchestration framework that learns agent collaboration priors from historical workflows and expands its agent pool on demand to cover new capability requirements. Our approach introduces three coupled mech</description>
+    </item>
+    <item>
+      <title>DHCG: Dynamic Construction of Hierarchical Collaboration Graphs for LLM-Based Multi-Agent Reasoning</title>
+      <link>https://arxiv.org/abs/2610.07835</link>
+      <guid isPermaLink="false">arxiv:2610.07835</guid>
+      <pubDate>2026-10-06</pubDate>
+      <description>LLM-based multi-agent systems (MAS) have demonstrated strong capabilities in solving complex problems across diverse domains. Recently, the dynamic orchestration of agent systems has become an important research direction. However, existing methods suffer from limited composition, misaligned dependencies, and inflexible scale, restricting their ability to adapt to reasoning requirements during execution. To address these limitations, we reframe MAS design as a partially observable Markov decisio</description>
     </item>
   </channel>
 </rss>
