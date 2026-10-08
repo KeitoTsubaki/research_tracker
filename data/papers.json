@@ -1,5 +1,453 @@
 [
   {
+    "id": "arxiv:2610.10468",
+    "title": "A Society of Researchers: Designing Institutions for Populations of Autonomous Research Agents",
+    "authors": [
+      "Ali Asaria",
+      "Deep Gandhi",
+      "Tony Salomone"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.10468",
+    "abstract": "Deployments of research agents are moving to populations of thousands that share one pool of compute, while most current systems organize one project at a time or leave the population unorganized. We argue that such a population will acquire an organization whether or not its designers provide one, so designers should provide it explicitly, and that the multi-agent systems community holds the tools to do so. We propose a society of agents, a population of persistent agents under explicit institutions, and develop it for science as a society of researchers built on six principles. Principal investigators compete for compute through requests for proposals, independent review, and grants; a human governor, the mayor, allocates resources and assigns no tasks. In a running society of ten thousand researchers, asked only to improve the pretraining of language models, one lab reported a way to reach the same quality with about 30% less compute, a result the labs that tested it do not yet agree on. We close with six open problems for the agents community.",
+    "published_date": "2026-10-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "4 pages. Short version of A Society of Researchers: Institutional Design for Populations of Autonomous Scientific Agents, doi:10.5281/zenodo.22922325",
+    "fetched_at": "2026-10-08T10:00:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.10362",
+    "title": "Pathwise Information Certificates for Decentralized Adaptive Sensing",
+    "authors": [
+      "Theodoros Tsiligkaridis"
+    ],
+    "source": "arxiv",
+    "category": "cs.IT",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.10362",
+    "abstract": "We study decentralized adaptive sensing, where multiple agents choose measurements from evolving local beliefs while exchanging information over a communication graph. We ask whether the measurements actually selected by an adaptive policy have collected enough evidence to distinguish the true target from every plausible alternative. We develop a pathwise certificate based on the Rényi--Chernoff information accumulated along the realized sensing trajectory. It yields nonasymptotic MAP-error bounds and an anytime, network-wide stopping rule for arbitrary history-dependent sensing policies, while separating accumulated statistical information from a bounded network-mixing transient. Linear growth of the information against the least-resolved competitor implies exponential decay of MAP and squared-localization error. A classical pairwise KL converse, specialized to the adaptive decentralized transcript, shows that insufficient information on any pair prevents a positive uniform error exponent, confirming the hardest competitor as a fundamental bottleneck. Across policies, graph topologies, sensor profiles, and seeds, the worst-competitor score correlates more strongly with localization speed than an average-pair proxy in both 1D ($r=0.89$ versus $0.40$) and structured 2D sensing ($r=0.77$ versus $0.48$). Our results provide a practical way to certify and diagnose adaptive multi-agent sensing systems using the evidence they actually collect.",
+    "published_date": "2026-10-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "26 pages, preprint",
+    "fetched_at": "2026-10-08T10:00:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.10302",
+    "title": "Continual Graph Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Tommaso Marzi",
+      "Ahmed Hendawy",
+      "Jan Peters",
+      "Carlo D'Eramo",
+      "Andrea Cini",
+      "Cesare Alippi"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.10302",
+    "abstract": "In Continual Multi-Agent Reinforcement Learning (CMARL), agents learn cooperative policies across sequences of tasks, aiming to adapt effectively to new tasks while preserving the ability to solve previously encountered ones. In many applications, tasks differ in their underlying structure, which can represent, for example, distinct operational conditions or target configurations (e.g., different network topologies in power grids or arrangements in formation control). Existing CMARL methods lack dedicated mechanisms to leverage this structural information when learning new tasks, failing to promote transfer and mitigate forgetting. To fill this gap, we propose Continual Graph Multi-Agent Reinforcement Learning (CGMARL), a novel framework for CMARL problems in which task sequences are mapped into a series of attributed graphs, each modeling a task-specific structure. In CGMARL, each graph determines the environment dynamics (next states and/or rewards) and the number of agents for the corresponding task. Then, we present Graph-based Formation (GRAFO), the first CGMARL benchmark, and show how forgetting arises in this setting. Finally, to address this limitation, we propose Frozen Graph Encoder (FROG), a method that relies on a frozen graph backbone to preserve past structural information in graph-based CMARL policies. Experiments on GRAFO show that pairing FROG with existing CL methods substantially improves performance on multiple CGMARL scenarios.",
+    "published_date": "2026-10-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-08T10:00:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.10184",
+    "title": "Agentic AI-Assisted Modeling for Production Scheduling: Assessment in Constraint Programming",
+    "authors": [
+      "Ángel Sánchez-Fernández",
+      "Javier Pernas-Álvarez",
+      "Diego Crespo-Pereira"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.10184",
+    "abstract": "Developing optimization models for production scheduling requires substantial expert effort. Research on large language models (LLMs) has followed two directions: specialized approaches for automated modeling, mostly for mixed-integer linear programming, which often rely on dedicated training or problem-specific architectures that limit industrial deployment; and agentic artificial intelligence for operational decision support, which generally assumes that the optimization model already exists. This study bridges both directions by assessing whether general-purpose LLMs, orchestrated as agents without task-specific training, can formulate and implement constraint programming models from natural-language problem descriptions. Singleagent and multi-agent architectures are integrated with a Model Context Protocol server that provides context-aware retrieval of solver documentation to mitigate hallucinations during implementation. Both are compared with a direct LLM baseline on six industry-oriented problems covering flow-shop, job-shop, flexible job-shop and resource-constrained warehouse scheduling, using three LLMs and assessing modeling accuracy, execution success, latency and token consumption. Formulation proves largely within reach of current LLMs, whereas implementation is the main barrier. The multi-agent workflow raises the share of scripts that run correctly as generated from 14.8% with a direct LLM call to 59.3%, reaching 80.6% on the four less complex problems, while tightly coupled intralogistics models remain an open challenge.",
+    "published_date": "2026-10-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "29 pages, 9 figures",
+    "fetched_at": "2026-10-08T10:00:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.10140",
+    "title": "Progress and Prospect of AI in ARPES Workflow",
+    "authors": [
+      "Sandy Adhitia Ekahana",
+      "Aalok Tiwari",
+      "Pratik Saud",
+      "Aaron Bostwick",
+      "Chris Jozwiak",
+      "Eli Rotenberg",
+      "Jyoti Katoch"
+    ],
+    "source": "arxiv",
+    "category": "cond-mat.other",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.10140",
+    "abstract": "Artificial intelligence (AI) is becoming an increasingly useful tool across the experimental sciences, including angle-resolved photoemission spectroscopy (ARPES), which routinely produces large, multidimensional datasets of electronic structure. Recent advances in AI and machine learning (ML) have opened new opportunities across the entire ARPES workflow, from automated sample preparation and real-time data acquisition to post-experiment data analysis and comparison with theoretical calculations. Despite this progress, a comprehensive review of ML applications, their capabilities, and reliability across the different stages of ARPES workflow is still lacking. In this review, we first introduce ML methods that are most relevant to experimentalists working in condensed matter physics and materials science. We then follow the ARPES workflow, reviewing existing ML applications at each step and discussing their advantages, limitations and potential for future development. We also examine the current ARPES data landscape, where several open databases are available but remain relatively small and fragmented compared with large, shared datasets such as ImageNet. Given these limitations, we suggest that the community focus on sharing pretrained models that can be further trained, adapted to specific tasks, and redistributed, while working toward a larger and standardized open ARPES dataset repository. Finally, we discuss our perspectives on the future of AI within the ARPES workflow using a six-level framework of laboratory automation, highlighting the opportunities and challenges in moving toward a fully autonomous, self-driving ARPES laboratory.",
+    "published_date": "2026-10-07",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-08T10:00:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.10126",
+    "title": "Know the Shape, Find the Fault: Topology-Conditioned Diagnosis of Multi-Agent LLM Failures",
+    "authors": [
+      "Xinwen Liu",
+      "Zhuocheng Pan",
+      "Isabella Zhu",
+      "Jawei Zhang",
+      "Xudong Liu",
+      "Tianyu Wo"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.10126",
+    "abstract": "Multi-agent LLM systems coordinate task execution through exchanges of information among agents. When coordination breaks down, similar symptoms in execution traces can reflect different problems in how information is passed, used, or verified. Communication topology captures how agents exchange information and provides structural cues for distinguishing coordination failure modes. Using these cues for diagnosis requires establishing how topology relates to failure patterns and recovering the relevant structure from execution traces that lack explicit topology labels. We analyze the relationship between communication topology and failure patterns and introduce MAScope, a two-stage framework for topology-conditioned diagnosis. Its Trace Structural Extractor TSE recovers communication topology from heterogeneous execution traces by grounding an interaction graph in message evidence. The Topology-Conditioned Judge TC-Judge then classifies failures using the trace, predicted topology, an empirical failure prior estimated from separate labeled traces, and a short description of topology-specific failure patterns. Under a fixed orchestration structure, the recovered topology can be reused across executions. Experimental results show a statistically significant association between communication topology and failure type, with $χ^2 = 409.9$ and $p = 1.2 \\times 10^{-70}$. On the \\num{851} MAST-clean traces, ground-truth topology context raises gpt-mini's Macro-F1 from $0.173$ to $0.350$. With predicted topology, the pipeline achieves $0.346$, approaching the trace-only gpt-5.4 baseline of $0.372$. For \\num{1000} traces under a fixed orchestration structure, the projected pipeline cost, including one topology extraction, is approximately $6\\%$ of repeated gpt-5.4 diagnosis cost. These results show that topology-conditioned context improves failure diagnosis and supports lower-cost deployment.",
+    "published_date": "2026-10-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-08T10:00:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.10100",
+    "title": "The Cost of Classical Multi-Agent Path Finding",
+    "authors": [
+      "Alvin Combrink",
+      "Sabino Francesco Roselli",
+      "Martin Fabian"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.10100",
+    "abstract": "Multi-Agent Path Finding (MAPF) is the problem of planning conflict-free paths for multiple agents in a shared space, each from its start to its goal. Classical MAPF has been the dominant formulation for many years, with its assumptions of discrete time and graph-based conflicts presumably easing the search for solutions. These assumptions limit the physical environments and agents for which a solution is truly collision-free, and also place an upper bound on solution quality that no algorithmic improvements can lift. This work investigates how much solution quality, and in what contexts, the classical MAPF formulation forfeits. Continuous-time MAPF (MAPF$_R$) relaxes these assumptions, making it a natural counter-formulation to compare against across various agent counts and sizes, and graph connectedness, topologies, and resolutions. We find that continuous time and agent shape consideration are worth relatively little on their own; their value comes from enabling an expanded range of move actions, on average improving solution quality by at least $5\\%$ on narrow and constrained maps and $17\\%$ on maps with open spaces. In some cases, the improvements exceed $20\\%$. Doubling the map resolution with classical MAPF recovers less than $3\\%$, meaning that little of what is forfeited can be bought back through more compute. This work therefore provides insight on when classical MAPF is a reasonable simplification, and when MAPF$_R$ unlocks significantly higher-quality solutions.",
+    "published_date": "2026-10-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "9 pages, 5 figures",
+    "fetched_at": "2026-10-08T10:00:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.10087",
+    "title": "Multi-Agent Coordination via Support-Preserving Distillation",
+    "authors": [
+      "Sangmin Lee",
+      "Youngju Na",
+      "Chanmi Lee",
+      "Sung-eui Yoon"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.10087",
+    "abstract": "Offline MARL increasingly relies on generative policies to model multimodal joint behavior, typically by distilling a centralized teacher into decentralized one-step actors under the CTDE. We identify a failure mode at the teacher training stage: standard flow-based teachers pair noise with replay targets independently, so nearby noise samples can be routed toward conflicting coordination modes. The teacher then produces samples between valid modes, and because the distillation loss regresses each local actor onto the conditional mean of the teacher's output given local input, this error is not absorbed but propagated to the student. To remove this teacher-side artifact, we propose Mode-Support Semi-Discrete Optimal Transport (MoSDOT), which summarizes multimodal replay into a finite mode support with prescribed capacities and uses conditional semi-discrete optimal transport to assign each noise sample to a single mode before teacher training. We additionally study a shared-randomness variant that uses a shared noise component at execution to expose the residual gap intrinsic to strict-product execution. On controlled diagnostics and offline MARL benchmarks, MoSDOT improves endpoint quality and routing consistency, particularly on datasets exhibiting multimodal joint behavior.",
+    "published_date": "2026-10-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted at NeurIPS 2026 (Main Track, Poster)",
+    "fetched_at": "2026-10-08T10:00:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.10065",
+    "title": "Distributed Motion Planning for Multi-Robot Systems under Topological Constraints",
+    "authors": [
+      "Gianpietro Battocletti",
+      "Dimitris Boskos",
+      "Dimos V. Dimarogonas",
+      "Bart De Schutter"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.10065",
+    "abstract": "Efficient and distributed coordination of mobile robots is one of the main challenges in multi-robot systems. Topological constraints, often expressed as topological braids, are a popular tool to encode complex coordination patterns between multiple mobile robots, as they offer a compact and abstract representation of the desired qualitative relation between the space-time trajectories of the robots. However, execution of joint motion plans encoded as braid-based topological constraints via distributed controllers is challenging, with existing approaches, generally based on the execution of one braid generator at a time, producing slow and suboptimal trajectories. We propose a distributed controller based on Model Predictive Control (MPC) to efficiently execute braid-based topological specifications. Rather than directly tracking the braid specification, we propose to use winding numbers, which are topological invariants for braids, as a proxy. This has the twofold benefit of converting braids into a continuous function, which can be easily tracked by an MPC controller through an appropriate term in the cost function, and of decoupling the global braid specification into a set of pairwise specifications, which can be tracked distributedly through the solution of only local MPC problems. To maintain global coordination, we propose a consensus-based progress estimation approach, which allows the robots to synchronize their motion toward the desired specification. We validate the proposed approach in simulation and in real-world experiments, where we demonstrate the effectiveness of the proposed approach and the improvement over existing approaches in terms of execution speed and control effort.",
+    "published_date": "2026-10-07",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "19 pages, 13 figures",
+    "fetched_at": "2026-10-08T10:00:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.10044",
+    "title": "CANDO: Cooperative Agentic Network for Layout Design Optimization",
+    "authors": [
+      "Athanasios Masouris",
+      "Zheng Jing",
+      "Benjamin Sam Chandler",
+      "Hadi Jamali-Rad"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.10044",
+    "abstract": "Layout generation for real-world facilities is a challenging problem, requiring reasoning over irregular site boundaries, heterogeneous orientations, access-aware placements, and motion-planning feasibility. Yet, most existing layout benchmarks in the generative AI space target simpler placements over rectangular domains and rely on distributional metrics such as FID and IoU that reward conformity to dataset priors, thus discounting design innovation. Motivated by these gaps, we introduce ALPS-Bench, a benchmark of $1,000$ professionally annotated real-world facility layouts paired with an instance-specific scoring protocol grounded in a structured design manual. As a strong baseline for ALPS-Bench, we propose CANDO, a training-free multi-agent framework in which specialized agents iteratively refine layouts through a verification-grounded loop, concentrating reasoning on strategic spatial decisions. We demonstrate that CANDO surpasses state-of-the-art trained and LLM-based baselines on the widely adopted PubLayNet, RICO, and PKU-PosterLayout benchmarks, establishing cooperative agentic design as a broadly effective recipe for constraint-aware layout synthesis.",
+    "published_date": "2026-10-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted to appear in NeurIPS 2026. This is the preprint version of the paper",
+    "fetched_at": "2026-10-08T10:00:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.09872",
+    "title": "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
+    "authors": [
+      "Jun Zhao",
+      "Leiming Fu",
+      "Yanbo Wen",
+      "Yiding Wang",
+      "Xuantong Liu",
+      "Yang Shu",
+      "Yuyang Lu",
+      "Xuanran Xing",
+      "Jingqi Tong",
+      "Hao Xu",
+      "Qi Zhang",
+      "Xuanjing Huang"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.09872",
+    "abstract": "Evaluating agents by outcomes alone can obscure the capabilities that produce them. This problem is especially pronounced in evolving environments, where outcomes reflect a closed-loop interaction between agent behavior and changing external conditions. We introduce LiveMACEBench, a process-aware benchmark that uses live financial markets as a naturally evolving testbed for persistent LLM agents. Five frontier LLMs operate along continuous trajectories under matched Tool Use, Persistent Memory, Rule Following, and Multi-Agent Collaboration configurations. We evaluate them through both realized outcomes and mechanism-specific diagnostics derived from complete decision traces. Across 30 days of live evaluation, we find a pronounced outcome-capability gap: realized returns often diverge from capability-specific measurements, and similar outcomes can arise from markedly different patterns of mechanism use. Trace-level diagnostics further expose distinct bottlenecks across capabilities, demonstrating that mechanism access, effective mechanism use, and downstream performance are not interchangeable measures of agent capability. LiveMACEBench makes this distinction measurable, turning live markets from a performance leaderboard into a diagnostic environment for agent capability",
+    "published_date": "2026-10-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-08T10:00:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.09870",
+    "title": "Deadline-Aware Multi-Agent Reinforcement Learning for TSN-Based Vehicular Edge Networks",
+    "authors": [
+      "Bernardo A. C. Pereira",
+      "Marcos Carvalho",
+      "Fatih Temiz",
+      "Shavbo Salehi",
+      "Melike Erol-Kantarci",
+      "Andreas Gavrielides",
+      "Johann M. Marquez-Barja",
+      "Daniel F. Macedo"
+    ],
+    "source": "arxiv",
+    "category": "cs.NI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.09870",
+    "abstract": "Vehicular edge computing (VEC) enables latency-sensitive applications by bringing computing and networking resources closer to vehicles. However, existing approaches often overlook network contention among co-located services with heterogeneous and dynamic latency requirements. While time-sensitive networking (TSN) provides bounded-latency communication, conventional and reinforcement learning-based schedulers struggle to adapt to highly dynamic vehicular environments and inter-queue dependencies. To address these limitations, we propose a multi-agent reinforcement learning (MARL) approach for queue-level scheduling in TSN-enabled VEC. Each TSN queue is assigned an autonomous agent that jointly learns the queue service order and time-slot duration to minimize deadline misses under speed-dependent latency requirements. We employ multi-agent proximal policy optimization (MAPPO) to enable coordinated yet autonomous scheduling decisions. Evaluation against single-agent, multi-agent, and non-learning-based baselines shows that MAPPO provides robust performance across different traffic profiles. Compared with centralized single-agent methods, it reduces service latency by up to 66.2% and improves reliability by up to 271.8%. Furthermore, unlike urgency-based heuristics, MAPPO ensures balanced scheduling while achieving lower inference times compared to other MARL methods.",
+    "published_date": "2026-10-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-08T10:00:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.09828",
+    "title": "Enhancing Robotic Perception and Adaptability through Sensor Fusion and Origami-Inspired Designs",
+    "authors": [
+      "Namai Chandra",
+      "Jaison Jose",
+      "Kavi Arya",
+      "Shivaram Kalyanakrishnan"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.09828",
+    "abstract": "Compact mobile robots must recover scene geometry under changing lighting and surface texture while working within tight payload and cost limits. We present a compact mobile robot that uses origami-inspired wheels for locomotion and active control of its sensing geometry. As the wheels move between terrain-adaptive configurations, the changing chassis pitch sweeps a 2D LiDAR through intermediate elevations; held wheel positions provide a chosen viewing angle. An IMU accounts for chassis attitude, and a fusion node projects LiDAR returns into the RGB-D depth stream supplied to RTAB-Map. The arrangement uses the wheel actuation already present on a sub-300 USD, sub-2 kg prototype to extend the scanner's viewing geometry. We assess depth fusion in a textureless indoor corridor and an outdoor sunlit area, with three runs per sensor configuration in each setting. Mean full-frame invalid-depth fractions fell from 21% to 11% indoors and from 48% to 18% outdoors. The prototype combines improved depth coverage with a continuously adjustable LiDAR viewpoint using the same actuation that reconfigures its wheels.",
+    "published_date": "2026-10-07",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "11 pages, 11 figures, 3 tables",
+    "fetched_at": "2026-10-08T10:00:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.09824",
+    "title": "Homogenization in Multi-Agent Systems",
+    "authors": [
+      "Prakhar Ganesh",
+      "Kyra Wilson",
+      "Luca Zappella",
+      "Barry-John Theobald",
+      "Nicholas Apostoloff",
+      "Lucas Monteiro Paes",
+      "Nivedha Sivakumar"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.09824",
+    "abstract": "Multi-agent systems (MAS) leverage interactions between agents to perform complex tasks. Despite their success, we show that these interactions can also lead to homogenization, i.e., agents converging to similar behaviors. Homogenization in MAS can reduce agent diversity and reinforce shared failures. In this paper, we operationalize homogenization using three metrics: conformity to the majority, polarization towards extremes, and growing inertia against changes over subsequent interactions. We evaluate homogenization in MAS for code generation, hiring, and scientific peer review. Across these tasks, we show that homogenization translates to concrete downstream risks: in code generation, it hides and amplifies correlated errors which can create systemic vulnerabilities; in hiring, it allows the influence of biased agents to persist long after their removal; and in peer review, it creates uneven evaluation standards across research areas. Our results establish homogenization as a failure mode of MAS, demonstrating that MAS evaluations must move beyond aggregate performance to carefully analyze interaction dynamics. Finally, we show that simple approaches to increase diversity---leveraging sampling stochasticity and mixed-models MAS---fail to reduce homogenization risks, highlighting the need for strategies to effectively leverage agent diversity.",
+    "published_date": "2026-10-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-08T10:00:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.09769",
+    "title": "From Expert-Guided Proof Search to Automated Open-Problem Solving",
+    "authors": [
+      "Adrián Zámečník",
+      "Matěj Kripner",
+      "Martin Koutecký",
+      "Martin Balko",
+      "Jan Grebík",
+      "Pavel Hubáček",
+      "Robert Šámal",
+      "Václav Rozhoň"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.09769",
+    "abstract": "Large language models are increasingly contributing to mathematical research, where progress often depends on efficient proof search, incremental improvements and careful verification. We describe Bolzano, a multi-agent open-source system that uses parallel prover agents with a verifier agent and maintains a human-readable research state. Initial manual use on expert-selected problems yielded 8 results whose proofs were checked by domain experts. Motivated by these case studies, we ran Bolzano without problem-specific human guidance on about 3,800 open problems extracted from four sets of papers, solving about 200 open problems. One experiment used papers accepted to STOC 2026, a top conference in theoretical computer science. There, we answered four questions raised in the papers, as confirmed by their authors.",
+    "published_date": "2026-10-07",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted at the 6th Workshop on Mathematical Reasoning and AI (MATH-AI), NeurIPS 2026",
+    "fetched_at": "2026-10-08T10:00:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.09763",
+    "title": "Beyond Policy Support: Interaction Constrained Offline Reinforcement Learning for Autonomous Driving",
+    "authors": [
+      "Mahmoud Selim",
+      "Cristina Cipriani",
+      "Karl Henrik Johansson"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.09763",
+    "abstract": "Offline reinforcement learning enables reward-driven policy improvement from fixed datasets without requiring online exploration, making it particularly attractive in safety-critical domains. A central challenge, however, is distribution shift: policy optimization may favor actions that are weakly supported by the offline data, rendering value estimates unreliable. Existing approaches primarily control this shift in the policy's own action space. In interactive environments such as autonomous driving, this can be insufficient: a candidate ego trajectory may remain well supported under the marginal behavior distribution while being poorly supported jointly with the surrounding-agent behavior observed in the logged interaction. We refer to this degradation in interaction support as \\emph{interaction distribution shift} (IDS), and introduce \\emph{Interaction-Constrained Drive Policy} (ICDP), an offline reinforcement learning framework that explicitly controls interaction-level distribution shift. Starting from the joint data distribution over ego and surrounding-agent futures, we show that joint-support degradation decomposes exactly into an ego-support component and a residual interaction-support component. We recover the latter through contrastive density-ratio estimation, isolating interaction compatibility without explicit joint-density modeling, surrounding-agent prediction, or rollouts in reactive simulators or learned world models during policy optimization. Closed-loop evaluations on nuPlan, Interplan and real-world truck experiments show that ICDP suppresses high-value yet interaction-unsupported trajectory selections and improves performance in interaction-critical driving scenarios. Project webpage: https://mahmoud-selim.github.io/ICDP/",
+    "published_date": "2026-10-07",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-08T10:00:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.09695",
+    "title": "Do Better Visual Representations Always Lead to Better End-to-End Autonomous Driving?",
+    "authors": [
+      "Zihao Zhang",
+      "Haochen Tian",
+      "Tianyu Li",
+      "Changhui Jing",
+      "Jingliang He",
+      "Naisheng Ye",
+      "Ziyuan Pu",
+      "Zhenjie Yang"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.09695",
+    "abstract": "Visual foundation models (VFMs) are increasingly integrated into end-to-end autonomous driving for their powerful representations, yet it remains unclear when these representations improve driving performance. To investigate this question, we introduce ViRA, a planner-agnostic visual representation alignment framework that keeps the planner architecture and inference cost unchanged. Our study reveals three findings: (1) VFM-guided visual representations consistently improve driving performance across diverse end-to-end planners, with gains extending to zero-shot closed-loop evaluation. (2) The choice of VFM target matters for planning performance, and alignment to a different VFM can further benefit planners with pre-trained VFM encoders. (3) Auxiliary perception supervision reduces sensitivity to VFM target selection, narrowing the EPDMS spread across five targets from 2.7 to 0.5 points and potentially compensating for less effective VFM targets. Guided by these findings, we develop ViRA-Diffusion, a diffusion-based planner trained without auxiliary perception supervision, which achieves 92.3 EPDMS on NAVSIM v2 navtest, outperforming recent methods in our comparison by at least 1.9 points. The results motivate jointly considering target selection and planner supervision when integrating VFMs into end-to-end autonomous driving. The results and demo are available at https://github.com/OpenDriveLab/ViRA.",
+    "published_date": "2026-10-07",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-08T10:00:03Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2610.08647",
     "title": "SquidAgent: Parallelize Wisely, Coordinate Efficiently",
     "authors": [
