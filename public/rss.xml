@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Fri, 09 Oct 2026 10:03:31 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 09:24:28 GMT</lastBuildDate>
     <item>
       <title>Mental-Models for Multi-Agent Systems</title>
       <link>https://arxiv.org/abs/2610.12453</link>
@@ -116,6 +116,34 @@
       <guid isPermaLink="false">arxiv:2610.11552</guid>
       <pubDate>2026-10-08</pubDate>
       <description>Large language model agents can invoke tools fluently, but enterprise workflows demand more than selecting the right tools: actions must strictly comply with organizational policies, tool feedback often conceals hidden side effects under partial observability, and long-horizon tasks require persistent state tracking across multiple records. To address these challenges, we introduce E-Ledger, a multi-agent harness for safe and persistent execution. E-Ledger employs a code approval layer that chec</description>
+    </item>
+    <item>
+      <title>A Society of Researchers: Designing Institutions for Populations of Autonomous Research Agents</title>
+      <link>https://arxiv.org/abs/2610.10468</link>
+      <guid isPermaLink="false">arxiv:2610.10468</guid>
+      <pubDate>2026-10-07</pubDate>
+      <description>Deployments of research agents are moving to populations of thousands that share one pool of compute, while most current systems organize one project at a time or leave the population unorganized. We argue that such a population will acquire an organization whether or not its designers provide one, so designers should provide it explicitly, and that the multi-agent systems community holds the tools to do so. We propose a society of agents, a population of persistent agents under explicit institu</description>
+    </item>
+    <item>
+      <title>Pathwise Information Certificates for Decentralized Adaptive Sensing</title>
+      <link>https://arxiv.org/abs/2610.10362</link>
+      <guid isPermaLink="false">arxiv:2610.10362</guid>
+      <pubDate>2026-10-07</pubDate>
+      <description>We study decentralized adaptive sensing, where multiple agents choose measurements from evolving local beliefs while exchanging information over a communication graph. We ask whether the measurements actually selected by an adaptive policy have collected enough evidence to distinguish the true target from every plausible alternative. We develop a pathwise certificate based on the Rényi--Chernoff information accumulated along the realized sensing trajectory. It yields nonasymptotic MAP-error boun</description>
+    </item>
+    <item>
+      <title>Continual Graph Multi-Agent Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2610.10302</link>
+      <guid isPermaLink="false">arxiv:2610.10302</guid>
+      <pubDate>2026-10-07</pubDate>
+      <description>In Continual Multi-Agent Reinforcement Learning (CMARL), agents learn cooperative policies across sequences of tasks, aiming to adapt effectively to new tasks while preserving the ability to solve previously encountered ones. In many applications, tasks differ in their underlying structure, which can represent, for example, distinct operational conditions or target configurations (e.g., different network topologies in power grids or arrangements in formation control). Existing CMARL methods lack</description>
+    </item>
+    <item>
+      <title>Agentic AI-Assisted Modeling for Production Scheduling: Assessment in Constraint Programming</title>
+      <link>https://arxiv.org/abs/2610.10184</link>
+      <guid isPermaLink="false">arxiv:2610.10184</guid>
+      <pubDate>2026-10-07</pubDate>
+      <description>Developing optimization models for production scheduling requires substantial expert effort. Research on large language models (LLMs) has followed two directions: specialized approaches for automated modeling, mostly for mixed-integer linear programming, which often rely on dedicated training or problem-specific architectures that limit industrial deployment; and agentic artificial intelligence for operational decision support, which generally assumes that the optimization model already exists. </description>
     </item>
   </channel>
 </rss>
