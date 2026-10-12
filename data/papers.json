@@ -1,5 +1,490 @@
 [
   {
+    "id": "arxiv:2610.13872",
+    "title": "Tracking the Invisible: Self-Supervised Wheel Track Detection with Thermal-RGB Fusion",
+    "authors": [
+      "Yiming Yang",
+      "Jeremy P. Bos"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.13872",
+    "abstract": "Accurate detection of drivable area is essential for autonomous driving and advanced driver assistance systems. While state-of-the-art methods focus on general traversability estimation, they prove inadequate for snow-covered roads where following existing wheel tracks offers crucial advantages: improved traction, predictable vehicle dynamics, and verified path stability. To address this, we propose a low-cost, self-supervised approach detecting safety-critical wheel tracks using synchronized RGB-I (RGB + Long-Wave Infrared) imagery. Our method automatically generates training labels by projecting future wheel trajectories from recorded GNSS data. A neural network is designed to identify wheel tracks with the 4-channel RGB-I images from challenging, white-out road surfaces. Experimental results demonstrate the effectiveness of our approach in visually monotonous and featureless adverse environment, offering a robust and cost-effective alternative for winter autonomy. The newly introduced ThermalTrack dataset is available at: https://digitalcommons.mtu.edu/thermaltrack/.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "IROS 2026, 8 pages, 6 figures",
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.13772",
+    "title": "MARGoS: A Configuration-Driven Platform for Reproducible MARL Experiments in ARGoS",
+    "authors": [
+      "Tom Philipp Backert",
+      "Mohammad D. Soorati",
+      "Javad Ghofrani"
+    ],
+    "source": "arxiv",
+    "category": "cs.SE",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.13772",
+    "abstract": "Multi-agent reinforcement learning (MARL) has become a prominent research direction, particularly within collective robotics, where the ARGoS simulator is widely used to study emergent swarm behavior. Yet despite this growth, systematic support for reuse and reproducibility in MARL-based swarm robotics remains limited and insufficiently standardized: a single experiment is assembled from manually aligned simulator files, training scripts, configuration values, paths, seeds, and environment details, so reuse and reproduction stay fragile even within one research group. To address this gap, we introduce MARGoS, a lightweight, configuration-driven platform developed in this project that elevates these experiment-defining inputs to first-class, platform-managed artifacts. MARGoS enables reproducible experimentation through configuration hashing, end-to-end seed propagation, frozen (immutable) configurations, structured logging, environment fingerprinting, and exportable experiment bundles that facilitate sharing, replay, and verification of results across machines and over time. A five-dimension evaluation (architecture, efficiency, reproducibility, usability, and collaboration) supports our claim that managing experiment variation as a platform responsibility makes ARGoS+MARL experiments easier to reuse, reproduce, and hand off. Our code is available at https://github.com/tombackert/margos.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Submitted version (prior to peer review) of a paper published in the VARIABILITY 2026 Satellite Events proceedings (Project Showcase Track), LNCS 17104, Springer. 11 pages, 3 figures, 3 tables",
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.13737",
+    "title": "SafeDiSTL: Decomposing Joint Constraints for Safe Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Hongrui Zheng",
+      "Aditya Singh",
+      "Rahul Mangharam"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.13737",
+    "abstract": "Cooperative multi-agent tasks often impose constraints on a shared objective or collective safety. A team level violation cost function can measure this constraint outcome, but does not distinguish which agents' actions most strongly influence that violation. We present SafeDiSTL, a constrained multi-agent reinforcement learning framework that allows for credit assignment even with joint constraint measurements. We use Signal Temporal Logic (STL) robustness to measure episode-level violation through running-maximum cost increments. Smooth full-episode robustness and differentiable dynamics provide action sensitivities, which allocate each cost increment across agents at the same decision time. These sensitivities account for delayed effects when weighting agents' shares of each cost increment. We study the framework in cooperative payload transport, connected navigation, and networked traffic control tasks. SafeDiSTL achieves 1.6-5.1x the safe-success rate in transport, improves navigation safe-success by 11.1%, and delivers 50-68% more throughput in traffic when compared to constrained baselines. Results demonstrate a strong improvement of the learned policy in dealing with shared constraint while retaining the performance of unconstrained policies.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "marl",
+      "cooperative-transport"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.13703",
+    "title": "A Baseline Assessment for the Agentic Web Technology Stack",
+    "authors": [
+      "Vagner Figueredo de Santana",
+      "Diogo Cortiz"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.13703",
+    "abstract": "The fast pace in which protocols, frameworks, and technologies are being proposed for LLM-based agents results in a complex scenario for anyone aiming to create state-of-the-art AI solutions. Without an assessment on how different protocols, frameworks, and libraries work together to compose an Agentic Web solution, developers and organizations face different challenges (e.g., skilling, governance, infrastructure) even before becoming part of the Agentic Web ecosystem. In this context, we propose a system for performing Agentic Web evaluations called MASTIF (Multi-Agent System TestIng Framework) and present a baseline assessment of Agentic Web technologies, including 3 LLMs, 3 protocols, and 4 agent implementation frameworks, against 300 Mind2Web benchmark tasks. Results suggest that selecting a task-specific technology stack may result in gains of task completion rate, efficiency score, and social value stability scores; and reductions in verbosity and time to complete tasks. With the presented results, we expect to present a baseline in terms of metrics and results for this complex and fast evolving scenario for those aiming at designing, assessing, and developing multi-agent systems.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.13663",
+    "title": "A Multi-Agent LLM System for Automated Tuning of Specialized Neural Network Models",
+    "authors": [
+      "Ivan Moloshnikov",
+      "Dmitry Kunitsyn",
+      "Alexander Sboev",
+      "Maksim Skorokhodov",
+      "Roman Rybka",
+      "Yuanchao Liu"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.13663",
+    "abstract": "Many machine learning approaches are two-level: an expert selects a class of methods, within this class the choice of key components is critical and usually manual. This paper addresses the automatic tuning of these components and proposes a framework transferable across models of different nature. The multi-agent large language model (LLM) framework has three roles---analyst, coder, and recorder~---with an experiment log and a sandboxed execution environment. Unlike systems that optimize the entire ML script or search architectures in a discrete space, the framework operates over an open but semantically narrow space: the agent generates code only for the specified components, leaving the overall network structure unchanged. The approach is validated in two directions: tuning a classification spiking neural network with correlation learning, and solving high-order differential equations with Physics-Informed Neural Networks (PINN). Across five tasks---spiking classification on MNIST and Digits, and boundary-value problems for the generalized nonlinear Schrödinger equation (GNLSE) and Kuramoto--Sivashinsky (KS) equations---the agent outperforms the baselines: classification accuracy is 13 percentage points (MNIST) and 6 percentage points (Digits) higher; the error against the analytical single-soliton solution is reduced approximately 2491-fold; the invariant-preservation error drops approximately 325-fold in the selected GNLSE run with a Gaussian perturbation and by more than 100-fold on average over repeated initializations; and the mass drift drops 14-fold for the KS problem with a Gaussian perturbation. The framework thus tunes key components on tasks of different nature without changing its internal structure.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.13594",
+    "title": "MENTOR: Learning from Failure with On-Policy Pedagogical Intervention",
+    "authors": [
+      "Guanlan Yue",
+      "Hang Yu",
+      "Xiaoyong Huang",
+      "Ruipeng Li",
+      "Wei Zhang",
+      "Bingchang Liu",
+      "Rui Wang"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.13594",
+    "abstract": "Reinforcement Learning from Verifiable Rewards (RLVR) is a key driver for Large Reasoning Models, but it is vulnerable to \"zero-reward collapse\", a training failure where a sudden increase in task difficulty causes the learning signal to vanish. We argue that the conventional approach of discarding these failed trajectories is wasteful, as they contain valuable diagnostic information about the model's cognitive gaps, a bright side that can be leveraged for recovery. Existing solutions, however, often regress to static, \"off-policy-style\" interventions like pre-defined hint libraries or perform post-hoc refinement, failing to provide the adaptive, forward-looking guidance needed to escape the collapse. To address this, we propose a paradigm shift towards on-policy pedagogical intervention and introduce MENTOR, a multi-agent framework that acts as a live mentor. MENTOR diagnoses the root cause of failure in real-time and dynamically generates targeted, instructional prompts to guide the learning agent's next attempt. As a plug-and-play module, MENTOR integrates seamlessly into existing policy optimization pipelines like GRPO without modifying the training infrastructure. Extensive experiments on math and code generation show that MENTOR effectively mitigates zero-reward collapse, outperforming state-of-the-art baselines. Notably, it achieves massive average relative gains of up to 78.3% on Llama-3.2-3B-Instruct over its base model.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.13557",
+    "title": "Probabilistic Ship Trajectory Forecasting using Transformer Models on AIS Data",
+    "authors": [
+      "Frederik E. T. Schöller"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.13557",
+    "abstract": "Anticipation of vessel trajectories is an essential task when navigating at sea. This applies to both human navigators and autonomous surface vessels. Trajectory forecasting enables sub-routines such as collision avoidance to assess the situation and react accordingly in time. This paper investigates Transformer and Performer models for trajectory prediction of surface vessels in confined waters. Using widely available position data from the Automatic Identification System (AIS), candidate models are trained and evaluated. Historical information on how other vessels have moved in the local area surrounding each agent is conveyed using positional heat maps. The heat maps are generated using Kernel Density Estimation (KDE) and encoded with a Convolutional Neural Network (CNN) before entering the Transformer models. The models are trained with quantile loss to efficiently obtain a model-aware prediction interval, as this is crucial for timely collision avoidance. The proposed model architectures are shown to greatly outperform previous work while the inclusion of local heat maps enables the prediction of vessel movement that is not otherwise indicated from the previous positions.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "Manuscript written in 2021. 16 pages, 5 figures, 5 tables",
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.13534",
+    "title": "MAGMA-Bench: Evaluating Long-Horizon Embodied Agents under Dynamic Tasks and Execution Failures",
+    "authors": [
+      "Loan Bernat",
+      "Matthieu Grard",
+      "Ariane Herbulot",
+      "Florent Lamiraux"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.13534",
+    "abstract": "Long-horizon embodied agents must maintain task-relevant information, coordinate heterogeneous robots, and adapt their decisions as execution unfolds. Existing benchmarks investigate dynamic task execution and embodied multi-agent coordination, but provide limited evaluation of their intersection. We introduce MAGMA-Bench, an architecture-agnostic benchmark for persistent task reasoning in dynamic multi-robot environments. MAGMA-Bench evaluates agents across increasing task horizons and controlled online perturbations, including execution failures, task interruptions, and mission updates, with scenarios requiring coordination across robots with heterogeneous capabilities. It uses a structured skill-level interface to separate task-level reasoning from perception and low-level control. We evaluate locally deployable open-weight planners, multi-agent state-tracking strategies, and frontier models. Even the strongest evaluated models fail on a substantial fraction of clean episodes, and their success rates decrease further under online perturbations. Supervised adaptation greatly improves a small model, but performance remains substantially lower on longer and multi-robot missions. We release the benchmark, 261,646 task-level training examples, and an architecture-agnostic expert-trace generation pipeline.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.13494",
+    "title": "Humanize MLE Agents: Multi-Agent Session Alternation Beyond Single-Agent Limits",
+    "authors": [
+      "Changye Li",
+      "Zijian Zhang",
+      "Muheng Li",
+      "Yiduo Pang",
+      "Tingjun Wu",
+      "Menghan Li",
+      "Yitong Liu",
+      "Hongkai Guo",
+      "Mengchi Chen",
+      "Chenyu He",
+      "Kaisheng Ma",
+      "Wei Xu",
+      "Song Han",
+      "Sihao Liu",
+      "Ligeng Zhu"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.13494",
+    "abstract": "Existing LLM-based agent approaches for long-horizon machine learning engineering (MLE) often use context engineering, implemented through custom harnesses that manage tools, skills, and accumulated experience. However, we find that as single-session execution lengthens, the agent's reasoning intensity declines alongside slowing progress, summarized as long-horizon deceleration, and the benefits of these custom harnesses vanish as the underlying model improves, summarized as harness staleness. These findings suggest that their benefits may not persist across versions, which motivates a workflow-level approach in which agents build on one another's work across sessions. We model these alternating agent sessions as a context-reset semi-Markov decision process (CR-SMDP) and establish sufficient conditions for alternation to exceed single-agent reference limits, derive an explicit experiment-budget bound, and characterize when session caps preserve this advantage. Guided by this analysis, we introduce Humanize MLE Agents (HMA), which alternates two agents on a shared workspace, limits each session to at most k experiments and resets the context between sessions, without additional task-specific harness or prior knowledge supplements. Across 75 Kaggle tasks in MLE-bench, HMA reaches a state-of-the-art any-medal rate of 78.2%, exceeding the strongest open-source baseline by 8.0 points with a quarter of its time budget. Moreover, among six configurations spanning five heterogeneous agent pairs, HMA improves any-medal rate over the constituent baselines by 6.4 points on average, demonstrating cross-pair generality. A supplementary case on kernel optimization reaches 878 cycles, within 1.6% of the community leaderboard leader, demonstrating applicability beyond MLE.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "32 pages, 10 figures. Code: https://github.com/humanfia/hma",
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.13453",
+    "title": "Reflect-VLA: Internalizing Reflective Guidance via Dual-Path On-Policy Self-Distillation for Autonomous Driving",
+    "authors": [
+      "Yuechen Luo",
+      "He Chong",
+      "Fang Li",
+      "Shaoqing Xu",
+      "Hexin Zhang",
+      "Ruiqi Zhang",
+      "Ziying Song",
+      "Lei Yang",
+      "Zhi-Xin Yang",
+      "Fuxi Wen"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.13453",
+    "abstract": "Reinforcement Learning (RL) substantially improves planning performance in autonomous-driving Vision-Language-Action (VLA) models. However, existing RL methods rely on scalar trajectory rewards that measure overall quality but fail to identify specific planning errors or provide actionable correction signals. In long-tail scenarios, errors in scene understanding, behavior selection, and trajectory execution are compressed into a single score. We observe that Reflective Guidance turns trajectory evaluation into explicit diagnoses and corrective instructions, substantially improving planning accuracy. Yet such guidance requires an initial prediction and its evaluation results, making it unavailable for direct single-pass inference. We propose Reflect-VLA, which treats Reflective Guidance as training-time privileged information and internalizes its planning benefits through Dual-Path On-Policy Self-Distillation (Dual-OPSD). Unlike scalar-reward optimization, Dual-OPSD uses the driving score only to route student-generated trajectories. It distills dense token-level corrective distributions from the teacher for risky trajectories while applying self-imitation to preserve reliable ones. To provide reliable corrective distributions on student rollouts, the teacher is progressively constructed through Driving-Knowledge Pretraining, Planning-and-Refinement SFT, and Self-Refinement Rejection Sampling. At inference time, Reflect-VLA generates trajectories in a single pass without explicit guidance or iterative refinement. Experiments on NAVSIM v1/v2 and Bench2Drive demonstrate competitive planning performance while reducing training time by over 90% compared with RL.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.13439",
+    "title": "Collective Autonomous Vehicle Routing Needs Social Awareness for Coexistence with Human Drivers",
+    "authors": [
+      "Anastasia Psarou",
+      "Mikolaj Rams",
+      "Blazej Torbus",
+      "Rafal Kucharski"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.13439",
+    "abstract": "Collective Autonomous Vehicle (AV) route choices in real-world traffic networks can create externalities for Human-Driven Vehicles (HDVs), as routes that benefit AVs may increase travel times for other road users. To address this, we introduce a social component, the marginal cost, to the selfish travel time AV reward. Marginal cost captures an AV's impact on other road users by comparing their travel times with those in a counterfactual simulation in which the AV is removed. We study AV route choice in mixed-autonomy traffic settings using Multi-Agent Reinforcement Learning (MARL), where AVs learn routing policies through repeated interactions with the traffic environment. Experiments on the real-world networks of Ingolstadt and Provins show that incorporating marginal cost into the AV reward not only limits the increase in HDV travel times and shortens AV travel times relative to selfish AV routing, but also improves overall system performance. In Ingolstadt, selfish routing of 40\\% AVs increases the travel times of other vehicles by 1.7\\%, and this drops to 1.1\\% when the social reward is included. Interestingly, not only does overall system performance improve, but the AVs are also better off when acting socially.This effect is consistent across tested cities, penetration rates, and replications, yet when the weight of the social component in the reward increases, the system fails to reach the desired performance. For a more scalable approach to social AV routing in mixed-autonomy traffic, we compute the marginal cost only for the AVs whose route choices most affect the traffic system. This reduces the number of counterfactual simulations and achieves similar performance at a significantly lower computational cost. Our results suggest that AV routing should go beyond selfish rewards and, for the benefit of all traffic participants, include a social component in its objective.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.13409",
+    "title": "ManeuverFlow: Maneuver Hypothesis Generation with Future Evidence for Trajectory Evaluation and Refinement in End-to-End Autonomous Driving",
+    "authors": [
+      "Yuhao Wei",
+      "Yong Chen",
+      "Chen Yang",
+      "Yingchen Wang",
+      "Delin Ouyang",
+      "Lingfeng Qi",
+      "Qi Lan",
+      "Zhanhua Zhang",
+      "Jie Li",
+      "Guofa Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.13409",
+    "abstract": "End-to-end planning in complex scenes must model diverse driving intentions and select the most appropriate trajectory using scene context and future risks. However, multi-query regression may collapse to one mode, while anchor-based and generative planners share a scaling bottleneck: small candidate sets limit maneuver coverage or discovery of high-quality trajectories, whereas large sets increase generation and scoring costs. We propose ManeuverFlow to generate trajectories for distinct intentions in one step and evaluate and refine them using current and future evidence. The model selects relevant maneuver modes, draws corresponding noise from the Gaussian mixture prior, and maps it to intention-specific trajectories through a maneuver-routed mixture-of-experts MeanFlow field. Current features and future features predicted by the world model are aggregated along each candidate path into trajectory-specific evidence for PDM-factor prediction. Using the same evidence, the refiner predicts local Frenet residuals for selected candidates; refined and retained candidates are then jointly re-scored for selection. With a lightweight TransFuser-style ResNet-34 backbone, ManeuverFlow achieves 90.6 PDMS and 90.1 EPDMS on NAVSIM v1/v2 navtest, respectively. On WorldEngine's recent 3DGS closed-loop benchmark, it attains the highest listed PDMS$^\\ast$ scores of 75.19 and 74.58 under logged and IDM-controlled traffic, respectively. Code: https://github.com/wyh-autonomy/maneuverflow.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "17 pages, 9 figures; includes appendix",
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.13273",
+    "title": "Agent4Spec: An LLM-based Agentic System to Optimize API Specifications through Automated Validation and Market Analysis",
+    "authors": [
+      "Yongjian Tang",
+      "Costel Moraru",
+      "Doruk Tuncel",
+      "Hanya Elhashemy",
+      "Steffen Klepke",
+      "Thomas Runkler"
+    ],
+    "source": "arxiv",
+    "category": "cs.SE",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.13273",
+    "abstract": "API specifications serve as critical documentation for modern software development, directly impacting integration efficiency and client code generation. While recent advancements have leveraged Large Language Models (LLMs) to generate initial specifications from source code, existing approaches treat this process as a one-time event - overlooking the needs for continuous validation, long-term maintenance, and market-driven evolution of these artifacts. To address this issue, we present Agent4Spec, an autonomous multi-agent framework featuring two distinct pipelines: (1) a validation pipeline that detects and self-corrects OpenAPI syntax errors, and (2) a market analysis pipeline that conducts competitive research, identifies functional gaps against industry leaders, and automatically generates missing API-spec functionalities. We evaluate Agent4Spec on two curated datasets of API specifications spanning both general-purpose and industrial scenarios. Among 9 SOTA LLMs, the top-performer achieves 100% syntax error detection rates and over 95% implementation success for proposed corrections, while securing over 50% adoption rates for suggested endpoint improvements, representing a practical tool for API development.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted to FLLM main track",
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.13267",
+    "title": "Forgetting is Not Always Bad: A Neuro-Inspired Memory Repair Mechanism for Poisoned LLM Agents",
+    "authors": [
+      "Lei Liu",
+      "Yunji Liang",
+      "Xiaowen Zhang",
+      "Jingqi Liu",
+      "Qi Li",
+      "Bin Guo",
+      "Zhiwen Yu"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.13267",
+    "abstract": "Large language model (LLM) agents are highly vulnerable to memory-poisoning attacks. Existing defenses primarily rely on external modules for either static memory isolation or continuous online auditing, resulting in low memory efficiency and high computational overhead. To address these limitations, inspired by neuroscientific mechanisms that weak reactivation can destabilize memories and induce decay in the absence of reinforcement, we propose an agent-intrinsic training-free memory repair framework, DREAM (Dynamic Reactivation for Engram Attenuation in Memory), that enables selective functional forgetting of poisoned memories. Specifically, DREAM implements a three-stage pipeline: perturbation-induced implicit reactivation to reveal the structural fragility of malicious memories, adaptive anomaly diagnosis based on multi-dimensional activation patterns to detect topological anomalies, and a dynamic memory repair module that selectively suppresses harmful memories while reinforcing benign ones. Extensive experiments across diverse attackers and real-world tasks demonstrate that DREAM reduces attack success rates by over 95\\% against backdoor poisoning while preserving strong benign utility. DREAM also achieves competitive robustness against injection attacks. In terms of runtime and token consumption, DREAM achieves up to a 2.13$\\times$ speedup and a 37.7\\% reduction in token consumption compared with A-MemGuard. Furthermore, DREAM also achieves a task success rate of 92.96\\% on poisoned multi-agent systems.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.13195",
+    "title": "PATACON: GPU-Parallel Tangent-Bundle RRT-Connect for Constrained Motion Planning",
+    "authors": [
+      "Gahyun Oh",
+      "Junho An",
+      "Suhyun Jeon",
+      "Suhan Park"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.13195",
+    "abstract": "Fast whole-body motion planning enables continuous replanning for humanoid robots in dynamic environments while satisfying collision avoidance and kinematic constraints. However, constrained motion planning incurs substantial computational cost due to repeated constraint projection in addition to collision checking and nearest-neighbor search. Recently, GPU-based massively parallel planners have been proposed to reduce computational cost. Nevertheless, these planners still steer in the ambient configuration space, so projecting candidates that deviate from the manifold remains a significant source of overhead, particularly in highly constrained, high-dimensional problems. In this work, we introduce PATACON, a GPU-parallel bidirectional planner that explores tangent space to exploit the local manifold geometry induced by known constraint functions. Experiments on dual-arm closed-chain and humanoid whole-body constrained planning tasks show that PATACON outperforms the prior work as configuration-space dimension and constraint codimension grow, achieving up to an 11.25 times speedup. These results suggest that GPU-parallel tangent-space exploration brings constrained whole-body motion planning closer to real-time performance.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 6 figures, 2 tables",
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.13144",
+    "title": "Competence-Aware Orchestration for LLM-Based Multi-Agent Systems",
+    "authors": [
+      "Songmiao Wang",
+      "Yuchen Wang",
+      "Chenglin Yu",
+      "Hongxia Yang",
+      "Ming Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.13144",
+    "abstract": "LLM-based multi-agent systems (MAS) have emerged as a promising paradigm for enhancing complex reasoning through role specialization and collaboration, yet a key challenge remains: how can collaboration be adapted to a backbone's competence on the current query? This problem matters because more collaboration is not always better--richer coordination may help on difficult cases, but it also incurs additional token cost and redundant interactions. We propose a two-stage competence-aware framework for automatic MAS orchestration. It first models the LLM backbone's task-conditioned competence for the current query, and then uses this signal to adapt role activation and the communication graph. Across six benchmarks, our method achieves an average score of 93.81%. Experiments with six LLM backbones of varying competence levels further show that our method adjusts collaboration according to the inferred competence: for higher-competence backbones, it improves average accuracy from 87.22 to 89.97 while reducing token cost by 36.26%; for lower-competence backbones, it yields a further average gain of 4.58 points over existing methods. The same trend also holds on unseen backbones.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "16 pages, 4 figures",
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.12988",
+    "title": "SwingGuard: Risk-Conditioned Multi-Agent Swing Trading with Dual-Timescale Governance",
+    "authors": [
+      "Junzhou Su",
+      "Yichen Luo",
+      "Yebo Feng",
+      "Teng Li",
+      "Jiahua Xu"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.12988",
+    "abstract": "Cryptocurrency swing trading spans mismatched timescales: positions remain active while market and event risk can change within minutes. However, many predictive and large language model (LLM)-based trading systems assess risk after strategy generation or run both functions at the same cadence, leaving proposals unconditioned by current risk and exposure weakly governed between revisions. We propose SwingGuard, a dual-timescale, long-only multi-agent framework for risk-conditioned strategy generation. At the strategy timescale, specialized analysts synthesize point-in-time technical, sentiment, on-chain, and macroeconomic evidence through bullish-bearish deliberation. The resulting evidence and current risk context are then combined by a Portfolio Architect to form a target position. At the governance timescale, a five-minute Risk Controller performs conditional diagnosis, maintains persistent risk states with staged recovery, audits the proposal, and constrains execution until the next strategy revision. This design allows risk to shape the feasible strategy before proposal finalization while continuing to govern the active position afterward. Evaluations on Bitcoin (BTC) and Ether (ETH) show that SwingGuard preserves positive returns after transaction costs while maintaining shallow drawdowns and strong risk-adjusted performance on both assets. The exposure-capped joint portfolio achieves a Sharpe ratio of 2.98, compared with 2.79 for an otherwise identical Post-hoc Risk variant. Structured traces further link risk evidence and state transitions to strategy constraints and executed position changes, providing an auditable framework for asynchronous cryptocurrency swing trading. Overall, the results indicate that conditioning strategy formation on current risk, together with persistent high-frequency governance, improves risk-adjusted performance without sacrificing auditability.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "9 pages, 4 figures",
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.12927",
+    "title": "Collaborative Learning and Reasoning over Model Slices",
+    "authors": [
+      "Yuheng Wang",
+      "Runde Yang",
+      "Zhuohan Bao",
+      "Qiran Zhang",
+      "Huatao Li",
+      "Yiyang Zheng",
+      "Lin Wu",
+      "Jingru Fan",
+      "Shu Yao",
+      "Yihan Li",
+      "Zhi Li",
+      "Chen Qian"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.12927",
+    "abstract": "Large language models (LLMs) excel across diverse tasks, benefiting from knowledge priors, in-context reasoning, and test-time computation. Despite these strengths, single-model reasoning remains vulnerable to error propagation, as later steps depend on the model's earlier outputs, leaving reasoning blind spots difficult to independently reassess. To address this limitation, we develop \\textit{collaborative learning}, encompassing the construction of heterogeneous collaborators and the learning of effective cross-model collaboration. Specifically, \\textit{model slicing} replaces a large model with smaller, heterogeneous models under a comparable parameter budget, enabling prior reasoning to be reassessed across distinct model parameterizations. \\textit{Pyramid supervision} combines protocol distillation with step-level supervision to refine reasoning and interaction decisions throughout collaboration. We evaluate our approach across four task categories: multi-hop question answering, mathematical reasoning, code generation, and open-ended constrained generation. The trained heterogeneous models achieve comparable or better task performance than the original large model and established multi-agent baselines, including reinforcement-learning-based methods, while also achieving higher inference efficiency than the multi-agent baselines and exhibiting differentiated collaboration patterns across tasks. These findings show that learned collaboration turns model heterogeneity into complementary reasoning capabilities.",
+    "published_date": "2026-10-09",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-12T10:14:00Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2610.12453",
     "title": "Mental-Models for Multi-Agent Systems",
     "authors": [
