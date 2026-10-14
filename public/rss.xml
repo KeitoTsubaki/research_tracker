@@ -4,146 +4,97 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Tue, 13 Oct 2026 10:06:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 08:23:46 GMT</lastBuildDate>
     <item>
-      <title>Tracking the Invisible: Self-Supervised Wheel Track Detection with Thermal-RGB Fusion</title>
-      <link>https://arxiv.org/abs/2610.13872</link>
-      <guid isPermaLink="false">arxiv:2610.13872</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>Accurate detection of drivable area is essential for autonomous driving and advanced driver assistance systems. While state-of-the-art methods focus on general traversability estimation, they prove inadequate for snow-covered roads where following existing wheel tracks offers crucial advantages: improved traction, predictable vehicle dynamics, and verified path stability. To address this, we propose a low-cost, self-supervised approach detecting safety-critical wheel tracks using synchronized RG</description>
+      <title>AutoAgent0: An Agentic Runtime for Safe Closed-Loop Driving</title>
+      <link>https://arxiv.org/abs/2610.18866</link>
+      <guid isPermaLink="false">arxiv:2610.18866</guid>
+      <pubDate>2026-10-13</pubDate>
+      <description>Safe autonomous driving requires more than accurate planning at a single frame: it demands reliable closed-loop execution in dynamic environments. Although end-to-end driving policies have advanced rapidly, the accumulated closed-loop errors, especially in unseen scenarios, can push vehicles into states from which the same policy struggles to recover. We address the challenge by treating closed-loop driving safety as a test-time execution problem. We introduce AutoAgent0, an agentic runtime and </description>
     </item>
     <item>
-      <title>MARGoS: A Configuration-Driven Platform for Reproducible MARL Experiments in ARGoS</title>
-      <link>https://arxiv.org/abs/2610.13772</link>
-      <guid isPermaLink="false">arxiv:2610.13772</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>Multi-agent reinforcement learning (MARL) has become a prominent research direction, particularly within collective robotics, where the ARGoS simulator is widely used to study emergent swarm behavior. Yet despite this growth, systematic support for reuse and reproducibility in MARL-based swarm robotics remains limited and insufficiently standardized: a single experiment is assembled from manually aligned simulator files, training scripts, configuration values, paths, seeds, and environment detai</description>
+      <title>Optimizing Team Behavior via Extremum-seeking Control in Multi-agent Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2610.18808</link>
+      <guid isPermaLink="false">arxiv:2610.18808</guid>
+      <pubDate>2026-10-13</pubDate>
+      <description>In cooperative Multi-Agent Reinforcement Learning (MARL), agents must learn to coordinate their actions to achieve shared objectives. A key indicator of effective coordination is behavioral diversity, i.e., the agents' potential to enact distinct yet complementary control policies given the same set of observations. Although behavioral diversity can enable role specialization and richer joint behaviors, its appropriate level is highly context- and task-dependent and often costly to tune. We prop</description>
     </item>
     <item>
-      <title>SafeDiSTL: Decomposing Joint Constraints for Safe Multi-Agent Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2610.13737</link>
-      <guid isPermaLink="false">arxiv:2610.13737</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>Cooperative multi-agent tasks often impose constraints on a shared objective or collective safety. A team level violation cost function can measure this constraint outcome, but does not distinguish which agents' actions most strongly influence that violation. We present SafeDiSTL, a constrained multi-agent reinforcement learning framework that allows for credit assignment even with joint constraint measurements. We use Signal Temporal Logic (STL) robustness to measure episode-level violation thr</description>
+      <title>BLADE: Auditing Information Use for Failure Attribution in LLM Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2610.18780</link>
+      <guid isPermaLink="false">arxiv:2610.18780</guid>
+      <pubDate>2026-10-13</pubDate>
+      <description>Large language model multi-agent systems extend individual agents' capabilities through collaboration across specialized roles, tools, and workflows. Yet collaboration makes failures harder to diagnose: one agent may misinterpret a correct result while others carry the mistake forward. Failure attribution therefore seeks to identify the responsible agent and decisive error step. Recent methods trace dependencies, but knowing where information came from is not the same as knowing where it went wr</description>
     </item>
     <item>
-      <title>A Baseline Assessment for the Agentic Web Technology Stack</title>
-      <link>https://arxiv.org/abs/2610.13703</link>
-      <guid isPermaLink="false">arxiv:2610.13703</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>The fast pace in which protocols, frameworks, and technologies are being proposed for LLM-based agents results in a complex scenario for anyone aiming to create state-of-the-art AI solutions. Without an assessment on how different protocols, frameworks, and libraries work together to compose an Agentic Web solution, developers and organizations face different challenges (e.g., skilling, governance, infrastructure) even before becoming part of the Agentic Web ecosystem. In this context, we propos</description>
+      <title>RadarGSOcc: Doppler-Aware 3D Semantic Occupancy Prediction Using 4D Radar Tensor with Geometric-Semantic Feature Extraction</title>
+      <link>https://arxiv.org/abs/2610.18686</link>
+      <guid isPermaLink="false">arxiv:2610.18686</guid>
+      <pubDate>2026-10-13</pubDate>
+      <description>3D semantic occupancy prediction is crucial for autonomous driving, but camera-based methods degrade in low-light conditions and LiDAR-based methods are sensitive to adverse weather. 4D radar is more robust, yet its sparsity and the high cost of radar tensor processing limit its use. We propose Radar Geometric-Semantic Occupancy Prediction (RadarGSOcc), an efficient framework that directly processes 4D radar tensors by separately extracting geometric and semantic features, including Doppler info</description>
     </item>
     <item>
-      <title>A Multi-Agent LLM System for Automated Tuning of Specialized Neural Network Models</title>
-      <link>https://arxiv.org/abs/2610.13663</link>
-      <guid isPermaLink="false">arxiv:2610.13663</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>Many machine learning approaches are two-level: an expert selects a class of methods, within this class the choice of key components is critical and usually manual. This paper addresses the automatic tuning of these components and proposes a framework transferable across models of different nature. The multi-agent large language model (LLM) framework has three roles---analyst, coder, and recorder~---with an experiment log and a sandboxed execution environment. Unlike systems that optimize the en</description>
+      <title>On Symmetry for Characterizing Agent Heterogeneity in Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2610.18538</link>
+      <guid isPermaLink="false">arxiv:2610.18538</guid>
+      <pubDate>2026-10-13</pubDate>
+      <description>Understanding agent heterogeneity can inform the design of shared and agent-specific policy representations, however existing criteria provide no unified structural test. We study finite-horizon POSGs and define a type-compatible transformation as a policy-evaluation symmetry when complete policy evaluation commutes with it for every decentralized behavioral policy. Policy-evaluation symmetries form a group for which agent orbits define structural agent types. This classification does not depend</description>
     </item>
     <item>
-      <title>MENTOR: Learning from Failure with On-Policy Pedagogical Intervention</title>
-      <link>https://arxiv.org/abs/2610.13594</link>
-      <guid isPermaLink="false">arxiv:2610.13594</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>Reinforcement Learning from Verifiable Rewards (RLVR) is a key driver for Large Reasoning Models, but it is vulnerable to "zero-reward collapse", a training failure where a sudden increase in task difficulty causes the learning signal to vanish. We argue that the conventional approach of discarding these failed trajectories is wasteful, as they contain valuable diagnostic information about the model's cognitive gaps, a bright side that can be leveraged for recovery. Existing solutions, however, </description>
+      <title>CALM: Decentralized Control of Cooperative Aerial Manipulation with Multi-Agent Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2610.18425</link>
+      <guid isPermaLink="false">arxiv:2610.18425</guid>
+      <pubDate>2026-10-13</pubDate>
+      <description>Cooperative aerial manipulation is difficult under wind, payload motion, and noisy goal broadcasts because multiple Unmanned Aerial Vehicles (UAVs) are coupled through a shared payload. We present CALM (Cooperative Aerial Learned Manipulation), a decentralized controller for aerial manipulators carrying a basket while tracking a moving ground robot. CALM combines a parameter-shared Multi-Agent Reinforcement Learning (MARL) policy, trained using Multi-Agent Proximal Policy Optimization (MAPPO), w</description>
     </item>
     <item>
-      <title>Probabilistic Ship Trajectory Forecasting using Transformer Models on AIS Data</title>
-      <link>https://arxiv.org/abs/2610.13557</link>
-      <guid isPermaLink="false">arxiv:2610.13557</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>Anticipation of vessel trajectories is an essential task when navigating at sea. This applies to both human navigators and autonomous surface vessels. Trajectory forecasting enables sub-routines such as collision avoidance to assess the situation and react accordingly in time. This paper investigates Transformer and Performer models for trajectory prediction of surface vessels in confined waters. Using widely available position data from the Automatic Identification System (AIS), candidate model</description>
+      <title>DR-VLA: Learning Human-Like Quadruped Navigation from Egocentric Web Videos via Domain-Invariant Scene Representations</title>
+      <link>https://arxiv.org/abs/2610.18373</link>
+      <guid isPermaLink="false">arxiv:2610.18373</guid>
+      <pubDate>2026-10-13</pubDate>
+      <description>Quadruped robots performing outdoor deliveries must interpret complex scenes, anticipate changes, and navigate in socially compliant ways. Robot demonstrations are costly to collect at the scale needed for generalization. Egocentric web videos offer abundant human navigation experience, but differences in viewpoint and motion make this experience difficult to transfer to robots. We introduce DR-VLA, a Mixture-of-Transformers framework that transfers human navigation experience through a domain-i</description>
     </item>
     <item>
-      <title>MAGMA-Bench: Evaluating Long-Horizon Embodied Agents under Dynamic Tasks and Execution Failures</title>
-      <link>https://arxiv.org/abs/2610.13534</link>
-      <guid isPermaLink="false">arxiv:2610.13534</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>Long-horizon embodied agents must maintain task-relevant information, coordinate heterogeneous robots, and adapt their decisions as execution unfolds. Existing benchmarks investigate dynamic task execution and embodied multi-agent coordination, but provide limited evaluation of their intersection. We introduce MAGMA-Bench, an architecture-agnostic benchmark for persistent task reasoning in dynamic multi-robot environments. MAGMA-Bench evaluates agents across increasing task horizons and controll</description>
+      <title>Strategic Multi-Agent Resource Allocation via Statistical Contracts</title>
+      <link>https://arxiv.org/abs/2610.18336</link>
+      <guid isPermaLink="false">arxiv:2610.18336</guid>
+      <pubDate>2026-10-13</pubDate>
+      <description>We study a class of strategic hypothesis testing problems in which a principal aims to allocate resources among competing agents who possess data or data-generating mechanisms that may be relevant to the principal's goals. Each agent can pay a participation cost to opt into a statistical contract, in which case they generate data from a private distribution and receive an allocation based on a predetermined (and publicly known) mechanism. Each agent is either "null" or "non-null" and the princip</description>
     </item>
     <item>
-      <title>Humanize MLE Agents: Multi-Agent Session Alternation Beyond Single-Agent Limits</title>
-      <link>https://arxiv.org/abs/2610.13494</link>
-      <guid isPermaLink="false">arxiv:2610.13494</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>Existing LLM-based agent approaches for long-horizon machine learning engineering (MLE) often use context engineering, implemented through custom harnesses that manage tools, skills, and accumulated experience. However, we find that as single-session execution lengthens, the agent's reasoning intensity declines alongside slowing progress, summarized as long-horizon deceleration, and the benefits of these custom harnesses vanish as the underlying model improves, summarized as harness staleness. T</description>
+      <title>Beyond Answer Sharing: TrueMAD for Targeted Peer Engagement in Multi-Agent Debate</title>
+      <link>https://arxiv.org/abs/2610.18240</link>
+      <guid isPermaLink="false">arxiv:2610.18240</guid>
+      <pubDate>2026-10-13</pubDate>
+      <description>Multi-agent debate (MAD) aims to improve large language model reasoning by exposing agents to alternative solutions and enabling iterative revision. However, standard broadcast-style MAD makes peer answers visible without requiring agents to engage with a particular peer claim. As a result, reliable reasoning may be suppressed by conflicting or majority responses, limiting achievable performance, while erroneous reasoning may persist and degrade final predictions without actionable feedback. We </description>
     </item>
     <item>
-      <title>Reflect-VLA: Internalizing Reflective Guidance via Dual-Path On-Policy Self-Distillation for Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2610.13453</link>
-      <guid isPermaLink="false">arxiv:2610.13453</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>Reinforcement Learning (RL) substantially improves planning performance in autonomous-driving Vision-Language-Action (VLA) models. However, existing RL methods rely on scalar trajectory rewards that measure overall quality but fail to identify specific planning errors or provide actionable correction signals. In long-tail scenarios, errors in scene understanding, behavior selection, and trajectory execution are compressed into a single score. We observe that Reflective Guidance turns trajectory </description>
+      <title>Reinforcement Learning for Large-Scale Lifelong Multi-Agent Path Finding with Shared Spatial Fields</title>
+      <link>https://arxiv.org/abs/2610.18186</link>
+      <guid isPermaLink="false">arxiv:2610.18186</guid>
+      <pubDate>2026-10-13</pubDate>
+      <description>Large-scale applications of lifelong multi-agent path finding (LMAPF) call for computationally inexpensive movement decisions under changing traffic conditions and across varied layouts. We propose a navigation policy in which a convolutional network computes a shared spatial field over the map once per timestep and a compact goal-conditioned operator derives agents' movement preferences. The complete policy is trained end-to-end using average-reward reinforcement learning with throughput as the</description>
     </item>
     <item>
-      <title>Collective Autonomous Vehicle Routing Needs Social Awareness for Coexistence with Human Drivers</title>
-      <link>https://arxiv.org/abs/2610.13439</link>
-      <guid isPermaLink="false">arxiv:2610.13439</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>Collective Autonomous Vehicle (AV) route choices in real-world traffic networks can create externalities for Human-Driven Vehicles (HDVs), as routes that benefit AVs may increase travel times for other road users. To address this, we introduce a social component, the marginal cost, to the selfish travel time AV reward. Marginal cost captures an AV's impact on other road users by comparing their travel times with those in a counterfactual simulation in which the AV is removed. We study AV route c</description>
+      <title>Beyond Planning: Differentiable Control-in-the-loop End-to-End Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2610.18167</link>
+      <guid isPermaLink="false">arxiv:2610.18167</guid>
+      <pubDate>2026-10-13</pubDate>
+      <description>End-to-end autonomous driving has achieved remarkable progress by planning trajectories directly from raw sensor data. Yet the step from planning to control still relies on hand-tuned tracking controllers that block the gradient path from vehicle motion back to the network. This gap stems from non-differentiable vehicle dynamics, aliased supervision from coarsely sampled expert labels, rate mismatch between high-rate control and low-rate re-planning, and vehicle model discrepancies between train</description>
     </item>
     <item>
-      <title>ManeuverFlow: Maneuver Hypothesis Generation with Future Evidence for Trajectory Evaluation and Refinement in End-to-End Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2610.13409</link>
-      <guid isPermaLink="false">arxiv:2610.13409</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>End-to-end planning in complex scenes must model diverse driving intentions and select the most appropriate trajectory using scene context and future risks. However, multi-query regression may collapse to one mode, while anchor-based and generative planners share a scaling bottleneck: small candidate sets limit maneuver coverage or discovery of high-quality trajectories, whereas large sets increase generation and scoring costs. We propose ManeuverFlow to generate trajectories for distinct intent</description>
+      <title>LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction</title>
+      <link>https://arxiv.org/abs/2610.18093</link>
+      <guid isPermaLink="false">arxiv:2610.18093</guid>
+      <pubDate>2026-10-13</pubDate>
+      <description>Wheel-legged robots operating in outdoor spaces shared with humans require accurate perception, socially compliant navigation, future-scene reasoning, and scene reconstruction. However, existing datasets typically support these capabilities in isolation and rarely provide dense spatial and behavior-level supervision on real wheel-legged platforms. We introduce LynxScenes, a large-scale real-world dataset and benchmark collected with a LYNX M20 wheel-legged robot. It contains approximately 100K 3</description>
     </item>
     <item>
-      <title>Agent4Spec: An LLM-based Agentic System to Optimize API Specifications through Automated Validation and Market Analysis</title>
-      <link>https://arxiv.org/abs/2610.13273</link>
-      <guid isPermaLink="false">arxiv:2610.13273</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>API specifications serve as critical documentation for modern software development, directly impacting integration efficiency and client code generation. While recent advancements have leveraged Large Language Models (LLMs) to generate initial specifications from source code, existing approaches treat this process as a one-time event - overlooking the needs for continuous validation, long-term maintenance, and market-driven evolution of these artifacts. To address this issue, we present Agent4Sp</description>
-    </item>
-    <item>
-      <title>Forgetting is Not Always Bad: A Neuro-Inspired Memory Repair Mechanism for Poisoned LLM Agents</title>
-      <link>https://arxiv.org/abs/2610.13267</link>
-      <guid isPermaLink="false">arxiv:2610.13267</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>Large language model (LLM) agents are highly vulnerable to memory-poisoning attacks. Existing defenses primarily rely on external modules for either static memory isolation or continuous online auditing, resulting in low memory efficiency and high computational overhead. To address these limitations, inspired by neuroscientific mechanisms that weak reactivation can destabilize memories and induce decay in the absence of reinforcement, we propose an agent-intrinsic training-free memory repair fra</description>
-    </item>
-    <item>
-      <title>PATACON: GPU-Parallel Tangent-Bundle RRT-Connect for Constrained Motion Planning</title>
-      <link>https://arxiv.org/abs/2610.13195</link>
-      <guid isPermaLink="false">arxiv:2610.13195</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>Fast whole-body motion planning enables continuous replanning for humanoid robots in dynamic environments while satisfying collision avoidance and kinematic constraints. However, constrained motion planning incurs substantial computational cost due to repeated constraint projection in addition to collision checking and nearest-neighbor search. Recently, GPU-based massively parallel planners have been proposed to reduce computational cost. Nevertheless, these planners still steer in the ambient c</description>
-    </item>
-    <item>
-      <title>Competence-Aware Orchestration for LLM-Based Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2610.13144</link>
-      <guid isPermaLink="false">arxiv:2610.13144</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>LLM-based multi-agent systems (MAS) have emerged as a promising paradigm for enhancing complex reasoning through role specialization and collaboration, yet a key challenge remains: how can collaboration be adapted to a backbone's competence on the current query? This problem matters because more collaboration is not always better--richer coordination may help on difficult cases, but it also incurs additional token cost and redundant interactions. We propose a two-stage competence-aware framework</description>
-    </item>
-    <item>
-      <title>SwingGuard: Risk-Conditioned Multi-Agent Swing Trading with Dual-Timescale Governance</title>
-      <link>https://arxiv.org/abs/2610.12988</link>
-      <guid isPermaLink="false">arxiv:2610.12988</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>Cryptocurrency swing trading spans mismatched timescales: positions remain active while market and event risk can change within minutes. However, many predictive and large language model (LLM)-based trading systems assess risk after strategy generation or run both functions at the same cadence, leaving proposals unconditioned by current risk and exposure weakly governed between revisions. We propose SwingGuard, a dual-timescale, long-only multi-agent framework for risk-conditioned strategy gener</description>
-    </item>
-    <item>
-      <title>Collaborative Learning and Reasoning over Model Slices</title>
-      <link>https://arxiv.org/abs/2610.12927</link>
-      <guid isPermaLink="false">arxiv:2610.12927</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>Large language models (LLMs) excel across diverse tasks, benefiting from knowledge priors, in-context reasoning, and test-time computation. Despite these strengths, single-model reasoning remains vulnerable to error propagation, as later steps depend on the model's earlier outputs, leaving reasoning blind spots difficult to independently reassess. To address this limitation, we develop \textit{collaborative learning}, encompassing the construction of heterogeneous collaborators and the learning </description>
-    </item>
-    <item>
-      <title>Mental-Models for Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2610.12453</link>
-      <guid isPermaLink="false">arxiv:2610.12453</guid>
-      <pubDate>2026-10-08</pubDate>
-      <description>Large foundation models have accelerated progress toward general-purpose agents that interact with humans and other agents through language and multimodal signals. However, robust multi-agent decision-making requires reasoning about what other agents know, intend, and are likely to do under partial observability. Current agentic systems often operate through prompt design, memory, or end-to-end behavioral shaping, but typically do not learn an explicit partner-state representation that can be re</description>
-    </item>
-    <item>
-      <title>Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff</title>
-      <link>https://arxiv.org/abs/2610.12436</link>
-      <guid isPermaLink="false">arxiv:2610.12436</guid>
-      <pubDate>2026-10-08</pubDate>
-      <description>AI agents can now conduct real-world cyberattacks, scale up capabilities with the number of agents, and collectively pursue misaligned goals to obtain rewards. Together, these factors raise the risk of a population explosion of misaligned agents: agents could compromise computers and secretly deploy additional agents, creating a self-reinforcing cycle where larger populations develop greater collective cyber capability and expand further. This raises a fundamental question: What determines wheth</description>
+      <title>LatentRemedy: Efficient Remedy For Non-Prefix KV Cache Reuse in Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2610.18014</link>
+      <guid isPermaLink="false">arxiv:2610.18014</guid>
+      <pubDate>2026-10-13</pubDate>
+      <description>Non-prefix KV cache reuse is a promising approach for improving inference efficiency in multi-agent systems as agents share the same context blocks. However, when agents have conflicting tasks, directly reusing non-prefix KV caches across agents can severely degrade model performance, causing up to a 90% drop. Existing remedies, including selective recomputation and offset-based calibration, recover a limited fraction of this loss. We argue that the problem lies not only in contaminated KV repre</description>
     </item>
   </channel>
 </rss>
