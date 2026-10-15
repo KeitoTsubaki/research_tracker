@@ -4,97 +4,97 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Wed, 14 Oct 2026 08:23:46 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 07:59:30 GMT</lastBuildDate>
     <item>
-      <title>AutoAgent0: An Agentic Runtime for Safe Closed-Loop Driving</title>
-      <link>https://arxiv.org/abs/2610.18866</link>
-      <guid isPermaLink="false">arxiv:2610.18866</guid>
-      <pubDate>2026-10-13</pubDate>
-      <description>Safe autonomous driving requires more than accurate planning at a single frame: it demands reliable closed-loop execution in dynamic environments. Although end-to-end driving policies have advanced rapidly, the accumulated closed-loop errors, especially in unseen scenarios, can push vehicles into states from which the same policy struggles to recover. We address the challenge by treating closed-loop driving safety as a test-time execution problem. We introduce AutoAgent0, an agentic runtime and </description>
+      <title>SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2610.20609</link>
+      <guid isPermaLink="false">arxiv:2610.20609</guid>
+      <pubDate>2026-10-14</pubDate>
+      <description>Vision-Language-Action (VLA) models are gaining attention in autonomous driving, inheriting commonsense priors from large language models (LLMs) and widening the navigation interface from a fixed command set to free-form natural-language instructions. However, this open-ended interface exposes a new vulnerability surface: an inattentive driver may issue instructions that are unsafe given the current scene, and a malicious user may issue dangerous ones on purpose. We present the first benchmark s</description>
     </item>
     <item>
-      <title>Optimizing Team Behavior via Extremum-seeking Control in Multi-agent Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2610.18808</link>
-      <guid isPermaLink="false">arxiv:2610.18808</guid>
-      <pubDate>2026-10-13</pubDate>
-      <description>In cooperative Multi-Agent Reinforcement Learning (MARL), agents must learn to coordinate their actions to achieve shared objectives. A key indicator of effective coordination is behavioral diversity, i.e., the agents' potential to enact distinct yet complementary control policies given the same set of observations. Although behavioral diversity can enable role specialization and richer joint behaviors, its appropriate level is highly context- and task-dependent and often costly to tune. We prop</description>
+      <title>PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World Persuasion Scenarios</title>
+      <link>https://arxiv.org/abs/2610.20548</link>
+      <guid isPermaLink="false">arxiv:2610.20548</guid>
+      <pubDate>2026-10-14</pubDate>
+      <description>Understanding the social intelligence of large language models (LLMs) is increasingly important for applications involving human-AI interaction and multi-agent environments. Social intelligence comprises two aspects: cognitive intelligence, the ability to infer others' mental states, and behavioral intelligence, the ability to select appropriate social actions based on these inferences to achieve social goals. Persuasion provides a natural testbed in which both aspects are simultaneously at play</description>
     </item>
     <item>
-      <title>BLADE: Auditing Information Use for Failure Attribution in LLM Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2610.18780</link>
-      <guid isPermaLink="false">arxiv:2610.18780</guid>
-      <pubDate>2026-10-13</pubDate>
-      <description>Large language model multi-agent systems extend individual agents' capabilities through collaboration across specialized roles, tools, and workflows. Yet collaboration makes failures harder to diagnose: one agent may misinterpret a correct result while others carry the mistake forward. Failure attribution therefore seeks to identify the responsible agent and decisive error step. Recent methods trace dependencies, but knowing where information came from is not the same as knowing where it went wr</description>
+      <title>TANGO: RNA Topology and Geometry Co-Design</title>
+      <link>https://arxiv.org/abs/2610.20277</link>
+      <guid isPermaLink="false">arxiv:2610.20277</guid>
+      <pubDate>2026-10-14</pubDate>
+      <description>Designing RNA sequences that satisfy target tertiary-structure objectives is an important problem in RNA engineering, with broad applications in synthetic biology and therapeutics. Existing 3D RNA design methods have made substantial progress, but they largely treat the target fold as a geometry-only objective. This is incomplete for RNA, whose functional folds are specified not only by tertiary geometry but also by secondary base-pairing topology. We therefore formulate RNA inverse design as a </description>
     </item>
     <item>
-      <title>RadarGSOcc: Doppler-Aware 3D Semantic Occupancy Prediction Using 4D Radar Tensor with Geometric-Semantic Feature Extraction</title>
-      <link>https://arxiv.org/abs/2610.18686</link>
-      <guid isPermaLink="false">arxiv:2610.18686</guid>
-      <pubDate>2026-10-13</pubDate>
-      <description>3D semantic occupancy prediction is crucial for autonomous driving, but camera-based methods degrade in low-light conditions and LiDAR-based methods are sensitive to adverse weather. 4D radar is more robust, yet its sparsity and the high cost of radar tensor processing limit its use. We propose Radar Geometric-Semantic Occupancy Prediction (RadarGSOcc), an efficient framework that directly processes 4D radar tensors by separately extracting geometric and semantic features, including Doppler info</description>
+      <title>FPTAS for Polygonal Multi-Robot Motion Planning</title>
+      <link>https://arxiv.org/abs/2610.20244</link>
+      <guid isPermaLink="false">arxiv:2610.20244</guid>
+      <pubDate>2026-10-14</pubDate>
+      <description>We study multi-robot motion planning in a polygonal environment with polygonal robots. The setting of the problem consists of a polygonal domain $\mathcal{W}$ with $n$ vertices and $k$ robots $R_1,\dots,R_k$ translating in $\mathcal{W}$ each of which is represented by a polygon of constant complexity. Given a source configuration $\mathbf{s}$ and a target configuration $\mathbf{t}$ of the robots in $\mathcal{W}$, the goal of the problem is to find a collision-free motion plan from $\mathbf{s}$ t</description>
     </item>
     <item>
-      <title>On Symmetry for Characterizing Agent Heterogeneity in Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2610.18538</link>
-      <guid isPermaLink="false">arxiv:2610.18538</guid>
-      <pubDate>2026-10-13</pubDate>
-      <description>Understanding agent heterogeneity can inform the design of shared and agent-specific policy representations, however existing criteria provide no unified structural test. We study finite-horizon POSGs and define a type-compatible transformation as a policy-evaluation symmetry when complete policy evaluation commutes with it for every decentralized behavioral policy. Policy-evaluation symmetries form a group for which agent orbits define structural agent types. This classification does not depend</description>
+      <title>Investigating Behavior Cloning from Few Demonstrations for Autonomous Driving based on Bird's-Eye View in Simulated Cities</title>
+      <link>https://arxiv.org/abs/2610.20203</link>
+      <guid isPermaLink="false">arxiv:2610.20203</guid>
+      <pubDate>2026-10-14</pubDate>
+      <description>This paper investigates the use of Behavior Cloning (BC) for autonomous driving from a bird's-eye view (BEV) perspective in simulated urban environments. BC uses supervised learning to mimic expert driving behaviors. Previous works have applied BC in the CARLA simulator but did not fully address the challenges of traffic light compliance. Our approach enhances BC by integrating a kernel density estimator to adjust training sample weights based on action density, thereby improving the learning of</description>
     </item>
     <item>
-      <title>CALM: Decentralized Control of Cooperative Aerial Manipulation with Multi-Agent Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2610.18425</link>
-      <guid isPermaLink="false">arxiv:2610.18425</guid>
-      <pubDate>2026-10-13</pubDate>
-      <description>Cooperative aerial manipulation is difficult under wind, payload motion, and noisy goal broadcasts because multiple Unmanned Aerial Vehicles (UAVs) are coupled through a shared payload. We present CALM (Cooperative Aerial Learned Manipulation), a decentralized controller for aerial manipulators carrying a basket while tracking a moving ground robot. CALM combines a parameter-shared Multi-Agent Reinforcement Learning (MARL) policy, trained using Multi-Agent Proximal Policy Optimization (MAPPO), w</description>
+      <title>Drivers of LLM Consensus Formation Under Competing Incentives: A Simulation Study</title>
+      <link>https://arxiv.org/abs/2610.20200</link>
+      <guid isPermaLink="false">arxiv:2610.20200</guid>
+      <pubDate>2026-10-14</pubDate>
+      <description>Large Language Models (LLMs) are increasingly deployed in multi-agent environments that produce unanimous agreement, both in intended interactions that need coordination and in unintended emergent interactions. Consequently, understanding how LLMs with competing incentives reach consensus is crucial to better interpret and design LLM collectives. We introduce an evaluation, based on the Network Consensus game, to assess the mechanisms driving this process. Here, a network of agents must agree on</description>
     </item>
     <item>
-      <title>DR-VLA: Learning Human-Like Quadruped Navigation from Egocentric Web Videos via Domain-Invariant Scene Representations</title>
-      <link>https://arxiv.org/abs/2610.18373</link>
-      <guid isPermaLink="false">arxiv:2610.18373</guid>
-      <pubDate>2026-10-13</pubDate>
-      <description>Quadruped robots performing outdoor deliveries must interpret complex scenes, anticipate changes, and navigate in socially compliant ways. Robot demonstrations are costly to collect at the scale needed for generalization. Egocentric web videos offer abundant human navigation experience, but differences in viewpoint and motion make this experience difficult to transfer to robots. We introduce DR-VLA, a Mixture-of-Transformers framework that transfers human navigation experience through a domain-i</description>
+      <title>Structural Dependence, Imitation or Herding? A Multi-Agent Simulation of Global Intermedia Agenda Setting</title>
+      <link>https://arxiv.org/abs/2610.20144</link>
+      <guid isPermaLink="false">arxiv:2610.20144</guid>
+      <pubDate>2026-10-14</pubDate>
+      <description>News outlets in poorer countries cover the world much as the leading outlets of rich countries do. Two explanations compete. One says they depend on Western news agencies for lack of resources. The other says they choose to copy prestigious outlets or whoever moves first. Observation cannot tell these apart. This study measured how closely 18 national outlets in Bangladesh, Kenya, South Africa, India, Malaysia and Nigeria followed four core outlets in how much attention they gave, which angle th</description>
     </item>
     <item>
-      <title>Strategic Multi-Agent Resource Allocation via Statistical Contracts</title>
-      <link>https://arxiv.org/abs/2610.18336</link>
-      <guid isPermaLink="false">arxiv:2610.18336</guid>
-      <pubDate>2026-10-13</pubDate>
-      <description>We study a class of strategic hypothesis testing problems in which a principal aims to allocate resources among competing agents who possess data or data-generating mechanisms that may be relevant to the principal's goals. Each agent can pay a participation cost to opt into a statistical contract, in which case they generate data from a private distribution and receive an allocation based on a predetermined (and publicly known) mechanism. Each agent is either "null" or "non-null" and the princip</description>
+      <title>HM3D-M3: A Benchmark for Multi-Agent, Multi-Modal, Multi-Object Goal Navigation</title>
+      <link>https://arxiv.org/abs/2610.20121</link>
+      <guid isPermaLink="false">arxiv:2610.20121</guid>
+      <pubDate>2026-10-14</pubDate>
+      <description>Rapid progress in AI agents and robotics makes it a matter of the near future that humans are served by a team of robots. Such a team will receive several goals at once, each specified in whatever form is convenient for the human, such as a category name, a photo, or a spoken description. Existing benchmarks study multi-agent, multi-modal, and multi-object goal navigation in isolation, and a benchmark that places all three in one episode is missing. To fill this gap, we introduce HM3D-M3. A team</description>
     </item>
     <item>
-      <title>Beyond Answer Sharing: TrueMAD for Targeted Peer Engagement in Multi-Agent Debate</title>
-      <link>https://arxiv.org/abs/2610.18240</link>
-      <guid isPermaLink="false">arxiv:2610.18240</guid>
-      <pubDate>2026-10-13</pubDate>
-      <description>Multi-agent debate (MAD) aims to improve large language model reasoning by exposing agents to alternative solutions and enabling iterative revision. However, standard broadcast-style MAD makes peer answers visible without requiring agents to engage with a particular peer claim. As a result, reliable reasoning may be suppressed by conflicting or majority responses, limiting achievable performance, while erroneous reasoning may persist and degrade final predictions without actionable feedback. We </description>
+      <title>A Strong Harness Narrows the Model Gap: A Comparative Evaluation for Legislative Document-to-XML Conversion</title>
+      <link>https://arxiv.org/abs/2610.19999</link>
+      <guid isPermaLink="false">arxiv:2610.19999</guid>
+      <pubDate>2026-10-14</pubDate>
+      <description>Legal-content reproduction requires matching the source exactly in section hierarchy, verbatim text, citations, and amendment spans; a dropped citation or mislabeled amendment carries into the products lawyers rely on. We report an industrial pipeline converting U.S. state legislation into strict, schema-constrained XML, and hypothesize that its accuracy comes from harness engineering, the deterministic tooling built around a model, more than the model itself. Our controlled ablation crosses thr</description>
     </item>
     <item>
-      <title>Reinforcement Learning for Large-Scale Lifelong Multi-Agent Path Finding with Shared Spatial Fields</title>
-      <link>https://arxiv.org/abs/2610.18186</link>
-      <guid isPermaLink="false">arxiv:2610.18186</guid>
-      <pubDate>2026-10-13</pubDate>
-      <description>Large-scale applications of lifelong multi-agent path finding (LMAPF) call for computationally inexpensive movement decisions under changing traffic conditions and across varied layouts. We propose a navigation policy in which a convolutional network computes a shared spatial field over the map once per timestep and a compact goal-conditioned operator derives agents' movement preferences. The complete policy is trained end-to-end using average-reward reinforcement learning with throughput as the</description>
+      <title>Euler: Towards Human-Centered Multi-Agent Mathematical Discovery</title>
+      <link>https://arxiv.org/abs/2610.19864</link>
+      <guid isPermaLink="false">arxiv:2610.19864</guid>
+      <pubDate>2026-10-14</pubDate>
+      <description>Mathematical research drives scientific discovery, and recent advances in AI for mathematics have shown that language-model agents can solve challenging problems and develop substantial mathematical proofs. Yet much of today's AI-for-mathematics work centers on obtaining a final answer. This emphasis leaves the exploration behind a result difficult for researchers to understand, while long-running investigations face fragmented context and the risk of unsupported claims propagating across reason</description>
     </item>
     <item>
-      <title>Beyond Planning: Differentiable Control-in-the-loop End-to-End Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2610.18167</link>
-      <guid isPermaLink="false">arxiv:2610.18167</guid>
-      <pubDate>2026-10-13</pubDate>
-      <description>End-to-end autonomous driving has achieved remarkable progress by planning trajectories directly from raw sensor data. Yet the step from planning to control still relies on hand-tuned tracking controllers that block the gradient path from vehicle motion back to the network. This gap stems from non-differentiable vehicle dynamics, aliased supervision from coarsely sampled expert labels, rate mismatch between high-rate control and low-rate re-planning, and vehicle model discrepancies between train</description>
+      <title>When Extremists Enter LLM Societies: Investigating Extreme Behavior in Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2610.19863</link>
+      <guid isPermaLink="false">arxiv:2610.19863</guid>
+      <pubDate>2026-10-14</pubDate>
+      <description>Large language model (LLM) agents increasingly serve as computational actors in multi-agent social simulations. While existing work emphasizes representative personas and average-case behavior, social science shows that persistent tail actors can disproportionately shape collective dynamics. We study this regularity in controlled LLM-based multi-agent systems (LLM-MAS). In these systems, such actors cannot be reduced to fixed scalar states: prompts, natural-language histories, and backbone gener</description>
     </item>
     <item>
-      <title>LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction</title>
-      <link>https://arxiv.org/abs/2610.18093</link>
-      <guid isPermaLink="false">arxiv:2610.18093</guid>
-      <pubDate>2026-10-13</pubDate>
-      <description>Wheel-legged robots operating in outdoor spaces shared with humans require accurate perception, socially compliant navigation, future-scene reasoning, and scene reconstruction. However, existing datasets typically support these capabilities in isolation and rarely provide dense spatial and behavior-level supervision on real wheel-legged platforms. We introduce LynxScenes, a large-scale real-world dataset and benchmark collected with a LYNX M20 wheel-legged robot. It contains approximately 100K 3</description>
+      <title>PRISMATIC : Prescription Risk Inspection System for Multi-Agent Treatment Interaction in Clinical Decision-Making</title>
+      <link>https://arxiv.org/abs/2610.19762</link>
+      <guid isPermaLink="false">arxiv:2610.19762</guid>
+      <pubDate>2026-10-14</pubDate>
+      <description>Medical prescribing errors for multimorbid patients, who require complex drug regimens, are a major patient safety concern. These errors often stem from fragmented decision-making across medical specialties, a critical coordination failure that leads to adverse drug events and rehospitalizations. To address this coordination challenge, we introduce PRISMATIC, a multi-agent architecture where specialized agents, each representing a workflow role, collaboratively generate and refine treatment plan</description>
     </item>
     <item>
-      <title>LatentRemedy: Efficient Remedy For Non-Prefix KV Cache Reuse in Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2610.18014</link>
-      <guid isPermaLink="false">arxiv:2610.18014</guid>
-      <pubDate>2026-10-13</pubDate>
-      <description>Non-prefix KV cache reuse is a promising approach for improving inference efficiency in multi-agent systems as agents share the same context blocks. However, when agents have conflicting tasks, directly reusing non-prefix KV caches across agents can severely degrade model performance, causing up to a 90% drop. Existing remedies, including selective recomputation and offset-based calibration, recover a limited fraction of this loss. We argue that the problem lies not only in contaminated KV repre</description>
+      <title>Uncertainty-Driven Self-Play for Robust Multi-Agent Driving Policies</title>
+      <link>https://arxiv.org/abs/2610.19714</link>
+      <guid isPermaLink="false">arxiv:2610.19714</guid>
+      <pubDate>2026-10-14</pubDate>
+      <description>Learning robust driving policies that generalize beyond their training domain remains a central challenge in motion planning. We propose an uncertainty-driven self-play scheme, in which half of the agents are rewarded for increasing their neighbors' epistemic uncertainty, while the other half learn to drive safely as the exploring agents continuously seek out their weaknesses. Epistemic uncertainty indicates where the policy is least confident and serves as an automatic proxy for scenario diffic</description>
     </item>
   </channel>
 </rss>
