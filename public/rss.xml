@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Fri, 16 Oct 2026 07:53:49 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 07:31:36 GMT</lastBuildDate>
     <item>
       <title>3DCodeVerse: Exploring 3D Worlds as Code</title>
       <link>https://arxiv.org/abs/2610.22341</link>
@@ -144,27 +144,6 @@
       <guid isPermaLink="false">arxiv:2610.21656</guid>
       <pubDate>2026-10-15</pubDate>
       <description>Data agents use code to process heterogeneous files and derive analytical insights. Scaling their training faces costly environment curation, privacy and intellectual-property restrictions, and difficulty verifying open-ended findings without known generative truth. Our core insight is to specify the world behind the files before generating the files themselves. We introduce Data World, a multi-agent engine that synthesizes environments, tasks, and rubrics from explicit mechanisms. Independent a</description>
-    </item>
-    <item>
-      <title>Agent Status Protocol (ASP): A Lightweight Specification for State Reporting in Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2610.21538</link>
-      <guid isPermaLink="false">arxiv:2610.21538</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>The Agent Status Protocol (ASP) defines a lightweight way for heterogeneous AI agents to report their operational state to a status server, and for observers such as dashboards to receive that state as soon as it changes. Agents push small JSON events over HTTP POST; the server exposes the aggregated state to observers over Server-Sent Events (SSE). Because an agent that has crashed, hung or been compromised cannot be trusted to report its own failure, ASP does not rely on self-reports alone: th</description>
-    </item>
-    <item>
-      <title>Location-Based Safety Management with Wearable Seamless Indoor-Outdoor Positioning</title>
-      <link>https://arxiv.org/abs/2610.21503</link>
-      <guid isPermaLink="false">arxiv:2610.21503</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>Reliable worker localization is essential for real-time industrial safety management, but seamless outdoor-indoor positioning remains challenging. GNSS performs well outdoors yet degrades near buildings and fails indoors, while many indoor systems require costly infrastructure or extensive calibration. This paper presents a practical safety-oriented positioning system that uses resource-constrained wearable tags and a device-cloud split architecture for continuous outdoor-indoor worker tracking.</description>
-    </item>
-    <item>
-      <title>Jev-LiteMAS: Separating Decisions from Generation in Multi-Agent Workflows</title>
-      <link>https://arxiv.org/abs/2610.21411</link>
-      <guid isPermaLink="false">arxiv:2610.21411</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>Multi-agent LLM systems rely on generative models for expert execution, workflow planning, and artifact review. Yet many coordination operations require only bounded decisions, such as selecting the next expert or judging artifact quality. Profiling three representative MAS frameworks, we find that routing and review account for 31.7-43.5% of generative-LLM tokens. However, replacing these operations with low-cost decision models introduces two interface gaps: generative planners produce executi</description>
     </item>
   </channel>
 </rss>
