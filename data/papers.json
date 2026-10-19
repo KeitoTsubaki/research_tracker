@@ -1,5 +1,600 @@
 [
   {
+    "id": "arxiv:2610.23826",
+    "title": "Self-Building Labs",
+    "authors": [
+      "Jiaru Bai",
+      "Yuchi Zhao",
+      "Han Hao",
+      "Miroslav Bogdanovic",
+      "Yang Cao",
+      "Varinia Bernales",
+      "Alán Aspuru-Guzik"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.23826",
+    "abstract": "Self-driving laboratories (SDLs) accelerate scientific discovery by automating experimental execution and optimization. AI agents can increasingly propose new experiments, but existing SDLs can only run the procedures they were built for. Adapting them to a new experiment still takes extensive manual engineering, which makes laboratory flexibility the bottleneck for scaling discovery. We introduce the self-building laboratory (SBL), which designs, configures, and operates its own laboratory setup given a high-level scientific goal. SBL starts from whatever already exists, from an empty room to a working SDL, and builds the missing capabilities: the lab layout, its digital twin, robot skills, and experimental workflows. We demonstrate the system working across different robots and setups, scaling from a single workstation to laboratories with several robots working together. We validate SBL's end-to-end capabilities through a real-world quantum-dot synthesis experiment. By shifting the role of human researchers from manually configuring and programming device automation to specifying scientific objectives, SBL makes scientific automation more accessible, flexible, and scalable. Project website: https://self-building-labs.github.io/",
+    "published_date": "2026-10-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.23820",
+    "title": "CocoRNA: Collective RNA Design with Cooperative Multi-agent Reinforcement Learning",
+    "authors": [
+      "Tianmeng Hu",
+      "Biao Luo",
+      "Ke Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.23820",
+    "abstract": "Designing RNA sequences that reliably fold into specific secondary structures is essential for understanding their biological functions but remains a challenging computational problem. We propose CocoRNA, a cooperative multi-agent reinforcement learning framework for RNA inverse design. CocoRNA simplifies the design task by decomposing it into smaller sub-problems, each solved collaboratively by multiple agents. This approach reduces the complexity of the problem and improves the exploration of design policies. During training, a centralized critic uses global structural information to guide the agents, enabling them to jointly optimize their design strategies. As a result, CocoRNA learns high-quality RNA design policies that generalize effectively to unseen structures without additional training. Experiments on the Rfam dataset demonstrate that CocoRNA substantially outperforms state-of-the-art methods in both success rate and design speed. Further experiments on other biological sequence design tasks highlight the effectiveness and broad potential of CocoRNA for complex design tasks.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "ICML 2026",
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.23673",
+    "title": "On the possibilities and limitations of LLM-based multi-agent systems for multi-criteria decision-making in healthcare operations management",
+    "authors": [
+      "Marco Boresta",
+      "Tommaso Giovannelli",
+      "Sepehr Namirad",
+      "Giulia Riccardi"
+    ],
+    "source": "arxiv",
+    "category": "math.OC",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.23673",
+    "abstract": "Multi-criteria models for healthcare operations need weights that express how stakeholders trade off patient waiting time, provider workload, and operating cost, but these weights are difficult to quantify. Teams of large language model (LLM) agents, each prompted to represent a stakeholder, have been used to supply them. We propose a framework for assessing the reliability of LLM-generated preferences as inputs to multi-objective optimization and quantifying how their uncertainty affects decisions. We study explicit preferences by asking agents to rate the importance of the criteria in an outpatient appointment scheduling problem, and implicit preferences by inferring trade-offs from the agents' pairwise choices between emergency department configurations. The computational experiments show that the explicit preferences respond to the clinic's operating conditions and differ across roles, but deliberation among the agents can erase these differences, whereas simple averaging preserves them. The pairwise choices used to reveal the agents' implicit preferences depend largely on which option is presented first, and we find limited evidence that a statistical model using contextual information alongside presentation order predicts the agents' choices on new comparison pairs better than a model using presentation order alone. We then formulate robust weighted-sum optimization models to account for preference uncertainty. In most cases, these models select different schedules or configurations from those obtained using average preference weights. These results indicate that LLM-generated preferences need an audit of this kind before they are used as optimization weights in healthcare decision support.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.23465",
+    "title": "S-GAP: Stealthy Graph Attack Primitives for Graph Large Language Models",
+    "authors": [
+      "Wenda Li",
+      "Tongya Zheng",
+      "Shunyu Liu",
+      "Hanyang Yuan",
+      "Kaixuan Chen",
+      "Yu Wang",
+      "Yuchen Ying",
+      "Haoze Jiang",
+      "Huan Li",
+      "Gang Chen",
+      "Zujie Ren"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.23465",
+    "abstract": "Graph Large Language Models (GraphLLMs) enable powerful semantic understanding and reasoning over Text-Attributed Graphs (TAGs), while their semantic reasoning may exhibit vulnerabilities to perturbations in node text and graph structure under adversarial attack evaluation. Existing attacks typically construct textual and structural perturbations in separate stages guided by distinct realization intents. However, this separation results in attack-intent fragmentation, causing semantic incoherence between the two perturbation types, thereby undermining attack stealth and making them easier for GraphLLMs to identify and disregard, ultimately weakening attack effectiveness. To avoid attack-intent fragmentation, we propose the Graph Attack Primitive (GAP), an atomic semantic representation that unifies textual and structural perturbations under a coherent attack intent. By carefully calibrating the semantic composition of a GAP, we can achieve strong attack effectiveness while maintaining sufficient attack stealth. Furthermore, we introduce S-GAP (Stealthy GAP), a multi-agent framework that iteratively refines the semantic content of the GAP. The framework unifies GAP planning and realization and continuously refines this process through surrogate evaluation and textual feedback. Extensive experiments across four datasets, three GraphLLMs, and two attack settings show that S-GAP improves ASR over the strongest baselines by 7.02% on average while producing more relationally plausible perturbations, exposing critical vulnerabilities in current GraphLLMs and motivating more robust defenses.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 4 figures, 3 tables",
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.23284",
+    "title": "Annotrace: A Workbench for Step-Level Annotation of Agent Traces",
+    "authors": [
+      "Arun Josephraj Arokiaraj",
+      "Chenyi Huang",
+      "Sahan Bulathwela",
+      "Zekun Wu",
+      "Bin Wu"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.23284",
+    "abstract": "Every study of why LLM agents fail begins by labelling traces by hand, and every such study builds its own throwaway tool. Observability platforms record agent traces but offer no structured labelling; annotation tools label text but have no notion of a step, a delegation or a tool call, leaving it unclear what the smallest unit of execution to label should be. Annotrace reads six trace formats, including OpenTelemetry GenAI, LangSmith and Langfuse, and turns each run into an ordered, nested list of steps. The annotator writes their own labelling codebook; a frontier model proposes a starting set from a sample of their own traces, answers first, and is asked exactly the questions the human is asked, making annotation a joint human-AI process. Annotrace measures agreement between any two annotators, human or AI. On a multi-agent question-answering corpus it reproduces a previous manual effort's 235 annotation units exactly, and two models labelling the same traces agree 91% of the time at $κ= 0.82$.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "4 pages, 4 figures, 1 table. Under review at the AAAI 2027 Demonstration Program",
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.23262",
+    "title": "Expand-and-Prune: Test-Time Candidate-Space Adaptation for End-to-End Autonomous Driving",
+    "authors": [
+      "Fabian Schmidt",
+      "Karol Fedurko",
+      "Markus Enzweiler",
+      "Abhinav Valada"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.23262",
+    "abstract": "Candidate-based end-to-end driving planners reason over a finite set of trajectory hypotheses. However, for sparse planners, a limited candidate set may provide insufficient support for scene-relevant maneuvers, while fixed downstream candidate budgets do not account for prediction uncertainty. To address these challenges, we introduce Expand-and-Prune, a test-time framework that jointly adapts candidate support and capacity without updating learned parameters. The framework expands the native candidate set using semantic driving intent and temporally propagated predictions and then uses uncertainty in intermediate trajectory scores to adaptively prune the resulting candidates. Across four heterogeneous candidate-based planners and four benchmarks, Expand-and-Prune consistently improves planning performance. It achieves state-of-the-art results on LangAuto, increasing the Driving Score from 68.2 to 75.9, while providing further improvement on Bench2Drive, Fail2Drive, and NAVSIMv2, with particularly strong improvements in out-of-distribution scenarios. Moreover, in its full instantiation, 72.5% of selected trajectories originate from the newly introduced intent-guided or temporal candidates, confirming that candidate-space expansion provides useful hypotheses beyond those generated natively by the planner. The code is available at https://github.com/iis-esslingen/Expand-and-Prune.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted to IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2027",
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.23256",
+    "title": "Beyond Reward Scoring: Online Multi-Agent Preference Learning for Multimodal Response Generation",
+    "authors": [
+      "Ziyun Zou",
+      "Jiwoo Hong",
+      "Yifan Lu",
+      "Shao Tang",
+      "Weiyi Wu",
+      "Aman Gupta",
+      "Jin Tian",
+      "Imran Razzak"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.23256",
+    "abstract": "Multimodal preference alignment often follows a score-based RLHF pipeline: a reward model is first trained to learn human preferences, then used to score on-policy responses and optimize the response model's generation. This turns preference supervision into a scalar signal for generation: a model may learn to produce answers with higher preference scores, but is rarely trained explicitly to learn the reasons underlying human preferences. We therefore ask whether making preference understanding an internal capability of the response model can improve its generation. To investigate this question, we propose \\textbf{PrefMind}, an online dual-agent reinforcement learning framework with two trainable agents: a response Generator and a preference Critic. Given a pair of candidate responses, the agents analyze and discuss which response better aligns with human preference. Human labels supervise their judgments and corrections. For pairs on which both the Generator and revised Critic correctly identify the human-preferred response, the Generator produces an improved answer, and the Critic compares it against the original preferred response to provide a generation reward. Both agents are jointly updated from interactions sampled with their current policies. Through this process, \\textbf{PrefMind} trains the Generator to understand human preferences via explicit judgment and correction, and to translate this understanding into better responses. Experiments across three model scales show improvements in both standalone preference judgment and downstream response generation.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "32 pages, 4 figures",
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.23246",
+    "title": "Think More or Read More? A Token-Budget Theory of Reasoning with Shared Context",
+    "authors": [
+      "Manh Nguyen",
+      "Sunil Gupta",
+      "Hung Le"
+    ],
+    "source": "arxiv",
+    "category": "cs.CL",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.23246",
+    "abstract": "Reasoning systems increasingly improve answers by incorporating additional context into the model's input, from multi-agent debate, where agents read their peers' responses, to self-refinement, where a model revisits its own drafts. In these systems, communication consumes context as one agent's output becomes another's input. We study the regime where token reading and generation draw on one fixed token window, so every token spent reading is a token that cannot be spent reasoning. We develop a \\textbf{token-budget theory} that formalizes this trade-off, modeling accuracy as a function of the reasoning budget remaining after reading and aggregating votes with a Condorcet jury model that permits correlated errors. For multi-agent debate, the theory gives a closed-form prediction for the optimal number of agents. This quantity is estimated from single-agent measurements, allowing the optimal group size to be determined without running debate, and the same accounting extends to a heterogeneous set of different models. We empirically verify our theory and show that, at the predicted group size, our method outperforms strong baselines under the tightest calibration spend, where debate-calibrated rules can afford only one or two questions. Self-refinement obeys the same accounting, with its own draft in place of a peer message. The theory further predicts that communication pays only when the gain in the accuracy ceiling exceeds the reasoning room spent on reading, with this condition tightening as the window shrinks. Across five open models and four reasoning tasks, self-consistency matches or beats deployed debate at $93$\\% of $980$ matched window-and-group-size settings, with the gap being largest under tight windows and nearly disappearing at a loose one, consistent with the theory. Under a shared window, how much room a model has left to \\textit{think matters more than what it reads}.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.23213",
+    "title": "Not All Test-Time Compute Is Evidence: Model-Specific Bias in LLM Reasoning",
+    "authors": [
+      "Ming Shen",
+      "Tianjun Yao"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.23213",
+    "abstract": "Test-time scaling methods implicitly assume that additional computation from the same model provides independent evidence. We show that this assumption fails within a single reasoning model: errors are correlated across repeated samples, across reasoning depth, and in the model's own self-evaluation, so more compute from the same model is not more evidence. We introduce DIA (Disagreement-triggered Independent Arbitration), which treats disagreement between an intermediate-stage and the final-stage prediction as a per-question signal of reasoning instability and resolves it by asking a small panel of heterogeneous models to solve the question independently, without seeing either candidate, and aggregating their answers directly. Across seven benchmarks and two base models, DIA outperforms full chain-of-thought in 12 of 14 settings, including a 7.00% gain on MuSiQue, while activating on only $\\sim 17\\%$ of examples and using up to 47.2% fewer tokens than a multi-agent baseline. Ablations show that both independent solving and solver heterogeneity are necessary for these gains.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.23194",
+    "title": "OfficeTown: Generative Organizations for Evolving Agent Intelligence",
+    "authors": [
+      "Hongchen Wei",
+      "Daohong Ying",
+      "Zhi Hong",
+      "Aidan Wu",
+      "Bei Liu",
+      "Ruichun Ma",
+      "Yifan Yang",
+      "Qi Dai",
+      "Kai Qiu",
+      "Rui Xu",
+      "Dongdong Chen",
+      "Zhenzhong Chen",
+      "Chong Luo"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.23194",
+    "abstract": "AI agents increasingly use files and software tools to produce professional deliverables. Such work draws on materials, decisions, and feedback accumulated across assignments. We introduce OfficeTown, a generative simulation framework for professional organizations in which tasks and their context arise from continuing organizational work. From a natural-language description of an organization's purpose and activities, OfficeTown initializes an organization whose members coordinate work, delegate bounded assignments to assistant agents, and review their deliverables. Artifacts, decisions, and unresolved matters persist and shape subsequent work, while responsibilities and permissions determine what each member can see and do. We curate work requests, their context, and review feedback into executable resources for evaluation and learning. We construct OfficeTown Bench with 406 tasks and 4,836 evaluation criteria from 23 simulated organizations across eight professional domains, incorporating domain-expert feedback. Frontier-model evaluations reveal substantial remaining headroom. Supervised fine-tuning and on-policy distillation on OfficeTown data substantially improve Qwen3.5-9B on external professional-work benchmarks, including GDPval. Supplementary evaluations show that the principal--assistant harness achieves higher scores than the single- and multi-agent baselines tested. These results highlight the value of organizational simulation in generating work-grounded data and environments for the continued development of generalist agents.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.23153",
+    "title": "QuAD: Quantitative Assessment via Distribution-Alignment for Qualitative Data Quality Enabled by a Content-Aware Multi-Agent System",
+    "authors": [
+      "Wenshuo Zhang",
+      "Leixian Shen",
+      "Qiqi Zhou",
+      "Shuchang Xu",
+      "Feiyang Hao",
+      "Huamin Qu",
+      "Haobo Li",
+      "Zhao Chen",
+      "Lin-Ping Yuan"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.23153",
+    "abstract": "Assessing whether qualitative responses collected from semi-structured questions are ready for a particular analysis goal is a persistent challenge. Manual qualitative analysis is interpretive and labor-intensive, while existing automated methods often lack a dataset-level perspective for deciding whether a response set supports a researcher-selected analytical lens. We introduce QuAD, a framework for quantitative pre-analysis assessment of qualitative response datasets. QuAD compares a reconstructed intrinsic cluster distribution reconstructed from responses with an extrinsic, researcher-defined analytical lens derived from metadata. QuAD is structured into a four-quadrant assessment whose metrics are read jointly, from lens-level relations to within-cluster variation, to provide fitness-for-purpose signals for revealing general patterns and unique insights. Because this assessment relies on lens-conditioned inter-response dissimilarity, we propose a content-aware multi-agent system with two-stage instruction generation and adaptive anchors to improve scoring consistency. We validate QuAD through controlled experiments on synthetic data, including robustness and baseline comparisons, and a real-world social survey case study. The case study shows how QuAD quantitatively assesses whether a selected analysis axis is promising and also surfaces representative or unusual responses for human interpretation.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.23092",
+    "title": "Towards High Semantic Fidelity: Hyperdimensional Symbolic Messages in Multi-Agent Communication",
+    "authors": [
+      "Shoucheng Song",
+      "Chang Yao",
+      "Hao Wu",
+      "Youfang Lin",
+      "Sheng Han",
+      "Kai Lv"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.23092",
+    "abstract": "Semantic fidelity is essential for multi-agent communication under non-ideal channels, comprising transmission fidelity and conversion fidelity. Yet existing numerical and neural message formats cannot simultaneously achieve both. To address this, we propose a novel message format-\\textbf{H}yperdimensional \\textbf{S}ymbolic \\textbf{M}essages (HSM) and its corresponding communication framework \\textbf{Herm}. For transmission fidelity, Herm suppresses semantic entanglement via an entity-attribute-value structured encoding pipeline. For conversion fidelity, Herm first leverages a receiver-centric ego-binding mechanism to align semantics. Then, a similarity-aware dual-branch fusion module is proposed to prevent critical semantic dilution. To realize explicit message-semantic conversion, we devise an iterative decoding scheme via algebraic inverse operations. Experiments exhibit that Herm outperforms baselines across various noisy scenarios while maintaining superior structural readability.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "NeurIPS 2026 Accept",
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.23078",
+    "title": "Cryptographically Secure Agent-to-Agent Communication in Multi-Agent Systems",
+    "authors": [
+      "Karol Budzyn",
+      "Adrian Brodzik",
+      "Mateusz Szczepkowski"
+    ],
+    "source": "arxiv",
+    "category": "cs.CR",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.23078",
+    "abstract": "Multi-agent systems (MAS) comprise AI agents that collaborate or compete to perform complex, distributed tasks. Their dynamic interactions create opportunities for threat actors to target and impersonate other agents, intercept messages, inject malicious prompts, and exfiltrate sensitive data while simultaneously complicating the detection of anomalous behavior through conventional monitoring. This paper surveys threats and cryptographic challenges in agent-to-agent communication and presents a zero-trust architecture integrating identity, transport security, message integrity, and monitoring. The architecture establishes agent identities via decentralized identifiers and task-scoped verifiable credentials backed by a permissioned ledger, enforcing least-privilege authorization. For transport security, it provides mutually authenticated, crypto-agile TLS with hybrid post-quantum key establishment, and evaluates KEMTLS with pre-distributed public keys to reduce handshake overhead. Signed CBOR envelopes preserve payload integrity across multi-hop exchanges, while zero-knowledge proofs verify declared task constraints without exposing underlying inputs. Context-aware monitoring of inter-agent messages, tool activity, and execution telemetry informs the setting of risk-based trust thresholds and supports the detection of behavioral anomalies. Together, these mechanisms provide an integrated framework for securing and auditing agent communication, with implications for other agentic protocols and prospective 6G semantic communication.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.23056",
+    "title": "Thought Blocks: Non-Autoregressive Latent Communication for Multi-Agent Systems via Trajectory-to-State Compilation",
+    "authors": [
+      "Zhenhan Guan",
+      "Xiaolong Liu",
+      "Hengwei Ye",
+      "Zheng Tian"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.23056",
+    "abstract": "LLM-based multi-agent systems typically communicate through text, incurring repeated generation and re-encoding costs. Although latent communication removes explicit verbalization, constructing latent messages may still require autoregressive latent trajectories. We therefore distinguish message representation from message construction and ask whether agents can directly construct useful continuation states without executing the trajectories that normally produce them. We formulate this problem as trajectory-to-state compilation and introduce Thought Blocks, fixed-size blocks of latent key--value (KV) continuation memory constructed in one shot. Thought Blocks achieve a 2.5 times average latency speedup over autoregressive latent communication. Compared with text-based multi-agent communication, Thought Blocks reduce text tokens by 45.7% and autoregressive steps by 84.8%, achieving an 8.6 times average latency speedup. These results demonstrate that trajectory-to-state compilation enables efficient inter-agent latent communication without sequential latent rollouts at inference.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.23038",
+    "title": "Where Research Ideation Begins: Forward-Citation Supervision for Actionable Limitation Generation",
+    "authors": [
+      "Liyang Zhao",
+      "Yong Cao",
+      "Haibin Ling"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.23038",
+    "abstract": "Automated research ideation has advanced rapidly, with multi-agent workflows that generate whole research ideas end to end. These frameworks leave largely unexamined the step that seeds a good idea: identifying an actionable limitation from literature. In this paper, we focus on this first step in the research ideation pipeline. Starting from a pilot study, we find that as large language models (LLMs) scale from 0.6B to 32B parameters, they become far better at recognizing which limitation later work addressed, but no better at generating one, suggesting that the bottleneck lies in the supervision signal rather than model capacity. We therefore construct ActLim-Bench from forward citations, yielding 18,279 evidence-linked supervision triples with human verification. On this signal, we propose a three-stage post-training pipeline: supervised fine-tuning, verifier-filtered rejection-sampling fine-tuning, and reinforcement learning with the verifier as an online dense reward. Experimental results show that our method achieves the highest recall score compared to existing methods among all frontier models. We further show that our generated limitations are preferred in 64.9% of non-tied human comparisons and improve downstream ideation systems. We will release our data and code upon publication.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "19 pages, 4 figures, including appendices",
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.22980",
+    "title": "KiranaBench: Can a Language Model Run a Neighbourhood Shop?",
+    "authors": [
+      "Bhuvan Arora",
+      "Ankita Karmakar",
+      "Chaitanya Jain",
+      "Dilesh Churiwal",
+      "Harshit Jain",
+      "Shivansh Manish Dubey",
+      "Manish Prasad",
+      "Raja Piyush",
+      "Kshitij Tayal",
+      "Dhruv Kumar",
+      "Jagat Sesh Challa",
+      "Raunak Manekar",
+      "Yash Sinha"
+    ],
+    "source": "arxiv",
+    "category": "cs.CL",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.22980",
+    "abstract": "Large language model (LLM) agents are increasingly evaluated on long-horizon tasks, including autonomously running a business. Existing benchmarks for this setting are almost exclusively English-language, Western in retail context, and single-agent, with the agent observing the business directly. We study how these results transfer to a multi-agent Indic setting. We introduce KiranaBench, a simulated Indian general store in which four roles (manager, cashier, helper, and bookkeeper) are each played by a separate LLM agent. Interactions with customers and suppliers occur in English, Hindi, or Hinglish, and product demand is calibrated to India's national Household Consumption Expenditure Survey. Evaluating four open-weight LLMs, we find that all fall far short of a fixed-rule shopkeeper baseline: the best model earns only one-eighth of the baseline's profit, and two models finish below an unmanaged shop. Performance is also consistently lower for Hindi and Hinglish than for English supplier communication. KiranaBench offers evidence that current LLM agents are not yet reliable for autonomously operating small businesses in India, and provides a testbed for developing agents suited to settings that are long-horizon, collaborative, and multilingual.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "27 pages, 16 figures, 7 tables. Code, data and traces: https://osf.io/s2pxg/",
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.22968",
+    "title": "NL2SQL with Iterative Self-Refinement",
+    "authors": [
+      "Anjali Vemula",
+      "Akshat Dasula"
+    ],
+    "source": "arxiv",
+    "category": "cs.DB",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.22968",
+    "abstract": "Bridging the gap between human intent and machine logic remains a critical challenge in data access for non-technical users, yet Large Language Models (LLMs) remain unreliable: they hallucinate schema elements, generate syntactically invalid queries, or fail to capture user intent. These limitations are especially critical in domains such as insurance, where KPIs, regulatory constraints, and legacy relational systems demand high precision. We introduce a multi-agent, persona-driven NL2SQL framework that combines (1) domain relevance detection, (2) schema-grounded knowledge construction, (3) KPI-aware SQL synthesis, (4) syntax-level self-repair using sqlite execution feedback, and (5) semantic consistency checking via SQL-to-NL reverse engineering. Our system significantly reduces query hallucination and improves semantic fidelity compared to direct LLM prompting. Evaluated on 60 queries (50 from a HuggingFace text-to-SQL dataset and 10 custom domain queries), the system achieves 90% correctness using Mistral across seven coordinated LLM calls showing that this approach can substantially increase the reliability of NL2SQL pipelines in high-stakes environments.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.22882",
+    "title": "Cooperation Without Adaptation: LLM Agents in a Collective-Risk Dilemma",
+    "authors": [
+      "Trung-Kiet Huynh",
+      "Dao-Sy Duy-Minh",
+      "Chi-Nguyen Tran",
+      "Phu-Hoa Pham",
+      "Phu-Quy Nguyen-Lam",
+      "Le Hong Trang",
+      "The Anh Han"
+    ],
+    "source": "arxiv",
+    "category": "cs.GT",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.22882",
+    "abstract": "Language-model agents are increasingly deployed to act on behalf of people in settings where individual decisions shape shared outcomes. We examine whether five production models adapt their contributions to changing risks and partner behaviour, or instead follow a relatively fixed strategy. In a collective-risk dilemma game (CRG), six players contribute to a shared pool over ten rounds; if the pool falls short of its target, a catastrophe may destroy their remaining resources. Four models contributed approximately an equal share at every positive risk level, and four of the five also contributed when risk was zero, even though contributing could not improve their payoff. Explicitly stating that only the agent's own payoff mattered reduced zero-risk contributions for most models, while a more neutral prompt did not. Several models correctly identified which action offered the higher expected payoff at different risk levels, yet their contributions changed little. Against fixed partners, no model consistently chose the payoff-maximising response, and in mixed-model groups, a single agent's shortfall in the final round could cause an otherwise successful group to fail. Payoff-based selection also depended on population composition: in a single six-agent group, it favoured the model that contributed least and reduced group success, whereas in larger, randomly mixed populations, it favoured an exact fair-share model at moderate and high risk. These findings show that cooperative self-play alone is not evidence of strategic adaptability. Consistent with a machine-behaviour approach, evaluations of agents in multi-agent systems should test how they respond to incentives, partner actions, and population composition.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "10 pages, 5 figures, 50-page supplementary material appended",
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.22825",
+    "title": "World Action Critic (WAC) Model: Joint Foresight and Criticism for Policy Learning",
+    "authors": [
+      "Xiangteng Zhang",
+      "Haoyuan Liu",
+      "Yang Guan",
+      "Jingliang Duan",
+      "Yao Lyu",
+      "Tao Zhang",
+      "Shuai Zhang",
+      "Kehua Sheng",
+      "Bo Zhang",
+      "Shengbo Eben Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.22825",
+    "abstract": "World models have shown considerable promise in sequential decision-making by anticipating the consequences of actions and providing predictive foresight for policy learning. However, learning to reason about counterfactual actions remains challenging, since predictive objectives may underemphasize information critical for action evaluation, while unexecuted actions lack observed futures for direct supervision. To address these challenges, we propose the World Action Critic (WAC) Model, which proposes multimodal action candidates and jointly learns candidate-conditioned future prediction and consequence evaluation. In our proposed framework, critic supervision directly shapes intermediate predictive representations during rollout, encouraging them to retain information needed to distinguish action quality. Observed futures supervise prediction for executed actions, while external task-quality targets provide evaluation signals for counterfactual candidates. Through joint optimization, critic signals from these candidates propagate into predictive representations without requiring their observed futures. Our theoretical analysis characterizes critic-guided feature retention and bounds candidate-selection regret. Applied to autonomous driving, WAC achieves 93.4 PDMS on NAVSIM-v1, demonstrating the effectiveness of jointly learning predictive foresight and consequence evaluation.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.22795",
+    "title": "STRIDE: Evaluating Spatiotemporal Reasoning in Driving Edge Cases",
+    "authors": [
+      "Lieqi Liu",
+      "Rui gao",
+      "Jia-Chen Gu",
+      "Wenbo Hu",
+      "Zhaobin Mo",
+      "Ahmadreza Moradipari",
+      "Nejib Ammar",
+      "Wei Wang",
+      "Nanyun Peng"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.22795",
+    "abstract": "In autonomous driving, perceiving surrounding objects is not enough: failing to understand how they move and interact over time can lead to dangerous decisions. Evaluating vision-language models (VLMs) therefore requires testing whether they connect past spatial observations to future consequences. Yet existing benchmarks often assess edge cases through basic perception questions or test temporal understanding in simple scenarios, leaving complex spatiotemporal reasoning underexplored. We introduce STRIDE (SpatioTemporal Reasoning In Driving Edge Cases), an object-centric benchmark for long-tail, safety-critical driving scenarios. STRIDE covers six task families: spatial perception, spatial understanding, temporal memory, temporal extrapolation, trajectory prediction, and scene-context awareness. It pairs multiple-choice questions probing individual spatiotemporal judgments with related free-form visual question answering (VQA) requiring detailed scene explanations and justifications of driving decisions. We prioritize scenes with unusual object behaviors and complex traffic interactions, generate reference answers from structured dataset annotations through automated procedures, and use limited language-model assistance and human verification to ensure annotation quality. Across 12 proprietary, open-weight, and driving-specialized models, even the best performer, GPT-6-Astra, achieves only 43.4% average multiple-choice accuracy, versus an approximately 20% random-choice baseline. Further analysis reveals that strong performance in describing driving scenes does not necessarily translate to accurate safety-critical judgments, and that models struggle more with reconstructing object motion than recalling past positions. STRIDE thus exposes spatiotemporal driving limitations that aggregate VQA scores can conceal.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "Project page: https://pluslabnlp.github.io/STRIDE/",
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.22765",
+    "title": "Pedicel-Targeted Strawberry Harvesting via Imitation Learning on a Low-Cost Teleoperated Robotic Arm",
+    "authors": [
+      "Nitin Rai",
+      "Won Suk Lee",
+      "Hongyoung Leon",
+      "Heping Zhu"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.22765",
+    "abstract": "Precise pedicel-targeted grasping in strawberry harvesting remains a critical bottleneck due to the pedicel's small diameter (1.3-3 mm), color similarity with surrounding foliage, and precise force control required for clean abscission zone detachment. As a market-grade crop, strawberry aesthetic value makes bruise-free pedicel detachment essential over direct fruit grasping. Classical approaches struggle to unify vision models, motion planning, and contact manipulation into a robust framework, particularly in occluded canopy environments. Therefore, this work presents a visuomotor imitation learning pipeline for pedicel-targeted strawberry harvesting that unifies perception, motion planning, and contact manipulation from collecting human teleoperation demonstrations, training an Action Chunking with Transformers (ACT) policy with a ResNet-50 visual backbone, and deploying the learned policy autonomously on a Jetson AGX Orin edge platform at 15 Hz. The trained policy achieved consistent loss convergence from 2.84 to 0.091 over 100K gradient steps on 130 demonstrations. We have also established a reproducible open-source pipeline with publicly released dataset and model weights for the agricultural robotics community. Full dataset is available at, https://huggingface.co/datasets/nitindominicrai/strawberry_pedicel_grasp_teleoperation and trained policy at, https://huggingface.co/nitindominicrai/act_strawberry_pedicel. To replicate this work, all code, configurations, and deployment instructions are publicly available at, https://github.com/nitin-dominic/autonomous_strawberry_pedicel_harvesting.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "4 pages, 3 figures. This paper was peer-reviewed and accepted in the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), \"From Innovation to Adoption: Hardware, AI, Policy, and Funding Challenges in Agricultural Robotics Workshop,\" Pittsburgh, Pennsylvania, 2026",
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.22762",
+    "title": "Shape-Aware Neural Time Fields for Rigid-Body Motion and Manipulation Planning",
+    "authors": [
+      "Yanming Zhou",
+      "Yuchen Liu",
+      "Ahmed H. Qureshi"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.22762",
+    "abstract": "Rigid-body motion planning is fundamental to robotic transport and manipulation, where both object position and orientation determine whether a body can move through cluttered environments. This coupling makes planning chal- lenging because translation and rotation can be constrained very differently by surrounding geometry. We propose Shape- Aware Neural Time Fields, a physics-informed neural motion planning framework that learns a reusable travel-time, or cost- to-go, representation for rigid-body motion while explicitly accounting for these distinct geometric restrictions. The learned field captures local motion difficulty in translation and rotation and is paired with a sampling-based planner that balances progress toward the goal with the cost of reaching nearby poses. We evaluate the framework across 2D and 3D rigid- body planning tasks and non-prehensile manipulation through object pushing in diverse environments. Results show substantial improvements in planning success and inference efficiency over physics-informed neural planning baselines, while remaining competitive with classical sampling-based planners at significantly lower planning times. Ablation studies further validate the contributions of both the learned representation and the proposed planning strategy. Finally, closed-loop pushing experiments under execution deviations and external disturbances demonstrate that fast replanning enables reactive and adaptive task execution.",
+    "published_date": "2026-10-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-19T08:29:18Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2610.22341",
     "title": "3DCodeVerse: Exploring 3D Worlds as Code",
     "authors": [

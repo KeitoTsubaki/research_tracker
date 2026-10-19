@@ -4,146 +4,160 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Sun, 18 Oct 2026 07:46:29 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 08:29:18 GMT</lastBuildDate>
     <item>
-      <title>3DCodeVerse: Exploring 3D Worlds as Code</title>
-      <link>https://arxiv.org/abs/2610.22341</link>
-      <guid isPermaLink="false">arxiv:2610.22341</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D executable code. We build this corpus by collecting open-source data, converting specialized representa</description>
+      <title>Self-Building Labs</title>
+      <link>https://arxiv.org/abs/2610.23826</link>
+      <guid isPermaLink="false">arxiv:2610.23826</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Self-driving laboratories (SDLs) accelerate scientific discovery by automating experimental execution and optimization. AI agents can increasingly propose new experiments, but existing SDLs can only run the procedures they were built for. Adapting them to a new experiment still takes extensive manual engineering, which makes laboratory flexibility the bottleneck for scaling discovery. We introduce the self-building laboratory (SBL), which designs, configures, and operates its own laboratory setu</description>
     </item>
     <item>
-      <title>Learning Self-Orchestration in Decentralized Agent Swarms</title>
-      <link>https://arxiv.org/abs/2610.22322</link>
-      <guid isPermaLink="false">arxiv:2610.22322</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>The capabilities of an agent swarm depend on both its individual members and how they coordinate. Yet existing multi-agent systems often train agents within fixed orchestration structures, separating the learning of individual capabilities from the organization of collective behavior. We introduce market-based post-training (MPT), a framework for jointly learning action policies and self-orchestration in decentralized agent swarms. Agents express their willingness to participate through bids, wh</description>
+      <title>CocoRNA: Collective RNA Design with Cooperative Multi-agent Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2610.23820</link>
+      <guid isPermaLink="false">arxiv:2610.23820</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Designing RNA sequences that reliably fold into specific secondary structures is essential for understanding their biological functions but remains a challenging computational problem. We propose CocoRNA, a cooperative multi-agent reinforcement learning framework for RNA inverse design. CocoRNA simplifies the design task by decomposing it into smaller sub-problems, each solved collaboratively by multiple agents. This approach reduces the complexity of the problem and improves the exploration of </description>
     </item>
     <item>
-      <title>A team of Gemini 4 Argon agents beats Minecraft</title>
-      <link>https://arxiv.org/abs/2610.22319</link>
-      <guid isPermaLink="false">arxiv:2610.22319</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>We placed four Gemini 4 Argon agents in a sandboxed Minecraft survival world and gave them one goal: defeat the Ender Dragon. Each agent controlled a player via an open-source library called Mineflayer and coordinated with its teammates through in-game chat and shared memory. No one assigned roles or wrote game logic. The agents planned, wrote, and debugged every program themselves. Researchers could watch the run on a live dashboard and pause or stop it at any time, but they had no cause to int</description>
+      <title>On the possibilities and limitations of LLM-based multi-agent systems for multi-criteria decision-making in healthcare operations management</title>
+      <link>https://arxiv.org/abs/2610.23673</link>
+      <guid isPermaLink="false">arxiv:2610.23673</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Multi-criteria models for healthcare operations need weights that express how stakeholders trade off patient waiting time, provider workload, and operating cost, but these weights are difficult to quantify. Teams of large language model (LLM) agents, each prompted to represent a stakeholder, have been used to supply them. We propose a framework for assessing the reliability of LLM-generated preferences as inputs to multi-objective optimization and quantifying how their uncertainty affects decisi</description>
     </item>
     <item>
-      <title>Learning to Steer LLM Agents and Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2610.22316</link>
-      <guid isPermaLink="false">arxiv:2610.22316</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>Large language model (LLM)-based agents and multi-agent systems increasingly tackle complex tasks through long-horizon tool use and inter-agent collaboration. However, these systems are prone to deviating from the overall goal as execution unfolds, which wastes execution resources and leads to undesired outcomes, a failure termed goal drift. In this work, we propose a steering agent that supervises execution on the fly and steers the system back on track when drift occurs. The steering agent obs</description>
+      <title>S-GAP: Stealthy Graph Attack Primitives for Graph Large Language Models</title>
+      <link>https://arxiv.org/abs/2610.23465</link>
+      <guid isPermaLink="false">arxiv:2610.23465</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Graph Large Language Models (GraphLLMs) enable powerful semantic understanding and reasoning over Text-Attributed Graphs (TAGs), while their semantic reasoning may exhibit vulnerabilities to perturbations in node text and graph structure under adversarial attack evaluation. Existing attacks typically construct textual and structural perturbations in separate stages guided by distinct realization intents. However, this separation results in attack-intent fragmentation, causing semantic incoherenc</description>
     </item>
     <item>
-      <title>CAT-alyzing Honesty: Continuous Adversarial Training for Transferable LLM Honesty</title>
-      <link>https://arxiv.org/abs/2610.22292</link>
-      <guid isPermaLink="false">arxiv:2610.22292</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>Large language models (LLMs) are becoming prevalent in scenarios where honesty is critical. However, despite alignment training, these models still exhibit dishonest behaviour, such as outputting claims that contradict some knowledge or are not supported by what is accessible in context. We introduce Continuous Adversarial Training for Consistent Honesty (CATCH), inspired by a method originally developed to robustly refuse harmful queries. CATCH trains the model towards an honest answer and away</description>
+      <title>Annotrace: A Workbench for Step-Level Annotation of Agent Traces</title>
+      <link>https://arxiv.org/abs/2610.23284</link>
+      <guid isPermaLink="false">arxiv:2610.23284</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Every study of why LLM agents fail begins by labelling traces by hand, and every such study builds its own throwaway tool. Observability platforms record agent traces but offer no structured labelling; annotation tools label text but have no notion of a step, a delegation or a tool call, leaving it unclear what the smallest unit of execution to label should be. Annotrace reads six trace formats, including OpenTelemetry GenAI, LangSmith and Langfuse, and turns each run into an ordered, nested lis</description>
     </item>
     <item>
-      <title>Learning Rational Strategies for Temporal Objectives in Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2610.22287</link>
-      <guid isPermaLink="false">arxiv:2610.22287</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>We study rational synthesis for stochastic multi-agent systems with unknown dynamics, where each agent is equipped with its own probabilistic temporal objective specified using Probabilistic Linear Temporal Logic on Finite Traces ($\mathsf{PLTL}_f}$). We impose solution concepts (e.g., Nash equilibrium, subgame-perfect equilibrium) as constraints on the joint strategy profile, using payoffs derived from each agent's probability of satisfying its temporal objective. In particular, we formulate pe</description>
+      <title>Expand-and-Prune: Test-Time Candidate-Space Adaptation for End-to-End Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2610.23262</link>
+      <guid isPermaLink="false">arxiv:2610.23262</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Candidate-based end-to-end driving planners reason over a finite set of trajectory hypotheses. However, for sparse planners, a limited candidate set may provide insufficient support for scene-relevant maneuvers, while fixed downstream candidate budgets do not account for prediction uncertainty. To address these challenges, we introduce Expand-and-Prune, a test-time framework that jointly adapts candidate support and capacity without updating learned parameters. The framework expands the native c</description>
     </item>
     <item>
-      <title>Auditable and Deployable Multi-Agent Motion Planning via Posetal Games from Legal Guidelines</title>
-      <link>https://arxiv.org/abs/2610.22277</link>
-      <guid isPermaLink="false">arxiv:2610.22277</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>When robots are deployed in the real-world, they must interact with other agents and accomplish their own goals while adhering to legal constraints. These potentially conflicting objectives are often only partially prioritized, making scalarized objectives or fully specified hierarchies unsuitable. We present a framework for multi-agent motion planning under legal requirements based on games with partially ordered preferences (posetal games). Scenario-independent legal guidelines order abstract </description>
+      <title>Beyond Reward Scoring: Online Multi-Agent Preference Learning for Multimodal Response Generation</title>
+      <link>https://arxiv.org/abs/2610.23256</link>
+      <guid isPermaLink="false">arxiv:2610.23256</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Multimodal preference alignment often follows a score-based RLHF pipeline: a reward model is first trained to learn human preferences, then used to score on-policy responses and optimize the response model's generation. This turns preference supervision into a scalar signal for generation: a model may learn to produce answers with higher preference scores, but is rarely trained explicitly to learn the reasons underlying human preferences. We therefore ask whether making preference understanding </description>
     </item>
     <item>
-      <title>Safe and Fuel-Efficient Motion Planning for Lunar Propulsive Drones</title>
-      <link>https://arxiv.org/abs/2610.22225</link>
-      <guid isPermaLink="false">arxiv:2610.22225</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>Propulsive drones are a promising new technology for generating high-resolution terrain models of the Moon. In future lunar missions, propulsive drones will complete a series of hops across the lunar surface while capturing images with downward-facing cameras. We present an autonomous motion planning framework that uses a vision-guided optimal control strategy for performing safe, efficient hops between specified waypoints. The drone plans parabolic hops between waypoints generated by a global-l</description>
+      <title>Think More or Read More? A Token-Budget Theory of Reasoning with Shared Context</title>
+      <link>https://arxiv.org/abs/2610.23246</link>
+      <guid isPermaLink="false">arxiv:2610.23246</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Reasoning systems increasingly improve answers by incorporating additional context into the model's input, from multi-agent debate, where agents read their peers' responses, to self-refinement, where a model revisits its own drafts. In these systems, communication consumes context as one agent's output becomes another's input. We study the regime where token reading and generation draw on one fixed token window, so every token spent reading is a token that cannot be spent reasoning. We develop a</description>
     </item>
     <item>
-      <title>FutureLift: Lifting Trajectory Proposals into Bidirectional Future Graphs for Motion Forecasting</title>
-      <link>https://arxiv.org/abs/2610.22215</link>
-      <guid isPermaLink="false">arxiv:2610.22215</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>Accurate motion prediction is critical for safe autonomous driving, yet even strong forecasters leave residual errors in their multimodal proposals. Existing refiners compress complete proposals or update their segments sequentially, preventing the full proposed future from serving as explicit relational context for correction. We introduce FutureLift, a backbone-agnostic refiner that represents each multimodal proposal as a heterogeneous future graph, with spatially grounded temporal nodes conn</description>
+      <title>Not All Test-Time Compute Is Evidence: Model-Specific Bias in LLM Reasoning</title>
+      <link>https://arxiv.org/abs/2610.23213</link>
+      <guid isPermaLink="false">arxiv:2610.23213</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Test-time scaling methods implicitly assume that additional computation from the same model provides independent evidence. We show that this assumption fails within a single reasoning model: errors are correlated across repeated samples, across reasoning depth, and in the model's own self-evaluation, so more compute from the same model is not more evidence. We introduce DIA (Disagreement-triggered Independent Arbitration), which treats disagreement between an intermediate-stage and the final-sta</description>
     </item>
     <item>
-      <title>Robust Multi-Agent Pursuit with Preemptive Communication via Reachability-Based Control Barrier Functions</title>
-      <link>https://arxiv.org/abs/2610.22198</link>
-      <guid isPermaLink="false">arxiv:2610.22198</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>Safe multi-agent coordination typically assumes what real-world, deployed, resource-constrained robots cannot provide: continuous, perfect state sharing. Robust control strategies must be complemented with robust communication strategies to deliver resilient deployments. In this work, we propose a unified control/communication strategy that provides safe control to guarantee inter-agent safety under intermittent communication and demonstrate its effectiveness in a pursuit-evasion scenario. Each </description>
+      <title>OfficeTown: Generative Organizations for Evolving Agent Intelligence</title>
+      <link>https://arxiv.org/abs/2610.23194</link>
+      <guid isPermaLink="false">arxiv:2610.23194</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>AI agents increasingly use files and software tools to produce professional deliverables. Such work draws on materials, decisions, and feedback accumulated across assignments. We introduce OfficeTown, a generative simulation framework for professional organizations in which tasks and their context arise from continuing organizational work. From a natural-language description of an organization's purpose and activities, OfficeTown initializes an organization whose members coordinate work, delegat</description>
     </item>
     <item>
-      <title>HTN-Orchestrate: A Hierarchical Task Network Framework for Multi-Agent Orchestration</title>
-      <link>https://arxiv.org/abs/2610.22195</link>
-      <guid isPermaLink="false">arxiv:2610.22195</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>Orchestrating multiple agents on a complex task requires reconciling local subtask execution with global task planning. Dynamic dispatch approaches provide execution flexibility but do not explicitly model subtask hierarchies or dependencies, while predefined workflows impose this structure but fix the decomposition before execution begins. Therefore, we introduce HTN-Orchestrate, a two-layer framework that separates these responsibilities through a hierarchical task network (HTN). The Planner m</description>
+      <title>QuAD: Quantitative Assessment via Distribution-Alignment for Qualitative Data Quality Enabled by a Content-Aware Multi-Agent System</title>
+      <link>https://arxiv.org/abs/2610.23153</link>
+      <guid isPermaLink="false">arxiv:2610.23153</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Assessing whether qualitative responses collected from semi-structured questions are ready for a particular analysis goal is a persistent challenge. Manual qualitative analysis is interpretive and labor-intensive, while existing automated methods often lack a dataset-level perspective for deciding whether a response set supports a researcher-selected analytical lens. We introduce QuAD, a framework for quantitative pre-analysis assessment of qualitative response datasets. QuAD compares a reconstr</description>
     </item>
     <item>
-      <title>AutoSFT: An Agentic System for Automated Data Research in Supervised Fine-Tuning</title>
-      <link>https://arxiv.org/abs/2610.22194</link>
-      <guid isPermaLink="false">arxiv:2610.22194</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>Language model agents increasingly automate post-training, but when given the full training stack they converge on supervised fine-tuning and spend most effort revising training data. Existing systems give the agent one kind of control, selecting rows from a fixed pool or calling a generator, whereas a human data engineer adjusts proportions, prunes, repairs, replaces and synthesizes the data. We design a data action space for these changes and ask whether an automated system can make the full r</description>
+      <title>Towards High Semantic Fidelity: Hyperdimensional Symbolic Messages in Multi-Agent Communication</title>
+      <link>https://arxiv.org/abs/2610.23092</link>
+      <guid isPermaLink="false">arxiv:2610.23092</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Semantic fidelity is essential for multi-agent communication under non-ideal channels, comprising transmission fidelity and conversion fidelity. Yet existing numerical and neural message formats cannot simultaneously achieve both. To address this, we propose a novel message format-\textbf{H}yperdimensional \textbf{S}ymbolic \textbf{M}essages (HSM) and its corresponding communication framework \textbf{Herm}. For transmission fidelity, Herm suppresses semantic entanglement via an entity-attribute-</description>
     </item>
     <item>
-      <title>Believed but Not Said: Measuring Hidden Belief Collapse in Multi-Agent LLM Discussions</title>
-      <link>https://arxiv.org/abs/2610.22138</link>
-      <guid isPermaLink="false">arxiv:2610.22138</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>LLM systems increasingly rely on groups of agents that discuss, critique, and check one another, assuming that peers will catch individual errors. We test this assumption against a minimal adversary. In a ten-agent factual discussion, one or three adversarial agents repeatedly assert a plausible false answer. After each round we probe each benign agent's private answer through a separate call whose response is hidden from its peers, and we separately label its public stance toward the claim. Acr</description>
+      <title>Cryptographically Secure Agent-to-Agent Communication in Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2610.23078</link>
+      <guid isPermaLink="false">arxiv:2610.23078</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Multi-agent systems (MAS) comprise AI agents that collaborate or compete to perform complex, distributed tasks. Their dynamic interactions create opportunities for threat actors to target and impersonate other agents, intercept messages, inject malicious prompts, and exfiltrate sensitive data while simultaneously complicating the detection of anomalous behavior through conventional monitoring. This paper surveys threats and cryptographic challenges in agent-to-agent communication and presents a </description>
     </item>
     <item>
-      <title>Augment the Cache, Replace the Activation: A 2x2 Study of Internal-State Sharing</title>
-      <link>https://arxiv.org/abs/2610.22026</link>
-      <guid isPermaLink="false">arxiv:2610.22026</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>Multi-agent systems built from frozen language models communicate through text, which discards the internal state the sender already computed and makes the receiver pay to rebuild it. Work on internal channels avoids that cost, framing the problem as transfer: agent A sends information to agent B. Every agent pair that must communicate needs its own transfer bridge, and every agent added to a system needs a new bridge fitted against each previous agent. We reframe this problem as sharing: an age</description>
+      <title>Thought Blocks: Non-Autoregressive Latent Communication for Multi-Agent Systems via Trajectory-to-State Compilation</title>
+      <link>https://arxiv.org/abs/2610.23056</link>
+      <guid isPermaLink="false">arxiv:2610.23056</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>LLM-based multi-agent systems typically communicate through text, incurring repeated generation and re-encoding costs. Although latent communication removes explicit verbalization, constructing latent messages may still require autoregressive latent trajectories. We therefore distinguish message representation from message construction and ask whether agents can directly construct useful continuation states without executing the trajectories that normally produce them. We formulate this problem </description>
     </item>
     <item>
-      <title>DemoStream: Batched Task-and-Motion-Plan Optimization for Automated Learning from Demonstration</title>
-      <link>https://arxiv.org/abs/2610.22020</link>
-      <guid isPermaLink="false">arxiv:2610.22020</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>Learning from demonstration is an effective strategy for endowing robots with manipulation capabilities but requires training on datasets comprised of massive amounts of demonstrations. Existing demonstration collection approaches either require constant human involvement, for example, via teleoperation or are specialized for a single task. Task and Motion Planning (TAMP) systems are able to autonomously solve and therefore generate demonstrations for general-purpose tasks; however, learning fro</description>
+      <title>Where Research Ideation Begins: Forward-Citation Supervision for Actionable Limitation Generation</title>
+      <link>https://arxiv.org/abs/2610.23038</link>
+      <guid isPermaLink="false">arxiv:2610.23038</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Automated research ideation has advanced rapidly, with multi-agent workflows that generate whole research ideas end to end. These frameworks leave largely unexamined the step that seeds a good idea: identifying an actionable limitation from literature. In this paper, we focus on this first step in the research ideation pipeline. Starting from a pilot study, we find that as large language models (LLMs) scale from 0.6B to 32B parameters, they become far better at recognizing which limitation later</description>
     </item>
     <item>
-      <title>Close Enough is Nowhere Near: Fidelity-Consumability Decoupling in KV Caches</title>
-      <link>https://arxiv.org/abs/2610.22016</link>
-      <guid isPermaLink="false">arxiv:2610.22016</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>Multi-agent LLM systems communicate in text, which is lossy and wasteful: the sender throws away the reading it already did. A growing literature instead transmits the KV cache, the natural carrier of that reading. We study the most appealing form of the idea: both models stay frozen and the sender's cache is substituted for the reader's with nothing trained. It does not work, and the obstruction belongs to the reader. A frozen transformer reads only caches close to the one it would have written</description>
+      <title>KiranaBench: Can a Language Model Run a Neighbourhood Shop?</title>
+      <link>https://arxiv.org/abs/2610.22980</link>
+      <guid isPermaLink="false">arxiv:2610.22980</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Large language model (LLM) agents are increasingly evaluated on long-horizon tasks, including autonomously running a business. Existing benchmarks for this setting are almost exclusively English-language, Western in retail context, and single-agent, with the agent observing the business directly. We study how these results transfer to a multi-agent Indic setting. We introduce KiranaBench, a simulated Indian general store in which four roles (manager, cashier, helper, and bookkeeper) are each pla</description>
     </item>
     <item>
-      <title>GRID-Planner: Graph-Structured Relational Reward Shaping for Diffusion Planning</title>
-      <link>https://arxiv.org/abs/2610.21984</link>
-      <guid isPermaLink="false">arxiv:2610.21984</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>Autonomous driving planning requires selecting trajectories that remain safe, rule-compliant, and comfortable under complex multi-agent interactions, yet robust closed-loop decision making in planning-critical scenes remains challenging. Existing diffusion- and RL-based planners often rely on generic rewards and use relational structure mainly for representation, limiting how planning-critical rollouts shape policy improvement. We present GRID-Planner, a graph--reward integrated diffusion planni</description>
+      <title>NL2SQL with Iterative Self-Refinement</title>
+      <link>https://arxiv.org/abs/2610.22968</link>
+      <guid isPermaLink="false">arxiv:2610.22968</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Bridging the gap between human intent and machine logic remains a critical challenge in data access for non-technical users, yet Large Language Models (LLMs) remain unreliable: they hallucinate schema elements, generate syntactically invalid queries, or fail to capture user intent. These limitations are especially critical in domains such as insurance, where KPIs, regulatory constraints, and legacy relational systems demand high precision. We introduce a multi-agent, persona-driven NL2SQL framew</description>
     </item>
     <item>
-      <title>CodeHealth Predicts the Token Cost of Agentic Code Review: A Pre-Registered Study of 465 Agent-Authored Pull Requests</title>
-      <link>https://arxiv.org/abs/2610.21914</link>
-      <guid isPermaLink="false">arxiv:2610.21914</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>Context: Organizations increasingly delegate code review to multi-agent large language model (LLM) pipelines billed per token. Low code quality raises human maintenance effort, but its effect on agent review cost has not been measured. Objective: We test whether baseline CodeHealth predicts the token cost of agentic review and fix beyond pull request (PR) footprint. Method: In a pre-registered observational study, we sampled 465 agent-authored PRs from 246 repositories in AIDev, jointly stratifi</description>
+      <title>Cooperation Without Adaptation: LLM Agents in a Collective-Risk Dilemma</title>
+      <link>https://arxiv.org/abs/2610.22882</link>
+      <guid isPermaLink="false">arxiv:2610.22882</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Language-model agents are increasingly deployed to act on behalf of people in settings where individual decisions shape shared outcomes. We examine whether five production models adapt their contributions to changing risks and partner behaviour, or instead follow a relatively fixed strategy. In a collective-risk dilemma game (CRG), six players contribute to a shared pool over ten rounds; if the pool falls short of its target, a catastrophe may destroy their remaining resources. Four models contr</description>
     </item>
     <item>
-      <title>Learning Rewards in Strategic Games</title>
-      <link>https://arxiv.org/abs/2610.21912</link>
-      <guid isPermaLink="false">arxiv:2610.21912</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>Understanding the objectives that drive agents' behavior is crucial in strategic environments, where multiple agents interact and adapt to one another. This challenge arises in domains such as cybersecurity, autonomous driving, and online markets, where agents' underlying incentives are typically unknown and must be inferred from their observed behavior. Inverse reinforcement learning (IRL) provides a natural framework for this problem, but extending IRL to strategic multi-agent settings introdu</description>
+      <title>World Action Critic (WAC) Model: Joint Foresight and Criticism for Policy Learning</title>
+      <link>https://arxiv.org/abs/2610.22825</link>
+      <guid isPermaLink="false">arxiv:2610.22825</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>World models have shown considerable promise in sequential decision-making by anticipating the consequences of actions and providing predictive foresight for policy learning. However, learning to reason about counterfactual actions remains challenging, since predictive objectives may underemphasize information critical for action evaluation, while unexecuted actions lack observed futures for direct supervision. To address these challenges, we propose the World Action Critic (WAC) Model, which pr</description>
     </item>
     <item>
-      <title>Data World: Scaling Data Environments from Scratch</title>
-      <link>https://arxiv.org/abs/2610.21656</link>
-      <guid isPermaLink="false">arxiv:2610.21656</guid>
-      <pubDate>2026-10-15</pubDate>
-      <description>Data agents use code to process heterogeneous files and derive analytical insights. Scaling their training faces costly environment curation, privacy and intellectual-property restrictions, and difficulty verifying open-ended findings without known generative truth. Our core insight is to specify the world behind the files before generating the files themselves. We introduce Data World, a multi-agent engine that synthesizes environments, tasks, and rubrics from explicit mechanisms. Independent a</description>
+      <title>STRIDE: Evaluating Spatiotemporal Reasoning in Driving Edge Cases</title>
+      <link>https://arxiv.org/abs/2610.22795</link>
+      <guid isPermaLink="false">arxiv:2610.22795</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>In autonomous driving, perceiving surrounding objects is not enough: failing to understand how they move and interact over time can lead to dangerous decisions. Evaluating vision-language models (VLMs) therefore requires testing whether they connect past spatial observations to future consequences. Yet existing benchmarks often assess edge cases through basic perception questions or test temporal understanding in simple scenarios, leaving complex spatiotemporal reasoning underexplored. We introd</description>
+    </item>
+    <item>
+      <title>Pedicel-Targeted Strawberry Harvesting via Imitation Learning on a Low-Cost Teleoperated Robotic Arm</title>
+      <link>https://arxiv.org/abs/2610.22765</link>
+      <guid isPermaLink="false">arxiv:2610.22765</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Precise pedicel-targeted grasping in strawberry harvesting remains a critical bottleneck due to the pedicel's small diameter (1.3-3 mm), color similarity with surrounding foliage, and precise force control required for clean abscission zone detachment. As a market-grade crop, strawberry aesthetic value makes bruise-free pedicel detachment essential over direct fruit grasping. Classical approaches struggle to unify vision models, motion planning, and contact manipulation into a robust framework, </description>
+    </item>
+    <item>
+      <title>Shape-Aware Neural Time Fields for Rigid-Body Motion and Manipulation Planning</title>
+      <link>https://arxiv.org/abs/2610.22762</link>
+      <guid isPermaLink="false">arxiv:2610.22762</guid>
+      <pubDate>2026-10-16</pubDate>
+      <description>Rigid-body motion planning is fundamental to robotic transport and manipulation, where both object position and orientation determine whether a body can move through cluttered environments. This coupling makes planning chal- lenging because translation and rotation can be constrained very differently by surrounding geometry. We propose Shape- Aware Neural Time Fields, a physics-informed neural motion planning framework that learns a reusable travel-time, or cost- to-go, representation for rigid-</description>
     </item>
   </channel>
 </rss>
