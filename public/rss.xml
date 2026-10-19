@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 19 Oct 2026 08:29:18 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 09:25:39 GMT</lastBuildDate>
     <item>
       <title>Self-Building Labs</title>
       <link>https://arxiv.org/abs/2610.23826</link>
@@ -144,20 +144,6 @@
       <guid isPermaLink="false">arxiv:2610.22795</guid>
       <pubDate>2026-10-16</pubDate>
       <description>In autonomous driving, perceiving surrounding objects is not enough: failing to understand how they move and interact over time can lead to dangerous decisions. Evaluating vision-language models (VLMs) therefore requires testing whether they connect past spatial observations to future consequences. Yet existing benchmarks often assess edge cases through basic perception questions or test temporal understanding in simple scenarios, leaving complex spatiotemporal reasoning underexplored. We introd</description>
-    </item>
-    <item>
-      <title>Pedicel-Targeted Strawberry Harvesting via Imitation Learning on a Low-Cost Teleoperated Robotic Arm</title>
-      <link>https://arxiv.org/abs/2610.22765</link>
-      <guid isPermaLink="false">arxiv:2610.22765</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Precise pedicel-targeted grasping in strawberry harvesting remains a critical bottleneck due to the pedicel's small diameter (1.3-3 mm), color similarity with surrounding foliage, and precise force control required for clean abscission zone detachment. As a market-grade crop, strawberry aesthetic value makes bruise-free pedicel detachment essential over direct fruit grasping. Classical approaches struggle to unify vision models, motion planning, and contact manipulation into a robust framework, </description>
-    </item>
-    <item>
-      <title>Shape-Aware Neural Time Fields for Rigid-Body Motion and Manipulation Planning</title>
-      <link>https://arxiv.org/abs/2610.22762</link>
-      <guid isPermaLink="false">arxiv:2610.22762</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Rigid-body motion planning is fundamental to robotic transport and manipulation, where both object position and orientation determine whether a body can move through cluttered environments. This coupling makes planning chal- lenging because translation and rotation can be constrained very differently by surrounding geometry. We propose Shape- Aware Neural Time Fields, a physics-informed neural motion planning framework that learns a reusable travel-time, or cost- to-go, representation for rigid-</description>
     </item>
   </channel>
 </rss>
