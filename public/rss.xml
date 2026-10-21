@@ -4,146 +4,83 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Tue, 20 Oct 2026 08:10:55 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 08:16:28 GMT</lastBuildDate>
     <item>
-      <title>Self-Building Labs</title>
-      <link>https://arxiv.org/abs/2610.23826</link>
-      <guid isPermaLink="false">arxiv:2610.23826</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Self-driving laboratories (SDLs) accelerate scientific discovery by automating experimental execution and optimization. AI agents can increasingly propose new experiments, but existing SDLs can only run the procedures they were built for. Adapting them to a new experiment still takes extensive manual engineering, which makes laboratory flexibility the bottleneck for scaling discovery. We introduce the self-building laboratory (SBL), which designs, configures, and operates its own laboratory setu</description>
+      <title>Semantic Observability for Autonomous Systems Diagnostics</title>
+      <link>https://arxiv.org/abs/2610.28611</link>
+      <guid isPermaLink="false">arxiv:2610.28611</guid>
+      <pubDate>2026-10-20</pubDate>
+      <description>Modern distributed microservice deployments generate massive volumes of heterogeneous, multi-format observability logs across physically and logically partitioned infrastructure. Isolating root causes during cascading failures remains an arduous task for Site Reliability Engineers (SREs), bottlenecked by manual keyword filtering and disjointed temporal correlation across monitoring dashboards. We introduce Semantic Observability, an autonomous multi-agent framework that unifies disparate log str</description>
     </item>
     <item>
-      <title>CocoRNA: Collective RNA Design with Cooperative Multi-agent Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2610.23820</link>
-      <guid isPermaLink="false">arxiv:2610.23820</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Designing RNA sequences that reliably fold into specific secondary structures is essential for understanding their biological functions but remains a challenging computational problem. We propose CocoRNA, a cooperative multi-agent reinforcement learning framework for RNA inverse design. CocoRNA simplifies the design task by decomposing it into smaller sub-problems, each solved collaboratively by multiple agents. This approach reduces the complexity of the problem and improves the exploration of </description>
+      <title>CoGaussian: Open-Vocabulary Gaussian-based Collaborative 3D Scene Understanding</title>
+      <link>https://arxiv.org/abs/2610.28530</link>
+      <guid isPermaLink="false">arxiv:2610.28530</guid>
+      <pubDate>2026-10-20</pubDate>
+      <description>Collaborative perception enables agents to retrieve the scene semantics and geometry beyond the field of view of any individual agent. This broader scene understanding enhances transportation safety and improves efficiency in multi-robot systems. However, existing collaborative semantic occupancy methods rely on dense 3D voxel annotations and are limited to recognizing objects within a predefined set of semantic classes. To overcome these limitations, we present CoGaussian, an open-vocabulary Ga</description>
     </item>
     <item>
-      <title>On the possibilities and limitations of LLM-based multi-agent systems for multi-criteria decision-making in healthcare operations management</title>
-      <link>https://arxiv.org/abs/2610.23673</link>
-      <guid isPermaLink="false">arxiv:2610.23673</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Multi-criteria models for healthcare operations need weights that express how stakeholders trade off patient waiting time, provider workload, and operating cost, but these weights are difficult to quantify. Teams of large language model (LLM) agents, each prompted to represent a stakeholder, have been used to supply them. We propose a framework for assessing the reliability of LLM-generated preferences as inputs to multi-objective optimization and quantifying how their uncertainty affects decisi</description>
+      <title>Claims of emergence in AI should be grounded in information decomposition</title>
+      <link>https://arxiv.org/abs/2610.28479</link>
+      <guid isPermaLink="false">arxiv:2610.28479</guid>
+      <pubDate>2026-10-20</pubDate>
+      <description>When a language model develops capabilities not traceable to its individual components, when a multi-agent AI system outperforms each agent on its own, or when a human-AI pair succeeds where either fails in isolation, AI researchers describe it as a case of ``synergy'' or ``emergence''. However, these are usually informal assessments not supported by a theoretical framework, making these claims impossible to compare or even meaningfully dispute. Here we argue that \emph{information decomposition</description>
     </item>
     <item>
-      <title>S-GAP: Stealthy Graph Attack Primitives for Graph Large Language Models</title>
-      <link>https://arxiv.org/abs/2610.23465</link>
-      <guid isPermaLink="false">arxiv:2610.23465</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Graph Large Language Models (GraphLLMs) enable powerful semantic understanding and reasoning over Text-Attributed Graphs (TAGs), while their semantic reasoning may exhibit vulnerabilities to perturbations in node text and graph structure under adversarial attack evaluation. Existing attacks typically construct textual and structural perturbations in separate stages guided by distinct realization intents. However, this separation results in attack-intent fragmentation, causing semantic incoherenc</description>
+      <title>Beyond Trajectory Statistics: Community-Consistent Human Mobility Generation via Evolving User-Location Graphs</title>
+      <link>https://arxiv.org/abs/2610.28467</link>
+      <guid isPermaLink="false">arxiv:2610.28467</guid>
+      <pubDate>2026-10-20</pubDate>
+      <description>Human mobility data are fundamental to Web-based location services and broader urban applications, and mobility generation provides synthetic trajectories when real data are costly or inaccessible. Although recent mobility generators have incorporated collective mobility patterns, they primarily focus on individual trajectories and aggregate population dynamics, leaving evolving community structures formed by user-location interactions insufficiently modeled. In this paper, we study community-co</description>
     </item>
     <item>
-      <title>Annotrace: A Workbench for Step-Level Annotation of Agent Traces</title>
-      <link>https://arxiv.org/abs/2610.23284</link>
-      <guid isPermaLink="false">arxiv:2610.23284</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Every study of why LLM agents fail begins by labelling traces by hand, and every such study builds its own throwaway tool. Observability platforms record agent traces but offer no structured labelling; annotation tools label text but have no notion of a step, a delegation or a tool call, leaving it unclear what the smallest unit of execution to label should be. Annotrace reads six trace formats, including OpenTelemetry GenAI, LangSmith and Langfuse, and turns each run into an ordered, nested lis</description>
+      <title>MAS-Guard: Unified Guardrails from Individual Agents to Multi-Agent LLM Systems</title>
+      <link>https://arxiv.org/abs/2610.28397</link>
+      <guid isPermaLink="false">arxiv:2610.28397</guid>
+      <pubDate>2026-10-20</pubDate>
+      <description>Agentic AI extends large language models (LLMs) from generating responses to planning and executing complex workflows, substantially expanding their utility while exposing applications to unsafe actions, information leakage, and adversarial manipulation. Multi-agent systems further expand these capabilities through specialization and collaboration, but distributed authority, heterogeneous roles, and opaque or potentially compromised participants make safeguarding even more challenging. Existing </description>
     </item>
     <item>
-      <title>Expand-and-Prune: Test-Time Candidate-Space Adaptation for End-to-End Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2610.23262</link>
-      <guid isPermaLink="false">arxiv:2610.23262</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Candidate-based end-to-end driving planners reason over a finite set of trajectory hypotheses. However, for sparse planners, a limited candidate set may provide insufficient support for scene-relevant maneuvers, while fixed downstream candidate budgets do not account for prediction uncertainty. To address these challenges, we introduce Expand-and-Prune, a test-time framework that jointly adapts candidate support and capacity without updating learned parameters. The framework expands the native c</description>
+      <title>FIT-MAC: A Closed-Loop Multi-Agent Framework for Robust Vision-Language-Action Models</title>
+      <link>https://arxiv.org/abs/2610.28109</link>
+      <guid isPermaLink="false">arxiv:2610.28109</guid>
+      <pubDate>2026-10-20</pubDate>
+      <description>Vision-language-action (VLA) models have achieved strong performance on standard robotic manipulation benchmarks. However, their reliability can degrade substantially when task conditions deviate from the nominal setting. Perturbations in object positions and task instructions may lead to complete task failure. Existing VLA policies generally lack an explicit runtime mechanism for distinguishing these failure modes and selecting an appropriate recovery strategy. To systematically mitigate this i</description>
     </item>
     <item>
-      <title>Beyond Reward Scoring: Online Multi-Agent Preference Learning for Multimodal Response Generation</title>
-      <link>https://arxiv.org/abs/2610.23256</link>
-      <guid isPermaLink="false">arxiv:2610.23256</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Multimodal preference alignment often follows a score-based RLHF pipeline: a reward model is first trained to learn human preferences, then used to score on-policy responses and optimize the response model's generation. This turns preference supervision into a scalar signal for generation: a model may learn to produce answers with higher preference scores, but is rarely trained explicitly to learn the reasons underlying human preferences. We therefore ask whether making preference understanding </description>
+      <title>Quantum-JEPA: Quantum Born Priors for Latent-Action JEPA World Models</title>
+      <link>https://arxiv.org/abs/2610.27921</link>
+      <guid isPermaLink="false">arxiv:2610.27921</guid>
+      <pubDate>2026-10-20</pubDate>
+      <description>A single observation can admit several plausible futures, making uncertainty an essential part of world modelling. However, quantum generative models remain underexplored for this task. We introduce Quantum-JEPA, a latent-action JEPA framework that learns distributions of future representations using a conditional quantum Born prior. Circuit measurements generate binary latent actions, which a shared predictor maps to alternative future representations. We train the quantum prior through the qua</description>
     </item>
     <item>
-      <title>Think More or Read More? A Token-Budget Theory of Reasoning with Shared Context</title>
-      <link>https://arxiv.org/abs/2610.23246</link>
-      <guid isPermaLink="false">arxiv:2610.23246</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Reasoning systems increasingly improve answers by incorporating additional context into the model's input, from multi-agent debate, where agents read their peers' responses, to self-refinement, where a model revisits its own drafts. In these systems, communication consumes context as one agent's output becomes another's input. We study the regime where token reading and generation draw on one fixed token window, so every token spent reading is a token that cannot be spent reasoning. We develop a</description>
+      <title>LatBridge: Efficient and Stable Model Replacement in Latent-Communication Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2610.27813</link>
+      <guid isPermaLink="false">arxiv:2610.27813</guid>
+      <pubDate>2026-10-20</pubDate>
+      <description>Multi-agent systems rely on communication to complete tasks, and latent communication passes continuous representations to reduce text generation and re-encoding. However, multi-agent systems must reconfigure agent models, whereas existing latent-communication methods are built for fixed model combinations, so their interfaces may fail after replacement. Our pilot study confirms this interface failure and identifies the requirement for interface reuse after model replacement. We present LatBridg</description>
     </item>
     <item>
-      <title>Not All Test-Time Compute Is Evidence: Model-Specific Bias in LLM Reasoning</title>
-      <link>https://arxiv.org/abs/2610.23213</link>
-      <guid isPermaLink="false">arxiv:2610.23213</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Test-time scaling methods implicitly assume that additional computation from the same model provides independent evidence. We show that this assumption fails within a single reasoning model: errors are correlated across repeated samples, across reasoning depth, and in the model's own self-evaluation, so more compute from the same model is not more evidence. We introduce DIA (Disagreement-triggered Independent Arbitration), which treats disagreement between an intermediate-stage and the final-sta</description>
+      <title>S$^2$-MAS: A Society-Scale Multi-Agent Simulation Framework with 500 Million Household Persona Agents</title>
+      <link>https://arxiv.org/abs/2610.27746</link>
+      <guid isPermaLink="false">arxiv:2610.27746</guid>
+      <pubDate>2026-10-20</pubDate>
+      <description>Simulating economic responses at society scale requires agents whose decisions reflect household circumstances and the effects of earlier actions. We introduce S$^2$-MAS, a society-scale multi-agent simulation framework built on 500 million synthetic household personas grounded in real-survey data. Its Genese engine separates decisions from state updates, while reusable financial scenarios and application ledgers track consumption, cash, debt and payments. FinL-mlx, a compact decision model trai</description>
     </item>
     <item>
-      <title>OfficeTown: Generative Organizations for Evolving Agent Intelligence</title>
-      <link>https://arxiv.org/abs/2610.23194</link>
-      <guid isPermaLink="false">arxiv:2610.23194</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>AI agents increasingly use files and software tools to produce professional deliverables. Such work draws on materials, decisions, and feedback accumulated across assignments. We introduce OfficeTown, a generative simulation framework for professional organizations in which tasks and their context arise from continuing organizational work. From a natural-language description of an organization's purpose and activities, OfficeTown initializes an organization whose members coordinate work, delegat</description>
+      <title>Prescribed Performance Guided Safe Reinforcement Learning for Roundabout Navigation of Autonomous Vehicles</title>
+      <link>https://arxiv.org/abs/2610.27732</link>
+      <guid isPermaLink="false">arxiv:2610.27732</guid>
+      <pubDate>2026-10-20</pubDate>
+      <description>Connected and Autonomous Vehicles (CAVs) face significant challenges in roundabout navigation due to dense traffic interactions and unpredictable agent behaviors, necessitating high levels of adaptability and safety. While the combination of Reinforcement Learning (RL) and Model Predictive Control (MPC) offers a promising approach, existing frameworks suffer from a structural mismatch where pointwise RL decisions fail to align with MPC's trajectory level optimization, and often lack rigorous saf</description>
     </item>
     <item>
-      <title>QuAD: Quantitative Assessment via Distribution-Alignment for Qualitative Data Quality Enabled by a Content-Aware Multi-Agent System</title>
-      <link>https://arxiv.org/abs/2610.23153</link>
-      <guid isPermaLink="false">arxiv:2610.23153</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Assessing whether qualitative responses collected from semi-structured questions are ready for a particular analysis goal is a persistent challenge. Manual qualitative analysis is interpretive and labor-intensive, while existing automated methods often lack a dataset-level perspective for deciding whether a response set supports a researcher-selected analytical lens. We introduce QuAD, a framework for quantitative pre-analysis assessment of qualitative response datasets. QuAD compares a reconstr</description>
-    </item>
-    <item>
-      <title>Towards High Semantic Fidelity: Hyperdimensional Symbolic Messages in Multi-Agent Communication</title>
-      <link>https://arxiv.org/abs/2610.23092</link>
-      <guid isPermaLink="false">arxiv:2610.23092</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Semantic fidelity is essential for multi-agent communication under non-ideal channels, comprising transmission fidelity and conversion fidelity. Yet existing numerical and neural message formats cannot simultaneously achieve both. To address this, we propose a novel message format-\textbf{H}yperdimensional \textbf{S}ymbolic \textbf{M}essages (HSM) and its corresponding communication framework \textbf{Herm}. For transmission fidelity, Herm suppresses semantic entanglement via an entity-attribute-</description>
-    </item>
-    <item>
-      <title>Cryptographically Secure Agent-to-Agent Communication in Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2610.23078</link>
-      <guid isPermaLink="false">arxiv:2610.23078</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Multi-agent systems (MAS) comprise AI agents that collaborate or compete to perform complex, distributed tasks. Their dynamic interactions create opportunities for threat actors to target and impersonate other agents, intercept messages, inject malicious prompts, and exfiltrate sensitive data while simultaneously complicating the detection of anomalous behavior through conventional monitoring. This paper surveys threats and cryptographic challenges in agent-to-agent communication and presents a </description>
-    </item>
-    <item>
-      <title>Thought Blocks: Non-Autoregressive Latent Communication for Multi-Agent Systems via Trajectory-to-State Compilation</title>
-      <link>https://arxiv.org/abs/2610.23056</link>
-      <guid isPermaLink="false">arxiv:2610.23056</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>LLM-based multi-agent systems typically communicate through text, incurring repeated generation and re-encoding costs. Although latent communication removes explicit verbalization, constructing latent messages may still require autoregressive latent trajectories. We therefore distinguish message representation from message construction and ask whether agents can directly construct useful continuation states without executing the trajectories that normally produce them. We formulate this problem </description>
-    </item>
-    <item>
-      <title>Where Research Ideation Begins: Forward-Citation Supervision for Actionable Limitation Generation</title>
-      <link>https://arxiv.org/abs/2610.23038</link>
-      <guid isPermaLink="false">arxiv:2610.23038</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Automated research ideation has advanced rapidly, with multi-agent workflows that generate whole research ideas end to end. These frameworks leave largely unexamined the step that seeds a good idea: identifying an actionable limitation from literature. In this paper, we focus on this first step in the research ideation pipeline. Starting from a pilot study, we find that as large language models (LLMs) scale from 0.6B to 32B parameters, they become far better at recognizing which limitation later</description>
-    </item>
-    <item>
-      <title>KiranaBench: Can a Language Model Run a Neighbourhood Shop?</title>
-      <link>https://arxiv.org/abs/2610.22980</link>
-      <guid isPermaLink="false">arxiv:2610.22980</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Large language model (LLM) agents are increasingly evaluated on long-horizon tasks, including autonomously running a business. Existing benchmarks for this setting are almost exclusively English-language, Western in retail context, and single-agent, with the agent observing the business directly. We study how these results transfer to a multi-agent Indic setting. We introduce KiranaBench, a simulated Indian general store in which four roles (manager, cashier, helper, and bookkeeper) are each pla</description>
-    </item>
-    <item>
-      <title>NL2SQL with Iterative Self-Refinement</title>
-      <link>https://arxiv.org/abs/2610.22968</link>
-      <guid isPermaLink="false">arxiv:2610.22968</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Bridging the gap between human intent and machine logic remains a critical challenge in data access for non-technical users, yet Large Language Models (LLMs) remain unreliable: they hallucinate schema elements, generate syntactically invalid queries, or fail to capture user intent. These limitations are especially critical in domains such as insurance, where KPIs, regulatory constraints, and legacy relational systems demand high precision. We introduce a multi-agent, persona-driven NL2SQL framew</description>
-    </item>
-    <item>
-      <title>Cooperation Without Adaptation: LLM Agents in a Collective-Risk Dilemma</title>
-      <link>https://arxiv.org/abs/2610.22882</link>
-      <guid isPermaLink="false">arxiv:2610.22882</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>Language-model agents are increasingly deployed to act on behalf of people in settings where individual decisions shape shared outcomes. We examine whether five production models adapt their contributions to changing risks and partner behaviour, or instead follow a relatively fixed strategy. In a collective-risk dilemma game (CRG), six players contribute to a shared pool over ten rounds; if the pool falls short of its target, a catastrophe may destroy their remaining resources. Four models contr</description>
-    </item>
-    <item>
-      <title>World Action Critic (WAC) Model: Joint Foresight and Criticism for Policy Learning</title>
-      <link>https://arxiv.org/abs/2610.22825</link>
-      <guid isPermaLink="false">arxiv:2610.22825</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>World models have shown considerable promise in sequential decision-making by anticipating the consequences of actions and providing predictive foresight for policy learning. However, learning to reason about counterfactual actions remains challenging, since predictive objectives may underemphasize information critical for action evaluation, while unexecuted actions lack observed futures for direct supervision. To address these challenges, we propose the World Action Critic (WAC) Model, which pr</description>
-    </item>
-    <item>
-      <title>STRIDE: Evaluating Spatiotemporal Reasoning in Driving Edge Cases</title>
-      <link>https://arxiv.org/abs/2610.22795</link>
-      <guid isPermaLink="false">arxiv:2610.22795</guid>
-      <pubDate>2026-10-16</pubDate>
-      <description>In autonomous driving, perceiving surrounding objects is not enough: failing to understand how they move and interact over time can lead to dangerous decisions. Evaluating vision-language models (VLMs) therefore requires testing whether they connect past spatial observations to future consequences. Yet existing benchmarks often assess edge cases through basic perception questions or test temporal understanding in simple scenarios, leaving complex spatiotemporal reasoning underexplored. We introd</description>
+      <title>Does Multi-Agent Collaboration Pay When Agents Serve Users? Testing Agent Scaling in Dual-Control Settings</title>
+      <link>https://arxiv.org/abs/2610.27655</link>
+      <guid isPermaLink="false">arxiv:2610.27655</guid>
+      <pubDate>2026-10-20</pubDate>
+      <description>Multi-agent systems (MAS) built from language models are deployed on the premise that collaboration beats a single-agent system (SAS), yet when it pays is unclear. The most systematic study to date gives a capability-saturation rule: coordination helps while the SAS is weak and hurts once it is strong, with the crossing near 45% single-agent accuracy. That rule was derived on autonomous benchmarks, where no user takes part. We test it where agents now work: in conversation with a user under a wr</description>
     </item>
   </channel>
 </rss>

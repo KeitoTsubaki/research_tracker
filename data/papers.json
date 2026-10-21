@@ -1,5 +1,298 @@
 [
   {
+    "id": "arxiv:2610.28611",
+    "title": "Semantic Observability for Autonomous Systems Diagnostics",
+    "authors": [
+      "Jitendra Solanki",
+      "Anand Todkar",
+      "Ziran Min"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.28611",
+    "abstract": "Modern distributed microservice deployments generate massive volumes of heterogeneous, multi-format observability logs across physically and logically partitioned infrastructure. Isolating root causes during cascading failures remains an arduous task for Site Reliability Engineers (SREs), bottlenecked by manual keyword filtering and disjointed temporal correlation across monitoring dashboards. We introduce Semantic Observability, an autonomous multi-agent framework that unifies disparate log streams into a dynamic, queryable Property Graph Database. By modeling physical infrastructure topologies, logical software dependencies, and chronological event sequences as attributed nodes and directed relations, it bridges the semantic gap inherent in flat, unstructured log repositories. Building on this unified substrate, we deploy a stateful multi-agent system orchestrated through Directed Cyclic Graphs (DCGs). The system autonomously navigates the topology, applying causal graph algorithms and temporal back-traversal to isolate the precise blast radius of anomalies. The pruned subgraph is then interpreted by a Large Language Model (LLM) reasoning engine to generate contextualized, code-level Root Cause Analyses (RCA) and actionable remediations. This paper establishes the foundational system architecture, formal relational ontology, and multi-agent control loops of Semantic Observability. We show conceptually how the framework eliminates ambient telemetry noise, reduces Mean Time to Resolution (MTTR), compresses LLM token consumption, and prevents structural hallucinations. We also specify an open-source validation framework on standard benchmarks (LogHub and Train-Ticket), laying the groundwork for a forthcoming companion paper on exhaustive quantitative evaluation and production benchmarking.",
+    "published_date": "2026-10-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 3 figures. Foundational architecture paper; companion evaluation paper forthcoming",
+    "fetched_at": "2026-10-21T08:16:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.28530",
+    "title": "CoGaussian: Open-Vocabulary Gaussian-based Collaborative 3D Scene Understanding",
+    "authors": [
+      "Om Shivam Verma",
+      "Shaya Farahmand",
+      "Lingjun Zhao",
+      "Lu Gan"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.28530",
+    "abstract": "Collaborative perception enables agents to retrieve the scene semantics and geometry beyond the field of view of any individual agent. This broader scene understanding enhances transportation safety and improves efficiency in multi-robot systems. However, existing collaborative semantic occupancy methods rely on dense 3D voxel annotations and are limited to recognizing objects within a predefined set of semantic classes. To overcome these limitations, we present CoGaussian, an open-vocabulary Gaussian-based collaborative semantic occupancy prediction framework. CoGaussian represents a scene as a set of foundation model-aligned sparse 3D Gaussians, which serve as a compact representation for communicating and fusing geometric and semantic information across multiple agents. On the Semantic-OPV2V benchmark, our method outperforms existing open-vocabulary single-agent approaches, highlighting the effectiveness of open-vocabulary collaborative scene understanding.",
+    "published_date": "2026-10-20",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-21T08:16:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.28479",
+    "title": "Claims of emergence in AI should be grounded in information decomposition",
+    "authors": [
+      "Christoph Riedl",
+      "Fernando E. Rosas"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.28479",
+    "abstract": "When a language model develops capabilities not traceable to its individual components, when a multi-agent AI system outperforms each agent on its own, or when a human-AI pair succeeds where either fails in isolation, AI researchers describe it as a case of ``synergy'' or ``emergence''. However, these are usually informal assessments not supported by a theoretical framework, making these claims impossible to compare or even meaningfully dispute. Here we argue that \\emph{information decomposition can serve as a unifying formal framework to operationalize assessments about synergy in AI systems}. Information decomposition provides a way to distinguish qualitatively different \\emph{types} of information, including unique information available from individual components, redundant information shared across multiple components, and synergistic information accessible only from parts taken together. This gives claims of emergence a precise, falsifiable criterion: a system's behavior is emergent only if it carries synergistic information about task-relevant outcomes. We apply this lens to attention heads, autonomous agents, and human-AI teams, showing how it organizes existing knowledge across scales and substrates, while also generating cross-level conjectures that siloed fields would miss.",
+    "published_date": "2026-10-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "NeurIPS Spotlight Paper",
+    "fetched_at": "2026-10-21T08:16:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.28467",
+    "title": "Beyond Trajectory Statistics: Community-Consistent Human Mobility Generation via Evolving User-Location Graphs",
+    "authors": [
+      "Bo Liu",
+      "Tong Li",
+      "Jiapeng Zhang",
+      "Zhu Xiao",
+      "Zhuo Tang",
+      "Kenli Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.28467",
+    "abstract": "Human mobility data are fundamental to Web-based location services and broader urban applications, and mobility generation provides synthetic trajectories when real data are costly or inaccessible. Although recent mobility generators have incorporated collective mobility patterns, they primarily focus on individual trajectories and aggregate population dynamics, leaving evolving community structures formed by user-location interactions insufficiently modeled. In this paper, we study community-consistent human mobility generation. To this end, we formulate mobility generation as the generation of dynamic user-location graphs to model community structures and propose MOTION, a Multi-agent framework for cOmmuniTy-consIstent human mObility geNeration. MOTION consists of user agents, location agents, and a global manager agent. MOTION first detects coherent communities from historical mobility using the Leiden algorithm and extracts community-conditioned interaction priors to guide the generation process. Guided by these priors, the user agents plan mobility, search destination candidates, and infer user movements from the individual view. In parallel, selectively activated location agents infer likely user arrivals from the community view. The manager coordinates both views, diagnoses interactions causing deviations, and attributes targeted reflection signals to revise user decisions, location attraction, and source-user selection. Experiments on two real-world datasets show that MOTION outperforms baselines by at least 4.05% across reported metrics of individual trajectories, population and flow distributions, and community and graph structures. Further analyses confirm its robustness, privacy preservation, and downstream utility. The code is available at https://anonymous.4open.science/r/MOTION-04C4.",
+    "published_date": "2026-10-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-21T08:16:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.28397",
+    "title": "MAS-Guard: Unified Guardrails from Individual Agents to Multi-Agent LLM Systems",
+    "authors": [
+      "Mohammad Kachuee",
+      "Phu Mon Htut",
+      "Sheng Li",
+      "Nikolaos Pappas",
+      "Miguel Ballesteros Martinez",
+      "Yassine Benajiba",
+      "Sujith Ravi",
+      "Dan Roth"
+    ],
+    "source": "arxiv",
+    "category": "cs.CR",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.28397",
+    "abstract": "Agentic AI extends large language models (LLMs) from generating responses to planning and executing complex workflows, substantially expanding their utility while exposing applications to unsafe actions, information leakage, and adversarial manipulation. Multi-agent systems further expand these capabilities through specialization and collaboration, but distributed authority, heterogeneous roles, and opaque or potentially compromised participants make safeguarding even more challenging. Existing defenses address important individual threats but provide fragmented coverage across local execution, system-level interactions, and enforcement mechanisms. We introduce MAS-Guard, a unified framework that closes this gap for safeguarding single- and multi-agent AI applications containing both instrumentable and opaque agents. Within instrumentable agents, the proposed local Agent Guardrail (A-Guard) layer applies task-specific experts to assess agentic events. At the system level, developer-owned Agent Charters and a Control Plane combine deterministic structural checks of routes, agent capabilities, and message formats with semantic assessments of roles and message content. These complementary layers enable enforcement through a shared set of interventions: allow, reflection, confirmation, and block. Evaluated across six benchmarks covering diverse single- and multi-agent scenarios with three agent LLMs from different providers, MAS-Guard reduces the overall attack success rate by 71.5-86.3% relative to unguarded agents, while meeting the utility reference criterion on benign tasks.",
+    "published_date": "2026-10-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-21T08:16:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.28109",
+    "title": "FIT-MAC: A Closed-Loop Multi-Agent Framework for Robust Vision-Language-Action Models",
+    "authors": [
+      "Jiatong Li",
+      "Jisheng Dang",
+      "Qiangqiang Ma",
+      "Bimei Wang",
+      "Jingwen Zhao",
+      "Wenjun Ma",
+      "Juncheng Li",
+      "Hong Peng",
+      "Bin Hu"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.28109",
+    "abstract": "Vision-language-action (VLA) models have achieved strong performance on standard robotic manipulation benchmarks. However, their reliability can degrade substantially when task conditions deviate from the nominal setting. Perturbations in object positions and task instructions may lead to complete task failure. Existing VLA policies generally lack an explicit runtime mechanism for distinguishing these failure modes and selecting an appropriate recovery strategy. To systematically mitigate this issue, we propose FIT-MAC, a failure-aware, closed-loop multi-agent control framework for improving the robustness of VLA policies at inference time. FIT-MAC augments a VLA policy with an inference-time control layer. First, the Planner Agent parses the language instruction into a structured task specification that captures the manipulation goal and spatial constraints, and the Grounder Agent resolves each instruction-level reference to a visual target. Next, the Verifier Agent tracks phase-specific execution progress, distinguishes target-binding errors from local execution failures, and determines whether intervention is warranted. The Correction Agent then routes permitted interventions to target rebinding or bounded grasping or placement recovery, depending on the failure type. When no intervention is required, the pretrained VLA remains the default action generator. Extensive experiments on LIBERO-PRO demonstrate that FIT-MAC improves robustness across multiple VLA backbones, consistently increasing success rates and achieving state-of-the-art performance under diverse perturbations.",
+    "published_date": "2026-10-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-21T08:16:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.27921",
+    "title": "Quantum-JEPA: Quantum Born Priors for Latent-Action JEPA World Models",
+    "authors": [
+      "Zhiyuan Liu",
+      "Sicheng Liu",
+      "Haiyu Wu"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.27921",
+    "abstract": "A single observation can admit several plausible futures, making uncertainty an essential part of world modelling. However, quantum generative models remain underexplored for this task. We introduce Quantum-JEPA, a latent-action JEPA framework that learns distributions of future representations using a conditional quantum Born prior. Circuit measurements generate binary latent actions, which a shared predictor maps to alternative future representations. We train the quantum prior through the quality and diversity of these predictions using a sampled energy objective. Our model learns distinct continuations on constructed multimodal tasks and captures latent-action correlations that support coordinated multi-agent futures. On D3IL, a benchmark of diverse human demonstrations, our trained models generate multiple obstacle-crossing routes from a common starting point without observed motion. On the controlled tasks, our classical and quantum prior implementations improve prediction validity and distributional fidelity over the evaluated variational baselines. Our quantum priors combine competitive predictive quality with a parameter-efficient sampling structure: they avoid an exponentially sized categorical output layer while supporting correlated latent actions. We further validate finite-shot parameter-shift training, including training with readout noise. Unlike most prior work, which focuses on simulation, we also verify the feasibility of inference with trained priors on a real QPU. These results establish a trainable quantum component for JEPA future prediction and a basis for exploring quantum-enhanced world models at larger scales.",
+    "published_date": "2026-10-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "36 pages, 7 figures",
+    "fetched_at": "2026-10-21T08:16:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.27813",
+    "title": "LatBridge: Efficient and Stable Model Replacement in Latent-Communication Multi-Agent Systems",
+    "authors": [
+      "Jiajun Zhu",
+      "Haobo Li",
+      "Zixin Chen",
+      "Huamin Qu",
+      "Wenshuo Zhang"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.27813",
+    "abstract": "Multi-agent systems rely on communication to complete tasks, and latent communication passes continuous representations to reduce text generation and re-encoding. However, multi-agent systems must reconfigure agent models, whereas existing latent-communication methods are built for fixed model combinations, so their interfaces may fail after replacement. Our pilot study confirms this interface failure and identifies the requirement for interface reuse after model replacement. We present LatBridge, which connects agent models through a shared Bridge and separate interfaces under a shared latent-communication protocol. After agent model replacement, LatBridge reuses unchanged interfaces, selects matching low-rank interfaces, and combines them through the Bridge, training only missing ones with all models frozen. The Bridge processes source representations in the basic mode and constructs target input without autoregressive generation in the accelerated mode. Experiments support effective communication after model replacement, with mean basic-mode accuracies of 14.8% on MATH and 27.3% on ALFWorld next-action prediction across eight small-model configurations. Analyses examine the factors supporting task accuracy and communication efficiency.",
+    "published_date": "2026-10-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-21T08:16:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.27746",
+    "title": "S$^2$-MAS: A Society-Scale Multi-Agent Simulation Framework with 500 Million Household Persona Agents",
+    "authors": [
+      "Yang Li",
+      "Di Wan",
+      "Yike Wang",
+      "Chujun He",
+      "Zongsi Xu",
+      "Xiyu Chen",
+      "Sheng Zhong",
+      "Deng Binjie",
+      "Zhenwei Guo",
+      "Hou Jun",
+      "Kunhan Guo",
+      "Weihao Lin",
+      "Tuo Zhou",
+      "Hai Liu",
+      "Ye Luo"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.27746",
+    "abstract": "Simulating economic responses at society scale requires agents whose decisions reflect household circumstances and the effects of earlier actions. We introduce S$^2$-MAS, a society-scale multi-agent simulation framework built on 500 million synthetic household personas grounded in real-survey data. Its Genese engine separates decisions from state updates, while reusable financial scenarios and application ledgers track consumption, cash, debt and payments. FinL-mlx, a compact decision model trained with SFT + RLCD on 2.93 million examples, achieves 74.55% accuracy and 38.37% question-macro F1 in consumer financial-choice scenarios, outperforming Jev 1.13 and GLM-5.3-Flash on both measures. We evaluate eight financial task families and simulate 12 million distinct household agents in paired purchase-funding conditions. Jointly raising purchase goals and approved credit limits increases consumption, with responses differing across age and income groups. Education, employment and household-size differences persist after age--income standardization and mainly reflect transitions from deferral to purchase. Asset and debt groups differ in cash drawdown, repayment and closing debt. A 24-month panel varies purchase goals under a common credit product, with repayment and arrears updating subsequent offers. S$^2$-MAS links heterogeneous household decisions to evolving consumption, cash and repayment paths, supporting economic experiments across household groups, population scales and time horizons.",
+    "published_date": "2026-10-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "58 pages, 13 main figures, 7 supplementary figures",
+    "fetched_at": "2026-10-21T08:16:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.27732",
+    "title": "Prescribed Performance Guided Safe Reinforcement Learning for Roundabout Navigation of Autonomous Vehicles",
+    "authors": [
+      "Wenhan Li",
+      "Yangrui Zhang",
+      "Hang Zhou",
+      "Peiran Liu",
+      "Yiding Ji"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.27732",
+    "abstract": "Connected and Autonomous Vehicles (CAVs) face significant challenges in roundabout navigation due to dense traffic interactions and unpredictable agent behaviors, necessitating high levels of adaptability and safety. While the combination of Reinforcement Learning (RL) and Model Predictive Control (MPC) offers a promising approach, existing frameworks suffer from a structural mismatch where pointwise RL decisions fail to align with MPC's trajectory level optimization, and often lack rigorous safety guarantees. This work proposes RLTrajGen-PPMPC-CBF, a hierarchical framework for safe, smooth and comfort roundabout navigation, which regulates the coupling between RL-based planning and MPC-based control. We employ Prescribed Performance Constraints (PPC) to enforce a gradual, stable convergence between reference trajectories and control outputs, ensuring MPC tracking performance remains consistent with intended behavior from RL. Additionally, a Control Barrier Function (CBF) layer provides real-time safety corrections that are fed back into the RL process. Simulation results in the MetaDrive environment demonstrate that our method achieves a 6.25\\% increase in average success rate and a 65.87\\% reduction in Motion Sickness Dose Value (MSDV) compared to the optimal baseline, meanwhile accelerating training convergence.",
+    "published_date": "2026-10-20",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 10 figures",
+    "fetched_at": "2026-10-21T08:16:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.27655",
+    "title": "Does Multi-Agent Collaboration Pay When Agents Serve Users? Testing Agent Scaling in Dual-Control Settings",
+    "authors": [
+      "Ethan Yang",
+      "Xiangcheng Shi"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.27655",
+    "abstract": "Multi-agent systems (MAS) built from language models are deployed on the premise that collaboration beats a single-agent system (SAS), yet when it pays is unclear. The most systematic study to date gives a capability-saturation rule: coordination helps while the SAS is weak and hurts once it is strong, with the crossing near 45% single-agent accuracy. That rule was derived on autonomous benchmarks, where no user takes part. We test it where agents now work: in conversation with a user under a written policy, on $τ^2$-bench, the dual-control benchmark. On its airline, retail and telecom domains we compare the stock SAS with a centralized MAS built from the same model for six models from three families, over about 7,950 simulated conversations, with one completion-token ledger per episode per system. The study was pre-registered with a public change log; the MAS is reported as built, with one validity bar unmet (its planner never saw the tool schemas). Under a fixed simulated user no cell shows a MAS benefit: the MAS is worse in 12 of the 13 valid cells and tied in the thirteenth, and the fitted gain is negative across the observed capability range (weighted mean -28 points, 95% CI [-44, -12]). On the two cells where the rule predicts a benefit, the MAS loses by 13 and 22 points, and without a budget ceiling it at best draws level at 5.5 times the SAS's token spend. The one gain appears on the cell nearest 45%, under a second simulator. Whether the gain declines with capability is unresolved (slope -0.41, 95% CI [-1.51, +0.68]), because model-by-domain effects dominate. The MAS does not detectably reduce wrongful database writes; it converts other failures into budget exhaustion and inaction. For agents that serve people, the SAS is the default; a multi-agent design must show compute-matched evidence from the setting itself. We release all trajectories, ledgers, prompts and code.",
+    "published_date": "2026-10-20",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-21T08:16:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2610.23826",
     "title": "Self-Building Labs",
     "authors": [
