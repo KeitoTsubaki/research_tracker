@@ -4,83 +4,83 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Wed, 21 Oct 2026 08:16:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 08:18:02 GMT</lastBuildDate>
     <item>
-      <title>Semantic Observability for Autonomous Systems Diagnostics</title>
-      <link>https://arxiv.org/abs/2610.28611</link>
-      <guid isPermaLink="false">arxiv:2610.28611</guid>
-      <pubDate>2026-10-20</pubDate>
-      <description>Modern distributed microservice deployments generate massive volumes of heterogeneous, multi-format observability logs across physically and logically partitioned infrastructure. Isolating root causes during cascading failures remains an arduous task for Site Reliability Engineers (SREs), bottlenecked by manual keyword filtering and disjointed temporal correlation across monitoring dashboards. We introduce Semantic Observability, an autonomous multi-agent framework that unifies disparate log str</description>
+      <title>FaultGene: LLM-Assisted Fault-Augmented Test Generation for Hardware-in-the-Loop Validation of Autonomous Driving Systems</title>
+      <link>https://arxiv.org/abs/2610.29969</link>
+      <guid isPermaLink="false">arxiv:2610.29969</guid>
+      <pubDate>2026-10-21</pubDate>
+      <description>Reliable validation of autonomous driving cyber-physical systems requires testing not only nominal driving behavior but also failures arising from faults in sensing and embedded computation. Physical road testing provides realistic system behavior but is costly and difficult to reproduce, while simulation enables scalable evaluation but cannot fully capture hardware-dependent behavior and fault propagation. Hardware-in-the-loop (HIL) validation bridges this gap by executing the driving stack on </description>
     </item>
     <item>
-      <title>CoGaussian: Open-Vocabulary Gaussian-based Collaborative 3D Scene Understanding</title>
-      <link>https://arxiv.org/abs/2610.28530</link>
-      <guid isPermaLink="false">arxiv:2610.28530</guid>
-      <pubDate>2026-10-20</pubDate>
-      <description>Collaborative perception enables agents to retrieve the scene semantics and geometry beyond the field of view of any individual agent. This broader scene understanding enhances transportation safety and improves efficiency in multi-robot systems. However, existing collaborative semantic occupancy methods rely on dense 3D voxel annotations and are limited to recognizing objects within a predefined set of semantic classes. To overcome these limitations, we present CoGaussian, an open-vocabulary Ga</description>
+      <title>ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination</title>
+      <link>https://arxiv.org/abs/2610.29934</link>
+      <guid isPermaLink="false">arxiv:2610.29934</guid>
+      <pubDate>2026-10-21</pubDate>
+      <description>Forming an accurate theory-of-mind (ToM) is key to successful multi-agent collaboration and requires reasoning under uncertainty to capture multiple possible partner states. This is hard to do in the text representation space native to large language model (LLM) agents, which more easily describe a single partner state. To address this challenge, we introduce ToM2Vec, which learns to form abstract theories-of-mind in a rich latent space via a fixed budget of continuous reasoning tokens. During t</description>
     </item>
     <item>
-      <title>Claims of emergence in AI should be grounded in information decomposition</title>
-      <link>https://arxiv.org/abs/2610.28479</link>
-      <guid isPermaLink="false">arxiv:2610.28479</guid>
-      <pubDate>2026-10-20</pubDate>
-      <description>When a language model develops capabilities not traceable to its individual components, when a multi-agent AI system outperforms each agent on its own, or when a human-AI pair succeeds where either fails in isolation, AI researchers describe it as a case of ``synergy'' or ``emergence''. However, these are usually informal assessments not supported by a theoretical framework, making these claims impossible to compare or even meaningfully dispute. Here we argue that \emph{information decomposition</description>
+      <title>DriveMLP: When Training Strategy Outperforms Model Complexity in Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2610.29676</link>
+      <guid isPermaLink="false">arxiv:2610.29676</guid>
+      <pubDate>2026-10-21</pubDate>
+      <description>Learning motion planning policies that remain reliable under closed-loop execution is a central challenge in Autonomous Driving (AD). Imitation Learning (IL) scales well to large AD datasets but suffers from distribution shift, causal confusion, and compounding errors under closed-loop execution. In contrast, Reinforcement Learning (RL) typically requires handcrafted rule-based rewards and massive simulation. We study a simple closed-loop IL framework that uses RL purely as an optimization tool,</description>
     </item>
     <item>
-      <title>Beyond Trajectory Statistics: Community-Consistent Human Mobility Generation via Evolving User-Location Graphs</title>
-      <link>https://arxiv.org/abs/2610.28467</link>
-      <guid isPermaLink="false">arxiv:2610.28467</guid>
-      <pubDate>2026-10-20</pubDate>
-      <description>Human mobility data are fundamental to Web-based location services and broader urban applications, and mobility generation provides synthetic trajectories when real data are costly or inaccessible. Although recent mobility generators have incorporated collective mobility patterns, they primarily focus on individual trajectories and aggregate population dynamics, leaving evolving community structures formed by user-location interactions insufficiently modeled. In this paper, we study community-co</description>
+      <title>FogTTA: Online Test-Time Adaptation for Robust Transformer-based Object Detection in Foggy Weather</title>
+      <link>https://arxiv.org/abs/2610.29618</link>
+      <guid isPermaLink="false">arxiv:2610.29618</guid>
+      <pubDate>2026-10-21</pubDate>
+      <description>Object detection models for autonomous driving commonly experience substantial performance drops when deployed under adverse weather due to the domain shift between training data and real-world operating conditions. This degradation is especially evident when models trained on clear-weather images encounter foggy environments with reduced visibility and contrast. To address this challenge, we introduce FogTTA, an online test-time adaptation framework designed to improve the robustness of Transfo</description>
     </item>
     <item>
-      <title>MAS-Guard: Unified Guardrails from Individual Agents to Multi-Agent LLM Systems</title>
-      <link>https://arxiv.org/abs/2610.28397</link>
-      <guid isPermaLink="false">arxiv:2610.28397</guid>
-      <pubDate>2026-10-20</pubDate>
-      <description>Agentic AI extends large language models (LLMs) from generating responses to planning and executing complex workflows, substantially expanding their utility while exposing applications to unsafe actions, information leakage, and adversarial manipulation. Multi-agent systems further expand these capabilities through specialization and collaboration, but distributed authority, heterogeneous roles, and opaque or potentially compromised participants make safeguarding even more challenging. Existing </description>
+      <title>The Reflexivity Threshold: A Phase Transition for Multi-Agent Performative Prediction</title>
+      <link>https://arxiv.org/abs/2610.29577</link>
+      <guid isPermaLink="false">arxiv:2610.29577</guid>
+      <pubDate>2026-10-21</pubDate>
+      <description>Many learning systems are performative: once deployed, their predictions change the data distribution on which future models are trained. In multi-agent settings, this feedback is routed through a network of interacting learners, so stability depends not only on the strength of performativity but also on who affects whom. We study repeated retraining in multi-agent performative prediction and identify a spectral threshold that separates stable learning from worst-case learning obstruction. Prior</description>
     </item>
     <item>
-      <title>FIT-MAC: A Closed-Loop Multi-Agent Framework for Robust Vision-Language-Action Models</title>
-      <link>https://arxiv.org/abs/2610.28109</link>
-      <guid isPermaLink="false">arxiv:2610.28109</guid>
-      <pubDate>2026-10-20</pubDate>
-      <description>Vision-language-action (VLA) models have achieved strong performance on standard robotic manipulation benchmarks. However, their reliability can degrade substantially when task conditions deviate from the nominal setting. Perturbations in object positions and task instructions may lead to complete task failure. Existing VLA policies generally lack an explicit runtime mechanism for distinguishing these failure modes and selecting an appropriate recovery strategy. To systematically mitigate this i</description>
+      <title>Linear Twisting Sidewinding Gaits for Twistable Snake Robot Motion Planning on Complex Terrains</title>
+      <link>https://arxiv.org/abs/2610.29461</link>
+      <guid isPermaLink="false">arxiv:2610.29461</guid>
+      <pubDate>2026-10-21</pubDate>
+      <description>Sidewinding is an efficient gait for snake robots to locomote on various terrains, by undulating the backbone curve and shifting the contact segments along it. However, relying solely on undulatory motion limits the locomotive capability of snake robots, and combining it with twisting motion can improve their speed and robustness. This hypothesis has recently been verified by the rolling vector approach, which locomotes the robot like a differential-drive car. Yet its twisting is concentrated in</description>
     </item>
     <item>
-      <title>Quantum-JEPA: Quantum Born Priors for Latent-Action JEPA World Models</title>
-      <link>https://arxiv.org/abs/2610.27921</link>
-      <guid isPermaLink="false">arxiv:2610.27921</guid>
-      <pubDate>2026-10-20</pubDate>
-      <description>A single observation can admit several plausible futures, making uncertainty an essential part of world modelling. However, quantum generative models remain underexplored for this task. We introduce Quantum-JEPA, a latent-action JEPA framework that learns distributions of future representations using a conditional quantum Born prior. Circuit measurements generate binary latent actions, which a shared predictor maps to alternative future representations. We train the quantum prior through the qua</description>
+      <title>RegoMender: A Multi-agent Framework for Automated Rego Policy Repair</title>
+      <link>https://arxiv.org/abs/2610.29456</link>
+      <guid isPermaLink="false">arxiv:2610.29456</guid>
+      <pubDate>2026-10-21</pubDate>
+      <description>Policy-as-Code (PaC) has emerged as a foundational paradigm in cloud-native systems. However, repairing Rego policies remains challenging due to their strict syntax, declarative semantics, and specific verification requirements. Existing automated program repair (APR) methods are mainly designed for mainstream languages and struggle to accommodate the unique policy logic and repair workflows of Rego. Thus, Rego policy repair remains a manual process driven by trial and error. To address this, we</description>
     </item>
     <item>
-      <title>LatBridge: Efficient and Stable Model Replacement in Latent-Communication Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2610.27813</link>
-      <guid isPermaLink="false">arxiv:2610.27813</guid>
-      <pubDate>2026-10-20</pubDate>
-      <description>Multi-agent systems rely on communication to complete tasks, and latent communication passes continuous representations to reduce text generation and re-encoding. However, multi-agent systems must reconfigure agent models, whereas existing latent-communication methods are built for fixed model combinations, so their interfaces may fail after replacement. Our pilot study confirms this interface failure and identifies the requirement for interface reuse after model replacement. We present LatBridg</description>
+      <title>Credit Where Credit Is Due: Contrastive Attribution Topology Search for Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2610.29292</link>
+      <guid isPermaLink="false">arxiv:2610.29292</guid>
+      <pubDate>2026-10-21</pubDate>
+      <description>An LLM multi-agent system (MAS) is only as good as the agents it chooses to trust: its accuracy and cost hinge on its topology, meaning which agents are included and how they communicate. A single task score, however, does not reveal which agents help or hinder performance. We propose Contrastive Attribution Topology Search (CATS), which searches for compact teams within a fixed supergraph of specialized agents. An LLM attributer compares execution traces across candidate topologies and assigns </description>
     </item>
     <item>
-      <title>S$^2$-MAS: A Society-Scale Multi-Agent Simulation Framework with 500 Million Household Persona Agents</title>
-      <link>https://arxiv.org/abs/2610.27746</link>
-      <guid isPermaLink="false">arxiv:2610.27746</guid>
-      <pubDate>2026-10-20</pubDate>
-      <description>Simulating economic responses at society scale requires agents whose decisions reflect household circumstances and the effects of earlier actions. We introduce S$^2$-MAS, a society-scale multi-agent simulation framework built on 500 million synthetic household personas grounded in real-survey data. Its Genese engine separates decisions from state updates, while reusable financial scenarios and application ledgers track consumption, cash, debt and payments. FinL-mlx, a compact decision model trai</description>
+      <title>Design and Tuning of Multi-Agent Systems Using Bayesian Evolutionary Optimization</title>
+      <link>https://arxiv.org/abs/2610.29276</link>
+      <guid isPermaLink="false">arxiv:2610.29276</guid>
+      <pubDate>2026-10-21</pubDate>
+      <description>Designing effective multi-agent systems (MAS) remains a challenging and resource-intensive task. We propose a Bayesian Evolutionary Optimization framework for automatically discovering task-specific MAS topologies. The approach combines evolutionary operators to generate diverse workflow graphs with Bayesian optimization to focus cost intensive evaluations on promising candidates. In contrast to LLM-based candidate selection, our approach uses a graph-aware Gaussian Process and Expected Improvem</description>
     </item>
     <item>
-      <title>Prescribed Performance Guided Safe Reinforcement Learning for Roundabout Navigation of Autonomous Vehicles</title>
-      <link>https://arxiv.org/abs/2610.27732</link>
-      <guid isPermaLink="false">arxiv:2610.27732</guid>
-      <pubDate>2026-10-20</pubDate>
-      <description>Connected and Autonomous Vehicles (CAVs) face significant challenges in roundabout navigation due to dense traffic interactions and unpredictable agent behaviors, necessitating high levels of adaptability and safety. While the combination of Reinforcement Learning (RL) and Model Predictive Control (MPC) offers a promising approach, existing frameworks suffer from a structural mismatch where pointwise RL decisions fail to align with MPC's trajectory level optimization, and often lack rigorous saf</description>
+      <title>MA-UITD: Offline Multi-Agent Reward Inference for Characterizing Continuous Social Behavior</title>
+      <link>https://arxiv.org/abs/2610.29237</link>
+      <guid isPermaLink="false">arxiv:2610.29237</guid>
+      <pubDate>2026-10-21</pubDate>
+      <description>Multi-agent inverse reinforcement learning offers a powerful framework not only for imitation learning but also for understanding the neural computations supporting social interactions and decision-making. Inferring rewards from interacting agents is challenging because observed choices reflect both personal preferences and expectations about others. Existing methods often require additional environment interaction, repeated policy optimization as an inner loop, or restrictive assumptions about </description>
     </item>
     <item>
-      <title>Does Multi-Agent Collaboration Pay When Agents Serve Users? Testing Agent Scaling in Dual-Control Settings</title>
-      <link>https://arxiv.org/abs/2610.27655</link>
-      <guid isPermaLink="false">arxiv:2610.27655</guid>
-      <pubDate>2026-10-20</pubDate>
-      <description>Multi-agent systems (MAS) built from language models are deployed on the premise that collaboration beats a single-agent system (SAS), yet when it pays is unclear. The most systematic study to date gives a capability-saturation rule: coordination helps while the SAS is weak and hurts once it is strong, with the crossing near 45% single-agent accuracy. That rule was derived on autonomous benchmarks, where no user takes part. We test it where agents now work: in conversation with a user under a wr</description>
+      <title>AI-Based End-to-End Automotive Design and Software Development for SDVs</title>
+      <link>https://arxiv.org/abs/2610.29160</link>
+      <guid isPermaLink="false">arxiv:2610.29160</guid>
+      <pubDate>2026-10-21</pubDate>
+      <description>This paper explores the potential of Artificial Intelligence (AI) to enable end-to-end automotive design and software development for Software-Defined Vehicles (SDVs). Based on our contributions within the Central Car Server (CeCaS) and follow-up EU-funded projects, we present an AI-driven toolchain integrating Large Language Models (LLMs) with Model-Driven Engineering (MDE) to automate the transformation of natural-language requirements into system architectures, executable software, and valida</description>
     </item>
   </channel>
 </rss>
