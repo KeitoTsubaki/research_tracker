@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Fri, 23 Oct 2026 08:15:03 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 07:53:20 GMT</lastBuildDate>
     <item>
       <title>Social-HUMINT: An LLM-Augmented Unified Framework for Measuring Social Media Exposure</title>
       <link>https://arxiv.org/abs/2610.31573</link>
@@ -130,6 +130,20 @@
       <guid isPermaLink="false">arxiv:2610.30737</guid>
       <pubDate>2026-10-22</pubDate>
       <description>Modern autonomous Cyber-Physical Systems (CPSs), such as self-driving cars, operate in increasingly complex environments while expected to maintain high reliability. The black-box nature of many of these systems makes it impossible to fully verify their behavior prior to deployment. When a failure occurs, it is important to analyze it to guide improvements to system robustness. A recent work introduced the novel concept of leveraging the framework of actual causality for CPS failure explanation.</description>
+    </item>
+    <item>
+      <title>FaultGene: LLM-Assisted Fault-Augmented Test Generation for Hardware-in-the-Loop Validation of Autonomous Driving Systems</title>
+      <link>https://arxiv.org/abs/2610.29969</link>
+      <guid isPermaLink="false">arxiv:2610.29969</guid>
+      <pubDate>2026-10-21</pubDate>
+      <description>Reliable validation of autonomous driving cyber-physical systems requires testing not only nominal driving behavior but also failures arising from faults in sensing and embedded computation. Physical road testing provides realistic system behavior but is costly and difficult to reproduce, while simulation enables scalable evaluation but cannot fully capture hardware-dependent behavior and fault propagation. Hardware-in-the-loop (HIL) validation bridges this gap by executing the driving stack on </description>
+    </item>
+    <item>
+      <title>ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination</title>
+      <link>https://arxiv.org/abs/2610.29934</link>
+      <guid isPermaLink="false">arxiv:2610.29934</guid>
+      <pubDate>2026-10-21</pubDate>
+      <description>Forming an accurate theory-of-mind (ToM) is key to successful multi-agent collaboration and requires reasoning under uncertainty to capture multiple possible partner states. This is hard to do in the text representation space native to large language model (LLM) agents, which more easily describe a single partner state. To address this challenge, we introduce ToM2Vec, which learns to form abstract theories-of-mind in a rich latent space via a fixed budget of continuous reasoning tokens. During t</description>
     </item>
   </channel>
 </rss>
