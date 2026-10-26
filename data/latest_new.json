@@ -1,20 +1,5 @@
 {
-  "source": "arxiv",
-  "generated_at": "2026-10-26T08:31:26Z",
-  "ids": [
-    "arxiv:2610.32851",
-    "arxiv:2610.32738",
-    "arxiv:2610.32666",
-    "arxiv:2610.32559",
-    "arxiv:2610.32460",
-    "arxiv:2610.32392",
-    "arxiv:2610.32365",
-    "arxiv:2610.32326",
-    "arxiv:2610.32069",
-    "arxiv:2610.32060",
-    "arxiv:2610.32034",
-    "arxiv:2610.31985",
-    "arxiv:2610.31974",
-    "arxiv:2610.31971"
-  ]
+  "source": "conference_award",
+  "generated_at": "2026-10-26T09:29:39Z",
+  "ids": []
 }

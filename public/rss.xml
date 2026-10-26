@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 26 Oct 2026 08:31:26 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 09:29:39 GMT</lastBuildDate>
     <item>
       <title>Reimagining Enterprise RAG for Multi-Agent Systems: A Knowledge Layer That Organizes Before It Retrieves</title>
       <link>https://arxiv.org/abs/2610.32851</link>
@@ -102,6 +102,48 @@
       <guid isPermaLink="false">arxiv:2610.31971</guid>
       <pubDate>2026-10-22</pubDate>
       <description>Large language model (LLM) agents increasingly participate in negotiations on behalf of individuals and organizations, yet they remain vulnerable to manipulation, particularly in repeated multi-party interactions. Classical multi-agent systems address this challenge through explicit trust and reputation models, whereas existing work on LLM negotiation largely treats trust as an emergent phenomenon. We investigate whether LLM agents can form useful trust estimates from prior interactions and leve</description>
+    </item>
+    <item>
+      <title>Social-HUMINT: An LLM-Augmented Unified Framework for Measuring Social Media Exposure</title>
+      <link>https://arxiv.org/abs/2610.31573</link>
+      <guid isPermaLink="false">arxiv:2610.31573</guid>
+      <pubDate>2026-10-22</pubDate>
+      <description>In the post-API landscape, social-media profiling has become inexpensive and automated: Large Language Models (LLMs) can extract structured information from unstructured content and deduce attributes users never disclosed. A person's true exposure is not what they post but what can be inferred from it. As these practices become routine, exposure to social engineering attacks becomes an operational certainty, demanding a shared framework for assessment and mitigation. We make this exposure measur</description>
+    </item>
+    <item>
+      <title>Decentralized Bi-Level Optimization for Cooperative Orbital Transportation of a Rigid Payload</title>
+      <link>https://arxiv.org/abs/2610.31562</link>
+      <guid isPermaLink="false">arxiv:2610.31562</guid>
+      <pubDate>2026-10-22</pubDate>
+      <description>The rapid growth of the space economy, alongside increasing orbital congestion and debris, is driving demand for reliable on-orbit transportation of large and non-cooperative objects. Performing such transportation with a swarm of small spacecraft distributes risk and removes the single point of failure inherent to monolithic architectures, but requires solving a non-convex trajectory optimization coupling every agent's cone-constrained thrust to the payload's rotational dynamics. Existing appro</description>
+    </item>
+    <item>
+      <title>Dispersive Tree Agreements for Multi-Robot Coordination</title>
+      <link>https://arxiv.org/abs/2610.31540</link>
+      <guid isPermaLink="false">arxiv:2610.31540</guid>
+      <pubDate>2026-10-22</pubDate>
+      <description>Multi-robot coordination of nonlinear systems is naturally formulated as joint-space optimal control subject to constraints over groups of robots. Existing methods that approach joint optimality remain largely centralized, offline, and confined to collision-free motion planning, while decentralized, real-time counterparts target safe navigation without pursuing the joint optimum. This paper develops a decentralized, real-time planner that approaches the joint optimum as an anytime process. We ex</description>
+    </item>
+    <item>
+      <title>SCOPE: Scene-graph Construction Optimized by Plan Error-correction for Robot Long-term Planning Datasets</title>
+      <link>https://arxiv.org/abs/2610.31518</link>
+      <guid isPermaLink="false">arxiv:2610.31518</guid>
+      <pubDate>2026-10-22</pubDate>
+      <description>Task and Motion Planning (TAMP) stands as a fundamental challenge in robotics, essential for enabling autonomous agents to execute complex, long-horizon tasks in diverse environments. While Large Language Models (LLMs) introduce a new paradigm for TAMP by leveraging extensive common sense, their inherent reasoning limitations hinder direct application, and fine-tuning strategies to enhance these capabilities are currently bottlenecked by the scarcity of high-quality datasets. Existing automated </description>
+    </item>
+    <item>
+      <title>Muffin - A Shared Memory Buffer for Asynchronous AI Agents</title>
+      <link>https://arxiv.org/abs/2610.31355</link>
+      <guid isPermaLink="false">arxiv:2610.31355</guid>
+      <pubDate>2026-10-22</pubDate>
+      <description>The rise of Agentic AI systems has changed the landscape of artificial intelligence by enabling strong reasoning capabilities through specialized multi-agent interaction with structured self-reflection. However, in target-driven reasoning tasks, single- and multi-agent systems are often on par in terms of performance gains. A major challenge is that failures often arise from an ineffective exchange of critical information during inter-agent interaction and coordination. Different from existing m</description>
+    </item>
+    <item>
+      <title>Automating Feature Flag Cleanup at Scale with Multi-Agent LLM Systems: An Industrial Experience at DoorDash</title>
+      <link>https://arxiv.org/abs/2610.31351</link>
+      <guid isPermaLink="false">arxiv:2610.31351</guid>
+      <pubDate>2026-10-22</pubDate>
+      <description>Feature flags are runtime configuration mechanisms used for gradual feature rollouts, experimentation, and kill switches. Once a feature is fully rolled out, the flag and its gated code become technical debt and can introduce operational risk through inadvertently enabling dormant code paths. At DoorDash, over 56,000 feature flags span 623 repositories, with 1,659 currently stale as of May 2026, with internal estimates of one to two hours per manual cleanup. Existing rule-based cleanup tools pro</description>
     </item>
   </channel>
 </rss>
