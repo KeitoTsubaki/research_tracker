@@ -4,146 +4,132 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 26 Oct 2026 09:29:39 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 08:38:48 GMT</lastBuildDate>
     <item>
-      <title>Reimagining Enterprise RAG for Multi-Agent Systems: A Knowledge Layer That Organizes Before It Retrieves</title>
-      <link>https://arxiv.org/abs/2610.32851</link>
-      <guid isPermaLink="false">arxiv:2610.32851</guid>
-      <pubDate>2026-10-23</pubDate>
-      <description>Enterprises are deploying agentic AI across the software development lifecycle, and they need the behavioral logic of the systems they act on, not stakeholder documentation. A seven-agent reverse-engineering pipeline recovered this logic, processing 241 repositories across 18 services into thousands of artifacts describing scope, journeys, rules and acceptance criteria. Recovery does not confer usability. Entities like offer, eligibility, and activation recur across services under a shared vocab</description>
+      <title>Nonprehensile Robotic Catching Using Virtual Constraints</title>
+      <link>https://arxiv.org/abs/2610.35851</link>
+      <guid isPermaLink="false">arxiv:2610.35851</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>The problem of nonprehensile robotic catching is addressed using virtual nonholonomic constraints (VNHCs); the motion of the robot end-effector is designed and controlled directly in terms of the states of the object before it is caught on the surface of the end-effector. In contrast to contemporary approaches, our approach avoids the need for object trajectory prediction, and consequent time-varying robot trajectory generation. With a focus on the planar case, we demonstrate that our VNHC appro</description>
     </item>
     <item>
-      <title>Agentic Hazard Mapper: Emulating Expert Map-Making with AI Agents for Risk Communication</title>
-      <link>https://arxiv.org/abs/2610.32738</link>
-      <guid isPermaLink="false">arxiv:2610.32738</guid>
-      <pubDate>2026-10-23</pubDate>
-      <description>Hazard maps are essential tools for public risk communication, preparedness, and evacuation planning, yet effective cartographic design is not always ensured due to limited access to cartographic expertise across local governments and communities. We present Agentic Hazard Mapper, a multi-agent system that automates hazard-map production by emulating professional cartographic workflows and iterative design trade-offs while adapting design decisions to different data, locations, and hazard contex</description>
+      <title>OSWAM: An Effective World Action Model with One-Step Action Generation</title>
+      <link>https://arxiv.org/abs/2610.35850</link>
+      <guid isPermaLink="false">arxiv:2610.35850</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied control. However, they still require tens of denoising steps to achieve competitive action quality, incurring substantial latency and hindering real-time deployment. Simply reducing the number of denoising steps will collapse the nonlinear multi-step denoising trajectory into coarse updates, substa</description>
     </item>
     <item>
-      <title>Robust Offset-Free Lane-Keeping Control Framework for Vision-Only Automated Vehicles</title>
-      <link>https://arxiv.org/abs/2610.32666</link>
-      <guid isPermaLink="false">arxiv:2610.32666</guid>
-      <pubDate>2026-10-23</pubDate>
-      <description>Achieving accurate, real-time lane-keeping control during high-speed cornering on large-curvature roads while ensuring robust vehicle stability is a critical challenge in autonomous driving. To address this challenge, this study developed a robust offset-free model predictive control (OF-MPC) framework for vision-based autonomous vehicle lane-keeping. The regulation problem in this framework is solved using several algorithms. Numerical simulation results indicated that the interpolation-tube-ba</description>
+      <title>Preference-Guided Cooperation in Multi-Objective Multi-Agent Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2610.35736</link>
+      <guid isPermaLink="false">arxiv:2610.35736</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Multi-objective multi-agent reinforcement learning (MOMARL) addresses agent coordination and objective trade-offs simultaneously while optimising overall system performance. Existing work tends to treat multi-agent cooperation and multi-objective optimisation as largely independent components of a learning problem, which amounts to an exorbitant complexity except in trivial cases. We study here whether the structure provided by multiple objectives can itself be exploited to facilitate cooperatio</description>
     </item>
     <item>
-      <title>UAV-SwarmAgent: Scalable Multi-UAV Reconnaissance and Task Allocation via Code Generation and Vision-Language Reasoning</title>
-      <link>https://arxiv.org/abs/2610.32559</link>
-      <guid isPermaLink="false">arxiv:2610.32559</guid>
-      <pubDate>2026-10-23</pubDate>
-      <description>Supervising a multi-UAV reconnaissance mission usually means plotting waypoints and watching every drone. We present UAV SwarmAgent, a hierarchical multi-agent system in which an operator states the mission in one natural-language sentence and a ground-station agent writes and executes code that turns it into per-UAV routes. The agent grounds inspection targets in an aerial map with a vision-language model, splits them among N UAVs by balancing route length, and dispatches worker agents that ver</description>
+      <title>EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation</title>
+      <link>https://arxiv.org/abs/2610.35690</link>
+      <guid isPermaLink="false">arxiv:2610.35690</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Serving web queries at scale with multi-agent systems requires jointly configuring large language models, collaboration modes, agent counts, interaction rounds, and skills. However, the resulting configuration space grows combinatorially, while sparse execution rewards provide limited fine-grained supervision for interdependent planning decisions. We propose EvoRouter, a self-evolving multi-agent routing framework driven by insight-guided on-policy distillation. A dedicated expert periodically s</description>
     </item>
     <item>
-      <title>CoCarry: Contact-Support-Structured Retargeting for Dual-Humanoid Cooperative Carrying</title>
-      <link>https://arxiv.org/abs/2610.32460</link>
-      <guid isPermaLink="false">arxiv:2610.32460</guid>
-      <pubDate>2026-10-23</pubDate>
-      <description>Recent advances in large-scale human motion data, motion retargeting, and motion imitation have enabled increasingly capable whole-body control for individual humanoids. Cooperative carrying is more challenging because successful coordination requires not only plausible individual motions, but also consistent cross-agent and agent-object relations, including shared grasp, relative configuration, and whole-body support. We introduce CoCarry, a cooperative-carrying dataset containing 220 synchroni</description>
+      <title>TrySee: Modular Perception-Enhanced VLM Grounding for Closed-Loop Robot Task Planning in Specialized Domains</title>
+      <link>https://arxiv.org/abs/2610.35687</link>
+      <guid isPermaLink="false">arxiv:2610.35687</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Vision Language Models (VLMs) have shown impressive capabilities in high-level reasoning and task planning for robots. However, specialized domains remain a challenge for VLMs' image interpretation and grounding abilities. We introduce TrySee, a modular closed-loop robot task planning pipeline integrating general-purpose VLM reasoning with domain-specific perception and established robotics components. The system consists of an inherently reactive cyclic planning pipeline, augmented with domain-</description>
     </item>
     <item>
-      <title>PULSES: multi-agent AI for autonomous excited-state model building and dynamics</title>
-      <link>https://arxiv.org/abs/2610.32392</link>
-      <guid isPermaLink="false">arxiv:2610.32392</guid>
-      <pubDate>2026-10-23</pubDate>
-      <description>Simulating molecular excited-state processes requires resolving electronic and nuclear dynamics, but the cost of direct quantum-chemical calculations limits accessible system sizes and timescales. Machine-learning models can extend these simulations, yet they often need to be tailored to specific molecular systems and scientific objectives. Building and deploying such models requires coordinated decisions across conformational sampling, quantum-chemical labelling, model training, validation and </description>
+      <title>Continuous-Time Safe Planning and Control for Agile Quadrupeds</title>
+      <link>https://arxiv.org/abs/2610.35670</link>
+      <guid isPermaLink="false">arxiv:2610.35670</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Agile quadruped navigation in dynamic environments demands trajectories that are both dynamically feasible and provably collision-free. Most real-time planners achieve tractability through a convex reduction that requires simplified kinematic models, discarding motion that the robot can readily execute, and certify safety only at discretization points, leaving open possible inter-sample collisions with moving obstacles. We present a real-time motion planning framework that retains the fully-actu</description>
     </item>
     <item>
-      <title>Graphs of Trajectory Bundles for Nonlinear Motion Planning</title>
-      <link>https://arxiv.org/abs/2610.32365</link>
-      <guid isPermaLink="false">arxiv:2610.32365</guid>
-      <pubDate>2026-10-23</pubDate>
-      <description>We present the Graphs of Trajectory Bundles (GTB) method for motion planning of systems with nonlinear and black-box dynamics, combining sampling-based motion planning with trajectory optimization and graph search. Based on a graph-of-convex-sets decomposition of the workspace, GTB iteratively constructs a graph of trajectory bundles that captures the local dynamics of the system at any vertex. By solving a shortest-path problem on this graph, we find maximally dynamically feasible iterates that</description>
+      <title>Revisiting Direct Control: A Field Evaluation of Sensor Fusion Efficacy in Teleoperating Full-Scale Autonomous Vehicles via Bird's Eye View</title>
+      <link>https://arxiv.org/abs/2610.35630</link>
+      <guid isPermaLink="false">arxiv:2610.35630</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>In autonomous driving, robot teleoperation serves as a critical safety fallback mechanism, requiring operators to assume direct control in the event of system failure. While recent research has pivoted toward high-level supervisory control or simulation-based studies, these approaches often fail to capture the physical dynamics and sensory demands of driving a full-scale vehicle. To address this gap, we evaluated the impact of spatial data representation on operator performance using a real car-</description>
     </item>
     <item>
-      <title>TGR-EvoDAG: A DAG-based Multi-Agent Code Evolution Framework for Generative Recommendation on Tencent</title>
-      <link>https://arxiv.org/abs/2610.32326</link>
-      <guid isPermaLink="false">arxiv:2610.32326</guid>
-      <pubDate>2026-10-23</pubDate>
-      <description>Large Language Model (LLM) agents have enabled automated code evolution for algorithm discovery. However, current recursive self-improvement (RSI) research for sequential recommendation faces a dilemma: general-purpose frameworks lack domain-specific feedback, while recommender-specific frameworks rely on linear evolution. Crucially, naively integrating them fails when applied to Generative Recommendation (GR). Unlike end-to-end models, GR relies on a module-cascaded pipeline (tokenization, pre-</description>
+      <title>GEAR: Feature-Based Configuration and Code Generation for Agentic Systems</title>
+      <link>https://arxiv.org/abs/2610.35592</link>
+      <guid isPermaLink="false">arxiv:2610.35592</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Engineering multi-agent systems (MAS) requires choosing agents, orchestration strategies, communication mechanisms, reasoning approaches, and memory configurations. These choices depend on framework-specific capabilities and abstractions, requiring developers to learn different APIs when exploring alternative implementations. We present GEAR, an open-source tool for configuring MAS and generating framework-specific implementations from a common specification. GEAR uses a feature-based representa</description>
     </item>
     <item>
-      <title>DriveMind: Mind-Evolving Belief Tracking for Closed-Loop Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2610.32069</link>
-      <guid isPermaLink="false">arxiv:2610.32069</guid>
-      <pubDate>2026-10-23</pubDate>
-      <description>Recent multimodal large language models (MLLMs) can perceive a traffic scene, reason about it, and propose a driving action within a single model. However, existing MLLM-based drivers reason from scratch at each frame and commit to a single explanation, discarding earlier hypotheses about the scene. When the scene is ambiguous, the agent locks in on the wrong interpretation and acts on it before evidence accumulates. In this paper, we propose DriveMind, an MLLM-based driving framework that keeps</description>
+      <title>Enhancing Deep Reinforcement Learning for Robotic Motion Planning via Task Decomposition</title>
+      <link>https://arxiv.org/abs/2610.35494</link>
+      <guid isPermaLink="false">arxiv:2610.35494</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Training robotic manipulation policies in simulation is widely adopted due to safety and cost efficiency; however, tasks involving obstacles remain under-performing and often converge slowly under Deep Reinforcement Learning (DRL). To address this challenge, we propose a task decomposition framework for DRL that integrates Transfer Learning (TL) with Reward Redesign (RR) to improve learning efficiency and robustness in obstacle environments. The TL strategy selectively transfers only the first-l</description>
     </item>
     <item>
-      <title>Understanding Communication Failures in Multi-Agent LLM Systems</title>
-      <link>https://arxiv.org/abs/2610.32060</link>
-      <guid isPermaLink="false">arxiv:2610.32060</guid>
-      <pubDate>2026-10-23</pubDate>
-      <description>Multi-agent LLM systems aim to improve reasoning through debate, evidence sharing, and mutual correction, but interaction can also introduce failures that final accuracy alone cannot explain. Agents may converge too early, ignore dissent, suppress correct minority answers, or preserve a wrong framing across rounds. We present a corpus-grounded taxonomy of communication failures, built from 3,211 failed multi-round trajectories across medical QA, coding, finance, multi-hop reasoning, ethics, and </description>
+      <title>Model-Aware Generation of Safety-Critical Scenes for Robust End-to-End Driving via Distilled Planner Surrogates</title>
+      <link>https://arxiv.org/abs/2610.35448</link>
+      <guid isPermaLink="false">arxiv:2610.35448</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>End-to-end driving models perform well on standard benchmarks but collide frequently in safety-critical scenarios. We present a failure-mode analysis on NeuroNCAP which shows that 95.9% of DiffusionDrive's collisions are planning failures despite reliable detection, pinpointing the bottleneck in planning rather than perception. We attribute this to a fundamental data imbalance, as safety-critical interactions are rare in real driving logs, so planners are hardly ever trained on them. We close th</description>
     </item>
     <item>
-      <title>PPO vs. SAC: A Comparative Study for Cooperative Motion Control of Dual-Arm Space Robots</title>
-      <link>https://arxiv.org/abs/2610.32034</link>
-      <guid isPermaLink="false">arxiv:2610.32034</guid>
-      <pubDate>2026-10-23</pubDate>
-      <description>The growing population of orbital debris has intensified interest in active debris removal and on-orbit servicing, for which dual-arm space manipulators offer improved grasping stability and load distribution relative to single-arm systems. However, coordinating two manipulators under inter-arm collision avoidance, orientation alignment, and sensing uncertainty remains challenging. This paper develops a coordinated reinforcement learning framework for cooperative motion planning of a dual-arm sp</description>
+      <title>Belief-Conditioned Multi-Agent Actor Critic for Decentralized LLM Collaboration</title>
+      <link>https://arxiv.org/abs/2610.35398</link>
+      <guid isPermaLink="false">arxiv:2610.35398</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Recent work has explored optimizing LLM collaboration through Multi-Agent Reinforcement Learning (MARL), but many approaches still rely on predefined workflows, limiting efficiency and scalability. Decentralized LLM collaboration is challenging because agents execute independently with limited communication, share a joint objective, and must infer useful information from communication traces. In this paper, we propose BCMAAC, a Belief-Conditioned Multi-Agent Actor-Critic method that maintains be</description>
     </item>
     <item>
-      <title>The Helpful Agent Problem: When Emergent Cooperation Among LLM Agents Bypasses Intended Workflows</title>
-      <link>https://arxiv.org/abs/2610.31985</link>
-      <guid isPermaLink="false">arxiv:2610.31985</guid>
-      <pubDate>2026-10-22</pubDate>
-      <description>LLM agents are increasingly deployed in collaborative settings where they pursue separate tasks while sharing resources and operating under review or oversight processes. Such settings create safety risks not only when agents are malicious, but also when they are simply trying to help. Prior work has largely studied adversarial or explicitly collusive behavior; we show that benign agents pursuing separate objectives can spontaneously cooperate in ways that bypass intended workflows. We call this</description>
+      <title>EmbodiedLab: Benchmarking Embodied Agents That Act to Know</title>
+      <link>https://arxiv.org/abs/2610.35385</link>
+      <guid isPermaLink="false">arxiv:2610.35385</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Embodied agents are expected to accomplish real-world goals by deciding for themselves how and when to interact with their surroundings. For many such goals, changing the physical state of the world is the means rather than the end: the agent changes the state of a system through interaction, observes the feedback, and explores until it either achieves the goal itself (e.g., discovering physical laws) or learns what the goal requires; it acts to know. Manipulation benchmarks stop at acting to ch</description>
     </item>
     <item>
-      <title>Agentic AI Defense: Decode-Time Provenance Binding for MCP</title>
-      <link>https://arxiv.org/abs/2610.31974</link>
-      <guid isPermaLink="false">arxiv:2610.31974</guid>
-      <pubDate>2026-10-22</pubDate>
-      <description>Agentic AI systems using the Model Context Protocol (MCP) are vulnerable to indirect prompt injection through untrusted tool outputs. We demonstrate cross-modal trust laundering, in which instructions concealed in an email-signature image using least-significant-bit (LSB), discrete cosine transform (DCT), or metadata steganography bypass text scanners and enter a multi-agent workflow when decoded by a tool. To counter this threat, we propose decode-time provenance binding, which combines HMAC-au</description>
+      <title>Reward-Guided RRT* for Budgeted Task and Motion Planning</title>
+      <link>https://arxiv.org/abs/2610.35289</link>
+      <guid isPermaLink="false">arxiv:2610.35289</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Robotic missions involving spatially distributed tasks often require jointly selecting rewarding locations and planning feasible motions under limited travel budgets. This paper proposes Reward-Guided RRT*, a new sampling-based framework that constructs a budget-feasible mission through a sequence of locally joint task-selection-and-motion-planning stages, evaluated directly in the continuous state space, without requiring a precomputed task-transition graph. The method incrementally builds a mi</description>
     </item>
     <item>
-      <title>Knowing Whom to Trust is not Enough: The Trust--Agreement Gap in Repeated Multi-Party LLM Negotiation</title>
-      <link>https://arxiv.org/abs/2610.31971</link>
-      <guid isPermaLink="false">arxiv:2610.31971</guid>
-      <pubDate>2026-10-22</pubDate>
-      <description>Large language model (LLM) agents increasingly participate in negotiations on behalf of individuals and organizations, yet they remain vulnerable to manipulation, particularly in repeated multi-party interactions. Classical multi-agent systems address this challenge through explicit trust and reputation models, whereas existing work on LLM negotiation largely treats trust as an emergent phenomenon. We investigate whether LLM agents can form useful trust estimates from prior interactions and leve</description>
+      <title>Same Story, Different Lens: A Multi-Agent System for Cross-Outlet News Framing Analysis</title>
+      <link>https://arxiv.org/abs/2610.35208</link>
+      <guid isPermaLink="false">arxiv:2610.35208</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>News outlets covering the same event differ in what they emphasize and omit. \textit{Same Story, Different Lens} is an experimental research prototype for comparing these choices. It collects world and politics coverage from 17 outlets, groups reports about the same event, and produces structured analyses of sentiment, political lean, framing, loaded language, possible omissions, and model-estimated proportions of factual claims and opinion. Loaded-language entries include quotations and neutral</description>
     </item>
     <item>
-      <title>Social-HUMINT: An LLM-Augmented Unified Framework for Measuring Social Media Exposure</title>
-      <link>https://arxiv.org/abs/2610.31573</link>
-      <guid isPermaLink="false">arxiv:2610.31573</guid>
-      <pubDate>2026-10-22</pubDate>
-      <description>In the post-API landscape, social-media profiling has become inexpensive and automated: Large Language Models (LLMs) can extract structured information from unstructured content and deduce attributes users never disclosed. A person's true exposure is not what they post but what can be inferred from it. As these practices become routine, exposure to social engineering attacks becomes an operational certainty, demanding a shared framework for assessment and mitigation. We make this exposure measur</description>
+      <title>Sparse Recovery Bird's-Eye View Model Soup for Robust Camera-Based 3D Object Detection</title>
+      <link>https://arxiv.org/abs/2610.34976</link>
+      <guid isPermaLink="false">arxiv:2610.34976</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Camera-based bird's-eye view (BEV) perception methods such as Fast-BEV have demonstrated promising results with fast inference speed and competitive accuracy. However, their robustness to real-world corruptions remains insufficiently explored, posing risks for autonomous driving deployment where environmental variations are inevitable. In this paper, we propose Sparse Recovery Bird's-Eye View Model Soup (SR-BEVS), a sparse recovery learning approach that simultaneously improves clean accuracy an</description>
     </item>
     <item>
-      <title>Decentralized Bi-Level Optimization for Cooperative Orbital Transportation of a Rigid Payload</title>
-      <link>https://arxiv.org/abs/2610.31562</link>
-      <guid isPermaLink="false">arxiv:2610.31562</guid>
-      <pubDate>2026-10-22</pubDate>
-      <description>The rapid growth of the space economy, alongside increasing orbital congestion and debris, is driving demand for reliable on-orbit transportation of large and non-cooperative objects. Performing such transportation with a swarm of small spacecraft distributes risk and removes the single point of failure inherent to monolithic architectures, but requires solving a non-convex trajectory optimization coupling every agent's cone-constrained thrust to the payload's rotational dynamics. Existing appro</description>
+      <title>ClinVerse: A Realistic Multi-Agent Diagnostic Environment for Training and Evaluating Medical Agents</title>
+      <link>https://arxiv.org/abs/2610.34878</link>
+      <guid isPermaLink="false">arxiv:2610.34878</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Disease diagnosis is a key application of large language model (LLM) agents in healthcare. However, existing medical agents are primarily trained and evaluated with static question-answering data, providing limited opportunities to learn active information acquisition, examination decision-making, and dynamic clinical interaction. To address this limitation, we present ClinVerse, an interactive, real-data-grounded multi-agent environment designed for training and evaluating medical diagnostic ag</description>
     </item>
     <item>
-      <title>Dispersive Tree Agreements for Multi-Robot Coordination</title>
-      <link>https://arxiv.org/abs/2610.31540</link>
-      <guid isPermaLink="false">arxiv:2610.31540</guid>
-      <pubDate>2026-10-22</pubDate>
-      <description>Multi-robot coordination of nonlinear systems is naturally formulated as joint-space optimal control subject to constraints over groups of robots. Existing methods that approach joint optimality remain largely centralized, offline, and confined to collision-free motion planning, while decentralized, real-time counterparts target safe navigation without pursuing the joint optimum. This paper develops a decentralized, real-time planner that approaches the joint optimum as an anytime process. We ex</description>
+      <title>Collective Emergent Alignment: Measuring and Amplifying Interaction-Induced Reasoning Alignment in Multi-Agent LLMs</title>
+      <link>https://arxiv.org/abs/2610.34836</link>
+      <guid isPermaLink="false">arxiv:2610.34836</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Multi-agent large language model (LLM) systems can exhibit emergent behaviors through interaction, yet whether a similar phenomenon exists for reasoning alignment remains largely unexplored. We study whether agent interaction produces additional reference-grounded reasoning alignment beyond matched individual self-refinement, and introduce REMAP (Reference-Entailment-Matrix for Agentic Process), a framework that quantifies this effect through Semantic Coverage and interaction-specific alignment </description>
     </item>
     <item>
-      <title>SCOPE: Scene-graph Construction Optimized by Plan Error-correction for Robot Long-term Planning Datasets</title>
-      <link>https://arxiv.org/abs/2610.31518</link>
-      <guid isPermaLink="false">arxiv:2610.31518</guid>
-      <pubDate>2026-10-22</pubDate>
-      <description>Task and Motion Planning (TAMP) stands as a fundamental challenge in robotics, essential for enabling autonomous agents to execute complex, long-horizon tasks in diverse environments. While Large Language Models (LLMs) introduce a new paradigm for TAMP by leveraging extensive common sense, their inherent reasoning limitations hinder direct application, and fine-tuning strategies to enhance these capabilities are currently bottlenecked by the scarcity of high-quality datasets. Existing automated </description>
-    </item>
-    <item>
-      <title>Muffin - A Shared Memory Buffer for Asynchronous AI Agents</title>
-      <link>https://arxiv.org/abs/2610.31355</link>
-      <guid isPermaLink="false">arxiv:2610.31355</guid>
-      <pubDate>2026-10-22</pubDate>
-      <description>The rise of Agentic AI systems has changed the landscape of artificial intelligence by enabling strong reasoning capabilities through specialized multi-agent interaction with structured self-reflection. However, in target-driven reasoning tasks, single- and multi-agent systems are often on par in terms of performance gains. A major challenge is that failures often arise from an ineffective exchange of critical information during inter-agent interaction and coordination. Different from existing m</description>
-    </item>
-    <item>
-      <title>Automating Feature Flag Cleanup at Scale with Multi-Agent LLM Systems: An Industrial Experience at DoorDash</title>
-      <link>https://arxiv.org/abs/2610.31351</link>
-      <guid isPermaLink="false">arxiv:2610.31351</guid>
-      <pubDate>2026-10-22</pubDate>
-      <description>Feature flags are runtime configuration mechanisms used for gradual feature rollouts, experimentation, and kill switches. Once a feature is fully rolled out, the flag and its gated code become technical debt and can introduce operational risk through inadvertently enabling dormant code paths. At DoorDash, over 56,000 feature flags span 623 repositories, with 1,659 currently stale as of May 2026, with internal estimates of one to two hours per manual cleanup. Existing rule-based cleanup tools pro</description>
+      <title>Centralized Critics for N-Agent Ad Hoc Teamwork</title>
+      <link>https://arxiv.org/abs/2610.34799</link>
+      <guid isPermaLink="false">arxiv:2610.34799</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Centralized training with decentralized execution (CTDE) has become the dominant paradigm in multi-agent reinforcement learning (MARL), motivating extensive study of what privileged information should be made available to the critic during training. While prior work has examined the role of global state in fully cooperative settings, the design of centralized critics for N-agent ad hoc teamwork - in which dynamically varying set of learning agents must coordinate with an arbitrary set of uncontr</description>
     </item>
   </channel>
 </rss>

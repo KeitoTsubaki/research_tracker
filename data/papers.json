@@ -1,5 +1,488 @@
 [
   {
+    "id": "arxiv:2610.35851",
+    "title": "Nonprehensile Robotic Catching Using Virtual Constraints",
+    "authors": [
+      "Aakash Khandelwal",
+      "Ranjan Mukherjee"
+    ],
+    "source": "arxiv",
+    "category": "eess.SY",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.35851",
+    "abstract": "The problem of nonprehensile robotic catching is addressed using virtual nonholonomic constraints (VNHCs); the motion of the robot end-effector is designed and controlled directly in terms of the states of the object before it is caught on the surface of the end-effector. In contrast to contemporary approaches, our approach avoids the need for object trajectory prediction, and consequent time-varying robot trajectory generation. With a focus on the planar case, we demonstrate that our VNHC approach can be used to catch an object on an end-effector at a desired height, with minimal relative normal velocity at the contact instant. Moreover, the VNHC function depends only on the desired catching height, and the same VNHC can be used for a range of initial conditions. We use model predictive control (MPC) to bring the object and end-effector to rest at a desired location after contact is made. The approach is validated in simulation.",
+    "published_date": "2026-10-26",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "9 pages, 6 figures; an abridged version of this article has been submitted to the 2027 American Control Conference (ACC)",
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.35850",
+    "title": "OSWAM: An Effective World Action Model with One-Step Action Generation",
+    "authors": [
+      "Guowen Zhang",
+      "Liyi Chen",
+      "Xu Hu",
+      "Pengfei Wang",
+      "Jingfan Chen",
+      "Chenhang He",
+      "Lei Zhang"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.35850",
+    "abstract": "Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied control. However, they still require tens of denoising steps to achieve competitive action quality, incurring substantial latency and hindering real-time deployment. Simply reducing the number of denoising steps will collapse the nonlinear multi-step denoising trajectory into coarse updates, substantially degrading action quality. To reduce the denoising steps while enabling real-time action generation, we present an effective world action model with one-step action generation, namely OSWAM, for autonomous driving and embodied control. We argue that it is the absence of structured action priors in random noise initialization that forces direct-policy WAMs to recover coherent action sequences through iterative denoising. Hence, we construct imagination tokens to initialize the diffusion process, providing physical priors and action-conditioned representations. We further introduce privileged information distillation with future conditioning to enhance future-aware action generation. As a result, OSWAM can efficiently and effectively generate high quality actions in just one diffusion step. Our experiments demonstrate that OSWAM achieves comparable or even better results in both autonomous driving and embodied control than direct-policy WAM and Joint-WAM that require tens of steps. It obtains approximately $3\\times$ speedup over direct-policy WAM baselines and supports real-time compiled inference with latency as low as 40ms on an NVIDIA RTX 5090 GPU. The project page is available at https://gwenzhang.github.io/OSWAM/",
+    "published_date": "2026-10-26",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "18 pages, 6 figures",
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.35736",
+    "title": "Preference-Guided Cooperation in Multi-Objective Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Qiyue Xia",
+      "J. Michael Herrmann"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.35736",
+    "abstract": "Multi-objective multi-agent reinforcement learning (MOMARL) addresses agent coordination and objective trade-offs simultaneously while optimising overall system performance. Existing work tends to treat multi-agent cooperation and multi-objective optimisation as largely independent components of a learning problem, which amounts to an exorbitant complexity except in trivial cases. We study here whether the structure provided by multiple objectives can itself be exploited to facilitate cooperation, rather than being treated as an additional optimisation challenge. We formulate MOMARL at both the team and individual levels and introduce objective-wise counterfactual credit assignment to evaluate each agent's contribution across the team objectives. We propose Meta-Gradient Informed Multi-Objective Multi-Agent Reinforcement Learning (MIRL), with static (MIRL-S) and dynamic (MIRL-D) variants. By incorporating meta-gradient information, MIRL enables agents to learn how to prioritise objectives individually while collectively optimising the system-level objective, allowing the multi-objective structure to directly guide cooperation. Experiments on a multi-objective multiple particle environment show that our methods improve Pareto-front quality over baselines, with the dynamic variant achieving the strongest performance.",
+    "published_date": "2026-10-26",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "14 pages, 4 figures, 1 table (plus 3 figures, 3 tables, and 2 algorithms in the appendix)",
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.35690",
+    "title": "EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation",
+    "authors": [
+      "Yitao Xiao",
+      "Xu Zhang",
+      "Ye Cheng",
+      "Shaoyong Guo",
+      "Yan Sun",
+      "Ziyue Zhu",
+      "Sitao Xie",
+      "Guo Tong",
+      "Haoran Luo"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.35690",
+    "abstract": "Serving web queries at scale with multi-agent systems requires jointly configuring large language models, collaboration modes, agent counts, interaction rounds, and skills. However, the resulting configuration space grows combinatorially, while sparse execution rewards provide limited fine-grained supervision for interdependent planning decisions. We propose EvoRouter, a self-evolving multi-agent routing framework driven by insight-guided on-policy distillation. A dedicated expert periodically synthesizes performance-cost feedback from configuration trajectories across tasks into reusable conditional routing insights about capability requirements, returns from resource scaling, and interactions among configuration choices. A privileged teacher combines these evolving insights with current execution feedback to provide dense token-level supervision for the router's own planning trajectories through on-policy distillation. Cost-aware reinforcement learning jointly optimizes task performance and computational cost. Together, these training signals internalize execution insights into the routing policy. The updated policy generates new trajectories that support subsequent insight extraction, forming an execution-driven self-improvement loop. We evaluate EvoRouter on 19 in-domain datasets spanning five domains and two out-of-domain benchmarks. EvoRouter achieves an average in-domain accuracy of 68.69%, outperforming the strongest routing baseline by 7.23 percentage points while reducing inference compute cost by 50.95%. Our code is open-sourced at https://github.com/CenYangtze/EvoRouter.",
+    "published_date": "2026-10-26",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "13 pages, 12 figures, 4 tables",
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.35687",
+    "title": "TrySee: Modular Perception-Enhanced VLM Grounding for Closed-Loop Robot Task Planning in Specialized Domains",
+    "authors": [
+      "Elias Hofele",
+      "Thomas Trapp",
+      "David Timmermann",
+      "Tristan Schnell",
+      "Georg Heppner",
+      "Arne Roennau"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.35687",
+    "abstract": "Vision Language Models (VLMs) have shown impressive capabilities in high-level reasoning and task planning for robots. However, specialized domains remain a challenge for VLMs' image interpretation and grounding abilities. We introduce TrySee, a modular closed-loop robot task planning pipeline integrating general-purpose VLM reasoning with domain-specific perception and established robotics components. The system consists of an inherently reactive cyclic planning pipeline, augmented with domain-specific modular vision preprocessing, to provide online grounding. Finally, a dynamic preprocessing selection mechanism contributes to the scalability of the pipeline. The system requires neither VLM fine-tuning nor end-to-end demonstrations and adapts through replaceable perception modules and motion planning. The approach is evaluated on planning tasks across 5 widely different domains, including a real-world robot disassembly task. The field tests in a brownfield environment demonstrate the approach's practicality in integrating VLM planning into specialized robotic systems with limited domain-specific training data.",
+    "published_date": "2026-10-26",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "To be published in the proceedings of the 2026 IEEE International Conference on Robotics and Biomimetics (ROBIO)",
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.35670",
+    "title": "Continuous-Time Safe Planning and Control for Agile Quadrupeds",
+    "authors": [
+      "Gage MacLin",
+      "Mason Peterson",
+      "Camilla Tabasso",
+      "Venanzio Cichella",
+      "Joshua Migdal",
+      "Tye Brady",
+      "Taskin Padir"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.35670",
+    "abstract": "Agile quadruped navigation in dynamic environments demands trajectories that are both dynamically feasible and provably collision-free. Most real-time planners achieve tractability through a convex reduction that requires simplified kinematic models, discarding motion that the robot can readily execute, and certify safety only at discretization points, leaving open possible inter-sample collisions with moving obstacles. We present a real-time motion planning framework that retains the fully-actuated $SE(2)$ model of a quadruped, with its anisotropic, heading-coupled velocity bounds, and accepts the resulting nonconvexity. By parameterizing trajectories as composite Bernstein polynomials, we exploit the convex hull property to certify collision avoidance and the input bounds over the entirety of each planning horizon. Solved at online replanning rates, the optimization runs in closed loop, commanding body velocities to the locomotion controller. We validate the approach in simulation against ablations and external baselines, and in hardware experiments on a quadruped navigating among unknown moving obstacles, recovering both lateral and heading-coupled motion that simplified models exclude.",
+    "published_date": "2026-10-26",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.35630",
+    "title": "Revisiting Direct Control: A Field Evaluation of Sensor Fusion Efficacy in Teleoperating Full-Scale Autonomous Vehicles via Bird's Eye View",
+    "authors": [
+      "Stanisław Kuczma",
+      "Sławomir K. Tadeja",
+      "Michał R. Nowicki"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.35630",
+    "abstract": "In autonomous driving, robot teleoperation serves as a critical safety fallback mechanism, requiring operators to assume direct control in the event of system failure. While recent research has pivoted toward high-level supervisory control or simulation-based studies, these approaches often fail to capture the physical dynamics and sensory demands of driving a full-scale vehicle. To address this gap, we evaluated the impact of spatial data representation on operator performance using a real car-sized vehicle in a field experiment with $N = 18$ participants. We compared three visualization interfaces: (i) a standard camera feed baseline, with two bird's-eye views (BEV) from (ii) a raw LiDAR point cloud, and (iii) a sensor fusion of LiDAR and camera data streams. Contrary to prior passive observation studies suggesting that sensor-fusion BEV may hinder awareness, our active-control results demonstrate that such representation significantly outperforms the standard LiDAR BEV in perceived usability ($p \\leq 0.0001$) and cognitive task load ($p = 0.01$, NASA-TLX score: 34.58/100) while also being significantly better than the Camera-only view ($p = 0.043$). The fused interface also led to statistically significant reductions in task completion time ($p = 0.0461$) and superior usability (SUS: 77.9/100) compared to those of the Camera-only and LiDAR-only views. By synthesizing objective performance data with comprehensive subjective assessments, we demonstrate that BEV fusion maximizes safety margins while minimizing the operator's mental demand. These findings challenge existing teleoperation conventions and provide an empirically validated approach for designing robust remote piloting systems.",
+    "published_date": "2026-10-26",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted at 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.35592",
+    "title": "GEAR: Feature-Based Configuration and Code Generation for Agentic Systems",
+    "authors": [
+      "Brell Sanwouo",
+      "Nada Zine",
+      "Paul Temple",
+      "Clément Quinton",
+      "Romain Rouvoy"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.35592",
+    "abstract": "Engineering multi-agent systems (MAS) requires choosing agents, orchestration strategies, communication mechanisms, reasoning approaches, and memory configurations. These choices depend on framework-specific capabilities and abstractions, requiring developers to learn different APIs when exploring alternative implementations. We present GEAR, an open-source tool for configuring MAS and generating framework-specific implementations from a common specification. GEAR uses a feature-based representation to make configuration options and their constraints explicit, enabling users to validate specifications before code generation. Through connectors for ten agentic frameworks, users generate projects from the same specification and can then inspect reports describing framework-specific adaptations. A preliminary assessment of mapping feasibility identifies translation strategies for 271 of 320 evaluated feature-framework pairs (84.69%). GEAR supports developers prototyping agentic systems and researchers exploring MAS configurations across frameworks. GEAR is available as open-source software at https://github.com/brellsanwouo/gear-framework and a video demo is available at https://youtu.be/iwNi-oC2tCw.",
+    "published_date": "2026-10-26",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.35494",
+    "title": "Enhancing Deep Reinforcement Learning for Robotic Motion Planning via Task Decomposition",
+    "authors": [
+      "Yuanzhi He",
+      "Victor Romero-Cano",
+      "Jiayu Xu",
+      "Juan David Hernández",
+      "Gualtiero Colombo"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.35494",
+    "abstract": "Training robotic manipulation policies in simulation is widely adopted due to safety and cost efficiency; however, tasks involving obstacles remain under-performing and often converge slowly under Deep Reinforcement Learning (DRL). To address this challenge, we propose a task decomposition framework for DRL that integrates Transfer Learning (TL) with Reward Redesign (RR) to improve learning efficiency and robustness in obstacle environments. The TL strategy selectively transfers only the first-layer critic parameters across structurally related tasks, since that layer captures general state--action representations while deeper layers encode reward- and obstacle-specific value geometry; RR decomposes tasks into staged sub-objectives to provide denser optimization signals. Experiments on the PyBullet Panda platform show consistent gains in obstacle settings. On Push with obstacle, our method achieves $0.83 \\pm 0.05$, outperforming the strongest baseline (Truncated Quantile Critics (TQC), $0.77 \\pm 0.06$) by approximately $7.8\\%$. On Slide with obstacle, performance reaches $0.95 \\pm 0.02$, exceeding Soft Actor-Critic (SAC) ($0.84 \\pm 0.06$) by about $11\\%$ success rates. In addition to higher final performance, forward transfer reduces convergence time by up to $70\\%$ in obstacle tasks, and RR shortens sparse-reward Pick-and-Place training from roughly $0.75$M to $0.20$M steps ($\\approx73\\%$ reduction). The best policy is deployed on a real Franka Emika FR3 robot as a qualitative feasibility demonstration.",
+    "published_date": "2026-10-26",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted to IEEE MSN 2026. 9 pages",
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.35448",
+    "title": "Model-Aware Generation of Safety-Critical Scenes for Robust End-to-End Driving via Distilled Planner Surrogates",
+    "authors": [
+      "Khaled M. Seyam",
+      "Julian Wiederer",
+      "Samar Fathalah",
+      "Markus Braun",
+      "Bin Yang"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.35448",
+    "abstract": "End-to-end driving models perform well on standard benchmarks but collide frequently in safety-critical scenarios. We present a failure-mode analysis on NeuroNCAP which shows that 95.9% of DiffusionDrive's collisions are planning failures despite reliable detection, pinpointing the bottleneck in planning rather than perception. We attribute this to a fundamental data imbalance, as safety-critical interactions are rare in real driving logs, so planners are hardly ever trained on them. We close this gap with a novel model-aware framework that generates safety-critical training scenes against a specific planner. Each planner is attacked at the bird's-eye-view (BEV) level through a differentiable surrogate distilled from its own planning head. This keeps the expensive video renderer out of the attack loop. We extract 50 scenes per planner, each pairing an attack with a safe escape trajectory that serves as the fine-tuning label. A fully automated quality-diversity search generates both the attacks and the escapes, so that their variety is not specified by hand. Only these scenes are rendered to fine-tune the planner, which reduces the computational cost significantly. Fine-tuning on these scenes roughly halves the closed-loop collision rate of two planners on NeuroNCAP (SparseDrive 28.0% to 12.2%, DiffusionDrive 37.5% to 19.2%) while largely preserving normal driving. A cross-planner transfer experiment shows that the gain comes from targeting the specific planner. Each planner improves most on the scenes generated against itself, and DiffusionDrive fine-tuned on SparseDrive's scenes retains only 6.7 of its 18.3-point collision-rate reduction.",
+    "published_date": "2026-10-26",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.35398",
+    "title": "Belief-Conditioned Multi-Agent Actor Critic for Decentralized LLM Collaboration",
+    "authors": [
+      "Tianle Chen",
+      "Shuo Liu",
+      "Christopher Amato"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.35398",
+    "abstract": "Recent work has explored optimizing LLM collaboration through Multi-Agent Reinforcement Learning (MARL), but many approaches still rely on predefined workflows, limiting efficiency and scalability. Decentralized LLM collaboration is challenging because agents execute independently with limited communication, share a joint objective, and must infer useful information from communication traces. In this paper, we propose BCMAAC, a Belief-Conditioned Multi-Agent Actor-Critic method that maintains beliefs over contextual information and uses them to facilitate training. Experiments on Minecraft game-playing, web searching and tool-using tasks show that BCMAAC improves task performance and collaborative behavior compared to naive actor-critic baselines. The improvements are particularly pronounced in multi-turn tasks with richer contextual information, where belief modeling provides a clear advantage.",
+    "published_date": "2026-10-26",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted at the NeurIPS 2026 Workshop PTA: From Pretrained Representations to Acting Agents. 18 pages, 3 figures",
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.35385",
+    "title": "EmbodiedLab: Benchmarking Embodied Agents That Act to Know",
+    "authors": [
+      "Hongcheng Gao",
+      "Zelin Zheng",
+      "Alex Zhou",
+      "Jay Zhu",
+      "Shijia Ge",
+      "Yazhe Wang",
+      "Xiping Li",
+      "Jianshu Zeng",
+      "Di Wu",
+      "Xuan Shangguan",
+      "Yexing Wan",
+      "Lingyu He",
+      "Yongli Wang",
+      "Xiaohan Yu",
+      "Zhiqi Jia",
+      "Yue Liu",
+      "Bryan Hooi",
+      "Yinpeng Dong",
+      "Wentao Zhang",
+      "Sihang Wu",
+      "Xiao He"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.35385",
+    "abstract": "Embodied agents are expected to accomplish real-world goals by deciding for themselves how and when to interact with their surroundings. For many such goals, changing the physical state of the world is the means rather than the end: the agent changes the state of a system through interaction, observes the feedback, and explores until it either achieves the goal itself (e.g., discovering physical laws) or learns what the goal requires; it acts to know. Manipulation benchmarks stop at acting to change, with the target state given; scientific discovery benchmarks evaluate knowing but replace physical experimentation with symbolic actions or numerical queries. We introduce EmbodiedLab, a benchmark in which a robot must act to know. Quantitative science experiments make this setting controllable: the parameters of the system are resampled for every instance, so the result cannot be known in advance, yet it can be scored exactly. Across 30 experiments in five disciplines on 14 apparatus platforms, the agent receives an objective and the apparatus, chooses its own procedure, and operates a physics-based simulated laboratory, reading the instruments through its cameras. Evaluation checks what the agent came to know, grounded in readings recorded during the episode, as well as the physical state the task requires; every experiment is verified to be solvable. We evaluate six frontier models in their developers' coding agents with native observation and control, with added perception and motion planning, and with manipulation skills distilled from the strongest agents. With native control, even the strongest agent succeeds less than half the time; for every agent, most failures arise in interacting with the apparatus, and manipulation skills help weaker agents more than perception and planning. The benchmark and its evaluation code are available at https://github.com/HexaFuture/EmbodiedLab.",
+    "published_date": "2026-10-26",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "Technical report. 19 pages, 10 figures, 9 tables. Project page: https://hexafuture.ai/benchmarks/embodiedlab/",
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.35289",
+    "title": "Reward-Guided RRT* for Budgeted Task and Motion Planning",
+    "authors": [
+      "Vinícius Araújo de Oliveira",
+      "Gabriel Ferreira Mendes Lourenço",
+      "Paulo L. J. Drews-Jr",
+      "Armando Alves Neto",
+      "Douglas G. Macharet"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.35289",
+    "abstract": "Robotic missions involving spatially distributed tasks often require jointly selecting rewarding locations and planning feasible motions under limited travel budgets. This paper proposes Reward-Guided RRT*, a new sampling-based framework that constructs a budget-feasible mission through a sequence of locally joint task-selection-and-motion-planning stages, evaluated directly in the continuous state space, without requiring a precomputed task-transition graph. The method incrementally builds a mission using reward-guided RRT* searches, while a return-feasibility procedure ensures that each selected task can be visited without violating the mission budget. Experiments with increasing obstacle complexity and number of tasks show solutions comparable to VNS-PRM* while requiring substantially fewer sampled states. We also extend the framework to Dubins steering and evaluate it in CoppeliaSim with a scaled car-like robotic platform, demonstrating its ability to incorporate vehicle kinematic constraints.",
+    "published_date": "2026-10-26",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.35208",
+    "title": "Same Story, Different Lens: A Multi-Agent System for Cross-Outlet News Framing Analysis",
+    "authors": [
+      "Affan Yasin",
+      "Yueqi Lyu",
+      "Rubia Fatima",
+      "Weinchen Zhong",
+      "Keyi Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.35208",
+    "abstract": "News outlets covering the same event differ in what they emphasize and omit. \\textit{Same Story, Different Lens} is an experimental research prototype for comparing these choices. It collects world and politics coverage from 17 outlets, groups reports about the same event, and produces structured analyses of sentiment, political lean, framing, loaded language, possible omissions, and model-estimated proportions of factual claims and opinion. Loaded-language entries include quotations and neutral rewordings. Three model roles (agents) handle article analysis, assessment of source support, and cross-outlet briefing generation. Analyses are stored in a JSONL archive. The evaluation compares outlet-level lean estimates with approximate, predefined reference ratings and summarizes the Critic's model-assigned grounding scores. These measures provide preliminary diagnostics. A grounding score reflects the model's assessment of support in the supplied text and does not establish factual accuracy or constitute independent verification.",
+    "published_date": "2026-10-26",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "The projects source code is available in the GitHub repository. Link: https://github.com/affanyasin1/multi-perspective-analyzer",
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.34976",
+    "title": "Sparse Recovery Bird's-Eye View Model Soup for Robust Camera-Based 3D Object Detection",
+    "authors": [
+      "Jinwoo Chung",
+      "Sangho An",
+      "Hyunsung Park",
+      "Jangho Kim"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.34976",
+    "abstract": "Camera-based bird's-eye view (BEV) perception methods such as Fast-BEV have demonstrated promising results with fast inference speed and competitive accuracy. However, their robustness to real-world corruptions remains insufficiently explored, posing risks for autonomous driving deployment where environmental variations are inevitable. In this paper, we propose Sparse Recovery Bird's-Eye View Model Soup (SR-BEVS), a sparse recovery learning approach that simultaneously improves clean accuracy and corruption robustness without requiring additional data or architectural modifications. Our method identifies pruning candidates based on layer-wise weight magnitudes, applies random pruning to create diverse sparse models, and retrains each model with a randomly sampled learning rate. By averaging these diverse recovered models into a single dense model, we achieve enhanced robustness against various corruptions while introducing zero inference overhead. We further provide a mode connectivity analysis demonstrating that our pruning-based diversification preserves the connected low-loss basin necessary for stable weight averaging. Experiments on the nuScenes dataset demonstrate up to 33.8% improvement in corruption robustness and a 1.8% gain in clean accuracy over the Fast-BEV baseline, with consistent improvements across sensor noise, weather distortions, and illumination changes. Our simple yet effective approach may be applicable to other BEV models.",
+    "published_date": "2026-10-26",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted to IROS 2026. 8 pages, 6 figures",
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.34878",
+    "title": "ClinVerse: A Realistic Multi-Agent Diagnostic Environment for Training and Evaluating Medical Agents",
+    "authors": [
+      "Sirry Chen",
+      "Fangke Chen",
+      "Xuanwen Ding",
+      "Wei Chen",
+      "Zhongyu Wei"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.34878",
+    "abstract": "Disease diagnosis is a key application of large language model (LLM) agents in healthcare. However, existing medical agents are primarily trained and evaluated with static question-answering data, providing limited opportunities to learn active information acquisition, examination decision-making, and dynamic clinical interaction. To address this limitation, we present ClinVerse, an interactive, real-data-grounded multi-agent environment designed for training and evaluating medical diagnostic agents. Built on ClinPatient, a scalable dataset comprising 150k diagnostic cases derived from real-world electronic health records, ClinVerse supports coordinated interactions among six specialized clinical roles. Specifically, a doctor agent starts from an initial patient complaint, progressively gathers clinical evidence through patient interviews and examination requests, and ultimately produces a diagnosis. For each interaction trajectory, a rule-based scoring framework quantifies information acquisition, examination ordering, and diagnostic accuracy. These trajectory-level scores serve as reward signals for agent training while also enabling scalable evaluation. In experiments, we evaluate various general-purpose and medical-domain models and show that nine self-evolution methods across three categories consistently improve agents' diagnostic capabilities within ClinVerse. We further analyze the interplay among model capability, environment feedback, and self-evolution methods.",
+    "published_date": "2026-10-26",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.34836",
+    "title": "Collective Emergent Alignment: Measuring and Amplifying Interaction-Induced Reasoning Alignment in Multi-Agent LLMs",
+    "authors": [
+      "Boxuan Wang",
+      "Zhuoyun Li",
+      "Sarvapali D. Ramchurn",
+      "Xiaowei Huang",
+      "Yi Dong"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.34836",
+    "abstract": "Multi-agent large language model (LLM) systems can exhibit emergent behaviors through interaction, yet whether a similar phenomenon exists for reasoning alignment remains largely unexplored. We study whether agent interaction produces additional reference-grounded reasoning alignment beyond matched individual self-refinement, and introduce REMAP (Reference-Entailment-Matrix for Agentic Process), a framework that quantifies this effect through Semantic Coverage and interaction-specific alignment gains. Across diverse model families and two multi-hop reasoning benchmarks, we observe broadly positive interaction gains, particularly on reasoning content that depends on integrating evidence distributed across agents. These gains are consistently associated with independently measured peer-information recovery, while further analysis reveals composition-dependent heterogeneity effects and asymmetric information transfer across agent capability levels. Motivated by these findings, we further introduce a fact-level multi-agent communication framework that replaces full reasoning-trace exchange with compact, gap-aware, and selectively routed information. Our experiments show that compact fact exchange improves reasoning alignment and task performance while reducing communication overhead, whereas more selective communication exposes a trade-off between acquiring distributed information, retaining local content, and communication efficiency. Overall, our results show that collective emergent alignment can be quantified, linked to information-transfer patterns, and used to guide more effective multi-agent communication.",
+    "published_date": "2026-10-26",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "Preprint - Under Review",
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.34799",
+    "title": "Centralized Critics for N-Agent Ad Hoc Teamwork",
+    "authors": [
+      "Andrew McAlinden",
+      "Caroline Wang",
+      "Steven Shi",
+      "Arrasy Rahman",
+      "Elad Liebman",
+      "Peter Stone"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.34799",
+    "abstract": "Centralized training with decentralized execution (CTDE) has become the dominant paradigm in multi-agent reinforcement learning (MARL), motivating extensive study of what privileged information should be made available to the critic during training. While prior work has examined the role of global state in fully cooperative settings, the design of centralized critics for N-agent ad hoc teamwork - in which dynamically varying set of learning agents must coordinate with an arbitrary set of uncontrolled teammates drawn from an unknown distribution - remains poorly understood. We study this question by comparing two natural classes of advantage estimators: controlled history estimators, which condition only on the observation and action histories of the learner's own agents, and joint history estimators, which additionally condition on the histories of the uncontrolled teammates. We prove that both estimators are unbiased and characterize the conditions under which the joint history estimate attains strictly lower variance than its controlled counterpart. Empirically, joint history critics match or outperform controlled history critics across a range of NAHT tasks, yielding improved sample efficiency and final returns. Together, these results provide both a theoretical justification and an empirical recommendation for incorporating uncontrolled agent histories into centralized critics for N-agent ad hoc teamwork.",
+    "published_date": "2026-10-26",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-10-27T08:38:47Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2610.32851",
     "title": "Reimagining Enterprise RAG for Multi-Agent Systems: A Knowledge Layer That Organizes Before It Retrieves",
     "authors": [
