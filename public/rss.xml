@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Wed, 28 Oct 2026 09:18:32 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 09:20:34 GMT</lastBuildDate>
     <item>
       <title>TANDEM: Balancing Centralized and Decentralized Critics to Address the Information Gap in Complex Multi-Agent Environments</title>
       <link>https://arxiv.org/abs/2610.37592</link>
@@ -95,6 +95,55 @@
       <guid isPermaLink="false">arxiv:2610.36652</guid>
       <pubDate>2026-10-27</pubDate>
       <description>Memory helps LLM-based multi-agent systems reuse experience, but stored advice can be flawed or applied in the wrong situation. Team-level success or failure alone cannot reliably show whether a memory needs correction or should not have been used. We propose DiscernMem, a training-free framework that improves both memory quality and memory use. To improve quality, Defect-Aware Memory Refinement (DMR) compares team executions with a single memory and with no memory, diagnoses rule defects, and t</description>
+    </item>
+    <item>
+      <title>Nonprehensile Robotic Catching Using Virtual Constraints</title>
+      <link>https://arxiv.org/abs/2610.35851</link>
+      <guid isPermaLink="false">arxiv:2610.35851</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>The problem of nonprehensile robotic catching is addressed using virtual nonholonomic constraints (VNHCs); the motion of the robot end-effector is designed and controlled directly in terms of the states of the object before it is caught on the surface of the end-effector. In contrast to contemporary approaches, our approach avoids the need for object trajectory prediction, and consequent time-varying robot trajectory generation. With a focus on the planar case, we demonstrate that our VNHC appro</description>
+    </item>
+    <item>
+      <title>OSWAM: An Effective World Action Model with One-Step Action Generation</title>
+      <link>https://arxiv.org/abs/2610.35850</link>
+      <guid isPermaLink="false">arxiv:2610.35850</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied control. However, they still require tens of denoising steps to achieve competitive action quality, incurring substantial latency and hindering real-time deployment. Simply reducing the number of denoising steps will collapse the nonlinear multi-step denoising trajectory into coarse updates, substa</description>
+    </item>
+    <item>
+      <title>Preference-Guided Cooperation in Multi-Objective Multi-Agent Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2610.35736</link>
+      <guid isPermaLink="false">arxiv:2610.35736</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Multi-objective multi-agent reinforcement learning (MOMARL) addresses agent coordination and objective trade-offs simultaneously while optimising overall system performance. Existing work tends to treat multi-agent cooperation and multi-objective optimisation as largely independent components of a learning problem, which amounts to an exorbitant complexity except in trivial cases. We study here whether the structure provided by multiple objectives can itself be exploited to facilitate cooperatio</description>
+    </item>
+    <item>
+      <title>EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation</title>
+      <link>https://arxiv.org/abs/2610.35690</link>
+      <guid isPermaLink="false">arxiv:2610.35690</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Serving web queries at scale with multi-agent systems requires jointly configuring large language models, collaboration modes, agent counts, interaction rounds, and skills. However, the resulting configuration space grows combinatorially, while sparse execution rewards provide limited fine-grained supervision for interdependent planning decisions. We propose EvoRouter, a self-evolving multi-agent routing framework driven by insight-guided on-policy distillation. A dedicated expert periodically s</description>
+    </item>
+    <item>
+      <title>TrySee: Modular Perception-Enhanced VLM Grounding for Closed-Loop Robot Task Planning in Specialized Domains</title>
+      <link>https://arxiv.org/abs/2610.35687</link>
+      <guid isPermaLink="false">arxiv:2610.35687</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Vision Language Models (VLMs) have shown impressive capabilities in high-level reasoning and task planning for robots. However, specialized domains remain a challenge for VLMs' image interpretation and grounding abilities. We introduce TrySee, a modular closed-loop robot task planning pipeline integrating general-purpose VLM reasoning with domain-specific perception and established robotics components. The system consists of an inherently reactive cyclic planning pipeline, augmented with domain-</description>
+    </item>
+    <item>
+      <title>Continuous-Time Safe Planning and Control for Agile Quadrupeds</title>
+      <link>https://arxiv.org/abs/2610.35670</link>
+      <guid isPermaLink="false">arxiv:2610.35670</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>Agile quadruped navigation in dynamic environments demands trajectories that are both dynamically feasible and provably collision-free. Most real-time planners achieve tractability through a convex reduction that requires simplified kinematic models, discarding motion that the robot can readily execute, and certify safety only at discretization points, leaving open possible inter-sample collisions with moving obstacles. We present a real-time motion planning framework that retains the fully-actu</description>
+    </item>
+    <item>
+      <title>Revisiting Direct Control: A Field Evaluation of Sensor Fusion Efficacy in Teleoperating Full-Scale Autonomous Vehicles via Bird's Eye View</title>
+      <link>https://arxiv.org/abs/2610.35630</link>
+      <guid isPermaLink="false">arxiv:2610.35630</guid>
+      <pubDate>2026-10-26</pubDate>
+      <description>In autonomous driving, robot teleoperation serves as a critical safety fallback mechanism, requiring operators to assume direct control in the event of system failure. While recent research has pivoted toward high-level supervisory control or simulation-based studies, these approaches often fail to capture the physical dynamics and sensory demands of driving a full-scale vehicle. To address this gap, we evaluated the impact of spatial data representation on operator performance using a real car-</description>
     </item>
   </channel>
 </rss>
