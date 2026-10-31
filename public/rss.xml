@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Fri, 30 Oct 2026 09:36:13 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 09:16:36 GMT</lastBuildDate>
     <item>
       <title>Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In</title>
       <link>https://arxiv.org/abs/2610.40588</link>
@@ -130,6 +130,20 @@
       <guid isPermaLink="false">arxiv:2610.39416</guid>
       <pubDate>2026-10-29</pubDate>
       <description>Predicting where to grasp and how to move is fundamentally a geometry problem. Vision-language models treat it as language generation instead. They tokenize spatial coordinates into text and decode them autoregressively. This mechanism ignores spatial structure and truncates continuous precision. Errors compound across coordinate tokens during decoding. In this paper, we show that compact off-the-shelf VLMs with 0.5-2B parameters already encode rich spatial information in their intermediate hidd</description>
+    </item>
+    <item>
+      <title>TANDEM: Balancing Centralized and Decentralized Critics to Address the Information Gap in Complex Multi-Agent Environments</title>
+      <link>https://arxiv.org/abs/2610.37592</link>
+      <guid isPermaLink="false">arxiv:2610.37592</guid>
+      <pubDate>2026-10-27</pubDate>
+      <description>Cooperative multi-agent reinforcement learning under centralized training with decentralized execution (CTDE) shapes decentralized policies with a centralized critic that observes the global state, then removes the critic at execution. The policies are optimized to rely on information they will not have when they act, an information gap between training and execution. It widens under partial observability, observation noise, and openness, where the set of agents and tasks present changes during </description>
+    </item>
+    <item>
+      <title>PerceptRL: Making Visual Perception Rewardable in MLLMs from Answers to Interactions</title>
+      <link>https://arxiv.org/abs/2610.37471</link>
+      <guid isPermaLink="false">arxiv:2610.37471</guid>
+      <pubDate>2026-10-27</pubDate>
+      <description>Fine-grained visual perception remains a bottleneck during post-training of multimodal large language models (MLLMs), as perceptual errors can constrain gains from reasoning-focused optimization. Although image-caption pre-training improves perception, its influence can weaken as subsequent stages change data mixtures and objectives. Continuing caption supervision during post-training is challenging because subjective, information-dense descriptions complicate verifiable reward design. We presen</description>
     </item>
   </channel>
 </rss>
