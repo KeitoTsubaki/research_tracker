@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 02 Nov 2026 10:32:28 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 11:50:30 GMT</lastBuildDate>
     <item>
       <title>RAMA: Retrieval-Augmented Multi-Agent Routing with Episodic Memory for LEO Satellite Networks</title>
       <link>https://arxiv.org/abs/2610.42068</link>
@@ -109,6 +109,41 @@
       <guid isPermaLink="false">arxiv:2610.41185</guid>
       <pubDate>2026-10-30</pubDate>
       <description>End-to-end (E2E) autonomous driving models achieve strong planning performance but remain largely opaque, limiting observability and trust. We apply mechanistic interpretability to E2E driving by training Sparse Autoencoders (SAEs) on the internal activations of a simple, single-camera end-to-end path planning model. Unsupervised clustering of SAE latents reveals interpretable structure aligned with route intent, vehicle speed, and braking behavior, recovering route intent with 98.3% accuracy wi</description>
+    </item>
+    <item>
+      <title>Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In</title>
+      <link>https://arxiv.org/abs/2610.40588</link>
+      <guid isPermaLink="false">arxiv:2610.40588</guid>
+      <pubDate>2026-10-29</pubDate>
+      <description>When AI agents share channels and credentials, one agent can press another to break its operator's rule, a first step towards collusion. Output filters check only what an agent has already written. Can an overseer tell beforehand that an agent is about to give in? We show that a linear probe on the agent's activations can, in a controlled multi-agent setting. Across six scenarios, a peer presses a target for up to 20 rounds to reveal a secret, such as a deploy token; the target often refuses, th</description>
+    </item>
+    <item>
+      <title>Agentic University: Collaborative Agents for Personalized Learning</title>
+      <link>https://arxiv.org/abs/2610.40492</link>
+      <guid isPermaLink="false">arxiv:2610.40492</guid>
+      <pubDate>2026-10-29</pubDate>
+      <description>Large language models support personalized tutoring, content generation, and adaptive learning paths. However, capability development requires these resources and interactions to form a coherent learning process that evolves with the learner. A central challenge is to align goals, activities, and assessment while using learning evidence to decide what should follow. We introduce Human-Participatory Multi-Agent Organization and instantiate it in Agentic University (AU). In AU, learners participat</description>
+    </item>
+    <item>
+      <title>Reinforcement learning for control of partial differential equations</title>
+      <link>https://arxiv.org/abs/2610.40449</link>
+      <guid isPermaLink="false">arxiv:2610.40449</guid>
+      <pubDate>2026-10-29</pubDate>
+      <description>Controlling dynamical systems governed by partial differential equations (PDEs) remains a challenging task in scientific computing, owing to high-dimensional state spaces, distributed actuation, nonlinear dynamics, and stringent real-time constraints. Reinforcement learning (RL) has emerged as a promising paradigm for synthesizing feedback controllers that adapt to varying operating conditions and can be deployed efficiently in real-time. This review provides a unified perspective on RL and PDE-</description>
+    </item>
+    <item>
+      <title>MAServeBench: Benchmarking Multi-Agent LLM Serving Systems with Hierarchical Collaboration Workloads</title>
+      <link>https://arxiv.org/abs/2610.40293</link>
+      <guid isPermaLink="false">arxiv:2610.40293</guid>
+      <pubDate>2026-10-29</pubDate>
+      <description>Large language model (LLM)-based multi-agent systems (MAS) coordinate specialized agents to solve complex tasks, turning each user request into interdependent model and tool operations. Unlike independent requests, these operations become ready at different times and consume evolving context as agents coordinate and exchange results. This creates changing patterns of concurrency, computation, and memory demand that can expose different bottlenecks in LLM serving hardware. Yet benchmarking these </description>
+    </item>
+    <item>
+      <title>EpiAgent: Epistemic Self-Play for LLM Agents</title>
+      <link>https://arxiv.org/abs/2610.40227</link>
+      <guid isPermaLink="false">arxiv:2610.40227</guid>
+      <pubDate>2026-10-29</pubDate>
+      <description>Epistemic game theory explains an agent's strategic behavior via the beliefs it holds about others and how these beliefs are updated as the interactions unfold. Modern LLM-based agents, however, often lack an explicit mechanism for learning and updating such beliefs to guide decisions under incomplete information. To bridge this gap, we propose EpiAgent, a framework that equips LLM-based agents with an explicit, learnable epistemic layer, which maintains beliefs over others' private information </description>
     </item>
   </channel>
 </rss>
