@@ -1,5 +1,408 @@
 [
   {
+    "id": "arxiv:2610.42068",
+    "title": "RAMA: Retrieval-Augmented Multi-Agent Routing with Episodic Memory for LEO Satellite Networks",
+    "authors": [
+      "Xin Ming Li",
+      "Peng Hu"
+    ],
+    "source": "arxiv",
+    "category": "cs.NI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.42068",
+    "abstract": "Low-Earth orbit (LEO) satellite networks present a challenging routing environment due to rapidly changing topology, traffic, and link conditions. Existing deep reinforcement learning (DRL) routing methods typically rely on current observations and information encoded in network weights, limiting their ability to exploit successful past experiences. We propose RAMA, a retrieval-augmented multi-agent DRL framework with Approximate Information State (AIS), in which each satellite combines its local observation, recent routing history, neighboring state information, and retrieved entries from a per-satellite episodic memory. Retrieved experiences are integrated through a Transformer-based decision network trained with AIS-based auxiliary objectives. With weights frozen in a 140-satellite Kepler constellation, RAMA reduces mean end-to-end latency by 13.4% and 99th-percentile latency by 66.7% relative to the state-of-theart double deep Q-network (DDQN) routing method, mainly by avoiding long detours. Updated online, RAMA remains stable while DDQN degrades. On the 1,584-satellite Starlink shell 1, the reduction in mean latency grows to 93.2%, and updating RAMA online lowers its mean latency by a further 25.5%. These results demonstrate the effectiveness of retrieval-augmented memory for scalable decentralized routing in LEO satellite networks.",
+    "published_date": "2026-10-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-02T10:32:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.41936",
+    "title": "Adaptive Coverage Algorithms for Mobile Ad Hoc Networks in Dynamic Worlds",
+    "authors": [
+      "Hugo Gandhi",
+      "Edwin Meriaux",
+      "Antonio Loría"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.41936",
+    "abstract": "This paper extends an existing framework for the coordination of mobile agents in unknown worlds, by considering the possibility of dynamic instability. In the original problem, known as the Partially Observable Cooperative Guard Art Gallery Problem (POCGAGP) (arXiv:2512.09495), the multi-agent system must establish a communication network which completely covers an initially unknown constrained space. However, the POCGAGP fails to account for the unpredictability often seen in real-world deployment. To address this, the dynamic case (DPOCGAGP) introduces two settings which can influence the mobile network during deployment: Agent Loss and World Change, which represent dynamic changes to the world. Within this study, we present advancements to two state-of-the-art algorithms, the Centralized Agent-Directed Exploration for Network Coverage (CADENCE), and its decentralized analogue, DADENCE, to provide solutions in these cases. We then compare their performance against another state-of-the-art benchmark algorithm, and show that the adapted algorithms outperform across our benchmark test set, which comprises over 4500 test cases of varied size and structure.",
+    "published_date": "2026-10-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "8 pages, 10 figures. Accepted to the 2026 IEEE MIT Undergraduate Research Technology Conference (URTC)",
+    "fetched_at": "2026-11-02T10:32:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.41903",
+    "title": "Statistical Foundations of Reinforcement Learning: A Non-Asymptotic Perspective",
+    "authors": [
+      "Yuxin Chen",
+      "Yuejie Chi",
+      "Jianqing Fan",
+      "Gen Li",
+      "Yuting Wei",
+      "Yuling Yan"
+    ],
+    "source": "arxiv",
+    "category": "stat.ML",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.41903",
+    "abstract": "Reinforcement learning (RL) embodies a foundational paradigm for sequential decision-making in the face of uncertainty. The rapid growth of model complexity in emerging applications has significantly amplified the challenges of achieving data-efficient RL, particularly in sample-starved scenarios where data collection may be costly, time-consuming, or even high-stakes. Consequently, understanding and improving the data efficiency of RL algorithms has become a central problem of both fundamental theoretical interest and practical importance. Despite decades of research, the statistical underpinnings of RL remained remarkably underdeveloped until relatively recently, particularly in the finite-sample regimes most relevant to modern practice. Over the past few years, there has been a surge of activity advancing the frontiers of non-asymptotic statistical RL theory, drawing on ideas from high-dimensional statistics and probability, information theory, and statistical learning theory. In this monograph, we present a non-asymptotic treatment for RL based on tabular Markov decision processes, focusing on three canonical sampling mechanisms --- RL with a generative model, online RL, and offline RL --- together with two algorithmic paradigms: model-based and model-free approaches. Centered around non-asymptotic sample complexity analysis, our treatment emphasizes minimax-optimal algorithm design, particularly methods that attain statistical optimality without significant burn-in costs, as well as sharp statistical characterizations of several widely used RL algorithms. Whenever possible, we provide largely self-contained analyses together with intuitive explanations. We also briefly discuss several extensions, such as robust RL, competitive multi-agent RL, federated RL, uncertainty quantification, and RL from human feedback.",
+    "published_date": "2026-10-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-02T10:32:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.41751",
+    "title": "Latent-Lens: Visual Perception in Small Language Models Through Latent Communication",
+    "authors": [
+      "Mo Shahdloo",
+      "Faegheh Sardari",
+      "Mathew Salvaris"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.41751",
+    "abstract": "Bridging independent vision-language models (VLMs) and small language models (SLMs) in a modular multi-agent system typically forces them to exchange information as discrete text, which creates a lossy bottleneck for spatial and fine-grained details. This constraint is especially acute for SLMs, whose limited capacity makes them more reliant on the quality of the input signal. Recent latent-communication methods exchange states between language models. How a VLM can pass visual information to a separately pretrained text-only SLM though remains unexplored. We propose \\textbf{Latent-Lens}, a lightweight codec that bridges the representation gap between a frozen VLM and a frozen SLM directly in latent space, enabling them to communicate purely through hidden states. The codec consists of a domain encoder that projects hidden states from the VLM into the SLM's embedding space, and an attention decoder formalised as a LoRA that teaches the SLM to attend to these visual prefixes, while training only ${\\sim}1.6$M parameters (0.2\\% of the combined model size). On visual question answering (CLEVR, GQA), Latent-Lens achieves $81.0\\pm7.9$\\% and $65.4\\pm5.4$\\%, compared with $58.3\\pm5.7$\\% and $61.8\\pm1.0$\\% for text communication with the same LoRA budget (+30.2--69.8pp relative to frozen text communication), while on image captioning (Flickr8k) it improves over the same baseline by +16.5 (+18.8 frozen). We also evaluate Latent-Lens with TinyLlama-1.1B and InternVL2-1B, which use different architectures, vocabularies, and hidden dimensions.",
+    "published_date": "2026-10-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Published at NeurIPS 2026",
+    "fetched_at": "2026-11-02T10:32:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.41676",
+    "title": "Interaction-Aware Sampling-Based Motion Planning for Autonomous Surface Vessels in Urban Waterways",
+    "authors": [
+      "Elia Trevisan",
+      "Alejandro Gonzalez-Garcia",
+      "Jan Swevers",
+      "Javier Alonso-Mora"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.41676",
+    "abstract": "Autonomous surface vessels operating in urban waterways must coordinate with other vessels in confined spaces while complying with traffic regulations, often without knowing their intentions. We present a decentralized motion planner based on model predictive path integral control, a sampling-based model predictive control scheme. The planner jointly computes a trajectory for the ego vessel and a prediction of the trajectories of the other vessels, and therefore accounts for their interaction. Traffic regulations are encoded as discontinuous costs, which the sampling-based formulation admits without a smooth approximation. We evaluate the method in maps taken from real sections of Amsterdam's canals, in encounters between two vessels and in scenarios with four interacting vessels. Across 780 randomized runs the method reaches every goal without collisions or deadlocks, and outperforms an optimization-based planner designed for the same domain, as well as a version of the proposed planner that does not account for the interaction. We further validate the planner on two scaled vessel prototypes in an outdoor environment, where planning and localization run onboard at 10 Hz, and head-on and crossing encounters are resolved without collisions or rule violations.",
+    "published_date": "2026-10-30",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "This work has been submitted to the IEEE for possible publication",
+    "fetched_at": "2026-11-02T10:32:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.41667",
+    "title": "GPU-accelerated Incremental Euclidean Distance Transform for Online Motion Planning of Mobile Robots",
+    "authors": [
+      "Yizhou Chen",
+      "Shupeng Lai",
+      "Jinqiang Cui",
+      "Biao Wang",
+      "Ben M. Chen"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.41667",
+    "abstract": "In this letter, we present a volumetric mapping system that effectively calculates Occupancy Grid Maps (OGMs) and Euclidean Distance Transforms (EDTs) with parallel computing. Unlike these mappers for high-precision structural reconstruction, our system incrementally constructs global EDT and outputs high-frequency local distance information for online robot motion planning. The proposed system constructs OGM with massive amount of data from multiple types of sensor inputs. Using GPU programming techniques, the system quickly computes EDT in parallel within local volume. The new observation is continuously integrated into the global EDT using the parallel wavefront algorithm while preserving the historical observations. Experiments with datasets have shown that our proposed approach outperforms existing state-of-the-art robot mapping systems and is particularly suitable for mapping unexplored areas. In its actual implementations on aerial and ground vehicles, the proposed system achieves real-time performance with limited onboard computational resources.",
+    "published_date": "2026-10-30",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "Published in RA-L 2022. Author-accepted manuscript. Code: https://github.com/JINXER000/GIE-mapping",
+    "fetched_at": "2026-11-02T10:32:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.41563",
+    "title": "ORION: An Outcome-Driven LLM Advisor for RL-Based Multi-Domain 6G Slice Placement",
+    "authors": [
+      "Mahmoud S. Mayaleh",
+      "Fetia Bannour",
+      "Nour-El-Houda Yellas"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.41563",
+    "abstract": "Deploying 6G network slices across administrative domains requires an online decision for each arriving request: which domain hosts each virtual network function, how traffic crosses domain boundaries, and whether the slice is admitted. This joint decision problem is NP-hard under continuous arrivals. Experiments on a parametrized family of multi-domain topologies show that no fixed planning strategy dominates across all regimes: the performance ranking reverses between topology classes, and feasible placements exist for most rejected requests but remain undiscovered. These findings identify the plan layer as the decisive performance lever. We introduce ORION, a hierarchical orchestrator in which two LLM agents translate service intents into structured requests and generate abstract placement plans. A cooperative multi-agent RL coordinator selects the cross-domain partition, treating the plan as a persistent soft prior, while per-domain agents place the functions. ORION main contribution lies at the plan layer: an outcome-driven episodic memory that records, for each completed attempt, the network-condition profile, the proposed plan, and its verified feasibility outcome. The memory feeds verified successes and labelled failures back to the planner, thereby closing the adaptation loop using deployment feasibility rather than a scalar reward assigned to the planner's own proposals. To isolate the effect of the plan quality, we evaluate the planner on held-out topology families while keeping the downstream selection and execution mechanisms fixed. Under this controlled setting, the proposed memory improves admission by $4.6$--$11.5$ percentage points over the same planner without memory, while importance-based retention accounts for most of the improvement over a first-in-first-out store.",
+    "published_date": "2026-10-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted at IEEE MobiWac 2026",
+    "fetched_at": "2026-11-02T10:32:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.41558",
+    "title": "A complete analytical characterization of optimal collision-free motion for two robots",
+    "authors": [
+      "Jan Kamm",
+      "Antonio Terpin",
+      "Raffaello D'Andrea"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.41558",
+    "abstract": "Collision-free motion planning for multi-agent robotic systems remains an active research area because of the complexity of coordinating robot trajectories, with applications ranging from coordinated drone shows to autonomous operations on land, in the air, and on water. Importantly, the analytical difficulty of nonconvex collision-avoidance constraints has so far driven the development of exclusively numerical methods. We derive a complete analytical characterization of the optimal trajectories for two robots that start and end at rest, under double-integrator dynamics and a squared-acceleration objective. We prove that these trajectories belong to eight distinct contact families and determine which family applies for each configuration of initial and final positions. We analyze the geometrical properties of the optimal trajectories, provide a numerical algorithm for computing them, and discuss how these insights may improve the performance of existing numerical trajectory optimizers.",
+    "published_date": "2026-10-30",
+    "tags": [
+      "marl",
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-02T10:32:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.41548",
+    "title": "Contact-based optimization for collision-free motion planning for a million robots",
+    "authors": [
+      "Jan Kamm",
+      "Antonio Terpin",
+      "Raffaello D'Andrea"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.41548",
+    "abstract": "Multi-agent robotic systems have attracted growing interest in recent years, with applications ranging from coordinated drone shows to autonomous operations on land, in the air, and on water. At the planning level, robot motion is often modeled using double-integrator dynamics (with low-level controllers handling the physical dynamics during execution) with a minimum-energy objective subject to collision-avoidance constraints and limits on position, velocity, and acceleration. The complexity of the problem resides in the constraints, which couple the trajectories and make the optimization problem nonconvex. Existing numerical approaches typically discretize and optimize entire trajectories, which becomes expensive for large fleets. We exploit the structure of optimal trajectories by organizing optimization around contacts, at which robots reach the minimum allowed separation. We formulate a coupled algebraic system in contact variables and reconstruct trajectories analytically between contacts. Our algorithm, sequential contact insertion (SCI), starts from unconstrained trajectories, inserts contacts at separation violations, and jointly adjusts their times and states. Numerical experiments demonstrate planning for one million robots in minutes and thousands of robots in fractions of a second. On problems feasible for a fixed-grid sequential convex programming baseline, SCI achieves median speedups of several orders of magnitude at matching solution accuracy.",
+    "published_date": "2026-10-30",
+    "tags": [
+      "marl",
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-02T10:32:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.41358",
+    "title": "Do Transaction Prices Reflect Visual Preference? A Diagnostic Study with Multimodal Language Models",
+    "authors": [
+      "Fengxian Ji",
+      "Jingpu Yang",
+      "Fan Zhang",
+      "Junhong Liang",
+      "Qian Jiang",
+      "Yuke Li",
+      "Jinri Guo",
+      "Rongxin Zhu",
+      "Zhuohan Xie"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.41358",
+    "abstract": "Existing visual preference evaluation relies on costly human annotations or preference reward models, whereas online marketplace transaction prices are readily available and reflect real purchasing behavior, offering potential low-cost supervision. However, transaction prices conflate visual preferences with non-visual factors such as provenance, demand, and competition, making aggregate accuracy insufficient to distinguish model errors, unreliable price signals, and protocol confounds. To address this identifiability challenge, we introduce MarketImage, a diagnostic framework that identifies when transaction prices reflect visual preferences, where they fail, and whether multimodal language models can recover human-supported visual preference signals. MarketImage comprises three components: (i) MarketImageArt, 266 six-image comparison sets with transaction prices and price-blind human rankings; (ii) MarketImageLens, a tie-preserving protocol that partitions 3,990 within-set image pairs into price-human agreement, conflict, and price-tie regions while separately auditing presentation-order effects; and (iii) MarketValuator, six elicitation methods spanning direct comparison, independent scoring, budget constraints, and multi-agent aggregation to evaluate signal recovery by static visual scorers and three multimodal language models. Experiments show that only 24.2% of image pairs have a non-tied price direction, of which 34.7% agree with the human majority. Within this region, HPSv2 leads at 66.4% Recoverable Accuracy; Qwen's budgeted and aggregated variants trail baselines, while GPT interface gains remain statistically unresolved. Thus, transaction prices encode recoverable visual preferences only under limited conditions and should be treated as uncertain proxies rather than ground truth.",
+    "published_date": "2026-10-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-02T10:32:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.41334",
+    "title": "HIPC: Humanoid Iterative Planning and Control via Goal-Conditioned Motion Closure",
+    "authors": [
+      "Yi Han",
+      "Xingyu Chen",
+      "Zixuan Lang",
+      "Qianyang Wu",
+      "Yuhang Lin",
+      "Ji Ma",
+      "Liang Li",
+      "Dongting Li",
+      "Xinpeng Liu",
+      "Ruoli Dai",
+      "Hesheng Wang",
+      "Renjing Xu",
+      "Lei Han"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.41334",
+    "abstract": "Recent generative models are widely used to provide whole-body motion for humanoid tracking. Current methods combine motion generators with controllers in an open-loop paradigm, which leads to critical issues: tracking errors can accumulate into spatial drift, and the planner cannot adapt to unexpected physical disturbances without feedback from physical execution. However, directly feeding realized states back to the planner in a closed loop can cause discontinuities, resulting in physical jitter and even falls, since such states are out of distribution during training. To bridge this gap, we propose HIPC, a real-time Humanoid Iterative Planning and Control framework that couples a generative model with motion tracking into a unified planning-and-control paradigm. HIPC introduces a goal-conditioned motion planning trained with a canonical motion representation that avoids gimbal-lock singularities under extreme orientations and supports motion generation on diverse geometric and semantic conditions. Then, HIPC adopts two strategies, deviation-decayed recovery and history re-anchoring, to mitigate the out-of-distribution shift caused by realized-state feedback. Finally, HIPC operates a real-time asynchronous planning-and-control system, with latency compensation to reduce temporal mismatch for inference delay. Extensive experiments confirm the effectiveness of HIPC under switching and composition of diverse conditions. Results show that HIPC achieves state-of-the-art goal-reaching accuracy among existing methods while simultaneously demonstrating robustness to physical perturbations and the ability to recover from falls.",
+    "published_date": "2026-10-30",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "Website: https://hipc-humanoid.github.io/",
+    "fetched_at": "2026-11-02T10:32:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.41330",
+    "title": "Cross-Embodiment Motion Planning by Coupling Body-Agnostic World Model with Differentiable Ego-Dynamics",
+    "authors": [
+      "Zhidong Wang",
+      "Zirui Li",
+      "Haoran Xu",
+      "Yujie Yan",
+      "Zitong Shan",
+      "Jingsong Liang",
+      "Han Yu",
+      "Chen Lv"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.41330",
+    "abstract": "Motion planning in clutter is embodiment-specific: the feasible free space and reachable commands depend on each robot's geometry and dynamics. Existing cross-embodiment policies output normalized commands that disregard these differences, or compensate through per-robot training and distillation. World models can in principle pool cross-embodiment data, yet command-conditioned models bind their latent dynamics to a single action space, while pose-conditioned models omit the mapping from commands to body-specific motion. On flat ground, however, embodiment affects the planner's observations only through the camera ego-motion. This letter proposes Hourglass, an hourglass-shaped architecture that factorizes cross-embodiment motion planning at this interface: a body-agnostic world model and each robot's differentiable ego-dynamics, which map commands to that ego-motion, are coupled only through it. The world model is trained on data pooled across embodiments and camera mounts; each robot's ego-dynamics is a reduced-order template with identified physical parameters. A generalist parameter-conditioned policy is learned once at this junction: each imagined step rolls out the template and then the world model, and imagination training through each robot's template makes the policy body-aware. On seven simulated robots of five locomotion types, the generalist policy outperforms imitation-learning and diffusion-policy baselines on the same world model by 3.8--10.6 percentage points in success rate and matches per-robot specialists without dedicated training, while approaching its parameter-conditioned MPPI teacher within 1.4--2.8 points without an online map. After three minutes of teleoperated driving for identification, the synthetic-data-trained model transfers zero-shot to a real skid-steer robot unseen in training, navigating unseen indoor scenes.",
+    "published_date": "2026-10-30",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages",
+    "fetched_at": "2026-11-02T10:32:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.41235",
+    "title": "CONSORT: Uncertainty-Constrained Multi-Robot Planning for Cooperative Localization in GPS-Denied Environments",
+    "authors": [
+      "Tony Zhang",
+      "Ryan Bartholomew",
+      "Kalliyan Velasco",
+      "Joshua Mangelson",
+      "Brady Moon"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.41235",
+    "abstract": "Centralized multi-agent path planning with cooperative localization in GPS-denied environments is generally computationally intractable when formulated in full belief space due to tightly coupled uncertainty dynamics. Prior work typically approximates belief dynamics or restricts inter-agent coupling. This work examines a multi-agent planning problem in which a primary agent must reach a goal in minimum time subject to a chance-constrained collision-avoidance requirement and a terminal bound on localization uncertainty. We obtain a tractable surrogate of the underlying belief-space problem by optimizing over the mean-state trajectories of all agents and propagating covariance for terminal constraint evaluation only. We propose CONSORT (Cooperative Navigation with Support-Optimized Routing and Trajectories), a discrete-to-continuous pipeline combining hexagonal-grid joint search with spline-based trajectory refinement. Across 50 randomized scenarios, the planners separate as the terminal uncertainty bound tightens, with CONSORT solving 80% of scenarios where the strongest baseline solves 54%, at comparable path length. In marine simulations, with the plans executed under feedback control on an independently developed factor-graph estimate, the trajectories remain collision-free and their terminal uncertainty falls within 6% of the planner's prediction.",
+    "published_date": "2026-10-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 8 figures",
+    "fetched_at": "2026-11-02T10:32:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.41210",
+    "title": "From Evaluation to Evolution: Benchmarking Image Editing and Evolving Image Models",
+    "authors": [
+      "Jun He",
+      "Canmiao Fu",
+      "Ying Zhang",
+      "Zhipeng Huang",
+      "Chenyu Mu",
+      "Yazhen Xie",
+      "Chen Li",
+      "Jing Lyu",
+      "Weijia Li",
+      "Xiang Zhang"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.41210",
+    "abstract": "Real-world image editing requires coordinating multiple visual transformations with content preservation and reference constraints, yet aggregate scores can readily obscure unmet local requirements. Effective evaluation must therefore identify local failures and translate them into priorities for subsequent model improvement. We introduce WeGenEditBench, comprising 2,740 evaluation instances and 148 task types across single-image, text-intensive, and multi-reference editing. Pre-generated checklists shared across models decompose each request into atomic requirements; item-level deductions and visual evidence are established first and then summarized into scores for edit execution, preservation, visual quality, and task-specific correctness. To support the experience-acquisition component of recursive self-improvement (RSI), we develop WeGenEvoStudio, a unified multi-agent harness for RSI-oriented learning that integrates model-conditioned failure diagnosis, retrieval-grounded data construction, supervised adaptation, and re-evaluation. Among 15 evaluated configurations, GPT-Image-2 leads single-image editing with an Overall score of 4.076, while Seedream-5.0-Pro leads text-intensive editing at 4.291. Evolution experiments across four generation and editing benchmarks demonstrate substantial targeted gains: on their report-selected Top-5 single-image targets, FLUX.2 [dev] improves Overall from 1.083 to 3.517, while Qwen-Image-Edit-2511 gains 13.2%. Together, our benchmark and harness provide a foundation for developing more reliable image models through interpretable evaluation and feedback-driven learning.",
+    "published_date": "2026-10-30",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "58 pages, 42 figures",
+    "fetched_at": "2026-11-02T10:32:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2610.41185",
+    "title": "Mechanistic Interpretability for End-to-End Self-Driving",
+    "authors": [
+      "Manav Gagvani",
+      "Benjamin Namikas",
+      "Sivamurugan Velmurugan",
+      "Nysa Kumar",
+      "Shrey Sharma",
+      "Thomas Peterson",
+      "Pratyush Mathur",
+      "Hyunseo Chang",
+      "Rohan Paleja"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2610.41185",
+    "abstract": "End-to-end (E2E) autonomous driving models achieve strong planning performance but remain largely opaque, limiting observability and trust. We apply mechanistic interpretability to E2E driving by training Sparse Autoencoders (SAEs) on the internal activations of a simple, single-camera end-to-end path planning model. Unsupervised clustering of SAE latents reveals interpretable structure aligned with route intent, vehicle speed, and braking behavior, recovering route intent with 98.3% accuracy without supervision. Through paired counterfactual image edits, we further show that specific SAE features are visually grounded and systematically respond to scene changes such as traffic light state and stop sign presence. Steering individual SAE latents produces predictable, monotonic changes in planner outputs including lateral displacement, curvature, and braking. Finally, we demonstrate a practical application of these representations: we build a lightweight adapter trained on SAE latents that reduces trajectory selection error by 3.44%, outperforming an equivalent adapter that omits SAE latents, confirming that the sparse representation captures useful information for interpretability. Code and visualizations are available at https://mgagvani.github.io/mechanistic-interpretability-for-e2e-driving/",
+    "published_date": "2026-10-30",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted to the Conference on Robot Learning (CoRL) 2026. Project page: https://mgagvani.github.io/mechanistic-interpretability-for-e2e-driving/",
+    "fetched_at": "2026-11-02T10:32:28Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2610.40588",
     "title": "Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In",
     "authors": [
