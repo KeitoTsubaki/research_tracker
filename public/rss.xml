@@ -4,146 +4,83 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 02 Nov 2026 11:50:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 10:27:46 GMT</lastBuildDate>
     <item>
-      <title>RAMA: Retrieval-Augmented Multi-Agent Routing with Episodic Memory for LEO Satellite Networks</title>
-      <link>https://arxiv.org/abs/2610.42068</link>
-      <guid isPermaLink="false">arxiv:2610.42068</guid>
-      <pubDate>2026-10-30</pubDate>
-      <description>Low-Earth orbit (LEO) satellite networks present a challenging routing environment due to rapidly changing topology, traffic, and link conditions. Existing deep reinforcement learning (DRL) routing methods typically rely on current observations and information encoded in network weights, limiting their ability to exploit successful past experiences. We propose RAMA, a retrieval-augmented multi-agent DRL framework with Approximate Information State (AIS), in which each satellite combines its loca</description>
+      <title>Four Bridges: Measuring Deception Propensity in a Multi-Agent Game</title>
+      <link>https://arxiv.org/abs/2611.03600</link>
+      <guid isPermaLink="false">arxiv:2611.03600</guid>
+      <pubDate>2026-11-02</pubDate>
+      <description>AI agents are increasingly deployed in settings where they interact and coordinate with other agents, yet honesty is mostly measured in single-turn, single-agent benchmarks that pressure the model to deceive. We study deception that emerges in multi-agent interaction without any instruction to deceive. We introduce Kradle, a platform for evaluating AI models, and Four Bridges, an information asymmetry game in which four agents distribute across four rooms: one is the death room, the others hold </description>
     </item>
     <item>
-      <title>Adaptive Coverage Algorithms for Mobile Ad Hoc Networks in Dynamic Worlds</title>
-      <link>https://arxiv.org/abs/2610.41936</link>
-      <guid isPermaLink="false">arxiv:2610.41936</guid>
-      <pubDate>2026-10-30</pubDate>
-      <description>This paper extends an existing framework for the coordination of mobile agents in unknown worlds, by considering the possibility of dynamic instability. In the original problem, known as the Partially Observable Cooperative Guard Art Gallery Problem (POCGAGP) (arXiv:2512.09495), the multi-agent system must establish a communication network which completely covers an initially unknown constrained space. However, the POCGAGP fails to account for the unpredictability often seen in real-world deploy</description>
+      <title>TAMPAgent: Agentic Belief-Space Planning for Mobile Manipulation</title>
+      <link>https://arxiv.org/abs/2611.03584</link>
+      <guid isPermaLink="false">arxiv:2611.03584</guid>
+      <pubDate>2026-11-02</pubDate>
+      <description>Open-world robotic mobile manipulation requires acting in physical environments with only partial information. While recent Large Vision-Language Model (LVLM) agents show strong open-world reasoning capabilities, existing architectures that rely on direct tool calling struggle with geometric uncertainty and thus are limited to fully-observable tabletop environments. In contrast, Task and Motion Planning (TAMP) systems can solve long-horizon tasks under partial observability but incur high comput</description>
     </item>
     <item>
-      <title>Statistical Foundations of Reinforcement Learning: A Non-Asymptotic Perspective</title>
-      <link>https://arxiv.org/abs/2610.41903</link>
-      <guid isPermaLink="false">arxiv:2610.41903</guid>
-      <pubDate>2026-10-30</pubDate>
-      <description>Reinforcement learning (RL) embodies a foundational paradigm for sequential decision-making in the face of uncertainty. The rapid growth of model complexity in emerging applications has significantly amplified the challenges of achieving data-efficient RL, particularly in sample-starved scenarios where data collection may be costly, time-consuming, or even high-stakes. Consequently, understanding and improving the data efficiency of RL algorithms has become a central problem of both fundamental </description>
+      <title>An Axiomatic Framework for Reinforcement Learning in Open Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2611.03301</link>
+      <guid isPermaLink="false">arxiv:2611.03301</guid>
+      <pubDate>2026-11-02</pubDate>
+      <description>Open multi-agent systems, where only a subset of agents are controllable, are central to real-world domains such as smart grids, yet lack a principled foundation for reinforcement learning algorithm design. We study this setting through n-agent ad hoc teamwork (NAHT), a recent framework for learning in open multi-agent environments. We propose an axiomatic framework that derives value function learning from the Shapley axioms (Efficiency, Symmetry and Linearity), treating them as structural cons</description>
     </item>
     <item>
-      <title>Latent-Lens: Visual Perception in Small Language Models Through Latent Communication</title>
-      <link>https://arxiv.org/abs/2610.41751</link>
-      <guid isPermaLink="false">arxiv:2610.41751</guid>
-      <pubDate>2026-10-30</pubDate>
-      <description>Bridging independent vision-language models (VLMs) and small language models (SLMs) in a modular multi-agent system typically forces them to exchange information as discrete text, which creates a lossy bottleneck for spatial and fine-grained details. This constraint is especially acute for SLMs, whose limited capacity makes them more reliant on the quality of the input signal. Recent latent-communication methods exchange states between language models. How a VLM can pass visual information to a </description>
+      <title>KlaskTron: An Open-Source Platform for Physical Adversarial Multi-Agent RL</title>
+      <link>https://arxiv.org/abs/2611.03138</link>
+      <guid isPermaLink="false">arxiv:2611.03138</guid>
+      <pubDate>2026-11-02</pubDate>
+      <description>Progress in robot learning, particularly physical multi-agent reinforcement learning (MARL), is currently challenged by a limited availability of accessible, standardized benchmarks. While simulation-based MARL has produced remarkable emergent behaviors, from coordinated team play to complex tool use, translating these advances to physical systems remains difficult. A key barrier is infrastructural: physical platforms are often prohibitively expensive, require specialized facilities, or lack ope</description>
     </item>
     <item>
-      <title>Interaction-Aware Sampling-Based Motion Planning for Autonomous Surface Vessels in Urban Waterways</title>
-      <link>https://arxiv.org/abs/2610.41676</link>
-      <guid isPermaLink="false">arxiv:2610.41676</guid>
-      <pubDate>2026-10-30</pubDate>
-      <description>Autonomous surface vessels operating in urban waterways must coordinate with other vessels in confined spaces while complying with traffic regulations, often without knowing their intentions. We present a decentralized motion planner based on model predictive path integral control, a sampling-based model predictive control scheme. The planner jointly computes a trajectory for the ego vessel and a prediction of the trajectories of the other vessels, and therefore accounts for their interaction. T</description>
+      <title>PlanContext: Benchmarking In-Context Driving Decision-Making</title>
+      <link>https://arxiv.org/abs/2611.03067</link>
+      <guid isPermaLink="false">arxiv:2611.03067</guid>
+      <pubDate>2026-11-02</pubDate>
+      <description>Real-world driving requires context-aware decision-making. Existing end-to-end driving benchmarks primarily assess trajectory quality through safety, compliance, comfort, and driving progress, leaving context-dependent decision-making insufficiently characterized. To fill this gap, we present PlanContext, a benchmark for evaluating in-context driving decision-making. PlanContext constructs paired evaluations by varying high-level driving intentions while keeping the observed scene fixed, enablin</description>
     </item>
     <item>
-      <title>GPU-accelerated Incremental Euclidean Distance Transform for Online Motion Planning of Mobile Robots</title>
-      <link>https://arxiv.org/abs/2610.41667</link>
-      <guid isPermaLink="false">arxiv:2610.41667</guid>
-      <pubDate>2026-10-30</pubDate>
-      <description>In this letter, we present a volumetric mapping system that effectively calculates Occupancy Grid Maps (OGMs) and Euclidean Distance Transforms (EDTs) with parallel computing. Unlike these mappers for high-precision structural reconstruction, our system incrementally constructs global EDT and outputs high-frequency local distance information for online robot motion planning. The proposed system constructs OGM with massive amount of data from multiple types of sensor inputs. Using GPU programming</description>
+      <title>Towards a Trustworthy and Governable Internet of Agentics: An Architectural Perspective on Protocols, Systems, and Services</title>
+      <link>https://arxiv.org/abs/2611.03066</link>
+      <guid isPermaLink="false">arxiv:2611.03066</guid>
+      <pubDate>2026-11-02</pubDate>
+      <description>Large language model applications are increasingly being organized as tool-using and multi-agent workflows rather than as isolated chat interfaces. This perspective paper examines the architectural problem that follows from that shift: agents may reason, invoke tools, and delegate work, but dependable deployment still requires interoperability across frameworks, runtimes, data boundaries, and organizational control domains. We study this problem through the lens of the \emph{Internet of Agentics</description>
     </item>
     <item>
-      <title>ORION: An Outcome-Driven LLM Advisor for RL-Based Multi-Domain 6G Slice Placement</title>
-      <link>https://arxiv.org/abs/2610.41563</link>
-      <guid isPermaLink="false">arxiv:2610.41563</guid>
-      <pubDate>2026-10-30</pubDate>
-      <description>Deploying 6G network slices across administrative domains requires an online decision for each arriving request: which domain hosts each virtual network function, how traffic crosses domain boundaries, and whether the slice is admitted. This joint decision problem is NP-hard under continuous arrivals. Experiments on a parametrized family of multi-domain topologies show that no fixed planning strategy dominates across all regimes: the performance ranking reverses between topology classes, and fea</description>
+      <title>MS-DOTT: A Multi-Modal Dataset for Off-Road Traversability Estimation</title>
+      <link>https://arxiv.org/abs/2611.02992</link>
+      <guid isPermaLink="false">arxiv:2611.02992</guid>
+      <pubDate>2026-11-02</pubDate>
+      <description>Autonomous robots are gaining traction in off-road environments, driven by their rising demand in agriculture, defense, and search-and-rescue operations. However, these environments are inherently unpredictable and navigation remains a formidable challenge given the complex environmental conditions including challenging terrain and varying illumination. Off-road autonomy requires robust perception across multiple spatial scales and imaging modalities, yet most sensing setups struggle to capture </description>
     </item>
     <item>
-      <title>A complete analytical characterization of optimal collision-free motion for two robots</title>
-      <link>https://arxiv.org/abs/2610.41558</link>
-      <guid isPermaLink="false">arxiv:2610.41558</guid>
-      <pubDate>2026-10-30</pubDate>
-      <description>Collision-free motion planning for multi-agent robotic systems remains an active research area because of the complexity of coordinating robot trajectories, with applications ranging from coordinated drone shows to autonomous operations on land, in the air, and on water. Importantly, the analytical difficulty of nonconvex collision-avoidance constraints has so far driven the development of exclusively numerical methods. We derive a complete analytical characterization of the optimal trajectories</description>
+      <title>Cloudra: Geometric Reasoning and Scientific Validation for Autonomous Reaction Mechanism Exploration</title>
+      <link>https://arxiv.org/abs/2611.02909</link>
+      <guid isPermaLink="false">arxiv:2611.02909</guid>
+      <pubDate>2026-11-02</pubDate>
+      <description>Autonomous reaction-mechanism exploration requires proposing reaction steps, preparing three-dimensional structures, and determining which reactant and product a computed saddle point connects. Large language model (LLM) agents can misjudge spatial relationships and confuse a computed structure with the species or step they intended to study. We present Cloudra, a multi-agent framework that constrains mechanistic output through a Delivery DAG of chemical objects. Species nodes carry geometries a</description>
     </item>
     <item>
-      <title>Contact-based optimization for collision-free motion planning for a million robots</title>
-      <link>https://arxiv.org/abs/2610.41548</link>
-      <guid isPermaLink="false">arxiv:2610.41548</guid>
-      <pubDate>2026-10-30</pubDate>
-      <description>Multi-agent robotic systems have attracted growing interest in recent years, with applications ranging from coordinated drone shows to autonomous operations on land, in the air, and on water. At the planning level, robot motion is often modeled using double-integrator dynamics (with low-level controllers handling the physical dynamics during execution) with a minimum-energy objective subject to collision-avoidance constraints and limits on position, velocity, and acceleration. The complexity of </description>
+      <title>AGiR: Mitigating Gift Over-Reliance in Mixed-Motive Games</title>
+      <link>https://arxiv.org/abs/2611.02875</link>
+      <guid isPermaLink="false">arxiv:2611.02875</guid>
+      <pubDate>2026-11-02</pubDate>
+      <description>In this paper, we consider mixed-motive games (MMGs) which model various real-world multi-agent scenarios where self-interested agents must both cooperate and compete. We identify an issue with existing gifting methods, where agents become overly dependent on incoming gifts and fail to learn reward-yielding behaviors, a phenomenon we call gift over-reliance. To address this, we propose a refusal-augmented gifting framework that balances cooperation and competition in MMGs. Our approach introduce</description>
     </item>
     <item>
-      <title>Do Transaction Prices Reflect Visual Preference? A Diagnostic Study with Multimodal Language Models</title>
-      <link>https://arxiv.org/abs/2610.41358</link>
-      <guid isPermaLink="false">arxiv:2610.41358</guid>
-      <pubDate>2026-10-30</pubDate>
-      <description>Existing visual preference evaluation relies on costly human annotations or preference reward models, whereas online marketplace transaction prices are readily available and reflect real purchasing behavior, offering potential low-cost supervision. However, transaction prices conflate visual preferences with non-visual factors such as provenance, demand, and competition, making aggregate accuracy insufficient to distinguish model errors, unreliable price signals, and protocol confounds. To addre</description>
+      <title>Multi-Modal Multi-Agent System for Bridge Operation and Maintenance based on Large Language Model</title>
+      <link>https://arxiv.org/abs/2611.02738</link>
+      <guid isPermaLink="false">arxiv:2611.02738</guid>
+      <pubDate>2026-11-02</pubDate>
+      <description>Bridges are critical transportation infrastructure, and reliable operation and maintenance (O&amp;M) is essential for traffic safety and long-term structural performance. However, bridge O&amp;M faces key bottlenecks: no unified architecture coordinates heterogeneous resources; model inferences lack clear links to physical-mechanical laws; and experts' tacit knowledge remains difficult to formalize. This study proposes a knowledge-enhanced autonomy formalization methodology and apply it to construct the</description>
     </item>
     <item>
-      <title>HIPC: Humanoid Iterative Planning and Control via Goal-Conditioned Motion Closure</title>
-      <link>https://arxiv.org/abs/2610.41334</link>
-      <guid isPermaLink="false">arxiv:2610.41334</guid>
-      <pubDate>2026-10-30</pubDate>
-      <description>Recent generative models are widely used to provide whole-body motion for humanoid tracking. Current methods combine motion generators with controllers in an open-loop paradigm, which leads to critical issues: tracking errors can accumulate into spatial drift, and the planner cannot adapt to unexpected physical disturbances without feedback from physical execution. However, directly feeding realized states back to the planner in a closed loop can cause discontinuities, resulting in physical jitt</description>
-    </item>
-    <item>
-      <title>Cross-Embodiment Motion Planning by Coupling Body-Agnostic World Model with Differentiable Ego-Dynamics</title>
-      <link>https://arxiv.org/abs/2610.41330</link>
-      <guid isPermaLink="false">arxiv:2610.41330</guid>
-      <pubDate>2026-10-30</pubDate>
-      <description>Motion planning in clutter is embodiment-specific: the feasible free space and reachable commands depend on each robot's geometry and dynamics. Existing cross-embodiment policies output normalized commands that disregard these differences, or compensate through per-robot training and distillation. World models can in principle pool cross-embodiment data, yet command-conditioned models bind their latent dynamics to a single action space, while pose-conditioned models omit the mapping from command</description>
-    </item>
-    <item>
-      <title>CONSORT: Uncertainty-Constrained Multi-Robot Planning for Cooperative Localization in GPS-Denied Environments</title>
-      <link>https://arxiv.org/abs/2610.41235</link>
-      <guid isPermaLink="false">arxiv:2610.41235</guid>
-      <pubDate>2026-10-30</pubDate>
-      <description>Centralized multi-agent path planning with cooperative localization in GPS-denied environments is generally computationally intractable when formulated in full belief space due to tightly coupled uncertainty dynamics. Prior work typically approximates belief dynamics or restricts inter-agent coupling. This work examines a multi-agent planning problem in which a primary agent must reach a goal in minimum time subject to a chance-constrained collision-avoidance requirement and a terminal bound on </description>
-    </item>
-    <item>
-      <title>From Evaluation to Evolution: Benchmarking Image Editing and Evolving Image Models</title>
-      <link>https://arxiv.org/abs/2610.41210</link>
-      <guid isPermaLink="false">arxiv:2610.41210</guid>
-      <pubDate>2026-10-30</pubDate>
-      <description>Real-world image editing requires coordinating multiple visual transformations with content preservation and reference constraints, yet aggregate scores can readily obscure unmet local requirements. Effective evaluation must therefore identify local failures and translate them into priorities for subsequent model improvement. We introduce WeGenEditBench, comprising 2,740 evaluation instances and 148 task types across single-image, text-intensive, and multi-reference editing. Pre-generated checkl</description>
-    </item>
-    <item>
-      <title>Mechanistic Interpretability for End-to-End Self-Driving</title>
-      <link>https://arxiv.org/abs/2610.41185</link>
-      <guid isPermaLink="false">arxiv:2610.41185</guid>
-      <pubDate>2026-10-30</pubDate>
-      <description>End-to-end (E2E) autonomous driving models achieve strong planning performance but remain largely opaque, limiting observability and trust. We apply mechanistic interpretability to E2E driving by training Sparse Autoencoders (SAEs) on the internal activations of a simple, single-camera end-to-end path planning model. Unsupervised clustering of SAE latents reveals interpretable structure aligned with route intent, vehicle speed, and braking behavior, recovering route intent with 98.3% accuracy wi</description>
-    </item>
-    <item>
-      <title>Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In</title>
-      <link>https://arxiv.org/abs/2610.40588</link>
-      <guid isPermaLink="false">arxiv:2610.40588</guid>
-      <pubDate>2026-10-29</pubDate>
-      <description>When AI agents share channels and credentials, one agent can press another to break its operator's rule, a first step towards collusion. Output filters check only what an agent has already written. Can an overseer tell beforehand that an agent is about to give in? We show that a linear probe on the agent's activations can, in a controlled multi-agent setting. Across six scenarios, a peer presses a target for up to 20 rounds to reveal a secret, such as a deploy token; the target often refuses, th</description>
-    </item>
-    <item>
-      <title>Agentic University: Collaborative Agents for Personalized Learning</title>
-      <link>https://arxiv.org/abs/2610.40492</link>
-      <guid isPermaLink="false">arxiv:2610.40492</guid>
-      <pubDate>2026-10-29</pubDate>
-      <description>Large language models support personalized tutoring, content generation, and adaptive learning paths. However, capability development requires these resources and interactions to form a coherent learning process that evolves with the learner. A central challenge is to align goals, activities, and assessment while using learning evidence to decide what should follow. We introduce Human-Participatory Multi-Agent Organization and instantiate it in Agentic University (AU). In AU, learners participat</description>
-    </item>
-    <item>
-      <title>Reinforcement learning for control of partial differential equations</title>
-      <link>https://arxiv.org/abs/2610.40449</link>
-      <guid isPermaLink="false">arxiv:2610.40449</guid>
-      <pubDate>2026-10-29</pubDate>
-      <description>Controlling dynamical systems governed by partial differential equations (PDEs) remains a challenging task in scientific computing, owing to high-dimensional state spaces, distributed actuation, nonlinear dynamics, and stringent real-time constraints. Reinforcement learning (RL) has emerged as a promising paradigm for synthesizing feedback controllers that adapt to varying operating conditions and can be deployed efficiently in real-time. This review provides a unified perspective on RL and PDE-</description>
-    </item>
-    <item>
-      <title>MAServeBench: Benchmarking Multi-Agent LLM Serving Systems with Hierarchical Collaboration Workloads</title>
-      <link>https://arxiv.org/abs/2610.40293</link>
-      <guid isPermaLink="false">arxiv:2610.40293</guid>
-      <pubDate>2026-10-29</pubDate>
-      <description>Large language model (LLM)-based multi-agent systems (MAS) coordinate specialized agents to solve complex tasks, turning each user request into interdependent model and tool operations. Unlike independent requests, these operations become ready at different times and consume evolving context as agents coordinate and exchange results. This creates changing patterns of concurrency, computation, and memory demand that can expose different bottlenecks in LLM serving hardware. Yet benchmarking these </description>
-    </item>
-    <item>
-      <title>EpiAgent: Epistemic Self-Play for LLM Agents</title>
-      <link>https://arxiv.org/abs/2610.40227</link>
-      <guid isPermaLink="false">arxiv:2610.40227</guid>
-      <pubDate>2026-10-29</pubDate>
-      <description>Epistemic game theory explains an agent's strategic behavior via the beliefs it holds about others and how these beliefs are updated as the interactions unfold. Modern LLM-based agents, however, often lack an explicit mechanism for learning and updating such beliefs to guide decisions under incomplete information. To bridge this gap, we propose EpiAgent, a framework that equips LLM-based agents with an explicit, learnable epistemic layer, which maintains beliefs over others' private information </description>
+      <title>AffToM: Benchmarking Recursive Affective Theory of Mind in Dynamic Multi-Party Interactions</title>
+      <link>https://arxiv.org/abs/2611.02725</link>
+      <guid isPermaLink="false">arxiv:2611.02725</guid>
+      <pubDate>2026-11-02</pubDate>
+      <description>Understanding emotion in realistic social interactions requires more than recognizing facial expressions or assigning affective labels. The same event can elicit different emotions depending on what each participant knows, what they believe others know or feel, and how these nested mental states evolve over time. Existing benchmarks largely study higher-order epistemic Theory of Mind (ToM) and multimodal emotion reasoning in isolation, leaving recursive affective reasoning under asymmetric and d</description>
     </item>
   </channel>
 </rss>
