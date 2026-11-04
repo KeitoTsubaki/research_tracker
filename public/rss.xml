@@ -4,83 +4,139 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Tue, 03 Nov 2026 10:27:46 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 10:29:05 GMT</lastBuildDate>
     <item>
-      <title>Four Bridges: Measuring Deception Propensity in a Multi-Agent Game</title>
-      <link>https://arxiv.org/abs/2611.03600</link>
-      <guid isPermaLink="false">arxiv:2611.03600</guid>
-      <pubDate>2026-11-02</pubDate>
-      <description>AI agents are increasingly deployed in settings where they interact and coordinate with other agents, yet honesty is mostly measured in single-turn, single-agent benchmarks that pressure the model to deceive. We study deception that emerges in multi-agent interaction without any instruction to deceive. We introduce Kradle, a platform for evaluating AI models, and Four Bridges, an information asymmetry game in which four agents distribute across four rooms: one is the death room, the others hold </description>
+      <title>JHiMA-WebRL: A Joint Hierarchical Multi-Agent Reinforcement Learning Framework for Long-Horizon Web Tasks</title>
+      <link>https://arxiv.org/abs/2611.05263</link>
+      <guid isPermaLink="false">arxiv:2611.05263</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>Multimodal web agents have shown promising capabilities for interacting with websites through graphical user interfaces (GUIs), yet realistic web tasks often require long-horizon, multi-step planning that remains challenging for monolithic policies. Such agents must jointly infer high-level plans, navigate through intermediate states, track progress over extended interaction histories, and execute visually grounded actions. Although prior work has explored modular multi-agent systems with a sepa</description>
     </item>
     <item>
-      <title>TAMPAgent: Agentic Belief-Space Planning for Mobile Manipulation</title>
-      <link>https://arxiv.org/abs/2611.03584</link>
-      <guid isPermaLink="false">arxiv:2611.03584</guid>
-      <pubDate>2026-11-02</pubDate>
-      <description>Open-world robotic mobile manipulation requires acting in physical environments with only partial information. While recent Large Vision-Language Model (LVLM) agents show strong open-world reasoning capabilities, existing architectures that rely on direct tool calling struggle with geometric uncertainty and thus are limited to fully-observable tabletop environments. In contrast, Task and Motion Planning (TAMP) systems can solve long-horizon tasks under partial observability but incur high comput</description>
+      <title>Should the Action Expert Train the VLM? Action-Token Supervision and Gradient Routing in Mixture-of-Transformer VLAs</title>
+      <link>https://arxiv.org/abs/2611.05249</link>
+      <guid isPermaLink="false">arxiv:2611.05249</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>Vision-language-action (VLA) models increasingly pair a pre-trained vision-language model (VLM) with a flow-matching expert that conditions its action predictions on the VLM's key-value representations. Those representations must carry information useful for control, yet the VLM was never trained for the action expert's flow-matching objective. Two signals can address this: gradients backpropagated from the expert's loss (coupling), or VLM supervision to predict discrete tokens encoding the same</description>
     </item>
     <item>
-      <title>An Axiomatic Framework for Reinforcement Learning in Open Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2611.03301</link>
-      <guid isPermaLink="false">arxiv:2611.03301</guid>
-      <pubDate>2026-11-02</pubDate>
-      <description>Open multi-agent systems, where only a subset of agents are controllable, are central to real-world domains such as smart grids, yet lack a principled foundation for reinforcement learning algorithm design. We study this setting through n-agent ad hoc teamwork (NAHT), a recent framework for learning in open multi-agent environments. We propose an axiomatic framework that derives value function learning from the Shapley axioms (Efficiency, Symmetry and Linearity), treating them as structural cons</description>
+      <title>Trajectory Evaluation via Rollout-Free World Model for End-to-end Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2611.05072</link>
+      <guid isPermaLink="false">arxiv:2611.05072</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>Although existing candidate trajectory evaluators have substantially improved end-to-end planning accuracy, their underlying mechanism remains suboptimal. Model-based evaluators typically make scoring future-aware by explicitly predicting candidate-conditioned future states over the planning horizon, which we term rollout. However, rollout incurs high inference cost and accumulates prediction errors. We argue that planning does not require reconstructing a full future scene for each candidate, b</description>
     </item>
     <item>
-      <title>KlaskTron: An Open-Source Platform for Physical Adversarial Multi-Agent RL</title>
-      <link>https://arxiv.org/abs/2611.03138</link>
-      <guid isPermaLink="false">arxiv:2611.03138</guid>
-      <pubDate>2026-11-02</pubDate>
-      <description>Progress in robot learning, particularly physical multi-agent reinforcement learning (MARL), is currently challenged by a limited availability of accessible, standardized benchmarks. While simulation-based MARL has produced remarkable emergent behaviors, from coordinated team play to complex tool use, translating these advances to physical systems remains difficult. A key barrier is infrastructural: physical platforms are often prohibitively expensive, require specialized facilities, or lack ope</description>
+      <title>Haptic Shared Control for Multi-Robot Systems</title>
+      <link>https://arxiv.org/abs/2611.05027</link>
+      <guid isPermaLink="false">arxiv:2611.05027</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>Multi-agent systems offer significant advantages in terms of flexibility and redundancy, enabling the efficient distribution of complex tasks among multiple robots. However, their deployment requires advanced control strategies to ensure optimal cooperation between autonomous agents and human operators. We propose a modification of the global connectivity maintenance algorithm to incorporate measurements taken in agent's local frame, using sensors with limited fields of view. This algorithm, res</description>
     </item>
     <item>
-      <title>PlanContext: Benchmarking In-Context Driving Decision-Making</title>
-      <link>https://arxiv.org/abs/2611.03067</link>
-      <guid isPermaLink="false">arxiv:2611.03067</guid>
-      <pubDate>2026-11-02</pubDate>
-      <description>Real-world driving requires context-aware decision-making. Existing end-to-end driving benchmarks primarily assess trajectory quality through safety, compliance, comfort, and driving progress, leaving context-dependent decision-making insufficiently characterized. To fill this gap, we present PlanContext, a benchmark for evaluating in-context driving decision-making. PlanContext constructs paired evaluations by varying high-level driving intentions while keeping the observed scene fixed, enablin</description>
+      <title>GeoFaham: Domain-Specialized Multi-Agent Geospatial Analytics for Disaster Response</title>
+      <link>https://arxiv.org/abs/2611.04977</link>
+      <guid isPermaLink="false">arxiv:2611.04977</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>Real-world geospatial decision support requires more than single-step retrieval or code generation. Disaster-response questions often involve multi-source workflows that combine spatial databases, map-derived features, satellite imagery, raster products, and reusable geospatial artifacts, where correctness depends on preserving spatial scope, temporal context, and intermediate execution state. While large language models and coding agents offer a promising interface for such workflows, they stru</description>
     </item>
     <item>
-      <title>Towards a Trustworthy and Governable Internet of Agentics: An Architectural Perspective on Protocols, Systems, and Services</title>
-      <link>https://arxiv.org/abs/2611.03066</link>
-      <guid isPermaLink="false">arxiv:2611.03066</guid>
-      <pubDate>2026-11-02</pubDate>
-      <description>Large language model applications are increasingly being organized as tool-using and multi-agent workflows rather than as isolated chat interfaces. This perspective paper examines the architectural problem that follows from that shift: agents may reason, invoke tools, and delegate work, but dependable deployment still requires interoperability across frameworks, runtimes, data boundaries, and organizational control domains. We study this problem through the lens of the \emph{Internet of Agentics</description>
+      <title>Safeguarding Multi-Agent Reinforcement Learning for Connected and Automated Vehicles with Recursively Feasible Control Barrier Functions</title>
+      <link>https://arxiv.org/abs/2611.04957</link>
+      <guid isPermaLink="false">arxiv:2611.04957</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>Multi-Agent Reinforcement Learning (MARL) shows promise in coordinating connected and automated vehicles but offers no safety guarantee. Although Control Barrier Functions (CBFs) can add this guarantee, their optimization problem can become infeasible in practice due to control bounds. Moreover, they often overapproximate vehicle and road geometry, which makes them conservative. This paper proposes the Backup-Horizon CBF (BH-CBF), which evaluates safety along a horizon until all vehicles stop. B</description>
     </item>
     <item>
-      <title>MS-DOTT: A Multi-Modal Dataset for Off-Road Traversability Estimation</title>
-      <link>https://arxiv.org/abs/2611.02992</link>
-      <guid isPermaLink="false">arxiv:2611.02992</guid>
-      <pubDate>2026-11-02</pubDate>
-      <description>Autonomous robots are gaining traction in off-road environments, driven by their rising demand in agriculture, defense, and search-and-rescue operations. However, these environments are inherently unpredictable and navigation remains a formidable challenge given the complex environmental conditions including challenging terrain and varying illumination. Off-road autonomy requires robust perception across multiple spatial scales and imaging modalities, yet most sensing setups struggle to capture </description>
+      <title>Local Visibility Roadmaps in Continous Multi-agent Path Finding</title>
+      <link>https://arxiv.org/abs/2611.04944</link>
+      <guid isPermaLink="false">arxiv:2611.04944</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>We address the problem of smooth continuous multi-agent path finding (SC-MAPF), where agents move in a continuous environment along smooth curves in continuous time. The paths for individual agents are searched in local visibility roadmaps that consider obstacles and other agents. A new algorithm is proposed in this work, which combines the previous algorithm CE-CBS for high-level search with any-angle path finding for local single-agent planning, where agents are to avoid obstacles, both static</description>
     </item>
     <item>
-      <title>Cloudra: Geometric Reasoning and Scientific Validation for Autonomous Reaction Mechanism Exploration</title>
-      <link>https://arxiv.org/abs/2611.02909</link>
-      <guid isPermaLink="false">arxiv:2611.02909</guid>
-      <pubDate>2026-11-02</pubDate>
-      <description>Autonomous reaction-mechanism exploration requires proposing reaction steps, preparing three-dimensional structures, and determining which reactant and product a computed saddle point connects. Large language model (LLM) agents can misjudge spatial relationships and confuse a computed structure with the species or step they intended to study. We present Cloudra, a multi-agent framework that constrains mechanistic output through a Delivery DAG of chemical objects. Species nodes carry geometries a</description>
+      <title>MiCaDe: Online LiDAR-Camera Miscalibration Change Detection for Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2611.04912</link>
+      <guid isPermaLink="false">arxiv:2611.04912</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>Reliable multi-sensor perception in autonomous vehicles requires accurate calibration between cameras and LiDAR. However, calibration drift is often unavoidable in long-term deployments: vibrations, thermal effects, and minor mechanical shocks may alter the relative pose between sensors, leading to systematic errors in downstream fusion tasks. We propose MiCaDe (Miscalibration Change Detection), an online solution detecting when the extrinsic LiDAR-camera calibration parameters are no longer acc</description>
     </item>
     <item>
-      <title>AGiR: Mitigating Gift Over-Reliance in Mixed-Motive Games</title>
-      <link>https://arxiv.org/abs/2611.02875</link>
-      <guid isPermaLink="false">arxiv:2611.02875</guid>
-      <pubDate>2026-11-02</pubDate>
-      <description>In this paper, we consider mixed-motive games (MMGs) which model various real-world multi-agent scenarios where self-interested agents must both cooperate and compete. We identify an issue with existing gifting methods, where agents become overly dependent on incoming gifts and fail to learn reward-yielding behaviors, a phenomenon we call gift over-reliance. To address this, we propose a refusal-augmented gifting framework that balances cooperation and competition in MMGs. Our approach introduce</description>
+      <title>Physics-Based Plausibility Assessment of AI-Predicted Vehicle Parameters for Automotive Radar in Pre-Crash Scenarios</title>
+      <link>https://arxiv.org/abs/2611.04871</link>
+      <guid isPermaLink="false">arxiv:2611.04871</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>Automotive radar is a key sensing modality for safety-critical vehicle functions due to its robustness under adverse weather and lighting conditions. Recent advances in AI-based radar perception enable the direct estimation of object parameters from a single radar measurement cycle. However, the internal decision process of data-driven models is typically not explicitly linked to the underlying radar sensing physics. Consequently, object estimates may achieve high statistical accuracy while rema</description>
     </item>
     <item>
-      <title>Multi-Modal Multi-Agent System for Bridge Operation and Maintenance based on Large Language Model</title>
-      <link>https://arxiv.org/abs/2611.02738</link>
-      <guid isPermaLink="false">arxiv:2611.02738</guid>
-      <pubDate>2026-11-02</pubDate>
-      <description>Bridges are critical transportation infrastructure, and reliable operation and maintenance (O&amp;M) is essential for traffic safety and long-term structural performance. However, bridge O&amp;M faces key bottlenecks: no unified architecture coordinates heterogeneous resources; model inferences lack clear links to physical-mechanical laws; and experts' tacit knowledge remains difficult to formalize. This study proposes a knowledge-enhanced autonomy formalization methodology and apply it to construct the</description>
+      <title>Cooperative Multi-Agent Reinforcement Learning with Submodular Trajectory Rewards</title>
+      <link>https://arxiv.org/abs/2611.04774</link>
+      <guid isPermaLink="false">arxiv:2611.04774</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>We study cooperative multi-agent reinforcement learning with decoupled dynamics and a monotone submodular reward function over joint trajectories. Due to the non-additive reward, an optimal policy may depend on the history of all agents. This dependence makes exact optimization exponential in the horizon and the number of agents. To overcome this challenge while retaining theoretical guarantees, we introduce pre-window curvature $c_m$, which quantifies how states visited more than $m$ steps earl</description>
     </item>
     <item>
-      <title>AffToM: Benchmarking Recursive Affective Theory of Mind in Dynamic Multi-Party Interactions</title>
-      <link>https://arxiv.org/abs/2611.02725</link>
-      <guid isPermaLink="false">arxiv:2611.02725</guid>
-      <pubDate>2026-11-02</pubDate>
-      <description>Understanding emotion in realistic social interactions requires more than recognizing facial expressions or assigning affective labels. The same event can elicit different emotions depending on what each participant knows, what they believe others know or feel, and how these nested mental states evolve over time. Existing benchmarks largely study higher-order epistemic Theory of Mind (ToM) and multimodal emotion reasoning in isolation, leaving recursive affective reasoning under asymmetric and d</description>
+      <title>DenseTwins: Dense Modality Decoupling for Multimodal Self-Supervision</title>
+      <link>https://arxiv.org/abs/2611.04710</link>
+      <guid isPermaLink="false">arxiv:2611.04710</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>Multimodal perception is central to many computer vision applications, including robotics and autonomous driving, where different sensing modalities provide complementary cues. Self-supervised learning offers a scalable solution for exploiting large amounts of unlabeled multimodal data. However, existing methods either neglect modality-specific information by enforcing feature-space alignment between modalities or learn only global representations without preserving spatial structure. We propose</description>
+    </item>
+    <item>
+      <title>Can Network Models of Science Do Without Pluralist Agents?</title>
+      <link>https://arxiv.org/abs/2611.04590</link>
+      <guid isPermaLink="false">arxiv:2611.04590</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>Science is a process of useful models being proven wrong time and again, but despite its many flaws, it somehow works. Why is this? Paul Feyerabend argued that it works because people dare to hold and defend incompatible rival theories against the accepted one, since a theory's failures often lead to its abandonment in the presence of a more accurate or simpler alternative. He called this view theoretical pluralism. We introduce a theoretical and experimental model in which this can be examined.</description>
+    </item>
+    <item>
+      <title>Inter-Agent Influence: Evaluating Persuasion, Deception, and Coercion in Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2611.04556</link>
+      <guid isPermaLink="false">arxiv:2611.04556</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>The deployment of AI agents in multi-agent settings enables inter-agent influence, whereby agents can strategically steer each other's behaviour towards an intended outcome. Such capabilities pose novel risks, as malicious agents could direct others towards harmful actions. In this work we investigate three such capabilities - persuasion, deception, and coercion - across five realistic evaluation environments and a variety of agents instantiated with frontier language models. We observed signifi</description>
+    </item>
+    <item>
+      <title>Distributed Marginal Return: A Communication-Efficient Algorithm for Multi-Agent Weapon Target Assignment</title>
+      <link>https://arxiv.org/abs/2611.04370</link>
+      <guid isPermaLink="false">arxiv:2611.04370</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>The Weapon-Target Assignment (WTA) problem in distributed multi-agent systems is challenged by limited situational awareness and communication constraints. Existing distributed methods, such as auction-consensus algorithms, typically assume task-value independence, a simplification that fails to capture the coupled effects of multi-weapon assignments. This paper introduces the Distributed Marginal Return (DMR) algorithm, a novel decentralized approach that generalizes auction-consensus framework</description>
+    </item>
+    <item>
+      <title>When Is Fresh AI Stock Analysis Worth It? Allocating a Limited Research Budget Across Price Updates, Deep Forecast Refreshes, and Editorial Reviews of Top Stock Picks</title>
+      <link>https://arxiv.org/abs/2611.04348</link>
+      <guid isPermaLink="false">arxiv:2611.04348</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>Must long-horizon AI investment research be rewritten every time stock prices move? Using 8,120 production reports on the same 203 stocks across four iPulse AI batches, we compare repricing existing targets, guarding them against price shocks, mechanically resetting old forecast growth, and generating fresh multi-agent reports. Ten matched configurations represent seven investment frameworks. Our primary economic evaluation selects Top 10 USD portfolios using one-year forecasts. Across two uncha</description>
+    </item>
+    <item>
+      <title>ATC: Agent Trajectory Control for Role-Contract Enforcement in Black-Box Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2611.04321</link>
+      <guid isPermaLink="false">arxiv:2611.04321</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>Multi-agent LLM systems assign different responsibilities to different agents: one plans, another retrieves evidence, another verifies, another executes. This division of labor is only meaningful if each agent stays within the functions it is authorized to perform. Over many turns, however, an agent can produce a locally reasonable message that exercises authority belonging to another role: a verifier that begins planning, a retriever that asserts unsupported conclusions, an executor that change</description>
+    </item>
+    <item>
+      <title>Drift No More: Spectral Locking for Long-Horizon Open-Weight Multi-Agent AI</title>
+      <link>https://arxiv.org/abs/2611.04315</link>
+      <guid isPermaLink="false">arxiv:2611.04315</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>Long-horizon multi-agent systems suffer from three tightly coupled failures: task drift, role drift, and state staleness. We test the hypothesis that these share a common representational cause: agent hidden states move away from the directions encoding the active task, assigned role, and current shared state. A pilot study over 14,832 annotated turns supports this: drifted turns collapse near-uniformly across all three anchor subspaces (pairwise r = 0.72-0.78). Existing methods address these fa</description>
+    </item>
+    <item>
+      <title>What Is the Influence of Task Order in Continual Learning? An Empirical Study and Order-Aware Evaluation for Motion Forecasting</title>
+      <link>https://arxiv.org/abs/2611.04309</link>
+      <guid isPermaLink="false">arxiv:2611.04309</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>Aggregate scores for continual learning algorithms rest on a distribution over task orders that is rarely stated. We formulate algorithm comparison as an expectation over a declared order distribution, which separates training variation from order variation, and apply it to motion forecasting with four road-layout tasks from the INTERACTION dataset, all 24 task orders, four algorithms, and three training replicates (288 runs). Task order accounts for 65\% to 91\% of the variation in current-task</description>
+    </item>
+    <item>
+      <title>When Debate Amplifies Risk: Social-Bias Vulnerabilities in Multi-Agent Safety Deliberation</title>
+      <link>https://arxiv.org/abs/2611.04289</link>
+      <guid isPermaLink="false">arxiv:2611.04289</guid>
+      <pubDate>2026-11-03</pubDate>
+      <description>Retrieval-augmented Web applications increasingly employ multi-agent debate (MAD) to aggregate conflicting, noisy, and heterogeneous information, yet deliberation is fundamentally a social process susceptible to interpersonal dynamics. When retrieved Web sources contain latent hazards alongside safe factual content, social biases such as conformity pressure and authority deference can override evidence-grounded safety boundaries. In this work, we investigate whether the social structure of delib</description>
     </item>
   </channel>
 </rss>
