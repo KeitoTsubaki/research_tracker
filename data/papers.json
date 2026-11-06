@@ -1,5 +1,455 @@
 [
   {
+    "id": "arxiv:2611.08449",
+    "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+    "authors": [
+      "Yu-Cheng Chou",
+      "Shihao Wang",
+      "Jin Huang",
+      "Chi-Pin Huang",
+      "Chiao-An Yang",
+      "Xianzhe Fan",
+      "Jing Wang",
+      "Zhiqi Li",
+      "Yuanguo Kuang",
+      "Ruijie Zheng",
+      "Johan Bjorck",
+      "Sifei Liu",
+      "Hang Su",
+      "Abhishek Badki",
+      "Lei Zhang",
+      "Alan Yuille",
+      "Linxi \"Jim'' Fan",
+      "Jan Kautz",
+      "Zhiding Yu"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.08449",
+    "abstract": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known structure of visual primitives to predict their coordinates jointly, using a lightweight drafter that generates an entire primitive in one forward pass. The layout adapts to the primitive's type, dimensionality, and length, supporting compact boxes and long, variable-length trajectories. Crucially, spatial accuracy need not require reproducing an autoregressive model's exact token sequence. VFlash therefore trains on annotated primitives and directly accepts structurally valid predictions without target-token agreement. Across the evaluated 2D and 3D robot trajectory tasks, VFlash consistently reduces prediction errors relative to autoregressive decoding. Preliminary single-rollout measurements indicate approximately 25x faster generation for 3D point motion forecasting. A world action model conditioned on VFlash plans achieves 70.2% average success across four MolmoSpaces task suites, compared with 62.6% for the baseline.",
+    "published_date": "2026-11-05",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-06T10:23:31Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.08295",
+    "title": "Transformer-Based Trajectory Prescription for sEMG-Optimizing Robot-Mediated Rehabilitation",
+    "authors": [
+      "Gabriel Parra",
+      "Kimia Khoshnami",
+      "Daniel S. Brown",
+      "Laura A. Hallock"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.08295",
+    "abstract": "Robot-mediated rehabilitation has the potential to deliver high-intensity, individualized therapy, but existing systems (which have not consistently improved outcomes) typically prescribe kinematic trajectories rather than explicitly targeting the neuromotor activations thought to support recovery. To address this gap, and ultimately enable activation-optimizing rehabilitation robot behavior, we present a personalizable transformer-based model mapping individuals' muscle activations (as measured via surface electromyography) to prescribed contact force trajectories when interacting with an end-effector rehabilitation robot. The model uses a transformer encoder-decoder leveraging rotary positional embeddings (RoPE) to generate a latent representation of trajectory-relevant and user-specific neuromotor factors, and augments trajectory prediction with flow matching to produce a distribution over plausible prescriptions biased toward the training distribution. Using data from 16 healthy participants completing 15 isometric trajectory tracking tasks, we evaluate generalization across held-out tasks and users, as well as the feasibility of user-specific fine-tuning within a therapy-session timescale. The model achieves mean trajectory prediction errors of <8% on held out tasks and users, with effectively instantaneous deterministic inference and sub-second sampling of trajectory distributions. An initial test using the model during live rehabilitation tasks demonstrates that, on average, participants reach the target neuromotor activations with just 15% error accumulated throughout the task. These results provide a proof of concept for data-driven, activation-targeted trajectory prescription in robot-mediated rehabilitation and establish a foundation for future validation in clinical populations. Data and code have been open-sourced as part of the OpenRobotRehab project on SimTK.",
+    "published_date": "2026-11-05",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted for presentation and publication in the 2026 Conference on Robot Learning (CoRL). PMLR, 2026",
+    "fetched_at": "2026-11-06T10:23:31Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.08196",
+    "title": "SMART: State-based Multi Agent Reasoning Traces for Verification-oriented Problem-Solving",
+    "authors": [
+      "Sai Vallurupalli",
+      "Francis Ferraro"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.08196",
+    "abstract": "Complex problems with limited context, such as claims, require a means to obtain additional knowledge necessary for solution reasoning. We propose a multi-agent framework, SMART, to obtain knowledge through capturing the implicit state of participating entities in a problem context. SMART curates the state knowledge as diverse, complementary and solution-salient premises using a variety of LLMs and a structured role-based prompt strategy. Using knowledge from these real-world verified curated premises, SMART's knowledge guided solution reasoning improves validation performance up to 20% on complex scientific claims spanning 3 datasets. We show that grounding premises in real-world knowledge is necessary and improves performance up to 5%.",
+    "published_date": "2026-11-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-06T10:23:31Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.08144",
+    "title": "Detecting Silent Faults at the Environment-Trainer Boundary in Reinforcement Learning",
+    "authors": [
+      "Zuo Gou",
+      "Chenhao Lu"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.08144",
+    "abstract": "Robot reinforcement learning increasingly runs environments outside the trainer: in another process, on another machine, in another language. Many faults at this boundary raise no error. We make the boundary a wire protocol and ask what notices a fault in it. On Pendulum, HalfCheetah, Hopper and a 7-joint arm (Pusher), we injected up to 23 faults into what crosses the wire and 2 into the trainer's log, from one value to every value. Unless every value was wrong, a learning-curve threshold caught at most one run in ten, and a comparison with ten fault-free seeds at most 21%. A clean evaluation of all 1,060 final policies agreed with the curves: of the 728 boundary-fault runs both curve checks passed, 723 scored no more than three standard deviations below fault-free seeds, though nearly all ended on other weights and, for reward faults, logged other returns. Checks of the run itself, not of its outcome, saw every fault. A step ledger kept on both sides and compared step by step caught and located every fault that crossed, on Pendulum, Hopper and Pusher on one machine and on Pendulum across two, with no fault-free run and, on Pendulum, a median 3% more training time. An episode record kept at the environment caught the faults in the trainer's log. We list such faults found in practice, in Gymnasium 1.3 and our own code and, reported by others, in five multi-agent libraries, and recommend a step ledger and episode counts kept at the environment.",
+    "published_date": "2026-11-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "7 pages, 6 figures, 6 tables. Accepted to the CoRL 2026 Workshop on Everything Beneath the Policy. Code, specification, and every experiment's protocol, logs and findings: https://github.com/PlugRL",
+    "fetched_at": "2026-11-06T10:23:31Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.08111",
+    "title": "Reinforcing End-to-End Autonomous Driving Safety via Negative-Aware Planning in a Unified World-Action Model",
+    "authors": [
+      "Zihao Zhang",
+      "Xinyu Zhang",
+      "Bing Zeng",
+      "Xingyu Chen",
+      "Zhenning Li",
+      "Bin Yu",
+      "Ziyuan Pu"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.08111",
+    "abstract": "World-action models (WAMs) jointly model future traffic states and driving actions for end-to-end autonomous driving in intelligent transportation systems. However, their action learning remains dominated by expert-trajectory imitation, leaving unsafe alternatives close to expert trajectories insufficiently constrained. To improve WAM robustness in safety-critical scenarios, we propose NegWAM, a safety post-training framework for unified WAMs that learns explicit safety boundaries from near-expert failure trajectories. NegWAM constructs negative trajectories that are geometrically close to the expert trajectory yet carry safety risks, uses them as repulsive anchors to steer predictions away from dangerous behavior, and encodes them as scene-conditioned rider tokens to learn scene--trajectory compatibility. During training, NegWAM jointly optimizes the flow-matching and near-expert negative objectives, while the auxiliary rider branch is discarded at inference, incurring no additional overhead. On NAVSIM v2, NegWAM achieves 40.4 EPDMS on navhard, a 4.1% relative improvement over the strongest compared scorer-free WAM baseline, and achieves 93.3 EPDMS on navtest. These results demonstrate that NegWAM achieves strong performance in safety-critical scenarios while preserving routine-driving performance. Zero-shot closed-loop evaluation on HUGSIM further demonstrates cross-benchmark generalization. The code is available at https://github.com/Zizizi-hao/NegWAM.",
+    "published_date": "2026-11-05",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-06T10:23:31Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.07996",
+    "title": "SEER: A Scalable Event-Driven Runtime for Parallel Execution of Multi-Agent Reinforcement Learning Environments",
+    "authors": [
+      "Jiming Su",
+      "Feng Zhu",
+      "Yuhao Xiao",
+      "Miao Zhang"
+    ],
+    "source": "arxiv",
+    "category": "cs.DC",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.07996",
+    "abstract": "Multi-agent reinforcement learning (MARL) is increasingly used in systems where many entities interact in a shared environment. In these workloads, policy inference can be batched on GPUs, but the CPU-side environment path still updates entity states, resolves local interactions, and builds observations inside each $\\mathrm{env.step}$. This path can dominate latency in interaction-intensive workloads after policy batching. Existing vectorized environment interfaces and general event-driven runtimes do not directly address the fine-grained cross-entity work inside one bounded MARL step while preserving the step-level semantics expected by learning systems. We present SEER (Scalable Event-Driven Environment Runtime), a runtime for MARL environment execution under an explicit event-locality contract. SEER models each environment step as a bounded stream of timestamped events. If direct state updates are entity-local and cross-entity effects are represented as ordered future events, SEER can run independent events in parallel while preserving serial-equivalent boundary outputs. To make this contract practical, SEER uses a CAS-based dual-layer event queue: local event queues preserve per-entity causal order, while a parallel executive list exposes ready work to global worker threads. SEER further uses STPA, a preflight-guided thread-pool selection mechanism that combines short runtime traces with static workload and hardware features. We evaluate SEER on two parameterized MARL workloads: compute-intensive UAV swarm control (Aircraft) and communication-intensive wireless management (PCS). On Aircraft, SEER reduces inference latency by 16.2\\% over the baseline. On PCS, SEER reduces environment-execution latency by 46.9\\%, 19.5\\%, and 64.9\\% over ROSS-T, NBSE, and ROOT-Sim, respectively.",
+    "published_date": "2026-11-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-06T10:23:31Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.07912",
+    "title": "GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving",
+    "authors": [
+      "Xiyan Su",
+      "Finn Rasmus Schäfer",
+      "Hojun Lim",
+      "Frank Diermeyer",
+      "Johannes Betz",
+      "Markus Lienkamp"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.07912",
+    "abstract": "World action models (WAMs) for autonomous driving couple the driving policy and the visual world model in a single generative network whose objectives are fixed post-training. Conditioning on a new driving objective requires retraining. We study energy guidance as a general mechanism and present GuidedWAM, a model-agnostic framework for injecting driving objectives into frozen WAMs at sampling time. Our framework constructs each objective as differentiable energies on the sampler's intermediate clean-action estimate, which needs only forward access to the frozen model, and is stabilized by sampling-time guidance scheduling, per-energy normalization, and velocity-bounded correction. On the NAVSIM v2 hard-split, guidance improves all three frozen, publicly released WAMs by 1.8 to 3.6 EPDMS, averaged over three sampler seeds, and adds less than 10% to the sampling time per step. These results position energy guidance as a practical post-training control channel for WAMs.",
+    "published_date": "2026-11-05",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-06T10:23:31Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.07827",
+    "title": "Instantiating the Knowledge Plane",
+    "authors": [
+      "Francisco Pereira",
+      "Justine Sherry",
+      "Pratiksha Thaker"
+    ],
+    "source": "arxiv",
+    "category": "cs.NI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.07827",
+    "abstract": "In 2003, Clark et al. proposed the \"Knowledge Plane\", a layer of intelligent agents that share rich information about network state in order to collaboratively manage the Internet across administrative boundaries. The technology of the day lacked the two capabilities it demanded most: reasoning and unstructured communication. Thus, automated network management has remained largely confined to single domains, while interdomain problems are still resolved by human operators on the phone. We argue that agentic large language models can finally unlock the potential of the Knowledge Plane, but that doing so will require solving new research problems that arise particularly in this decentralized, multi-agent, coopetitive setting that have received limited attention in the literature thus far.",
+    "published_date": "2026-11-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted at HotNets '26 (Salt Lake City, UT, USA). 11 pages",
+    "fetched_at": "2026-11-06T10:23:31Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.07757",
+    "title": "RIVER: Evidence-guided multi-agent retrieval for enzyme--reaction discovery",
+    "authors": [
+      "Yifan Chang",
+      "Yunze Li",
+      "Feifei Jiang",
+      "Juntao Wu",
+      "Xin Chen",
+      "Han Hu",
+      "Yucheng Wu",
+      "Wei Tang",
+      "Mingqian Ma",
+      "Wanli Ouyang",
+      "Kaipeng Zhang",
+      "Lei Bai",
+      "Hongting Tang",
+      "Feiran Li",
+      "Yuchen Ren"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.07757",
+    "abstract": "Enzyme function annotation and the identification of candidate enzymes for a given reaction are essential steps in connecting genomic information to biochemical reaction networks. However, existing methods rely on sequence or structural similarity or on training with known enzyme--reaction pairs, making it difficult to integrate biochemical evidence across large candidate spaces; they also struggle with retrieval tasks involving enzyme families whose members are highly similar. Here, we introduce RIVER (Reaction--enzyme Inference via Evidence-guided Retrieval), a multi-agent framework for bidirectional enzyme--reaction retrieval that identifies potentially catalyzed reactions for a given enzyme and ranks candidate enzymes for a given reaction. RIVER coordinates large language models, specialized biochemical computational tools, and external knowledge resources to assemble evidence at multiple levels, including reaction chemistry, protein sequences and domains, catalytic mechanisms, and database annotations. Dedicated validation modules further examine evidence gaps and potential conflicts and rerank candidates using traceable evidence records. On public benchmarks, RIVER achieves the highest success rates in both enzyme retrieval and enzyme annotation. In family-specific enzyme retrieval, RIVER outperforms the evaluated baselines on the selected datasets and metrics. In Escherichia coli enzyme retrieval tasks constructed from recent literature, RIVER achieves the best retrieval results with closed-source and open-source model configurations, substantially outperforming closed-source general-purpose and biology-specialized multi-agent systems, including Claude Code, Codex, and Phylo Max. These results suggest that evidence-guided multi-agent retrieval can prioritize biochemically supported enzyme--reaction relationships, providing a basis for subsequent experimental validation.",
+    "published_date": "2026-11-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-06T10:23:31Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.07730",
+    "title": "Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes",
+    "authors": [
+      "Seong-Eun Hong",
+      "JuYeong Hwang",
+      "Jinhyun Kim",
+      "Hanyoung Jang",
+      "HyeongYeop Kang"
+    ],
+    "source": "arxiv",
+    "category": "cs.GR",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.07730",
+    "abstract": "Selecting a next motion in a populated scene is not just a matter of avoiding what is currently in the way: an action can be locally feasible yet drift onto the road instead of the crosswalk, cut into a stream of crossing pedestrians, or bottleneck a narrow passage. These failure modes are invisible from the current state alone, and acting on them requires reasoning about what each candidate action will cause. World models offer exactly this, namely action-conditioned predictions of the future, but rolling them out at every decision step is a cost deployable navigation systems cannot pay, and the field has largely traded foresight for speed. We argue this is a false dichotomy. The natural place for a world model in human-aware navigation is at training time, as a preference oracle that distills foresight into a fast policy, rather than at inference time, as an online planner. We pair a discrete visual action prior with two task-aligned world models, one for nearby social dynamics and one for future scene semantics, that score candidate actions by their predicted consequences and refine the policy through group-relative preference distillation. At deployment, both world models are removed and the policy acts in a single forward pass. Across five held-out evaluation scenarios, this yields navigation that is simultaneously safer, more socially and group-coherent, and more goal-directed than strong reactive and learned baselines, with naive observers rating the resulting motion as more human-like. Taken together, our findings point to a different approach for bringing world-model foresight into deployable agents: not accelerating rollouts, but amortizing them into the policy so that the cost of looking ahead is confined to training. Project page: https://seoneun.github.io/-NeurIPS-2026-Seeing-Beyond-the-Next-Step/",
+    "published_date": "2026-11-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted to NeurIPS 2026. 37 pages, 13 figures, 12 tables",
+    "fetched_at": "2026-11-06T10:23:31Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.07667",
+    "title": "Who Should Know What? Empirical Information Design for Multi-Agent LLM Economies",
+    "authors": [
+      "Mete Erdogan",
+      "Mirac Suzgun",
+      "Aneesh Pappu",
+      "Guowei Xu",
+      "Batu El",
+      "Andrew A. Schoen",
+      "Furong Huang",
+      "John P. Dickerson",
+      "Mert Pilanci",
+      "James Zou"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.07667",
+    "abstract": "The performance of multi-agent LLM systems depends not only on the capabilities of the underlying models but also on information-sharing policies, which govern what information each agent observes and at what level of detail. But does providing AI agents with more detailed information always improve collective outcomes, or can transparency paradoxically degrade efficiency? To investigate this, we introduce empirical information design, an experimental framework that systematically compares disclosure policies across economic markets populated by LLM agents, while holding interaction rules and models fixed. We evaluate ten frontier LLMs in multi-resource trade, bilateral bargaining, and double auctions, using ground-truth utilities to decouple identified opportunities from realized outcomes. We find that finer information disclosure yields highly model-dependent results. In trade, revealing exact valuations rather than ordinal preference rankings reduces realized gains for GPT-6 Sol (from 98% to 91% of maximum) yet increases them for Claude Sonnet 5 (from 72% to 86%). In bargaining, exact information leads Grok 4.7 to produce less balanced agreements, whereas Claude Opus 5.5 divides gains symmetrically. In double auctions, full disclosure inflates price demands, triggering market breakdown and lowering welfare for Gemini 3.1 Pro (97% to 78%), Claude Opus 5.5 (94% to 64%), and Grok 4.7 (97% to 62%). Overall, these results suggest that model selection and information design must be co-optimized, as LLMs vary in how their strategic responses to information impact system objectives.",
+    "published_date": "2026-11-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-06T10:23:31Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.07651",
+    "title": "GraspBench: Execution-Aware Cross-Robot Evaluation of 6-DoF Grasp Generation in MuJoCo",
+    "authors": [
+      "Abdul Basit",
+      "Bibek Poudel",
+      "Muhammad Shafique"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.07651",
+    "abstract": "Modern 6-DoF grasp generators are often evaluated using grasp scores, dataset-level metrics, or single-robot demonstrations, yet proposal quality alone does not determine whether a grasp is executable by a particular robot. We present GraspBench, a controlled MuJoCo protocol for evaluating complete grasp-generation pipelines after robot-specific inverse-kinematics filtering, motion planning, and fixed approach-close-lift execution. GraspBench evaluates six configured pipelines across four robot embodiments, five diagnostic objects, and a structured tabletop pose grid, yielding 540 scenarios per method and 3,240 method-scenario evaluations in total. Missing outputs are conservatively counted as failures, and success follows the binary lift criterion produced by each method's execution runner. GraspGen achieves the highest overall success rate (73.1%), followed by EconomicGrasp (63.5%), while robot- and object-conditioned analyses reveal substantial variation across embodiments and object geometries. GPG produces the largest native candidate sets but achieves 44.3% success, indicating that proposal volume alone does not guarantee robot-executable grasps. Cluster-aware paired intervals support the principal method differences while not estimating repeated-execution uncertainty. The results characterize complete configured pipelines on fixed scenarios rather than intrinsic model quality or stochastic repeatability, showing that grasping performance depends jointly on the generator, robot embodiment, scene, and execution protocol.",
+    "published_date": "2026-11-05",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "7 pages, 6 figures, accepted for publication in ICARCV 2026",
+    "fetched_at": "2026-11-06T10:23:31Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.07618",
+    "title": "A Bilevel Neurodynamic Approach for Distributed SCAD-Regularized Sparse Least Squares",
+    "authors": [
+      "Juntao Li",
+      "Qihang Guo",
+      "Deyuan Meng"
+    ],
+    "source": "arxiv",
+    "category": "math.OC",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.07618",
+    "abstract": "This paper proposes a bilevel particle swarm optimization (PSO)-neurodynamic method for solving the distributed sparse least-squares problem regularized by the smoothly clipped absolute deviation (SCAD) penalty to global optimality. The SCAD penalty is nonsmooth and nonconvex, so existing distributed neurodynamic methods have not been extended to it directly. Through two-time-scale singular perturbation analysis, a rigorous full-trajectory convergence theory with explicit convergence rates is established for the inner collaborative multi-agent neurodynamic system without requiring the second-order sufficient condition. A theory-guided inner-outer collaborative optimization framework is further developed, in which a red-light green-light sensitivity mechanism is embedded in the outer PSO search to enhance global search while concentrating computational effort on the SCAD shape parameters, thereby improving recovery accuracy and computational efficiency. Simulation results on four sparse-recovery scenarios demonstrate that the proposed method accurately recovers the true sparsity pattern and achieves faster convergence and lower relative error than competing neurodynamic methods.",
+    "published_date": "2026-11-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-06T10:23:31Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.07589",
+    "title": "Learning and Steering in Incomplete-Information Games",
+    "authors": [
+      "Asrın Efe Yorulmaz",
+      "Tamer Başar"
+    ],
+    "source": "arxiv",
+    "category": "cs.GT",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.07589",
+    "abstract": "In many modern multi-agent systems, a mediator seeks to influence strategic decision dynamics using only outcome-level feedback and without knowing agents' utilities. In this work, we study how a mediator can learn an unknown game and steer adaptive agents toward outcomes that maximize her utility using only trajectory feedback. The mediator knows the game form and her own objective, but not the agents' utilities. Moreover, she commits to nonnegative payments and provides recommendations and contexts, but receives only a single realized terminal outcome rather than full-information feedback. We develop halving-type algorithms that learn utility differences in normal-form games and conditional continuation-value differences in extensive-form games, achieving a sample complexity of $\\widetilde O(\\varepsilon^{-2})$ that matches worst-case lower bounds up to logarithmic factors. We then combine these learning procedures with a Lagrangian formulation in an online Learn-Compute-Steer algorithm that interleaves learning, equilibrium computation, and steering toward mediator-optimal extensive-form correlated equilibria (EFCE). With high probability, the Learn-Compute-Steer algorithm achieves a directness gap and an optimality gap of $\\widetilde O(T^{-1/4})$, while time-average payments are of $\\widetilde O(T^{-1/8})$.",
+    "published_date": "2026-11-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "57 pages, 5 figures",
+    "fetched_at": "2026-11-06T10:23:31Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.07528",
+    "title": "Goal-Branching LaCAM: Temporary Goals as Search Branches in Dense Multi-Agent Pathfinding",
+    "authors": [
+      "Stephen Chang",
+      "Daniel Harabor"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.07528",
+    "abstract": "LaCAM is a search-based solver for multi-agent pathfinding (MAPF) that runs a depth-first search over joint configurations, using PIBT to generate successors and lazily adding single-agent constraints to explore alternatives. Although LaCAM is complete, it can struggle on dense, corridor-heavy instances because extracting blocking agents from deadlocks requires coordinated moves of several agents, often away from their goals, which PIBT's greedy one-step successors rarely propose and which LaCAM can only reach by enumerating constraints one agent at a time. This paper proposes Goal-Branching, where blocking agents are given temporary goals, each tried as an additional branch of LaCAM's search. We examine random and corridor-aware rules for choosing these temporary goals and show that completeness is preserved for any such rule. On dense instances (60-90% of free cells occupied) of three maze and room maps, Goal-Branching solves 89% of instances against 44% for LaCAM*, and, on instances both solve, it finds a first solution 10-14x faster on maze-32-32-2 and room-32-32-4, and nearly 200x faster in median time at 75% density on room-32-32-4. Solution cost increases by 15-22% on instances both solve, while on open maps and the full MovingAI benchmark its solutions cost no more than those of LaCAM* and it is at most 3% slower.",
+    "published_date": "2026-11-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-06T10:23:31Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.07495",
+    "title": "Learning Multi-Agent Orchestration:Higher-Order Interactions in Policy Improvement",
+    "authors": [
+      "Kaixuan Liu",
+      "Guojun Xiong"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.07495",
+    "abstract": "Learned orchestration has emerged as a promising paradigm for large language model (LLM)-based multi-agent systems, in which a central orchestrator selects agents and controls the information they receive throughout a task. Despite rapid empirical progress, existing methods train the orchestrator by crediting each decision with its own advantage, implicitly assuming that the other decisions in the episode stay fixed. This assumption fails in orchestration, where the contribution of each decision to the final outcome depends on the decisions preceding it, so the gain of a joint update is not the sum of its per-decision effects. To address this challenge, we introduce \\textbf{IAPO}, an interaction-aware policy optimization framework that explicitly accounts for interactions among decisions. Specifically, IAPO exactly decomposes the performance difference between two policies into the effects of individual decisions and their interactions, which we prove can account for half of the attainable gain, and then optimizes both from sampled trajectories while certifying that every update is an improvement. On long-input versions of GSM8K, MATH, DROP, MBPP and HumanEval, against fifteen published multi-agent and workflow-search systems on the same 7B executor, IAPO's deployed plans reach the strongest system's accuracy with fewer tokens, and removing the interaction term costs 7 to 17 points of accuracy on code.",
+    "published_date": "2026-11-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-06T10:23:31Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.07483",
+    "title": "Signed but Not Safe: Requirement Integrity in Multi-Agent LLM Handoffs",
+    "authors": [
+      "Xiaobo Chen",
+      "Genliang Zhu",
+      "Ziyuan Wang",
+      "Chu Wang"
+    ],
+    "source": "arxiv",
+    "category": "cs.CR",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.07483",
+    "abstract": "Enterprise AI agents increasingly split a user's request across subagents and merge their results, and each handoff can summarize away, alter or ignore a requirement. We report a preregistered study with synthetic, exactly scorable tasks comparing free-text, structured JSON and signed requirement-manifest handoffs: the orchestrator extracts each requirement as a verbatim quote plus a checkable predicate, code signs the manifest with HMAC-SHA256, and deterministic code verifies the merger's decision. With Qwen3-8B (1,440 trajectories, five threats), signed manifests cut unsafe commits under attack from 69.4% to 9.0% (60.4 pp, 95% CI [51.4, 69.4]) with no net loss of conformant commits relative to structured handoffs. Signing is what defeats in-transit tampering: an unsigned manifest committed violations in 79% of mutated runs, the signed one in none. On identical trajectories the deterministic verifier caught 78.7% of violating decisions versus 59.0% for an LLM checker, with 7% versus 50% false alarms. An oracle manifest removed all remaining unsafe commits: the residual risk comes from extraction errors made before signing. A preregistered pre-signing injection attack confirmed this boundary: one adversarial line raised signed-manifest violations from 14.6% to 37.5% (Qwen3-8B), 11.1% to 63.9% (gpt-oss-20b) and 8.3% to 75.0% (GPT-5.6-luna), and the signature then authenticated the corrupted manifest. Signing protects requirements in transit, not at extraction; the extraction step is the trust boundary.",
+    "published_date": "2026-11-05",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "34 pages, 0 figures. Preregistered; code, task banks, freeze manifests and run logs are available from the authors on request",
+    "fetched_at": "2026-11-06T10:23:31Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2611.06913",
     "title": "cuRoboV2-Fast: Fast Torque-Limited Collision-Free Motion Planning",
     "authors": [
