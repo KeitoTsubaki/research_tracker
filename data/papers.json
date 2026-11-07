@@ -35,9 +35,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-06T10:23:31Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-06T10:23:31Z"
   },
   {
     "id": "arxiv:2611.08295",
@@ -60,9 +60,9 @@
     ],
     "venue_status": "published",
     "venue_note": "Accepted for presentation and publication in the 2026 Conference on Robot Learning (CoRL). PMLR, 2026",
-    "fetched_at": "2026-11-06T10:23:31Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-06T10:23:31Z"
   },
   {
     "id": "arxiv:2611.08196",
@@ -83,9 +83,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-06T10:23:31Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-06T10:23:31Z"
   },
   {
     "id": "arxiv:2611.08144",
@@ -106,9 +106,9 @@
     ],
     "venue_status": "published",
     "venue_note": "7 pages, 6 figures, 6 tables. Accepted to the CoRL 2026 Workshop on Everything Beneath the Policy. Code, specification, and every experiment's protocol, logs and findings: https://github.com/PlugRL",
-    "fetched_at": "2026-11-06T10:23:31Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-06T10:23:31Z"
   },
   {
     "id": "arxiv:2611.08111",
@@ -134,9 +134,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-06T10:23:31Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-06T10:23:31Z"
   },
   {
     "id": "arxiv:2611.07996",
@@ -159,9 +159,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-06T10:23:31Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-06T10:23:31Z"
   },
   {
     "id": "arxiv:2611.07912",
@@ -186,9 +186,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-06T10:23:31Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-06T10:23:31Z"
   },
   {
     "id": "arxiv:2611.07827",
@@ -210,9 +210,9 @@
     ],
     "venue_status": "published",
     "venue_note": "Accepted at HotNets '26 (Salt Lake City, UT, USA). 11 pages",
-    "fetched_at": "2026-11-06T10:23:31Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-06T10:23:31Z"
   },
   {
     "id": "arxiv:2611.07757",
@@ -246,9 +246,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-06T10:23:31Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-06T10:23:31Z"
   },
   {
     "id": "arxiv:2611.07730",
@@ -272,9 +272,9 @@
     ],
     "venue_status": "published",
     "venue_note": "Accepted to NeurIPS 2026. 37 pages, 13 figures, 12 tables",
-    "fetched_at": "2026-11-06T10:23:31Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-06T10:23:31Z"
   },
   {
     "id": "arxiv:2611.07667",
@@ -303,9 +303,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-06T10:23:31Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-06T10:23:31Z"
   },
   {
     "id": "arxiv:2611.07651",
@@ -327,9 +327,9 @@
     ],
     "venue_status": "published",
     "venue_note": "7 pages, 6 figures, accepted for publication in ICARCV 2026",
-    "fetched_at": "2026-11-06T10:23:31Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-06T10:23:31Z"
   },
   {
     "id": "arxiv:2611.07618",
@@ -351,9 +351,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-06T10:23:31Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-06T10:23:31Z"
   },
   {
     "id": "arxiv:2611.07589",
@@ -374,9 +374,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "57 pages, 5 figures",
-    "fetched_at": "2026-11-06T10:23:31Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-06T10:23:31Z"
   },
   {
     "id": "arxiv:2611.07528",
@@ -397,9 +397,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-06T10:23:31Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-06T10:23:31Z"
   },
   {
     "id": "arxiv:2611.07495",
@@ -420,9 +420,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-06T10:23:31Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-06T10:23:31Z"
   },
   {
     "id": "arxiv:2611.07483",
@@ -445,9 +445,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "34 pages, 0 figures. Preregistered; code, task banks, freeze manifests and run logs are available from the authors on request",
-    "fetched_at": "2026-11-06T10:23:31Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-06T10:23:31Z"
   },
   {
     "id": "arxiv:2611.06913",

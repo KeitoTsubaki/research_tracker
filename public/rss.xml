@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Fri, 06 Nov 2026 10:23:31 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 09:37:54 GMT</lastBuildDate>
     <item>
       <title>VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding</title>
       <link>https://arxiv.org/abs/2611.08449</link>
@@ -123,6 +123,27 @@
       <guid isPermaLink="false">arxiv:2611.07483</guid>
       <pubDate>2026-11-05</pubDate>
       <description>Enterprise AI agents increasingly split a user's request across subagents and merge their results, and each handoff can summarize away, alter or ignore a requirement. We report a preregistered study with synthetic, exactly scorable tasks comparing free-text, structured JSON and signed requirement-manifest handoffs: the orchestrator extracts each requirement as a verbatim quote plus a checkable predicate, code signs the manifest with HMAC-SHA256, and deterministic code verifies the merger's decis</description>
+    </item>
+    <item>
+      <title>cuRoboV2-Fast: Fast Torque-Limited Collision-Free Motion Planning</title>
+      <link>https://arxiv.org/abs/2611.06913</link>
+      <guid isPermaLink="false">arxiv:2611.06913</guid>
+      <pubDate>2026-11-04</pubDate>
+      <description>We present cuRoboV2-Fast, a GPU-accelerated planner that reduces both planning latency and execution time for collision-free, payload-aware, torque-limited motions. B-spline trajectory optimization reduces the required iterations, while accelerated robot computations and differentiable inverse dynamics reduce refinement cost and accommodate changing payloads. TimeOpt optimizes traversal speed along the fixed path under sampled velocity, acceleration, jerk, and torque constraints, exploiting loca</description>
+    </item>
+    <item>
+      <title>BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories</title>
+      <link>https://arxiv.org/abs/2611.06911</link>
+      <guid isPermaLink="false">arxiv:2611.06911</guid>
+      <pubDate>2026-11-04</pubDate>
+      <description>Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs) are increasingly considered as embodied brains for such systems, existing laboratory benchmarks mainly focus on safety, anomaly detection, or general scientific understanding, leaving their execution-o</description>
+    </item>
+    <item>
+      <title>Airlock: Bounding the Multi-Agent Blast Radius via Selective Online Containment</title>
+      <link>https://arxiv.org/abs/2611.06727</link>
+      <guid isPermaLink="false">arxiv:2611.06727</guid>
+      <pubDate>2026-11-04</pubDate>
+      <description>When multi-agent systems act on the external world, a single agent's faulty output can spread across tasks before detection, creating a system-wide blast radius. Single-agent guardrails are confined to individual harnesses, while existing multi-agent controls either cancel only the faulty source and miss downstream consumers or halt and roll back the entire workflow at the cost of healthy work. We present Airlock, a multi-agent runtime and guardrail for selective post-alert fault containment. It</description>
     </item>
   </channel>
 </rss>
