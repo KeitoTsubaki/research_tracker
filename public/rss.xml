@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 09 Nov 2026 10:54:36 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 12:19:26 GMT</lastBuildDate>
     <item>
       <title>Scenario Orchestration for Closed-loop Policy Evaluation of Autonomous Driving</title>
       <link>https://arxiv.org/abs/2611.09888</link>
@@ -102,6 +102,48 @@
       <guid isPermaLink="false">arxiv:2611.08950</guid>
       <pubDate>2026-11-06</pubDate>
       <description>Multi-Agent Debate (MAD) improves reasoning on multimodal tasks, but its accuracy and token efficiency depend on how agents interact during debate. A largely overlooked design choice is which interaction modalities agents use to exchange evidence. Existing methods rely on fixed text- or graph-based interaction, which fails to convey fine-grained multimodal evidence and thus degrades accuracy while inflating token cost due to verbose descriptions. To address this, we propose Adaptive Interaction </description>
+    </item>
+    <item>
+      <title>VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding</title>
+      <link>https://arxiv.org/abs/2611.08449</link>
+      <guid isPermaLink="false">arxiv:2611.08449</guid>
+      <pubDate>2026-11-05</pubDate>
+      <description>Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known st</description>
+    </item>
+    <item>
+      <title>Transformer-Based Trajectory Prescription for sEMG-Optimizing Robot-Mediated Rehabilitation</title>
+      <link>https://arxiv.org/abs/2611.08295</link>
+      <guid isPermaLink="false">arxiv:2611.08295</guid>
+      <pubDate>2026-11-05</pubDate>
+      <description>Robot-mediated rehabilitation has the potential to deliver high-intensity, individualized therapy, but existing systems (which have not consistently improved outcomes) typically prescribe kinematic trajectories rather than explicitly targeting the neuromotor activations thought to support recovery. To address this gap, and ultimately enable activation-optimizing rehabilitation robot behavior, we present a personalizable transformer-based model mapping individuals' muscle activations (as measured</description>
+    </item>
+    <item>
+      <title>SMART: State-based Multi Agent Reasoning Traces for Verification-oriented Problem-Solving</title>
+      <link>https://arxiv.org/abs/2611.08196</link>
+      <guid isPermaLink="false">arxiv:2611.08196</guid>
+      <pubDate>2026-11-05</pubDate>
+      <description>Complex problems with limited context, such as claims, require a means to obtain additional knowledge necessary for solution reasoning. We propose a multi-agent framework, SMART, to obtain knowledge through capturing the implicit state of participating entities in a problem context. SMART curates the state knowledge as diverse, complementary and solution-salient premises using a variety of LLMs and a structured role-based prompt strategy. Using knowledge from these real-world verified curated pr</description>
+    </item>
+    <item>
+      <title>Detecting Silent Faults at the Environment-Trainer Boundary in Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2611.08144</link>
+      <guid isPermaLink="false">arxiv:2611.08144</guid>
+      <pubDate>2026-11-05</pubDate>
+      <description>Robot reinforcement learning increasingly runs environments outside the trainer: in another process, on another machine, in another language. Many faults at this boundary raise no error. We make the boundary a wire protocol and ask what notices a fault in it. On Pendulum, HalfCheetah, Hopper and a 7-joint arm (Pusher), we injected up to 23 faults into what crosses the wire and 2 into the trainer's log, from one value to every value. Unless every value was wrong, a learning-curve threshold caught</description>
+    </item>
+    <item>
+      <title>Reinforcing End-to-End Autonomous Driving Safety via Negative-Aware Planning in a Unified World-Action Model</title>
+      <link>https://arxiv.org/abs/2611.08111</link>
+      <guid isPermaLink="false">arxiv:2611.08111</guid>
+      <pubDate>2026-11-05</pubDate>
+      <description>World-action models (WAMs) jointly model future traffic states and driving actions for end-to-end autonomous driving in intelligent transportation systems. However, their action learning remains dominated by expert-trajectory imitation, leaving unsafe alternatives close to expert trajectories insufficiently constrained. To improve WAM robustness in safety-critical scenarios, we propose NegWAM, a safety post-training framework for unified WAMs that learns explicit safety boundaries from near-expe</description>
+    </item>
+    <item>
+      <title>SEER: A Scalable Event-Driven Runtime for Parallel Execution of Multi-Agent Reinforcement Learning Environments</title>
+      <link>https://arxiv.org/abs/2611.07996</link>
+      <guid isPermaLink="false">arxiv:2611.07996</guid>
+      <pubDate>2026-11-05</pubDate>
+      <description>Multi-agent reinforcement learning (MARL) is increasingly used in systems where many entities interact in a shared environment. In these workloads, policy inference can be batched on GPUs, but the CPU-side environment path still updates entity states, resolves local interactions, and builds observations inside each $\mathrm{env.step}$. This path can dominate latency in interaction-intensive workloads after policy batching. Existing vectorized environment interfaces and general event-driven runti</description>
     </item>
   </channel>
 </rss>
