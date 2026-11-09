@@ -4,146 +4,104 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Sun, 08 Nov 2026 09:51:43 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 10:54:36 GMT</lastBuildDate>
     <item>
-      <title>VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding</title>
-      <link>https://arxiv.org/abs/2611.08449</link>
-      <guid isPermaLink="false">arxiv:2611.08449</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known st</description>
+      <title>Scenario Orchestration for Closed-loop Policy Evaluation of Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2611.09888</link>
+      <guid isPermaLink="false">arxiv:2611.09888</guid>
+      <pubDate>2026-11-06</pubDate>
+      <description>Scenario-based simulation is central to evaluating autonomous-driving policies, but a scenario scripted before execution (i.e., with predetermined, fixed actor routes and speeds) may not preserve its intended interaction once the tested ego policy responds in closed loop. Scripted scenarios cannot adapt to unanticipated ego behavior, while learned traffic actors may remain reactive without reliably realizing a particular scenario intent. We introduce a scenario orchestrator that continuously mon</description>
     </item>
     <item>
-      <title>Transformer-Based Trajectory Prescription for sEMG-Optimizing Robot-Mediated Rehabilitation</title>
-      <link>https://arxiv.org/abs/2611.08295</link>
-      <guid isPermaLink="false">arxiv:2611.08295</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>Robot-mediated rehabilitation has the potential to deliver high-intensity, individualized therapy, but existing systems (which have not consistently improved outcomes) typically prescribe kinematic trajectories rather than explicitly targeting the neuromotor activations thought to support recovery. To address this gap, and ultimately enable activation-optimizing rehabilitation robot behavior, we present a personalizable transformer-based model mapping individuals' muscle activations (as measured</description>
+      <title>A Separation Principle for Cooperative Multi-Agent Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2611.09644</link>
+      <guid isPermaLink="false">arxiv:2611.09644</guid>
+      <pubDate>2026-11-06</pubDate>
+      <description>We study cooperative multi-agent reinforcement learning (MARL) problems in which agents evolve under decoupled noisy dynamics but share a population objective. A canonical example is a mobility operator that orchestrates a fleet of vehicles to meet customer demand. The stochastic and time-varying nature of these problems calls for learning approaches, yet existing MARL algorithms do not scale: learning assignment and routing jointly over the full state-action space becomes prohibitive as the num</description>
     </item>
     <item>
-      <title>SMART: State-based Multi Agent Reasoning Traces for Verification-oriented Problem-Solving</title>
-      <link>https://arxiv.org/abs/2611.08196</link>
-      <guid isPermaLink="false">arxiv:2611.08196</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>Complex problems with limited context, such as claims, require a means to obtain additional knowledge necessary for solution reasoning. We propose a multi-agent framework, SMART, to obtain knowledge through capturing the implicit state of participating entities in a problem context. SMART curates the state knowledge as diverse, complementary and solution-salient premises using a variety of LLMs and a structured role-based prompt strategy. Using knowledge from these real-world verified curated pr</description>
+      <title>Alignment by Confident Debate: Preference Learning from Multi-Agent Debate</title>
+      <link>https://arxiv.org/abs/2611.09568</link>
+      <guid isPermaLink="false">arxiv:2611.09568</guid>
+      <pubDate>2026-11-06</pubDate>
+      <description>Post-training language models for reasoning typically rely on gold answers, task-specific verifiers, or learned reward models, limiting scalability when such signals are scarce. Multi-agent debate offers a self-supervised alternative, but converting debate into reliable training supervision remains challenging: majority voting weights agreeing responses equally, lacks a principled tie-breaking rule, and is ill-defined for open-ended tasks without a canonical answer; likelihood-based scoring can </description>
     </item>
     <item>
-      <title>Detecting Silent Faults at the Environment-Trainer Boundary in Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2611.08144</link>
-      <guid isPermaLink="false">arxiv:2611.08144</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>Robot reinforcement learning increasingly runs environments outside the trainer: in another process, on another machine, in another language. Many faults at this boundary raise no error. We make the boundary a wire protocol and ask what notices a fault in it. On Pendulum, HalfCheetah, Hopper and a 7-joint arm (Pusher), we injected up to 23 faults into what crosses the wire and 2 into the trainer's log, from one value to every value. Unless every value was wrong, a learning-curve threshold caught</description>
+      <title>Travel Cost Calibration for Multi-Agent Target Assignment and Pathfinding</title>
+      <link>https://arxiv.org/abs/2611.09396</link>
+      <guid isPermaLink="false">arxiv:2611.09396</guid>
+      <pubDate>2026-11-06</pubDate>
+      <description>Target assignment and pathfinding (TAPF) is an appealing extension of classical multi-agent pathfinding (MAPF): each agent has a set of targets, and the planner must both assign a target to each agent and plan collision-free paths for them. A trivial approach is to compute an assignment that minimizes the total single-agent shortest-path distance over agent--target pairs, and then solve the resulting MAPF instance. However, this approach falls short because the shortest-path distance remains a p</description>
     </item>
     <item>
-      <title>Reinforcing End-to-End Autonomous Driving Safety via Negative-Aware Planning in a Unified World-Action Model</title>
-      <link>https://arxiv.org/abs/2611.08111</link>
-      <guid isPermaLink="false">arxiv:2611.08111</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>World-action models (WAMs) jointly model future traffic states and driving actions for end-to-end autonomous driving in intelligent transportation systems. However, their action learning remains dominated by expert-trajectory imitation, leaving unsafe alternatives close to expert trajectories insufficiently constrained. To improve WAM robustness in safety-critical scenarios, we propose NegWAM, a safety post-training framework for unified WAMs that learns explicit safety boundaries from near-expe</description>
+      <title>Enabling Privacy-Preserving Natural Language Access to Industrial Smart Meter Data</title>
+      <link>https://arxiv.org/abs/2611.09372</link>
+      <guid isPermaLink="false">arxiv:2611.09372</guid>
+      <pubDate>2026-11-06</pubDate>
+      <description>Energy management officers and grid operators increasingly rely on smart meter data for anomaly detection, performance monitoring, and strategic decision-making. However, extracting actionable insights from large-scale, heterogeneous telemetry databases requires advanced SQL and data engineering expertise, creating a critical bottleneck for non-technical personnel. Furthermore, the strict data privacy regulations and security constraints inherent to critical energy infrastructure often prohibit </description>
     </item>
     <item>
-      <title>SEER: A Scalable Event-Driven Runtime for Parallel Execution of Multi-Agent Reinforcement Learning Environments</title>
-      <link>https://arxiv.org/abs/2611.07996</link>
-      <guid isPermaLink="false">arxiv:2611.07996</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>Multi-agent reinforcement learning (MARL) is increasingly used in systems where many entities interact in a shared environment. In these workloads, policy inference can be batched on GPUs, but the CPU-side environment path still updates entity states, resolves local interactions, and builds observations inside each $\mathrm{env.step}$. This path can dominate latency in interaction-intensive workloads after policy batching. Existing vectorized environment interfaces and general event-driven runti</description>
+      <title>ReSUM: Reasoning-Driven Multi-Agent Framework for Query-Focused Summarization</title>
+      <link>https://arxiv.org/abs/2611.09349</link>
+      <guid isPermaLink="false">arxiv:2611.09349</guid>
+      <pubDate>2026-11-06</pubDate>
+      <description>LLMs excel at language tasks, but long-meeting QFS remains difficult due to complex speaker dynamics, sparse key information, and limited data. Meetings involve disfluencies, long transcripts and complex discourse. QFS have high risk of information omission, hallucination, even for advanced models such as GPT-4-mini and Gemini. Existing end-to-end methods compress retrieval, evidence extraction, and summary generation into a single pass, failing to handle the complex reasoning required for targe</description>
     </item>
     <item>
-      <title>GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2611.07912</link>
-      <guid isPermaLink="false">arxiv:2611.07912</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>World action models (WAMs) for autonomous driving couple the driving policy and the visual world model in a single generative network whose objectives are fixed post-training. Conditioning on a new driving objective requires retraining. We study energy guidance as a general mechanism and present GuidedWAM, a model-agnostic framework for injecting driving objectives into frozen WAMs at sampling time. Our framework constructs each objective as differentiable energies on the sampler's intermediate </description>
+      <title>Towards an Autonomous AI Steward for Large-Scale Physics Experiments: Integrating Causal Diagnostics, RAG, and Conformal Prediction</title>
+      <link>https://arxiv.org/abs/2611.09298</link>
+      <guid isPermaLink="false">arxiv:2611.09298</guid>
+      <pubDate>2026-11-06</pubDate>
+      <description>Long-term particle physics experiments face critical operational challenges: monitoring non-stationary machine data streams and preserving tacit expert knowledge. We present the "Helmholtz Co-Pilot," a hybrid Multi-Agent System (MAS) acting as an autonomous experiment steward. The system can be triggered interactively by human operators or autonomously by an asynchronous causal diagnostics engine that runs independently of the MAS reasoning core. Continuously monitoring live hardware streams suc</description>
     </item>
     <item>
-      <title>Instantiating the Knowledge Plane</title>
-      <link>https://arxiv.org/abs/2611.07827</link>
-      <guid isPermaLink="false">arxiv:2611.07827</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>In 2003, Clark et al. proposed the "Knowledge Plane", a layer of intelligent agents that share rich information about network state in order to collaboratively manage the Internet across administrative boundaries. The technology of the day lacked the two capabilities it demanded most: reasoning and unstructured communication. Thus, automated network management has remained largely confined to single domains, while interdomain problems are still resolved by human operators on the phone. We argue </description>
+      <title>CARGO: Causal Attribution and Responsibility-Guided Preventive Safe Multi-Agent Reinforcement Learning for Cooperative Driving</title>
+      <link>https://arxiv.org/abs/2611.09139</link>
+      <guid isPermaLink="false">arxiv:2611.09139</guid>
+      <pubDate>2026-11-06</pubDate>
+      <description>This study presents Causal Attribution and Responsibility-Guided Optimization (CARGO), a multi-agent reinforcement learning framework for cooperative on-ramp merging in mixed traffic. A shared latent-context posterior and an action-conditioned response model estimate directed behavioral influence, with posterior uncertainty propagated into interaction-edge selection. Complementary attribution mechanisms couple signed influence with marginal team utility for cooperative reward shaping and assign </description>
     </item>
     <item>
-      <title>RIVER: Evidence-guided multi-agent retrieval for enzyme--reaction discovery</title>
-      <link>https://arxiv.org/abs/2611.07757</link>
-      <guid isPermaLink="false">arxiv:2611.07757</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>Enzyme function annotation and the identification of candidate enzymes for a given reaction are essential steps in connecting genomic information to biochemical reaction networks. However, existing methods rely on sequence or structural similarity or on training with known enzyme--reaction pairs, making it difficult to integrate biochemical evidence across large candidate spaces; they also struggle with retrieval tasks involving enzyme families whose members are highly similar. Here, we introduc</description>
+      <title>Auditing Grasp Feasibility Predictors with Planner-Verified Counterfactuals</title>
+      <link>https://arxiv.org/abs/2611.09130</link>
+      <guid isPermaLink="false">arxiv:2611.09130</guid>
+      <pubDate>2026-11-06</pubDate>
+      <description>Grasp-feasibility predictors report near-perfect accuracy on Task and Motion Planning benchmarks, but high accuracy on these benchmarks does not verify that a predictor uses the collision geometry that the motion planner checks. We propose a planner-verified counterfactual (CF) test: holding the grasp pose fixed, we insert a solid obstacle into the approach corridor, add its points to the model input, and let a planner re-derive the label, which flips from feasible to infeasible. Across eight pr</description>
     </item>
     <item>
-      <title>Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes</title>
-      <link>https://arxiv.org/abs/2611.07730</link>
-      <guid isPermaLink="false">arxiv:2611.07730</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>Selecting a next motion in a populated scene is not just a matter of avoiding what is currently in the way: an action can be locally feasible yet drift onto the road instead of the crosswalk, cut into a stream of crossing pedestrians, or bottleneck a narrow passage. These failure modes are invisible from the current state alone, and acting on them requires reasoning about what each candidate action will cause. World models offer exactly this, namely action-conditioned predictions of the future, </description>
+      <title>Toward the Era of Agentic Embodied Intelligence</title>
+      <link>https://arxiv.org/abs/2611.09124</link>
+      <guid isPermaLink="false">arxiv:2611.09124</guid>
+      <pubDate>2026-11-06</pubDate>
+      <description>Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals. MetaBrain provides training supervision and runtime guidance. A correction encoder and adapter absorb this knowledge into policy weights during training, while fresh</description>
     </item>
     <item>
-      <title>Who Should Know What? Empirical Information Design for Multi-Agent LLM Economies</title>
-      <link>https://arxiv.org/abs/2611.07667</link>
-      <guid isPermaLink="false">arxiv:2611.07667</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>The performance of multi-agent LLM systems depends not only on the capabilities of the underlying models but also on information-sharing policies, which govern what information each agent observes and at what level of detail. But does providing AI agents with more detailed information always improve collective outcomes, or can transparency paradoxically degrade efficiency? To investigate this, we introduce empirical information design, an experimental framework that systematically compares discl</description>
+      <title>Safe Circumnavigation on Heterogeneous Orbits: A Range-Only HOCBF-QP Framework for Nonholonomic Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2611.09112</link>
+      <guid isPermaLink="false">arxiv:2611.09112</guid>
+      <pubDate>2026-11-06</pubDate>
+      <description>Circumnavigating a stationary target with a team of robots requires each robot to hold its own standoff distance, to stay evenly spaced from its neighbours, and to avoid collisions with the target and with each other at every instant. The task becomes arduous when the robots are assigned different orbital radii, as their sensors or roles may demand. This paper presents a safety-critical control framework for this problem. Each robot commands both its acceleration and its turn-rate, measures only</description>
     </item>
     <item>
-      <title>GraspBench: Execution-Aware Cross-Robot Evaluation of 6-DoF Grasp Generation in MuJoCo</title>
-      <link>https://arxiv.org/abs/2611.07651</link>
-      <guid isPermaLink="false">arxiv:2611.07651</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>Modern 6-DoF grasp generators are often evaluated using grasp scores, dataset-level metrics, or single-robot demonstrations, yet proposal quality alone does not determine whether a grasp is executable by a particular robot. We present GraspBench, a controlled MuJoCo protocol for evaluating complete grasp-generation pipelines after robot-specific inverse-kinematics filtering, motion planning, and fixed approach-close-lift execution. GraspBench evaluates six configured pipelines across four robot </description>
+      <title>From Emergence to Reversibility: Toward Reversible Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2611.09054</link>
+      <guid isPermaLink="false">arxiv:2611.09054</guid>
+      <pubDate>2026-11-06</pubDate>
+      <description>Multi-agent systems become capable through institutional mechanisms, such as rules that route information to agents that act on it. These mechanisms are also natural places to restrict the system. Yet as agents learn, share memory, delegate, and repair failures, the collective can find other paths to the same effects: a restriction on the original mechanism still operates but no longer stops them, while routine performance and compliance checks pass. We propose \textbf{Reversible Multi-agent Sys</description>
     </item>
     <item>
-      <title>A Bilevel Neurodynamic Approach for Distributed SCAD-Regularized Sparse Least Squares</title>
-      <link>https://arxiv.org/abs/2611.07618</link>
-      <guid isPermaLink="false">arxiv:2611.07618</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>This paper proposes a bilevel particle swarm optimization (PSO)-neurodynamic method for solving the distributed sparse least-squares problem regularized by the smoothly clipped absolute deviation (SCAD) penalty to global optimality. The SCAD penalty is nonsmooth and nonconvex, so existing distributed neurodynamic methods have not been extended to it directly. Through two-time-scale singular perturbation analysis, a rigorous full-trajectory convergence theory with explicit convergence rates is es</description>
+      <title>Phantom Consensus: Measuring Social Reasoning in Multi-Agent LLM Decision-Making</title>
+      <link>https://arxiv.org/abs/2611.08971</link>
+      <guid isPermaLink="false">arxiv:2611.08971</guid>
+      <pubDate>2026-11-06</pubDate>
+      <description>Multi-agent LLM systems increasingly aggregate judgments across model instances, but reasoning about other agents can itself introduce failure. We study a setting in which LLMs shift their public decisions after observing ambiguous social signals while reporting inaccurate estimates of what other agents privately judged, even when the group's recorded private judgments do not support the apparent consensus. We call this failure phantom consensus and study it as a pluralistic-ignorance-style patt</description>
     </item>
     <item>
-      <title>Learning and Steering in Incomplete-Information Games</title>
-      <link>https://arxiv.org/abs/2611.07589</link>
-      <guid isPermaLink="false">arxiv:2611.07589</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>In many modern multi-agent systems, a mediator seeks to influence strategic decision dynamics using only outcome-level feedback and without knowing agents' utilities. In this work, we study how a mediator can learn an unknown game and steer adaptive agents toward outcomes that maximize her utility using only trajectory feedback. The mediator knows the game form and her own objective, but not the agents' utilities. Moreover, she commits to nonnegative payments and provides recommendations and con</description>
-    </item>
-    <item>
-      <title>Goal-Branching LaCAM: Temporary Goals as Search Branches in Dense Multi-Agent Pathfinding</title>
-      <link>https://arxiv.org/abs/2611.07528</link>
-      <guid isPermaLink="false">arxiv:2611.07528</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>LaCAM is a search-based solver for multi-agent pathfinding (MAPF) that runs a depth-first search over joint configurations, using PIBT to generate successors and lazily adding single-agent constraints to explore alternatives. Although LaCAM is complete, it can struggle on dense, corridor-heavy instances because extracting blocking agents from deadlocks requires coordinated moves of several agents, often away from their goals, which PIBT's greedy one-step successors rarely propose and which LaCAM</description>
-    </item>
-    <item>
-      <title>Learning Multi-Agent Orchestration:Higher-Order Interactions in Policy Improvement</title>
-      <link>https://arxiv.org/abs/2611.07495</link>
-      <guid isPermaLink="false">arxiv:2611.07495</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>Learned orchestration has emerged as a promising paradigm for large language model (LLM)-based multi-agent systems, in which a central orchestrator selects agents and controls the information they receive throughout a task. Despite rapid empirical progress, existing methods train the orchestrator by crediting each decision with its own advantage, implicitly assuming that the other decisions in the episode stay fixed. This assumption fails in orchestration, where the contribution of each decision</description>
-    </item>
-    <item>
-      <title>Signed but Not Safe: Requirement Integrity in Multi-Agent LLM Handoffs</title>
-      <link>https://arxiv.org/abs/2611.07483</link>
-      <guid isPermaLink="false">arxiv:2611.07483</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>Enterprise AI agents increasingly split a user's request across subagents and merge their results, and each handoff can summarize away, alter or ignore a requirement. We report a preregistered study with synthetic, exactly scorable tasks comparing free-text, structured JSON and signed requirement-manifest handoffs: the orchestrator extracts each requirement as a verbatim quote plus a checkable predicate, code signs the manifest with HMAC-SHA256, and deterministic code verifies the merger's decis</description>
-    </item>
-    <item>
-      <title>cuRoboV2-Fast: Fast Torque-Limited Collision-Free Motion Planning</title>
-      <link>https://arxiv.org/abs/2611.06913</link>
-      <guid isPermaLink="false">arxiv:2611.06913</guid>
-      <pubDate>2026-11-04</pubDate>
-      <description>We present cuRoboV2-Fast, a GPU-accelerated planner that reduces both planning latency and execution time for collision-free, payload-aware, torque-limited motions. B-spline trajectory optimization reduces the required iterations, while accelerated robot computations and differentiable inverse dynamics reduce refinement cost and accommodate changing payloads. TimeOpt optimizes traversal speed along the fixed path under sampled velocity, acceleration, jerk, and torque constraints, exploiting loca</description>
-    </item>
-    <item>
-      <title>BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories</title>
-      <link>https://arxiv.org/abs/2611.06911</link>
-      <guid isPermaLink="false">arxiv:2611.06911</guid>
-      <pubDate>2026-11-04</pubDate>
-      <description>Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs) are increasingly considered as embodied brains for such systems, existing laboratory benchmarks mainly focus on safety, anomaly detection, or general scientific understanding, leaving their execution-o</description>
-    </item>
-    <item>
-      <title>Airlock: Bounding the Multi-Agent Blast Radius via Selective Online Containment</title>
-      <link>https://arxiv.org/abs/2611.06727</link>
-      <guid isPermaLink="false">arxiv:2611.06727</guid>
-      <pubDate>2026-11-04</pubDate>
-      <description>When multi-agent systems act on the external world, a single agent's faulty output can spread across tasks before detection, creating a system-wide blast radius. Single-agent guardrails are confined to individual harnesses, while existing multi-agent controls either cancel only the faulty source and miss downstream consumers or halt and roll back the entire workflow at the cost of healthy work. We present Airlock, a multi-agent runtime and guardrail for selective post-alert fault containment. It</description>
+      <title>AIM: Adaptive Interaction in Multi-Agent Debate for Multimodal LLM Inference</title>
+      <link>https://arxiv.org/abs/2611.08950</link>
+      <guid isPermaLink="false">arxiv:2611.08950</guid>
+      <pubDate>2026-11-06</pubDate>
+      <description>Multi-Agent Debate (MAD) improves reasoning on multimodal tasks, but its accuracy and token efficiency depend on how agents interact during debate. A largely overlooked design choice is which interaction modalities agents use to exchange evidence. Existing methods rely on fixed text- or graph-based interaction, which fails to convey fine-grained multimodal evidence and thus degrades accuracy while inflating token cost due to verbose descriptions. To address this, we propose Adaptive Interaction </description>
     </item>
   </channel>
 </rss>
