@@ -4,146 +4,111 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 09 Nov 2026 12:19:26 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 10:46:06 GMT</lastBuildDate>
     <item>
-      <title>Scenario Orchestration for Closed-loop Policy Evaluation of Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2611.09888</link>
-      <guid isPermaLink="false">arxiv:2611.09888</guid>
-      <pubDate>2026-11-06</pubDate>
-      <description>Scenario-based simulation is central to evaluating autonomous-driving policies, but a scenario scripted before execution (i.e., with predetermined, fixed actor routes and speeds) may not preserve its intended interaction once the tested ego policy responds in closed loop. Scripted scenarios cannot adapt to unanticipated ego behavior, while learned traffic actors may remain reactive without reliably realizing a particular scenario intent. We introduce a scenario orchestrator that continuously mon</description>
+      <title>Sliding into Balance: Benefits of a Sliding Payload for Load Distribution and Disturbance Rejection in Dual-UAV Transportation</title>
+      <link>https://arxiv.org/abs/2611.12754</link>
+      <guid isPermaLink="false">arxiv:2611.12754</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>This paper analyzes the cooperative transportation of a payload suspended from two drones in which, instead of being attached to two independent ropes, the payload is allowed to slide along a single rope connecting both UAVs. First, a planar nondimensional dynamical model of the sliding motion with viscous friction is presented. Then, considering stationary drones, this configuration is compared with a fixed payload with the same total rope length, both at equilibrium and under disturbances. The</description>
     </item>
     <item>
-      <title>A Separation Principle for Cooperative Multi-Agent Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2611.09644</link>
-      <guid isPermaLink="false">arxiv:2611.09644</guid>
-      <pubDate>2026-11-06</pubDate>
-      <description>We study cooperative multi-agent reinforcement learning (MARL) problems in which agents evolve under decoupled noisy dynamics but share a population objective. A canonical example is a mobility operator that orchestrates a fleet of vehicles to meet customer demand. The stochastic and time-varying nature of these problems calls for learning approaches, yet existing MARL algorithms do not scale: learning assignment and routing jointly over the full state-action space becomes prohibitive as the num</description>
+      <title>Multi-Agent Screening: What Agreement and Acceptance Cannot Tell You</title>
+      <link>https://arxiv.org/abs/2611.12705</link>
+      <guid isPermaLink="false">arxiv:2611.12705</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>When AI agents screen items for a costly human assessor, as in agentic search, e-discovery and AI reviewing of papers, only what they pass gets judged. We show what each kind of evidence can establish about their errors, even with unlimited data. Agreement shows that agents concur, not that they are right, however many there are. Acceptance by the assessor gives precision but only a lower bound on recall. Knowing which agents found which relevant items gives an upper bound on recall if agents' f</description>
     </item>
     <item>
-      <title>Alignment by Confident Debate: Preference Learning from Multi-Agent Debate</title>
-      <link>https://arxiv.org/abs/2611.09568</link>
-      <guid isPermaLink="false">arxiv:2611.09568</guid>
-      <pubDate>2026-11-06</pubDate>
-      <description>Post-training language models for reasoning typically rely on gold answers, task-specific verifiers, or learned reward models, limiting scalability when such signals are scarce. Multi-agent debate offers a self-supervised alternative, but converting debate into reliable training supervision remains challenging: majority voting weights agreeing responses equally, lacks a principled tie-breaking rule, and is ill-defined for open-ended tasks without a canonical answer; likelihood-based scoring can </description>
+      <title>SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery</title>
+      <link>https://arxiv.org/abs/2611.12552</link>
+      <guid isPermaLink="false">arxiv:2611.12552</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>We propose SciMARS, a framework for recursive task-local adaptation of multi-agent harnesses in closed-loop scientific discovery. Multi-agent systems coordinate analysis, experimental design, and verification as scientific evidence evolves. However, two problems limit their effectiveness: (i) without shared memory, agents lose observations and repeat work; (ii) fixed role procedures, handoffs, and memory policies perpetuate mistakes despite retained evidence. We address these problems with a sha</description>
     </item>
     <item>
-      <title>Travel Cost Calibration for Multi-Agent Target Assignment and Pathfinding</title>
-      <link>https://arxiv.org/abs/2611.09396</link>
-      <guid isPermaLink="false">arxiv:2611.09396</guid>
-      <pubDate>2026-11-06</pubDate>
-      <description>Target assignment and pathfinding (TAPF) is an appealing extension of classical multi-agent pathfinding (MAPF): each agent has a set of targets, and the planner must both assign a target to each agent and plan collision-free paths for them. A trivial approach is to compute an assignment that minimizes the total single-agent shortest-path distance over agent--target pairs, and then solve the resulting MAPF instance. However, this approach falls short because the shortest-path distance remains a p</description>
+      <title>AutoVLA-D: Learn a Trajectory-Geometric Condition from Reasoning for Autonomous Driving VLA</title>
+      <link>https://arxiv.org/abs/2611.12382</link>
+      <guid isPermaLink="false">arxiv:2611.12382</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>Autoregressive VLA planning usually predicts continuous trajectories as the final output, but driving instructions often describe actions rather than ego states, which weakens direct conditioning on the final continuous trajectory. We address this gap with TrajCond, which introduces a discrete trajectory-geometric condition for VLA planning. Specifically, we represent TrajCond as a 1D-Brohan differential action trajectory and learn it with a two-stage training framework before final continuous t</description>
     </item>
     <item>
-      <title>Enabling Privacy-Preserving Natural Language Access to Industrial Smart Meter Data</title>
-      <link>https://arxiv.org/abs/2611.09372</link>
-      <guid isPermaLink="false">arxiv:2611.09372</guid>
-      <pubDate>2026-11-06</pubDate>
-      <description>Energy management officers and grid operators increasingly rely on smart meter data for anomaly detection, performance monitoring, and strategic decision-making. However, extracting actionable insights from large-scale, heterogeneous telemetry databases requires advanced SQL and data engineering expertise, creating a critical bottleneck for non-technical personnel. Furthermore, the strict data privacy regulations and security constraints inherent to critical energy infrastructure often prohibit </description>
+      <title>Mitigating SM-Level Load Imbalance in 3D Gaussian Splatting on GPUs</title>
+      <link>https://arxiv.org/abs/2611.12319</link>
+      <guid isPermaLink="false">arxiv:2611.12319</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>3D Gaussian Splatting (3DGS) enables photorealistic, real-time rendering on commodity GPUs and is increasingly adopted in generative world models and autonomous driving simulators. However, existing optimizations rely on algorithmic changes that often require retraining, or on specialized accelerators that lack flexibility across evolving 3DGS variants. In this paper, we identify a fundamental inefficiency in GPU-based 3DGS rendering: severe SM-level load imbalance caused by uneven workloads acr</description>
     </item>
     <item>
-      <title>ReSUM: Reasoning-Driven Multi-Agent Framework for Query-Focused Summarization</title>
-      <link>https://arxiv.org/abs/2611.09349</link>
-      <guid isPermaLink="false">arxiv:2611.09349</guid>
-      <pubDate>2026-11-06</pubDate>
-      <description>LLMs excel at language tasks, but long-meeting QFS remains difficult due to complex speaker dynamics, sparse key information, and limited data. Meetings involve disfluencies, long transcripts and complex discourse. QFS have high risk of information omission, hallucination, even for advanced models such as GPT-4-mini and Gemini. Existing end-to-end methods compress retrieval, evidence extraction, and summary generation into a single pass, failing to handle the complex reasoning required for targe</description>
+      <title>A Modular Perspective for Modeling MARL Systems</title>
+      <link>https://arxiv.org/abs/2611.12314</link>
+      <guid isPermaLink="false">arxiv:2611.12314</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>The growing complexity of Multi-Agent Reinforcement Learning (MARL) has fragmented the literature, obscuring underlying architectural choices behind diverse implementations. This fragmentation makes it difficult to evaluate critical modeling dimensions in isolation, identify how components affect the resulting system dynamics, and compare, reuse, or combine contributions across the literature. This paper proposes a modular perspective for modeling, analyzing, and implementing MARL systems. We de</description>
     </item>
     <item>
-      <title>Towards an Autonomous AI Steward for Large-Scale Physics Experiments: Integrating Causal Diagnostics, RAG, and Conformal Prediction</title>
-      <link>https://arxiv.org/abs/2611.09298</link>
-      <guid isPermaLink="false">arxiv:2611.09298</guid>
-      <pubDate>2026-11-06</pubDate>
-      <description>Long-term particle physics experiments face critical operational challenges: monitoring non-stationary machine data streams and preserving tacit expert knowledge. We present the "Helmholtz Co-Pilot," a hybrid Multi-Agent System (MAS) acting as an autonomous experiment steward. The system can be triggered interactively by human operators or autonomously by an asynchronous causal diagnostics engine that runs independently of the MAS reasoning core. Continuously monitoring live hardware streams suc</description>
+      <title>ExoStack: A Modular and Reconfigurable Software Framework for Wearable Robotics Using ROS 2</title>
+      <link>https://arxiv.org/abs/2611.12306</link>
+      <guid isPermaLink="false">arxiv:2611.12306</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>Wearable robots depend on a software chain that links body-worn sensing to gait interpretation, assistance generation, and actuation. Personalization further requires each measured response to remain associated with the assistance parameters that generated it. This paper presents ExoStack, a modular ROS 2 framework for implementing that chain across embedded hubs and a host computer. Its Embedded Sensing and Actuation (ESA) library configures ESP32 boards as microROS sensing and actuation hubs. </description>
     </item>
     <item>
-      <title>CARGO: Causal Attribution and Responsibility-Guided Preventive Safe Multi-Agent Reinforcement Learning for Cooperative Driving</title>
-      <link>https://arxiv.org/abs/2611.09139</link>
-      <guid isPermaLink="false">arxiv:2611.09139</guid>
-      <pubDate>2026-11-06</pubDate>
-      <description>This study presents Causal Attribution and Responsibility-Guided Optimization (CARGO), a multi-agent reinforcement learning framework for cooperative on-ramp merging in mixed traffic. A shared latent-context posterior and an action-conditioned response model estimate directed behavioral influence, with posterior uncertainty propagated into interaction-edge selection. Complementary attribution mechanisms couple signed influence with marginal team utility for cooperative reward shaping and assign </description>
+      <title>Agent4Crypto: A Dual-Reflective and Market-Feedback-Aligned LLM-Based Multi-Agent System for Cryptocurrency Trading</title>
+      <link>https://arxiv.org/abs/2611.12269</link>
+      <guid isPermaLink="false">arxiv:2611.12269</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>Cryptocurrency markets provide a natural testbed for autonomous AI agents because they are digital-native, high-frequency, and machine-speed environments, yet existing methods often struggle with non-stationary market regimes, opaque decisions, and fixed aggregation rules. In this paper, we propose Agent4Crypto, a dual-reflective and market-feedback-aligned multi-agent system. The framework coordinates specialized agents for data collection, analysis, risk assessment, reflection, and trading, sy</description>
     </item>
     <item>
-      <title>Auditing Grasp Feasibility Predictors with Planner-Verified Counterfactuals</title>
-      <link>https://arxiv.org/abs/2611.09130</link>
-      <guid isPermaLink="false">arxiv:2611.09130</guid>
-      <pubDate>2026-11-06</pubDate>
-      <description>Grasp-feasibility predictors report near-perfect accuracy on Task and Motion Planning benchmarks, but high accuracy on these benchmarks does not verify that a predictor uses the collision geometry that the motion planner checks. We propose a planner-verified counterfactual (CF) test: holding the grasp pose fixed, we insert a solid obstacle into the approach corridor, add its points to the model input, and let a planner re-derive the label, which flips from feasible to infeasible. Across eight pr</description>
+      <title>PARIS: A multi-agent LLM framework for end-to-end, PRISMA-guided systematic literature reviews with pre-synthesis corpus quality assessment</title>
+      <link>https://arxiv.org/abs/2611.12222</link>
+      <guid isPermaLink="false">arxiv:2611.12222</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>Systematic literature reviews (SRs) remain slow and labor-intensive, and most automation tools address single stages of the workflow. We present PARIS (PRISMA Agentic Research Intelligence System), an open-source framework in which a conductor agent running in Claude Code orchestrates 15 specialized large language model (LLM) agents, from scoping a research question to exporting a manuscript draft. Agents are specified declaratively, coordinate exclusively through persisted artifacts that the co</description>
     </item>
     <item>
-      <title>Toward the Era of Agentic Embodied Intelligence</title>
-      <link>https://arxiv.org/abs/2611.09124</link>
-      <guid isPermaLink="false">arxiv:2611.09124</guid>
-      <pubDate>2026-11-06</pubDate>
-      <description>Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals. MetaBrain provides training supervision and runtime guidance. A correction encoder and adapter absorb this knowledge into policy weights during training, while fresh</description>
+      <title>BioMARS 2.0: a robotic biologist for formulating and adapting biological experiments</title>
+      <link>https://arxiv.org/abs/2611.12139</link>
+      <guid isPermaLink="false">arxiv:2611.12139</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>Biological experimentation is not reducible to a single optimization problem, but requires decisions at multiple levels of abstraction: translating scientific knowledge into experimental procedures, adapting culture conditions to measured phenotypes and selecting interventions that test biological hypotheses. Automating experimental execution does not, by itself, determine which experiments should be performed next or how they should change in response to biological feedback. Here we introduce B</description>
     </item>
     <item>
-      <title>Safe Circumnavigation on Heterogeneous Orbits: A Range-Only HOCBF-QP Framework for Nonholonomic Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2611.09112</link>
-      <guid isPermaLink="false">arxiv:2611.09112</guid>
-      <pubDate>2026-11-06</pubDate>
-      <description>Circumnavigating a stationary target with a team of robots requires each robot to hold its own standoff distance, to stay evenly spaced from its neighbours, and to avoid collisions with the target and with each other at every instant. The task becomes arduous when the robots are assigned different orbital radii, as their sensors or roles may demand. This paper presents a safety-critical control framework for this problem. Each robot commands both its acceleration and its turn-rate, measures only</description>
+      <title>Correct First, Fast Second: What a Local 7B Code Model Can and Cannot Do for GPU Kernel Optimization</title>
+      <link>https://arxiv.org/abs/2611.12079</link>
+      <guid isPermaLink="false">arxiv:2611.12079</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>We study how much the interaction strategy around a fixed, locally hosted 7B-parameter code model (Qwen2.5-Coder-7B-Instruct) affects its ability to replace PyTorch operators with custom CUDA kernels. On 30 KernelBench tasks (levels 1-3, first 10 each, evaluated on a V100), we compare four regimes of increasing structure: zero-shot prompting, profiling-guided prompting, iterative refinement on execution feedback, and a multi-agent loop (analysis, retrieval, generation, evaluation, feedback triag</description>
     </item>
     <item>
-      <title>From Emergence to Reversibility: Toward Reversible Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2611.09054</link>
-      <guid isPermaLink="false">arxiv:2611.09054</guid>
-      <pubDate>2026-11-06</pubDate>
-      <description>Multi-agent systems become capable through institutional mechanisms, such as rules that route information to agents that act on it. These mechanisms are also natural places to restrict the system. Yet as agents learn, share memory, delegate, and repair failures, the collective can find other paths to the same effects: a restriction on the original mechanism still operates but no longer stops them, while routine performance and compliance checks pass. We propose \textbf{Reversible Multi-agent Sys</description>
+      <title>Benchmarking language models and agents for scientific reasoning in evolving materials laboratories</title>
+      <link>https://arxiv.org/abs/2611.12014</link>
+      <guid isPermaLink="false">arxiv:2611.12014</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>Large language models and the multi-agent systems built around them could accelerate materials discovery by connecting scientific knowledge with experimental decisions. Existing benchmarks establish capabilities in domain knowledge, multimodal interpretation and scientific tool use. As language models increasingly support materials research workflows, their ability to distinguish closely related material states and reason accurately with quantitative evidence remains insufficiently evaluated. Th</description>
     </item>
     <item>
-      <title>Phantom Consensus: Measuring Social Reasoning in Multi-Agent LLM Decision-Making</title>
-      <link>https://arxiv.org/abs/2611.08971</link>
-      <guid isPermaLink="false">arxiv:2611.08971</guid>
-      <pubDate>2026-11-06</pubDate>
-      <description>Multi-agent LLM systems increasingly aggregate judgments across model instances, but reasoning about other agents can itself introduce failure. We study a setting in which LLMs shift their public decisions after observing ambiguous social signals while reporting inaccurate estimates of what other agents privately judged, even when the group's recorded private judgments do not support the apparent consensus. We call this failure phantom consensus and study it as a pluralistic-ignorance-style patt</description>
+      <title>Operation-aware Multimodal Clinical Decision Support System for ICU Discharge Risk Assessment</title>
+      <link>https://arxiv.org/abs/2611.11960</link>
+      <guid isPermaLink="false">arxiv:2611.11960</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>Unplanned 30-day intensive care unit (ICU) readmission is a critical benchmark for evaluating healthcare quality. Most predictive models assume readmission risk depends solely on a patient's individual pathophysiological state, ignoring hospital operational context and resource capacity. In practice, discharge decisions are dynamic trade-offs between patient stability and bed turnover pressures. To address this gap, we develop an Operation-aware Multimodal Clinical Decision Support System (CDSS)</description>
     </item>
     <item>
-      <title>AIM: Adaptive Interaction in Multi-Agent Debate for Multimodal LLM Inference</title>
-      <link>https://arxiv.org/abs/2611.08950</link>
-      <guid isPermaLink="false">arxiv:2611.08950</guid>
-      <pubDate>2026-11-06</pubDate>
-      <description>Multi-Agent Debate (MAD) improves reasoning on multimodal tasks, but its accuracy and token efficiency depend on how agents interact during debate. A largely overlooked design choice is which interaction modalities agents use to exchange evidence. Existing methods rely on fixed text- or graph-based interaction, which fails to convey fine-grained multimodal evidence and thus degrades accuracy while inflating token cost due to verbose descriptions. To address this, we propose Adaptive Interaction </description>
+      <title>DeltaForge: A Post-hoc Mixture-of-Experts VLA for Multi-Domain Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2611.11856</link>
+      <guid isPermaLink="false">arxiv:2611.11856</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>Fleets of driving vision-language-action (VLA) models are developed one domain at a time: each operator finetunes a shared base model on private data, producing specialized experts that are costly to consolidate into a single model. Weight merging loses accuracy as heterogeneous domains accumulate, and dense mixture-of-experts routing is prohibitively expensive to combine them. We present DeltaForge, to our knowledge the first post-hoc mixture-of-experts VLA for driving, which consolidates N ind</description>
     </item>
     <item>
-      <title>VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding</title>
-      <link>https://arxiv.org/abs/2611.08449</link>
-      <guid isPermaLink="false">arxiv:2611.08449</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known st</description>
-    </item>
-    <item>
-      <title>Transformer-Based Trajectory Prescription for sEMG-Optimizing Robot-Mediated Rehabilitation</title>
-      <link>https://arxiv.org/abs/2611.08295</link>
-      <guid isPermaLink="false">arxiv:2611.08295</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>Robot-mediated rehabilitation has the potential to deliver high-intensity, individualized therapy, but existing systems (which have not consistently improved outcomes) typically prescribe kinematic trajectories rather than explicitly targeting the neuromotor activations thought to support recovery. To address this gap, and ultimately enable activation-optimizing rehabilitation robot behavior, we present a personalizable transformer-based model mapping individuals' muscle activations (as measured</description>
-    </item>
-    <item>
-      <title>SMART: State-based Multi Agent Reasoning Traces for Verification-oriented Problem-Solving</title>
-      <link>https://arxiv.org/abs/2611.08196</link>
-      <guid isPermaLink="false">arxiv:2611.08196</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>Complex problems with limited context, such as claims, require a means to obtain additional knowledge necessary for solution reasoning. We propose a multi-agent framework, SMART, to obtain knowledge through capturing the implicit state of participating entities in a problem context. SMART curates the state knowledge as diverse, complementary and solution-salient premises using a variety of LLMs and a structured role-based prompt strategy. Using knowledge from these real-world verified curated pr</description>
-    </item>
-    <item>
-      <title>Detecting Silent Faults at the Environment-Trainer Boundary in Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2611.08144</link>
-      <guid isPermaLink="false">arxiv:2611.08144</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>Robot reinforcement learning increasingly runs environments outside the trainer: in another process, on another machine, in another language. Many faults at this boundary raise no error. We make the boundary a wire protocol and ask what notices a fault in it. On Pendulum, HalfCheetah, Hopper and a 7-joint arm (Pusher), we injected up to 23 faults into what crosses the wire and 2 into the trainer's log, from one value to every value. Unless every value was wrong, a learning-curve threshold caught</description>
-    </item>
-    <item>
-      <title>Reinforcing End-to-End Autonomous Driving Safety via Negative-Aware Planning in a Unified World-Action Model</title>
-      <link>https://arxiv.org/abs/2611.08111</link>
-      <guid isPermaLink="false">arxiv:2611.08111</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>World-action models (WAMs) jointly model future traffic states and driving actions for end-to-end autonomous driving in intelligent transportation systems. However, their action learning remains dominated by expert-trajectory imitation, leaving unsafe alternatives close to expert trajectories insufficiently constrained. To improve WAM robustness in safety-critical scenarios, we propose NegWAM, a safety post-training framework for unified WAMs that learns explicit safety boundaries from near-expe</description>
-    </item>
-    <item>
-      <title>SEER: A Scalable Event-Driven Runtime for Parallel Execution of Multi-Agent Reinforcement Learning Environments</title>
-      <link>https://arxiv.org/abs/2611.07996</link>
-      <guid isPermaLink="false">arxiv:2611.07996</guid>
-      <pubDate>2026-11-05</pubDate>
-      <description>Multi-agent reinforcement learning (MARL) is increasingly used in systems where many entities interact in a shared environment. In these workloads, policy inference can be batched on GPUs, but the CPU-side environment path still updates entity states, resolves local interactions, and builds observations inside each $\mathrm{env.step}$. This path can dominate latency in interaction-intensive workloads after policy batching. Existing vectorized environment interfaces and general event-driven runti</description>
+      <title>ROS2MR: Connecting ROS 2 Motion Planning to Mixed-Reality Trajectory Visualization</title>
+      <link>https://arxiv.org/abs/2611.11830</link>
+      <guid isPermaLink="false">arxiv:2611.11830</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>Mixed reality (MR) allows users to inspect planned robot motion within their physical surroundings, but displaying trajectories from robotics software requires converting their joint configurations and timing into a format the MR application can play back. This paper presents ROS2MR, an extension of the MR-Robotics LAB platform that converts YAML-serialized ROS 2 joint trajectories, including MoveIt motion plans, into the platform's existing JSON playback format. The converter validates the inpu</description>
     </item>
   </channel>
 </rss>
