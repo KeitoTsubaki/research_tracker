@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Wed, 11 Nov 2026 10:20:45 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 10:39:11 GMT</lastBuildDate>
     <item>
       <title>Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning</title>
       <link>https://arxiv.org/abs/2611.14419</link>
@@ -109,6 +109,41 @@
       <guid isPermaLink="false">arxiv:2611.13382</guid>
       <pubDate>2026-11-09</pubDate>
       <description>Decision making in multi-agent and multi-robot systems often involves discrete decision variables, leading to NP-hard combinatorial optimization problems that must be solved within seconds for near real-time implementation. Denoising diffusion has emerged as a powerful tool for such problems, but existing approaches face a trade-off: Model-Based Diffusion (MBD) incorporates diffusion in sampling-based optimization (SBO) without training but only over continuous spaces, while existing diffusion-b</description>
+    </item>
+    <item>
+      <title>Sliding into Balance: Benefits of a Sliding Payload for Load Distribution and Disturbance Rejection in Dual-UAV Transportation</title>
+      <link>https://arxiv.org/abs/2611.12754</link>
+      <guid isPermaLink="false">arxiv:2611.12754</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>This paper analyzes the cooperative transportation of a payload suspended from two drones in which, instead of being attached to two independent ropes, the payload is allowed to slide along a single rope connecting both UAVs. First, a planar nondimensional dynamical model of the sliding motion with viscous friction is presented. Then, considering stationary drones, this configuration is compared with a fixed payload with the same total rope length, both at equilibrium and under disturbances. The</description>
+    </item>
+    <item>
+      <title>Multi-Agent Screening: What Agreement and Acceptance Cannot Tell You</title>
+      <link>https://arxiv.org/abs/2611.12705</link>
+      <guid isPermaLink="false">arxiv:2611.12705</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>When AI agents screen items for a costly human assessor, as in agentic search, e-discovery and AI reviewing of papers, only what they pass gets judged. We show what each kind of evidence can establish about their errors, even with unlimited data. Agreement shows that agents concur, not that they are right, however many there are. Acceptance by the assessor gives precision but only a lower bound on recall. Knowing which agents found which relevant items gives an upper bound on recall if agents' f</description>
+    </item>
+    <item>
+      <title>SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery</title>
+      <link>https://arxiv.org/abs/2611.12552</link>
+      <guid isPermaLink="false">arxiv:2611.12552</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>We propose SciMARS, a framework for recursive task-local adaptation of multi-agent harnesses in closed-loop scientific discovery. Multi-agent systems coordinate analysis, experimental design, and verification as scientific evidence evolves. However, two problems limit their effectiveness: (i) without shared memory, agents lose observations and repeat work; (ii) fixed role procedures, handoffs, and memory policies perpetuate mistakes despite retained evidence. We address these problems with a sha</description>
+    </item>
+    <item>
+      <title>AutoVLA-D: Learn a Trajectory-Geometric Condition from Reasoning for Autonomous Driving VLA</title>
+      <link>https://arxiv.org/abs/2611.12382</link>
+      <guid isPermaLink="false">arxiv:2611.12382</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>Autoregressive VLA planning usually predicts continuous trajectories as the final output, but driving instructions often describe actions rather than ego states, which weakens direct conditioning on the final continuous trajectory. We address this gap with TrajCond, which introduces a discrete trajectory-geometric condition for VLA planning. Specifically, we represent TrajCond as a 1D-Brohan differential action trajectory and learn it with a two-stage training framework before final continuous t</description>
+    </item>
+    <item>
+      <title>Mitigating SM-Level Load Imbalance in 3D Gaussian Splatting on GPUs</title>
+      <link>https://arxiv.org/abs/2611.12319</link>
+      <guid isPermaLink="false">arxiv:2611.12319</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>3D Gaussian Splatting (3DGS) enables photorealistic, real-time rendering on commodity GPUs and is increasingly adopted in generative world models and autonomous driving simulators. However, existing optimizations rely on algorithmic changes that often require retraining, or on specialized accelerators that lack flexibility across evolving 3DGS variants. In this paper, we identify a fundamental inefficiency in GPU-based 3DGS rendering: severe SM-level load imbalance caused by uneven workloads acr</description>
     </item>
   </channel>
 </rss>

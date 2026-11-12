@@ -21,9 +21,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-11T10:20:45Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-11T10:20:45Z"
   },
   {
     "id": "arxiv:2611.14414",
@@ -50,9 +50,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "Submitted to IEEE",
-    "fetched_at": "2026-11-11T10:20:45Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-11T10:20:45Z"
   },
   {
     "id": "arxiv:2611.14260",
@@ -78,9 +78,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-11T10:20:45Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-11T10:20:45Z"
   },
   {
     "id": "arxiv:2611.14068",
@@ -102,9 +102,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "47 pages. Code at https://github.com/jrice-ai/cage (tag arxiv-v1), data at https://doi.org/10.5281/zenodo.23681828",
-    "fetched_at": "2026-11-11T10:20:45Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-11T10:20:45Z"
   },
   {
     "id": "arxiv:2611.13927",
@@ -126,9 +126,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "7 Pages, 2 Figures, under review",
-    "fetched_at": "2026-11-11T10:20:45Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-11T10:20:45Z"
   },
   {
     "id": "arxiv:2611.13863",
@@ -153,9 +153,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-11T10:20:45Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-11T10:20:45Z"
   },
   {
     "id": "arxiv:2611.13790",
@@ -181,9 +181,9 @@
     ],
     "venue_status": "published",
     "venue_note": "11 pages, 3 figures, 6 tables, including supplementary material. Published in ACM Multimedia 2026 (MM '26)",
-    "fetched_at": "2026-11-11T10:20:45Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-11T10:20:45Z"
   },
   {
     "id": "arxiv:2611.13713",
@@ -206,9 +206,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "ASP-DAC'27 Invited Paper",
-    "fetched_at": "2026-11-11T10:20:45Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-11T10:20:45Z"
   },
   {
     "id": "arxiv:2611.13710",
@@ -230,9 +230,9 @@
     ],
     "venue_status": "published",
     "venue_note": "Accepted at NeurIPS 2026 (40th Conference on Neural Information Processing Systems). 37 pages, 5 figures. Code: https://github.com/buraksusam/AutoManifold_NeurIPS2026",
-    "fetched_at": "2026-11-11T10:20:45Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-11T10:20:45Z"
   },
   {
     "id": "arxiv:2611.13696",
@@ -253,9 +253,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-11T10:20:45Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-11T10:20:45Z"
   },
   {
     "id": "arxiv:2611.13669",
@@ -280,9 +280,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-11T10:20:45Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-11T10:20:45Z"
   },
   {
     "id": "arxiv:2611.13651",
@@ -305,9 +305,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-11T10:20:45Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-11T10:20:45Z"
   },
   {
     "id": "arxiv:2611.13494",
@@ -332,9 +332,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-11T10:20:45Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-11T10:20:45Z"
   },
   {
     "id": "arxiv:2611.13454",
@@ -358,9 +358,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-11T10:20:45Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-11T10:20:45Z"
   },
   {
     "id": "arxiv:2611.12754",
@@ -777,9 +777,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "11 pages, 3 figures",
-    "fetched_at": "2026-11-11T10:20:45Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-11T10:20:45Z"
   },
   {
     "id": "arxiv:2611.09888",
