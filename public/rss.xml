@@ -4,146 +4,111 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Thu, 12 Nov 2026 10:39:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 10:31:19 GMT</lastBuildDate>
     <item>
-      <title>Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning</title>
-      <link>https://arxiv.org/abs/2611.14419</link>
-      <guid isPermaLink="false">arxiv:2611.14419</guid>
-      <pubDate>2026-11-10</pubDate>
-      <description>Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible. We study whether five LLMs can generate such world models as partially observable stochastic games and whether mechanical validity is sufficient to establish that the resulting model faithfully represents the intended decision problem. We introduce a benchma</description>
+      <title>Auditing AI peer reviewers: a benchmark on real scientific papers</title>
+      <link>https://arxiv.org/abs/2611.17052</link>
+      <guid isPermaLink="false">arxiv:2611.17052</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>LLM-based peer review is now used at production scale, but its evaluation remains limited. We introduce a benchmark that injects objective, localisable errors of four types (general issues, mathematics, numerics, citations) at three severity levels into real papers and measures each reviewer's detection rate by error type and severity, together with its false-positive rate on clean copies. We also present Skepthical, a multi-agent reviewer that verifies citation-backed claims by retrieving the c</description>
     </item>
     <item>
-      <title>SIGMO: Sigmoid Gated Interaction-Aware Motion Planning</title>
-      <link>https://arxiv.org/abs/2611.14414</link>
-      <guid isPermaLink="false">arxiv:2611.14414</guid>
-      <pubDate>2026-11-10</pubDate>
-      <description>Despite the widespread adoption of autonomous vehicle technologies, reliable navigation within cluttered environments remains arduous due to the necessity of interaction-aware strategies; example scenarios include: narrow passages with multiple agents, lane changing in dense traffic, and crossing unsignalized intersections. These scenarios often require highly proactive strategies, simultaneously demanding interpretability and quick adaptability, which challenge end-to-end and data-driven method</description>
+      <title>From Delegation to Coordination: Learning Efficient Multi-Agent Deep Research</title>
+      <link>https://arxiv.org/abs/2611.17041</link>
+      <guid isPermaLink="false">arxiv:2611.17041</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>Multi-agent deep-research systems use delegation to parallelize search and keep long tool traces out of the main agent's context. Yet delegation helps only when task allocation and subtask execution are coordinated: the main agent must issue useful subtasks, while subagents must return reliable evidence. Existing training either optimizes only the main agent or broadcasts the same team advantage to all agents, which can reward misleading subagent reports and penalize useful ones. We introduce LE</description>
     </item>
     <item>
-      <title>Lilo: A Multi-Agent Conversational Sandbox for Children's Digital Communication</title>
-      <link>https://arxiv.org/abs/2611.14260</link>
-      <guid isPermaLink="false">arxiv:2611.14260</guid>
-      <pubDate>2026-11-10</pubDate>
-      <description>Children's peer conflicts increasingly play out in group chats, where tone and timing are stripped away, and a hurtful message is easier to send than to say aloud. We present Lilo, a multi-agent conversational system that lets children practice such conversations, so they are better prepared when they encounter them in real digital communication. In Lilo, the child joins two AI-driven peers mid-argument, coached by a mentor character, also named Lilo, through a Stop-Think-Act traffic light. Thro</description>
+      <title>Primer: An AI Framework for Instructor-Centered Educational Simulation Creation</title>
+      <link>https://arxiv.org/abs/2611.16986</link>
+      <guid isPermaLink="false">arxiv:2611.16986</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>Educational simulations are a well-established pedagogical technique that gives learners opportunities to apply knowledge, respond to challenges, and reflect on their performance. High-quality simulations, however, are difficult to build, requiring instructor input, scenario design, character development, scaffolding, technical implementation, and repeated revision. This paper presents Primer, an open-source, LLM-agnostic AI-supported system that helps educators create adaptive educational simul</description>
     </item>
     <item>
-      <title>What a CAGE 4 Score Measures: An Audit of a Learned Cyber-Defense Benchmark, Its Reference Defenders, and the Tables Built on Them</title>
-      <link>https://arxiv.org/abs/2611.14068</link>
-      <guid isPermaLink="false">arxiv:2611.14068</guid>
-      <pubDate>2026-11-10</pubDate>
-      <description>CAGE Challenge 4 is the benchmark on which learned multi-agent cyber defenders are compared. We reproduce its two reference defenders, KEEP and H-MARL Expert, in a pinned container and show that three things read from it measure less than they are taken to measure. First, the simulator silently discards any action asserted for an agent whose previous action is still running, and charges one point for a discarded Restore as for one that runs. The documented observation does not expose the busy fl</description>
+      <title>Context Graph: Explainable Multi-Agent Decision Chains in AI-RAN</title>
+      <link>https://arxiv.org/abs/2611.16879</link>
+      <guid isPermaLink="false">arxiv:2611.16879</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>AI-RAN distributes network control across multiple autonomous agents, namely xApps and rApps operating over shared radio resources. When an alert or degradation appears, operators currently lack a structured way to trace which decision caused it, what context triggered that decision, and how other agents interacted. Existing explainability tools focus on single-model feature attribution or linear event logging, neither of which captures cross-agent decision chains. We propose the Context Graph, </description>
     </item>
     <item>
-      <title>Safety and Connectivity Certificates for Finite-Time Formation Transitions</title>
-      <link>https://arxiv.org/abs/2611.13927</link>
-      <guid isPermaLink="false">arxiv:2611.13927</guid>
-      <pubDate>2026-11-10</pubDate>
-      <description>Finite-time formation transitions are useful for coordinating multi-agent systems in time-critical missions, but convergence to a prescribed formation in finite time does not guarantee collision avoidance or communication connectivity during the transition. Existing approaches address finite-time coordination and safety-constrained formation control, yet explicit connections between disagreement during transitions, formation geometry, and coupling-gain selection need to be developed for certifyi</description>
+      <title>Evaluating Video LLMs' Understanding of Corner Cases in Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2611.16767</link>
+      <guid isPermaLink="false">arxiv:2611.16767</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>Natural language explanations promised by modern Video Large Language Models (Video LLMs) offer autonomous driving systems a path toward detailed scene description and interpretable decision making on the road. While recent benchmarks have begun assessing these models on driving scenes, they mainly target routine traffic conditions and general comprehension tasks based on existing driving datasets and therefore fail to evaluate model performance on the rarest and most safety-critical driving eve</description>
     </item>
     <item>
-      <title>Learn-To-Propagate: Distributionally Robust Motion Planning for Nonlinear Uncertain Systems</title>
-      <link>https://arxiv.org/abs/2611.13863</link>
-      <guid isPermaLink="false">arxiv:2611.13863</guid>
-      <pubDate>2026-11-10</pubDate>
-      <description>Motion planning for stochastic systems aims to find a sequence of control inputs that drives a system to a goal set while avoiding unsafe states with high probability. Existing approaches, however, are either restricted to linear dynamics with perfect knowledge of the underlying distributions or lack formal correctness guarantees. To address these limitations, we propose \emph{Learn-To-Propagate Distributionally-Robust Forest (L2P-DR-Forest)}, a distributionally-robust sampling-based planning al</description>
+      <title>From Foundation VLM to Versatile Driving VLM: A Triplet Incremental Training Approach</title>
+      <link>https://arxiv.org/abs/2611.16727</link>
+      <guid isPermaLink="false">arxiv:2611.16727</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>Adapting general Vision-Language Models (VLMs) to Autonomous Driving (AD) is thought to require heavy 3D spatial priors or intrusive architectural overhauls to compensate for a lack of spatial grounding. In this work, we present a counterintuitive pilot study: off-the-shelf general VLMs already exhibit remarkable adaptability across diverse driving tasks, while precise metric depth remains the primary missing link, a bottleneck readily addressable via onboard sensors and depth foundation models.</description>
     </item>
     <item>
-      <title>RiSE-Drive: Risk-Sensitive Long-Horizon Candidate Evaluation for End-to-End Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2611.13790</link>
-      <guid isPermaLink="false">arxiv:2611.13790</guid>
-      <pubDate>2026-11-10</pubDate>
-      <description>End-to-end autonomous driving systems increasingly rely on generating multiple trajectory candidates and selecting one for execution. In this setting, a central challenge is no longer only candidate generation, but how to evaluate candidates according to their long-horizon consequences under uncertainty. Existing methods still mainly use deterministic point scores, heuristic subscores, or single-outcome evaluations, which makes it difficult to capture delayed failures, tail risk, and ranking ins</description>
+      <title>Safe and Efficient Navigation Considering Texting Pedestrians via Attention-Aware Cost-map Tuning</title>
+      <link>https://arxiv.org/abs/2611.16725</link>
+      <guid isPermaLink="false">arxiv:2611.16725</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>Smartphone-distracted pedestrians deviate from social norms unpredictably and cannot be relied upon to yield to approaching robots -- a safety challenge that existing navigation methods are poorly equipped to handle, since they treat all pedestrians uniformly regardless of attention state. We propose an attention-aware navigation framework that classifies each pedestrian as attentive or distracted in real-time using 3D skeletal features and a Random Forest classifier, then dynamically widens cos</description>
     </item>
     <item>
-      <title>Toward Autonomous RTL and Synthesis Optimization: Benchmarking and Self-Improving Agents</title>
-      <link>https://arxiv.org/abs/2611.13713</link>
-      <guid isPermaLink="false">arxiv:2611.13713</guid>
-      <pubDate>2026-11-10</pubDate>
-      <description>Recent advances in large language models (LLMs) and autonomous agents are creating new opportunities for hardware design optimization. This paper examines three connected directions toward autonomous RTL and synthesis optimization: (1) Realistic benchmarking. We discuss reference-based and open-ended RTL optimization benchmarks that evaluate optimization opportunities under realistic EDA workflows. (2) Tool-grounded RTL optimization. We present Dr. RTL, a multi-agent framework that automates cri</description>
+      <title>HALight: Heterogeneous Multi-Agent Reinforcement Learning for Traffic Signal Control under Lane-Level Missing Observations</title>
+      <link>https://arxiv.org/abs/2611.16574</link>
+      <guid isPermaLink="false">arxiv:2611.16574</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>Multi-agent reinforcement learning has shown great promise for traffic signal control. However, most existing methods rely on two key assumptions: (i) agents are assumed to be homogeneous with unified observation/action spaces; (ii) full and reliable lane-level traffic observations are available to all agents. In practice, urban road networks exhibit substantial structural heterogeneity (e.g., lane configurations and phase designs), while sensor failures and incomplete detector coverage often re</description>
     </item>
     <item>
-      <title>AutoManifold: Agentic Design of Data Visualisation Algorithms via Manifold Embedding</title>
-      <link>https://arxiv.org/abs/2611.13710</link>
-      <guid isPermaLink="false">arxiv:2611.13710</guid>
-      <pubDate>2026-11-10</pubDate>
-      <description>Manifold embedding for data visualisation is dominated by a small set of hand-designed state-of-the-art (SOTA) algorithms. Their design targets are fixed at development time, resulting in inflexible algorithmic behaviour that cannot be readily steered towards user-specified structural priorities. Hand-designing new embedding algorithms to address user priority requires highly specialised expertise and is time consuming. To address autonomous algorithm design tailored to user preference, we intro</description>
+      <title>Shared Item-Level Error Limits the Aggregation of Small Language Models in Fermi Estimation</title>
+      <link>https://arxiv.org/abs/2611.16315</link>
+      <guid isPermaLink="false">arxiv:2611.16315</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>Multi-agent systems of language models are often motivated by an averaging argument: if the agents' errors are unbiased and independent, the error of an aggregate of N answers falls as 1/sqrt(N). Fermi estimation, whose continuous answers are aggregated on the logarithmic scale, permits a direct test. We decompose the log10 error of each answer into the mean error of its model on the item, common to all its draws on the item, and a residual, and estimate both from 2.51M answers given before any </description>
     </item>
     <item>
-      <title>On Private Knowledge Retrieval and Private Inference for secure multi-agent systems</title>
-      <link>https://arxiv.org/abs/2611.13696</link>
-      <guid isPermaLink="false">arxiv:2611.13696</guid>
-      <pubDate>2026-11-10</pubDate>
-      <description>Multi-agent systems provide a convenient framework for the massive deployment of agents based on Large Language Models (LLMs). It provides a sound framework where agents can interact with existing software to perform actions in an autonomous way. Agentic AI is the new term to denote these AI-based autonomous systems. In real multi-agent systems, agents need to deal with malicious agents some of which can exploit security vulnerabilities to do harm. A memory poisoning attack is an example of expl</description>
+      <title>ORCHID-SAGE: Fully Reproducible CALPHAD Assessment from Evidence to Phase Diagram</title>
+      <link>https://arxiv.org/abs/2611.16308</link>
+      <guid isPermaLink="false">arxiv:2611.16308</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>Knowledge of phase stability is the first requirement for materials design, and predicting the conditions under which new materials can be synthesized has become a key capability of self-driving laboratories (SDLs). For inorganic materials, notably alloys, these predictions come from thermodynamic databases built with the CALPHAD method. Building a database, however, requires expert judgment at many steps, and because these decisions are rarely recorded, others can use a database but cannot rege</description>
     </item>
     <item>
-      <title>A computational framework for understanding embodied plans</title>
-      <link>https://arxiv.org/abs/2611.13669</link>
-      <guid isPermaLink="false">arxiv:2611.13669</guid>
-      <pubDate>2026-11-10</pubDate>
-      <description>Reasoning about people's plans and goals based on their actions is fundamental to human social interaction and essential for cooperative, embodied artificial intelligence. Formalizing this capacity in naturalistic, embodied settings has been a longstanding challenge. Here, we present GenEA, a novel agent representation capable of reasoning over multi-step, long-horizon embodied plans. At the heart of GenEA lies a multilevel state-space that couples the coarse biomechanics of an articulated body </description>
+      <title>BWM-Forge: Agentic World Programming for Embodied Intelligence</title>
+      <link>https://arxiv.org/abs/2611.16221</link>
+      <guid isPermaLink="false">arxiv:2611.16221</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>Generating diverse robot videos requires control over scene geometry, robot motion, and viewpoints. End-to-end video generation offers limited direct access to these variables, making targeted edits and reuse across tasks difficult. We present BWM-Forge, a code-driven framework for controllable video generation in robotics. Given robot assets and a task description, the framework accepts an initial image, an image with motion data, or a human demonstration video. A coding agent constructs editab</description>
     </item>
     <item>
-      <title>DrugCoding: A Scientific Programming Agent for Drug Discovery</title>
-      <link>https://arxiv.org/abs/2611.13651</link>
-      <guid isPermaLink="false">arxiv:2611.13651</guid>
-      <pubDate>2026-11-10</pubDate>
-      <description>Drug discovery involves multiple interconnected research stages, including molecular design, property prediction, and virtual screening. These processes are characterized by complex workflows, interdependent computational tasks, and diverse specialized tools, placing substantial demands on the coordination of scientific models and computational resources. However, existing large language model (LLM)-based scientific agents still face challenges in autonomous planning of complex tasks, adaptive s</description>
+      <title>Visibility-Aware Task and Motion Planning with Task-Centric Perception</title>
+      <link>https://arxiv.org/abs/2611.16213</link>
+      <guid isPermaLink="false">arxiv:2611.16213</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>Long-horizon manipulation under uncertainty remains a challenging problem in robotics. We present \ourmethod{}, an algorithm for Visibility-Aware Task and Motion Planning. \ourmethod{} extends existing deterministic task and motion planning solvers to partially observable object rearrangement tasks, while still being able to take advantage of the efficiency and compositional generalization over long horizons of the base solver. This extension interleaves sensing actions into a plan skeleton that</description>
     </item>
     <item>
-      <title>Route-Time Conflict Maps for Cooperative End-to-End Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2611.13494</link>
-      <guid isPermaLink="false">arxiv:2611.13494</guid>
-      <pubDate>2026-11-10</pubDate>
-      <description>Existing cooperative end-to-end driving works at Class A (status-sharing) of the SAE J3216 classes of cooperative driving automation (CDA): vehicles exchange what they perceive, not what they intend, so each plans alone when to go, which limits cooperation and leads to deadlock when both vehicles yield or to collisions when both go. We present When2Go, a cooperative end-to-end driving system that learns when to go by sharing intent under CDA Class B or higher. Each vehicle broadcasts its LiDAR d</description>
+      <title>Turning Multi-Agent Communication into Token-Level Credit with On Policy Self Distillation</title>
+      <link>https://arxiv.org/abs/2611.16206</link>
+      <guid isPermaLink="false">arxiv:2611.16206</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>Reinforcement learning improves problem solving in large language model multi-agent systems. Existing approaches overlook communication knowledge or compress it into scalar rewards, leaving coarse credit with little guidance on which decisions each agent should reinforce or revise. OPSD4MAS converts future communication into fine-grained token-level credit through On Policy Self Distillation (OPSD). An external model extracts facts and assesses their trajectory relations for coarse-grained filte</description>
     </item>
     <item>
-      <title>SafeRoute-MAS: Coverage-Aware and Risk-Calibrated Message Routing for Multi-Agent Scientific Reasoning</title>
-      <link>https://arxiv.org/abs/2611.13454</link>
-      <guid isPermaLink="false">arxiv:2611.13454</guid>
-      <pubDate>2026-11-10</pubDate>
-      <description>We introduce SafeRoute-MAS, a coverage-aware, risk-calibrated procedure that keeps all specialist messages or removes one using only pre-integration information. On a sealed cache of 5,328 committees, its source-compatible operating point gains +1.80 percentage points (95% CI [+1.13, +2.52]) while removing 12.76% of message tokens. We also run 4,580 controlled integrations over a stratified 458-committee sample on a public gpt-oss-120b endpoint. The sample estimate is -0.09 points; design weight</description>
+      <title>Data-Efficient LLM Safety Alignment Guided by Interpretable Features</title>
+      <link>https://arxiv.org/abs/2611.16183</link>
+      <guid isPermaLink="false">arxiv:2611.16183</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>Existing large language models typically rely on massive fine-tuning datasets for safety alignment, which results in higher costs for safety alignment and often leads to the problem of over-refusal. We propose Less is Safer (LIS), a compact yet highly effective dataset for safety alignment, constructed through interpretable feature-guided selection and adversarial synthesis. Specifically, we leverage Sparse Autoencoder (SAE) activations to efficiently select prompts that cover diverse and interp</description>
     </item>
     <item>
-      <title>Discrete Model-Based Diffusion for Combinatorial Optimization in Multi-Robot Task Allocation</title>
-      <link>https://arxiv.org/abs/2611.13382</link>
-      <guid isPermaLink="false">arxiv:2611.13382</guid>
-      <pubDate>2026-11-09</pubDate>
-      <description>Decision making in multi-agent and multi-robot systems often involves discrete decision variables, leading to NP-hard combinatorial optimization problems that must be solved within seconds for near real-time implementation. Denoising diffusion has emerged as a powerful tool for such problems, but existing approaches face a trade-off: Model-Based Diffusion (MBD) incorporates diffusion in sampling-based optimization (SBO) without training but only over continuous spaces, while existing diffusion-b</description>
-    </item>
-    <item>
-      <title>Sliding into Balance: Benefits of a Sliding Payload for Load Distribution and Disturbance Rejection in Dual-UAV Transportation</title>
-      <link>https://arxiv.org/abs/2611.12754</link>
-      <guid isPermaLink="false">arxiv:2611.12754</guid>
-      <pubDate>2026-11-09</pubDate>
-      <description>This paper analyzes the cooperative transportation of a payload suspended from two drones in which, instead of being attached to two independent ropes, the payload is allowed to slide along a single rope connecting both UAVs. First, a planar nondimensional dynamical model of the sliding motion with viscous friction is presented. Then, considering stationary drones, this configuration is compared with a fixed payload with the same total rope length, both at equilibrium and under disturbances. The</description>
-    </item>
-    <item>
-      <title>Multi-Agent Screening: What Agreement and Acceptance Cannot Tell You</title>
-      <link>https://arxiv.org/abs/2611.12705</link>
-      <guid isPermaLink="false">arxiv:2611.12705</guid>
-      <pubDate>2026-11-09</pubDate>
-      <description>When AI agents screen items for a costly human assessor, as in agentic search, e-discovery and AI reviewing of papers, only what they pass gets judged. We show what each kind of evidence can establish about their errors, even with unlimited data. Agreement shows that agents concur, not that they are right, however many there are. Acceptance by the assessor gives precision but only a lower bound on recall. Knowing which agents found which relevant items gives an upper bound on recall if agents' f</description>
-    </item>
-    <item>
-      <title>SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery</title>
-      <link>https://arxiv.org/abs/2611.12552</link>
-      <guid isPermaLink="false">arxiv:2611.12552</guid>
-      <pubDate>2026-11-09</pubDate>
-      <description>We propose SciMARS, a framework for recursive task-local adaptation of multi-agent harnesses in closed-loop scientific discovery. Multi-agent systems coordinate analysis, experimental design, and verification as scientific evidence evolves. However, two problems limit their effectiveness: (i) without shared memory, agents lose observations and repeat work; (ii) fixed role procedures, handoffs, and memory policies perpetuate mistakes despite retained evidence. We address these problems with a sha</description>
-    </item>
-    <item>
-      <title>AutoVLA-D: Learn a Trajectory-Geometric Condition from Reasoning for Autonomous Driving VLA</title>
-      <link>https://arxiv.org/abs/2611.12382</link>
-      <guid isPermaLink="false">arxiv:2611.12382</guid>
-      <pubDate>2026-11-09</pubDate>
-      <description>Autoregressive VLA planning usually predicts continuous trajectories as the final output, but driving instructions often describe actions rather than ego states, which weakens direct conditioning on the final continuous trajectory. We address this gap with TrajCond, which introduces a discrete trajectory-geometric condition for VLA planning. Specifically, we represent TrajCond as a 1D-Brohan differential action trajectory and learn it with a two-stage training framework before final continuous t</description>
-    </item>
-    <item>
-      <title>Mitigating SM-Level Load Imbalance in 3D Gaussian Splatting on GPUs</title>
-      <link>https://arxiv.org/abs/2611.12319</link>
-      <guid isPermaLink="false">arxiv:2611.12319</guid>
-      <pubDate>2026-11-09</pubDate>
-      <description>3D Gaussian Splatting (3DGS) enables photorealistic, real-time rendering on commodity GPUs and is increasingly adopted in generative world models and autonomous driving simulators. However, existing optimizations rely on algorithmic changes that often require retraining, or on specialized accelerators that lack flexibility across evolving 3DGS variants. In this paper, we identify a fundamental inefficiency in GPU-based 3DGS rendering: severe SM-level load imbalance caused by uneven workloads acr</description>
+      <title>Gradient-Aware AI Agents for Autonomous Turbulence Model Discovery via Differentiable CFD</title>
+      <link>https://arxiv.org/abs/2611.16082</link>
+      <guid isPermaLink="false">arxiv:2611.16082</guid>
+      <pubDate>2026-11-11</pubDate>
+      <description>Turbulence modeling relies on human choices of closure form, physical inputs, and tunable parameters. Training closures a posteriori is efficient only with gradients through long chaotic rollouts, which few solvers provide. Most a posteriori approaches therefore resort to gradient-free optimization, and nearly all fix the closure form in advance, learning only its parameters. In this work, we introduce a gradient-aware agentic framework that poses closure discovery as a bilevel problem: a multi-</description>
     </item>
   </channel>
 </rss>
