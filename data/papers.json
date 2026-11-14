@@ -21,9 +21,9 @@
     ],
     "venue_status": "published",
     "venue_note": "Accepted at NeurIPS 2026",
-    "fetched_at": "2026-11-13T10:31:19Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-13T10:31:19Z"
   },
   {
     "id": "arxiv:2611.17041",
@@ -53,9 +53,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "16 pages, 3 figures, 3 tables",
-    "fetched_at": "2026-11-13T10:31:19Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-13T10:31:19Z"
   },
   {
     "id": "arxiv:2611.16986",
@@ -80,9 +80,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-13T10:31:19Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-13T10:31:19Z"
   },
   {
     "id": "arxiv:2611.16879",
@@ -106,9 +106,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "This work has been submitted to the IEEE for possible publication",
-    "fetched_at": "2026-11-13T10:31:19Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-13T10:31:19Z"
   },
   {
     "id": "arxiv:2611.16767",
@@ -136,9 +136,9 @@
     ],
     "venue_status": "published",
     "venue_note": "Accepted at BMVC 2026",
-    "fetched_at": "2026-11-13T10:31:19Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-13T10:31:19Z"
   },
   {
     "id": "arxiv:2611.16727",
@@ -164,9 +164,9 @@
     ],
     "venue_status": "published",
     "venue_note": "13 pages, 3 figures, 7 tables. Accepted at the 10th Conference on Robot Learning (CoRL 2026)",
-    "fetched_at": "2026-11-13T10:31:19Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-13T10:31:19Z"
   },
   {
     "id": "arxiv:2611.16725",
@@ -189,9 +189,9 @@
     ],
     "venue_status": "published",
     "venue_note": "7 pages, 4 figures, 3 tables. Accepted at the 35th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN 2026)",
-    "fetched_at": "2026-11-13T10:31:19Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-13T10:31:19Z"
   },
   {
     "id": "arxiv:2611.16574",
@@ -216,9 +216,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-13T10:31:19Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-13T10:31:19Z"
   },
   {
     "id": "arxiv:2611.16315",
@@ -239,9 +239,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "21 pages, 2 figures, 17 tables",
-    "fetched_at": "2026-11-13T10:31:19Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-13T10:31:19Z"
   },
   {
     "id": "arxiv:2611.16308",
@@ -261,9 +261,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "24 pages, 19 figures. Code and data: https://github.com/orchid-calphad/orchid-sage (doi:10.5281/zenodo.24045967); assessment record doi:10.5281/zenodo.24045965",
-    "fetched_at": "2026-11-13T10:31:19Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-13T10:31:19Z"
   },
   {
     "id": "arxiv:2611.16221",
@@ -283,9 +283,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "Technical Report",
-    "fetched_at": "2026-11-13T10:31:19Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-13T10:31:19Z"
   },
   {
     "id": "arxiv:2611.16213",
@@ -311,9 +311,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-13T10:31:19Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-13T10:31:19Z"
   },
   {
     "id": "arxiv:2611.16206",
@@ -342,9 +342,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "14pages,4 figures",
-    "fetched_at": "2026-11-13T10:31:19Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-13T10:31:19Z"
   },
   {
     "id": "arxiv:2611.16183",
@@ -369,9 +369,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": "36 pages, 16 figures",
-    "fetched_at": "2026-11-13T10:31:19Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-13T10:31:19Z"
   },
   {
     "id": "arxiv:2611.16082",
@@ -394,9 +394,9 @@
     ],
     "venue_status": "preprint",
     "venue_note": null,
-    "fetched_at": "2026-11-13T10:31:19Z",
     "memo": "",
-    "memo_updated_at": null
+    "memo_updated_at": null,
+    "fetched_at": "2026-11-13T10:31:19Z"
   },
   {
     "id": "arxiv:2611.14419",

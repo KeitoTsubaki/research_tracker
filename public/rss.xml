@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Fri, 13 Nov 2026 10:31:19 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 09:48:56 GMT</lastBuildDate>
     <item>
       <title>Auditing AI peer reviewers: a benchmark on real scientific papers</title>
       <link>https://arxiv.org/abs/2611.17052</link>
@@ -109,6 +109,41 @@
       <guid isPermaLink="false">arxiv:2611.16082</guid>
       <pubDate>2026-11-11</pubDate>
       <description>Turbulence modeling relies on human choices of closure form, physical inputs, and tunable parameters. Training closures a posteriori is efficient only with gradients through long chaotic rollouts, which few solvers provide. Most a posteriori approaches therefore resort to gradient-free optimization, and nearly all fix the closure form in advance, learning only its parameters. In this work, we introduce a gradient-aware agentic framework that poses closure discovery as a bilevel problem: a multi-</description>
+    </item>
+    <item>
+      <title>Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning</title>
+      <link>https://arxiv.org/abs/2611.14419</link>
+      <guid isPermaLink="false">arxiv:2611.14419</guid>
+      <pubDate>2026-11-10</pubDate>
+      <description>Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible. We study whether five LLMs can generate such world models as partially observable stochastic games and whether mechanical validity is sufficient to establish that the resulting model faithfully represents the intended decision problem. We introduce a benchma</description>
+    </item>
+    <item>
+      <title>SIGMO: Sigmoid Gated Interaction-Aware Motion Planning</title>
+      <link>https://arxiv.org/abs/2611.14414</link>
+      <guid isPermaLink="false">arxiv:2611.14414</guid>
+      <pubDate>2026-11-10</pubDate>
+      <description>Despite the widespread adoption of autonomous vehicle technologies, reliable navigation within cluttered environments remains arduous due to the necessity of interaction-aware strategies; example scenarios include: narrow passages with multiple agents, lane changing in dense traffic, and crossing unsignalized intersections. These scenarios often require highly proactive strategies, simultaneously demanding interpretability and quick adaptability, which challenge end-to-end and data-driven method</description>
+    </item>
+    <item>
+      <title>Lilo: A Multi-Agent Conversational Sandbox for Children's Digital Communication</title>
+      <link>https://arxiv.org/abs/2611.14260</link>
+      <guid isPermaLink="false">arxiv:2611.14260</guid>
+      <pubDate>2026-11-10</pubDate>
+      <description>Children's peer conflicts increasingly play out in group chats, where tone and timing are stripped away, and a hurtful message is easier to send than to say aloud. We present Lilo, a multi-agent conversational system that lets children practice such conversations, so they are better prepared when they encounter them in real digital communication. In Lilo, the child joins two AI-driven peers mid-argument, coached by a mentor character, also named Lilo, through a Stop-Think-Act traffic light. Thro</description>
+    </item>
+    <item>
+      <title>What a CAGE 4 Score Measures: An Audit of a Learned Cyber-Defense Benchmark, Its Reference Defenders, and the Tables Built on Them</title>
+      <link>https://arxiv.org/abs/2611.14068</link>
+      <guid isPermaLink="false">arxiv:2611.14068</guid>
+      <pubDate>2026-11-10</pubDate>
+      <description>CAGE Challenge 4 is the benchmark on which learned multi-agent cyber defenders are compared. We reproduce its two reference defenders, KEEP and H-MARL Expert, in a pinned container and show that three things read from it measure less than they are taken to measure. First, the simulator silently discards any action asserted for an agent whose previous action is still running, and charges one point for a discarded Restore as for one that runs. The documented observation does not expose the busy fl</description>
+    </item>
+    <item>
+      <title>Safety and Connectivity Certificates for Finite-Time Formation Transitions</title>
+      <link>https://arxiv.org/abs/2611.13927</link>
+      <guid isPermaLink="false">arxiv:2611.13927</guid>
+      <pubDate>2026-11-10</pubDate>
+      <description>Finite-time formation transitions are useful for coordinating multi-agent systems in time-critical missions, but convergence to a prescribed formation in finite time does not guarantee collision avoidance or communication connectivity during the transition. Existing approaches address finite-time coordination and safety-constrained formation control, yet explicit connections between disagreement during transitions, formation geometry, and coupling-gain selection need to be developed for certifyi</description>
     </item>
   </channel>
 </rss>
