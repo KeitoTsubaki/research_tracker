@@ -1,5 +1,434 @@
 [
   {
+    "id": "arxiv:2611.18546",
+    "title": "Modeling the Frictional Contact of Continuum Robots with Environments through Linear Complementarity Problem",
+    "authors": [
+      "Jia Shen",
+      "Junhyoung Ha",
+      "Yue Chen"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.18546",
+    "abstract": "Accurate friction modeling in continuum robots is essential for precise motion control and path planning. However, current approaches make predictions only for the mechanism's internal friction that is limited by the boundary forces of the Coulomb friction cone, which fail to characterize the static friction and motion hysteresis. In this paper, we propose a novel friction model based on complementarity constraints under the Coulomb friction assumption. This model predicts various friction effects caused by environmental interactions, including both static and sliding frictions and hysteresis behavior, as well as the corresponding robot deformation induced by these interactions, which are crucial for the practical motion planning and control of continuum robots. Additionally, real-time implementation of this model can be achieved, meeting the demand for computational efficiency in robotic applications. Experimental validations demonstrated that this model is able to reduce the maximum tip position error from 45.4 mm in the frictionless model to 5.85 mm in our friction-included model with a 287.9 mm-long tendon-driven continuum robot.",
+    "published_date": "2026-11-13",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted for publication in International Journal of Robotics Research (IJRR). 21 pages, 18 figures",
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.18543",
+    "title": "Imitation Bootstrapped Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Tony H. Zhang",
+      "Connor Mattson",
+      "Daniel S. Brown"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.18543",
+    "abstract": "Demonstrations are an effective way to accelerate single-agent reinforcement learning (RL), but extending this idea to multi-agent reinforcement learning (MARL) is non-trivial as it is difficult and often impossible for a single person to teleoperate multiple agents simultaneously. Round-Robin Behavior Cloning (R2BC) addresses this by letting a single demonstrator control one agent at a time while the others execute their current policies. However, the resulting imitation policies are limited by the quality of the demonstrations. We propose Imitation Bootstrapped Multi-Agent Reinforcement Learning (IBMARL), a framework that extends Imitation Bootstrapped Reinforcement Learning (IBRL) to cooperative teams and uses R2BC to train the imitation policies. At each time step, every agent receives one action proposal from its imitation policy and one from its RL policy, and an ensemble of centralized critics selects among the per-agent combinations of the two. A gated imitation penalty, a soft Q-filtered behavior cloning loss, regularizes each RL policy toward its imitation policy only where the critics value the imitation action more, so that after training each agent executes its RL policy alone, without the centralized critics. On four cooperative multi-agent RL benchmarks, IBMARL surpasses its imitation policies $2.6$-$4.2\\times$ faster than demonstration-based baselines on two tasks, is the only method to surpass it on the other two, and exceeds the demonstrator itself on two of the four. With real human demonstrations IBMARL still surpasses imitation learning alone, and does so more than twice as fast as the best baseline.",
+    "published_date": "2026-11-13",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "9 pages, 5 figures. Code, videos and results: https://zhanghutony.github.io/ibmarl/. A preliminary version appeared at the PhysCollaBot Workshop at IROS 2026",
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.18496",
+    "title": "Toward Resilient Self-Driving Laboratories through Telerobotic Interventions",
+    "authors": [
+      "Ziheng Wu",
+      "Adrian Vecina Tercero",
+      "Andre A. Fatehi",
+      "Abhik Sarkar",
+      "Brian Giera",
+      "Eric B. Duoss",
+      "Christopher M. Spadaccini",
+      "Nikhil Deshpande",
+      "Aldair E. Gongora"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.18496",
+    "abstract": "Self-driving laboratories (SDLs) accelerate scientific research by integrating robotics, automated experimentation, and machine learning to execute experiments autonomously. Biology and chemistry have adopted these systems. However, increasing SDL complexity heightens susceptibility to unexpected faults in automated workflows, highlighting the need for efficient recovery mechanisms. In this study, we investigate telerobotic interventions to enhance SDL resilience against unexpected failures. We developed a teleoperation interface enabling human operators to resolve disruptions during automated tasks. The interface enables precise control of a six-degree-of-freedom (DOF) robotic arm (UR3e) using a 3D mouse (3Dconnexion SpaceMouse Pro). Two velocity-based controller strategies were evaluated: (i) a coupled mode mapping all six DOFs to the 3D mouse's central knob and (ii) a decoupled mode separating translational and rotational motions. To evaluate the framework, teleoperators intervened across three SDL fault scenarios. In the first study, comparative trials showed that the decoupled controller was associated with shorter completion times and reduced rotational motion. In a second study, teleoperators performed an aiming task with and without reference-path guidance. Users were more target-driven and risk-tolerant without guidance but showed behavioral differences under different guidance strategies. These findings suggest that controller configuration and reference-path design influence operator performance during SDL fault recovery, informing teleoperation interface optimization. This work demonstrates the potential feasibility of teleoperation as a human-in-the-loop recovery mechanism for SDL workflows, combining robotic precision with human adaptability and problem-solving. These findings also provide a foundation for future studies in shared autonomy and semi-autonomous intervention.",
+    "published_date": "2026-11-13",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.18183",
+    "title": "When Should a Virtual Patient Ask? RISP-Guided Proactive Information Seeking in Multi-Agent Patient Simulation",
+    "authors": [
+      "Jingyao Cai",
+      "Shuaijun Liu",
+      "Abdul Rehman",
+      "Xiaowan Li",
+      "Qintian",
+      "Thomas Dolby",
+      "Sue M Green",
+      "Xiaosong Yang"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.18183",
+    "abstract": "Virtual patient (VP) systems support nursing communication training by providing simulated encounters in which learners practise explaining care and responding to patient concerns. Although large language models (LLMs) support flexible dialogue, current approaches give less explicit attention to how patients' information needs develop and guide the content and timing of their questions. We draw on the Risk Information Seeking and Processing (RISP) model, which relates information seeking to perceived risk and the gap between perceived knowledge and desired understanding. Guided by this perspective, we propose the RISP Multi-Agent System (RISP-MAS), a VP system for patient-initiated information seeking. The system links ongoing assessment of the patient's perceptions and information needs to coordinated decisions about whether to seek information, when to ask and which uncertainty to address. Evaluation of nursing student-VP interactions suggested that RISP-MAS exhibited plausible patient information-seeking behaviour, as indicated by expert assessments, while student feedback reflected positive interaction experiences. This work extends patient simulation by connecting a psychological account of information needs to explicit decisions about question initiation. The approach offers nursing students opportunities to practise recognising unresolved patient concerns and tailoring explanations to patients' information needs.",
+    "published_date": "2026-11-13",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.18150",
+    "title": "Who Should Be on the Panel? Task-Conditioned Persona Selection for LLM Trading Agents",
+    "authors": [
+      "Boming Yang",
+      "Yuquan Wang",
+      "Jiaxian Guo",
+      "Yusuke Iwasawa",
+      "Yutaka Matsuo"
+    ],
+    "source": "arxiv",
+    "category": "q-fin.TR",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.18150",
+    "abstract": "Multi-agent LLM systems are built by fixing a cast of roles and then designing how the cast coordinates. Which agents should make up the group for a given task is left to the designer, and the same cast is reused for every task. Financial trading makes the cost of that choice visible: stocks trade differently, and the trading styles suited to one need not suit another. We study task-conditioned persona selection, composing the group from the characteristics of the task it will face, and instantiate it with FinPanel, an LLM multi-agent trading system in which a recruiter selects a panel of named trader personas for each stock from a direction-blind statistical sketch of how the stock trades, each persona gives an independent daily call in its own style, and a manager commits the trade after reading the panel's arguments and their desk-kept, hierarchical track records. Because nothing is returned to the traders, the panel stays the panel that was selected, and it can trade a new stock from an empty record. On eight US stocks over the out-of-knowledge year 2025, against three prior LLM trading agents re-implemented in the same framework and against rule-based, predictive and reinforcement-learning baselines, the selected panel is ahead of a fixed panel of the same size and of the prior agents run as their papers prescribe, with a shallower drawdown than buy-and-hold on every stock; it keeps its performance with no warm-up and with no record at all, whereas the memory-augmented agents' returns swing with their warm-up; and neither more seats nor the manager's reading of the arguments substitutes for selecting the right ones. Who is in the group is a design decision to be made per task, before how the group coordinates.",
+    "published_date": "2026-11-13",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted at the AI4F workshop, ICAIF 2026. Code: https://github.com/tinyrolls/FinPanel",
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.18110",
+    "title": "PoliMop: Policy-in-the-Loop Motion Planning in 3D Spaces for Mobile Robots",
+    "authors": [
+      "Yael Fassbind",
+      "Valentin N. Hartmann",
+      "Huang Su",
+      "Yijiang Huang",
+      "Stelian Coros"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.18110",
+    "abstract": "Reaching a goal state in a complex environment often requires a robot to overcome challenging terrain and obstacles. Which routes are accessible depends on the robot's physical design, the control policy it uses, and how it modifies its surroundings. We present a kinodynamic rapidly-exploring random tree (RRT) planner that uses physics simulation to exploit skills encoded in the control policy, which allows it to find a path in the scene with respect to the robot's capabilities. The planner samples states from a reduced state space in 3D around the scene and expands the RRT toward each sample using policy rollouts. We guide sampling with a preplanned path for a simple mass-point model to focus exploration on promising regions leading toward the goal state, reducing planning time by up to 63%. Simulation experiments with quadrupeds, humanoids, and wheeled robots demonstrate that our approach supports drop-in integration of various robots and control policies, exploiting their physical and policy capabilities without modifying the underlying planning algorithm. Predefined environmental modifications, such as placing a plank across a gap to build a bridge, will automatically be picked up by the planner as the robot's reachable space expands.",
+    "published_date": "2026-11-13",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 5 figures. Videos and code: https://ariael21.github.io/polimop.html",
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.17966",
+    "title": "From Images to Grounded Edits: A Real-World Benchmark for Chinese Grammatical Error Correction in Handwritten Essays",
+    "authors": [
+      "Weiru Zhang",
+      "Yuzhong Hong",
+      "Junwei Bao",
+      "Lemao Liu",
+      "Dejing Dou"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.17966",
+    "abstract": "Chinese Grammatical Error Correction (CGEC) is typically formulated as a text-to-text problem. While suitable for digital texts, this formulation falls short in real-world K-12 education, where AI-assisted corrections are expected directly on essay images, which are primarily handwritten and exhibit many irregularities. To bridge this gap, we introduce Grounded Chinese Grammatical Error Correction (G-CGEC), an image-to-grounded-edit task requiring systems to predict both corrections and their positions on essay images. We propose G-CGEC-Eval, a benchmark comprising real-world images of K-12 Chinese essays with fine-grained annotations. For evaluation, we adapt IoU-based metrics from object detection and propose a more tolerant alternative based on center-distance matching. Using this benchmark, we evaluate open-source and proprietary vision-language models under a direct single-pass setting, as well as settings with auxiliary components (OCR and character grounding) coordinated via pipelining or agentic harnessing. Results show that even top-tier proprietary models perform surprisingly poorly in the single-pass setting, while pipelining and agentic harnessing yield meaningful improvements. Notably, an error-type-based multi-agent workflow achieves the best performance, establishing it as the strongest baseline for future G-CGEC research. Through ablations and fine-grained analysis, we find the task remains far from solved, with linguistic error discovery and character-level grounding as the primary bottlenecks. This underscores the need for models that better integrate visual perception with linguistic reasoning and visual grounding.",
+    "published_date": "2026-11-13",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.17917",
+    "title": "When Cooperation Must Change: Semantic Strategy Unlearning in Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Wenhan Wu",
+      "Linghan Chen",
+      "Yudong Gao",
+      "Fan Yang",
+      "Honglong Chen",
+      "Kai Yin",
+      "Jiawei Jiang",
+      "Chuang Hu"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.17917",
+    "abstract": "Cooperative multi-agent reinforcement learning (MARL) supports coordinated decision-making in distributed Web services, multi-robot control, and collaborative games through learned coordination conventions. When deployment requirements change, a previously useful convention may become obsolete or unsafe. For example, revised cache-sharing permissions in Web content delivery may require caches to abandon a learned division of storage and serving roles while maintaining efficient delivery. Teams must therefore remove the specified convention while preserving useful cooperation. This is challenging because the same relational pattern can be reproduced by different agents across different histories. Runtime shielding leaves the underlying coordination preference intact and can impair task progress, while existing reinforcement unlearning and trajectory-deletion methods do not directly target role-invariant conventions. This paper formalizes this problem as semantic coordination-strategy unlearning and proposes CARVE.CARVE uses causal coordination attribution to identify influential interactions and retain-aware subspace updates to limit interference with unrelated behaviors. Counterfactual re-coordination helps agents learn productive alternatives, while adversarial auditing tests whether the target convention can still be recovered. Accepted updates are merged into decentralized actors for direct deployment. Evaluation across five cooperative MARL benchmarks shows that CARVE reduces mean nominal convention-completion and worst-case elicitation rates by 91.4\\% and 83.3\\%, respectively.The median utility loss is 5.9\\%, and measured inference latency matches that of the original policies.",
+    "published_date": "2026-11-13",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.17883",
+    "title": "Securing Multi-Agent Systems by Design",
+    "authors": [
+      "Xilong Wang",
+      "Xiaoxing Chen",
+      "Neil Gong"
+    ],
+    "source": "arxiv",
+    "category": "cs.CR",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.17883",
+    "abstract": "Multi-agent systems solve complex tasks by decomposing them into subtasks, delegating the subtasks to agents, and aggregating the agents' responses using an aggregation rule. Malicious agents can manipulate the final solution by providing malicious responses to their assigned subtasks. In this paper, we first propose response manipulation attacks (ReMA), which iteratively optimize malicious responses to maximize attack effectiveness. Specifically, we formulate untargeted and targeted attacks as optimization problems and develop an approach to approximately solve these problems by iteratively refining malicious responses based on feedback from a surrogate multi-agent system. To defend against such attacks, we further propose SecMAS, a secure aggregation rule that leverages the semantic similarities among agent responses to select the response that is most consistent with a sufficiently large subset of the other responses. We theoretically establish security guarantees for SecMAS against both untargeted and targeted attacks. Extensive evaluations demonstrate that existing aggregation rules are vulnerable to ReMA, whereas SecMAS effectively defends against all evaluated attacks, including adaptive variants of ReMA, while maintaining utility comparable to that of existing aggregation rules.",
+    "published_date": "2026-11-13",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.17821",
+    "title": "SceneAgent: A Multi-Agent Framework for Portable Game Scene Generation",
+    "authors": [
+      "Xingyi Li",
+      "Jiahao Yang",
+      "Yiqin Zhu",
+      "Jingwen Ye",
+      "Yang Sun",
+      "Weidong Zhang"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.17821",
+    "abstract": "Moving a scene generator to a new game engine requires more than exporting its final output: planning, construction tools, and stored experience may also depend on the original backend. We present SceneAgent, a multi-agent framework for reusing the construction process and its experience across backends. A canonical SceneContext maintains the evolving world, while backend adapters isolate coordinate conventions, asset bindings, and export. Structured handoffs let fresh Builder sessions query this persistent state without inheriting the full construction transcript. Across generations, human-approved traces are distilled into asset-ID-free Layout skills and semantic Content skills that can be retrieved and recombined. We introduce GameSceneBench, comprising 69 indoor and outdoor prompts. Under a common asset and evaluation protocol, SceneAgent obtains human tie-adjusted preference scores of 78.2-89.4% against five baselines. Ablations show that reusable skills and the multi-agent protocol primarily improve prompt alignment and scene completeness, with additional runtime. Deployment in a second engine preserves the shared construction protocol and skill library while replacing backend integration components. Together, these results support separating persistent scene state, task-local reasoning, and reusable experience for portable scene construction.",
+    "published_date": "2026-11-13",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "Project page: https://xingyi-li.github.io/sceneagent/",
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.17820",
+    "title": "Aligning AI Teams",
+    "authors": [
+      "Siddarth Srinivasan",
+      "Morgan Jane Matthews",
+      "Jascha Sohl-Dickstein",
+      "Erik Jones"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.17820",
+    "abstract": "Previous work has shown that alignment training on individual LLM agents can fail to transfer to multi-agent settings. We investigate the underlying mechanisms for this failure, and explore interventions to preserve alignment transfer to multi-agent LLM teams. We focus on two software-engineering tasks (sepsis triage, a news recommender) and ten consulting-proposal generation tasks. We present four findings: (1) The single-vs-team safety gap does not show a clear trend with more capable models. We find that Anthropic's Mythos Preview shows the largest gap on one of our tasks but the smallest on another; (2) Many natural interventions, such as having agents critique each other's work or coordinate in a group chat, do not reliably bring agent teams back to single-agent alignment behavior; (3) diffusion of responsibility substantially accounts for the safety gap: agents in teams are less likely to proactively check for system-level safety failures and more likely to ignore, rationalize, or deflect responsibility for issues when they arise; (4) having a designated safety lead agent ensure system-level safety, and having a coordinator agent publish a safety specifications document are effective at restoring single-agent alignment. We also release magelab, a multi-agent LLM orchestration and experimentation framework. Our findings can help practitioners design agent teams that successfully preserve the behaviors expected of aligned individual agents.",
+    "published_date": "2026-11-13",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.17793",
+    "title": "MASTARS: Multi-Agent Sequential Trajectory Augmentation with Return-Conditioned Subgoals",
+    "authors": [
+      "Jiwon Jeon",
+      "Myungsik Cho",
+      "Woojun Kim",
+      "Seongmin Kim",
+      "Woohyeon Byeon",
+      "Seungyul Han",
+      "Youngchul Sung"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.17793",
+    "abstract": "The performance of offline Multi-Agent Reinforcement Learning (MARL) is limited by the quality of the fixed offline dataset, motivating trajectory augmentation. However, augmenting multi-agent trajectories presents a fundamental challenge of the diversity-coordination trade-off: independent generation improves diversity but lacks coordination, while joint generation induces coordination but lacks diversity, reproducing the training distribution. To address this challenge in multi-agent data augmentation, we introduce MASTARS, a novel diffusion-based framework that generates multi-agent trajectories sequentially across agents while enforcing cross-agent consistent coordination via the method of inpainting. MASTARS produces trajectories that are diverse, coordinated and globally coherent. Experiments on various benchmarks such as MPE, SMAC, and SMAC-v2 demonstrate significant performance gains across multiple offline MARL methods.",
+    "published_date": "2026-11-13",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.17790",
+    "title": "AutoRL: A Multi-Agent System towards Autonomous Reinforcement Learning",
+    "authors": [
+      "Simon Tang",
+      "Wenjie Shi",
+      "Yongjing Yin",
+      "Keheng Wang",
+      "Jialin Liu",
+      "Zheng Zhang",
+      "Linvo Lin",
+      "Xiangyuan Xue",
+      "Kan Ren",
+      "Jingang Wang",
+      "Xunliang Cai"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.17790",
+    "abstract": "Recursive self-improvement (RSI) is one of the most promising paths toward an AI singularity for superintelligence. Achieving this vision requires AI systems to undertake the full training pipeline for iterative improvement. Reinforcement learning (RL) plays an essential role in this cycle to improve model capabilities and generalization, yet automating RL remains difficult due to unstable training dynamics and the need for sustained supervision. We introduce AutoRL, a multi-agent system for automating RL training, as a cornerstone for future RSI. Different from conducting research by end-to-end complete experiments, AutoRL monitors the evolving training state and integrates process-level supervision and research into an ongoing RL training, following the practical workflow of an RL researcher. Specifically, AutoRL consists of three RL-specific agentic roles. Perceptors track training dynamics, rollouts, evaluation, and efficiency, triggering deliberation when they detect anomalies, degradation, or stagnation. Three complementary Proposers diagnose problems and refine candidate interventions through shared evidence and checks. The Orchestrator reviews their recommendation and applies approved changes through online hot updates or checkpoint-based resumption. Experiments on Qwen3 and LongCat-Flash-Lite demonstrate the superiority of AutoRL over static RL recipes and a general agent. The research records show that existing agents can handle unattended RL supervision and dynamic adjustment. The difficulty for future RSI lies in developing fundamental methods that are valuable for resource-consuming validation.",
+    "published_date": "2026-11-13",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "23 pages",
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.17762",
+    "title": "Creative Product Design under Brand Image Constraints",
+    "authors": [
+      "Takeshi Onishi",
+      "Hiroya Makino",
+      "Takahiro Yamaguchi",
+      "Hiroyuki Sakai"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.17762",
+    "abstract": "Industrial design requires creative visual exploration while satisfying constraints that are often product-specific and implicit. Existing text-to-image (T2I) approaches can generate creative designs through concept blending or multi-agent self-enhancement, but they provide limited mechanisms for ensuring that generated designs remain consistent with such constraints. We focus on brand image as a representative design constraint and propose a framework for brand-aware redesign generation. Given a product name, the framework constructs a brand image survey report that summarizes product and market information, derives a creative direction from the report, and integrates this direction into a self-enhancement loop in which generated images are critiqued and prompts are revised. We evaluate the framework on 50 redesign tasks across five product categories, comparing it with Naive T2I, IP-Adapter/IT-Blender, and unconstrained self-enhancement under the same T2I backbone. By a VLM-as-Judge protocol to measure creativity and brand identifiability, the proposed framework achieves a more favorable trade-off between the two objectives, with particularly clear gains in highly constrained categories such as automotive and motorcycle, where the plausible design space is relatively limited compared with that of other product categories. These results suggest that dynamically eliciting and textualizing brand image can guide creative product design generation under brand image constraints.",
+    "published_date": "2026-11-13",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.17720",
+    "title": "Ego2Flow: Benchmarking the Traffic-System Impact of Autonomous Driving on Maps Distilled from Real-World Roads",
+    "authors": [
+      "Yu Dong",
+      "Weiying Shen",
+      "Hangyu Li",
+      "Shu Han",
+      "Hong Li",
+      "Xiangbo Gao",
+      "Keshu Wu",
+      "Zhengzhong Tu",
+      "Soyoung Ahn",
+      "Zhiyuan Liu",
+      "Xiaopeng Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.17720",
+    "abstract": "End-to-end autonomous driving is predominantly evaluated through ego-vehicle safety and task completion. Its deployment in urban traffic, however, creates sustained interactions among vehicles whose collective effects remain insufficiently evaluated. We introduce Ego2Flow, a closed-loop benchmark for assessing the traffic-system impact of autonomous driving on maps distilled from real-world cities. To construct realistic 3D urban environments for sustained closed-loop traffic simulation, we develop an agent-guided map distillation framework that integrates real-world maps and observations with complementary geographic information. Through an iterative feedback mechanism and a traffic information graph that jointly guide scene generation, the framework preserves lane topology, critical road geometry and decision-relevant visual conditions while simplifying nonessential details and completing unobserved regions. Using our proposed framework, we generate and publicly release six CARLA maps from the Argoverse 2 dataset, covering the corresponding real-world regions and enabling paired comparisons of driving behavior under real and simulated observations. On these maps, Ego2Flow evaluates how autonomous driving policies affect traffic efficiency, safety, stability and energy consumption across diverse road structures. Compared with existing construction methods, our framework achieves the lowest average displacement error between planning outputs from paired real and simulated observations. We further benchmark representative driving policies to characterize their system-level impact on urban traffic. Project Page: https://github.com/Fisher-007/Ego2Flow.",
+    "published_date": "2026-11-13",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.17610",
+    "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+    "authors": [
+      "Seyed Mahmoud Sajjadi Mohammadabadi"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.17610",
+    "abstract": "Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This practice confounds coordination with sample multiplicity and inference compute. We synthesize nine primary empirical evaluations comprising 516 unique multi-agent configurations organized along a resource vector R with six dimensions and a baseline ladder with four categories. Against baselines with a single pass (Category A), multi-agent accuracy differences are negative overall and near zero when omitting the largest contributing study. When evaluated against baselines matched on sample count (Category B) or resource budget (Category C), multi-agent systems average -0.042 in accuracy, and multilevel random effects modeling on the log odds scale remains negative across sensitivity checks. Multi-agent accuracy equals or falls below the baseline in 74% of these comparable contrasts, and study means are nonpositive in almost all evaluated studies. Across studies reporting both baselines, moving from a greedy pass to a sampled baseline shifts accuracy differences by -0.038 on average. Because communication adds no information when agents share identical evidence, positive returns require partitioned evidence, external verification, or error diversity across models. We provide a reviewer checklist and accounting utilities.",
+    "published_date": "2026-11-13",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "43 pages, 11 figures, 13 tables. PACE Reviewer Checklist, evaluation utilities (pace CLI), and reproduction data at https://github.com/mahmoudsajjadi/pace",
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2611.17052",
     "title": "Auditing AI peer reviewers: a benchmark on real scientific papers",
     "authors": [
@@ -372,6 +801,80 @@
     "memo": "",
     "memo_updated_at": null,
     "fetched_at": "2026-11-13T10:31:19Z"
+  },
+  {
+    "id": "arxiv:2611.17539",
+    "title": "Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents",
+    "authors": [
+      "Samuel Chen",
+      "Jiaru Bai",
+      "Austin Henry Cheng",
+      "Varinia Bernales",
+      "Alán Aspuru-Guzik"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.17539",
+    "abstract": "Autonomous crystal-structure determination from powder X-ray diffraction (pXRD) remains a key bottleneck for self-driving materials laboratories. We formulate the task of pXRD structure determination as a verifiable agentic search problem: candidate structures can be assessed during inference through forward-simulated profile agreement and during evaluation through structural matching to a known reference. To benchmark progress, we introduce pXRD-Bench, a suite of 200 simulated single-phase problems spanning in-distribution structure determination, challenging and polymorphic structures, and controlled compositional and topological distribution shifts. Agent adaptation raises selected structural recovery from 27% to 69%, with further gains from repeated sampling and verifier-guided inference-time scaling. We extend this approach to experimental multiphase pXRD through a reflexive evolution framework that learns from self-generated synthetic problems. A replaceable laboratory specification defines the sample family and measurement conditions. An evolver agent uses the known generating structures and measurement parameters to diagnose solver failures and develop persistent guidance and executable tools, which are then provided to agents on measured patterns. This supplies verifiable training experience without requiring a collection of solved experimental measurements. On 15 measured patterns from solid-state synthesis, the evolved package improves average profile agreement and transfers an analogue-substitution procedure that recovers a phase whose structure is absent from the supplied reference library. These results demonstrate how learning from verifiable synthetic experience can improve agentic characterization of experimental samples whose structures are not known in advance.",
+    "published_date": "2026-11-12",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "NeurIPS 2026 Workshop AI4Mat, spotlight (earlier version)",
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.17520",
+    "title": "Only as Safe as the Weakest Agent: A Break That Appears Only When the System Is Multi-Agent",
+    "authors": [
+      "Keegan Wang",
+      "Anantika Mannby"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.17520",
+    "abstract": "Major industry multi-agent systems like Codex and Claude Code can be broken by attacks that have long been unsuccessful against modern frontier models. AI Safety as a discipline has largely focused on finding the bounds and vulnerabilities of AI models used in isolation. Yet as humans increasingly deploy these models as agents and multi-agent systems, the same attacks that had been thought to be patched when using a model in isolation can break these same models under specific circumstances. We show that these system breaks are not purely theoretical, but can break Claude Code, Codex, and a reference harness, all unmodified and used with their own sub-agent mechanisms. We show the attack by asking agents to answer questions from a store of files on disk in which we have planted a forged record. Searching the store themselves, the strong model orchestrators commit almost zero harmful revisions in over 1,000 trials. However, if that same orchestrator model delegates to a cheaper sub-agent, which is what these harnesses are built to do, the same models on the same facts fail on 20/180, 44/180, 75/180 and 553/900. Thus, even when the system is driven by a strong model, the system's safety lands near the weak reader's, not the orchestrator's. Simulations over 18 models show the same effect in the delivery channel where five aggregators, who on their own were almost never unsafe, repeat a corrupted sub-agent's error in 751/757 trials. The safety of real-world agentic systems that use strong orchestrator agents and weaker sub-agents, and multi-agent systems in general, is defined not by the safety of the strong agent but by the safety of the weakest agent.",
+    "published_date": "2026-11-12",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted to the NeurIPS 2026 First Workshop on Meta Agents: Managing Agents that Manage Agents (Meta-Agents)",
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.17456",
+    "title": "Physical-Risk-Aware Decentralized Agents for Constrained Vehicle Communications",
+    "authors": [
+      "Haoran Peng",
+      "William Weijia Zheng",
+      "Hang Liu",
+      "Ying-Jun Angela Zhang"
+    ],
+    "source": "arxiv",
+    "category": "eess.SP",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.17456",
+    "abstract": "Decentralized V2X resource control is challenging because each vehicle has only local observations, while reliability depends on network-wide interactions. We develop a physical-risk-aware spatio-temporal graph attention (PA-STGAT) framework for agentic V2X control. Each vehicle perceives its local interaction graph, retains short-term temporal context, and independently selects its PC5 resource and power. Network outcomes are used during centralized training to refine the shared policy. Transmitter-specific credits map reliability failures to individual vehicles. A dual-priced graph term further converts network violations into coordination signals for discrete resource selection, with higher priority on short time-to-collision links. Experiments show higher raw-policy reliability than the tested graph-based baselines. Under filtered execution, PA-STGAT meets the nominal empirical communication requirements across all five seeds, with tradeoffs among utility, delivery reliability, resource occupancy, and filter-induced repair. Compared with GNN+MATD3, it requires fewer resource repairs but achieves lower utility and mean delivery reliability. Mechanism ablations show that removing dual-priced graph coordination causes resource-selection collapse. Density and mobility tests characterize the operating limits of empirical constraint satisfaction.",
+    "published_date": "2026-11-12",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-16T10:38:26Z",
+    "memo": "",
+    "memo_updated_at": null
   },
   {
     "id": "arxiv:2611.16082",
