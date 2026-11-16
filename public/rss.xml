@@ -4,7 +4,7 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 16 Nov 2026 10:38:26 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 12:16:07 GMT</lastBuildDate>
     <item>
       <title>Modeling the Frictional Contact of Continuum Robots with Environments through Linear Complementarity Problem</title>
       <link>https://arxiv.org/abs/2611.18546</link>
@@ -137,6 +137,13 @@
       <guid isPermaLink="false">arxiv:2611.17456</guid>
       <pubDate>2026-11-12</pubDate>
       <description>Decentralized V2X resource control is challenging because each vehicle has only local observations, while reliability depends on network-wide interactions. We develop a physical-risk-aware spatio-temporal graph attention (PA-STGAT) framework for agentic V2X control. Each vehicle perceives its local interaction graph, retains short-term temporal context, and independently selects its PC5 resource and power. Network outcomes are used during centralized training to refine the shared policy. Transmi</description>
+    </item>
+    <item>
+      <title>Auditing AI peer reviewers: a benchmark on real scientific papers</title>
+      <link>https://arxiv.org/abs/2611.17052</link>
+      <guid isPermaLink="false">arxiv:2611.17052</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>LLM-based peer review is now used at production scale, but its evaluation remains limited. We introduce a benchmark that injects objective, localisable errors of four types (general issues, mathematics, numerics, citations) at three severity levels into real papers and measures each reviewer's detection rate by error type and severity, together with its false-positive rate on clean copies. We also present Skepthical, a multi-agent reviewer that verifies citation-backed claims by retrieving the c</description>
     </item>
   </channel>
 </rss>
