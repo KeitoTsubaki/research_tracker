@@ -1,5 +1,528 @@
 [
   {
+    "id": "arxiv:2611.21404",
+    "title": "Efficient Modeling of Multi-Agent Systems via Structure-Aware Physics-Informed Learning",
+    "authors": [
+      "Yulun Wu",
+      "Nicola Bastianello",
+      "Karl Henrik Johansson",
+      "Matthieu Barreau"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.21404",
+    "abstract": "Modeling large multi-agent systems poses challenges for trajectory inference and parameter identification, as network size and coupling increase computational demands and partial observations require reconstructing unobserved states. We propose MAS-PINN, a neural-network architecture with a tailored training algorithm for a physics-informed learning framework that leverages the network topology and the agents' similarity to reduce computational and memory costs of simulating and identifying multi-agent systems. Its architecture represents agent trajectories through shared temporal features and agent-specific coefficients. Training alternates between learning features, fitting coupled trajectories, and estimating physical parameters. A matrix-free update exploits local interactions to fit trajectories without forming large global matrices. Experiments on Lorenz rings, Lotka--Volterra networks, and Rössler oscillators show improved trajectory and parameter accuracy over baselines, including inference in large systems and identification under partial observations or unknown topology, alongside substantial computational savings in coefficient fitting.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.21373",
+    "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+    "authors": [
+      "Yipeng Du",
+      "Yuxi Li",
+      "Ying Zhang",
+      "Chong Sun",
+      "Chen Li",
+      "Jing Lyu",
+      "Ying Tai"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.21373",
+    "abstract": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the investigation policy alone does not directly improve the forensic capabilities of fixed experts. We introduce WeVisForensics, an agentic framework in which a main investigator agent coordinates a self-evolving library of forensic inspector sub-agents spanning visual and audio cues. The investigator learns which artifact type to examine, over which window, and when to conclude, and these interactions provide shared feedback for both levels of agents. Our dual-timescale policy optimization strategy, DTPO, closes this loop through fast reinforcement learning of the investigator and slower refinement of the inspectors, guided by annotated artifact intervals, to report subtle artifacts they once dismissed. Furthermore, we curate ForenCue-30K, combining role-specific forensic annotations and interaction trajectories to supervise individual inspections and their coordination, with an accompanying reinforcement-learning pool. Experiments show that WeVisForensics averages 95.2% detection accuracy across in-domain, out-of-domain and agentic benchmarks, 9.0% above the strongest prior detector, while grounding its verdicts in localized evidence.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.21277",
+    "title": "Even Loose Proximity Constraints Make Makespan-optimal Unlabeled Multi-agent Pathfinding Hard",
+    "authors": [
+      "Takahiro Suzuki",
+      "Keisuke Okumura"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.21277",
+    "abstract": "We study \\textsc{$r$-Connected Unlabeled Multi-agent Pathfinding} ($r$CUMAPF), a variant of MAPF where interchangeable agents have a proximity range $r\\in \\mathbb{N}$, and agents must form a single group in a given graph $G$ through limited-range communication at all times. The problem arises in fundamental applications such as self-reconfiguration and platooning, while standard MAPF does not capture proximity constraints. For the problem of finding a makespan-optimal solution, prior work shows \\NP-hardness for $r=1$ and polynomial-time solvability when $r$ is sufficiently large; the complexity for the intermediate case $2\\le r$ is largely unknown. To narrow this gap, we show that finding a solution to $r$CUMAPF with makespan at most $2$ is \\NP-hard for $2\\le r= O(|V|^{1-\\varepsilon})$, where $0<\\varepsilon\\le 1$ is a fixed constant and $|V|$ is the number of vertices. As a consequence, we show that the labeled analogue of $r$CUMAPF is also \\NP-hard under the same condition.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.21268",
+    "title": "In-Context Estimation and Prediction for Parametric ODEs",
+    "authors": [
+      "Abdullah Ahmed",
+      "Yun Yang"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.21268",
+    "abstract": "Transformers have demonstrated the ability to perform in-context learning, that is, to adapt to new tasks from a few examples without updating their parameters. Existing theory has largely focused on emulating gradient-based algorithms for convex statistical problems or establishing general function approximation guarantees without exploiting the underlying statistical structure. We study in-context parameter estimation and trajectory prediction for parametric ordinary differential equations (ODEs), where estimation is generally nonconvex. Under suitable identifiability and regularity conditions, we construct a transformer that estimates unknown system parameters from noisy trajectory observations through a two-stage approximate maximum likelihood procedure: a coarse search provides an initialization within a locally strongly convex region, followed by gradient descent with local linear contraction. For prediction, we compose this estimator with a neural approximation of the ODE solution map. We further show that, through parameter sharing, a single transformer can perform both parameter estimation and trajectory prediction simultaneously. For these constructions, we establish nonasymptotic guarantees and finite-pretraining oracle inequalities that separate errors due to finite pretraining data, finite context length, and finite-sized transformer approximation. Numerical experiments on linear and nonlinear ODEs further show that pretrained transformers can benefit from longer inference contexts without updating their weights.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.21264",
+    "title": "Hybrid Optimization-Generative Motion Planning for Multiagent Affine Formations",
+    "authors": [
+      "Zhonggang Li",
+      "Hongyu Zhou",
+      "Raj Thilak Rajan"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.21264",
+    "abstract": "Formation maneuver control enables a multiagent system to cooperatively navigate through constrained environments in collective motion. While various formation controllers exist, they rely heavily on high-quality and dynamically feasible reference trajectories provided a priori, making formation motion planning (FMP) essential. To address the computational challenges for high-dimensional joint trajectories faced by conventional constrained optimization-based solutions, this paper introduces a hybrid optimization-generative framework with a focus on affine formations, which provide the necessary spatial flexibility. By formulating the planning task as a constrained Maximum-a-Posteriori estimation, we decouple multiagent objectives to leverage pre-trained single-agent diffusion priors for dynamic feasibility, obstacle avoidance, and smoothness. We then interleave the generative process with projected gradient descent (PGD) to strictly enforce affine geometric constraints with safety guarantees. Simulations demonstrate that our framework generates highly smooth, collision-free plans that are readily trackable by common distributed controllers and outperforms state-of-the-art planners in various metrics.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.21259",
+    "title": "Evaluating Authorization and Trust Boundaries in Agentic Orchestration Frameworks",
+    "authors": [
+      "Sahaya Jestus Lazer",
+      "Kshitiz Aryal",
+      "Maanak Gupta",
+      "Elisa Bertino"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.21259",
+    "abstract": "Agentic AI systems extend large language models with tools, memory, and multi-agent collaboration, introducing security risks at orchestration boundaries. These risks depend on how identities are represented, operations are authorized, and instructions or information propagate between components. We evaluate LangChain, LangGraph, AutoGen, and OpenClaw through twelve experiments mapped to the OWASP Top 10 for Agentic Applications using a common LLM (gpt-4o-mini). The experiments cover prompt injection, unauthorized resource access and command execution, memory poisoning, and inter-agent trust and identity attacks. Adversarial inputs induced unauthorized tool invocation, while tool chaining, stale filesystem validation, encoded instructions, and inter-agent delegation exposed weaknesses in authorization across component boundaries. Memory poisoning showed that untrusted state can influence responses, a risk distinct from conventional access-control violations. In the evaluated protected configurations, explicit authorization, controlled capability assignment, filesystem containment, and execution safeguards prevented specific unauthorized operations. The findings emphasize preserving authorization and information-trust boundaries throughout agentic workflows rather than treating framework capabilities or model-level instructions as sufficient security guarantees.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.21250",
+    "title": "Stream of Belief: Eliciting Collective Intelligence through Latent Belief Dynamics",
+    "authors": [
+      "Yu Yao",
+      "Jiayi Dong",
+      "Yilun Du"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.21250",
+    "abstract": "In this work, we view multi-agent reasoning as a process of seeking a collective equilibrium of implicit belief dynamics and introduce Stream of Belief (SoB), where agents maintain continuous latent beliefs and iteratively refine them through communication and reflection. Our method seeks a collective belief state of a multi-agent system where further communication induces no meaningful information propagation. Through extensive experiments, we demonstrate the generalization of SoB across tasks and model families. More Broadly, our results suggest a new perspective on scaling multi-agent reasoning from belief dynamics.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "Code: https://github.com/AI4SciDisc/stream-of-belief",
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.21249",
+    "title": "Heteroscedastic Gaussian Process Q-learning for Sample Efficient Experimentation",
+    "authors": [
+      "Maximilian Bloor",
+      "Max Mowbray",
+      "Calvin Tsay",
+      "Ehecatl Antonio del Rio Chanona"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.21249",
+    "abstract": "Self-driving laboratories must learn to control a process from tens to hundreds of expensive experiments, too few for deep reinforcement learning (RL). We learn the Q-function directly with a Gaussian process (GP), which avoids learning the dynamics, and show that the GP posterior supplies the learning rate of Q-learning. If each Bellman target is treated as a noisy measurement of the Q-function, the learning rate that minimises the mean squared error is the Kalman gain, and applying it to every observed transition is equivalent to GP regression. Heteroscedastic Gaussian Process Q-learning (HGPQ) sets the noise variance of each target with a heteroscedastic GP, which learns how unreliable the targets are across the states and inputs. Targets from noisy operating conditions, or from regions where the value function has large gradients, then move the estimate less than targets from low-noise regions, so HGPQ learns quickly where the data are reliable without being misled where they are not. For kernel value iteration with per-target variances that are assigned when a target is collected, we prove a high-probability bound on the error of the value estimate, uniform over the explored region. Pooled over five simulated benchmarks, which include a chemical reactor and a bioprocess, HGPQ approaches the best return found by any method in fewer episodes than GP, kernel and deep RL baselines.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.21069",
+    "title": "CoopDistill: Equilibrium-Guided Multi-Agent Policy Distillation for Cooperative Driving",
+    "authors": [
+      "Shiyu Fang",
+      "Sheng Zhao",
+      "Jiarui Zhang",
+      "Chengkai Xu",
+      "Xiaocong Zhao",
+      "Peng Hang",
+      "Jian Sun"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.21069",
+    "abstract": "Cooperative driving extends autonomous driving from individual vehicle decisions to joint maneuvers that improve traffic safety and efficiency. Optimization-based methods impose safety constraints but often fix paths to simplify multi-vehicle planning, limiting spatial flexibility. Multi-agent reinforcement learning (MARL) explores alternatives through interaction, but coordinated learning and safe execution remain challenging. Their integration nevertheless faces challenges in exploration efficiency, experience allocation, and execution reliability. To address these challenges, this paper proposes CoopDistill, an equilibrium-guided multi-agent policy distillation framework. A potential-game (PG) formulation provides a fixed-path longitudinal reference, around which a residual MARL policy learns longitudinal acceleration, conflict-approach timing, and lateral path corrections. A hard-case curriculum concentrates experience on interactions that PG leaves unresolved or substantially delayed. A comparative rollout selector evaluates the joint consequences of learned corrections against PG before choosing the executed action. Experiments in merging, roundabout, and intersection scenarios compare CoopDistill with six baselines at four connected automated vehicle penetration levels. Relative to PG, success improves by 2.1--27.1 percentage points and delay decreases by 7.3--27.3\\%, with no observed collisions. Code is available at https://github.com/FanGShiYuu/CoopDistill",
+    "published_date": "2026-11-16",
+    "tags": [
+      "marl",
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.20997",
+    "title": "OpenMAS-GApp: A Comprehensive Benchmark for Domain-Adaptive Multi-Agent Application Construction",
+    "authors": [
+      "Xunkai Li",
+      "Kairui Yang",
+      "Jiaxi Li",
+      "Yuecong Mao",
+      "Zekai Chen",
+      "Xinle Zhang",
+      "Rong-Hua Li",
+      "Guoren Wang"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.20997",
+    "abstract": "Constructing multi-agent system (MAS) applications across domains requires translating diverse requirements into executable systems, involving task decomposition, agent and tool selection, and execution organization. Existing studies have explored individual aspects of MAS construction, including agent generation, architecture design, workflow generation, and component selection. However, these methods are often developed and evaluated independently, using different task specifications, component resources, and execution settings. This makes it difficult to compare their construction capabilities or determine how they can be applied to different domains. To address this problem, we propose OpenMAS-GApp, a One-for-All benchmark for MAS application construction across diverse domains. It standardizes task inputs, component resources, construction interfaces, and execution environments to support MAS construction under consistent conditions. Within OpenMAS-GApp, we provide Graph Harness as a reference construction method that derives task dependencies, selects compatible agents and tools, and organizes their interactions into executable graphs. We evaluate construction methods across 19 benchmark datasets under 20 evaluation settings spanning four application types and four professional domains.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.20983",
+    "title": "GRACE: Parallel Best-of-N Multi-Agent Analysis of Closed-Form Questions over Dataframes with Guardrail Selection and Adaptive Retry",
+    "authors": [
+      "Fabio Picariello",
+      "Salvatore Cipolla",
+      "Susanna Bonura",
+      "Vito Morreale"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.20983",
+    "abstract": "LLM agents answer closed-form questions over a tabular dataframe by writing and executing Python, almost always as a single rollout: one interpretation, one script, one result, accepted without comparison. The few pipelines that produce several candidates reconcile them by answer-agreement voting, which needs a single comparable scalar and always returns one, even when every candidate is wrong. We present GRACE (Generative, Ranked, Adaptive Code Ensemble), a production-oriented pipeline that instead runs parallel best-of-N selection specialised to dataframe code. N agents run concurrently under a strict, machine-checkable output contract, diversified by persona hints, per-retry rotation, and a two-regime temperature schedule. Rather than vote, GRACE judges the executed artefacts: a pairwise tournament pre-filters the pool and a domain-specialised guardrail either selects the best candidate or, when none is defensible, rejects the whole pool and abstains with a diagnosis (an option voting structurally lacks), which in turn drives an adaptive retry with per-agent feedback. On InfiAgent-DABench (DAEval, M = 246), using Qwen3.6-35B-A3B as the backbone, GRACE raises answer match from 39% for a single-rollout baseline to 71% (+32 pp, 1.8x), recovering 53% of previously wrong answers. On the same DAEval task, the smaller dense Qwen3.5-9B lifts answer match from 38% to 63% (+25 pp, 1.7x). A controlled 3 x 3 study that sweeps the number of parallel agents against the retry budget finds, on the 35B backbone, the two levers largely substitutable: once either one is generous, the other adds little, identifying a cheap operating point for deployment. The same directional pattern replicates on the independent DataBench benchmark, again on the Qwen3.6-35B-A3B backbone, where answer match rises by 15 percentage points (from 70% to 85%) across 400 sampled questions.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted at the 5th Italian Conference on Big Data and Data Science (ITADATA 2026). To appear in CEUR Workshop Proceedings",
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.20891",
+    "title": "From Recursion to Convolution: Parallel Self-Improvement for Multi-Agent Systems",
+    "authors": [
+      "Zheng Wang",
+      "Yuang Liu",
+      "Sachith Abeywickrama",
+      "Yangkai Ding",
+      "Tao Yu",
+      "Xinyu Zhang",
+      "Hongbo Wang",
+      "Qi Ye",
+      "Xuefeng Jin",
+      "Zhangchun Zhao"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.20891",
+    "abstract": "Multi-agent self-improvement enables agents to improve through interaction and feedback. However, sequential dependencies across agents and refinement rounds can propagate errors, increase computational costs, and limit parallelism. Moreover, refining individual features or agents in isolation can overlook their dependencies and restrict collective coordination. To address these challenges, we propose ConvRSI, a framework for parallelizing multi-agent self-improvement through convolution. ConvRSI couples intra-agent convolution, which jointly refines related agent features, with inter-agent graph convolution, which aggregates messages according to the collaboration topology. Both stages operate in latent space, enabling parallel updates without repeatedly decoding and re-encoding intermediate messages. Experiments on MATH-500 show that ConvRSI achieves 5.04% performance improvement while reducing 17.27% inference cost, and 45.11% latency compared with RecursiveMAS. It also supports diverse collaboration patterns by representing their topologies as adjacency matrices. These results demonstrate the potential of convolutional co-evolution for efficient multi-agent self-improvement. Our code and datasets are provided in https://github.com/LYA2333/ConvRSI.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.20827",
+    "title": "ProcReverser: Multi-Agent Black-Box Microarchitectural Reverse Engineering for Processor Vulnerability Analysis",
+    "authors": [
+      "Guanqi Lyu",
+      "Decheng Qiu",
+      "Guangyang Zhang",
+      "Fei Zhao",
+      "Zhaojun Lu",
+      "Jiaji He",
+      "Yongqiang Lyu"
+    ],
+    "source": "arxiv",
+    "category": "cs.CR",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.20827",
+    "abstract": "When processor implementation details are unavailable, black-box microarchitectural reverse engineering helps security researchers identify hardware conditions related to security vulnerabilities. However, this process requires substantial manual effort to design experiments, develop test programs, and analyze results for each processor. We present ProcReverser, a multi-agent system that automates this process. ProcReverser uses execution feedback to improve experimental plans and test programs and identifies microarchitectural properties from measurements. We develop a comprehensive suite of property identification tasks focused on hardware mechanisms relevant to Spectre-class attacks, covering speculative execution, branch prediction, memory dependence, and cache behavior. We evaluate ProcReverser on the XuanTie C910, the gem5 RISC-V O3 CPU model, and the SiFive P550. ProcReverser achieves Pass@1 and Pass@5 scores of 81.3% and 93.8%, respectively, on C910, and 83.0% and 100.0% on gem5 O3. On the SiFive P550, ProcReverser further characterizes microarchitectural properties covered by the proposed task suite. These findings highlight the potential of automated microarchitectural reverse engineering to support processor vulnerability analysis and defense evaluation.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.20812",
+    "title": "The Cybersecurity Dataset Observatory: Which Data for AI in Cybersecurity?",
+    "authors": [
+      "Francesco Cerasuolo",
+      "Gabriele Mangiacapre",
+      "Antonio Pescapè"
+    ],
+    "source": "arxiv",
+    "category": "cs.CR",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.20812",
+    "abstract": "AI is increasingly used for cybersecurity tasks such as intrusion and malware detection, in enterprise, industrial, vehicular and mobile networks. Its effectiveness depends on data: models need representative network traffic, both to be trained and to be evaluated realistically. Public datasets of cybersecurity network traffic, however, are scattered across laboratory pages, repositories and aggregators, and are continuously released, corrected and withdrawn: 92 of the 234 datasets we catalog were released in 2023 or later. At this pace, surveys that list them are outdated soon after publication, since they describe the field only as it was when they were written. We present the Cybersecurity dataset observatory, a public and continuously updated catalog of cybersecurity datasets based on network traffic. New datasets are added as they are found or submitted, every record is periodically re-checked against its original source, to which it links rather than hosting the data, and every change is recorded in a public change log. This paper documents the first release: we define a traffic-centered scope and a seven-axis taxonomy, and review 234 datasets (204 original captures and 30 derivatives) across 14 domains. The review shows a field that grows quickly but unevenly, where 91 datasets distribute only processed records, a few laboratories produce a large share of the data, and UAV, wireless and V2X networks have little public evidence, while 5G has few real captures. We then relate the catalog to common uses in AI research, outline a procedure for selecting datasets, and discuss benchmark pitfalls and open gaps.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.20773",
+    "title": "When Does Interaction Help? Toward a Reynolds Number for Collective Intelligence",
+    "authors": [
+      "Xuening Wu",
+      "Haode Yang",
+      "Yanlan Kang",
+      "Shenqin Yin"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.20773",
+    "abstract": "Multi-agent systems combine distributed information through interaction, which can improve performance but also spread errors or suppress useful differences. Predicting when interaction helps is central to understanding and designing collective intelligence. We investigate whether a few dimensionless parameters can predict gains over explicitly defined non-communicating baselines across group sizes, network structures, and tasks, toward a Reynolds-number-like description of collective intelligence. Using distributed classification tasks, stochastic tracking networks, and neural cellular automata, we combine analytical and empirical evidence to examine information sufficiency, dynamical applicability, and finite-sample prediction. We construct inference systems with bounded random variables and matching specified joint moments up to total degree three, yet opposite interaction gains under a fixed readout. These moments alone cannot generally determine the gain sign. Tracking networks likewise exhibit gain reversals despite matched candidate parameters when task power occupies different spectral modes. Under concentrated task spectra and aligned observation noise, however, we derive a low-dimensional similarity relation with an explicit zero-delay error bound and test it across network sizes and topologies under frozen protocols. The relation does not directly apply to the neural cellular systems, where a separate moment-based predictor underperforms direct gain measurement at matched calibration sample budgets. These results establish conditions and limits for low-dimensional gain prediction, providing a restricted similarity law while leaving a general Reynolds-number-like description of collective intelligence open.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.20765",
+    "title": "STA: A Split Temporal Adversary Method for Evaluating Robustness of Multimodal RL-based Driving Policies",
+    "authors": [
+      "Shenghao Xiong",
+      "Xiaolin Chang"
+    ],
+    "source": "arxiv",
+    "category": "cs.CR",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.20765",
+    "abstract": "Multimodal reinforcement learning (MRL) offers a promising paradigm for autonomous driving by jointly leveraging complementary sensor observations to learn effective decision-making policies. However, its effectiveness critically depends on temporal alignment across modalities, making temporal inconsistency a fundamental vulnerability. Even subtle misalignment or latency can corrupt fused representations and ultimately lead to decision failures. Existing studies have explored adversarial attacks to induce cross-modal temporal inconsistencies, thereby enabling systematic evaluation of the temporal robustness of MRL policies. However, existing methods remain limited in generality, realism, and adaptivity. To address these limitations, we propose the Split Temporal Adversary (STA), which formulates multimodal temporal attacks as a unified decision process that jointly optimizes attack timing and modality selection under realistic policy-aware and budget-constrained settings. STA includes two mechanisms: a) a unified multimodal temporal perturbation mechanism that delays observations via historical states, removing the need for modality-specific noise; b) a split multimodal adversarial decision mechanism that jointly optimizes attack timing and modality selection through adaptive optimization while leveraging the victim policy's clean actions to identify sensitive decision patterns. We provide a theoretical analysis of the induced distribution shift and a modality selection principle. Experiments in the CARLA simulator show that STA more than doubles the collision rate of the strongest baseline against PPO while using 17.8\\% fewer attack attempts, and that it generalizes to a VLM-based driving policy. These results reveal temporal consistency as a critical vulnerability, highlighting temporal robustness as essential for safe autonomous driving.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "10 pages, 6 figures, submitted for publication",
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.20671",
+    "title": "MASTA: A Feedback-Scheduled Multi-Agent System for End-to-End Tamarin Modeling and Analysis",
+    "authors": [
+      "Yongkang Xiao",
+      "Qiyi Deng",
+      "Jing Chen",
+      "Min Shi",
+      "Ju Ma",
+      "Ruiying Du"
+    ],
+    "source": "arxiv",
+    "category": "cs.CR",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.20671",
+    "abstract": "Tamarin-based formal verification of security protocols requires expert-authored multiset rewriting rules and temporal-logic lemmas. Translating a natural-language protocol description into a complete formal model with an LLM is hard because syntactic, reachability, and property-level errors compound across the multi-step modeling process, and a single agent that both authors and self-evaluates cannot reliably localize them. We present MASTA, a multi-agent system that addresses these difficulties through three innovations. First, an operational--evaluative role decomposition assigns rule modeling to an Architect, property modeling to an Auditor, and pure dispatch to a dedicated Arbiter that holds no authoring duties. Second, the Arbiter implements a Tamarin-anchored scheduler that dispatches the next agent based on the latest verifier verdict and routes problem-tagged fixes through a modification list, with a six-class problem taxonomy and an LLM deduplication check preventing routing deadlock. Third, we construct a benchmark of 10 protocols paired with 139 mutation variants and five fine-grained metrics that jointly assess model correctness ($M_1$--$M_3$) and completeness ($M_4$--$M_5$). On this benchmark, MASTA on Qwen 3.5-plus improves over OpenCode on the same backbone by up to $+0.27$ on individual metrics and ranks first on both the correctness and completeness averages, surpassing Codex (GPT-5.5) and Claude Code (Opus 4.7) despite using a weaker LLM. Ablations on five protocols confirm that removing the Arbiter collapses property and verification scores to zero.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted at NeurIPS 2026 (Main Track, poster). 19 pages",
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.20574",
+    "title": "ExtremeDrive: A Real-World Dataset and Benchmark for Critical Driving",
+    "authors": [
+      "Xinhan Li",
+      "Yuhong Jiang",
+      "Shiyue Zhao",
+      "Junzhi Zhang",
+      "Chengkun He",
+      "Ruihai Ma",
+      "Shijie Zhao",
+      "Wenxuan Cheng",
+      "Jinbo Lv",
+      "Tao Liu"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.20574",
+    "abstract": "Existing autonomous driving datasets and benchmarks provide extensive resources for routine driving, yet real-world data covering safety-critical scenarios and extreme environmental conditions remain limited. To address this gap, we present ExtremeDrive, a real-world dataset and benchmark covering emergency maneuvers, complex traffic interactions, and adverse conditions such as slippery or snow-covered roads, alongside routine driving. The dataset comprises 589 driving scenes curated from a larger pool of real-world driving recordings, with calibrated and aligned multisensor data and reviewed annotations of road structure and traffic participants. We further establish a benchmark to evaluate planned trajectories through simulated vehicle execution, measuring safety-related metrics and driving performance. Experiments at equal training set sizes show that incorporating critical driving data reduces trajectory prediction errors and improves mean critical-success rates in critical scenarios. ExtremeDrive provides a unified resource for learning and evaluating autonomous driving in safety-critical scenarios and extreme environmental conditions.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.20510",
+    "title": "WTR-Drive: World-Task Decomposition with Structured Risk Supervision for End-to-End Driving",
+    "authors": [
+      "Haoyu Xing",
+      "Shaobing Ding",
+      "Guanglei Zhao",
+      "Guanhua Zhao",
+      "Nawu Peng",
+      "Mingyang Hou"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.20510",
+    "abstract": "Proposal-conditioned scene predictions can lack a common object-level reference across candidate trajectories. Aggregate planning scores also leave the objects and times associated with violations implicit. We present WTR-Drive (World-Task-Risk Driving), a Drive-JEPA-based planner that separates shared scene estimation from proposal-conditioned reasoning. A proposal-independent World Memory estimates object states, map structure, and future motion by re-reading the original visual features at each refinement round. Proposal feedback updates a residual Task branch without writing back to World Memory. This branch guides refinement through candidate-specific retrieval and gated visual feedback. A final Task readout supplies candidate-conditioned features for scoring. We derive structured risk targets from existing candidate-scoring rollouts without additional simulator calls. For at-fault collision and time-to-collision violations, the targets encode event existence, association with shared object slots, and the first violation time bin. On the NAVSIM navtest split, WTR-Drive achieves 94.66 PDMS on v1 and 88.24 EPDMS on v2 (expert-frame sequential evaluation). These scores are 0.96 and 0.44 points above the published Drive-JEPA values, respectively. Candidate-level analysis shows that higher best-candidate scores can coexist with lower selected-trajectory scores, revealing a gap between candidate quality and selection effectiveness.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "8 pages, 5 figures, 3 tables. Submitted to IEEE Intelligent Vehicles Symposium (IV) 2027",
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.20507",
+    "title": "VoxSAOR: Semantic-Aware Occupancy Robustification via Aleatoric Uncertainty Modeling",
+    "authors": [
+      "Mengfei Duan",
+      "Yuheng Zhang",
+      "Guoqiang Zhao",
+      "Yuanfan Zheng",
+      "Kailun Yang",
+      "Zhiyong Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.20507",
+    "abstract": "Vision-based 3D occupancy prediction provides a dense semantic representation of scenes for autonomous driving and embodied perception, yet remains vulnerable to occlusion, depth ambiguity, and projection errors that induce spatially varying reliability in voxel features. Existing methods typically map voxel representations to semantic predictions without explicitly modeling such observation-induced feature variations. To address this limitation, we propose VoxSAOR, a semantic-aware occupancy robustification framework that models aleatoric uncertainty through feature-space proxies. It first quantifies Local Semantic Consistency (LSC) to derive a voxel-wise structural stability prior and uses cross-view semantic consensus to filter unreliable semantic correspondences. Within each semantic category, spatially matched stable and ambiguous voxels form stable-to-ambiguous feature transitions, which are modeled by a class-conditional diagonal Gaussian distribution, capturing both feature displacement and dispersion. Guided by these proxy distributions, Aleatoric Regime Ensemble Learning (AREL) trains independently parameterized prediction heads using feature perturbations at progressively increasing scales, with perturbation strength modulated by structural reliability. At inference, proxy modeling and sampling are disabled, and all heads process the same observed features; their output probabilities are then averaged to produce a deterministic consensus prediction without requiring sampling. Experiments across multiple datasets and occupancy backbones demonstrate the effectiveness of VoxSAOR in improving semantic occupancy prediction, long-tail recognition, and predictive calibration. The source code will be made publicly available at https://github.com/MengfeiD/VoxSAOR.",
+    "published_date": "2026-11-16",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "The source code will be made publicly available at https://github.com/MengfeiD/VoxSAOR",
+    "fetched_at": "2026-11-17T11:28:49Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2611.18546",
     "title": "Modeling the Frictional Contact of Continuum Robots with Environments through Linear Complementarity Problem",
     "authors": [

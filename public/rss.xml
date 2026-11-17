@@ -4,146 +4,146 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Mon, 16 Nov 2026 12:16:07 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 11:28:49 GMT</lastBuildDate>
     <item>
-      <title>Modeling the Frictional Contact of Continuum Robots with Environments through Linear Complementarity Problem</title>
-      <link>https://arxiv.org/abs/2611.18546</link>
-      <guid isPermaLink="false">arxiv:2611.18546</guid>
-      <pubDate>2026-11-13</pubDate>
-      <description>Accurate friction modeling in continuum robots is essential for precise motion control and path planning. However, current approaches make predictions only for the mechanism's internal friction that is limited by the boundary forces of the Coulomb friction cone, which fail to characterize the static friction and motion hysteresis. In this paper, we propose a novel friction model based on complementarity constraints under the Coulomb friction assumption. This model predicts various friction effec</description>
+      <title>Efficient Modeling of Multi-Agent Systems via Structure-Aware Physics-Informed Learning</title>
+      <link>https://arxiv.org/abs/2611.21404</link>
+      <guid isPermaLink="false">arxiv:2611.21404</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>Modeling large multi-agent systems poses challenges for trajectory inference and parameter identification, as network size and coupling increase computational demands and partial observations require reconstructing unobserved states. We propose MAS-PINN, a neural-network architecture with a tailored training algorithm for a physics-informed learning framework that leverages the network topology and the agents' similarity to reduce computational and memory costs of simulating and identifying mult</description>
     </item>
     <item>
-      <title>Imitation Bootstrapped Multi-Agent Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2611.18543</link>
-      <guid isPermaLink="false">arxiv:2611.18543</guid>
-      <pubDate>2026-11-13</pubDate>
-      <description>Demonstrations are an effective way to accelerate single-agent reinforcement learning (RL), but extending this idea to multi-agent reinforcement learning (MARL) is non-trivial as it is difficult and often impossible for a single person to teleoperate multiple agents simultaneously. Round-Robin Behavior Cloning (R2BC) addresses this by letting a single demonstrator control one agent at a time while the others execute their current policies. However, the resulting imitation policies are limited by</description>
+      <title>WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection</title>
+      <link>https://arxiv.org/abs/2611.21373</link>
+      <guid isPermaLink="false">arxiv:2611.21373</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the investigation policy alone does not directly improve the forensic capabilities of fixed experts. We introduce WeV</description>
     </item>
     <item>
-      <title>Toward Resilient Self-Driving Laboratories through Telerobotic Interventions</title>
-      <link>https://arxiv.org/abs/2611.18496</link>
-      <guid isPermaLink="false">arxiv:2611.18496</guid>
-      <pubDate>2026-11-13</pubDate>
-      <description>Self-driving laboratories (SDLs) accelerate scientific research by integrating robotics, automated experimentation, and machine learning to execute experiments autonomously. Biology and chemistry have adopted these systems. However, increasing SDL complexity heightens susceptibility to unexpected faults in automated workflows, highlighting the need for efficient recovery mechanisms. In this study, we investigate telerobotic interventions to enhance SDL resilience against unexpected failures. We </description>
+      <title>Even Loose Proximity Constraints Make Makespan-optimal Unlabeled Multi-agent Pathfinding Hard</title>
+      <link>https://arxiv.org/abs/2611.21277</link>
+      <guid isPermaLink="false">arxiv:2611.21277</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>We study \textsc{$r$-Connected Unlabeled Multi-agent Pathfinding} ($r$CUMAPF), a variant of MAPF where interchangeable agents have a proximity range $r\in \mathbb{N}$, and agents must form a single group in a given graph $G$ through limited-range communication at all times. The problem arises in fundamental applications such as self-reconfiguration and platooning, while standard MAPF does not capture proximity constraints. For the problem of finding a makespan-optimal solution, prior work shows </description>
     </item>
     <item>
-      <title>When Should a Virtual Patient Ask? RISP-Guided Proactive Information Seeking in Multi-Agent Patient Simulation</title>
-      <link>https://arxiv.org/abs/2611.18183</link>
-      <guid isPermaLink="false">arxiv:2611.18183</guid>
-      <pubDate>2026-11-13</pubDate>
-      <description>Virtual patient (VP) systems support nursing communication training by providing simulated encounters in which learners practise explaining care and responding to patient concerns. Although large language models (LLMs) support flexible dialogue, current approaches give less explicit attention to how patients' information needs develop and guide the content and timing of their questions. We draw on the Risk Information Seeking and Processing (RISP) model, which relates information seeking to perc</description>
+      <title>In-Context Estimation and Prediction for Parametric ODEs</title>
+      <link>https://arxiv.org/abs/2611.21268</link>
+      <guid isPermaLink="false">arxiv:2611.21268</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>Transformers have demonstrated the ability to perform in-context learning, that is, to adapt to new tasks from a few examples without updating their parameters. Existing theory has largely focused on emulating gradient-based algorithms for convex statistical problems or establishing general function approximation guarantees without exploiting the underlying statistical structure. We study in-context parameter estimation and trajectory prediction for parametric ordinary differential equations (OD</description>
     </item>
     <item>
-      <title>Who Should Be on the Panel? Task-Conditioned Persona Selection for LLM Trading Agents</title>
-      <link>https://arxiv.org/abs/2611.18150</link>
-      <guid isPermaLink="false">arxiv:2611.18150</guid>
-      <pubDate>2026-11-13</pubDate>
-      <description>Multi-agent LLM systems are built by fixing a cast of roles and then designing how the cast coordinates. Which agents should make up the group for a given task is left to the designer, and the same cast is reused for every task. Financial trading makes the cost of that choice visible: stocks trade differently, and the trading styles suited to one need not suit another. We study task-conditioned persona selection, composing the group from the characteristics of the task it will face, and instanti</description>
+      <title>Hybrid Optimization-Generative Motion Planning for Multiagent Affine Formations</title>
+      <link>https://arxiv.org/abs/2611.21264</link>
+      <guid isPermaLink="false">arxiv:2611.21264</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>Formation maneuver control enables a multiagent system to cooperatively navigate through constrained environments in collective motion. While various formation controllers exist, they rely heavily on high-quality and dynamically feasible reference trajectories provided a priori, making formation motion planning (FMP) essential. To address the computational challenges for high-dimensional joint trajectories faced by conventional constrained optimization-based solutions, this paper introduces a hy</description>
     </item>
     <item>
-      <title>PoliMop: Policy-in-the-Loop Motion Planning in 3D Spaces for Mobile Robots</title>
-      <link>https://arxiv.org/abs/2611.18110</link>
-      <guid isPermaLink="false">arxiv:2611.18110</guid>
-      <pubDate>2026-11-13</pubDate>
-      <description>Reaching a goal state in a complex environment often requires a robot to overcome challenging terrain and obstacles. Which routes are accessible depends on the robot's physical design, the control policy it uses, and how it modifies its surroundings. We present a kinodynamic rapidly-exploring random tree (RRT) planner that uses physics simulation to exploit skills encoded in the control policy, which allows it to find a path in the scene with respect to the robot's capabilities. The planner samp</description>
+      <title>Evaluating Authorization and Trust Boundaries in Agentic Orchestration Frameworks</title>
+      <link>https://arxiv.org/abs/2611.21259</link>
+      <guid isPermaLink="false">arxiv:2611.21259</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>Agentic AI systems extend large language models with tools, memory, and multi-agent collaboration, introducing security risks at orchestration boundaries. These risks depend on how identities are represented, operations are authorized, and instructions or information propagate between components. We evaluate LangChain, LangGraph, AutoGen, and OpenClaw through twelve experiments mapped to the OWASP Top 10 for Agentic Applications using a common LLM (gpt-4o-mini). The experiments cover prompt inje</description>
     </item>
     <item>
-      <title>From Images to Grounded Edits: A Real-World Benchmark for Chinese Grammatical Error Correction in Handwritten Essays</title>
-      <link>https://arxiv.org/abs/2611.17966</link>
-      <guid isPermaLink="false">arxiv:2611.17966</guid>
-      <pubDate>2026-11-13</pubDate>
-      <description>Chinese Grammatical Error Correction (CGEC) is typically formulated as a text-to-text problem. While suitable for digital texts, this formulation falls short in real-world K-12 education, where AI-assisted corrections are expected directly on essay images, which are primarily handwritten and exhibit many irregularities. To bridge this gap, we introduce Grounded Chinese Grammatical Error Correction (G-CGEC), an image-to-grounded-edit task requiring systems to predict both corrections and their po</description>
+      <title>Stream of Belief: Eliciting Collective Intelligence through Latent Belief Dynamics</title>
+      <link>https://arxiv.org/abs/2611.21250</link>
+      <guid isPermaLink="false">arxiv:2611.21250</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>In this work, we view multi-agent reasoning as a process of seeking a collective equilibrium of implicit belief dynamics and introduce Stream of Belief (SoB), where agents maintain continuous latent beliefs and iteratively refine them through communication and reflection. Our method seeks a collective belief state of a multi-agent system where further communication induces no meaningful information propagation. Through extensive experiments, we demonstrate the generalization of SoB across tasks </description>
     </item>
     <item>
-      <title>When Cooperation Must Change: Semantic Strategy Unlearning in Multi-Agent Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2611.17917</link>
-      <guid isPermaLink="false">arxiv:2611.17917</guid>
-      <pubDate>2026-11-13</pubDate>
-      <description>Cooperative multi-agent reinforcement learning (MARL) supports coordinated decision-making in distributed Web services, multi-robot control, and collaborative games through learned coordination conventions. When deployment requirements change, a previously useful convention may become obsolete or unsafe. For example, revised cache-sharing permissions in Web content delivery may require caches to abandon a learned division of storage and serving roles while maintaining efficient delivery. Teams m</description>
+      <title>Heteroscedastic Gaussian Process Q-learning for Sample Efficient Experimentation</title>
+      <link>https://arxiv.org/abs/2611.21249</link>
+      <guid isPermaLink="false">arxiv:2611.21249</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>Self-driving laboratories must learn to control a process from tens to hundreds of expensive experiments, too few for deep reinforcement learning (RL). We learn the Q-function directly with a Gaussian process (GP), which avoids learning the dynamics, and show that the GP posterior supplies the learning rate of Q-learning. If each Bellman target is treated as a noisy measurement of the Q-function, the learning rate that minimises the mean squared error is the Kalman gain, and applying it to every</description>
     </item>
     <item>
-      <title>Securing Multi-Agent Systems by Design</title>
-      <link>https://arxiv.org/abs/2611.17883</link>
-      <guid isPermaLink="false">arxiv:2611.17883</guid>
-      <pubDate>2026-11-13</pubDate>
-      <description>Multi-agent systems solve complex tasks by decomposing them into subtasks, delegating the subtasks to agents, and aggregating the agents' responses using an aggregation rule. Malicious agents can manipulate the final solution by providing malicious responses to their assigned subtasks. In this paper, we first propose response manipulation attacks (ReMA), which iteratively optimize malicious responses to maximize attack effectiveness. Specifically, we formulate untargeted and targeted attacks as </description>
+      <title>CoopDistill: Equilibrium-Guided Multi-Agent Policy Distillation for Cooperative Driving</title>
+      <link>https://arxiv.org/abs/2611.21069</link>
+      <guid isPermaLink="false">arxiv:2611.21069</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>Cooperative driving extends autonomous driving from individual vehicle decisions to joint maneuvers that improve traffic safety and efficiency. Optimization-based methods impose safety constraints but often fix paths to simplify multi-vehicle planning, limiting spatial flexibility. Multi-agent reinforcement learning (MARL) explores alternatives through interaction, but coordinated learning and safe execution remain challenging. Their integration nevertheless faces challenges in exploration effic</description>
     </item>
     <item>
-      <title>SceneAgent: A Multi-Agent Framework for Portable Game Scene Generation</title>
-      <link>https://arxiv.org/abs/2611.17821</link>
-      <guid isPermaLink="false">arxiv:2611.17821</guid>
-      <pubDate>2026-11-13</pubDate>
-      <description>Moving a scene generator to a new game engine requires more than exporting its final output: planning, construction tools, and stored experience may also depend on the original backend. We present SceneAgent, a multi-agent framework for reusing the construction process and its experience across backends. A canonical SceneContext maintains the evolving world, while backend adapters isolate coordinate conventions, asset bindings, and export. Structured handoffs let fresh Builder sessions query thi</description>
+      <title>OpenMAS-GApp: A Comprehensive Benchmark for Domain-Adaptive Multi-Agent Application Construction</title>
+      <link>https://arxiv.org/abs/2611.20997</link>
+      <guid isPermaLink="false">arxiv:2611.20997</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>Constructing multi-agent system (MAS) applications across domains requires translating diverse requirements into executable systems, involving task decomposition, agent and tool selection, and execution organization. Existing studies have explored individual aspects of MAS construction, including agent generation, architecture design, workflow generation, and component selection. However, these methods are often developed and evaluated independently, using different task specifications, componen</description>
     </item>
     <item>
-      <title>Aligning AI Teams</title>
-      <link>https://arxiv.org/abs/2611.17820</link>
-      <guid isPermaLink="false">arxiv:2611.17820</guid>
-      <pubDate>2026-11-13</pubDate>
-      <description>Previous work has shown that alignment training on individual LLM agents can fail to transfer to multi-agent settings. We investigate the underlying mechanisms for this failure, and explore interventions to preserve alignment transfer to multi-agent LLM teams. We focus on two software-engineering tasks (sepsis triage, a news recommender) and ten consulting-proposal generation tasks. We present four findings: (1) The single-vs-team safety gap does not show a clear trend with more capable models. </description>
+      <title>GRACE: Parallel Best-of-N Multi-Agent Analysis of Closed-Form Questions over Dataframes with Guardrail Selection and Adaptive Retry</title>
+      <link>https://arxiv.org/abs/2611.20983</link>
+      <guid isPermaLink="false">arxiv:2611.20983</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>LLM agents answer closed-form questions over a tabular dataframe by writing and executing Python, almost always as a single rollout: one interpretation, one script, one result, accepted without comparison. The few pipelines that produce several candidates reconcile them by answer-agreement voting, which needs a single comparable scalar and always returns one, even when every candidate is wrong. We present GRACE (Generative, Ranked, Adaptive Code Ensemble), a production-oriented pipeline that ins</description>
     </item>
     <item>
-      <title>MASTARS: Multi-Agent Sequential Trajectory Augmentation with Return-Conditioned Subgoals</title>
-      <link>https://arxiv.org/abs/2611.17793</link>
-      <guid isPermaLink="false">arxiv:2611.17793</guid>
-      <pubDate>2026-11-13</pubDate>
-      <description>The performance of offline Multi-Agent Reinforcement Learning (MARL) is limited by the quality of the fixed offline dataset, motivating trajectory augmentation. However, augmenting multi-agent trajectories presents a fundamental challenge of the diversity-coordination trade-off: independent generation improves diversity but lacks coordination, while joint generation induces coordination but lacks diversity, reproducing the training distribution. To address this challenge in multi-agent data augm</description>
+      <title>From Recursion to Convolution: Parallel Self-Improvement for Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2611.20891</link>
+      <guid isPermaLink="false">arxiv:2611.20891</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>Multi-agent self-improvement enables agents to improve through interaction and feedback. However, sequential dependencies across agents and refinement rounds can propagate errors, increase computational costs, and limit parallelism. Moreover, refining individual features or agents in isolation can overlook their dependencies and restrict collective coordination. To address these challenges, we propose ConvRSI, a framework for parallelizing multi-agent self-improvement through convolution. ConvRS</description>
     </item>
     <item>
-      <title>AutoRL: A Multi-Agent System towards Autonomous Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2611.17790</link>
-      <guid isPermaLink="false">arxiv:2611.17790</guid>
-      <pubDate>2026-11-13</pubDate>
-      <description>Recursive self-improvement (RSI) is one of the most promising paths toward an AI singularity for superintelligence. Achieving this vision requires AI systems to undertake the full training pipeline for iterative improvement. Reinforcement learning (RL) plays an essential role in this cycle to improve model capabilities and generalization, yet automating RL remains difficult due to unstable training dynamics and the need for sustained supervision. We introduce AutoRL, a multi-agent system for aut</description>
+      <title>ProcReverser: Multi-Agent Black-Box Microarchitectural Reverse Engineering for Processor Vulnerability Analysis</title>
+      <link>https://arxiv.org/abs/2611.20827</link>
+      <guid isPermaLink="false">arxiv:2611.20827</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>When processor implementation details are unavailable, black-box microarchitectural reverse engineering helps security researchers identify hardware conditions related to security vulnerabilities. However, this process requires substantial manual effort to design experiments, develop test programs, and analyze results for each processor. We present ProcReverser, a multi-agent system that automates this process. ProcReverser uses execution feedback to improve experimental plans and test programs </description>
     </item>
     <item>
-      <title>Creative Product Design under Brand Image Constraints</title>
-      <link>https://arxiv.org/abs/2611.17762</link>
-      <guid isPermaLink="false">arxiv:2611.17762</guid>
-      <pubDate>2026-11-13</pubDate>
-      <description>Industrial design requires creative visual exploration while satisfying constraints that are often product-specific and implicit. Existing text-to-image (T2I) approaches can generate creative designs through concept blending or multi-agent self-enhancement, but they provide limited mechanisms for ensuring that generated designs remain consistent with such constraints. We focus on brand image as a representative design constraint and propose a framework for brand-aware redesign generation. Given </description>
+      <title>The Cybersecurity Dataset Observatory: Which Data for AI in Cybersecurity?</title>
+      <link>https://arxiv.org/abs/2611.20812</link>
+      <guid isPermaLink="false">arxiv:2611.20812</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>AI is increasingly used for cybersecurity tasks such as intrusion and malware detection, in enterprise, industrial, vehicular and mobile networks. Its effectiveness depends on data: models need representative network traffic, both to be trained and to be evaluated realistically. Public datasets of cybersecurity network traffic, however, are scattered across laboratory pages, repositories and aggregators, and are continuously released, corrected and withdrawn: 92 of the 234 datasets we catalog we</description>
     </item>
     <item>
-      <title>Ego2Flow: Benchmarking the Traffic-System Impact of Autonomous Driving on Maps Distilled from Real-World Roads</title>
-      <link>https://arxiv.org/abs/2611.17720</link>
-      <guid isPermaLink="false">arxiv:2611.17720</guid>
-      <pubDate>2026-11-13</pubDate>
-      <description>End-to-end autonomous driving is predominantly evaluated through ego-vehicle safety and task completion. Its deployment in urban traffic, however, creates sustained interactions among vehicles whose collective effects remain insufficiently evaluated. We introduce Ego2Flow, a closed-loop benchmark for assessing the traffic-system impact of autonomous driving on maps distilled from real-world cities. To construct realistic 3D urban environments for sustained closed-loop traffic simulation, we deve</description>
+      <title>When Does Interaction Help? Toward a Reynolds Number for Collective Intelligence</title>
+      <link>https://arxiv.org/abs/2611.20773</link>
+      <guid isPermaLink="false">arxiv:2611.20773</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>Multi-agent systems combine distributed information through interaction, which can improve performance but also spread errors or suppress useful differences. Predicting when interaction helps is central to understanding and designing collective intelligence. We investigate whether a few dimensionless parameters can predict gains over explicitly defined non-communicating baselines across group sizes, network structures, and tasks, toward a Reynolds-number-like description of collective intelligen</description>
     </item>
     <item>
-      <title>More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs</title>
-      <link>https://arxiv.org/abs/2611.17610</link>
-      <guid isPermaLink="false">arxiv:2611.17610</guid>
-      <pubDate>2026-11-13</pubDate>
-      <description>Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This practice confounds coordination with sample multiplicity and inference compute. We synthesize nine primary empirical evaluations comprising 516 unique multi-agent configurations organized along a resource vector R with six dimensions and a baseline ladder with four categories. Against baselines with a single pass (Category A), multi-agent accuracy differences are negative overa</description>
+      <title>STA: A Split Temporal Adversary Method for Evaluating Robustness of Multimodal RL-based Driving Policies</title>
+      <link>https://arxiv.org/abs/2611.20765</link>
+      <guid isPermaLink="false">arxiv:2611.20765</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>Multimodal reinforcement learning (MRL) offers a promising paradigm for autonomous driving by jointly leveraging complementary sensor observations to learn effective decision-making policies. However, its effectiveness critically depends on temporal alignment across modalities, making temporal inconsistency a fundamental vulnerability. Even subtle misalignment or latency can corrupt fused representations and ultimately lead to decision failures. Existing studies have explored adversarial attacks</description>
     </item>
     <item>
-      <title>Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents</title>
-      <link>https://arxiv.org/abs/2611.17539</link>
-      <guid isPermaLink="false">arxiv:2611.17539</guid>
-      <pubDate>2026-11-12</pubDate>
-      <description>Autonomous crystal-structure determination from powder X-ray diffraction (pXRD) remains a key bottleneck for self-driving materials laboratories. We formulate the task of pXRD structure determination as a verifiable agentic search problem: candidate structures can be assessed during inference through forward-simulated profile agreement and during evaluation through structural matching to a known reference. To benchmark progress, we introduce pXRD-Bench, a suite of 200 simulated single-phase prob</description>
+      <title>MASTA: A Feedback-Scheduled Multi-Agent System for End-to-End Tamarin Modeling and Analysis</title>
+      <link>https://arxiv.org/abs/2611.20671</link>
+      <guid isPermaLink="false">arxiv:2611.20671</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>Tamarin-based formal verification of security protocols requires expert-authored multiset rewriting rules and temporal-logic lemmas. Translating a natural-language protocol description into a complete formal model with an LLM is hard because syntactic, reachability, and property-level errors compound across the multi-step modeling process, and a single agent that both authors and self-evaluates cannot reliably localize them. We present MASTA, a multi-agent system that addresses these difficultie</description>
     </item>
     <item>
-      <title>Only as Safe as the Weakest Agent: A Break That Appears Only When the System Is Multi-Agent</title>
-      <link>https://arxiv.org/abs/2611.17520</link>
-      <guid isPermaLink="false">arxiv:2611.17520</guid>
-      <pubDate>2026-11-12</pubDate>
-      <description>Major industry multi-agent systems like Codex and Claude Code can be broken by attacks that have long been unsuccessful against modern frontier models. AI Safety as a discipline has largely focused on finding the bounds and vulnerabilities of AI models used in isolation. Yet as humans increasingly deploy these models as agents and multi-agent systems, the same attacks that had been thought to be patched when using a model in isolation can break these same models under specific circumstances. We </description>
+      <title>ExtremeDrive: A Real-World Dataset and Benchmark for Critical Driving</title>
+      <link>https://arxiv.org/abs/2611.20574</link>
+      <guid isPermaLink="false">arxiv:2611.20574</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>Existing autonomous driving datasets and benchmarks provide extensive resources for routine driving, yet real-world data covering safety-critical scenarios and extreme environmental conditions remain limited. To address this gap, we present ExtremeDrive, a real-world dataset and benchmark covering emergency maneuvers, complex traffic interactions, and adverse conditions such as slippery or snow-covered roads, alongside routine driving. The dataset comprises 589 driving scenes curated from a larg</description>
     </item>
     <item>
-      <title>Physical-Risk-Aware Decentralized Agents for Constrained Vehicle Communications</title>
-      <link>https://arxiv.org/abs/2611.17456</link>
-      <guid isPermaLink="false">arxiv:2611.17456</guid>
-      <pubDate>2026-11-12</pubDate>
-      <description>Decentralized V2X resource control is challenging because each vehicle has only local observations, while reliability depends on network-wide interactions. We develop a physical-risk-aware spatio-temporal graph attention (PA-STGAT) framework for agentic V2X control. Each vehicle perceives its local interaction graph, retains short-term temporal context, and independently selects its PC5 resource and power. Network outcomes are used during centralized training to refine the shared policy. Transmi</description>
+      <title>WTR-Drive: World-Task Decomposition with Structured Risk Supervision for End-to-End Driving</title>
+      <link>https://arxiv.org/abs/2611.20510</link>
+      <guid isPermaLink="false">arxiv:2611.20510</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>Proposal-conditioned scene predictions can lack a common object-level reference across candidate trajectories. Aggregate planning scores also leave the objects and times associated with violations implicit. We present WTR-Drive (World-Task-Risk Driving), a Drive-JEPA-based planner that separates shared scene estimation from proposal-conditioned reasoning. A proposal-independent World Memory estimates object states, map structure, and future motion by re-reading the original visual features at ea</description>
     </item>
     <item>
-      <title>Auditing AI peer reviewers: a benchmark on real scientific papers</title>
-      <link>https://arxiv.org/abs/2611.17052</link>
-      <guid isPermaLink="false">arxiv:2611.17052</guid>
-      <pubDate>2026-11-12</pubDate>
-      <description>LLM-based peer review is now used at production scale, but its evaluation remains limited. We introduce a benchmark that injects objective, localisable errors of four types (general issues, mathematics, numerics, citations) at three severity levels into real papers and measures each reviewer's detection rate by error type and severity, together with its false-positive rate on clean copies. We also present Skepthical, a multi-agent reviewer that verifies citation-backed claims by retrieving the c</description>
+      <title>VoxSAOR: Semantic-Aware Occupancy Robustification via Aleatoric Uncertainty Modeling</title>
+      <link>https://arxiv.org/abs/2611.20507</link>
+      <guid isPermaLink="false">arxiv:2611.20507</guid>
+      <pubDate>2026-11-16</pubDate>
+      <description>Vision-based 3D occupancy prediction provides a dense semantic representation of scenes for autonomous driving and embodied perception, yet remains vulnerable to occlusion, depth ambiguity, and projection errors that induce spatially varying reliability in voxel features. Existing methods typically map voxel representations to semantic predictions without explicitly modeling such observation-induced feature variations. To address this limitation, we propose VoxSAOR, a semantic-aware occupancy ro</description>
     </item>
   </channel>
 </rss>
