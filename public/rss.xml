@@ -4,146 +4,97 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Tue, 17 Nov 2026 11:28:49 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 11:08:29 GMT</lastBuildDate>
     <item>
-      <title>Efficient Modeling of Multi-Agent Systems via Structure-Aware Physics-Informed Learning</title>
-      <link>https://arxiv.org/abs/2611.21404</link>
-      <guid isPermaLink="false">arxiv:2611.21404</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>Modeling large multi-agent systems poses challenges for trajectory inference and parameter identification, as network size and coupling increase computational demands and partial observations require reconstructing unobserved states. We propose MAS-PINN, a neural-network architecture with a tailored training algorithm for a physics-informed learning framework that leverages the network topology and the agents' similarity to reduce computational and memory costs of simulating and identifying mult</description>
+      <title>Learned versus Kinematic Trajectory Prediction under Reduced Observation Frequency</title>
+      <link>https://arxiv.org/abs/2611.23198</link>
+      <guid isPermaLink="false">arxiv:2611.23198</guid>
+      <pubDate>2026-11-17</pubDate>
+      <description>Trajectory prediction models for automated driving are usually trained on data with a fixed sampling frequency, while positions received via vehicle-to-everything (V2X) communication arrive at 1-10 Hz. We study whether a learned predictor that uses only the observation history keeps its advantage over constant velocity (CV) and constant acceleration (CA) models when the history frequency drops. On the Argoverse 2 motion forecasting dataset, the 5 s history of the focal agent was downsampled from</description>
     </item>
     <item>
-      <title>WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection</title>
-      <link>https://arxiv.org/abs/2611.21373</link>
-      <guid isPermaLink="false">arxiv:2611.21373</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the investigation policy alone does not directly improve the forensic capabilities of fixed experts. We introduce WeV</description>
+      <title>Mind the Gap: A Deployed Multi-Agent System for Documentation Maintenance</title>
+      <link>https://arxiv.org/abs/2611.23142</link>
+      <guid isPermaLink="false">arxiv:2611.23142</guid>
+      <pubDate>2026-11-17</pubDate>
+      <description>The "AI revolution" has enabled teams across the technology industry to deliver software features at unprecedented velocity. While code evolves faster than ever, customer-facing documentation often struggles to stay up to speed. As users increasingly rely on LLM-based agents that consume documentation as their primary interface, the impact of this documentation gap worsens: stale information propagates and is treated as authoritative. Signals for identifying where documentation has fallen behind</description>
     </item>
     <item>
-      <title>Even Loose Proximity Constraints Make Makespan-optimal Unlabeled Multi-agent Pathfinding Hard</title>
-      <link>https://arxiv.org/abs/2611.21277</link>
-      <guid isPermaLink="false">arxiv:2611.21277</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>We study \textsc{$r$-Connected Unlabeled Multi-agent Pathfinding} ($r$CUMAPF), a variant of MAPF where interchangeable agents have a proximity range $r\in \mathbb{N}$, and agents must form a single group in a given graph $G$ through limited-range communication at all times. The problem arises in fundamental applications such as self-reconfiguration and platooning, while standard MAPF does not capture proximity constraints. For the problem of finding a makespan-optimal solution, prior work shows </description>
+      <title>Learning Agent-Centric Vision-Language-Action World Models for Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2611.22880</link>
+      <guid isPermaLink="false">arxiv:2611.22880</guid>
+      <pubDate>2026-11-17</pubDate>
+      <description>Recent progress in integrating vision-language-action (VLA) models with world modeling has significantly advanced end-to-end autonomous driving by allowing systems to reason about imagined futures instead of merely reacting to current observations. However, most world VLA models generate future frames at the pixel level with plenty of dense visual tokens. Although such generated futures can be visually plausible, they preserve many driving-irrelevant appearance details, i.e., only a small portio</description>
     </item>
     <item>
-      <title>In-Context Estimation and Prediction for Parametric ODEs</title>
-      <link>https://arxiv.org/abs/2611.21268</link>
-      <guid isPermaLink="false">arxiv:2611.21268</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>Transformers have demonstrated the ability to perform in-context learning, that is, to adapt to new tasks from a few examples without updating their parameters. Existing theory has largely focused on emulating gradient-based algorithms for convex statistical problems or establishing general function approximation guarantees without exploiting the underlying statistical structure. We study in-context parameter estimation and trajectory prediction for parametric ordinary differential equations (OD</description>
+      <title>Making the World React Realistically: A Closed-Loop Interactive World Model for Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2611.22691</link>
+      <guid isPermaLink="false">arxiv:2611.22691</guid>
+      <pubDate>2026-11-17</pubDate>
+      <description>World models (WMs) generate driving scenarios beyond recorded logs, enabling the training and evaluation of autonomous driving systems in unseen interactions. However, existing WMs struggle to ensure both behavioral realism and visual fidelity, since they overlook the relationship between vehicle interactions and the ego visual observations. We propose a closed-loop interactive WM that couples behavior modeling and visual rendering. First, imitation-learned background-vehicle (BV) policies are f</description>
     </item>
     <item>
-      <title>Hybrid Optimization-Generative Motion Planning for Multiagent Affine Formations</title>
-      <link>https://arxiv.org/abs/2611.21264</link>
-      <guid isPermaLink="false">arxiv:2611.21264</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>Formation maneuver control enables a multiagent system to cooperatively navigate through constrained environments in collective motion. While various formation controllers exist, they rely heavily on high-quality and dynamically feasible reference trajectories provided a priori, making formation motion planning (FMP) essential. To address the computational challenges for high-dimensional joint trajectories faced by conventional constrained optimization-based solutions, this paper introduces a hy</description>
+      <title>ReMaRL: Learning to Unmask and Remask in Frozen Diffusion Language Models</title>
+      <link>https://arxiv.org/abs/2611.22576</link>
+      <guid isPermaLink="false">arxiv:2611.22576</guid>
+      <pubDate>2026-11-17</pubDate>
+      <description>Masked diffusion language models generate tokens in parallel, and the order in which tokens are unmasked affects final-answer accuracy. Several methods learn unmasking policies from task rewards, but these policies cannot remask earlier predictions. Remasking lets the model correct those predictions using newly generated context. Heuristic rules guide both unmasking and remasking, while supervised remaskers learn to detect token errors. Neither approach directly optimizes these decisions for fin</description>
     </item>
     <item>
-      <title>Evaluating Authorization and Trust Boundaries in Agentic Orchestration Frameworks</title>
-      <link>https://arxiv.org/abs/2611.21259</link>
-      <guid isPermaLink="false">arxiv:2611.21259</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>Agentic AI systems extend large language models with tools, memory, and multi-agent collaboration, introducing security risks at orchestration boundaries. These risks depend on how identities are represented, operations are authorized, and instructions or information propagate between components. We evaluate LangChain, LangGraph, AutoGen, and OpenClaw through twelve experiments mapped to the OWASP Top 10 for Agentic Applications using a common LLM (gpt-4o-mini). The experiments cover prompt inje</description>
+      <title>Surfacing Disagreement Beats Resolving It: A Gated Ablation Study of Provenance-Weighted Memory for Multi-Agent Debate</title>
+      <link>https://arxiv.org/abs/2611.22461</link>
+      <guid isPermaLink="false">arxiv:2611.22461</guid>
+      <pubDate>2026-11-17</pubDate>
+      <description>Shared memory for multi-agent debate is usually built to resolve inconsistency: retrieval returns one winning fact and the disagreement disappears before any agent sees it. We ask whether that is correct. In DebateGraph, four backends share one contract (read/write/snapshot), so five mechanisms from the agent-memory literature can be removed independently under a fixed budget, each gated on a pre-declared threshold. Across 39 runs one survives: preserving contradictions and passing the ranked co</description>
     </item>
     <item>
-      <title>Stream of Belief: Eliciting Collective Intelligence through Latent Belief Dynamics</title>
-      <link>https://arxiv.org/abs/2611.21250</link>
-      <guid isPermaLink="false">arxiv:2611.21250</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>In this work, we view multi-agent reasoning as a process of seeking a collective equilibrium of implicit belief dynamics and introduce Stream of Belief (SoB), where agents maintain continuous latent beliefs and iteratively refine them through communication and reflection. Our method seeks a collective belief state of a multi-agent system where further communication induces no meaningful information propagation. Through extensive experiments, we demonstrate the generalization of SoB across tasks </description>
+      <title>AutoE2E: Don't speak - Language free end-to-end autonomy A Real-Time Driving Model for L2++ ADAS and L4 Robotaxis</title>
+      <link>https://arxiv.org/abs/2611.22374</link>
+      <guid isPermaLink="false">arxiv:2611.22374</guid>
+      <pubDate>2026-11-17</pubDate>
+      <description>AutoE2E is an open-source end-to-end driving model developed by the Autoware Foundation Robotaxi Working Group. It introduces a temporal bird's-eye-view (BEV) architecture that combines multi-camera perception, HD-map information and route conditioning to predict future vehicle motion. The evaluated model uses a pretrained camera-BEV backbone, temporal feature fusion and a lightweight recurrent trajectory planner. It contains approximately 79.9 million parameters, of which approximately 1.45 mil</description>
     </item>
     <item>
-      <title>Heteroscedastic Gaussian Process Q-learning for Sample Efficient Experimentation</title>
-      <link>https://arxiv.org/abs/2611.21249</link>
-      <guid isPermaLink="false">arxiv:2611.21249</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>Self-driving laboratories must learn to control a process from tens to hundreds of expensive experiments, too few for deep reinforcement learning (RL). We learn the Q-function directly with a Gaussian process (GP), which avoids learning the dynamics, and show that the GP posterior supplies the learning rate of Q-learning. If each Bellman target is treated as a noisy measurement of the Q-function, the learning rate that minimises the mean squared error is the Kalman gain, and applying it to every</description>
+      <title>Bad Apples in the Kitchen: How LLM Teams Detect, Correct, and Calibrate Against Their Misaligned Members</title>
+      <link>https://arxiv.org/abs/2611.22342</link>
+      <guid isPermaLink="false">arxiv:2611.22342</guid>
+      <pubDate>2026-11-17</pubDate>
+      <description>What protects an LLM team when one teammate quietly goes wrong? Most multi-agent LLM work assumes cooperative partners and inspects chat between turns before acting. Real-time embodied cooperation does not allow this pause: chat runs alongside action, so a teammate whose words stay cooperative while behavior diverges can cause damage faster than the team can name what is happening. We study this case by injecting three theory-grounded misaligned agents into a custom four-player Overcooked enviro</description>
     </item>
     <item>
-      <title>CoopDistill: Equilibrium-Guided Multi-Agent Policy Distillation for Cooperative Driving</title>
-      <link>https://arxiv.org/abs/2611.21069</link>
-      <guid isPermaLink="false">arxiv:2611.21069</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>Cooperative driving extends autonomous driving from individual vehicle decisions to joint maneuvers that improve traffic safety and efficiency. Optimization-based methods impose safety constraints but often fix paths to simplify multi-vehicle planning, limiting spatial flexibility. Multi-agent reinforcement learning (MARL) explores alternatives through interaction, but coordinated learning and safe execution remain challenging. Their integration nevertheless faces challenges in exploration effic</description>
+      <title>FIRE-Drive: Feasibility-Informed Risk Evaluation for End-to-End Diffusion Planning</title>
+      <link>https://arxiv.org/abs/2611.22297</link>
+      <guid isPermaLink="false">arxiv:2611.22297</guid>
+      <pubDate>2026-11-17</pubDate>
+      <description>Diffusion-based end-to-end autonomous driving models have shown strong potential in generating multimodal planning trajectories. However, their performance still depends heavily on trajectory initialization, mode evaluation, and supervision quality. Weakly constrained noisy initialization may introduce infeasible proposals and increase the burden of denoising. Moreover, selecting the optimal mode remains challenging when candidate trajectories are geometrically similar but differ in safety, inte</description>
     </item>
     <item>
-      <title>OpenMAS-GApp: A Comprehensive Benchmark for Domain-Adaptive Multi-Agent Application Construction</title>
-      <link>https://arxiv.org/abs/2611.20997</link>
-      <guid isPermaLink="false">arxiv:2611.20997</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>Constructing multi-agent system (MAS) applications across domains requires translating diverse requirements into executable systems, involving task decomposition, agent and tool selection, and execution organization. Existing studies have explored individual aspects of MAS construction, including agent generation, architecture design, workflow generation, and component selection. However, these methods are often developed and evaluated independently, using different task specifications, componen</description>
+      <title>Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration</title>
+      <link>https://arxiv.org/abs/2611.22275</link>
+      <guid isPermaLink="false">arxiv:2611.22275</guid>
+      <pubDate>2026-11-17</pubDate>
+      <description>Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve. However, realizing this potential requires coordinated whole-body interactions, coherent long-horizon planning, and precise synchronization across robots. We introduce Heave-Ho, a decentralized framework for long-horizon collaborative multi-humanoid loco-manipulation. At the low level, we develop a multi-agent post-training framework that adapts a humanoid foundation tracking model to physically cou</description>
     </item>
     <item>
-      <title>GRACE: Parallel Best-of-N Multi-Agent Analysis of Closed-Form Questions over Dataframes with Guardrail Selection and Adaptive Retry</title>
-      <link>https://arxiv.org/abs/2611.20983</link>
-      <guid isPermaLink="false">arxiv:2611.20983</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>LLM agents answer closed-form questions over a tabular dataframe by writing and executing Python, almost always as a single rollout: one interpretation, one script, one result, accepted without comparison. The few pipelines that produce several candidates reconcile them by answer-agreement voting, which needs a single comparable scalar and always returns one, even when every candidate is wrong. We present GRACE (Generative, Ranked, Adaptive Code Ensemble), a production-oriented pipeline that ins</description>
+      <title>OAK-Mind: Zero-Training Mental Health Change Inference from Passive Sensing via Knowledge-Grounded Multi-Agent LLMs</title>
+      <link>https://arxiv.org/abs/2611.22248</link>
+      <guid isPermaLink="false">arxiv:2611.22248</guid>
+      <pubDate>2026-11-17</pubDate>
+      <description>Wearable and smartphone sensors capture behavioral signals associated with mental health, yet inferring mental health outcomes from these signals has traditionally relied on supervised models requiring labeled data and offering limited insight into their predictions. Large language models (LLMs) offer new opportunities to reason over behavioral evidence, but existing LLM-based approaches to passive sensing have largely continued to rely on task-specific fine-tuning or sensor-specific pretraining</description>
     </item>
     <item>
-      <title>From Recursion to Convolution: Parallel Self-Improvement for Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2611.20891</link>
-      <guid isPermaLink="false">arxiv:2611.20891</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>Multi-agent self-improvement enables agents to improve through interaction and feedback. However, sequential dependencies across agents and refinement rounds can propagate errors, increase computational costs, and limit parallelism. Moreover, refining individual features or agents in isolation can overlook their dependencies and restrict collective coordination. To address these challenges, we propose ConvRSI, a framework for parallelizing multi-agent self-improvement through convolution. ConvRS</description>
+      <title>Multi-Agent Memory Inconsistency: Where Factual Conflicts Disappear in LLM Agents</title>
+      <link>https://arxiv.org/abs/2611.22245</link>
+      <guid isPermaLink="false">arxiv:2611.22245</guid>
+      <pubDate>2026-11-17</pubDate>
+      <description>Multi-agent delegation lets LLM systems distribute evidence collection across workers with separate contexts. This creates a consistency challenge: facts retrieved by workers may be missing from the evidence available to the lead for a joint conclusion. We introduce a benchmark and evidence-flow profiler for studying multi-agent memory inconsistency through controlled factual conflicts in Harvey LAB document-review tasks. Pooled across three models with comparable generation spending, requiring </description>
     </item>
     <item>
-      <title>ProcReverser: Multi-Agent Black-Box Microarchitectural Reverse Engineering for Processor Vulnerability Analysis</title>
-      <link>https://arxiv.org/abs/2611.20827</link>
-      <guid isPermaLink="false">arxiv:2611.20827</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>When processor implementation details are unavailable, black-box microarchitectural reverse engineering helps security researchers identify hardware conditions related to security vulnerabilities. However, this process requires substantial manual effort to design experiments, develop test programs, and analyze results for each processor. We present ProcReverser, a multi-agent system that automates this process. ProcReverser uses execution feedback to improve experimental plans and test programs </description>
-    </item>
-    <item>
-      <title>The Cybersecurity Dataset Observatory: Which Data for AI in Cybersecurity?</title>
-      <link>https://arxiv.org/abs/2611.20812</link>
-      <guid isPermaLink="false">arxiv:2611.20812</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>AI is increasingly used for cybersecurity tasks such as intrusion and malware detection, in enterprise, industrial, vehicular and mobile networks. Its effectiveness depends on data: models need representative network traffic, both to be trained and to be evaluated realistically. Public datasets of cybersecurity network traffic, however, are scattered across laboratory pages, repositories and aggregators, and are continuously released, corrected and withdrawn: 92 of the 234 datasets we catalog we</description>
-    </item>
-    <item>
-      <title>When Does Interaction Help? Toward a Reynolds Number for Collective Intelligence</title>
-      <link>https://arxiv.org/abs/2611.20773</link>
-      <guid isPermaLink="false">arxiv:2611.20773</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>Multi-agent systems combine distributed information through interaction, which can improve performance but also spread errors or suppress useful differences. Predicting when interaction helps is central to understanding and designing collective intelligence. We investigate whether a few dimensionless parameters can predict gains over explicitly defined non-communicating baselines across group sizes, network structures, and tasks, toward a Reynolds-number-like description of collective intelligen</description>
-    </item>
-    <item>
-      <title>STA: A Split Temporal Adversary Method for Evaluating Robustness of Multimodal RL-based Driving Policies</title>
-      <link>https://arxiv.org/abs/2611.20765</link>
-      <guid isPermaLink="false">arxiv:2611.20765</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>Multimodal reinforcement learning (MRL) offers a promising paradigm for autonomous driving by jointly leveraging complementary sensor observations to learn effective decision-making policies. However, its effectiveness critically depends on temporal alignment across modalities, making temporal inconsistency a fundamental vulnerability. Even subtle misalignment or latency can corrupt fused representations and ultimately lead to decision failures. Existing studies have explored adversarial attacks</description>
-    </item>
-    <item>
-      <title>MASTA: A Feedback-Scheduled Multi-Agent System for End-to-End Tamarin Modeling and Analysis</title>
-      <link>https://arxiv.org/abs/2611.20671</link>
-      <guid isPermaLink="false">arxiv:2611.20671</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>Tamarin-based formal verification of security protocols requires expert-authored multiset rewriting rules and temporal-logic lemmas. Translating a natural-language protocol description into a complete formal model with an LLM is hard because syntactic, reachability, and property-level errors compound across the multi-step modeling process, and a single agent that both authors and self-evaluates cannot reliably localize them. We present MASTA, a multi-agent system that addresses these difficultie</description>
-    </item>
-    <item>
-      <title>ExtremeDrive: A Real-World Dataset and Benchmark for Critical Driving</title>
-      <link>https://arxiv.org/abs/2611.20574</link>
-      <guid isPermaLink="false">arxiv:2611.20574</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>Existing autonomous driving datasets and benchmarks provide extensive resources for routine driving, yet real-world data covering safety-critical scenarios and extreme environmental conditions remain limited. To address this gap, we present ExtremeDrive, a real-world dataset and benchmark covering emergency maneuvers, complex traffic interactions, and adverse conditions such as slippery or snow-covered roads, alongside routine driving. The dataset comprises 589 driving scenes curated from a larg</description>
-    </item>
-    <item>
-      <title>WTR-Drive: World-Task Decomposition with Structured Risk Supervision for End-to-End Driving</title>
-      <link>https://arxiv.org/abs/2611.20510</link>
-      <guid isPermaLink="false">arxiv:2611.20510</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>Proposal-conditioned scene predictions can lack a common object-level reference across candidate trajectories. Aggregate planning scores also leave the objects and times associated with violations implicit. We present WTR-Drive (World-Task-Risk Driving), a Drive-JEPA-based planner that separates shared scene estimation from proposal-conditioned reasoning. A proposal-independent World Memory estimates object states, map structure, and future motion by re-reading the original visual features at ea</description>
-    </item>
-    <item>
-      <title>VoxSAOR: Semantic-Aware Occupancy Robustification via Aleatoric Uncertainty Modeling</title>
-      <link>https://arxiv.org/abs/2611.20507</link>
-      <guid isPermaLink="false">arxiv:2611.20507</guid>
-      <pubDate>2026-11-16</pubDate>
-      <description>Vision-based 3D occupancy prediction provides a dense semantic representation of scenes for autonomous driving and embodied perception, yet remains vulnerable to occlusion, depth ambiguity, and projection errors that induce spatially varying reliability in voxel features. Existing methods typically map voxel representations to semantic predictions without explicitly modeling such observation-induced feature variations. To address this limitation, we propose VoxSAOR, a semantic-aware occupancy ro</description>
+      <title>Not All Evidence Is Admissible: Evidence Governance for Tool-Augmented Medical Agents</title>
+      <link>https://arxiv.org/abs/2611.22169</link>
+      <guid isPermaLink="false">arxiv:2611.22169</guid>
+      <pubDate>2026-11-17</pubDate>
+      <description>Tool-augmented medical agents treat whatever their tools return as evidence. We show that this default is costly: medical tools fail silently, and a frozen reasoner cannot ignore what enters its context, so many cases it would have answered correctly are flipped to wrong once tool outputs are added. We call this evidence hijacking. $\mathcal{V}$-information explains the phenomenon: the reasoner has lost the option to ignore, so a tool output can carry negative usable information, and moving the </description>
     </item>
   </channel>
 </rss>
