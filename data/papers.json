@@ -1,5 +1,620 @@
 [
   {
+    "id": "arxiv:2611.24876",
+    "title": "Learning to Interact in Multi-Agent Self-Play for Controllable Autonomous Driving Scenario Generation",
+    "authors": [
+      "Beyazit Yalcinkaya",
+      "Ethan Pronovost",
+      "Maximilian Naumann",
+      "Marcell Vazquez-Chanlatte"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24876",
+    "abstract": "Large-scale, multi-agent self-play trains robust driving policies effectively in simulation, but controlling these models to generate specific, safety-critical edge cases remains a key challenge. Existing goal-conditioned self-play frameworks rely primarily on static map-location goals and fail to reliably produce complex agent interactions such as aggressive tailgating or adversarial cut-offs. These agent interactions are necessary for rigorous autonomous vehicle (AV) testing. To address this, we present an extended multi-agent self-play framework that introduces agent-relative dynamic goals. By conditioning policies on this extended goal representation, our framework enables targeted, controllable scenario synthesis. We demonstrate that our approach successfully generates interactive driving behaviors that static-goal baselines cannot simulate, providing a flexible tool for long-tail scenario generation in AV testing.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "marl",
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "Preprint",
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.24845",
+    "title": "Vibe-Trading: Towards Agent-Native Trading",
+    "authors": [
+      "Haozhe Wu",
+      "Zhonghang Li",
+      "Chao Huang"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24845",
+    "abstract": "Existing AI agents can retrieve information, call tools, run experiments, and produce multi-step outputs. Yet most are built around relatively static workflows and struggle to preserve reliable state as the environment changes. Financial trading makes this limitation especially consequential: prices, news, market conditions, portfolio positions, and available capital evolve continuously. A result is useful only when it remains tied to the correct time, data snapshot, and execution context. We present Vibe-Trading, a comprehensive agent-native trading framework and all-in-one workspace for building, evaluating, and evolving agents for financial trading. It unifies market research, financial data, strategy generation, backtesting, portfolio analysis, paper trading, multi-agent collaboration, and optional broker execution. Its central contribution is an architecture that keeps results, evidence, research history, and trading authority connected throughout the research-to-action process. Each result retains its source, temporal scope, configuration, and producing run. Shared evidence grounding enables verification, versioned research records support reproducible continuation, and an explicit authority gate separates strategy research from live execution. Together, these designs provide a practical foundation for trading agents whose results can be traced, reproduced, and acted on only under explicit authority.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "Technical report. 16 pages, 8 figures, 4 tables. Code: https://github.com/HKUDS/Vibe-Trading",
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.24840",
+    "title": "Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving",
+    "authors": [
+      "Binay Kumar Singh",
+      "Niels Da Vitoria Lobo"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24840",
+    "abstract": "World models are increasingly used in autonomous driving to predict how a scene evolves under the ego vehicle's actions, supporting counterfactual reasoning and model-based planning. However, existing evaluations focus on prediction fidelity and planning performance, and rarely verify that the predictions depend on the conditioning action. In this paper, we study action dependence in action-conditioned semantic forecasting, which predicts future semantic segmentation from past segmentations and the ego action. We compare a forecaster with feature-wise and input-level action conditioning against an identical model without action input, and measure action dependence with test-time action interventions scored by standard segmentation metrics. The evaluation is validated in a synthetic environment with known action-dependent dynamics and applied to Cityscapes and BDD100K, both within each dataset and across the two vehicle platforms. Experiments show that the executed action improves mid-term mIoU by at most 2.5 points on Cityscapes and 0.6 points on BDD100K, whereas a wrong action reduces it by up to 23.2 and 7.0 points, below the model without action input. On real data, feature-wise conditioning depends 1.6 times more on the action than input-level conditioning at similar accuracy, whereas both depend on it equally in the synthetic environment, where the history does not determine the action. These results show that an accuracy gain indicates that a driving world model uses its action, but not how strongly its forecasts depend on it. Code is available at https://github.com/binayksingh/does-action-matter.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "8 pages, 3 figures, 6 tables. Accepted at the WAM-AD Workshop, WACV 2027. Code: https://github.com/binayksingh/does-action-matter",
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.24839",
+    "title": "Kaer: Security-Aware Replanning for Multi-Agent Systems",
+    "authors": [
+      "Tushin Mallick",
+      "Evan Rose",
+      "Matthew Laws",
+      "Alina Oprea",
+      "Cristina Nita-Rotaru"
+    ],
+    "source": "arxiv",
+    "category": "cs.MA",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24839",
+    "abstract": "One popular architecture for multi-agent systems (MAS) relies on an orchestrator that generates an initial plan, coordinates its execution, and dynamically revises the plan based on agent feedback when tasks cannot be fully specified in advance. This dynamic replanning introduces a critical vulnerability: malicious agents can embed instructions within their feedback to hijack the replanning process. Existing defenses focus exclusively on per-tool access control or static, pre-execution policy enforcement, leaving the replanning phase unsecured. We introduce Kaer, a multi-agent framework featuring security-aware replanning. Kaer shields the planner from untrusted agent feedback by conveying diagnostics to the replanning procedure strictly through abstract templates. Plan revisions are restricted to a set of deterministic repair operators, and all modified plans must satisfy preset policies. We create Cintra, a benchmark of simulated user tasks requiring replanning paired with adversarial objectives targeting the replanning phase. Using Cintra, we evaluate both task completion rates and system vulnerability to replanning exploits by malicious agents. Evaluating Kaer on Cintra against Magentic-One (an undefended MAS) and ControlValve (the state-of-the-art defense) demonstrates that Kaer achieves higher robustness than both systems while maintaining comparable utility to ControlValve. Although abstract failure templates slightly constrain utility on select tasks, Kaer enables MAS to perform secure, dynamic plan revisions without exposing the orchestrator to untrusted agent feedback.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.24788",
+    "title": "Isabelle Pool Server: a pooled verification service for prover training and multi-agent proving",
+    "authors": [
+      "Xuanwei Ren",
+      "Wenda Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.LO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24788",
+    "abstract": "Isabelle Pool Server (IPS), a verification service with a pool of warm headless Isabelle sessions behind an HTTP API, with session leasing and reclamation, memory-aware admission control, and a time budget on every call. Its verification interface spans single-step execution, block-level proof checking and whole-theory builds, with checkpoints for cheap branching and backtracking, and a build from scratch as the final arbiter. The service runs as a single container with monitoring and is accessible via a Python client, two MCP servers and a raw HTTP API. In our measurements IPS is level with PIDE MCP, a PIDE frontend for agents, at one worker and ahead of it at eight, at its commit of October 2026 (the tool is now PIDE AI). Once its sessions are up it scales to 32 concurrent workers on one host at 24 times the single-worker rate, and under memory pressure it refuses new sessions rather than losing existing ones. IPS is free software and publicly available at https://github.com/Deep-LCF/Isabelle-Pool-Server",
+    "published_date": "2026-11-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "22 + 8 pages, 6 + 0 figures",
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.24719",
+    "title": "DRIFT: Detachable Reasoning for Runtime-Flexible and Efficient End-to-End Driving",
+    "authors": [
+      "Emad Aghajanzadeh",
+      "Bethany Anne Wong",
+      "Leonhard Kunze",
+      "Moritz Thoma",
+      "Maximilian Forstenhäusler",
+      "Nael Fasfous",
+      "Manoj Rohit Vemparala",
+      "Pierpaolo Mori",
+      "Christos Anagnostopoulos",
+      "Daniel Mueller-Gritschneder",
+      "Ulf Schlichtmann"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24719",
+    "abstract": "The integration of vision-language models (VLMs) into end-to-end (E2E) autonomous driving has demonstrated strong potential by providing scene description and reasoning capabilities. However, VLMs are computationally expensive, and switching language reasoning on and off at runtime without hurting closed-loop performance has not been demonstrated, which hinders practical adoption. To address these issues, we propose DRIFT, an E2E autonomous driving framework that integrates a lightweight language model (LM) for visual question answering and action commentary. By efficiently projecting intermediate driving representations into the language embedding space, we demonstrate that a compact LM (<150M parameters) can achieve strong scene description and action commentary. Furthermore, we introduce a runtime-flexible planning module that is trained on surrogate reasoning features distilled from the LM and can be conditioned on either the LM or the surrogate reasoning features at inference. This design enables bypassing the LM entirely when required by deployment constraints, without sacrificing driving performance. With only 255M parameters, DRIFT reaches up to a Driving Score (DS) of 97.03 and a Success Rate of 89.39% (mean over three runs) on Bench2Drive by interleaving its LM and surrogate reasoning at a chosen reasoning rate. This is on par with the strongest non-language models while being far more compact than existing VLM-based models. DRIFT further achieves competitive results on the real-world NAVSIM and AlpaSim benchmarks at significantly lower computational cost than existing VLM-based approaches. Project page: https://drift-e2e.github.io/",
+    "published_date": "2026-11-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "11 pages, 4 figures, 7 tables. Project page: https://drift-e2e.github.io/",
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.24466",
+    "title": "Cooperative UAV and Ground Station for Robust MEC of Dynamic Aquatic IoT: A Generative AI-Enhanced Approach",
+    "authors": [
+      "Jiahao You",
+      "Ziye Jia",
+      "Chao Dong",
+      "Qihui Wu",
+      "Zhu Han"
+    ],
+    "source": "arxiv",
+    "category": "cs.NI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24466",
+    "abstract": "The increasing aquatic Internet of Things (AIoTs) require computational support and coverage in applications such as maritime search and rescue. Unmanned aerial vehicles (UAVs) can offer low-cost, flexible aerial services, and ground stations (GSs) can provide powerful supports, which can cooperate to help the AIoTs in complex scenarios. However, the collaboration between UAVs and GSs for AIoTs faces challenges of task uncertainties, AIoTs trajectory uncertainties, heterogeneities, and limited computational resources. To address these issues, we propose a cooperative UAV and GS based robust multi-access edge computing (MEC) framework to assist AIoTs in completing computational tasks. Specifically, we formulate the optimization problem of joint task offloading and UAV trajectory to minimize the total execution time, which is in the form of mixed integer nonlinear programming and NP-hard to tackle. Therefore, we propose the algorithm of generative artificial intelligence-enhanced heterogeneous agent proximal policy optimization (GAI-HAPPO). The proposed algorithm integrates GAI models to enhance the actor network ability to model complex environments and extract high-level features, thereby allowing the algorithm to predict uncertainties and adapt to dynamic conditions. Additionally, GAI stabilizes the critic network, addressing the instability of multi-agent reinforcement learning approaches. Finally, extensive simulations demonstrate that the proposed algorithm outperforms the existing benchmark methods, thus highlighting the potentials in tackling intricate, cross-domain issues in the considered scenarios.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.24406",
+    "title": "CaDO: Formal Verification-Guided Multi-Agent Framework for Causal Dataset Repair and Generation",
+    "authors": [
+      "Songli Yu",
+      "Qi Luo"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24406",
+    "abstract": "High-quality causal reasoning datasets are essential for developing models with reliable causal understanding, particularly in specialized domains. However, existing datasets frequently suffer from incorrect annotations and structural imbalances, which can lead to biased predictions and limited generalization. To address this issue, we propose CaDO (Causal-Engine-Guided Multi-Agent Data Optimization), a multi-agent framework for automated diagnosis and repair of causal reasoning datasets. Our framework consists of three key stages: formal causal reasoning, multi-level diagnosis, and automated data repair and generation. First, a Formalizer Agent translates natural language questions into formal causal queries to minimize semantic deviations and make retrieval and verification more explicit and tractable. Second, a dual-level diagnosis mechanism employs independent Critic Agents to identify sample-level errors while analyzing query-type coverage and label distributions to detect dataset-level structural imbalances. Finally, the framework employs reusable repair operators grounded in formal causal semantics to correct erroneous samples, while Explorer and Expander Agent collaboratively produce diverse and semantically consistent new samples. Experimental results show that CaDO significantly outperforms the strongest of five data cleaning baselines in 16 out of 18 experimental settings, improving downstream model accuracy by up to 9.1%. Moreover, at least 95% of the samples flagged by CaDO are defective, and on CLadder, CaDO incorrectly modifies 92.2% fewer correct labels than an LLM-based judge, demonstrating its effectiveness and reliability. Our code and data are publicly available at https://github.com/thisissyu/cado.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.24376",
+    "title": "Teaching VLMs What to Say, Not How to Reason: Rethinking Counterfactual Reasoning in Autonomous Driving",
+    "authors": [
+      "Hayeon Oh",
+      "Donghwan Lee"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24376",
+    "abstract": "End-to-end autonomous driving systems have been shown to suffer from shortcut learning and causal confusion, limiting their ability to generalize robustly under distribution shift. To mitigate these limitations, recent works based on Vision-Language Models (VLMs) have explored incorporating linguistic reasoning capabilities into driving decision-making, reporting improvements in driving performance. In particular, counterfactual (CF) reasoning has been proposed to enable self-reflective, high-level causal understanding. However, it remains unclear whether the language-based reasoning mitigates shortcut learning or merely shifts it from visual representations to linguistic patterns, creating an illusion of causal understanding. Moreover, existing approaches often conflate intervention-based reasoning with CF reasoning, leaving the effects of genuine CF reasoning unexplored. In this work, we examine what CF reasoning actually induces in VLM-based autonomous driving and observe that it shifts the action distribution toward more conservative behaviors while increasing uncertainty in reasoning and decision-making. This effect persists under reinforcement fine-tuning, suggesting that it is not merely a transient artifact. Furthermore, visual attention analysis shows that CF reasoning does not alter visual grounding, while causal intervention experiments reveal that masking causally relevant and non-causal factors in accident scenarios results in comparable decision change rates. Overall, these results suggest that CF reasoning does not induce genuine causal reasoning grounded in visual evidence. Instead, it acts as a linguistic shortcut that reshapes the action distribution, teaching models what to say but not how to reason, highlighting a gap between language-based reasoning and causal understanding in autonomous driving.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "Accepted to NeurIPS 2026 Main Track (41 pages, 14 figures, 14 tables). Project page: https://ophd-hahao.github.io/projects/Rethink-CF/",
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.24352",
+    "title": "OCTR2A: Real-Time RGB-to-BEV Trajectory Projection and Forecasting at Urban Intersections",
+    "authors": [
+      "Emanuele Iacobelli",
+      "Simone Teglia",
+      "Francesco Pro",
+      "Claudia Melis Tonti",
+      "Irene Amerini"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24352",
+    "abstract": "Trajectory forecasting at urban intersections is often studied assuming that reliable bird's-eye-view (BEV) motion histories are available, which in practice requires costly resources such as LiDAR, aerial views, HD maps, or calibrated infrastructure. We address this upstream perception-to-forecasting problem by reconstructing and predicting agents' BEV trajectories only from paired opposite-corner RGB cameras mounted on existing urban infrastructure at variable heights at inference time. We introduce the Opposite-Corner Trajectory Reconstruction and Anticipation Architecture (OCTR2A), a modular pipeline integrating per-view detection with class refinement, geometric cross-camera matching, transformer-based BEV projection, and egocentric GRU forecasting, trained in cascade and mainly supervised with a soft multi-scale spatial-overlap loss. Since no public benchmark provides this sensing configuration, we introduce R3ST++, a Blender-based synthetic benchmark built from SIND trajectories that provides synchronized opposite-corner views, cross-view correspondences, and BEV ground truth, while also serving as a deployment-support simulator for site-specific fine-tuning. Experiments on these datasets show that, with 12 observed and 12 predicted frames at 10\\,Hz, OCTR2A achieves projection~-~forecasting ADE/FDE of 0.144/0.140~-~0.154/0.241~meters in real time on a single consumer GPU. Evaluated on ground-truth BEV histories, the forecasting module improves over the strongest state-of-the-art methods on SIND by 66.7\\%/41.7\\% ADE/FDE. Transfer experiments on TUMTraf-V2X show that R3ST++ pretraining supports adaptation to real-world roadside domains with different sensing configurations.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.24290",
+    "title": "Beyond Corpus-Driven Imitation: Evolving Musical Mindsets in the Agentic Orchestra via Quantum Reinforcement Learning",
+    "authors": [
+      "Eduardo Reck Miranda",
+      "Moein Fahmideh Vatandoost"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24290",
+    "abstract": "This paper presents a framework for computer-aided music composition and performance based on quantum reinforcement learning and multi-agent interaction. We introduce the agentic orchestra, where musical agents evolve distinct mindsets through trial-and-error engagement with a musical environment, rather than through training on large datasets. The agents are implemented as parameterised quantum circuits. They evolve distinct compositional behaviours, referred to as mindsets. This enables the exploration of musical decision spaces using quantum superposition and entanglement within a hybrid quantum-classical loop. We present two complementary agent architectures: atomistic agents, which process pitch and rhythm independently, and holistic agents, which handle pitch and duration as unified note events. Mindsets are shaped through musically grounded reward functions, which can be combined and weighted to develop different mindsets across agents. The resulting system positions quantum computing agents less as autonomous composers and more as adaptive musical partners, each developing its own musical personality through interaction rather than imitation. Demonstrations show how agents generalise their learned behaviour to previously unseen material, operating in interactive and offline batch modes using MIDI-encoded music. While quantum computers are still in development, experiments conducted on IBM quantum hardware confirmed that musically meaningful learning is achievable with existing quantum computers. For composers and performers, the agentic orchestra opens new possibilities for emergent, process-oriented musical creativity, offering a scalable foundation for quantum computer-aided music composition as quantum computing technology continues to advance.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "published",
+    "venue_note": "This is the accepted, prepublication version of a paper forthcoming in Computer Music Journal, MIT Press. Beyond routine editorial and typesetting amendments, the content remains subject to further revision before final publication",
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.24254",
+    "title": "FedE2E: One-Shot Federated Learning for End-to-End Autonomous Driving with Closed-Loop Evaluation",
+    "authors": [
+      "Tao Lian",
+      "Antonio M. López"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24254",
+    "abstract": "Federated learning enables collaborative model training without sharing datasets. However, existing federated learning methods for autonomous driving typically require multi-round communication and lack closed-loop evaluation, while one-shot methods mainly focus on perception tasks. To address these limitations, we propose \\method, a one-shot federated learning method for end-to-end autonomous driving. It comprises multi-client calibration, anchor-based feature alignment, and token-wise consensus distillation to distill knowledge from heterogeneous models. Closed-loop evaluation on Bench2Drive demonstrates the effectiveness of \\method in both one-shot and multi-round federated learning. In the one-shot setting, it achieves a Driving Score of 55.85, which is 4.07 points higher than prior work. In the multi-round setting, it reaches 60.35 after five communication rounds, the best performance among all compared methods under the same number of communication rounds.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.24221",
+    "title": "Learning to Coordinate: LLM-Guided Workflow Evolution for Token-Efficient Red Teaming",
+    "authors": [
+      "Xiaoyang Xing",
+      "Wenyu Dai",
+      "Xiaoliang Gong",
+      "Asoke K Nandi",
+      "Anthony Cohn"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24221",
+    "abstract": "Automated red teaming is essential for identifying safety failures in large language models (LLMs), but its practical scalability depends on the resources required to discover those failures. Multi-agent systems can combine complementary capabilities, yet repeated planning, redundant exchanges, and ineffective information routing can make their coordination expensive. Moreover, a target model's response indicates the outcome of a test without identifying which collaboration decision should change. We present Learning to Coordinate (L2C), an LLM-guided framework that evolves an executable multi-agent workflow for each red-teaming case. L2C represents agent responsibilities, execution dependencies, and input bindings in a versioned graph, and associates each graph with records of the information actually delivered and produced. A controller trained through supervised fine-tuning integrates these records with target responses, evaluator verdicts, and remaining budget to retain the workflow, refine instructions, restructure collaboration, or lock further editing. This design connects feedback to explicit changes in subsequent execution while allowing a useful organization to continue without repeated controller intervention. The evaluation protocol covers HarmBench with three execution backbones and two target models, together with component ablations, dataset transfer, and evaluator checks. Across the six executor-target configurations, L2C improves ASR over EvoSynth by 1.4 to 4.5 percentage points while reducing mean online tokens by 35.6% to 37.3%. L2C connects adaptive collaboration to the resource requirements of automated security evaluation.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "10 pages, 3 figures",
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.24192",
+    "title": "TrajWAM: Trajectory-Conditioned Future Learning for Vision-Language Driving",
+    "authors": [
+      "Xuerui Fang",
+      "Gulimila Kezierbieke",
+      "Chen Wangxing",
+      "Hui Li"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24192",
+    "abstract": "World Action Models (WAMs) connect future scene prediction with action planning for autonomous driving. Each driving record pairs an executed ego trajectory with its observed future, providing a factual outcome for learning this connection. We present TrajWAM, a trajectory-conditioned WAM that improves vision-language driving through auxiliary bird's-eye-view (BEV) future learning. An ego-trajectory query conditions DINOv3-aligned BEV predictions from shared planner representations. Training combines factual reconstruction under the executed trajectory with one-sided feature separation under an unlabeled perturbed trajectory. Together, these objectives train the shared planner to generate driving waypoints. Native inference directly generates waypoints and bypasses the auxiliary future-prediction branch. On all 220 Bench2Drive routes, TrajWAM achieves 91.53 Driving Score and 75.45% Success Rate, exceeding a schedule-matched planning-only fine-tuning baseline by 5.31 Driving Score points and eight successful routes.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "22 pages, including supplementary material. Code and model weights: https://github.com/FangWD520/TrajWAM",
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.24171",
+    "title": "Efficient World-Model Planning via Physics-Guided Search Distillation",
+    "authors": [
+      "Hongyu Zhang",
+      "Xiaoshuai Hao",
+      "Heye Huang",
+      "Qingwen Meng",
+      "Wenjun Shi",
+      "Jianao Xu",
+      "Xin Hu",
+      "Xuanru Jin",
+      "Jingyi Zhang",
+      "Baicang Guo"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24171",
+    "abstract": "World models support autonomous driving by evaluating candidate trajectories through predicted future scene evolution. However, accurate future prediction does not ensure road-compliant execution; when all candidates violate road boundaries, re-ranking cannot select a feasible trajectory. We propose Physics-Guided Search Distillation (PGSD), a single-view planning framework that combines future representations and execution feedback for verified beyond-pool repair through three components: (1) Execution-Aware Selection checks ego-vehicle road compliance under simulated execution and selects the highest-scoring feasible trajectory; (2) a Clearance-Aware Search Teacher generates beyond-pool corrections and selects demonstrations with larger minimum road-boundary clearance during execution to buffer imitation errors; and (3) a Future-Conditioned Repair Student predicts one correction from rewarder features and execution feedback for single-rollout verification. The pretrained planner and rewarder remain frozen; no future scenes are generated online. On NAVSIM v1, single-view PGSD achieves 90.97 PDMS, exceeding all compared prior single-view planners and retaining 73.2% of the search teacher's PDMS gain over execution-aware selection. On NAVSIM v2 navhard, it reaches 38.96 EPDMS, improving on WorldDrive by 11.24 points (40.5%). The student replaces up to ten search rollouts with a single verification rollout per repair trigger. HUGSIM Hard examples provide qualitative evidence of zero-shot transfer.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.24108",
+    "title": "Asymmetric Decomposition for Multi-Agent Path Finding with Unassigned Agents",
+    "authors": [
+      "Xi Jin",
+      "Chen Qian",
+      "Renjun Zhang",
+      "Guowei Wu",
+      "Xiaobo Li",
+      "Jun Jiang",
+      "Weiwei Shang"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24108",
+    "abstract": "Robots without assigned tasks may obstruct active robots, while routing them to designated parking locations can cause unnecessary travel. This article proposes flow-oracle conflict-based search (FOCBS) for Multi-Agent Path Finding with unassigned agents (MAPF-UA). FOCBS searches over assigned-agent paths using conflict-based search (CBS) and routes targetless unassigned agents through a min-cost flow oracle. When the selected assigned-agent paths leave unassigned agents no collision-free paths, flow-conflict branching converts min-cut blockers into assigned-agent constraints, which guide the search without excluding optimal solutions. A batched zero-cost warm start accelerates the oracle, and start-avoiding tie-breaking reduces unassigned-agent movement. For feasible instances on finite graphs, we prove termination and global minimization of assigned-agent sum of service time, measured by last-arrival times. Unassigned-agent movement is minimized conditional on the selected assigned-agent paths, without a global lexicographic optimality guarantee. Benchmark experiments show that FOCBS scales well with the number of unassigned agents, and ablation studies show that, compared with discarding non-completable assigned-agent paths, flow-conflict branching solves substantially more instances while retaining optimality. Simulation and physical-robot experiments demonstrate plan executability, with laboratory tests reducing fleet travel by 40.8% relative to the parking-based coordination baseline. The source code and related resources are available at https://github.com/Chin-hsi/focbs",
+    "published_date": "2026-11-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.24083",
+    "title": "VESPA: Verifiable Symbolic Policy Adaptation for Safe Reinforcement Learning",
+    "authors": [
+      "Paul König",
+      "Sascha Marton",
+      "Stefan Lüdtke",
+      "Christian Bartelt"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24083",
+    "abstract": "Safe reinforcement learning (RL) aims to prevent agents from taking actions that are dangerous or destructive to their environment. This is especially important for safety-critical domains, such as robotics or autonomous driving. Formal verification can be used to prove agent safety through safety constraints. However, in practice, many policies do violate safety constraints, and thus are verified to be unsafe. Since the goal is to obtain a safe policy, we would need to retrain a new policy from scratch and then verify it again until a candidate happens to pass. Both training and verification are usually not cheap, which makes this process inefficient. We introduce VESPA ($\\textbf{VE}$rifiable $\\textbf{S}$ymbolic $\\textbf{P}$olicy $\\textbf{A}$daptation), a framework for targeted fine-tuning of decision tree policies. We show that using counterexamples for policy adaptation can make existing unsafe policies safe, or at least make considerable progress towards safety. Targeted fine-tuning of the existing policy on those counterexamples enables it to learn how to avoid violating safety constraints. We thus use the result of a formal verification as a training signal for fine-tuning. On CartPole, VESPA raises the mean number of verified safe steps from 63.8 to at least 92.7, reaching after two iterations what the same loop without counterexamples reaches after ten. On MountainCarContinuous, VESPA turns an unsafe policy into a safe policy in 53 of 60 runs. We conclude that counterexamples from a verifier are an effective training signal, which can be utilized to systematically improve the safety of policies. Our implementation is available at: https://anonymous.4open.science/r/VESPA-Submission/",
+    "published_date": "2026-11-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.24051",
+    "title": "Attention Is Not Relevance: Challenging the Causality of Attention in Autonomous Driving",
+    "authors": [
+      "Luca Lusvarghi",
+      "Javier Gozalvez"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.24051",
+    "abstract": "Attention has become one of the most widely adopted solutions for estimating the relevance of surrounding objects and interpreting an autonomous vehicle's driving decisions. However, its ability to capture the causal impact of individual input elements on an AI model's output has long been discussed in the literature, particularly in the Natural Language Processing (NLP) domain. This work brings this discussion into the autonomous driving domain by analyzing the accuracy of attention in estimating the impact of an input object on an autonomous vehicle's driving, i.e., its relevance. To this end, we compare different attention-based relevance estimation methods against a causal reference of object relevance obtained through counterfactual analysis. We perform our analysis on more than 80,000 synthetic driving scenes using an autonomous vehicle based on PlanT 2.0, a state-of-the-art Transformer-based model for object-level planning. Results show that attention provides a correlational rather than causal indication of object relevance. Attention-based relevance estimation methods do not consistently identify all relevant objects and tend to incorrectly classify as relevant objects with little or no impact on the vehicle's driving. In particular, results show that attention can effectively identify relevant objects in simple single-lane, straight-road scenarios, but its accuracy degrades in more complex settings, such as multi-lane roads and intersections. These findings highlight the limitations of attention as a proxy for object relevance, calling for novel methods able to accurately capture the causal impact of individual objects on the vehicle's driving and distinguish it from correlational associations.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.23977",
+    "title": "OMNIS+: Semantic RAN Slicing and Quantization for Dynamic Split Neural Networks",
+    "authors": [
+      "Langtian Qin",
+      "Avishkar Dnyaneshwar Kawadgave",
+      "Ian Andrew Harshbarger",
+      "Leïla Nasraoui",
+      "Carla Fabiana Chiasserini",
+      "Marco Levorato"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.23977",
+    "abstract": "Edge computing enables resource-constrained devices to execute machine learning (ML) applications via task offloading, with radio access network (RAN) slicing playing a crucial role in provisioning joint communication and computing resources. However, existing RAN slicing frameworks rely on static computing models, limiting their ability to exploit dynamic semantic data representations enabled by modern neural architectures. To address this limitation, we propose OMNIS+, a semantic RAN slicing framework for multi-cell edge computing built upon a new generation of dynamic split neural models. OMNIS+ incorporates dynamic neural compression paired with adaptive quantization for task offloading, providing a versatile decision space across communication payload and compute dimensions. We leveraged a novel ``box'' quantization scheme that markedly enhances resilience to transmission bit errors across diverse compression rates. Considering partial system observability and distinct node objectives, we formulate two interdependent optimization problems: (i)~mobile devices (MDs) maximize inference accuracy under quality-of-service (QoS) and queue-stability constraints by jointly adapting dynamic split deep neural network (DNN) branches and cell association; and (ii)~each edge server (ES) allocates bandwidth, graphics processing unit (GPU) frequency, and modulation and coding scheme (MCS) to maximize the max--min inference accuracy among associated MDs under cell capacity limits. We solve these problems using a multi-agent distributed optimization framework, where MDs act as causal contextual multi-armed bandit (MAB) agents under backlog-aware Lyapunov control, while each ES executes resource allocation via block coordinate descent (BCD). Compared with state-of-the-art baselines, OMNIS+ reduces the QoS violation probability by up to 1.75 while achieving a better accuracy--violation trade-off.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.23970",
+    "title": "TOMAS: Topology-Aware Operation Modeling and Adaptive Staging for Egocentric Hand Forecasting",
+    "authors": [
+      "Guanzhong Sun",
+      "Junyi Ma",
+      "Yuxuan Wu",
+      "Erhang Zhang",
+      "Chenyang Xu",
+      "Yanzi Miao",
+      "Hesheng Wang"
+    ],
+    "source": "arxiv",
+    "category": "cs.CV",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.23970",
+    "abstract": "Forecasting future hand movements from egocentric videos plays an important role in understanding human intentions and hand-object interactions. However, different manipulation intentions can lead to substantially different hand trajectories even when interacting with the same object. Existing methods have not sufficiently explored the intrinsic relationships between articulated hand movements and object semantics to capture such operation-dependent motion patterns. Therefore, we propose TOMAS, a topology-aware operation modeling and adaptive staging framework for egocentric hand forecasting. Specifically, we develop a topology-aware hand-object reasoning mechanism that associates hand skeletal structures and articulation dynamics with object semantics and spatial relationships to jointly infer potential interaction targets and latent manipulation operations. The resulting object-operation representations provide interaction conditions for future hand trajectory prediction, with supervision adapted to the annotations available in each dataset. Furthermore, we introduce an adaptive staging mechanism that organizes future hand movements into ordered latent stages with learnable temporal boundaries. Stage-specific geometric subgoals are then incorporated to guide trajectory refinement according to the underlying manipulation patterns. Experimental results on multiple publicly available benchmarks demonstrate that TOMAS achieves state-of-the-art performance in multi-dimensional and multi-target hand motion forecasting.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.23936",
+    "title": "PGU-Decoder: Prior-Guided Unified Decoding for Industrial Road-Network Map Updating",
+    "authors": [
+      "Yuguang Ning",
+      "Bingbing Kang",
+      "Nan Zhao",
+      "Zhixuan Li",
+      "Ze Zhao",
+      "Dongdong Liu",
+      "Wenjian Zhu",
+      "Zekai Liu",
+      "Junhui Wang"
+    ],
+    "source": "arxiv",
+    "category": "cs.LG",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.23936",
+    "abstract": "Timely road-network map updates are essential to navigation and autonomous driving. Three key tasks are intra-intersection road network generation, merging/diverging detection, and drivable-area detection, covering topology, geometry, and attributes, respectively. Separate pipelines duplicate rule maintenance, quality assurance, and manual verification, increasing operational costs. We propose PGU-Decoder, a production-grade unified decoding framework for semantic prediction across these tasks. A Prior Query Module (PQM) constructs point-level prior queries from sampled locations on road-network geometries. Fixed reference points preserve positional priors throughout decoding, allowing the model to focus on surrounding context. Point-level representations are aggregated into instance-level representations, and a Relational Graph Attention Network (RGAT) captures inter-instance dependencies. Task-specific heads then generate predictions. We validate PGU-Decoder in large-scale automated road-network map updating across more than 360 cities in China, where it consistently outperforms seven baselines. Following deployment at AutoNavi Map, it achieves quality scores above 98% on all three tasks, reduces manual verification costs by 95%, and increases update frequency from weekly to hourly. These results demonstrate a practical and cost-effective industrial solution for road-network map updating.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "autonomous-driving"
+    ],
+    "venue_status": "published",
+    "venue_note": "11 pages. Accepted at KDD 2027, Applied Data Science (ADS) Track. This is the original submission version, prior to reviewer revisions",
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.23911",
+    "title": "Scalable Iterative Multi-Agent Path Finding under Turn Constraints",
+    "authors": [
+      "Zheyu Tao",
+      "Chunlong Yu",
+      "Yicheng Hu"
+    ],
+    "source": "arxiv",
+    "category": "cs.RO",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.23911",
+    "abstract": "Large-scale multi-mobile-robot systems require fast and reliable path planning under realistic motion constraints. Multi-Agent Path Finding with turn actions (MAPF$_T$) explicitly models orientation changes and turn-induced delays, but these constraints increase the computational burden of search-based methods. Priority-inheritance-based planning offers a highly scalable alternative, yet directly extending it to MAPF$_T$ is nontrivial because turn actions break the immediate node-vacation assumption underlying conventional priority inheritance. To address this challenge, this paper proposes PIBT$^*_T$, an efficient iterative solver for MAPF$_T$. PIBT$^*_T$ advances scalable multi-agent coordination by preserving the lightweight single-timestep planning mechanism of Priority Inheritance with Backtracking (PIBT), while introducing dedicated mechanisms to handle turn-induced dependencies, local deadlocks, livelock, and inefficient repeated pushing. Experiments on standard MAPF benchmarks show that PIBT$^*_T$ achieves high success rates and strong scalability, solving instances with up to 1000 agents within seconds. For realistic engineering environments, Action Dependency Graph (ADG)-based execution simulation and a flexible manufacturing system case study show that turn-aware planning better reflects robot execution and reduces actual makespan compared with classical MAPF planning. Experiments with TurtleBot4 robots further validate the practical feasibility of the proposed method.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": "29 pages,15 figures",
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.23909",
+    "title": "CoSlice: Coordinated Multi-Agent Reinforcement Learning for 5G Network Slicing Allocation",
+    "authors": [
+      "Pengxin Wang",
+      "Nakjung Choi",
+      "Jingdi Chen"
+    ],
+    "source": "arxiv",
+    "category": "cs.NI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.23909",
+    "abstract": "Radio Access Network (RAN) slicing is a shared resource allocation problem: each slice seeks to satisfy its Service Level Agreement (SLA) with minimal radio-resource consumption, while all slices compete for a limited resource budget. This creates both an intra-slice trade-off between SLA assurance and resource efficiency and an inter-slice conflict over shared resources, calling for specialized yet coordinated control. In this work, we present CoSlice, a coordinated multi-agent reinforcement learning framework for inter-slice physical resource block allocation in Open Radio Access Network (O-RAN). CoSlice uses preference-conditioned slice agents for fast resource allocation and an LLM-based coordinator to adapt their objectives using global network observations at a slower timescale. We formulate the problem as a multi-objective partially observable stochastic game (mo-POSG), establish the existence of a Preference Correlated Equilibrium, and derive a sublinear regret bound for the learning procedure. We implement the algorithm by using a two-stage training procedure that consists of multi-objective pretraining and joint optimization. We build a network slicing evaluation environment using ORANSlice and its radio-frequency simulator (RFsim), supporting realistic protocol-stack execution and application traffic across multiple slices. Experimental results show that CoSlice reduces both average and tail SLA violations compared with other centralized and multi-agent baselines under diverse slice workloads.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
+    "id": "arxiv:2611.23890",
+    "title": "EVA-RSI: Recursive Self-Improvement of Video Evaluators for Judging Temporal Quality",
+    "authors": [
+      "Yu Yuan",
+      "Ruizhou Ding",
+      "Shaoheng Fang",
+      "Stanley H. Chan",
+      "Zhuo Chen"
+    ],
+    "source": "arxiv",
+    "category": "cs.AI",
+    "conference": null,
+    "award": null,
+    "url": "https://arxiv.org/abs/2611.23890",
+    "abstract": "Video evaluators play an important role in video generation, yet they miss motion defects, limiting the quality of generated videos. Recursive self-improvement (RSI) has made strong progress in mathematics and coding, where explicit verifiers provide reliable feedback on a single goal. Video evaluation poses two difficulties for RSI: it has no verifier, and it must judge many dimensions at once, such as physics, smoothness and dynamics, where a gain on one can cost another. We introduce EVA-RSI, a multi-agent framework for exploring RSI under these two constraints. We build a fixed proxy exam with construction-defined targets by applying controlled changes to videos, such as temporal reversal and frame dropping. These edits supply supervision without human annotation. A small set of human-labeled real videos anchors the exam to human judgment. Each dimension has an LLM agent that proposes improvements. A leader agent coordinates the proposals, and a Nash bargaining rule selects updates that balance progress across dimensions. Humans design the exam, review candidate changes and revise the curriculum between stages. Starting from Qwen3-VL-8B, EVA-RSI improves motion evaluation, with the largest gain on smoothness, and the gains carry over to defect types never seen during the run. On the dynamics subsets of public benchmarks, our evaluator achieves the highest observed scores among 21 tested models. As an RL reward, it increases generated motion and earns human preference. A data-selection pipeline incorporating it also increases motion.",
+    "published_date": "2026-11-18",
+    "tags": [
+      "marl"
+    ],
+    "venue_status": "preprint",
+    "venue_note": null,
+    "fetched_at": "2026-11-19T11:07:33Z",
+    "memo": "",
+    "memo_updated_at": null
+  },
+  {
     "id": "arxiv:2611.23198",
     "title": "Learned versus Kinematic Trajectory Prediction under Reduced Observation Frequency",
     "authors": [
