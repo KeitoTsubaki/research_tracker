@@ -4,174 +4,69 @@
     <title>研究論文トラッカー</title>
     <link>https://example.github.io/research_tracker/</link>
     <description>マルチエージェント強化学習・協調ロボット搬送・自動運転関連の新着論文</description>
-    <lastBuildDate>Thu, 19 Nov 2026 11:07:33 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 10:54:43 GMT</lastBuildDate>
     <item>
-      <title>Learning to Interact in Multi-Agent Self-Play for Controllable Autonomous Driving Scenario Generation</title>
-      <link>https://arxiv.org/abs/2611.24876</link>
-      <guid isPermaLink="false">arxiv:2611.24876</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>Large-scale, multi-agent self-play trains robust driving policies effectively in simulation, but controlling these models to generate specific, safety-critical edge cases remains a key challenge. Existing goal-conditioned self-play frameworks rely primarily on static map-location goals and fail to reliably produce complex agent interactions such as aggressive tailgating or adversarial cut-offs. These agent interactions are necessary for rigorous autonomous vehicle (AV) testing. To address this, </description>
+      <title>PhyDEX: A Benchmark for Physical Reasoning in Vision-Language-Action Models via Dynamic Extrinsic Dexterity</title>
+      <link>https://arxiv.org/abs/2611.26565</link>
+      <guid isPermaLink="false">arxiv:2611.26565</guid>
+      <pubDate>2026-11-19</pubDate>
+      <description>Vision-Language-Action (VLA) models have advanced rapidly in language-conditioned robotic manipulation, yet existing benchmarks mainly evaluate gripper--object contact and largely ignore how objects interact with the environment through gravity, friction, inertia, and mass distribution. As a result, it remains unclear whether current policies truly understand physics or merely interpolate from their training data. We address this gap through the lens of dynamic extrinsic dexterity and introduce </description>
     </item>
     <item>
-      <title>Vibe-Trading: Towards Agent-Native Trading</title>
-      <link>https://arxiv.org/abs/2611.24845</link>
-      <guid isPermaLink="false">arxiv:2611.24845</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>Existing AI agents can retrieve information, call tools, run experiments, and produce multi-step outputs. Yet most are built around relatively static workflows and struggle to preserve reliable state as the environment changes. Financial trading makes this limitation especially consequential: prices, news, market conditions, portfolio positions, and available capital evolve continuously. A result is useful only when it remains tied to the correct time, data snapshot, and execution context. We pr</description>
+      <title>Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)</title>
+      <link>https://arxiv.org/abs/2611.26553</link>
+      <guid isPermaLink="false">arxiv:2611.26553</guid>
+      <pubDate>2026-11-19</pubDate>
+      <description>Agents based on large language models (LLMs) can now delete files and send payments on behalf of their users. News media reports routinely describe failures of these agents (e.g., Replit's coding agent deleting a production database), but a report often only says what went wrong and rarely (in)validates the incident or finds its root cause. Incident catalogs collect these reports, and benchmarks record whether agents fail, but neither replicates an incident nor tests the cause its report might i</description>
     </item>
     <item>
-      <title>Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2611.24840</link>
-      <guid isPermaLink="false">arxiv:2611.24840</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>World models are increasingly used in autonomous driving to predict how a scene evolves under the ego vehicle's actions, supporting counterfactual reasoning and model-based planning. However, existing evaluations focus on prediction fidelity and planning performance, and rarely verify that the predictions depend on the conditioning action. In this paper, we study action dependence in action-conditioned semantic forecasting, which predicts future semantic segmentation from past segmentations and </description>
+      <title>SpecFlow: Flow Matching in the Acceleration Spectrum for Multi-Agent Trajectory Forecasting</title>
+      <link>https://arxiv.org/abs/2611.26390</link>
+      <guid isPermaLink="false">arxiv:2611.26390</guid>
+      <pubDate>2026-11-19</pubDate>
+      <description>Multimodal trajectory forecasting must cover diverse future behaviors without sacrificing dynamical coherence. Most generative forecasters evolve frame-wise positions directly, leaving the relationships among position, velocity, and acceleration implicit. We present SpecFlow, a conditional flow-matching framework that treats the Discrete Cosine Transform (DCT) coefficients of future accelerations as its generative state. SpecFlow learns a transport from Gaussian noise to acceleration spectra and</description>
     </item>
     <item>
-      <title>Kaer: Security-Aware Replanning for Multi-Agent Systems</title>
-      <link>https://arxiv.org/abs/2611.24839</link>
-      <guid isPermaLink="false">arxiv:2611.24839</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>One popular architecture for multi-agent systems (MAS) relies on an orchestrator that generates an initial plan, coordinates its execution, and dynamically revises the plan based on agent feedback when tasks cannot be fully specified in advance. This dynamic replanning introduces a critical vulnerability: malicious agents can embed instructions within their feedback to hijack the replanning process. Existing defenses focus exclusively on per-tool access control or static, pre-execution policy en</description>
+      <title>FastRoverVLA: Fast Vision-Language-Action Execution for Off-Road Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2611.26242</link>
+      <guid isPermaLink="false">arxiv:2611.26242</guid>
+      <pubDate>2026-11-19</pubDate>
+      <description>Off-road vision-language-action (VLA) models generate scene-conditioned plans, but frequent trajectory updates can repeatedly invoke expensive multimodal inference. Reusing a prediction reduces this demand while leaving its commands exposed to changes in vehicle motion. FastRoverVLA addresses this mismatch by decoupling visual plan generation from motion-conditioned execution. Its training-free interface maintains decoded plans between visual predictions. A speed-curvature action buffer is align</description>
     </item>
     <item>
-      <title>Isabelle Pool Server: a pooled verification service for prover training and multi-agent proving</title>
-      <link>https://arxiv.org/abs/2611.24788</link>
-      <guid isPermaLink="false">arxiv:2611.24788</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>Isabelle Pool Server (IPS), a verification service with a pool of warm headless Isabelle sessions behind an HTTP API, with session leasing and reclamation, memory-aware admission control, and a time budget on every call. Its verification interface spans single-step execution, block-level proof checking and whole-theory builds, with checkpoints for cheap branching and backtracking, and a build from scratch as the final arbiter. The service runs as a single container with monitoring and is accessi</description>
+      <title>Spatially Conditioned Trajectory Diffusion</title>
+      <link>https://arxiv.org/abs/2611.26127</link>
+      <guid isPermaLink="false">arxiv:2611.26127</guid>
+      <pubDate>2026-11-19</pubDate>
+      <description>Multi-Robot Motion Planning (MRMP) requires trajectories that avoid environmental obstacles and collisions between robots in a shared workspace. Diffusion-based planners often address obstacle avoidance through sampling-time guidance, while some conditioned approaches aggregate map geometry into a global representation. We present Spatially Conditioned Trajectory Diffusion (SCTD), a map-conditioned trajectory generator for multi-robot planning. SCTD retains multiple position-aware occupancy toke</description>
     </item>
     <item>
-      <title>DRIFT: Detachable Reasoning for Runtime-Flexible and Efficient End-to-End Driving</title>
-      <link>https://arxiv.org/abs/2611.24719</link>
-      <guid isPermaLink="false">arxiv:2611.24719</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>The integration of vision-language models (VLMs) into end-to-end (E2E) autonomous driving has demonstrated strong potential by providing scene description and reasoning capabilities. However, VLMs are computationally expensive, and switching language reasoning on and off at runtime without hurting closed-loop performance has not been demonstrated, which hinders practical adoption. To address these issues, we propose DRIFT, an E2E autonomous driving framework that integrates a lightweight languag</description>
+      <title>Fixing the Twin, Not the Detector: Sim-to-Real Roadside LiDAR Detection from Digital-Twin Data</title>
+      <link>https://arxiv.org/abs/2611.26035</link>
+      <guid isPermaLink="false">arxiv:2611.26035</guid>
+      <pubDate>2026-11-19</pubDate>
+      <description>Roadside LiDAR detectors are expensive to train on real labels, and digital twins promise to replace these labels, but a detector trained on a twin meets a different sensor, different objects and different annotation conventions on the real site. We describe the pipeline that placed first in the LUMPI track of the UrbanTwin Sim2Real LiDAR Challenge (IEEE BigData 2026 Cup, 0.5541 combined score) and fifth on its V2X-Real track (0.8102). Every detector is a CenterPoint model trained only on synthe</description>
     </item>
     <item>
-      <title>Cooperative UAV and Ground Station for Robust MEC of Dynamic Aquatic IoT: A Generative AI-Enhanced Approach</title>
-      <link>https://arxiv.org/abs/2611.24466</link>
-      <guid isPermaLink="false">arxiv:2611.24466</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>The increasing aquatic Internet of Things (AIoTs) require computational support and coverage in applications such as maritime search and rescue. Unmanned aerial vehicles (UAVs) can offer low-cost, flexible aerial services, and ground stations (GSs) can provide powerful supports, which can cooperate to help the AIoTs in complex scenarios. However, the collaboration between UAVs and GSs for AIoTs faces challenges of task uncertainties, AIoTs trajectory uncertainties, heterogeneities, and limited c</description>
+      <title>Law at the Speed of AI: Critical Legal Infrastructure for the Machine Age: Autonomy Under Law Architecture (AULA)</title>
+      <link>https://arxiv.org/abs/2611.25985</link>
+      <guid isPermaLink="false">arxiv:2611.25985</guid>
+      <pubDate>2026-11-19</pubDate>
+      <description>The global deployment of autonomous AI agents within and across organisations exceeds the governance infrastructure available to constrain it. Agent communication and authentication protocols, principally the Model Context Protocol and the Agent2Agent Protocol, are maturing quickly, but maturity at the protocol layer does not produce legal legibility at the governance layer. Runtime enforcement written by the deploying organisation fixes the resources an AI agent can reach, not the authority und</description>
     </item>
     <item>
-      <title>CaDO: Formal Verification-Guided Multi-Agent Framework for Causal Dataset Repair and Generation</title>
-      <link>https://arxiv.org/abs/2611.24406</link>
-      <guid isPermaLink="false">arxiv:2611.24406</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>High-quality causal reasoning datasets are essential for developing models with reliable causal understanding, particularly in specialized domains. However, existing datasets frequently suffer from incorrect annotations and structural imbalances, which can lead to biased predictions and limited generalization. To address this issue, we propose CaDO (Causal-Engine-Guided Multi-Agent Data Optimization), a multi-agent framework for automated diagnosis and repair of causal reasoning datasets. Our fr</description>
+      <title>Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding</title>
+      <link>https://arxiv.org/abs/2611.25898</link>
+      <guid isPermaLink="false">arxiv:2611.25898</guid>
+      <pubDate>2026-11-19</pubDate>
+      <description>Clinical large language models are usually judged by whether the final answer is right. Yet a model can reach a fluent, plausible output through invalid reasoning that static benchmarks do not detect, and confident hallucination, causally invalid inference, and spurious demographic shortcuts can pass conventional evaluation. This critical review covers four paradigms in turn: how clinical hallucination arises and why static metrics miss it; the agentic hallucination cascade, in which multi-agent</description>
     </item>
     <item>
-      <title>Teaching VLMs What to Say, Not How to Reason: Rethinking Counterfactual Reasoning in Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2611.24376</link>
-      <guid isPermaLink="false">arxiv:2611.24376</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>End-to-end autonomous driving systems have been shown to suffer from shortcut learning and causal confusion, limiting their ability to generalize robustly under distribution shift. To mitigate these limitations, recent works based on Vision-Language Models (VLMs) have explored incorporating linguistic reasoning capabilities into driving decision-making, reporting improvements in driving performance. In particular, counterfactual (CF) reasoning has been proposed to enable self-reflective, high-le</description>
-    </item>
-    <item>
-      <title>OCTR2A: Real-Time RGB-to-BEV Trajectory Projection and Forecasting at Urban Intersections</title>
-      <link>https://arxiv.org/abs/2611.24352</link>
-      <guid isPermaLink="false">arxiv:2611.24352</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>Trajectory forecasting at urban intersections is often studied assuming that reliable bird's-eye-view (BEV) motion histories are available, which in practice requires costly resources such as LiDAR, aerial views, HD maps, or calibrated infrastructure. We address this upstream perception-to-forecasting problem by reconstructing and predicting agents' BEV trajectories only from paired opposite-corner RGB cameras mounted on existing urban infrastructure at variable heights at inference time. We int</description>
-    </item>
-    <item>
-      <title>Beyond Corpus-Driven Imitation: Evolving Musical Mindsets in the Agentic Orchestra via Quantum Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2611.24290</link>
-      <guid isPermaLink="false">arxiv:2611.24290</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>This paper presents a framework for computer-aided music composition and performance based on quantum reinforcement learning and multi-agent interaction. We introduce the agentic orchestra, where musical agents evolve distinct mindsets through trial-and-error engagement with a musical environment, rather than through training on large datasets. The agents are implemented as parameterised quantum circuits. They evolve distinct compositional behaviours, referred to as mindsets. This enables the ex</description>
-    </item>
-    <item>
-      <title>FedE2E: One-Shot Federated Learning for End-to-End Autonomous Driving with Closed-Loop Evaluation</title>
-      <link>https://arxiv.org/abs/2611.24254</link>
-      <guid isPermaLink="false">arxiv:2611.24254</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>Federated learning enables collaborative model training without sharing datasets. However, existing federated learning methods for autonomous driving typically require multi-round communication and lack closed-loop evaluation, while one-shot methods mainly focus on perception tasks. To address these limitations, we propose \method, a one-shot federated learning method for end-to-end autonomous driving. It comprises multi-client calibration, anchor-based feature alignment, and token-wise consensu</description>
-    </item>
-    <item>
-      <title>Learning to Coordinate: LLM-Guided Workflow Evolution for Token-Efficient Red Teaming</title>
-      <link>https://arxiv.org/abs/2611.24221</link>
-      <guid isPermaLink="false">arxiv:2611.24221</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>Automated red teaming is essential for identifying safety failures in large language models (LLMs), but its practical scalability depends on the resources required to discover those failures. Multi-agent systems can combine complementary capabilities, yet repeated planning, redundant exchanges, and ineffective information routing can make their coordination expensive. Moreover, a target model's response indicates the outcome of a test without identifying which collaboration decision should chang</description>
-    </item>
-    <item>
-      <title>TrajWAM: Trajectory-Conditioned Future Learning for Vision-Language Driving</title>
-      <link>https://arxiv.org/abs/2611.24192</link>
-      <guid isPermaLink="false">arxiv:2611.24192</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>World Action Models (WAMs) connect future scene prediction with action planning for autonomous driving. Each driving record pairs an executed ego trajectory with its observed future, providing a factual outcome for learning this connection. We present TrajWAM, a trajectory-conditioned WAM that improves vision-language driving through auxiliary bird's-eye-view (BEV) future learning. An ego-trajectory query conditions DINOv3-aligned BEV predictions from shared planner representations. Training com</description>
-    </item>
-    <item>
-      <title>Efficient World-Model Planning via Physics-Guided Search Distillation</title>
-      <link>https://arxiv.org/abs/2611.24171</link>
-      <guid isPermaLink="false">arxiv:2611.24171</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>World models support autonomous driving by evaluating candidate trajectories through predicted future scene evolution. However, accurate future prediction does not ensure road-compliant execution; when all candidates violate road boundaries, re-ranking cannot select a feasible trajectory. We propose Physics-Guided Search Distillation (PGSD), a single-view planning framework that combines future representations and execution feedback for verified beyond-pool repair through three components: (1) E</description>
-    </item>
-    <item>
-      <title>Asymmetric Decomposition for Multi-Agent Path Finding with Unassigned Agents</title>
-      <link>https://arxiv.org/abs/2611.24108</link>
-      <guid isPermaLink="false">arxiv:2611.24108</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>Robots without assigned tasks may obstruct active robots, while routing them to designated parking locations can cause unnecessary travel. This article proposes flow-oracle conflict-based search (FOCBS) for Multi-Agent Path Finding with unassigned agents (MAPF-UA). FOCBS searches over assigned-agent paths using conflict-based search (CBS) and routes targetless unassigned agents through a min-cost flow oracle. When the selected assigned-agent paths leave unassigned agents no collision-free paths,</description>
-    </item>
-    <item>
-      <title>VESPA: Verifiable Symbolic Policy Adaptation for Safe Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2611.24083</link>
-      <guid isPermaLink="false">arxiv:2611.24083</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>Safe reinforcement learning (RL) aims to prevent agents from taking actions that are dangerous or destructive to their environment. This is especially important for safety-critical domains, such as robotics or autonomous driving. Formal verification can be used to prove agent safety through safety constraints. However, in practice, many policies do violate safety constraints, and thus are verified to be unsafe. Since the goal is to obtain a safe policy, we would need to retrain a new policy from</description>
-    </item>
-    <item>
-      <title>Attention Is Not Relevance: Challenging the Causality of Attention in Autonomous Driving</title>
-      <link>https://arxiv.org/abs/2611.24051</link>
-      <guid isPermaLink="false">arxiv:2611.24051</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>Attention has become one of the most widely adopted solutions for estimating the relevance of surrounding objects and interpreting an autonomous vehicle's driving decisions. However, its ability to capture the causal impact of individual input elements on an AI model's output has long been discussed in the literature, particularly in the Natural Language Processing (NLP) domain. This work brings this discussion into the autonomous driving domain by analyzing the accuracy of attention in estimati</description>
-    </item>
-    <item>
-      <title>OMNIS+: Semantic RAN Slicing and Quantization for Dynamic Split Neural Networks</title>
-      <link>https://arxiv.org/abs/2611.23977</link>
-      <guid isPermaLink="false">arxiv:2611.23977</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>Edge computing enables resource-constrained devices to execute machine learning (ML) applications via task offloading, with radio access network (RAN) slicing playing a crucial role in provisioning joint communication and computing resources. However, existing RAN slicing frameworks rely on static computing models, limiting their ability to exploit dynamic semantic data representations enabled by modern neural architectures. To address this limitation, we propose OMNIS+, a semantic RAN slicing f</description>
-    </item>
-    <item>
-      <title>TOMAS: Topology-Aware Operation Modeling and Adaptive Staging for Egocentric Hand Forecasting</title>
-      <link>https://arxiv.org/abs/2611.23970</link>
-      <guid isPermaLink="false">arxiv:2611.23970</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>Forecasting future hand movements from egocentric videos plays an important role in understanding human intentions and hand-object interactions. However, different manipulation intentions can lead to substantially different hand trajectories even when interacting with the same object. Existing methods have not sufficiently explored the intrinsic relationships between articulated hand movements and object semantics to capture such operation-dependent motion patterns. Therefore, we propose TOMAS, </description>
-    </item>
-    <item>
-      <title>PGU-Decoder: Prior-Guided Unified Decoding for Industrial Road-Network Map Updating</title>
-      <link>https://arxiv.org/abs/2611.23936</link>
-      <guid isPermaLink="false">arxiv:2611.23936</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>Timely road-network map updates are essential to navigation and autonomous driving. Three key tasks are intra-intersection road network generation, merging/diverging detection, and drivable-area detection, covering topology, geometry, and attributes, respectively. Separate pipelines duplicate rule maintenance, quality assurance, and manual verification, increasing operational costs. We propose PGU-Decoder, a production-grade unified decoding framework for semantic prediction across these tasks. </description>
-    </item>
-    <item>
-      <title>Scalable Iterative Multi-Agent Path Finding under Turn Constraints</title>
-      <link>https://arxiv.org/abs/2611.23911</link>
-      <guid isPermaLink="false">arxiv:2611.23911</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>Large-scale multi-mobile-robot systems require fast and reliable path planning under realistic motion constraints. Multi-Agent Path Finding with turn actions (MAPF$_T$) explicitly models orientation changes and turn-induced delays, but these constraints increase the computational burden of search-based methods. Priority-inheritance-based planning offers a highly scalable alternative, yet directly extending it to MAPF$_T$ is nontrivial because turn actions break the immediate node-vacation assump</description>
-    </item>
-    <item>
-      <title>CoSlice: Coordinated Multi-Agent Reinforcement Learning for 5G Network Slicing Allocation</title>
-      <link>https://arxiv.org/abs/2611.23909</link>
-      <guid isPermaLink="false">arxiv:2611.23909</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>Radio Access Network (RAN) slicing is a shared resource allocation problem: each slice seeks to satisfy its Service Level Agreement (SLA) with minimal radio-resource consumption, while all slices compete for a limited resource budget. This creates both an intra-slice trade-off between SLA assurance and resource efficiency and an inter-slice conflict over shared resources, calling for specialized yet coordinated control. In this work, we present CoSlice, a coordinated multi-agent reinforcement le</description>
-    </item>
-    <item>
-      <title>EVA-RSI: Recursive Self-Improvement of Video Evaluators for Judging Temporal Quality</title>
-      <link>https://arxiv.org/abs/2611.23890</link>
-      <guid isPermaLink="false">arxiv:2611.23890</guid>
-      <pubDate>2026-11-18</pubDate>
-      <description>Video evaluators play an important role in video generation, yet they miss motion defects, limiting the quality of generated videos. Recursive self-improvement (RSI) has made strong progress in mathematics and coding, where explicit verifiers provide reliable feedback on a single goal. Video evaluation poses two difficulties for RSI: it has no verifier, and it must judge many dimensions at once, such as physics, smoothness and dynamics, where a gain on one can cost another. We introduce EVA-RSI,</description>
+      <title>PAD: Policy-Aware Data Valuation for Autonomous Driving</title>
+      <link>https://arxiv.org/abs/2611.25604</link>
+      <guid isPermaLink="false">arxiv:2611.25604</guid>
+      <pubDate>2026-11-19</pubDate>
+      <description>End-to-end autonomous driving increasingly depends on scaling training demonstrations, yet data growth does not guarantee proportional gains. However, additional data do not guarantee better policies: a demonstration that benefits one planner may be redundant or harmful to another. Existing curation methods typically infer data value from intrinsic sample properties or training-dependent proxies that do not measure downstream policy utility. To address this, we introduce \textbf{Policy-Aware Dat</description>
     </item>
   </channel>
 </rss>
